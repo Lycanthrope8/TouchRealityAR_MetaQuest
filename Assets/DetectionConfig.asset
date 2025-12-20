@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fee93dcb065c7428976cda8da85122, type: 3}
+  m_Name: DetectionConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.DetectionConfig
+  serverUrl: http://10.0.0.93:5000
+  requestTimeout: 5
+  maxRetryAttempts: 2
+  frameCaptureInterval: 3
+  targetResolution: {x: 640, y: 640}
+  jpegQuality: 75
+  confidenceThreshold: 0.25
+  classFilter: []
+  maxPendingRequests: 3
+  enablePerformanceLogging: 1
+  showBoundingBoxes: 1
+  showLabels: 1
+  showConfidence: 1
+  boundingBoxColor: {r: 0.1960784, g: 0.8039216, b: 0.1960784, a: 0}
+  labelColor: {r: 1, g: 1, b: 1, a: 1}
