@@ -5886,7 +5886,7 @@ struct BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6  : public
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___transform;
 	LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* ___lineRenderers;
 	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* ___label;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___labelTransform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___labelRectTransform;
 	float ___spawnTime;
 };
 struct DiagnosticTrace_t141E9437BC3E97C22F2459F2870D78816201CC8B  : public RuntimeObject
@@ -45860,6 +45860,7 @@ struct DetectionVisualizer3D_t2F9642D6A405790EF31C6ED7CF2A0329FE220DEA  : public
 	float ___maxRaycastDistance;
 	float ___labelOffsetYPercent;
 	float ___labelOffsetXPercent;
+	float ___labelScale;
 	float ___boxLifetime;
 	List_1_t5170C39D6BA94E82904F3A21598039150507687C* ___activeBoxes;
 	Queue_1_t0D58DD64D87E68DF6497B6F21DF0927EFF00A573* ___boxPool;

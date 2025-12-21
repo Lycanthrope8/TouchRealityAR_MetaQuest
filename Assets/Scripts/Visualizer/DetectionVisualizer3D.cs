@@ -24,8 +24,16 @@ namespace ARObjectDetection
         [SerializeField] private float maxRaycastDistance = 10f;
 
         [Header("Label Settings")]
-        [SerializeField] private float labelOffsetYPercent = 0.15f; // Percentage of box height below top edge
-        [SerializeField] private float labelOffsetXPercent = 0.05f; // Percentage of box width from left edge
+        [Tooltip("Vertical position: 0=top edge, 0.5=center, 1=bottom edge")]
+        [Range(0f, 1f)]
+        [SerializeField] private float labelOffsetYPercent = 0.05f;  // Just below top edge
+
+        [Tooltip("Horizontal position: 0=left edge, 0.5=center, 1=right edge")]
+        [Range(0f, 1f)]
+        [SerializeField] private float labelOffsetXPercent = 0.5f;  // Centered
+
+        [Tooltip("Scale multiplier for label size (0.005-0.05 typical range)")]
+        [SerializeField] private float labelScale = 0.01f;
 
         [Header("Performance")]
         [SerializeField] private float boxLifetime = 0.5f;
@@ -213,7 +221,7 @@ namespace ARObjectDetection
                 new Vector3(-halfSize.x, halfSize.y, 0),
                 new Vector3(-halfSize.x, -halfSize.y, 0));
 
-            // Update label - position in WORLD space at top of box
+            // Update label - position in WORLD space relative to box
             if (boxInstance.label != null && config.showLabels)
             {
                 string labelText = detection.class_name;
@@ -223,23 +231,39 @@ namespace ARObjectDetection
                 }
                 boxInstance.label.text = labelText;
 
-                // Calculate world position at top-left of box
+                // Get box transform vectors
+                Vector3 boxPosition = boxInstance.transform.position;
                 Vector3 boxUp = boxInstance.transform.up;
                 Vector3 boxRight = boxInstance.transform.right;
-                Vector3 boxPosition = boxInstance.transform.position;
 
-                // Position label at top edge of box, slightly offset
-                float xOffset = width * labelOffsetXPercent;
-                float yOffset = height * labelOffsetYPercent;
+                // Calculate offset from box center
+                // Y: 0 = top edge, 0.5 = center, 1 = bottom edge
+                // X: 0 = left edge, 0.5 = center, 1 = right edge
 
+                // Convert percentages to actual offsets from center
+                float yOffsetFromCenter = (0.5f - labelOffsetYPercent) * height;
+                float xOffsetFromCenter = (labelOffsetXPercent - 0.5f) * width;
+
+                // Position label relative to box center
                 Vector3 labelWorldPos = boxPosition
-                    + boxUp * (height / 2f - yOffset)        // Near top edge
-                    - boxRight * (width / 2f - xOffset);     // Near left edge
+                    + boxUp * yOffsetFromCenter          // Vertical: positive = up
+                    + boxRight * xOffsetFromCenter;      // Horizontal: positive = right
 
-                boxInstance.labelTransform.position = labelWorldPos;
+                boxInstance.labelRectTransform.position = labelWorldPos;
 
-                Debug.Log($"[3D Label] {detection.class_name} | Box world pos: {boxPosition} | " +
-                         $"Label world pos: {labelWorldPos} | Box size: {width:F3}x{height:F3}");
+                // CRITICAL: Set RectTransform anchors to center for proper positioning
+                // This ensures the label pivots from its center, not its edge
+                boxInstance.labelRectTransform.anchorMin = new Vector2(0.5f, 0.5f);
+                boxInstance.labelRectTransform.anchorMax = new Vector2(0.5f, 0.5f);
+                boxInstance.labelRectTransform.pivot = new Vector2(0.5f, 0.5f);
+
+                // Set scale for RectTransform (Billboard script handles rotation)
+                boxInstance.labelRectTransform.localScale = Vector3.one * labelScale;
+
+                Debug.Log($"[3D Label] {detection.class_name} | Box center: {boxPosition} | " +
+                         $"Label pos: {labelWorldPos} | Box size: {width:F3}x{height:F3} | " +
+                         $"Y%={labelOffsetYPercent:F2} X%={labelOffsetXPercent:F2} | " +
+                         $"Offsets: Y={yOffsetFromCenter:F3} X={xOffsetFromCenter:F3}");
 
                 // Make sure label is active and visible
                 boxInstance.label.gameObject.SetActive(true);
@@ -280,9 +304,9 @@ namespace ARObjectDetection
         private void ReturnBoxToPool(BoundingBox3DInstance box)
         {
             box.gameObject.SetActive(false);
-            if (box.labelTransform != null)
+            if (box.label != null)
             {
-                box.labelTransform.gameObject.SetActive(false);
+                box.label.gameObject.SetActive(false);
             }
             boxPool.Enqueue(box);
         }
@@ -290,33 +314,36 @@ namespace ARObjectDetection
         private BoundingBox3DInstance CreatePooledBox()
         {
             GameObject boxObj;
-            GameObject labelObj;  // Declare here so it's accessible throughout
+            GameObject labelObj = null;
 
             if (boundingBox3DPrefab != null)
             {
                 boxObj = Instantiate(boundingBox3DPrefab, transform);
 
-                // Create label separately
-                labelObj = new GameObject("Label");
-                labelObj.transform.SetParent(transform);
-                labelObj.transform.localPosition = Vector3.zero;
-                labelObj.transform.localRotation = Quaternion.identity;
-                labelObj.transform.localScale = Vector3.one;
+                // Try to find existing label in prefab
+                TextMeshPro existingLabel = boxObj.GetComponentInChildren<TextMeshPro>();
 
-                TextMeshPro tmp = labelObj.AddComponent<TextMeshPro>();
-                tmp.fontSize = 1.0f;
-                tmp.alignment = TextAlignmentOptions.Center;
-                tmp.color = Color.white;
-                tmp.fontStyle = FontStyles.Bold;
-                tmp.enableAutoSizing = false;
-                tmp.overflowMode = TextOverflowModes.Overflow;
-                tmp.sortingOrder = 100;
+                if (existingLabel != null)
+                {
+                    // Use the prefab's label
+                    labelObj = existingLabel.gameObject;
 
-                labelObj.AddComponent<Billboard>();
+                    // Ensure Billboard component exists
+                    if (labelObj.GetComponent<Billboard>() == null)
+                    {
+                        labelObj.AddComponent<Billboard>();
+                    }
+
+                    Debug.Log("[3D Visualizer] Using label from prefab");
+                }
+                else
+                {
+                    Debug.LogWarning("[3D Visualizer] No TextMeshPro label found in prefab");
+                }
             }
             else
             {
-                Debug.LogWarning("[3D Visualizer] No prefab, creating procedural box");
+                Debug.LogWarning("[3D Visualizer] No prefab assigned, creating procedural box");
                 boxObj = new GameObject("BoundingBox3D");
                 boxObj.transform.SetParent(transform);
 
@@ -336,42 +363,21 @@ namespace ARObjectDetection
                     lr.receiveShadows = false;
                     lr.useWorldSpace = false;
                 }
-
-                // Create label - SEPARATE from box, not a child
-                labelObj = new GameObject("Label");
-                labelObj.transform.SetParent(transform);  // Parent to visualizer, NOT the box
-                labelObj.transform.localPosition = Vector3.zero;
-                labelObj.transform.localRotation = Quaternion.identity;
-                labelObj.transform.localScale = Vector3.one;
-
-                TextMeshPro tmp = labelObj.AddComponent<TextMeshPro>();
-                tmp.fontSize = 0.15f;  // Smaller font size for better scaling
-                tmp.alignment = TextAlignmentOptions.Center;  // Center alignment
-                tmp.color = Color.white;
-                tmp.fontStyle = FontStyles.Bold;
-
-                // Ensure proper rendering
-                tmp.enableAutoSizing = false;
-                tmp.overflowMode = TextOverflowModes.Overflow;
-                tmp.sortingOrder = 100;  // Render on top
-
-                // Add Billboard so it faces camera
-                labelObj.AddComponent<Billboard>();
-
-                // Store reference to label GameObject in box instance
-                boxObj.GetComponent<Transform>().SetSiblingIndex(0);  // Keep organized
             }
 
             boxObj.SetActive(false);
-            labelObj.SetActive(false);
+            if (labelObj != null)
+            {
+                labelObj.SetActive(false);
+            }
 
             BoundingBox3DInstance boxInstance = new BoundingBox3DInstance
             {
                 gameObject = boxObj,
                 transform = boxObj.transform,
                 lineRenderers = boxObj.GetComponentsInChildren<LineRenderer>(),
-                label = labelObj.GetComponent<TextMeshPro>(),
-                labelTransform = labelObj.transform
+                label = labelObj != null ? labelObj.GetComponent<TextMeshPro>() : null,
+                labelRectTransform = labelObj != null ? labelObj.GetComponent<RectTransform>() : null
             };
 
             if (boxInstance.lineRenderers == null || boxInstance.lineRenderers.Length < 4)
@@ -390,7 +396,7 @@ namespace ARObjectDetection
             public Transform transform;
             public LineRenderer[] lineRenderers;
             public TextMeshPro label;
-            public Transform labelTransform;  // Separate transform for label
+            public RectTransform labelRectTransform;  // RectTransform for positioning
             public float spawnTime;
         }
     }

@@ -779,8 +779,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   maxRaycastDistance: 10
-  labelOffsetYPercent: 0.1
-  labelOffsetXPercent: 0.05
+  labelOffsetYPercent: 0.5
+  labelOffsetXPercent: 0.5
+  labelScale: 0.02
   boxLifetime: 0.5
 --- !u!4 &691523317
 Transform:
