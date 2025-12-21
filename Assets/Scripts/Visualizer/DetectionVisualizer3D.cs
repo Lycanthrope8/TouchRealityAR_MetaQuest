@@ -5,310 +5,331 @@ using PassthroughCameraSamples;
 
 namespace ARObjectDetection
 {
-          /// <summary>
-          /// Visualizes object detections as 3D bounding boxes in world space
-          /// </summary>
-          public class DetectionVisualizer3D : MonoBehaviour
-          {
-                    [Header("References")]
-                    [SerializeField] private GameObject boundingBox3DPrefab;
-                    [SerializeField] private DetectionConfig config;
-                    [SerializeField] private PassthroughCameraEye cameraEye = PassthroughCameraEye.Left;
+    /// <summary>
+    /// Visualizes object detections as 3D bounding boxes in world space
+    /// Following Meta's PassthroughCameraApiSamples approach
+    /// Expects bboxes in same resolution as camera intrinsics (1280x1280)
+    /// </summary>
+    public class DetectionVisualizer3D : MonoBehaviour
+    {
+        [Header("References")]
+        [SerializeField] private GameObject boundingBox3DPrefab;
+        [SerializeField] private DetectionConfig config;
+        [SerializeField] private PassthroughCameraEye cameraEye = PassthroughCameraEye.Left;
 
-                    [Header("3D Settings")]
-                    [SerializeField] private float defaultDepth = 2.0f; // Default depth in meters if no raycast hit
-                    [SerializeField] private float boxThickness = 0.01f; // Thickness of box lines
-                    [SerializeField] private LayerMask raycastLayers = ~0; // What to raycast against
-                    [SerializeField] private float maxRaycastDistance = 10f;
+        [Header("3D Settings")]
+        [SerializeField] private float defaultDepth = 2.0f;
+        [SerializeField] private float boxThickness = 0.01f;
+        [SerializeField] private LayerMask raycastLayers = ~0;
+        [SerializeField] private float maxRaycastDistance = 10f;
 
-                    [Header("Performance")]
-                    [SerializeField] private float boxLifetime = 0.5f;
+        [Header("Performance")]
+        [SerializeField] private float boxLifetime = 0.5f;
 
-                    // Pool of bounding box objects
-                    private List<BoundingBox3DInstance> activeBoxes = new List<BoundingBox3DInstance>();
-                    private Queue<BoundingBox3DInstance> boxPool = new Queue<BoundingBox3DInstance>();
+        // Pool of bounding box objects
+        private List<BoundingBox3DInstance> activeBoxes = new List<BoundingBox3DInstance>();
+        private Queue<BoundingBox3DInstance> boxPool = new Queue<BoundingBox3DInstance>();
 
-                    // Camera intrinsics
-                    private PassthroughCameraIntrinsics? cameraIntrinsics;
+        // Camera intrinsics
+        private PassthroughCameraIntrinsics? cameraIntrinsics;
 
-                    private void Awake()
-                    {
-                              // Pre-instantiate boxes for object pooling
-                              for (int i = 0; i < 10; i++)
-                              {
-                                        CreatePooledBox();
-                              }
+        private void Awake()
+        {
+            // Pre-instantiate boxes
+            for (int i = 0; i < 10; i++)
+            {
+                CreatePooledBox();
+            }
 
-                              // Get camera intrinsics
-                              try
-                              {
-                                        cameraIntrinsics = PassthroughCameraUtils.GetCameraIntrinsics(cameraEye);
-                                        Debug.Log($"[3D Visualizer] Camera intrinsics loaded: {cameraIntrinsics.Value.Resolution}");
-                              }
-                              catch (System.Exception e)
-                              {
-                                        Debug.LogError($"[3D Visualizer] Failed to get camera intrinsics: {e.Message}");
-                              }
-                    }
+            // Get camera intrinsics
+            try
+            {
+                cameraIntrinsics = PassthroughCameraUtils.GetCameraIntrinsics(cameraEye);
+                Debug.Log($"[3D Visualizer] Camera intrinsics: Resolution={cameraIntrinsics.Value.Resolution}, " +
+                         $"Focal=({cameraIntrinsics.Value.FocalLength.x:F1}, {cameraIntrinsics.Value.FocalLength.y:F1}), " +
+                         $"Principal=({cameraIntrinsics.Value.PrincipalPoint.x:F1}, {cameraIntrinsics.Value.PrincipalPoint.y:F1})");
+            }
+            catch (System.Exception e)
+            {
+                Debug.LogError($"[3D Visualizer] Failed to get camera intrinsics: {e.Message}");
+            }
+        }
 
-                    private void Update()
-                    {
-                              // Fade out and deactivate old boxes
-                              for (int i = activeBoxes.Count - 1; i >= 0; i--)
-                              {
-                                        var box = activeBoxes[i];
-                                        if (Time.time - box.spawnTime > boxLifetime)
-                                        {
-                                                  ReturnBoxToPool(box);
-                                                  activeBoxes.RemoveAt(i);
-                                        }
-                              }
-                    }
+        private void Update()
+        {
+            // Fade out old boxes
+            for (int i = activeBoxes.Count - 1; i >= 0; i--)
+            {
+                var box = activeBoxes[i];
+                if (Time.time - box.spawnTime > boxLifetime)
+                {
+                    ReturnBoxToPool(box);
+                    activeBoxes.RemoveAt(i);
+                }
+            }
+        }
 
-                    public void ShowDetections(DetectionResponse response)
-                    {
-                              if (response == null || response.detections == null || !config.show3DBoundingBoxes)
-                                        return;
+        public void ShowDetections(DetectionResponse response)
+        {
+            if (response == null || response.detections == null || !config.show3DBoundingBoxes)
+                return;
 
-                              if (!cameraIntrinsics.HasValue)
-                              {
-                                        Debug.LogWarning("[3D Visualizer] Camera intrinsics not available");
-                                        return;
-                              }
+            if (!cameraIntrinsics.HasValue)
+            {
+                Debug.LogWarning("[3D Visualizer] Camera intrinsics not available");
+                return;
+            }
 
-                              ClearAllBoxes();
+            ClearAllBoxes();
 
-                              if (response.image_size == null || response.image_size.Length != 2)
-                                        return;
+            if (response.image_size == null || response.image_size.Length != 2)
+            {
+                Debug.LogError("[3D Visualizer] Invalid image_size in response");
+                return;
+            }
 
-                              int imageWidth = response.image_size[0];
-                              int imageHeight = response.image_size[1];
+            int imageWidth = response.image_size[0];
+            int imageHeight = response.image_size[1];
 
-                              foreach (var detection in response.detections)
-                              {
-                                        if (detection.bbox == null || detection.bbox.Length != 4)
-                                                  continue;
+            PassthroughCameraIntrinsics intrinsics = cameraIntrinsics.Value;
 
-                                        ShowBoundingBox3D(detection, imageWidth, imageHeight);
-                              }
-                    }
+            // CRITICAL: Image dimensions MUST match camera intrinsics
+            if (imageWidth != intrinsics.Resolution.x || imageHeight != intrinsics.Resolution.y)
+            {
+                Debug.LogError($"[3D Visualizer] RESOLUTION MISMATCH! " +
+                              $"Image: {imageWidth}×{imageHeight} vs " +
+                              $"Camera: {intrinsics.Resolution.x}×{intrinsics.Resolution.y}\n" +
+                              $"Unity is NOT sending full camera resolution to server!\n" +
+                              $"Check FrameCaptureService - it should NOT resize images.");
+                return;
+            }
 
-                    private void ShowBoundingBox3D(Detection detection, int imageWidth, int imageHeight)
-                    {
-                              // Get bounding box corners in image coordinates
-                              float x1 = detection.bbox[0];
-                              float y1 = detection.bbox[1];
-                              float x2 = detection.bbox[2];
-                              float y2 = detection.bbox[3];
+            Debug.Log($"[3D Visualizer] Processing {response.count} detections from {imageWidth}×{imageHeight}");
 
-                              // Calculate center point
-                              Vector2Int centerPoint = new Vector2Int(
-                                  Mathf.RoundToInt((x1 + x2) / 2f),
-                                  Mathf.RoundToInt((y1 + y2) / 2f)
-                              );
+            foreach (var detection in response.detections)
+            {
+                if (detection.bbox == null || detection.bbox.Length != 4)
+                    continue;
 
-                              Debug.Log($"[3D Debug] {detection.class_name} | Image bbox:[{x1:F0},{y1:F0},{x2:F0},{y2:F0}] | Center pixel:[{centerPoint.x},{centerPoint.y}] | Image size:[{imageWidth}x{imageHeight}]");
+                ShowBoundingBox3D(detection, imageWidth, imageHeight);
+            }
+        }
 
-                              // Get camera intrinsics info
-                              PassthroughCameraIntrinsics intrinsics = cameraIntrinsics.Value;
-                              Debug.Log($"[3D Debug] Camera intrinsics | Focal:[{intrinsics.FocalLength.x:F1},{intrinsics.FocalLength.y:F1}] | Principal:[{intrinsics.PrincipalPoint.x:F1},{intrinsics.PrincipalPoint.y:F1}] | Resolution:[{intrinsics.Resolution.x}x{intrinsics.Resolution.y}]");
+        private void ShowBoundingBox3D(Detection detection, int imageWidth, int imageHeight)
+        {
+            PassthroughCameraIntrinsics intrinsics = cameraIntrinsics.Value;
 
-                              // Convert to 3D ray in world space
-                              Ray centerRay = PassthroughCameraUtils.ScreenPointToRayInWorld(cameraEye, centerPoint);
+            // Bbox coordinates (already in camera resolution space)
+            float x1 = detection.bbox[0];
+            float y1 = detection.bbox[1];
+            float x2 = detection.bbox[2];
+            float y2 = detection.bbox[3];
 
-                              Debug.Log($"[3D Debug] Ray | Origin:[{centerRay.origin.x:F2},{centerRay.origin.y:F2},{centerRay.origin.z:F2}] | Direction:[{centerRay.direction.x:F2},{centerRay.direction.y:F2},{centerRay.direction.z:F2}]");
+            // FLIP Y-AXIS: Camera Y is inverted (0 at top, height at bottom)
+            // We need to flip it for ScreenPointToRayInWorld
+            y1 = imageHeight - y1;
+            y2 = imageHeight - y2;
 
-                              // Try to find actual depth via raycast
-                              float depth = defaultDepth;
-                              Vector3 worldPosition;
-                              bool hitSomething = false;
+            // Calculate center point (with flipped Y)
+            Vector2Int centerPoint = new Vector2Int(
+                Mathf.RoundToInt((x1 + x2) / 2f),
+                Mathf.RoundToInt((y1 + y2) / 2f)
+            );
 
-                              if (Physics.Raycast(centerRay, out RaycastHit hit, maxRaycastDistance, raycastLayers))
-                              {
-                                        worldPosition = hit.point;
-                                        depth = hit.distance;
-                                        hitSomething = true;
-                                        Debug.Log($"[3D Debug] Raycast HIT | Distance:{depth:F2}m | Hit point:[{worldPosition.x:F2},{worldPosition.y:F2},{worldPosition.z:F2}] | Hit object:{hit.collider.gameObject.name}");
-                              }
-                              else
-                              {
-                                        worldPosition = centerRay.origin + centerRay.direction * defaultDepth;
-                                        Debug.Log($"[3D Debug] Raycast MISS | Using default depth:{defaultDepth}m | Position:[{worldPosition.x:F2},{worldPosition.y:F2},{worldPosition.z:F2}]");
-                              }
+            Debug.Log($"[3D] {detection.class_name} | " +
+                     $"Bbox:[{detection.bbox[0]:F0},{detection.bbox[1]:F0} → {detection.bbox[2]:F0},{detection.bbox[3]:F0}] (original) | " +
+                     $"Flipped Y:[{x1:F0},{y1:F0} → {x2:F0},{y2:F0}] | " +
+                     $"Center:[{centerPoint.x},{centerPoint.y}] | " +
+                     $"Size:[{x2 - x1:F0}×{Mathf.Abs(y2 - y1):F0}]px");
 
-                              // Calculate 3D box size based on image bbox size and depth
-                              float pixelWidth = x2 - x1;
-                              float pixelHeight = y2 - y1;
+            // Convert pixel coordinates to world ray
+            // This is the key Meta API call
+            Ray centerRay = PassthroughCameraUtils.ScreenPointToRayInWorld(cameraEye, centerPoint);
 
-                              // Angular size to world size conversion
-                              float worldWidth = (pixelWidth * depth) / intrinsics.FocalLength.x;
-                              float worldHeight = (pixelHeight * depth) / intrinsics.FocalLength.y;
+            Debug.Log($"[3D] Ray origin:[{centerRay.origin.x:F3},{centerRay.origin.y:F3},{centerRay.origin.z:F3}] " +
+                     $"dir:[{centerRay.direction.x:F3},{centerRay.direction.y:F3},{centerRay.direction.z:F3}]");
 
-                              Debug.Log($"[3D Debug] Size calculation | Pixel size:[{pixelWidth:F0}x{pixelHeight:F0}] | Depth:{depth:F2}m | World size:[{worldWidth:F3}x{worldHeight:F3}]m");
+            // Try raycast for actual depth
+            float depth = defaultDepth;
+            Vector3 worldPosition;
 
-                              // Get or create box from pool
-                              BoundingBox3DInstance boxInstance = GetBoxFromPool();
+            if (Physics.Raycast(centerRay, out RaycastHit hit, maxRaycastDistance, raycastLayers))
+            {
+                worldPosition = hit.point;
+                depth = hit.distance;
+                Debug.Log($"[3D] Raycast HIT → {hit.collider.name} at {depth:F2}m");
+            }
+            else
+            {
+                worldPosition = centerRay.origin + centerRay.direction * defaultDepth;
+                Debug.Log($"[3D] Raycast MISS → using default depth {defaultDepth}m");
+            }
 
-                              // Position and size the box
-                              boxInstance.transform.position = worldPosition;
-                              boxInstance.transform.rotation = Quaternion.LookRotation(centerRay.direction);
+            // Calculate 3D box size from pixel size and depth
+            // Using pinhole camera model: world_size = (pixel_size * depth) / focal_length
+            float pixelWidth = x2 - x1;
+            float pixelHeight = Mathf.Abs(y2 - y1);  // Abs because y2 might be < y1 after flip
 
-                              Debug.Log($"[3D Debug] Box placed | Position:[{worldPosition.x:F2},{worldPosition.y:F2},{worldPosition.z:F2}] | Rotation:[{boxInstance.transform.rotation.eulerAngles.x:F0},{boxInstance.transform.rotation.eulerAngles.y:F0},{boxInstance.transform.rotation.eulerAngles.z:F0}]");
+            float worldWidth = (pixelWidth * depth) / intrinsics.FocalLength.x;
+            float worldHeight = (pixelHeight * depth) / intrinsics.FocalLength.y;
 
-                              // Update the box visualization
-                              UpdateBox3D(boxInstance, worldWidth, worldHeight, detection);
+            Debug.Log($"[3D] World size: {worldWidth:F3}×{worldHeight:F3}m at {depth:F2}m depth");
 
-                              boxInstance.gameObject.SetActive(true);
-                              boxInstance.spawnTime = Time.time;
-                              activeBoxes.Add(boxInstance);
+            // Create and position box
+            BoundingBox3DInstance boxInstance = GetBoxFromPool();
 
-                              Debug.Log($"[3D Debug] ===== Box created for {detection.class_name} =====\n");
-                    }
+            boxInstance.transform.position = worldPosition;
+            boxInstance.transform.rotation = Quaternion.LookRotation(centerRay.direction);
 
-                    private void UpdateBox3D(BoundingBox3DInstance boxInstance, float width, float height, Detection detection)
-                    {
-                              // Update line renderers to form a box
-                              Vector3 size = new Vector3(width, height, boxThickness);
+            // Draw the box
+            UpdateBox3D(boxInstance, worldWidth, worldHeight, detection);
 
-                              // Draw 12 edges of a box
-                              Vector3 halfSize = size / 2f;
+            boxInstance.gameObject.SetActive(true);
+            boxInstance.spawnTime = Time.time;
+            activeBoxes.Add(boxInstance);
 
-                              // Front face (4 edges)
-                              DrawBoxEdge(boxInstance.lineRenderers[0], new Vector3(-halfSize.x, -halfSize.y, 0), new Vector3(halfSize.x, -halfSize.y, 0));
-                              DrawBoxEdge(boxInstance.lineRenderers[1], new Vector3(halfSize.x, -halfSize.y, 0), new Vector3(halfSize.x, halfSize.y, 0));
-                              DrawBoxEdge(boxInstance.lineRenderers[2], new Vector3(halfSize.x, halfSize.y, 0), new Vector3(-halfSize.x, halfSize.y, 0));
-                              DrawBoxEdge(boxInstance.lineRenderers[3], new Vector3(-halfSize.x, halfSize.y, 0), new Vector3(-halfSize.x, -halfSize.y, 0));
+            Debug.Log($"[3D] Box created for {detection.class_name}\n");
+        }
 
-                              // Update label
-                              if (boxInstance.label != null && config.showLabels)
-                              {
-                                        string labelText = detection.class_name;
-                                        if (config.showConfidence)
-                                        {
-                                                  labelText += $" {detection.confidence:F2}";
-                                        }
-                                        boxInstance.label.text = labelText;
-                                        boxInstance.label.gameObject.SetActive(true);
+        private void UpdateBox3D(BoundingBox3DInstance boxInstance, float width, float height, Detection detection)
+        {
+            Vector3 halfSize = new Vector3(width / 2f, height / 2f, boxThickness / 2f);
 
-                                        // Position label above box
-                                        boxInstance.label.transform.localPosition = new Vector3(0, halfSize.y + 0.05f, 0);
-                              }
-                              else if (boxInstance.label != null)
-                              {
-                                        boxInstance.label.gameObject.SetActive(false);
-                              }
-                    }
+            // Front face edges
+            DrawBoxEdge(boxInstance.lineRenderers[0],
+                new Vector3(-halfSize.x, -halfSize.y, 0),
+                new Vector3(halfSize.x, -halfSize.y, 0));
+            DrawBoxEdge(boxInstance.lineRenderers[1],
+                new Vector3(halfSize.x, -halfSize.y, 0),
+                new Vector3(halfSize.x, halfSize.y, 0));
+            DrawBoxEdge(boxInstance.lineRenderers[2],
+                new Vector3(halfSize.x, halfSize.y, 0),
+                new Vector3(-halfSize.x, halfSize.y, 0));
+            DrawBoxEdge(boxInstance.lineRenderers[3],
+                new Vector3(-halfSize.x, halfSize.y, 0),
+                new Vector3(-halfSize.x, -halfSize.y, 0));
 
-                    private void DrawBoxEdge(LineRenderer lineRenderer, Vector3 start, Vector3 end)
-                    {
-                              lineRenderer.positionCount = 2;
-                              lineRenderer.SetPosition(0, start);
-                              lineRenderer.SetPosition(1, end);
-                    }
+            // Update label
+            if (boxInstance.label != null && config.showLabels)
+            {
+                string labelText = detection.class_name;
+                if (config.showConfidence)
+                {
+                    labelText += $" {detection.confidence:F2}";
+                }
+                boxInstance.label.text = labelText;
+                boxInstance.label.gameObject.SetActive(true);
+                boxInstance.label.transform.localPosition = new Vector3(0, halfSize.y + 0.05f, 0);
+            }
+            else if (boxInstance.label != null)
+            {
+                boxInstance.label.gameObject.SetActive(false);
+            }
+        }
 
-                    public void ClearAllBoxes()
-                    {
-                              for (int i = activeBoxes.Count - 1; i >= 0; i--)
-                              {
-                                        ReturnBoxToPool(activeBoxes[i]);
-                              }
-                              activeBoxes.Clear();
-                    }
+        private void DrawBoxEdge(LineRenderer lineRenderer, Vector3 start, Vector3 end)
+        {
+            lineRenderer.positionCount = 2;
+            lineRenderer.SetPosition(0, start);
+            lineRenderer.SetPosition(1, end);
+        }
 
-                    #region Object Pooling
+        public void ClearAllBoxes()
+        {
+            for (int i = activeBoxes.Count - 1; i >= 0; i--)
+            {
+                ReturnBoxToPool(activeBoxes[i]);
+            }
+            activeBoxes.Clear();
+        }
 
-                    private BoundingBox3DInstance GetBoxFromPool()
-                    {
-                              if (boxPool.Count > 0)
-                              {
-                                        return boxPool.Dequeue();
-                              }
-                              else
-                              {
-                                        return CreatePooledBox();
-                              }
-                    }
+        #region Object Pooling
 
-                    private void ReturnBoxToPool(BoundingBox3DInstance box)
-                    {
-                              box.gameObject.SetActive(false);
-                              boxPool.Enqueue(box);
-                    }
+        private BoundingBox3DInstance GetBoxFromPool()
+        {
+            if (boxPool.Count > 0)
+            {
+                return boxPool.Dequeue();
+            }
+            return CreatePooledBox();
+        }
 
-                    private BoundingBox3DInstance CreatePooledBox()
-                    {
-                              GameObject boxObj;
+        private void ReturnBoxToPool(BoundingBox3DInstance box)
+        {
+            box.gameObject.SetActive(false);
+            boxPool.Enqueue(box);
+        }
 
-                              if (boundingBox3DPrefab != null)
-                              {
-                                        // Use prefab
-                                        boxObj = Instantiate(boundingBox3DPrefab, transform);
-                              }
-                              else
-                              {
-                                        // Fallback: Create procedurally if no prefab provided
-                                        Debug.LogWarning("[3D Visualizer] No prefab assigned, creating procedural box");
-                                        boxObj = new GameObject("BoundingBox3D");
-                                        boxObj.transform.SetParent(transform);
+        private BoundingBox3DInstance CreatePooledBox()
+        {
+            GameObject boxObj;
 
-                                        // Create 4 line renderers for the 4 edges of the front face
-                                        for (int i = 0; i < 4; i++)
-                                        {
-                                                  GameObject lineObj = new GameObject($"Edge_{i}");
-                                                  lineObj.transform.SetParent(boxObj.transform);
+            if (boundingBox3DPrefab != null)
+            {
+                boxObj = Instantiate(boundingBox3DPrefab, transform);
+            }
+            else
+            {
+                Debug.LogWarning("[3D Visualizer] No prefab, creating procedural box");
+                boxObj = new GameObject("BoundingBox3D");
+                boxObj.transform.SetParent(transform);
 
-                                                  LineRenderer lr = lineObj.AddComponent<LineRenderer>();
-                                                  lr.startWidth = 0.01f;
-                                                  lr.endWidth = 0.01f;
-                                                  lr.material = new Material(Shader.Find("Sprites/Default"));
-                                                  lr.startColor = Color.red;
-                                                  lr.endColor = Color.red;
-                                                  lr.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
-                                                  lr.receiveShadows = false;
-                                                  lr.useWorldSpace = false;
-                                        }
+                // Create 4 line renderers for box edges
+                for (int i = 0; i < 4; i++)
+                {
+                    GameObject lineObj = new GameObject($"Edge_{i}");
+                    lineObj.transform.SetParent(boxObj.transform);
 
-                                        // Create label
-                                        GameObject labelObj = new GameObject("Label");
-                                        labelObj.transform.SetParent(boxObj.transform);
+                    LineRenderer lr = lineObj.AddComponent<LineRenderer>();
+                    lr.startWidth = 0.01f;
+                    lr.endWidth = 0.01f;
+                    lr.material = new Material(Shader.Find("Sprites/Default"));
+                    lr.startColor = Color.green;
+                    lr.endColor = Color.green;
+                    lr.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+                    lr.receiveShadows = false;
+                    lr.useWorldSpace = false;
+                }
 
-                                        TextMeshPro tmp = labelObj.AddComponent<TextMeshPro>();
-                                        tmp.fontSize = 0.2f;
-                                        tmp.alignment = TextAlignmentOptions.Center;
-                                        tmp.color = Color.white;
+                // Create label
+                GameObject labelObj = new GameObject("Label");
+                labelObj.transform.SetParent(boxObj.transform);
 
-                                        // Make label face camera
-                                        labelObj.AddComponent<Billboard>();
-                              }
+                TextMeshPro tmp = labelObj.AddComponent<TextMeshPro>();
+                tmp.fontSize = 2.0f;
+                tmp.alignment = TextAlignmentOptions.Center;
+                tmp.color = Color.white;
 
-                              boxObj.SetActive(false);
+                labelObj.AddComponent<Billboard>();
+            }
 
-                              BoundingBox3DInstance boxInstance = new BoundingBox3DInstance
-                              {
-                                        gameObject = boxObj,
-                                        transform = boxObj.transform,
-                                        lineRenderers = boxObj.GetComponentsInChildren<LineRenderer>(),
-                                        label = boxObj.GetComponentInChildren<TextMeshPro>()
-                              };
+            boxObj.SetActive(false);
 
-                              // Validate that we have at least 4 line renderers
-                              if (boxInstance.lineRenderers == null || boxInstance.lineRenderers.Length < 4)
-                              {
-                                        Debug.LogError("[3D Visualizer] Prefab must have at least 4 LineRenderer components as children!");
-                              }
+            BoundingBox3DInstance boxInstance = new BoundingBox3DInstance
+            {
+                gameObject = boxObj,
+                transform = boxObj.transform,
+                lineRenderers = boxObj.GetComponentsInChildren<LineRenderer>(),
+                label = boxObj.GetComponentInChildren<TextMeshPro>()
+            };
 
-                              return boxInstance;
-                    }
+            if (boxInstance.lineRenderers == null || boxInstance.lineRenderers.Length < 4)
+            {
+                Debug.LogError("[3D Visualizer] Prefab needs 4+ LineRenderers!");
+            }
 
-                    #endregion
+            return boxInstance;
+        }
 
-                    private class BoundingBox3DInstance
-                    {
-                              public GameObject gameObject;
-                              public Transform transform;
-                              public LineRenderer[] lineRenderers;
-                              public TextMeshPro label;
-                              public float spawnTime;
-                    }
-          }
+        #endregion
+
+        private class BoundingBox3DInstance
+        {
+            public GameObject gameObject;
+            public Transform transform;
+            public LineRenderer[] lineRenderers;
+            public TextMeshPro label;
+            public float spawnTime;
+        }
+    }
 }
