@@ -10571,7 +10571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t PinnedArray_1_op_Implicit_mFCAB09710
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68194
+// Method Definition Index: 68196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PinnedArray_1_get_length_m0AC89179A01BADD125208F8AEB1C0A083023604F_gshared (PinnedArray_1_t1BE46BBAF844A822E42A99AA3E0CD96A10F9C51D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10602,7 +10602,7 @@ IL2CPP_EXTERN_C  int32_t PinnedArray_1_get_length_m0AC89179A01BADD125208F8AEB1C0
 	_returnValue = PinnedArray_1_get_length_m0AC89179A01BADD125208F8AEB1C0A083023604F(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 68195
+// Method Definition Index: 68197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PinnedArray_1__ctor_m5BDC909C1CBFE9D4BDB64CBC360AAE46636475A4_gshared (PinnedArray_1_t1BE46BBAF844A822E42A99AA3E0CD96A10F9C51D* __this, int32_t ___0_length, const RuntimeMethod* method) 
 {
 	{
@@ -10637,7 +10637,7 @@ IL2CPP_EXTERN_C  void PinnedArray_1__ctor_m5BDC909C1CBFE9D4BDB64CBC360AAE4663647
 	_thisAdjusted = reinterpret_cast<PinnedArray_1_t1BE46BBAF844A822E42A99AA3E0CD96A10F9C51D*>(__this + _offset);
 	PinnedArray_1__ctor_m5BDC909C1CBFE9D4BDB64CBC360AAE46636475A4(_thisAdjusted, ___0_length, method);
 }
-// Method Definition Index: 68196
+// Method Definition Index: 68198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PinnedArray_1_Dispose_m6669AAF8560CB45B1793AB8A106084378E50EAF3_gshared (PinnedArray_1_t1BE46BBAF844A822E42A99AA3E0CD96A10F9C51D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15030,7 +15030,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerInteractor_2__ctor_mD1D48ED97DFCD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 99834
+// Method Definition Index: 99836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoolManager_2_AddPool_mA65BC92A382DD6F72D7109FB07EBBF4843524B10_gshared (PoolManager_2_tAB4D4EE3B11775BC43CDDBA9EE76AC5F6B740B10* __this, RuntimeObject* ___0_primitive, RuntimeObject* ___1_pool, const RuntimeMethod* method) 
 {
 	{
@@ -15044,7 +15044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoolManager_2_AddPool_mA65BC92A382DD6F72
 		return;
 	}
 }
-// Method Definition Index: 99835
+// Method Definition Index: 99837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PoolManager_2_ContainsPool_mF0F1234BE6589F66ED6F403AD5DC24A47B7804DC_gshared (PoolManager_2_tAB4D4EE3B11775BC43CDDBA9EE76AC5F6B740B10* __this, RuntimeObject* ___0_primitive, const RuntimeMethod* method) 
 {
 	{
@@ -15057,7 +15057,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PoolManager_2_ContainsPool_mF0F1234BE658
 		return L_2;
 	}
 }
-// Method Definition Index: 99836
+// Method Definition Index: 99838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PoolManager_2_GetPool_m2F3FD6815921BD324457EB921020D5B19EDE9C87_gshared (PoolManager_2_tAB4D4EE3B11775BC43CDDBA9EE76AC5F6B740B10* __this, RuntimeObject* ___0_primitive, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -15073,7 +15073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PoolManager_2_GetPool_m2F3FD68
 		return L_3;
 	}
 }
-// Method Definition Index: 99837
+// Method Definition Index: 99839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoolManager_2__ctor_mD477C9E65BE7EAE9BDACE9ACBB729D8F7AE6FCCE_gshared (PoolManager_2_tAB4D4EE3B11775BC43CDDBA9EE76AC5F6B740B10* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15094,7 +15094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoolManager_2__ctor_mD477C9E65BE7EAE9BDA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 99829
+// Method Definition Index: 99831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Pool_1_get_CountInactive_m8B92F25A698BADEB5A6E1FB7C79F837CCDA1CCCC_gshared (Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15106,7 +15106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Pool_1_get_CountInactive_m8B92F25A698
 		return ((int32_t)il2cpp_codegen_subtract(L_0, L_1));
 	}
 }
-// Method Definition Index: 99832
+// Method Definition Index: 99834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pool_1_Swap_m43571EFAE6F77F0689C34582CE62538394FAA8C8_gshared (Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0* __this, int32_t ___0_i0, int32_t ___1_i1, const RuntimeMethod* method) 
 {
 	Entry_tBD650AE5A79A7B47845FCA8FAF1AF4DC94E2502C* V_0 = NULL;
@@ -15164,7 +15164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pool_1_Swap_m43571EFAE6F77F0689C34582CE6
 		return;
 	}
 }
-// Method Definition Index: 99833
+// Method Definition Index: 99835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pool_1__ctor_m2DE7106583E9FEB84D7358CC88644B1C0A1C3979_gshared (Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15282,7 +15282,7 @@ IL2CPP_EXTERN_C  void PooledObject_System_IDisposable_Dispose_mE30B832BAF76D56EB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 60376
+// Method Definition Index: 60378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PooledObject_1__ctor_m26481DA76B39862752040C3016392A923303D122_gshared (PooledObject_1_tAA91CAE93DC8A19E0A5B6C1D78C3AE149F635F8E* __this, RuntimeObject* ___0_value, RuntimeObject* ___1_pool, const RuntimeMethod* method) 
 {
 	{
@@ -15302,7 +15302,7 @@ IL2CPP_EXTERN_C  void PooledObject_1__ctor_m26481DA76B39862752040C3016392A923303
 	_thisAdjusted = reinterpret_cast<PooledObject_1_tAA91CAE93DC8A19E0A5B6C1D78C3AE149F635F8E*>(__this + _offset);
 	PooledObject_1__ctor_m26481DA76B39862752040C3016392A923303D122(_thisAdjusted, ___0_value, ___1_pool, method);
 }
-// Method Definition Index: 60377
+// Method Definition Index: 60379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PooledObject_1_System_IDisposable_Dispose_mBDBE6E4606DF5793230E351CA0B89611C13606FC_gshared (PooledObject_1_tAA91CAE93DC8A19E0A5B6C1D78C3AE149F635F8E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29606,7 +29606,7 @@ IL_001a:
 		return L_5;
 	}
 }
-// Method Definition Index: 117018
+// Method Definition Index: 117020
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEvent_get_eventSource_m433AD39B323BF13AE165F5F9D025444092FAEB33_inline (PointerEvent_tC25A522EBDFCAF2CDEEE1D70428C281F78C1FA05* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29614,7 +29614,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEvent_get_eventSou
 		return L_0;
 	}
 }
-// Method Definition Index: 117021
+// Method Definition Index: 117023
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventModifiers_t4B1B8EBE011383F2D6236E6B9F99AB156BCE35DD PointerEvent_get_eventModifiers_m5C238F94AA34FB172F4D7256E5D68E838E3C5A05_inline (PointerEvent_tC25A522EBDFCAF2CDEEE1D70428C281F78C1FA05* __this, const RuntimeMethod* method) 
 {
 	{

@@ -23,6 +23,10 @@ namespace ARObjectDetection
         [SerializeField] private LayerMask raycastLayers = ~0;
         [SerializeField] private float maxRaycastDistance = 10f;
 
+        [Header("Label Settings")]
+        [SerializeField] private float labelOffsetYPercent = 0.15f; // Percentage of box height below top edge
+        [SerializeField] private float labelOffsetXPercent = 0.05f; // Percentage of box width from left edge
+
         [Header("Performance")]
         [SerializeField] private float boxLifetime = 0.5f;
 
@@ -209,7 +213,7 @@ namespace ARObjectDetection
                 new Vector3(-halfSize.x, halfSize.y, 0),
                 new Vector3(-halfSize.x, -halfSize.y, 0));
 
-            // Update label
+            // Update label - position in WORLD space at top of box
             if (boxInstance.label != null && config.showLabels)
             {
                 string labelText = detection.class_name;
@@ -218,8 +222,27 @@ namespace ARObjectDetection
                     labelText += $" {detection.confidence:F2}";
                 }
                 boxInstance.label.text = labelText;
+
+                // Calculate world position at top-left of box
+                Vector3 boxUp = boxInstance.transform.up;
+                Vector3 boxRight = boxInstance.transform.right;
+                Vector3 boxPosition = boxInstance.transform.position;
+
+                // Position label at top edge of box, slightly offset
+                float xOffset = width * labelOffsetXPercent;
+                float yOffset = height * labelOffsetYPercent;
+
+                Vector3 labelWorldPos = boxPosition
+                    + boxUp * (height / 2f - yOffset)        // Near top edge
+                    - boxRight * (width / 2f - xOffset);     // Near left edge
+
+                boxInstance.labelTransform.position = labelWorldPos;
+
+                Debug.Log($"[3D Label] {detection.class_name} | Box world pos: {boxPosition} | " +
+                         $"Label world pos: {labelWorldPos} | Box size: {width:F3}x{height:F3}");
+
+                // Make sure label is active and visible
                 boxInstance.label.gameObject.SetActive(true);
-                boxInstance.label.transform.localPosition = new Vector3(0, halfSize.y + 0.05f, 0);
             }
             else if (boxInstance.label != null)
             {
@@ -257,16 +280,39 @@ namespace ARObjectDetection
         private void ReturnBoxToPool(BoundingBox3DInstance box)
         {
             box.gameObject.SetActive(false);
+            if (box.labelTransform != null)
+            {
+                box.labelTransform.gameObject.SetActive(false);
+            }
             boxPool.Enqueue(box);
         }
 
         private BoundingBox3DInstance CreatePooledBox()
         {
             GameObject boxObj;
+            GameObject labelObj;  // Declare here so it's accessible throughout
 
             if (boundingBox3DPrefab != null)
             {
                 boxObj = Instantiate(boundingBox3DPrefab, transform);
+
+                // Create label separately
+                labelObj = new GameObject("Label");
+                labelObj.transform.SetParent(transform);
+                labelObj.transform.localPosition = Vector3.zero;
+                labelObj.transform.localRotation = Quaternion.identity;
+                labelObj.transform.localScale = Vector3.one;
+
+                TextMeshPro tmp = labelObj.AddComponent<TextMeshPro>();
+                tmp.fontSize = 1.0f;
+                tmp.alignment = TextAlignmentOptions.Center;
+                tmp.color = Color.white;
+                tmp.fontStyle = FontStyles.Bold;
+                tmp.enableAutoSizing = false;
+                tmp.overflowMode = TextOverflowModes.Overflow;
+                tmp.sortingOrder = 100;
+
+                labelObj.AddComponent<Billboard>();
             }
             else
             {
@@ -291,26 +337,41 @@ namespace ARObjectDetection
                     lr.useWorldSpace = false;
                 }
 
-                // Create label
-                GameObject labelObj = new GameObject("Label");
-                labelObj.transform.SetParent(boxObj.transform);
+                // Create label - SEPARATE from box, not a child
+                labelObj = new GameObject("Label");
+                labelObj.transform.SetParent(transform);  // Parent to visualizer, NOT the box
+                labelObj.transform.localPosition = Vector3.zero;
+                labelObj.transform.localRotation = Quaternion.identity;
+                labelObj.transform.localScale = Vector3.one;
 
                 TextMeshPro tmp = labelObj.AddComponent<TextMeshPro>();
-                tmp.fontSize = 2.0f;
-                tmp.alignment = TextAlignmentOptions.Center;
+                tmp.fontSize = 0.15f;  // Smaller font size for better scaling
+                tmp.alignment = TextAlignmentOptions.Center;  // Center alignment
                 tmp.color = Color.white;
+                tmp.fontStyle = FontStyles.Bold;
 
+                // Ensure proper rendering
+                tmp.enableAutoSizing = false;
+                tmp.overflowMode = TextOverflowModes.Overflow;
+                tmp.sortingOrder = 100;  // Render on top
+
+                // Add Billboard so it faces camera
                 labelObj.AddComponent<Billboard>();
+
+                // Store reference to label GameObject in box instance
+                boxObj.GetComponent<Transform>().SetSiblingIndex(0);  // Keep organized
             }
 
             boxObj.SetActive(false);
+            labelObj.SetActive(false);
 
             BoundingBox3DInstance boxInstance = new BoundingBox3DInstance
             {
                 gameObject = boxObj,
                 transform = boxObj.transform,
                 lineRenderers = boxObj.GetComponentsInChildren<LineRenderer>(),
-                label = boxObj.GetComponentInChildren<TextMeshPro>()
+                label = labelObj.GetComponent<TextMeshPro>(),
+                labelTransform = labelObj.transform
             };
 
             if (boxInstance.lineRenderers == null || boxInstance.lineRenderers.Length < 4)
@@ -329,6 +390,7 @@ namespace ARObjectDetection
             public Transform transform;
             public LineRenderer[] lineRenderers;
             public TextMeshPro label;
+            public Transform labelTransform;  // Separate transform for label
             public float spawnTime;
         }
     }
