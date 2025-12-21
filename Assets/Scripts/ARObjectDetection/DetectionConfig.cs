@@ -47,8 +47,11 @@ namespace ARObjectDetection
                     public bool enablePerformanceLogging = true;
 
                     [Header("Visualization")]
-                    [Tooltip("Show bounding boxes")]
-                    public bool showBoundingBoxes = true;
+                    [Tooltip("Show 2D bounding boxes (canvas overlay)")]
+                    public bool show2DBoundingBoxes = false;
+
+                    [Tooltip("Show 3D bounding boxes (world space - recommended for VR)")]
+                    public bool show3DBoundingBoxes = true;
 
                     [Tooltip("Show class labels")]
                     public bool showLabels = true;

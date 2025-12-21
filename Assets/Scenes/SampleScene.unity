@@ -719,6 +719,7 @@ MonoBehaviour:
   config: {fileID: 11400000, guid: ba3e53480d79356418d5a175eb034cd2, type: 2}
   webCamTextureManager: {fileID: 1964602101}
   visualizer: {fileID: 638982208}
+  visualizer3D: {fileID: 691523316}
   OnDetectionReceived:
     m_PersistentCalls:
       m_Calls: []
@@ -735,6 +736,60 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &691523315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 691523317}
+  - component: {fileID: 691523316}
+  m_Layer: 0
+  m_Name: DetectionVisualizer3D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &691523316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691523315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338f74a138cba6d47aa8ab402898f350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.DetectionVisualizer3D
+  boundingBox3DPrefab: {fileID: 3576889671484563757, guid: ba8c30fb2a2ad0e45a9fe96feb7d401c, type: 3}
+  config: {fileID: 11400000, guid: ba3e53480d79356418d5a175eb034cd2, type: 2}
+  cameraEye: 0
+  defaultDepth: 2
+  boxThickness: 0.01
+  raycastLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  maxRaycastDistance: 10
+  boxLifetime: 0.5
+--- !u!4 &691523317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691523315}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: -0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1718,3 +1773,4 @@ SceneRoots:
   - {fileID: 1337484356}
   - {fileID: 1765160975}
   - {fileID: 638982209}
+  - {fileID: 691523317}

@@ -19716,7 +19716,7 @@ IL2CPP_EXTERN_C  bool OVRAnchor_TryGetComponent_TisIl2CppFullySharedGenericStruc
 	_returnValue = OVRAnchor_TryGetComponent_TisIl2CppFullySharedGenericStruct_mCDB73A75601FE3FAF9244339014AC4C283D10B00(_thisAdjusted, ___0_component, method);
 	return _returnValue;
 }
-// Method Definition Index: 115783
+// Method Definition Index: 115798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* OVRBodyPoseSkeletonProvider_U3COVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseDataU3Eg__EnsureLengthU7C9_0_TisIl2CppFullySharedGenericAny_mF287C60739A9FCC1CA7B1C3D8A681634186DC16B_gshared (__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* ___0_array, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -19751,7 +19751,7 @@ IL_0010:
 		return L_5;
 	}
 }
-// Method Definition Index: 115783
+// Method Definition Index: 115798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* OVRBodyPoseSkeletonProvider_U3COVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseDataU3Eg__EnsureLengthU7C9_0_TisQuatf_t5347392804DF5326AF790F82E4EDE1578FED682A_mCA8BA1260747792FAA1A4A8FC37F30985674DF42_gshared (QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* ___0_array, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -19786,7 +19786,7 @@ IL_0010:
 		return L_5;
 	}
 }
-// Method Definition Index: 115783
+// Method Definition Index: 115798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E* OVRBodyPoseSkeletonProvider_U3COVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseDataU3Eg__EnsureLengthU7C9_0_TisVector3f_t232AF83B4642C67BE8EFF85D8E1599D3B06BD562_m785C47E88ED1137FE59B7D9B993062CC2ADB013A_gshared (Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E* ___0_array, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -31638,7 +31638,7 @@ IL_003b:
 		return;
 	}
 }
-// Method Definition Index: 114570
+// Method Definition Index: 113147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PassthroughCameraUtils_GetCameraValueByKey_TisRuntimeObject_m3D7DC9887FEF171E5D3F59C180EBCB5544786A32_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_cameraCharacteristics, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___1_key, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -31662,7 +31662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PassthroughCameraUtils_GetCame
 		return L_4;
 	}
 }
-// Method Definition Index: 114569
+// Method Definition Index: 113146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PassthroughCameraUtils_GetCameraValueByKey_TisRuntimeObject_mC9E129D5050F3B452BE3DB971D2548D50F0319A2_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_cameraCharacteristics, String_t* ___1_keyStr, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -31732,7 +31732,7 @@ IL_001c:
 		return L_8;
 	}
 }
-// Method Definition Index: 114570
+// Method Definition Index: 113147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PassthroughCameraUtils_GetCameraValueByKey_TisIl2CppFullySharedGenericAny_m48DF14D245A8036E57B9DDF8398B805A924B96EF_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_cameraCharacteristics, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___1_key, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -31758,7 +31758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PassthroughCameraUtils_GetCameraValueByK
 		return;
 	}
 }
-// Method Definition Index: 114569
+// Method Definition Index: 113146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PassthroughCameraUtils_GetCameraValueByKey_TisIl2CppFullySharedGenericAny_m3C91BC6771CD716E6660F14921BBD3E0C23F27C5_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_cameraCharacteristics, String_t* ___1_keyStr, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))

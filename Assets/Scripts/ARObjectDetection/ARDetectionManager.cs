@@ -16,7 +16,8 @@ namespace ARObjectDetection
 
         [Header("References")]
         [SerializeField] private WebCamTextureManager webCamTextureManager;
-        [SerializeField] private DetectionVisualizer visualizer;
+        [SerializeField] private DetectionVisualizer visualizer; // 2D visualizer (optional)
+        [SerializeField] private DetectionVisualizer3D visualizer3D; // 3D visualizer (recommended for VR)
 
         [Header("Events")]
         public UnityEvent<DetectionResponse> OnDetectionReceived;
@@ -192,8 +193,12 @@ namespace ARObjectDetection
                 response.count = response.detections.Count;
             }
 
-            // Visualize detections
-            if (visualizer != null)
+            // Visualize detections - prioritize 3D visualizer for VR
+            if (visualizer3D != null)
+            {
+                visualizer3D.ShowDetections(response);
+            }
+            else if (visualizer != null)
             {
                 visualizer.ShowDetections(response);
             }
