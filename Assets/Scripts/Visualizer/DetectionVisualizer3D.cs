@@ -35,6 +35,10 @@ namespace ARObjectDetection
         [Tooltip("Scale multiplier for label size (0.005-0.05 typical range)")]
         [SerializeField] private float labelScale = 0.01f;
 
+        [Header("Label Corner Settings")]
+        [SerializeField] private float labelPadX = 0.02f; // meters
+        [SerializeField] private float labelPadY = 0.02f; // meters
+
         [Header("Performance")]
         [SerializeField] private float boxLifetime = 0.5f;
 
@@ -236,34 +240,30 @@ namespace ARObjectDetection
                 Vector3 boxUp = boxInstance.transform.up;
                 Vector3 boxRight = boxInstance.transform.right;
 
-                // Calculate offset from box center
-                // Y: 0 = top edge, 0.5 = center, 1 = bottom edge
-                // X: 0 = left edge, 0.5 = center, 1 = right edge
+                // Make label pivot top-left so "position" means top-left of the label
+                boxInstance.labelRectTransform.anchorMin = new Vector2(0.5f, 0.5f);
+                boxInstance.labelRectTransform.anchorMax = new Vector2(0.5f, 0.5f);
+                boxInstance.labelRectTransform.pivot = new Vector2(0f, 1f);
 
-                // Convert percentages to actual offsets from center
-                float yOffsetFromCenter = (0.5f - labelOffsetYPercent) * height;
-                float xOffsetFromCenter = (labelOffsetXPercent - 0.5f) * width;
+                // Put label at TOP-LEFT corner of the box (+ small padding outward)
+                Vector3 labelWorldPos =
+                    boxPosition
+                    + boxUp * (height * 0.5f - labelPadY)
+                    - boxRight * (width * 0.5f - labelPadX);
 
-                // Position label relative to box center
-                Vector3 labelWorldPos = boxPosition
-                    + boxUp * yOffsetFromCenter          // Vertical: positive = up
-                    + boxRight * xOffsetFromCenter;      // Horizontal: positive = right
 
                 boxInstance.labelRectTransform.position = labelWorldPos;
 
-                // CRITICAL: Set RectTransform anchors to center for proper positioning
-                // This ensures the label pivots from its center, not its edge
-                boxInstance.labelRectTransform.anchorMin = new Vector2(0.5f, 0.5f);
-                boxInstance.labelRectTransform.anchorMax = new Vector2(0.5f, 0.5f);
-                boxInstance.labelRectTransform.pivot = new Vector2(0.5f, 0.5f);
+                // Optional: align the text itself to match the pivot
+                boxInstance.label.alignment = TMPro.TextAlignmentOptions.TopLeft;
 
-                // Set scale for RectTransform (Billboard script handles rotation)
+                // Scale
                 boxInstance.labelRectTransform.localScale = Vector3.one * labelScale;
+
 
                 Debug.Log($"[3D Label] {detection.class_name} | Box center: {boxPosition} | " +
                          $"Label pos: {labelWorldPos} | Box size: {width:F3}x{height:F3} | " +
-                         $"Y%={labelOffsetYPercent:F2} X%={labelOffsetXPercent:F2} | " +
-                         $"Offsets: Y={yOffsetFromCenter:F3} X={xOffsetFromCenter:F3}");
+                         $"Y%={labelOffsetYPercent:F2} X%={labelOffsetXPercent:F2} | ");
 
                 // Make sure label is active and visible
                 boxInstance.label.gameObject.SetActive(true);

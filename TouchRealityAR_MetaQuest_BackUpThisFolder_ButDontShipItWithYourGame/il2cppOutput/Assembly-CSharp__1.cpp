@@ -476,7 +476,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9CCA33182CDB2EB3D541428D0388B818284F799E
 IL2CPP_EXTERN_C String_t* _stringLiteral9F6597CE72F00F87B9BFD288E1E48ED6185F2991;
 IL2CPP_EXTERN_C String_t* _stringLiteral9FC59D8986B846D2BF95AF308D4A1BDF1803347C;
 IL2CPP_EXTERN_C String_t* _stringLiteralA0135A0F06EE8BC9925F823ACF3EE6C01429E13A;
-IL2CPP_EXTERN_C String_t* _stringLiteralA5196A1AE941398EE83AB48DB8CAED3B8B4601E3;
 IL2CPP_EXTERN_C String_t* _stringLiteralA5C1C9B7F0D25692EC34C537DAE41CD62C1046C8;
 IL2CPP_EXTERN_C String_t* _stringLiteralA7246FDB73E1D62BD2462B3D6BEECCA98E9E714E;
 IL2CPP_EXTERN_C String_t* _stringLiteralA7F00519435FC33A7E48F0FCF6CB6D9B257C0DAA;
@@ -2861,6 +2860,8 @@ struct DetectionVisualizer3D_t2F9642D6A405790EF31C6ED7CF2A0329FE220DEA  : public
 	float ___labelOffsetYPercent;
 	float ___labelOffsetXPercent;
 	float ___labelScale;
+	float ___labelPadX;
+	float ___labelPadY;
 	float ___boxLifetime;
 	List_1_t5170C39D6BA94E82904F3A21598039150507687C* ___activeBoxes;
 	Queue_1_t0D58DD64D87E68DF6497B6F21DF0927EFF00A573* ___boxPool;
@@ -4951,6 +4952,7 @@ inline void List_1_Add_m21A89691B26B32A370D29772080D8CB3A6FE1DEE_inline (List_1_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_DrawBoxEdge_mC92AF8629C7FC7A62AF39660D021B78082DD17C9 (DetectionVisualizer3D_t2F9642D6A405790EF31C6ED7CF2A0329FE220DEA* __this, LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ___0_lineRenderer, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_start, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_end, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_right_mC6DC057C23313802E2186A9E0DB760D795A758A4 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_set_alignment_mE5216A28797987CC19927ED3CB8DFAC438C6B95A (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_positionCount_m2001FB4044053895ECBE897AB833284F3300B205 (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_SetPosition_m84C4AD9ADC6AC62B33DB4D7E4C9F066DFF8440C1 (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, int32_t ___0_index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, const RuntimeMethod* method) ;
@@ -11684,24 +11686,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_Awake_m0D742FF781E
 	Exception_t* V_1 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:51>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:55>
 		V_0 = 0;
 		goto IL_000f;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:53>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:57>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_0;
 		L_0 = DetectionVisualizer3D_CreatePooledBox_m7AA4FC827DAFDE8C9795043277404C0F69529B1C(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:51>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:55>
 		int32_t L_1 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_1, 1));
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:51>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:55>
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) < ((int32_t)((int32_t)10))))
 		{
@@ -11712,7 +11714,7 @@ IL_000f:
 	}
 	try
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:59>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:63>
 		int32_t L_3 = __this->___cameraEye;
 		il2cpp_codegen_runtime_class_init_inline(PassthroughCameraUtils_t53621E98D78AE94A45CDDF693DBE3D45048FA781_il2cpp_TypeInfo_var);
 		PassthroughCameraIntrinsics_t8DC84E2EDD1EBA25AB9C273B15CBDBB84F158D0A L_4;
@@ -11721,9 +11723,9 @@ IL_000f:
 		memset((&L_5), 0, sizeof(L_5));
 		Nullable_1__ctor_mD16DDDB5AB7317B2EFB531B8F8CEA04C22CAF210((&L_5), L_4, Nullable_1__ctor_mD16DDDB5AB7317B2EFB531B8F8CEA04C22CAF210_RuntimeMethod_var);
 		__this->___cameraIntrinsics = L_5;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:60>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:61>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:62>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:64>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:65>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:66>
 		Nullable_1_tE7FF8FF8BFE400052A04DA668A55B26A7EE69442* L_6 = (Nullable_1_tE7FF8FF8BFE400052A04DA668A55B26A7EE69442*)(&__this->___cameraIntrinsics);
 		PassthroughCameraIntrinsics_t8DC84E2EDD1EBA25AB9C273B15CBDBB84F158D0A L_7;
 		L_7 = Nullable_1_get_Value_m22BF3E9CE720FAB1D6C311B97B34D9DD8B3BFED9(L_6, Nullable_1_get_Value_m22BF3E9CE720FAB1D6C311B97B34D9DD8B3BFED9_RuntimeMethod_var);
@@ -11768,7 +11770,7 @@ IL_000f:
 		L_38 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_11, L_24, L_37, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_38, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:63>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:67>
 		goto IL_00ea;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -11784,9 +11786,9 @@ IL_000f:
 CATCH_00d2:
 	{
 		Exception_t* L_39 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:64>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:68>
 		V_1 = L_39;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:66>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:70>
 		Exception_t* L_40 = V_1;
 		NullCheck(L_40);
 		String_t* L_41;
@@ -11795,14 +11797,14 @@ CATCH_00d2:
 		L_42 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral207EB82A8EEAA4C061DD2309BB80D52415C0EE96)), L_41, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_42, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:67>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:71>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00ea;
 	}
 
 IL_00ea:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:68>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:72>
 		return;
 	}
 }
@@ -11820,7 +11822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_Update_m2E03A21420
 	int32_t V_0 = 0;
 	BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* V_1 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:73>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:77>
 		List_1_t5170C39D6BA94E82904F3A21598039150507687C* L_0 = __this->___activeBoxes;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -11831,14 +11833,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_Update_m2E03A21420
 
 IL_0010:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:75>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:79>
 		List_1_t5170C39D6BA94E82904F3A21598039150507687C* L_2 = __this->___activeBoxes;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_4;
 		L_4 = List_1_get_Item_mB616F140D679FC2F3A82B8F7FFB63FF8E45B9815(L_2, L_3, List_1_get_Item_mB616F140D679FC2F3A82B8F7FFB63FF8E45B9815_RuntimeMethod_var);
 		V_1 = L_4;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:76>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:80>
 		float L_5;
 		L_5 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_6 = V_1;
@@ -11851,10 +11853,10 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:78>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:82>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_9 = V_1;
 		DetectionVisualizer3D_ReturnBoxToPool_mAAD14249748658E1823250671876F48AE1A5CCCA(__this, L_9, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:79>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:83>
 		List_1_t5170C39D6BA94E82904F3A21598039150507687C* L_10 = __this->___activeBoxes;
 		int32_t L_11 = V_0;
 		NullCheck(L_10);
@@ -11863,14 +11865,14 @@ IL_0010:
 
 IL_0044:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:73>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:77>
 		int32_t L_12 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_12, 1));
 	}
 
 IL_0048:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:73>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:77>
 		int32_t L_13 = V_0;
 		if ((((int32_t)L_13) >= ((int32_t)0)))
 		{
@@ -11878,7 +11880,7 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:82>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:86>
 		return;
 	}
 }
@@ -11912,7 +11914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_ShowDetections_m5A
 	memset((&V_3), 0, sizeof(V_3));
 	Detection_tA37171994216D2B7EFE0F34FFE3D30FF88723940* V_4 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:86>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:90>
 		DetectionResponse_t09FDCD95E147F53F14E795C07DA32BF441300247* L_0 = ___0_response;
 		if (!L_0)
 		{
@@ -11940,13 +11942,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_ShowDetections_m5A
 
 IL_0018:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:87>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:91>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:89>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:93>
 		Nullable_1_tE7FF8FF8BFE400052A04DA668A55B26A7EE69442* L_5 = (Nullable_1_tE7FF8FF8BFE400052A04DA668A55B26A7EE69442*)(&__this->___cameraIntrinsics);
 		bool L_6;
 		L_6 = Nullable_1_get_HasValue_mB98F8AFCF2336A314FE33B0FFBB3783AB87368D8_inline(L_5, Nullable_1_get_HasValue_mB98F8AFCF2336A314FE33B0FFBB3783AB87368D8_RuntimeMethod_var);
@@ -11956,18 +11958,18 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:91>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:95>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralFE3405ECF15630E55D2D4C25DF53BB7BFC23E8E0, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:92>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:96>
 		return;
 	}
 
 IL_0031:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:95>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:99>
 		DetectionVisualizer3D_ClearAllBoxes_m1FD22063EB6658DE7762E92B614F8FD742B37441(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:97>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:101>
 		DetectionResponse_t09FDCD95E147F53F14E795C07DA32BF441300247* L_7 = ___0_response;
 		NullCheck(L_7);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = L_7->___image_size;
@@ -11989,16 +11991,16 @@ IL_0031:
 
 IL_004a:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:99>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:103>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralFAAF955EA1FED18A2C4973C6C5A73F9778D00078, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:100>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:104>
 		return;
 	}
 
 IL_0055:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:103>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:107>
 		DetectionResponse_t09FDCD95E147F53F14E795C07DA32BF441300247* L_11 = ___0_response;
 		NullCheck(L_11);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = L_11->___image_size;
@@ -12006,7 +12008,7 @@ IL_0055:
 		int32_t L_13 = 0;
 		int32_t L_14 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
 		V_0 = L_14;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:104>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:108>
 		DetectionResponse_t09FDCD95E147F53F14E795C07DA32BF441300247* L_15 = ___0_response;
 		NullCheck(L_15);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = L_15->___image_size;
@@ -12014,12 +12016,12 @@ IL_0055:
 		int32_t L_17 = 1;
 		int32_t L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
 		V_1 = L_18;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:106>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:110>
 		Nullable_1_tE7FF8FF8BFE400052A04DA668A55B26A7EE69442* L_19 = (Nullable_1_tE7FF8FF8BFE400052A04DA668A55B26A7EE69442*)(&__this->___cameraIntrinsics);
 		PassthroughCameraIntrinsics_t8DC84E2EDD1EBA25AB9C273B15CBDBB84F158D0A L_20;
 		L_20 = Nullable_1_get_Value_m22BF3E9CE720FAB1D6C311B97B34D9DD8B3BFED9(L_19, Nullable_1_get_Value_m22BF3E9CE720FAB1D6C311B97B34D9DD8B3BFED9_RuntimeMethod_var);
 		V_2 = L_20;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:109>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:113>
 		int32_t L_21 = V_0;
 		Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* L_22 = (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A*)(&(&V_2)->___Resolution);
 		int32_t L_23;
@@ -12042,11 +12044,11 @@ IL_0055:
 
 IL_0091:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:111>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:112>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:113>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:114>
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:115>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:116>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:117>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:118>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:119>
 		int32_t L_27 = V_0;
 		int32_t L_28 = L_27;
 		RuntimeObject* L_29 = Box(il2cpp_defaults.int32_class, &L_28);
@@ -12071,13 +12073,13 @@ IL_0091:
 		L_43 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral56710317A05B2D8F17EEB8BAE4770B8A8001CC76, L_33, L_42, _stringLiteral959B93DDC77EFCB183866113591076B406444EFF, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_43, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:116>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:120>
 		return;
 	}
 
 IL_00e8:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:119>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:123>
 		DetectionResponse_t09FDCD95E147F53F14E795C07DA32BF441300247* L_44 = ___0_response;
 		NullCheck(L_44);
 		int32_t L_45 = L_44->___count;
@@ -12093,7 +12095,7 @@ IL_00e8:
 		L_54 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral8883F9895D76B53F91607B53736ED207CBA864A3, L_47, L_50, L_53, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_54, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:121>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:125>
 		DetectionResponse_t09FDCD95E147F53F14E795C07DA32BF441300247* L_55 = ___0_response;
 		NullCheck(L_55);
 		List_1_t51B97A29B17803531BF6BA187757ED4BD9988AB8* L_56 = L_55->___detections;
@@ -12120,11 +12122,11 @@ FINALLY_014f:
 
 IL_011c_1:
 			{
-				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:121>
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:125>
 				Detection_tA37171994216D2B7EFE0F34FFE3D30FF88723940* L_58;
 				L_58 = Enumerator_get_Current_mCED8A57070A2C4B1907B5288CCF68CC2A3B1B007_inline((&V_3), Enumerator_get_Current_mCED8A57070A2C4B1907B5288CCF68CC2A3B1B007_RuntimeMethod_var);
 				V_4 = L_58;
-				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:123>
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:127>
 				Detection_tA37171994216D2B7EFE0F34FFE3D30FF88723940* L_59 = V_4;
 				NullCheck(L_59);
 				SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_60 = L_59->___bbox;
@@ -12144,7 +12146,7 @@ IL_011c_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:126>
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:130>
 				Detection_tA37171994216D2B7EFE0F34FFE3D30FF88723940* L_63 = V_4;
 				int32_t L_64 = V_0;
 				int32_t L_65 = V_1;
@@ -12153,7 +12155,7 @@ IL_011c_1:
 
 IL_0144_1:
 			{
-				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:121>
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:125>
 				bool L_66;
 				L_66 = Enumerator_MoveNext_mB7CFDEA663686A1A73806B9C9D6D75D69A1A5C50((&V_3), Enumerator_MoveNext_mB7CFDEA663686A1A73806B9C9D6D75D69A1A5C50_RuntimeMethod_var);
 				if (L_66)
@@ -12173,7 +12175,7 @@ IL_0144_1:
 
 IL_015d:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:128>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:132>
 		return;
 	}
 }
@@ -12225,12 +12227,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_ShowBoundingBox3D_
 	float V_12 = 0.0f;
 	BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* V_13 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:132>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:136>
 		Nullable_1_tE7FF8FF8BFE400052A04DA668A55B26A7EE69442* L_0 = (Nullable_1_tE7FF8FF8BFE400052A04DA668A55B26A7EE69442*)(&__this->___cameraIntrinsics);
 		PassthroughCameraIntrinsics_t8DC84E2EDD1EBA25AB9C273B15CBDBB84F158D0A L_1;
 		L_1 = Nullable_1_get_Value_m22BF3E9CE720FAB1D6C311B97B34D9DD8B3BFED9(L_0, Nullable_1_get_Value_m22BF3E9CE720FAB1D6C311B97B34D9DD8B3BFED9_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:135>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:139>
 		Detection_tA37171994216D2B7EFE0F34FFE3D30FF88723940* L_2 = ___0_detection;
 		NullCheck(L_2);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3 = L_2->___bbox;
@@ -12238,7 +12240,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_ShowBoundingBox3D_
 		int32_t L_4 = 0;
 		float L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_1 = L_5;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:136>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:140>
 		Detection_tA37171994216D2B7EFE0F34FFE3D30FF88723940* L_6 = ___0_detection;
 		NullCheck(L_6);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_7 = L_6->___bbox;
@@ -12246,7 +12248,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_ShowBoundingBox3D_
 		int32_t L_8 = 1;
 		float L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
 		V_2 = L_9;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:137>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:141>
 		Detection_tA37171994216D2B7EFE0F34FFE3D30FF88723940* L_10 = ___0_detection;
 		NullCheck(L_10);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_11 = L_10->___bbox;
@@ -12254,7 +12256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_ShowBoundingBox3D_
 		int32_t L_12 = 2;
 		float L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
 		V_3 = L_13;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:138>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:142>
 		Detection_tA37171994216D2B7EFE0F34FFE3D30FF88723940* L_14 = ___0_detection;
 		NullCheck(L_14);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_15 = L_14->___bbox;
@@ -12262,18 +12264,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_ShowBoundingBox3D_
 		int32_t L_16 = 3;
 		float L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
 		V_4 = L_17;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:142>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:146>
 		int32_t L_18 = ___2_imageHeight;
 		float L_19 = V_2;
 		V_2 = ((float)il2cpp_codegen_subtract(((float)L_18), L_19));
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:143>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:147>
 		int32_t L_20 = ___2_imageHeight;
 		float L_21 = V_4;
 		V_4 = ((float)il2cpp_codegen_subtract(((float)L_20), L_21));
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:146>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:147>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:148>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:149>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:150>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:151>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:152>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:153>
 		float L_22 = V_1;
 		float L_23 = V_3;
 		int32_t L_24;
@@ -12283,11 +12285,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_ShowBoundingBox3D_
 		int32_t L_27;
 		L_27 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(((float)(((float)il2cpp_codegen_add(L_25, L_26))/(2.0f))), NULL);
 		Vector2Int__ctor_mC20D1312133EB8CB63EC11067088B043660F11CE_inline((&V_5), L_24, L_27, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:151>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:152>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:153>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:154>
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:155>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:156>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:157>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:158>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:159>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)7);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_29 = L_28;
 		NullCheck(L_29);
@@ -12421,15 +12423,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_ShowBoundingBox3D_
 		L_103 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_92, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_103, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:159>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:163>
 		int32_t L_104 = __this->___cameraEye;
 		Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A L_105 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(PassthroughCameraUtils_t53621E98D78AE94A45CDDF693DBE3D45048FA781_il2cpp_TypeInfo_var);
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_106;
 		L_106 = PassthroughCameraUtils_ScreenPointToRayInWorld_mA349190ADEFF444AD7EF6CE90FD39988AD52C837(L_104, L_105, NULL);
 		V_6 = L_106;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:161>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:162>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:165>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:166>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_107;
 		L_107 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline((&V_6), NULL);
 		float L_108 = L_107.___x;
@@ -12467,10 +12469,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_ShowBoundingBox3D_
 		String_t* L_133;
 		L_133 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_119, L_132, NULL);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_133, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:165>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:169>
 		float L_134 = __this->___defaultDepth;
 		V_7 = L_134;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:168>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:172>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_135 = V_6;
 		float L_136 = __this->___maxRaycastDistance;
 		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_137 = __this->___raycastLayers;
@@ -12485,15 +12487,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_ShowBoundingBox3D_
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:170>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:174>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_140;
 		L_140 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_9), NULL);
 		V_8 = L_140;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:171>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:175>
 		float L_141;
 		L_141 = RaycastHit_get_distance_m035194B0E9BB6229259CFC43B095A9C8E5011C78((&V_9), NULL);
 		V_7 = L_141;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:172>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:176>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_142;
 		L_142 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_9), NULL);
 		NullCheck(L_142);
@@ -12511,7 +12513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_ShowBoundingBox3D_
 
 IL_024a:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:176>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:180>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_148;
 		L_148 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline((&V_6), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_149;
@@ -12522,7 +12524,7 @@ IL_024a:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_152;
 		L_152 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_148, L_151, NULL);
 		V_8 = L_152;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:177>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:181>
 		float L_153 = __this->___defaultDepth;
 		float L_154 = L_153;
 		RuntimeObject* L_155 = Box(il2cpp_defaults.single_class, &L_154);
@@ -12534,29 +12536,29 @@ IL_024a:
 
 IL_0284:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:182>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:186>
 		float L_157 = V_3;
 		float L_158 = V_1;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:183>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:187>
 		float L_159 = V_4;
 		float L_160 = V_2;
 		float L_161;
 		L_161 = fabsf(((float)il2cpp_codegen_subtract(L_159, L_160)));
 		V_10 = L_161;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:185>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:189>
 		float L_162 = V_7;
 		PassthroughCameraIntrinsics_t8DC84E2EDD1EBA25AB9C273B15CBDBB84F158D0A L_163 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_164 = L_163.___FocalLength;
 		float L_165 = L_164.___x;
 		V_11 = ((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_157, L_158)), L_162))/L_165));
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:186>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:190>
 		float L_166 = V_10;
 		float L_167 = V_7;
 		PassthroughCameraIntrinsics_t8DC84E2EDD1EBA25AB9C273B15CBDBB84F158D0A L_168 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_169 = L_168.___FocalLength;
 		float L_170 = L_169.___y;
 		V_12 = ((float)(((float)il2cpp_codegen_multiply(L_166, L_167))/L_170));
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:188>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:192>
 		float L_171 = V_11;
 		float L_172 = L_171;
 		RuntimeObject* L_173 = Box(il2cpp_defaults.single_class, &L_172);
@@ -12570,18 +12572,18 @@ IL_0284:
 		L_180 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralAACB1F7E3E7A166E413009619D597B7541BED8C1, L_173, L_176, L_179, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_180, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:191>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:195>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_181;
 		L_181 = DetectionVisualizer3D_GetBoxFromPool_mF07A4178F116B88DB3BE52885220E451927D675A(__this, NULL);
 		V_13 = L_181;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:193>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:197>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_182 = V_13;
 		NullCheck(L_182);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_183 = L_182->___transform;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_184 = V_8;
 		NullCheck(L_183);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_183, L_184, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:194>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:198>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_185 = V_13;
 		NullCheck(L_185);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_186 = L_185->___transform;
@@ -12591,37 +12593,37 @@ IL_0284:
 		L_188 = Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7(L_187, NULL);
 		NullCheck(L_186);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_186, L_188, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:197>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:201>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_189 = V_13;
 		float L_190 = V_11;
 		float L_191 = V_12;
 		Detection_tA37171994216D2B7EFE0F34FFE3D30FF88723940* L_192 = ___0_detection;
 		DetectionVisualizer3D_UpdateBox3D_m0839BF45705C5FCB249527ED5C9B45E2F166F39D(__this, L_189, L_190, L_191, L_192, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:199>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:203>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_193 = V_13;
 		NullCheck(L_193);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_194 = L_193->___gameObject;
 		NullCheck(L_194);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_194, (bool)1, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:200>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:204>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_195 = V_13;
 		float L_196;
 		L_196 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		NullCheck(L_195);
 		L_195->___spawnTime = L_196;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:201>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:205>
 		List_1_t5170C39D6BA94E82904F3A21598039150507687C* L_197 = __this->___activeBoxes;
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_198 = V_13;
 		NullCheck(L_197);
 		List_1_Add_m21A89691B26B32A370D29772080D8CB3A6FE1DEE_inline(L_197, L_198, List_1_Add_m21A89691B26B32A370D29772080D8CB3A6FE1DEE_RuntimeMethod_var);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:203>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:207>
 		Detection_tA37171994216D2B7EFE0F34FFE3D30FF88723940* L_199 = ___0_detection;
 		NullCheck(L_199);
 		String_t* L_200 = L_199->___class_name;
 		String_t* L_201;
 		L_201 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral93E70928019E2A8CD3A0633C4B2FD29D74543BA8, L_200, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, NULL);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_201, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:204>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:208>
 		return;
 	}
 }
@@ -12638,7 +12640,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_UpdateBox3D_m0839B
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral477407EFB8E351C3D31501279C21D4635D95D4A7);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55719E09479F7C9204C10563729FF86040D4D3D4);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral765F65C02E3290384DC445E17D72F7117B60A202);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA5196A1AE941398EE83AB48DB8CAED3B8B4601E3);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -12650,19 +12651,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_UpdateBox3D_m0839B
 	memset((&V_3), 0, sizeof(V_3));
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
 	memset((&V_4), 0, sizeof(V_4));
-	float V_5 = 0.0f;
-	float V_6 = 0.0f;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
-	memset((&V_7), 0, sizeof(V_7));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:208>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:212>
 		float L_0 = ___1_width;
 		float L_1 = ___2_height;
 		float L_2 = __this->___boxThickness;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_0), ((float)(L_0/(2.0f))), ((float)(L_1/(2.0f))), ((float)(L_2/(2.0f))), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:211>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:212>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:213>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:215>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:216>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:217>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_3 = ___0_boxInstance;
 		NullCheck(L_3);
 		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_4 = L_3->___lineRenderers;
@@ -12684,9 +12683,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_UpdateBox3D_m0839B
 		memset((&L_16), 0, sizeof(L_16));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_16), L_13, ((-L_15)), (0.0f), NULL);
 		DetectionVisualizer3D_DrawBoxEdge_mC92AF8629C7FC7A62AF39660D021B78082DD17C9(__this, L_6, L_11, L_16, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:214>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:215>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:216>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:218>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:219>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:220>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_17 = ___0_boxInstance;
 		NullCheck(L_17);
 		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_18 = L_17->___lineRenderers;
@@ -12708,9 +12707,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_UpdateBox3D_m0839B
 		memset((&L_30), 0, sizeof(L_30));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_30), L_27, L_29, (0.0f), NULL);
 		DetectionVisualizer3D_DrawBoxEdge_mC92AF8629C7FC7A62AF39660D021B78082DD17C9(__this, L_20, L_25, L_30, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:217>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:218>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:219>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:221>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:222>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:223>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_31 = ___0_boxInstance;
 		NullCheck(L_31);
 		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_32 = L_31->___lineRenderers;
@@ -12732,9 +12731,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_UpdateBox3D_m0839B
 		memset((&L_44), 0, sizeof(L_44));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_44), ((-L_41)), L_43, (0.0f), NULL);
 		DetectionVisualizer3D_DrawBoxEdge_mC92AF8629C7FC7A62AF39660D021B78082DD17C9(__this, L_34, L_39, L_44, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:220>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:221>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:222>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:224>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:225>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:226>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_45 = ___0_boxInstance;
 		NullCheck(L_45);
 		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_46 = L_45->___lineRenderers;
@@ -12756,7 +12755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_UpdateBox3D_m0839B
 		memset((&L_58), 0, sizeof(L_58));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_58), ((-L_55)), ((-L_57)), (0.0f), NULL);
 		DetectionVisualizer3D_DrawBoxEdge_mC92AF8629C7FC7A62AF39660D021B78082DD17C9(__this, L_48, L_53, L_58, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:225>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:229>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_59 = ___0_boxInstance;
 		NullCheck(L_59);
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_60 = L_59->___label;
@@ -12765,7 +12764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_UpdateBox3D_m0839B
 		L_61 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_60, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_61)
 		{
-			goto IL_02d1;
+			goto IL_02c1;
 		}
 	}
 	{
@@ -12774,16 +12773,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_UpdateBox3D_m0839B
 		bool L_63 = L_62->___showLabels;
 		if (!L_63)
 		{
-			goto IL_02d1;
+			goto IL_02c1;
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:227>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:231>
 		Detection_tA37171994216D2B7EFE0F34FFE3D30FF88723940* L_64 = ___3_detection;
 		NullCheck(L_64);
 		String_t* L_65 = L_64->___class_name;
 		V_1 = L_65;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:228>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:232>
 		DetectionConfig_t82AA93F5BF6A6DA84E82C09A023B0956A94CB8A0* L_66 = __this->___config;
 		NullCheck(L_66);
 		bool L_67 = L_66->___showConfidence;
@@ -12793,7 +12792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_UpdateBox3D_m0839B
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:230>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:234>
 		String_t* L_68 = V_1;
 		Detection_tA37171994216D2B7EFE0F34FFE3D30FF88723940* L_69 = ___3_detection;
 		NullCheck(L_69);
@@ -12809,14 +12808,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D_UpdateBox3D_m0839B
 
 IL_0164:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:232>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:236>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_75 = ___0_boxInstance;
 		NullCheck(L_75);
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_76 = L_75->___label;
 		String_t* L_77 = V_1;
 		NullCheck(L_76);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_76, L_77);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:235>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:239>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_78 = ___0_boxInstance;
 		NullCheck(L_78);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_79 = L_78->___transform;
@@ -12824,7 +12823,7 @@ IL_0164:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_80;
 		L_80 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_79, NULL);
 		V_2 = L_80;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:236>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:240>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_81 = ___0_boxInstance;
 		NullCheck(L_81);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_82 = L_81->___transform;
@@ -12832,7 +12831,7 @@ IL_0164:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_83;
 		L_83 = Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2(L_82, NULL);
 		V_3 = L_83;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:237>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:241>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_84 = ___0_boxInstance;
 		NullCheck(L_84);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_85 = L_84->___transform;
@@ -12841,64 +12840,65 @@ IL_0164:
 		L_86 = Transform_get_right_mC6DC057C23313802E2186A9E0DB760D795A758A4(L_85, NULL);
 		V_4 = L_86;
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:244>
-		float L_87 = __this->___labelOffsetYPercent;
-		float L_88 = ___2_height;
-		V_5 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract((0.5f), L_87)), L_88));
+		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_87 = ___0_boxInstance;
+		NullCheck(L_87);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_88 = L_87->___labelRectTransform;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_89;
+		memset((&L_89), 0, sizeof(L_89));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_89), (0.5f), (0.5f), NULL);
+		NullCheck(L_88);
+		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_88, L_89, NULL);
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:245>
-		float L_89 = __this->___labelOffsetXPercent;
-		float L_90 = ___1_width;
-		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_89, (0.5f))), L_90));
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:248>
+		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_90 = ___0_boxInstance;
+		NullCheck(L_90);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_91 = L_90->___labelRectTransform;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_92;
+		memset((&L_92), 0, sizeof(L_92));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_92), (0.5f), (0.5f), NULL);
+		NullCheck(L_91);
+		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_91, L_92, NULL);
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:246>
+		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_93 = ___0_boxInstance;
+		NullCheck(L_93);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_94 = L_93->___labelRectTransform;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_95;
+		memset((&L_95), 0, sizeof(L_95));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_95), (0.0f), (1.0f), NULL);
+		NullCheck(L_94);
+		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_94, L_95, NULL);
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:249>
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:250>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91 = V_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92 = V_3;
-		float L_93 = V_5;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_94;
-		L_94 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_92, L_93, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_95;
-		L_95 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_91, L_94, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_96 = V_4;
-		float L_97 = V_6;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_98;
-		L_98 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_96, L_97, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_99;
-		L_99 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_95, L_98, NULL);
-		V_7 = L_99;
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:251>
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:252>
-		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_100 = ___0_boxInstance;
-		NullCheck(L_100);
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_101 = L_100->___labelRectTransform;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_102 = V_7;
-		NullCheck(L_101);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_101, L_102, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:256>
-		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_103 = ___0_boxInstance;
-		NullCheck(L_103);
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_104 = L_103->___labelRectTransform;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_105;
-		memset((&L_105), 0, sizeof(L_105));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_105), (0.5f), (0.5f), NULL);
-		NullCheck(L_104);
-		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_104, L_105, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:257>
-		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_106 = ___0_boxInstance;
-		NullCheck(L_106);
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_107 = L_106->___labelRectTransform;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_108;
-		memset((&L_108), 0, sizeof(L_108));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_108), (0.5f), (0.5f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_96 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_97 = V_3;
+		float L_98 = ___2_height;
+		float L_99 = __this->___labelPadY;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_100;
+		L_100 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_97, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_98, (0.5f))), L_99)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_101;
+		L_101 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_96, L_100, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_102 = V_4;
+		float L_103 = ___1_width;
+		float L_104 = __this->___labelPadX;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_105;
+		L_105 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_102, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_103, (0.5f))), L_104)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_106;
+		L_106 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_101, L_105, NULL);
+		V_5 = L_106;
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:255>
+		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_107 = ___0_boxInstance;
 		NullCheck(L_107);
-		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_107, L_108, NULL);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_108 = L_107->___labelRectTransform;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_109 = V_5;
+		NullCheck(L_108);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_108, L_109, NULL);
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:258>
-		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_109 = ___0_boxInstance;
-		NullCheck(L_109);
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_110 = L_109->___labelRectTransform;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_111;
-		memset((&L_111), 0, sizeof(L_111));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_111), (0.5f), (0.5f), NULL);
+		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_110 = ___0_boxInstance;
 		NullCheck(L_110);
-		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_110, L_111, NULL);
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_111 = L_110->___label;
+		NullCheck(L_111);
+		TMP_Text_set_alignment_mE5216A28797987CC19927ED3CB8DFAC438C6B95A(L_111, ((int32_t)257), NULL);
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:261>
 		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_112 = ___0_boxInstance;
 		NullCheck(L_112);
@@ -12910,7 +12910,6 @@ IL_0164:
 		L_116 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_114, L_115, NULL);
 		NullCheck(L_113);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_113, L_116, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:263>
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:264>
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:265>
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:266>
@@ -12922,7 +12921,7 @@ IL_0164:
 		RuntimeObject* L_121 = Box(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var, &L_120);
 		String_t* L_122;
 		L_122 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral765F65C02E3290384DC445E17D72F7117B60A202, L_118, L_121, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_123 = V_7;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_123 = V_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_124 = L_123;
 		RuntimeObject* L_125 = Box(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var, &L_124);
 		float L_126 = ___1_width;
@@ -12941,57 +12940,49 @@ IL_0164:
 		RuntimeObject* L_138 = Box(il2cpp_defaults.single_class, &L_137);
 		String_t* L_139;
 		L_139 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral55719E09479F7C9204C10563729FF86040D4D3D4, L_135, L_138, NULL);
-		float L_140 = V_5;
-		float L_141 = L_140;
-		RuntimeObject* L_142 = Box(il2cpp_defaults.single_class, &L_141);
-		float L_143 = V_6;
-		float L_144 = L_143;
-		RuntimeObject* L_145 = Box(il2cpp_defaults.single_class, &L_144);
-		String_t* L_146;
-		L_146 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralA5196A1AE941398EE83AB48DB8CAED3B8B4601E3, L_142, L_145, NULL);
-		String_t* L_147;
-		L_147 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_122, L_132, L_139, L_146, NULL);
+		String_t* L_140;
+		L_140 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_122, L_132, L_139, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_147, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_140, NULL);
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:269>
-		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_148 = ___0_boxInstance;
-		NullCheck(L_148);
-		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_149 = L_148->___label;
-		NullCheck(L_149);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_150;
-		L_150 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_149, NULL);
-		NullCheck(L_150);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_150, (bool)1, NULL);
+		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_141 = ___0_boxInstance;
+		NullCheck(L_141);
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_142 = L_141->___label;
+		NullCheck(L_142);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_143;
+		L_143 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_142, NULL);
+		NullCheck(L_143);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_143, (bool)1, NULL);
 		return;
 	}
 
-IL_02d1:
+IL_02c1:
 	{
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:271>
-		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_151 = ___0_boxInstance;
-		NullCheck(L_151);
-		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_152 = L_151->___label;
+		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_144 = ___0_boxInstance;
+		NullCheck(L_144);
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_145 = L_144->___label;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_153;
-		L_153 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_152, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_153)
+		bool L_146;
+		L_146 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_145, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_146)
 		{
-			goto IL_02f0;
+			goto IL_02e0;
 		}
 	}
 	{
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:273>
-		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_154 = ___0_boxInstance;
-		NullCheck(L_154);
-		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_155 = L_154->___label;
-		NullCheck(L_155);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_156;
-		L_156 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_155, NULL);
-		NullCheck(L_156);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_156, (bool)0, NULL);
+		BoundingBox3DInstance_t5BA6BF9C4C2EED30C463AB7E8C9F0D1108B176E6* L_147 = ___0_boxInstance;
+		NullCheck(L_147);
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_148 = L_147->___label;
+		NullCheck(L_148);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_149;
+		L_149 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_148, NULL);
+		NullCheck(L_149);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_149, (bool)0, NULL);
 	}
 
-IL_02f0:
+IL_02e0:
 	{
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:275>
 		return;
@@ -13588,13 +13579,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectionVisualizer3D__ctor_mDECDF53B753
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:36>
 		__this->___labelScale = (0.00999999978f);
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:39>
+		__this->___labelPadX = (0.0199999996f);
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:40>
+		__this->___labelPadY = (0.0199999996f);
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:43>
 		__this->___boxLifetime = (0.5f);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:42>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:46>
 		List_1_t5170C39D6BA94E82904F3A21598039150507687C* L_1 = (List_1_t5170C39D6BA94E82904F3A21598039150507687C*)il2cpp_codegen_object_new(List_1_t5170C39D6BA94E82904F3A21598039150507687C_il2cpp_TypeInfo_var);
 		List_1__ctor_mEEABF9C370C64F188A70B6A86E875382CC030B24(L_1, List_1__ctor_mEEABF9C370C64F188A70B6A86E875382CC030B24_RuntimeMethod_var);
 		__this->___activeBoxes = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___activeBoxes), (void*)L_1);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:43>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Visualizer/DetectionVisualizer3D.cs:47>
 		Queue_1_t0D58DD64D87E68DF6497B6F21DF0927EFF00A573* L_2 = (Queue_1_t0D58DD64D87E68DF6497B6F21DF0927EFF00A573*)il2cpp_codegen_object_new(Queue_1_t0D58DD64D87E68DF6497B6F21DF0927EFF00A573_il2cpp_TypeInfo_var);
 		Queue_1__ctor_m8CEF6A777A34679AFD4AF6A418BE9560668BFA6C(L_2, Queue_1__ctor_m8CEF6A777A34679AFD4AF6A418BE9560668BFA6C_RuntimeMethod_var);
 		__this->___boxPool = L_2;
