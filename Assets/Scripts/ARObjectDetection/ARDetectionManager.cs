@@ -143,11 +143,11 @@ namespace ARObjectDetection
             lastFrameTime = Time.time;
             metrics.totalFramesCaptured++;
 
-            // NEW: Check backpressure BEFORE capture/encode
+            // Check backpressure BEFORE capture/encode
             if (detectionClient.GetPendingRequestCount() >= config.maxPendingRequests)
             {
                 metrics.droppedFrames++;
-                return; // Skip this frame entirely
+                return;
             }
 
             if (frameCaptureService.ShouldCaptureFrame())
@@ -231,39 +231,43 @@ namespace ARObjectDetection
             metrics.successfulDetections++;
             metrics.currentDetectionCount = response.count;
 
-            // Filter by confidence threshold
-            if (config.confidenceThreshold > 0.25f)
-            {
-                response.detections.RemoveAll(d => d.confidence < config.confidenceThreshold);
-                response.count = response.detections.Count;
-            }
+            // DEBUG: Log filter status
+            Debug.Log($"[Filter DEBUG] enableClassFilter={config.enableClassFilter}, classFilter={(config.classFilter != null ? config.classFilter.Length.ToString() : "null")} classes");
 
-            // ====== FIXED: Class filter with proper whitelist ======
+            // ====== CLASS FILTER (WHITELIST) - APPLIED FIRST ======
             if (config.enableClassFilter && config.classFilter != null && config.classFilter.Length > 0)
             {
                 int beforeCount = response.detections.Count;
 
-                // Remove detections that are NOT in the whitelist
+                // Remove detections NOT in whitelist
                 response.detections.RemoveAll(d =>
                 {
-                    // Case-insensitive comparison and handle common variations
+                    // Check if this detection's class is in the allowed list
+                    bool isAllowed = false;
                     string detectionClass = d.class_name.ToLower().Trim();
 
                     foreach (string allowedClass in config.classFilter)
                     {
                         string allowedClassLower = allowedClass.ToLower().Trim();
 
-                        // Exact match
                         if (detectionClass == allowedClassLower)
-                            return false; // Keep this detection
-
-                        // Handle common COCO variations
-                        // "cell phone" vs "cellphone"
-                        if (detectionClass.Replace(" ", "") == allowedClassLower.Replace(" ", ""))
-                            return false;
+                        {
+                            isAllowed = true;
+                            break;
+                        }
                     }
 
-                    return true; // Remove this detection (not in whitelist)
+                    // Log what's being blocked/allowed
+                    if (!isAllowed)
+                    {
+                        Debug.Log($"[Filter] BLOCKED: '{d.class_name}'");
+                    }
+                    else if (config.enablePerformanceLogging)
+                    {
+                        Debug.Log($"[Filter] ALLOWED: '{d.class_name}'");
+                    }
+
+                    return !isAllowed; // Remove if NOT allowed
                 });
 
                 response.count = response.detections.Count;
@@ -271,7 +275,21 @@ namespace ARObjectDetection
                 int filteredCount = beforeCount - response.count;
                 if (filteredCount > 0)
                 {
-                    Debug.Log($"[Filter] Filtered out {filteredCount} objects not in whitelist. Kept: {response.count}");
+                    Debug.Log($"[Filter] Blocked {filteredCount} objects. Kept: {response.count}");
+                }
+            }
+
+            // Filter by confidence threshold (AFTER class filter)
+            if (config.confidenceThreshold > 0.25f)
+            {
+                int beforeConfFilter = response.detections.Count;
+                response.detections.RemoveAll(d => d.confidence < config.confidenceThreshold);
+                response.count = response.detections.Count;
+
+                int confFilteredCount = beforeConfFilter - response.count;
+                if (confFilteredCount > 0)
+                {
+                    Debug.Log($"[Filter] Filtered {confFilteredCount} detections below confidence {config.confidenceThreshold:F2}");
                 }
             }
 
@@ -286,7 +304,15 @@ namespace ARObjectDetection
             {
                 if (visualizer3D != null)
                 {
-                    visualizer3D.ShowTrackedObjects(tracker.ActiveTracks);
+                    // Filter out Lost tracks before visualization
+                    var visibleTracks = tracker.ActiveTracks
+                        .Where(t => t.state != TrackState.Lost)
+                        .ToList();
+
+                    if (visibleTracks.Count > 0)
+                    {
+                        visualizer3D.ShowTrackedObjects(visibleTracks);
+                    }
                 }
 
                 int confirmed = tracker.ConfirmedTrackCount;
@@ -298,9 +324,15 @@ namespace ARObjectDetection
                              $"({confirmed} confirmed, {tentative} tentative)");
                 }
             }
+            else if (visualizer3D != null)
+            {
+                // Clear boxes when no tracks
+                visualizer3D.ClearAllBoxes();
+            }
 
             OnDetectionReceived?.Invoke(response);
         }
+
         private void OnDetectionFailed(string error)
         {
             metrics.failedRequests++;

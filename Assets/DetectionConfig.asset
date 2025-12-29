@@ -19,7 +19,18 @@ MonoBehaviour:
   targetResolution: {x: 640, y: 640}
   jpegQuality: 75
   confidenceThreshold: 0.25
-  classFilter: []
+  enableClassFilter: 1
+  classFilter:
+  - laptop
+  - mouse
+  - keyboard
+  - cell phone
+  - cup
+  - potted plant
+  - bed
+  - car
+  - book
+  - bottle
   maxPendingRequests: 1
   enablePerformanceLogging: 1
   show2DBoundingBoxes: 0

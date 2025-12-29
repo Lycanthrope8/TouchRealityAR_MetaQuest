@@ -308,6 +308,9 @@ extern void ARDetectionManager__ctor_mE29B1B764CF59AA66380D4A7D15FDADEB163D246 (
 extern void ARDetectionManager_U3CCheckServerHealthAndStartU3Eb__29_0_m8E7D68AB80856F3A1149C583D197DADAA546ECF2 (void);
 extern void ARDetectionManager_U3COnDetectionSuccessU3Eb__35_0_mC2CF657798E0DEAF6C74F334A696E63D5E75F3B4 (void);
 extern void ARDetectionManager_U3COnDetectionSuccessU3Eb__35_1_m5FBE073EA6DA8F5611DCA3D3A4F6731D2FF5AF1F (void);
+extern void U3CU3Ec__cctor_m32F23690BA36D78CC337A6517B4A6F9F87EB8937 (void);
+extern void U3CU3Ec__ctor_m20CC27754DE9DDF52EEF7CF3549B8443BC51E330 (void);
+extern void U3CU3Ec_U3COnDetectionSuccessU3Eb__35_2_m473B66CC39B046A2B0FF6EFC0E374490CA6DE265 (void);
 extern void U3CU3Ec__DisplayClass40_0__ctor_mC0BEED030E23344FAFFA15EF09F97136CCEE2CE3 (void);
 extern void U3CU3Ec__DisplayClass40_0_U3CGetTrackByIdU3Eb__0_mB5DEEC212BA156C517E6CEAAF3EB011780BDD42E (void);
 extern void U3CU3Ec__DisplayClass41_0__ctor_m5000DEC075E1512E12A3F9F3F50D87F7F0573170 (void);
@@ -479,7 +482,7 @@ extern void U3CInitializeWebCamTextureU3Ed__12_MoveNext_m45CDC5B283D629D6E7B2357
 extern void U3CInitializeWebCamTextureU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2C6F606A347F4E2CA11D4FE2680C1382BB31CDC1 (void);
 extern void U3CInitializeWebCamTextureU3Ed__12_System_Collections_IEnumerator_Reset_mDB91D3B9389B30DA938D4268E03DFBC7834466E8 (void);
 extern void U3CInitializeWebCamTextureU3Ed__12_System_Collections_IEnumerator_get_Current_m5E304D77D7CFEBE8F7A56CCB9687D0BE8D95030F (void);
-static Il2CppMethodPointer s_methodPointers[474] = 
+static Il2CppMethodPointer s_methodPointers[477] = 
 {
 	WebcamTextureAssigner_Start_m9348192CAD3E9D97F9EA385DF35C875FA24C59D8,
 	WebcamTextureAssigner__ctor_mFB8C66D2C79D2BA88F2A41A1281BD119C7F3E3C4,
@@ -782,6 +785,9 @@ static Il2CppMethodPointer s_methodPointers[474] =
 	ARDetectionManager_U3CCheckServerHealthAndStartU3Eb__29_0_m8E7D68AB80856F3A1149C583D197DADAA546ECF2,
 	ARDetectionManager_U3COnDetectionSuccessU3Eb__35_0_mC2CF657798E0DEAF6C74F334A696E63D5E75F3B4,
 	ARDetectionManager_U3COnDetectionSuccessU3Eb__35_1_m5FBE073EA6DA8F5611DCA3D3A4F6731D2FF5AF1F,
+	U3CU3Ec__cctor_m32F23690BA36D78CC337A6517B4A6F9F87EB8937,
+	U3CU3Ec__ctor_m20CC27754DE9DDF52EEF7CF3549B8443BC51E330,
+	U3CU3Ec_U3COnDetectionSuccessU3Eb__35_2_m473B66CC39B046A2B0FF6EFC0E374490CA6DE265,
 	U3CU3Ec__DisplayClass40_0__ctor_mC0BEED030E23344FAFFA15EF09F97136CCEE2CE3,
 	U3CU3Ec__DisplayClass40_0_U3CGetTrackByIdU3Eb__0_mB5DEEC212BA156C517E6CEAAF3EB011780BDD42E,
 	U3CU3Ec__DisplayClass41_0__ctor_m5000DEC075E1512E12A3F9F3F50D87F7F0573170,
@@ -956,7 +962,7 @@ static Il2CppMethodPointer s_methodPointers[474] =
 	U3CInitializeWebCamTextureU3Ed__12_System_Collections_IEnumerator_Reset_mDB91D3B9389B30DA938D4268E03DFBC7834466E8,
 	U3CInitializeWebCamTextureU3Ed__12_System_Collections_IEnumerator_get_Current_m5E304D77D7CFEBE8F7A56CCB9687D0BE8D95030F,
 };
-static const int32_t s_InvokerIndices[474] = 
+static const int32_t s_InvokerIndices[477] = 
 {
 	19068,
 	19292,
@@ -1259,6 +1265,9 @@ static const int32_t s_InvokerIndices[474] =
 	14550,
 	10637,
 	10637,
+	31267,
+	19292,
+	10637,
 	19292,
 	10637,
 	19292,
@@ -1435,8 +1444,8 @@ static const int32_t s_InvokerIndices[474] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[2] = 
 {
-	{ 0x060001C5, { 0, 2 } },
-	{ 0x060001C6, { 2, 2 } },
+	{ 0x060001C8, { 0, 2 } },
+	{ 0x060001C9, { 2, 2 } },
 };
 extern const uint32_t g_rgctx_PassthroughCameraUtils_GetCameraValueByKey_TisT_tE0935303ED2C2684C66CEE7DF0694C0D408B833D_m6AA6E615D64C20E2B6A2EBCC202BDF632A8D1A85;
 extern const uint32_t g_rgctx_T_tE0935303ED2C2684C66CEE7DF0694C0D408B833D;
@@ -1453,7 +1462,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	474,
+	477,
 	s_methodPointers,
 	0,
 	NULL,
