@@ -697,6 +697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 670715293}
   - component: {fileID: 670715292}
+  - component: {fileID: 670715294}
   m_Layer: 0
   m_Name: ARDetectionManager
   m_TagString: Untagged
@@ -717,9 +718,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.ARDetectionManager
   config: {fileID: 11400000, guid: ba3e53480d79356418d5a175eb034cd2, type: 2}
+  trackerConfig: {fileID: 11400000, guid: 64fe422d06058a64f9325967bade60e0, type: 2}
   webCamTextureManager: {fileID: 1964602101}
   visualizer: {fileID: 638982208}
   visualizer3D: {fileID: 691523316}
+  tracker: {fileID: 670715294}
   OnDetectionReceived:
     m_PersistentCalls:
       m_Calls: []
@@ -741,6 +744,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &670715294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670715291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5402a3be79d271244aa7eadb2b81417f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.ObjectTracker
+  config: {fileID: 11400000, guid: 64fe422d06058a64f9325967bade60e0, type: 2}
+  detectionConfig: {fileID: 11400000, guid: ba3e53480d79356418d5a175eb034cd2, type: 2}
+  cameraEye: 0
+  defaultDepth: 2
+  raycastLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  maxRaycastDistance: 10
+  manualYOffsetPixels: -160
+  autoCorrectYOffset: 1
+  yOffsetPercentage: 0
 --- !u!1 &691523315
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,7 +808,10 @@ MonoBehaviour:
   labelOffsetYPercent: 0.5
   labelOffsetXPercent: 0.5
   labelScale: 0.02
+  labelPadX: 0.02
+  labelPadY: 0.02
   boxLifetime: 0.5
+  showTentativeTracks: 1
 --- !u!4 &691523317
 Transform:
   m_ObjectHideFlags: 0

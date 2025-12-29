@@ -11,7 +11,7 @@ namespace ARObjectDetection
           {
                     [Header("Server Settings")]
                     [Tooltip("Server URL (e.g., http://192.168.1.100:5000)")]
-                    public string serverUrl = "http://192.168.1.100:5000";
+                    public string serverUrl = "http://10.0.0.93:5000";
 
                     [Tooltip("Request timeout in seconds")]
                     public float requestTimeout = 5f;
@@ -21,8 +21,8 @@ namespace ARObjectDetection
 
                     [Header("Frame Capture Settings")]
                     [Tooltip("Send every Nth frame to server (higher = less frequent, lower bandwidth)")]
-                    [Range(1, 10)]
-                    public int frameCaptureInterval = 3;
+                    [Range(1, 30)]
+                    public int frameCaptureInterval = 6;
 
                     [Tooltip("Target resolution for captured frames")]
                     public Vector2Int targetResolution = new Vector2Int(640, 640);
@@ -36,12 +36,29 @@ namespace ARObjectDetection
                     [Range(0f, 1f)]
                     public float confidenceThreshold = 0.25f;
 
-                    [Tooltip("Filter detections to specific classes (empty = all classes)")]
-                    public string[] classFilter = new string[0];
+                    [Header("Class Filter (Whitelist)")]
+                    [Tooltip("Enable class whitelist filtering")]
+                    public bool enableClassFilter = true;
+
+                    [Tooltip("Only detect these classes (leave empty to detect all)")]
+                    public string[] classFilter = new string[]
+                    {
+                    "laptop",
+                    "mouse",
+                    "keyboard",
+                    "cell phone",
+                    "cup",
+                    "potted plant",
+                    "bed",
+                    "car",
+                    "book",
+                    "bottle"
+                    };
 
                     [Header("Performance")]
-                    [Tooltip("Maximum number of pending requests")]
-                    public int maxPendingRequests = 3;
+                    [Tooltip("Maximum number of pending requests (keep at 1 for best latency)")]
+                    [Range(1, 5)]
+                    public int maxPendingRequests = 1;
 
                     [Tooltip("Enable performance logging")]
                     public bool enablePerformanceLogging = true;

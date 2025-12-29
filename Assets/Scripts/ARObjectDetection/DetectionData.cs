@@ -1,23 +1,21 @@
+// ============================================================================
+// DetectionData.cs - Updated with 3D Bounds
+// ============================================================================
+
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace ARObjectDetection
 {
-    /// <summary>
-    /// Represents a single object detection
-    /// </summary>
     [Serializable]
     public class Detection
     {
-        public float[] bbox;  // [x1, y1, x2, y2] - IN ORIGINAL IMAGE COORDINATES
+        public float[] bbox;
         public float confidence;
         public string class_name;
         public int class_id;
 
-        /// <summary>
-        /// Get bounding box as Rect (x, y, width, height)
-        /// </summary>
         public Rect GetRect()
         {
             if (bbox == null || bbox.Length != 4)
@@ -26,14 +24,11 @@ namespace ARObjectDetection
             return new Rect(
                 bbox[0],
                 bbox[1],
-                bbox[2] - bbox[0],  // width
-                bbox[3] - bbox[1]   // height
+                bbox[2] - bbox[0],
+                bbox[3] - bbox[1]
             );
         }
 
-        /// <summary>
-        /// Get center point of bounding box
-        /// </summary>
         public Vector2 GetCenter()
         {
             if (bbox == null || bbox.Length != 4)
@@ -46,9 +41,6 @@ namespace ARObjectDetection
         }
     }
 
-    /// <summary>
-    /// Preprocessing transform metadata from server
-    /// </summary>
     [Serializable]
     public class PreprocessingTransform
     {
@@ -60,12 +52,9 @@ namespace ARObjectDetection
         public float scale_y;
         public float offset_x;
         public float offset_y;
-        public string method;  // "resize", "letterbox", "crop"
+        public string method;
     }
 
-    /// <summary>
-    /// Server response from detection endpoint
-    /// </summary>
     [Serializable]
     public class DetectionResponse
     {
@@ -73,21 +62,22 @@ namespace ARObjectDetection
         public List<Detection> detections;
         public int count;
         public float inference_time;
-        public int[] image_size;  // [width, height] of ORIGINAL image
-        public int[] processed_size;  // [width, height] sent to YOLO
-        public PreprocessingTransform transform;  // How coordinates were transformed
+        public int[] image_size;
+        public int[] processed_size;
+        public PreprocessingTransform transform;
         public string timestamp;
+
+        // Client metadata
+        public int frame_id;
+        public float capture_time;
     }
 
-    /// <summary>
-    /// Processed detection with 3D information
-    /// </summary>
     public class ProcessedDetection
     {
         public Detection detection;
-        public Ray worldRay;  // Ray from camera through detection center
-        public Vector3? worldPosition;  // If raycasted to surface
-        public float timestamp;  // Time when detected
+        public Ray worldRay;
+        public Vector3? worldPosition;
+        public float timestamp;
 
         public ProcessedDetection(Detection detection, Ray worldRay)
         {
@@ -97,20 +87,20 @@ namespace ARObjectDetection
         }
     }
 
-    /// <summary>
-    /// Performance metrics
-    /// </summary>
     public class DetectionMetrics
     {
         public int totalFramesCaptured;
         public int framesSent;
         public int successfulDetections;
         public int failedRequests;
+        public int droppedFrames;  // NEW: Track frames dropped due to backpressure
         public float averageLatency;
         public float lastLatency;
         public int currentDetectionCount;
         public float captureFrameRate;
         public float sendFrameRate;
+        public int outOfOrderResponses;
+        public int lateResponses;
 
         private List<float> recentLatencies = new List<float>();
         private const int maxLatencySamples = 50;
@@ -135,9 +125,12 @@ namespace ARObjectDetection
             framesSent = 0;
             successfulDetections = 0;
             failedRequests = 0;
+            droppedFrames = 0;
             averageLatency = 0f;
             lastLatency = 0f;
             currentDetectionCount = 0;
+            outOfOrderResponses = 0;
+            lateResponses = 0;
             recentLatencies.Clear();
         }
     }

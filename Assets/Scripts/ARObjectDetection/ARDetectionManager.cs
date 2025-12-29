@@ -2,49 +2,46 @@ using UnityEngine;
 using UnityEngine.Events;
 using PassthroughCameraSamples;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ARObjectDetection
 {
-    /// <summary>
-    /// Main manager for AR object detection system
-    /// Orchestrates frame capture, detection, and visualization
-    /// </summary>
     public class ARDetectionManager : MonoBehaviour
     {
         [Header("Configuration")]
         [SerializeField] private DetectionConfig config;
-
+        [SerializeField] private TrackerConfig trackerConfig;
         [Header("References")]
         [SerializeField] private WebCamTextureManager webCamTextureManager;
-        [SerializeField] private DetectionVisualizer visualizer; // 2D visualizer (optional)
-        [SerializeField] private DetectionVisualizer3D visualizer3D; // 3D visualizer (recommended for VR)
+        [SerializeField] private DetectionVisualizer visualizer;
+        [SerializeField] private DetectionVisualizer3D visualizer3D;
+        [SerializeField] private ObjectTracker tracker;
 
         [Header("Events")]
         public UnityEvent<DetectionResponse> OnDetectionReceived;
         public UnityEvent<string> OnDetectionError;
 
-        // Services
         private FrameCaptureService frameCaptureService;
         private DetectionClient detectionClient;
 
-        // State
         private bool isRunning = false;
         private bool serverHealthy = false;
         private DetectionMetrics metrics = new DetectionMetrics();
 
-        // Current detection data
         private DetectionResponse latestDetection;
         private float lastFrameTime;
         private float lastSendTime;
+        private float lastMetricsLogTime = 0f;
 
         public DetectionMetrics Metrics => metrics;
         public DetectionResponse LatestDetection => latestDetection;
         public bool IsRunning => isRunning;
         public bool ServerHealthy => serverHealthy;
+        public ObjectTracker Tracker => tracker;
 
         private void Awake()
         {
-            // Validate configuration
             if (config == null)
             {
                 Debug.LogError("DetectionConfig is not assigned!");
@@ -52,7 +49,13 @@ namespace ARObjectDetection
                 return;
             }
 
-            // Find WebCamTextureManager if not assigned
+            if (trackerConfig == null)
+            {
+                Debug.LogError("TrackerConfig is not assigned!");
+                enabled = false;
+                return;
+            }
+
             if (webCamTextureManager == null)
             {
                 webCamTextureManager = FindFirstObjectByType<WebCamTextureManager>();
@@ -64,16 +67,25 @@ namespace ARObjectDetection
                 }
             }
 
-            // Initialize services
+            if (tracker == null)
+            {
+                tracker = GetComponent<ObjectTracker>();
+                if (tracker == null)
+                {
+                    Debug.LogError("ObjectTracker component not found!");
+                    enabled = false;
+                    return;
+                }
+            }
+
             frameCaptureService = new FrameCaptureService(config);
             detectionClient = new DetectionClient(config);
 
-            Debug.Log("ARDetectionManager initialized");
+            Debug.Log("ARDetectionManager initialized with 3D IoU tracking and backpressure");
         }
 
         private void Start()
         {
-            // Check server health before starting
             StartCoroutine(CheckServerHealthAndStart());
         }
 
@@ -91,11 +103,7 @@ namespace ARObjectDetection
                 }
                 else
                 {
-                    Debug.LogError($"Server not reachable at {config.serverUrl}. Please check:\n" +
-                                 "1. Server is running (python server.py)\n" +
-                                 "2. Correct IP address in DetectionConfig\n" +
-                                 "3. Quest and PC on same network\n" +
-                                 "4. Firewall allows port 5000");
+                    Debug.LogError($"Server not reachable at {config.serverUrl}");
                 }
             });
         }
@@ -110,7 +118,7 @@ namespace ARObjectDetection
 
             isRunning = true;
             metrics.Reset();
-            Debug.Log("Detection started");
+            Debug.Log("Detection started with 3D IoU tracking and strict backpressure");
         }
 
         public void StopDetection()
@@ -128,7 +136,6 @@ namespace ARObjectDetection
             if (webCamTexture == null || !webCamTexture.isPlaying)
                 return;
 
-            // Update capture frame rate
             if (Time.time - lastFrameTime > 0)
             {
                 metrics.captureFrameRate = 1f / (Time.time - lastFrameTime);
@@ -136,35 +143,72 @@ namespace ARObjectDetection
             lastFrameTime = Time.time;
             metrics.totalFramesCaptured++;
 
-            // Check if we should capture this frame
+            // NEW: Check backpressure BEFORE capture/encode
+            if (detectionClient.GetPendingRequestCount() >= config.maxPendingRequests)
+            {
+                metrics.droppedFrames++;
+                return; // Skip this frame entirely
+            }
+
             if (frameCaptureService.ShouldCaptureFrame())
             {
-                // Capture and send frame
-                byte[] jpegData = frameCaptureService.CaptureFrame(webCamTexture);
+                CapturedFrame capturedFrame = frameCaptureService.CaptureFrameWithMetadata(webCamTexture);
 
-                if (jpegData != null && jpegData.Length > 0)
+                if (capturedFrame != null && capturedFrame.jpegData != null && capturedFrame.jpegData.Length > 0)
                 {
                     metrics.framesSent++;
 
-                    // Update send frame rate
                     if (Time.time - lastSendTime > 0)
                     {
                         metrics.sendFrameRate = 1f / (Time.time - lastSendTime);
                     }
                     lastSendTime = Time.time;
 
-                    // Send to server
-                    StartCoroutine(SendFrameCoroutine(jpegData));
+                    StartCoroutine(SendFrameCoroutine(capturedFrame));
                 }
             }
         }
 
-        private IEnumerator SendFrameCoroutine(byte[] jpegData)
+        private void LateUpdate()
+        {
+            if (Time.time - lastMetricsLogTime > 2f)
+            {
+                lastMetricsLogTime = Time.time;
+
+                if (config.enablePerformanceLogging)
+                {
+                    Debug.Log("=== PHASE 2 METRICS (3D IoU) ===");
+                    Debug.Log($"Avg Latency: {metrics.averageLatency:F3}s ({metrics.averageLatency * 1000:F0}ms)");
+                    Debug.Log($"Send Rate: {metrics.sendFrameRate:F1} Hz");
+                    Debug.Log($"Success: {metrics.successfulDetections}, Failed: {metrics.failedRequests}, Dropped: {metrics.droppedFrames}");
+                    Debug.Log($"Out-of-order: {metrics.outOfOrderResponses}, Late: {metrics.lateResponses}");
+                    Debug.Log($"Pending Requests: {detectionClient.GetPendingRequestCount()}/{config.maxPendingRequests}");
+
+                    if (tracker != null)
+                    {
+                        int activeCount = tracker.ActiveTrackCount;
+                        int confirmedCount = tracker.ConfirmedTrackCount;
+                        float confirmedRatio = activeCount > 0 ? (float)confirmedCount / activeCount : 0f;
+
+                        Debug.Log($"Tracks: {activeCount} active, {confirmedCount} confirmed ({confirmedRatio:P0})");
+
+                        if (confirmedRatio < 0.5f && activeCount > 5)
+                        {
+                            Debug.LogWarning("⚠️ Low confirmed ratio - check thresholds!");
+                        }
+                    }
+
+                    Debug.Log("================================");
+                }
+            }
+        }
+
+        private IEnumerator SendFrameCoroutine(CapturedFrame capturedFrame)
         {
             float startTime = Time.time;
 
             yield return detectionClient.SendFrameWithRetry(
-                jpegData,
+                capturedFrame,
                 OnDetectionSuccess,
                 OnDetectionFailed
             );
@@ -175,47 +219,88 @@ namespace ARObjectDetection
 
         private void OnDetectionSuccess(DetectionResponse response)
         {
+            // Check for out-of-order responses
+            float responseAge = Time.realtimeSinceStartup - response.capture_time;
+
+            if (responseAge > 0.5f)
+            {
+                metrics.lateResponses++;
+            }
+
             latestDetection = response;
             metrics.successfulDetections++;
             metrics.currentDetectionCount = response.count;
 
-            // Filter by confidence threshold if needed
-            if (config.confidenceThreshold > 0.25f)  // Server already filters at 0.25
+            // Filter by confidence threshold
+            if (config.confidenceThreshold > 0.25f)
             {
                 response.detections.RemoveAll(d => d.confidence < config.confidenceThreshold);
                 response.count = response.detections.Count;
             }
 
-            // Filter by class if specified
-            if (config.classFilter != null && config.classFilter.Length > 0)
+            // ====== FIXED: Class filter with proper whitelist ======
+            if (config.enableClassFilter && config.classFilter != null && config.classFilter.Length > 0)
             {
-                response.detections.RemoveAll(d => System.Array.IndexOf(config.classFilter, d.class_name) == -1);
-                response.count = response.detections.Count;
-            }
+                int beforeCount = response.detections.Count;
 
-            // Visualize detections - prioritize 3D visualizer for VR
-            if (visualizer3D != null)
-            {
-                visualizer3D.ShowDetections(response);
-            }
-            else if (visualizer != null)
-            {
-                visualizer.ShowDetections(response);
-            }
-
-            // Invoke event
-            OnDetectionReceived?.Invoke(response);
-
-            if (config.enablePerformanceLogging && response.count > 0)
-            {
-                Debug.Log($"Detections: {response.count} objects");
-                foreach (var det in response.detections)
+                // Remove detections that are NOT in the whitelist
+                response.detections.RemoveAll(d =>
                 {
-                    Debug.Log($"  - {det.class_name} ({det.confidence:F2})");
+                    // Case-insensitive comparison and handle common variations
+                    string detectionClass = d.class_name.ToLower().Trim();
+
+                    foreach (string allowedClass in config.classFilter)
+                    {
+                        string allowedClassLower = allowedClass.ToLower().Trim();
+
+                        // Exact match
+                        if (detectionClass == allowedClassLower)
+                            return false; // Keep this detection
+
+                        // Handle common COCO variations
+                        // "cell phone" vs "cellphone"
+                        if (detectionClass.Replace(" ", "") == allowedClassLower.Replace(" ", ""))
+                            return false;
+                    }
+
+                    return true; // Remove this detection (not in whitelist)
+                });
+
+                response.count = response.detections.Count;
+
+                int filteredCount = beforeCount - response.count;
+                if (filteredCount > 0)
+                {
+                    Debug.Log($"[Filter] Filtered out {filteredCount} objects not in whitelist. Kept: {response.count}");
                 }
             }
-        }
 
+            // Process detections through tracker
+            if (tracker != null)
+            {
+                tracker.ProcessDetections(response);
+            }
+
+            // Show ALL active tracks (confirmed + tentative)
+            if (tracker != null && tracker.ActiveTrackCount > 0)
+            {
+                if (visualizer3D != null)
+                {
+                    visualizer3D.ShowTrackedObjects(tracker.ActiveTracks);
+                }
+
+                int confirmed = tracker.ConfirmedTrackCount;
+                int tentative = tracker.ActiveTrackCount - confirmed;
+
+                if (config.enablePerformanceLogging)
+                {
+                    Debug.Log($"[Manager] Visualizing {tracker.ActiveTrackCount} tracks " +
+                             $"({confirmed} confirmed, {tentative} tentative)");
+                }
+            }
+
+            OnDetectionReceived?.Invoke(response);
+        }
         private void OnDetectionFailed(string error)
         {
             metrics.failedRequests++;
@@ -238,20 +323,21 @@ namespace ARObjectDetection
             StopDetection();
         }
 
-        // Public API for manual control
         public void RestartDetection()
         {
             StopDetection();
             StartCoroutine(CheckServerHealthAndStart());
         }
 
-        public void UpdateConfig(DetectionConfig newConfig)
+        public TrackedObject GetTrackById(int trackId)
         {
-            if (newConfig != null)
-            {
-                config = newConfig;
-                Debug.Log("Configuration updated");
-            }
+            return tracker?.ActiveTracks.FirstOrDefault(t => t.id == trackId);
+        }
+
+        public List<TrackedObject> GetTracksByClass(string className)
+        {
+            if (tracker == null) return new List<TrackedObject>();
+            return tracker.ActiveTracks.Where(t => t.className == className).ToList();
         }
     }
 }
