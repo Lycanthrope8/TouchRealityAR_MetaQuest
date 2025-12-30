@@ -52,7 +52,8 @@ namespace ARObjectDetection
                     "bed",
                     "car",
                     "book",
-                    "bottle"
+                    "bottle",
+                    "tv"
                     };
 
                     [Header("Performance")]

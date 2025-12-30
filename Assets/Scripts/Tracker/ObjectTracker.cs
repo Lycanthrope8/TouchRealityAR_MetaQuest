@@ -108,36 +108,39 @@ namespace ARObjectDetection
             if (activeTracks.Count == 0) return;
 
             float now = Time.realtimeSinceStartup;
-            float dtFrame = Time.deltaTime;
 
             foreach (var track in activeTracks)
             {
                 // Update time since last detection match
                 track.timeSinceLastUpdate = now - track.lastUpdateTime;
 
-                // 1. Apply motion compensation FIRST (if enabled)
+                // 1) Motion compensation (optional)
                 if (config.enableMotionCompensation)
                 {
                     CompensateForCameraMotion(track);
                 }
 
-                // 2. Predict with velocity
-                track.worldPosition += track.velocity * dtFrame;
+                // 2) Predict using a consistent timebase
+                float dt = (track.stateTime > 0f) ? (now - track.stateTime) : Time.deltaTime;
+                if (dt < 0f) dt = 0f;
 
-                // 3. Smooth for display (EMA)
+                track.worldPosition += track.velocity * dt;
+                track.stateTime = now;
+
+                // 3) Smooth for display (EMA)
                 track.worldPositionSmoothed = Vector3.Lerp(
                     track.worldPositionSmoothed,
                     track.worldPosition,
                     config.smoothingAlphaPosition
                 );
 
-                // 4. Update bounds center
+                // 4) Update bounds center
                 track.worldBounds.center = track.worldPosition;
 
-                // 5. Decay confidence if no updates
+                // 5) Decay confidence if no updates
                 if (track.timeSinceLastUpdate > 0.1f)
                 {
-                    track.trackConfidence *= Mathf.Exp(-dtFrame * 2.0f);
+                    track.trackConfidence *= Mathf.Exp(-dt * 2.0f);
                     track.trackConfidence = Mathf.Max(track.trackConfidence, 0.1f);
                 }
             }
@@ -149,6 +152,7 @@ namespace ARObjectDetection
                 Debug.Log($"[ObjectTracker] 🗑️ Removed {lostCount} lost tracks");
             }
         }
+
 
         /// <summary>
         /// Compensate for camera motion using ray reprojection
@@ -245,12 +249,16 @@ namespace ARObjectDetection
                 return;
             }
 
-            // STEP 1: Predict all tracks BACKWARD to detection capture time
-            Debug.Log($"[ObjectTracker] ⏪ Predicting {activeTracks.Count} tracks backward to capture time");
+            // STEP 1: Predict all tracks to detection capture time (can be backward)
+            Debug.Log($"[ObjectTracker] ⏪ Aligning {activeTracks.Count} tracks to capture time");
             foreach (var track in activeTracks)
             {
-                float dt = captureTime - track.lastUpdateTime;
-                PredictTrack(track, dt);
+                if (track.stateTime <= 0f)
+                    track.stateTime = now; // safety for old tracks
+
+                float dtToCapture = captureTime - track.stateTime;
+                PredictTrack(track, dtToCapture);
+                track.stateTime = captureTime;
             }
 
             // STEP 2: Associate detections with tracks using 3D IoU
@@ -291,8 +299,8 @@ namespace ARObjectDetection
             foreach (var track in activeTracks)
             {
                 PredictTrack(track, forwardDt);
+                track.stateTime = now;
             }
-
             // STEP 7: Merge duplicates
             MergeDuplicateTracks();
 
@@ -470,30 +478,35 @@ namespace ARObjectDetection
         /// </summary>
         private void UpdateTrack(TrackedObject track, Detection3D detection, float updateTime)
         {
-            float dt = updateTime - track.lastUpdateTime;
-
-            // Update velocity
-            if (dt > 0.01f)
+            // Estimate velocity from consecutive MEASUREMENTS (stable + less laggy)
+            float dtMeas = updateTime - track.lastMeasuredTime;
+            if (dtMeas > 0.01f)
             {
-                Vector3 newVelocity = (detection.worldPosition - track.worldPosition) / dt;
+                Vector3 newVelocity = (detection.worldPosition - track.lastMeasuredPosition) / dtMeas;
                 track.velocity = Vector3.Lerp(track.velocity, newVelocity, config.smoothingAlphaVelocity);
             }
 
-            // SMOOTH position and size (EMA)
-            track.worldPosition = Vector3.Lerp(track.worldPosition, detection.worldPosition, config.smoothingAlphaPosition);
+            // Use measurement as the state (avoid double-smoothing lag)
+            track.worldPosition = detection.worldPosition;
             track.worldSize = Vector3.Lerp(track.worldSize, detection.worldSize, config.smoothingAlphaSize);
 
             // Update bounds
             track.worldBounds = new Bounds(track.worldPosition, track.worldSize);
 
+            // Copy other detection info
             track.depth = detection.depth;
             track.centerRay = detection.centerRay;
             track.centerPixel = detection.centerPixel;
             track.bbox2D = detection.bbox2D;
             track.confidence = detection.detection.confidence;
             track.lastUpdateTime = updateTime;
+            track.stateTime = updateTime;
             track.timeSinceLastUpdate = 0f;
             track.lastCameraPose = detection.cameraPose;
+
+            // Save measurement history for next velocity update
+            track.lastMeasuredPosition = detection.worldPosition;
+            track.lastMeasuredTime = updateTime;
 
             // Update lifecycle
             track.hits++;
@@ -507,6 +520,7 @@ namespace ARObjectDetection
 
             track.AddToHistory(detection.worldPosition, updateTime);
         }
+
 
         /// <summary>
         /// Handle tracks without detection matches
@@ -586,6 +600,9 @@ namespace ARObjectDetection
                 id = nextTrackId++,
                 classId = detection.detection.class_id,
                 className = detection.detection.class_name,
+                stateTime = createTime,
+                lastMeasuredPosition = detection.worldPosition,
+                lastMeasuredTime = createTime,
                 worldPosition = detection.worldPosition,
                 worldPositionSmoothed = detection.worldPosition,
                 worldSize = detection.worldSize,
@@ -604,7 +621,7 @@ namespace ARObjectDetection
                 confidence = detection.detection.confidence,
                 lastCameraPose = detection.cameraPose,
                 trackConfidence = 1.0f,
-                displayColor = Color.yellow
+                displayColor = Color.yellow,
             };
 
             activeTracks.Add(newTrack);

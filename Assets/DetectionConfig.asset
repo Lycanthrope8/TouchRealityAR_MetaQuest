@@ -15,9 +15,9 @@ MonoBehaviour:
   serverUrl: http://10.0.0.93:5000
   requestTimeout: 5
   maxRetryAttempts: 2
-  frameCaptureInterval: 6
-  targetResolution: {x: 640, y: 640}
-  jpegQuality: 75
+  frameCaptureInterval: 3
+  targetResolution: {x: 640, y: 480}
+  jpegQuality: 55
   confidenceThreshold: 0.25
   enableClassFilter: 1
   classFilter:
@@ -31,6 +31,7 @@ MonoBehaviour:
   - car
   - book
   - bottle
+  - tv
   maxPendingRequests: 1
   enablePerformanceLogging: 1
   show2DBoundingBoxes: 0

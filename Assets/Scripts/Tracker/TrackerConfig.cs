@@ -43,7 +43,7 @@ namespace ARObjectDetection
                     [Header("Smoothing (Display State)")]
                     [Tooltip("Position smoothing (lower = smoother, higher = more responsive)")]
                     [Range(0.05f, 1f)]
-                    public float smoothingAlphaPosition = 0.35f;  // CHANGED: Was 0.3
+                    public float smoothingAlphaPosition = 0.6f;  // CHANGED: Was 0.3
 
                     [Tooltip("Size smoothing")]
                     [Range(0.05f, 1f)]
@@ -51,14 +51,14 @@ namespace ARObjectDetection
 
                     [Tooltip("Velocity smoothing")]
                     [Range(0.05f, 1f)]
-                    public float smoothingAlphaVelocity = 0.4f;
+                    public float smoothingAlphaVelocity = 0.8f;
 
                     [Header("Motion Compensation")]
                     [Tooltip("Enable camera motion compensation")]
                     public bool enableMotionCompensation = true;
 
                     [Tooltip("Maximum expected object velocity (m/s)")]
-                    public float maxObjectVelocity = 2.0f;
+                    public float maxObjectVelocity = 10.0f;
 
                     [Header("Debug")]
                     [Tooltip("Show debug logs - TURN THIS ON to diagnose issues")]

@@ -51,6 +51,14 @@ namespace ARObjectDetection
                     public Queue<Vector3> positionHistory;  // Last 10 positions
                     public Queue<float> updateTimes;        // Last 10 update times
 
+                    // Timebase (what time worldPosition represents)
+                    public float stateTime;                 // Time.realtimeSinceStartup for worldPosition
+
+                    // Last measurement (for stable velocity estimation)
+                    public Vector3 lastMeasuredPosition;
+                    public float lastMeasuredTime;
+
+
                     public TrackedObject()
                     {
                               positionHistory = new Queue<Vector3>(10);

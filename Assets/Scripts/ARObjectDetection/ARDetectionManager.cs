@@ -40,6 +40,10 @@ namespace ARObjectDetection
         public bool ServerHealthy => serverHealthy;
         public ObjectTracker Tracker => tracker;
 
+        private int lastAcceptedFrameId = -1;
+        public float maxResponseAgeToAccept = 0.8f; // try 0.5–0.8
+
+
         private void Awake()
         {
             if (config == null)
@@ -219,8 +223,23 @@ namespace ARObjectDetection
 
         private void OnDetectionSuccess(DetectionResponse response)
         {
-            // Check for out-of-order responses
+
             float responseAge = Time.realtimeSinceStartup - response.capture_time;
+
+            // Drop stale
+            if (responseAge > maxResponseAgeToAccept)
+            {
+                Debug.LogWarning($"[ARDetectionManager] Dropping stale response frame={response.frame_id} age={responseAge:F3}s");
+                return;
+            }
+
+            // Drop out-of-order
+            if (response.frame_id <= lastAcceptedFrameId)
+            {
+                Debug.LogWarning($"[ARDetectionManager] Dropping out-of-order response frame={response.frame_id} last={lastAcceptedFrameId}");
+                return;
+            }
+            lastAcceptedFrameId = response.frame_id;
 
             if (responseAge > 0.5f)
             {

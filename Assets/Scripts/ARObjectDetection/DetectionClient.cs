@@ -45,9 +45,9 @@ namespace ARObjectDetection
         /// Send frame with metadata
         /// </summary>
         public IEnumerator SendFrameForDetection(
-            CapturedFrame capturedFrame,
-            Action<DetectionResponse> onSuccess,
-            Action<string> onError)
+    CapturedFrame capturedFrame,
+    Action<DetectionResponse> onSuccess,
+    Action<string> onError)
         {
             if (pendingRequests >= config.maxPendingRequests)
             {
@@ -61,15 +61,17 @@ namespace ARObjectDetection
             pendingRequests++;
             float startTime = Time.time;
 
-            // Create multipart form data with metadata
-            List<IMultipartFormSection> formData = new List<IMultipartFormSection>();
-            formData.Add(new MultipartFormFileSection("file", capturedFrame.jpegData, "frame.jpg", "image/jpeg"));
-            formData.Add(new MultipartFormDataSection("frame_id", capturedFrame.frameId.ToString()));
-            formData.Add(new MultipartFormDataSection("capture_time", capturedFrame.captureTime.ToString("F3")));
-
-            using (UnityWebRequest request = UnityWebRequest.Post(config.DetectEndpoint, formData))
+            // RAW BINARY POST - Maximum performance
+            using (UnityWebRequest request = new UnityWebRequest(config.DetectEndpoint, "POST"))
             {
+                request.uploadHandler = new UploadHandlerRaw(capturedFrame.jpegData);
+                request.downloadHandler = new DownloadHandlerBuffer();
+
+                // Essential headers
+                request.SetRequestHeader("Content-Type", "image/jpeg");
+
                 request.timeout = (int)config.requestTimeout;
+
                 yield return request.SendWebRequest();
 
                 pendingRequests--;
@@ -82,11 +84,15 @@ namespace ARObjectDetection
                         string jsonResponse = request.downloadHandler.text;
                         DetectionResponse response = JsonUtility.FromJson<DetectionResponse>(jsonResponse);
 
-                        // Set metadata if server didn't return it
-                        if (response.frame_id == 0)
-                            response.frame_id = capturedFrame.frameId;
-                        if (response.capture_time == 0)
-                            response.capture_time = capturedFrame.captureTime;
+                        // Set metadata (server doesn't receive these anymore, but we track them client-side)
+                        response.frame_id = capturedFrame.frameId;
+                        response.capture_time = capturedFrame.captureTime;
+
+                        float age = Time.realtimeSinceStartup - response.capture_time;
+                        float netPlusOverhead = latency - response.inference_time;
+                        float kb = capturedFrame.jpegData.Length / 1024f;
+
+                        Debug.Log($"[Perf] frame={capturedFrame.frameId} age={age:F3}s latency={latency:F3}s inf={response.inference_time:F3}s net+oh={netPlusOverhead:F3}s size={kb:F1}KB");
 
                         if (config.enablePerformanceLogging)
                         {
