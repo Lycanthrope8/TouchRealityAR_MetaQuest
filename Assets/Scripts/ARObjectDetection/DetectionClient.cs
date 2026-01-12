@@ -91,7 +91,7 @@ namespace ARObjectDetection
                         float age = Time.realtimeSinceStartup - response.capture_time;
                         float netPlusOverhead = latency - response.inference_time;
                         float kb = capturedFrame.jpegData.Length / 1024f;
-
+                        Debug.Log($"[Payload] Sent: {capturedFrame.width}×{capturedFrame.height}, Size: {kb:F1} KB");
                         Debug.Log($"[Perf] frame={capturedFrame.frameId} age={age:F3}s latency={latency:F3}s inf={response.inference_time:F3}s net+oh={netPlusOverhead:F3}s size={kb:F1}KB");
 
                         if (config.enablePerformanceLogging)

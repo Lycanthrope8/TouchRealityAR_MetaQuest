@@ -5,6 +5,7 @@ namespace ARObjectDetection
           /// <summary>
           /// Configuration for AR object detection system
           /// Create via: Assets > Create > AR Detection > Detection Config
+          /// UPDATED: targetResolution now properly used for GPU downscaling
           /// </summary>
           [CreateAssetMenu(fileName = "DetectionConfig", menuName = "AR Detection/Detection Config")]
           public class DetectionConfig : ScriptableObject
@@ -24,12 +25,15 @@ namespace ARObjectDetection
                     [Range(1, 30)]
                     public int frameCaptureInterval = 6;
 
-                    [Tooltip("Target resolution for captured frames")]
-                    public Vector2Int targetResolution = new Vector2Int(640, 640);
+                    [Header("CRITICAL: Resolution sent to server (GPU downscaled)")]
+                    [Tooltip("Target resolution for captured frames - MUST maintain camera aspect ratio!\n" +
+                             "Camera is typically 1280×720 (16:9), so use 640×360, 512×288, etc.\n" +
+                             "SMALLER = faster encode + less bandwidth + faster inference")]
+                    public Vector2Int targetResolution = new Vector2Int(640, 360);
 
                     [Tooltip("JPEG compression quality (0-100, higher = better quality, larger size)")]
                     [Range(1, 100)]
-                    public int jpegQuality = 75;
+                    public int jpegQuality = 70;
 
                     [Header("Detection Settings")]
                     [Tooltip("Minimum confidence threshold for detections (0-1)")]
@@ -43,17 +47,17 @@ namespace ARObjectDetection
                     [Tooltip("Only detect these classes (leave empty to detect all)")]
                     public string[] classFilter = new string[]
                     {
-                    "laptop",
-                    "mouse",
-                    "keyboard",
-                    "cell phone",
-                    "cup",
-                    "potted plant",
-                    "bed",
-                    "car",
-                    "book",
-                    "bottle",
-                    "tv"
+            "laptop",
+            "mouse",
+            "keyboard",
+            "cell phone",
+            "cup",
+            "potted plant",
+            "bed",
+            "car",
+            "book",
+            "bottle",
+            "tv"
                     };
 
                     [Header("Performance")]
@@ -86,5 +90,34 @@ namespace ARObjectDetection
                     /// Get the health check endpoint URL
                     /// </summary>
                     public string HealthEndpoint => $"{serverUrl}/health";
+
+                    /// <summary>
+                    /// Validate configuration on inspector change
+                    /// </summary>
+                    private void OnValidate()
+                    {
+                              // Warn if aspect ratio doesn't match typical camera (16:9)
+                              float targetAspect = (float)targetResolution.x / targetResolution.y;
+                              float cameraAspect = 16f / 9f; // Typical Quest camera
+
+                              if (Mathf.Abs(targetAspect - cameraAspect) > 0.1f)
+                              {
+                                        Debug.LogWarning($"[DetectionConfig] Target resolution aspect ratio ({targetAspect:F2}) " +
+                                                       $"doesn't match camera ({cameraAspect:F2}). " +
+                                                       $"This may cause distortion. Recommended: 640×360, 512×288, or 1280×720");
+                              }
+
+                              // Ensure resolution is reasonable
+                              if (targetResolution.x < 320 || targetResolution.y < 180)
+                              {
+                                        Debug.LogWarning("[DetectionConfig] Target resolution is very low - detection quality may suffer");
+                              }
+
+                              if (targetResolution.x > 1280 || targetResolution.y > 720)
+                              {
+                                        Debug.LogWarning("[DetectionConfig] Target resolution is high - this wastes bandwidth. " +
+                                                       "Server will downscale to 640×640 anyway.");
+                              }
+                    }
           }
 }

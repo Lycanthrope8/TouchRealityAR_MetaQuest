@@ -225,6 +225,8 @@ namespace ARObjectDetection
         {
 
             float responseAge = Time.realtimeSinceStartup - response.capture_time;
+            Debug.Log($"[Server Response] image_size={response.image_size[0]}×{response.image_size[1]}, " +
+                        $"processed_size={response.processed_size[0]}×{response.processed_size[1]}");
 
             // Drop stale
             if (responseAge > maxResponseAgeToAccept)

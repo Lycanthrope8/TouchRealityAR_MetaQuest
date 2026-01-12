@@ -1872,6 +1872,8 @@ struct CapturedFrame_tD60FC29AECB07931D5A2F49C0AF4D93954C2EBD6  : public Runtime
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___jpegData;
 	int32_t ___frameId;
 	float ___captureTime;
+	int32_t ___width;
+	int32_t ___height;
 };
 struct ChallengeResponse_t5D74055333B1ABD8ED1D38ED1C8CCC505C0F1316  : public RuntimeObject
 {
@@ -2099,13 +2101,6 @@ struct FontFeatureTable_t992E0493CD7E9D7834DF204E0198237F0D25B3B7  : public Runt
 };
 struct FontUpdateTracker_t7B956C67086E29BB150BCF69787C9BFD9116F237  : public RuntimeObject
 {
-};
-struct FrameCaptureService_tC852354B651C385B761B7E29419FEF0080E2B095  : public RuntimeObject
-{
-	DetectionConfig_t82AA93F5BF6A6DA84E82C09A023B0956A94CB8A0* ___config;
-	int32_t ___frameCounter;
-	int32_t ___nextFrameId;
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___processingTexture;
 };
 struct Fx_tDA4789894AD17DE9F2FD1975BB04A8C18EC265EA  : public RuntimeObject
 {
@@ -10086,6 +10081,15 @@ struct FontStyles_t284AF8C10031F4774DF8BC8DE6DF9EC11EE14668
 struct ForceMode_t603F3ECB085E4FDD30C91273A469047EA64F4459 
 {
 	int32_t ___value__;
+};
+struct FrameCaptureService_tC852354B651C385B761B7E29419FEF0080E2B095  : public RuntimeObject
+{
+	DetectionConfig_t82AA93F5BF6A6DA84E82C09A023B0956A94CB8A0* ___config;
+	int32_t ___frameCounter;
+	int32_t ___nextFrameId;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ____resizeRT;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ____resizeTex;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ____resizeRect;
 };
 struct FrustumPlaneCuller_t8CD42C335DE2FBB33999860D65217D82FF749EAA 
 {
@@ -31996,12 +32000,12 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable14099[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable14100[14] = 
 {
 	static_cast<int32_t>(offsetof(DetectionMetrics_tF261C13F4D9F9F64FB720D8C8248FCCC4ABA25B4, ___totalFramesCaptured)),static_cast<int32_t>(offsetof(DetectionMetrics_tF261C13F4D9F9F64FB720D8C8248FCCC4ABA25B4, ___framesSent)),static_cast<int32_t>(offsetof(DetectionMetrics_tF261C13F4D9F9F64FB720D8C8248FCCC4ABA25B4, ___successfulDetections)),static_cast<int32_t>(offsetof(DetectionMetrics_tF261C13F4D9F9F64FB720D8C8248FCCC4ABA25B4, ___failedRequests)),static_cast<int32_t>(offsetof(DetectionMetrics_tF261C13F4D9F9F64FB720D8C8248FCCC4ABA25B4, ___droppedFrames)),static_cast<int32_t>(offsetof(DetectionMetrics_tF261C13F4D9F9F64FB720D8C8248FCCC4ABA25B4, ___averageLatency)),static_cast<int32_t>(offsetof(DetectionMetrics_tF261C13F4D9F9F64FB720D8C8248FCCC4ABA25B4, ___lastLatency)),static_cast<int32_t>(offsetof(DetectionMetrics_tF261C13F4D9F9F64FB720D8C8248FCCC4ABA25B4, ___currentDetectionCount)),static_cast<int32_t>(offsetof(DetectionMetrics_tF261C13F4D9F9F64FB720D8C8248FCCC4ABA25B4, ___captureFrameRate)),static_cast<int32_t>(offsetof(DetectionMetrics_tF261C13F4D9F9F64FB720D8C8248FCCC4ABA25B4, ___sendFrameRate)),static_cast<int32_t>(offsetof(DetectionMetrics_tF261C13F4D9F9F64FB720D8C8248FCCC4ABA25B4, ___outOfOrderResponses)),static_cast<int32_t>(offsetof(DetectionMetrics_tF261C13F4D9F9F64FB720D8C8248FCCC4ABA25B4, ___lateResponses)),static_cast<int32_t>(offsetof(DetectionMetrics_tF261C13F4D9F9F64FB720D8C8248FCCC4ABA25B4, ___recentLatencies)),0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable14101[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable14101[5] = 
 {
-	static_cast<int32_t>(offsetof(CapturedFrame_tD60FC29AECB07931D5A2F49C0AF4D93954C2EBD6, ___jpegData)),static_cast<int32_t>(offsetof(CapturedFrame_tD60FC29AECB07931D5A2F49C0AF4D93954C2EBD6, ___frameId)),static_cast<int32_t>(offsetof(CapturedFrame_tD60FC29AECB07931D5A2F49C0AF4D93954C2EBD6, ___captureTime)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable14102[4] = 
+	static_cast<int32_t>(offsetof(CapturedFrame_tD60FC29AECB07931D5A2F49C0AF4D93954C2EBD6, ___jpegData)),static_cast<int32_t>(offsetof(CapturedFrame_tD60FC29AECB07931D5A2F49C0AF4D93954C2EBD6, ___frameId)),static_cast<int32_t>(offsetof(CapturedFrame_tD60FC29AECB07931D5A2F49C0AF4D93954C2EBD6, ___captureTime)),static_cast<int32_t>(offsetof(CapturedFrame_tD60FC29AECB07931D5A2F49C0AF4D93954C2EBD6, ___width)),static_cast<int32_t>(offsetof(CapturedFrame_tD60FC29AECB07931D5A2F49C0AF4D93954C2EBD6, ___height)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable14102[6] = 
 {
-	static_cast<int32_t>(offsetof(FrameCaptureService_tC852354B651C385B761B7E29419FEF0080E2B095, ___config)),static_cast<int32_t>(offsetof(FrameCaptureService_tC852354B651C385B761B7E29419FEF0080E2B095, ___frameCounter)),static_cast<int32_t>(offsetof(FrameCaptureService_tC852354B651C385B761B7E29419FEF0080E2B095, ___nextFrameId)),static_cast<int32_t>(offsetof(FrameCaptureService_tC852354B651C385B761B7E29419FEF0080E2B095, ___processingTexture)),};
+	static_cast<int32_t>(offsetof(FrameCaptureService_tC852354B651C385B761B7E29419FEF0080E2B095, ___config)),static_cast<int32_t>(offsetof(FrameCaptureService_tC852354B651C385B761B7E29419FEF0080E2B095, ___frameCounter)),static_cast<int32_t>(offsetof(FrameCaptureService_tC852354B651C385B761B7E29419FEF0080E2B095, ___nextFrameId)),static_cast<int32_t>(offsetof(FrameCaptureService_tC852354B651C385B761B7E29419FEF0080E2B095, ____resizeRT)),static_cast<int32_t>(offsetof(FrameCaptureService_tC852354B651C385B761B7E29419FEF0080E2B095, ____resizeTex)),static_cast<int32_t>(offsetof(FrameCaptureService_tC852354B651C385B761B7E29419FEF0080E2B095, ____resizeRect)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable14103[6] = 
 {
 	static_cast<int32_t>(offsetof(U3CU3Ec_tFF3598655AB1DFBF62AD186AD2F95477BE552A8C_StaticFields, ___U3CU3E9)),static_cast<int32_t>(offsetof(U3CU3Ec_tFF3598655AB1DFBF62AD186AD2F95477BE552A8C_StaticFields, ___U3CU3E9__20_0)),static_cast<int32_t>(offsetof(U3CU3Ec_tFF3598655AB1DFBF62AD186AD2F95477BE552A8C_StaticFields, ___U3CU3E9__25_0)),static_cast<int32_t>(offsetof(U3CU3Ec_tFF3598655AB1DFBF62AD186AD2F95477BE552A8C_StaticFields, ___U3CU3E9__27_0)),static_cast<int32_t>(offsetof(U3CU3Ec_tFF3598655AB1DFBF62AD186AD2F95477BE552A8C_StaticFields, ___U3CU3E9__34_0)),static_cast<int32_t>(offsetof(U3CU3Ec_tFF3598655AB1DFBF62AD186AD2F95477BE552A8C_StaticFields, ___U3CU3E9__35_0)),};

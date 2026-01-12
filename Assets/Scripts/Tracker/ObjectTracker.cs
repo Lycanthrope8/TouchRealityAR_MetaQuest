@@ -7,6 +7,7 @@ namespace ARObjectDetection
 {
     /// <summary>
     /// PHASE 2 - 3D IoU tracking with smoothing and backpressure
+    /// FIXED: Now scales bbox coordinates to match camera intrinsics resolution
     /// </summary>
     public class ObjectTracker : MonoBehaviour
     {
@@ -34,7 +35,6 @@ namespace ARObjectDetection
         [Tooltip("Y-offset as percentage of bbox height (0.5 = half bbox height)")]
         [Range(0f, 1f)]
         [SerializeField] private float yOffsetPercentage = 0.0f;
-
 
         // Active tracks
         private List<TrackedObject> activeTracks = new List<TrackedObject>();
@@ -100,9 +100,6 @@ namespace ARObjectDetection
             }
         }
 
-        /// <summary>
-        /// Update all tracks every frame (prediction + motion compensation)
-        /// </summary>
         private void Update()
         {
             if (activeTracks.Count == 0) return;
@@ -111,33 +108,27 @@ namespace ARObjectDetection
 
             foreach (var track in activeTracks)
             {
-                // Update time since last detection match
                 track.timeSinceLastUpdate = now - track.lastUpdateTime;
 
-                // 1) Motion compensation (optional)
                 if (config.enableMotionCompensation)
                 {
                     CompensateForCameraMotion(track);
                 }
 
-                // 2) Predict using a consistent timebase
                 float dt = (track.stateTime > 0f) ? (now - track.stateTime) : Time.deltaTime;
                 if (dt < 0f) dt = 0f;
 
                 track.worldPosition += track.velocity * dt;
                 track.stateTime = now;
 
-                // 3) Smooth for display (EMA)
                 track.worldPositionSmoothed = Vector3.Lerp(
                     track.worldPositionSmoothed,
                     track.worldPosition,
                     config.smoothingAlphaPosition
                 );
 
-                // 4) Update bounds center
                 track.worldBounds.center = track.worldPosition;
 
-                // 5) Decay confidence if no updates
                 if (track.timeSinceLastUpdate > 0.1f)
                 {
                     track.trackConfidence *= Mathf.Exp(-dt * 2.0f);
@@ -145,7 +136,6 @@ namespace ARObjectDetection
                 }
             }
 
-            // Remove lost tracks
             int lostCount = activeTracks.RemoveAll(t => t.state == TrackState.Lost);
             if (lostCount > 0)
             {
@@ -153,52 +143,35 @@ namespace ARObjectDetection
             }
         }
 
-
-        /// <summary>
-        /// Compensate for camera motion using ray reprojection
-        /// </summary>
         private void CompensateForCameraMotion(TrackedObject track)
         {
             if (centerEyeTransform == null || !cameraIntrinsics.HasValue)
                 return;
 
-            // Get current camera pose
             Pose currentPose = new Pose(
                 centerEyeTransform.position,
                 centerEyeTransform.rotation
             );
 
-            // Calculate pose delta
             Quaternion rotationDelta = currentPose.rotation * Quaternion.Inverse(track.lastCameraPose.rotation);
             Vector3 positionDelta = currentPose.position - track.lastCameraPose.position;
 
-            // Only compensate if there's significant motion
             if (Quaternion.Angle(rotationDelta, Quaternion.identity) < 0.5f && positionDelta.magnitude < 0.01f)
             {
-                return; // Skip if camera barely moved
+                return;
             }
 
-            // Transform the center ray by the pose change
             Vector3 oldRayOrigin = track.centerRay.origin;
             Vector3 oldRayDir = track.centerRay.direction;
 
-            // Rotate ray origin around old camera position
             Vector3 relativeOrigin = oldRayOrigin - track.lastCameraPose.position;
             Vector3 newRayOrigin = rotationDelta * relativeOrigin + currentPose.position;
-
-            // Rotate ray direction
             Vector3 newRayDir = rotationDelta * oldRayDir;
 
-            // Create new ray
             Ray newRay = new Ray(newRayOrigin, newRayDir);
-
-            // Project to depth plane
             Vector3 worldPos = newRay.origin + newRay.direction * track.depth;
-
-            // Convert back to pixel coordinates
             Vector2Int newPixelCenter = WorldPointToPixel(worldPos, currentPose);
 
-            // Update track
             track.centerPixel = newPixelCenter;
             track.centerRay = newRay;
             track.worldPosition = worldPos;
@@ -211,10 +184,6 @@ namespace ARObjectDetection
             }
         }
 
-
-        /// <summary>
-        /// Process detections with 3D IoU and temporal alignment
-        /// </summary>
         public void ProcessDetections(DetectionResponse response)
         {
             if (response == null || response.detections == null)
@@ -226,7 +195,6 @@ namespace ARObjectDetection
                 return;
             }
 
-            // STEP 0: Check frame order
             if (response.frame_id <= lastProcessedFrameId)
             {
                 Debug.LogWarning($"[ObjectTracker] ⏭️ Dropping out-of-order frame {response.frame_id} (last: {lastProcessedFrameId})");
@@ -241,7 +209,6 @@ namespace ARObjectDetection
 
             Debug.Log($"[ObjectTracker] 📦 Processing frame {response.frame_id}, age: {responseAge:F3}s, detections: {response.detections.Count}");
 
-            // Convert detections to 3D with AABB bounds
             List<Detection3D> detections3D = ConvertDetectionsTo3D(response);
             if (detections3D.Count == 0)
             {
@@ -249,25 +216,22 @@ namespace ARObjectDetection
                 return;
             }
 
-            // STEP 1: Predict all tracks to detection capture time (can be backward)
             Debug.Log($"[ObjectTracker] ⏪ Aligning {activeTracks.Count} tracks to capture time");
             foreach (var track in activeTracks)
             {
                 if (track.stateTime <= 0f)
-                    track.stateTime = now; // safety for old tracks
+                    track.stateTime = now;
 
                 float dtToCapture = captureTime - track.stateTime;
                 PredictTrack(track, dtToCapture);
                 track.stateTime = captureTime;
             }
 
-            // STEP 2: Associate detections with tracks using 3D IoU
             var (costMatrix, validPairs) = BuildCostMatrix(detections3D);
             var matches = GreedyMatch(costMatrix, validPairs);
 
             Debug.Log($"[ObjectTracker] 🔗 Matched {matches.Count}/{Mathf.Min(activeTracks.Count, detections3D.Count)} pairs using 3D IoU");
 
-            // DEBUG: Log matching details
             if (config.enableDebugLogs && matches.Count > 0)
             {
                 foreach (var (trackIdx, detIdx) in matches)
@@ -281,19 +245,14 @@ namespace ARObjectDetection
                 }
             }
 
-            // STEP 3: Update matched tracks with smoothing
             foreach (var (trackIdx, detIdx) in matches)
             {
                 UpdateTrack(activeTracks[trackIdx], detections3D[detIdx], captureTime);
             }
 
-            // STEP 4: Handle unmatched tracks
             HandleUnmatchedTracks(matches, captureTime);
-
-            // STEP 5: Create new tracks
             int newTracksCreated = CreateNewTracks(matches, detections3D, captureTime);
 
-            // STEP 6: Predict all tracks FORWARD to now
             float forwardDt = now - captureTime;
             Debug.Log($"[ObjectTracker] ⏩ Predicting {activeTracks.Count} tracks forward {forwardDt:F3}s to present");
             foreach (var track in activeTracks)
@@ -301,36 +260,27 @@ namespace ARObjectDetection
                 PredictTrack(track, forwardDt);
                 track.stateTime = now;
             }
-            // STEP 7: Merge duplicates
+
             MergeDuplicateTracks();
 
-            // SUMMARY
             int tentative = activeTracks.Count(t => t.state == TrackState.Tentative);
             int confirmed = ConfirmedTrackCount;
             Debug.Log($"[ObjectTracker] 📊 Summary: {activeTracks.Count} tracks ({confirmed} confirmed, {tentative} tentative), {newTracksCreated} new");
         }
 
-        /// <summary>
-        /// Predict track state by delta time
-        /// </summary>
         private void PredictTrack(TrackedObject track, float dt)
         {
             if (Mathf.Abs(dt) < 0.001f) return;
 
-            // Predict position
             track.worldPosition += track.velocity * dt;
             track.worldBounds.center = track.worldPosition;
 
-            // Clamp velocity
             if (track.velocity.magnitude > config.maxObjectVelocity)
             {
                 track.velocity = track.velocity.normalized * config.maxObjectVelocity;
             }
         }
 
-        /// <summary>
-        /// Build cost matrix using 3D IoU
-        /// </summary>
         private (float[,] costs, List<(int trackIdx, int detIdx)> validPairs) BuildCostMatrix(List<Detection3D> detections)
         {
             float[,] costs = new float[activeTracks.Count, detections.Count];
@@ -346,29 +296,20 @@ namespace ARObjectDetection
                 {
                     Detection3D detection = detections[j];
 
-                    // Hard reject class mismatches
                     if (track.classId != detection.detection.class_id)
                     {
                         costs[i, j] = 999f;
                         continue;
                     }
 
-                    // Calculate 3D IoU (PRIMARY METRIC)
                     float iou3d = CalculateIoU3D(track.worldBounds, detection.worldBounds);
-
-                    // Calculate 2D IoU (SECONDARY METRIC)
                     float iou2d = CalculateIoU2D(track.bbox2D, detection.bbox2D);
-
-                    // Calculate 3D distance
                     float dist3D = Vector3.Distance(track.worldPosition, detection.worldPosition);
-
-                    // Calculate 2D center distance
                     float centerDist2D = Vector2.Distance(
                         new Vector2(track.centerPixel.x, track.centerPixel.y),
                         new Vector2(detection.centerPixel.x, detection.centerPixel.y)
                     );
 
-                    // Combined cost (weighted toward 3D IoU)
                     float iou3dCost = 1.0f - iou3d;
                     float iou2dCost = 1.0f - iou2d;
                     float distCost3D = Mathf.Clamp01(dist3D / config.max3DDistance);
@@ -377,7 +318,6 @@ namespace ARObjectDetection
                     float cost = (iou3dCost * 0.5f) + (iou2dCost * 0.2f) + (distCost3D * 0.2f) + (distCost2D * 0.1f);
                     costs[i, j] = cost;
 
-                    // Gating (relaxed for 3D IoU due to depth noise)
                     bool passesGating = (iou3d >= config.iou3DThreshold || iou2d >= config.iou2DThreshold) &&
                                        dist3D <= config.max3DDistance &&
                                        centerDist2D <= config.maxCenterDistance;
@@ -405,9 +345,6 @@ namespace ARObjectDetection
             return (costs, validPairs);
         }
 
-        /// <summary>
-        /// Calculate 3D IoU (AABB version)
-        /// </summary>
         private float CalculateIoU3D(Bounds a, Bounds b)
         {
             Vector3 min = Vector3.Max(a.min, b.min);
@@ -424,9 +361,6 @@ namespace ARObjectDetection
             return union > 0f ? (intersection / union) : 0f;
         }
 
-        /// <summary>
-        /// Calculate 2D IoU (fallback metric)
-        /// </summary>
         private float CalculateIoU2D(Rect a, Rect b)
         {
             float x1 = Mathf.Max(a.xMin, b.xMin);
@@ -440,9 +374,6 @@ namespace ARObjectDetection
             return union > 0 ? intersection / union : 0f;
         }
 
-        /// <summary>
-        /// Greedy matching algorithm
-        /// </summary>
         private List<(int trackIdx, int detIdx)> GreedyMatch(
             float[,] costMatrix,
             List<(int trackIdx, int detIdx)> validPairs)
@@ -452,7 +383,6 @@ namespace ARObjectDetection
             if (activeTracks.Count == 0 || validPairs.Count == 0)
                 return matches;
 
-            // Sort by cost
             var sortedPairs = validPairs
                 .OrderBy(p => costMatrix[p.trackIdx, p.detIdx])
                 .ToList();
@@ -473,12 +403,8 @@ namespace ARObjectDetection
             return matches;
         }
 
-        /// <summary>
-        /// Update track with new detection (with EMA smoothing)
-        /// </summary>
         private void UpdateTrack(TrackedObject track, Detection3D detection, float updateTime)
         {
-            // Estimate velocity from consecutive MEASUREMENTS (stable + less laggy)
             float dtMeas = updateTime - track.lastMeasuredTime;
             if (dtMeas > 0.01f)
             {
@@ -486,14 +412,10 @@ namespace ARObjectDetection
                 track.velocity = Vector3.Lerp(track.velocity, newVelocity, config.smoothingAlphaVelocity);
             }
 
-            // Use measurement as the state (avoid double-smoothing lag)
             track.worldPosition = detection.worldPosition;
             track.worldSize = Vector3.Lerp(track.worldSize, detection.worldSize, config.smoothingAlphaSize);
-
-            // Update bounds
             track.worldBounds = new Bounds(track.worldPosition, track.worldSize);
 
-            // Copy other detection info
             track.depth = detection.depth;
             track.centerRay = detection.centerRay;
             track.centerPixel = detection.centerPixel;
@@ -504,11 +426,9 @@ namespace ARObjectDetection
             track.timeSinceLastUpdate = 0f;
             track.lastCameraPose = detection.cameraPose;
 
-            // Save measurement history for next velocity update
             track.lastMeasuredPosition = detection.worldPosition;
             track.lastMeasuredTime = updateTime;
 
-            // Update lifecycle
             track.hits++;
             track.trackConfidence = Mathf.Min(1.0f, track.trackConfidence + 0.2f);
 
@@ -521,10 +441,6 @@ namespace ARObjectDetection
             track.AddToHistory(detection.worldPosition, updateTime);
         }
 
-
-        /// <summary>
-        /// Handle tracks without detection matches
-        /// </summary>
         private void HandleUnmatchedTracks(List<(int trackIdx, int detIdx)> matches, float currentTime)
         {
             var unmatchedTrackIndices = Enumerable.Range(0, activeTracks.Count)
@@ -552,9 +468,6 @@ namespace ARObjectDetection
             }
         }
 
-        /// <summary>
-        /// Create new tracks from unmatched detections
-        /// </summary>
         private int CreateNewTracks(List<(int trackIdx, int detIdx)> matches, List<Detection3D> detections, float createTime)
         {
             var unmatchedDetIndices = Enumerable.Range(0, detections.Count)
@@ -571,7 +484,6 @@ namespace ARObjectDetection
             {
                 Detection3D detection = detections[idx];
 
-                // Anti-duplication: check distance to existing tracks
                 bool tooClose = activeTracks.Any(t =>
                     t.className == detection.detection.class_name &&
                     Vector3.Distance(t.worldPosition, detection.worldPosition) < 0.3f
@@ -590,9 +502,6 @@ namespace ARObjectDetection
             return created;
         }
 
-        /// <summary>
-        /// Create a new track
-        /// </summary>
         private void CreateNewTrack(Detection3D detection, float createTime)
         {
             TrackedObject newTrack = new TrackedObject
@@ -629,9 +538,6 @@ namespace ARObjectDetection
             Debug.Log($"[ObjectTracker] 🆕 New track {newTrack.id} created ({newTrack.className})");
         }
 
-        /// <summary>
-        /// Merge duplicate tracks
-        /// </summary>
         private void MergeDuplicateTracks()
         {
             int mergedCount = 0;
@@ -683,28 +589,16 @@ namespace ARObjectDetection
         }
 
         /// <summary>
-        /// Build AABB from 8 corner points (4 bbox corners × near/far depth)
-        /// </summary>
-        // CRITICAL FIX: Proper 2D pixel → 3D world coordinate transformation
-        // Based on pinhole camera model with camera intrinsics
-
-        /// <summary>
         /// Convert 2D pixel coordinates to 3D world ray (CORRECTED)
         /// </summary>
         private Ray PixelToWorldRay(Vector2Int pixelCoords, PassthroughCameraIntrinsics intrinsics, Pose cameraPose)
         {
-            // Step 1: Convert pixel coordinates to normalized camera coordinates
-            // Using pinhole camera projection model
             float x_norm = (pixelCoords.x - intrinsics.PrincipalPoint.x) / intrinsics.FocalLength.x;
             float y_norm = (pixelCoords.y - intrinsics.PrincipalPoint.y) / intrinsics.FocalLength.y;
 
-            // Step 2: Create ray direction in camera local space (Z-forward)
             Vector3 rayDirLocal = new Vector3(x_norm, y_norm, 1f).normalized;
-
-            // Step 3: Transform ray to world space using camera pose
             Vector3 rayDirWorld = cameraPose.rotation * rayDirLocal;
 
-            // Step 4: Ray starts at camera position
             Ray worldRay = new Ray(cameraPose.position, rayDirWorld);
 
             if (config.enableDebugLogs)
@@ -714,16 +608,27 @@ namespace ARObjectDetection
 
             return worldRay;
         }
+
         /// <summary>
-        /// Convert 2D detections to 3D with CORRECTED coordinate transforms
+        /// Convert 2D detections to 3D with CORRECTED coordinate transforms and bbox scaling
+        /// FIXED: Now scales bbox coordinates from sent resolution to camera intrinsics resolution
         /// </summary>
         private List<Detection3D> ConvertDetectionsTo3D(DetectionResponse response)
         {
             List<Detection3D> detections3D = new List<Detection3D>();
             PassthroughCameraIntrinsics intrinsics = cameraIntrinsics.Value;
 
-            int imageWidth = response.image_size[0];
-            int imageHeight = response.image_size[1];
+            // CRITICAL FIX: Get sent image size and camera intrinsics resolution
+            int sentW = response.image_size[0];
+            int sentH = response.image_size[1];
+            int camW = intrinsics.Resolution.x;
+            int camH = intrinsics.Resolution.y;
+
+            // Calculate scaling factors
+            float sx = (sentW > 0) ? (float)camW / sentW : 1f;
+            float sy = (sentH > 0) ? (float)camH / sentH : 1f;
+
+            Debug.Log($"[BBox Scale] Sent:{sentW}×{sentH} → Camera:{camW}×{camH} | Scale:({sx:F2}, {sy:F2})");
 
             Pose currentCameraPose = new Pose(
                 centerEyeTransform.position,
@@ -735,35 +640,39 @@ namespace ARObjectDetection
                 if (detection.bbox == null || detection.bbox.Length != 4)
                     continue;
 
-                float x1_orig = detection.bbox[0];
-                float y1_orig = detection.bbox[1];
-                float x2_orig = detection.bbox[2];
-                float y2_orig = detection.bbox[3];
+                // CRITICAL FIX: Scale bbox from sent resolution to camera intrinsics resolution
+                float x1_sent = detection.bbox[0];
+                float y1_sent = detection.bbox[1];
+                float x2_sent = detection.bbox[2];
+                float y2_sent = detection.bbox[3];
 
-                // Flip Y-axis
-                float y1 = imageHeight - y1_orig;
-                float y2 = imageHeight - y2_orig;
+                // Scale to camera resolution
+                float x1_cam = x1_sent * sx;
+                float y1_cam = y1_sent * sy;
+                float x2_cam = x2_sent * sx;
+                float y2_cam = y2_sent * sy;
+
+                // Flip Y-axis (now in camera resolution space)
+                float y1 = camH - y1_cam;
+                float y2 = camH - y2_cam;
 
                 float y_min = Mathf.Min(y1, y2);
                 float y_max = Mathf.Max(y1, y2);
 
-                float x1 = x1_orig;
-                float x2 = x2_orig;
+                float x1 = x1_cam;
+                float x2 = x2_cam;
 
-                // ====== Y-OFFSET CORRECTION ======
+                // Y-offset correction
                 float bboxHeightPixels = y_max - y_min;
                 float yOffsetAdjustment = 0f;
 
                 if (autoCorrectYOffset)
                 {
-                    // Apply percentage-based offset
                     yOffsetAdjustment = bboxHeightPixels * yOffsetPercentage;
                 }
 
-                // Add manual offset
                 yOffsetAdjustment += manualYOffsetPixels;
 
-                // Calculate center pixel WITH offset
                 Vector2Int centerPixel = new Vector2Int(
                     Mathf.RoundToInt((x1 + x2) / 2f),
                     Mathf.RoundToInt((y_min + y_max) / 2f + yOffsetAdjustment)
@@ -771,13 +680,11 @@ namespace ARObjectDetection
 
                 if (config.enableDebugLogs)
                 {
-                    Debug.Log($"[Y-Offset Debug] {detection.class_name}:\n" +
-                             $"  Bbox Height: {bboxHeightPixels}px\n" +
-                             $"  Auto Offset: {bboxHeightPixels * yOffsetPercentage:F1}px\n" +
-                             $"  Manual Offset: {manualYOffsetPixels}px\n" +
-                             $"  Total Offset: {yOffsetAdjustment:F1}px\n" +
-                             $"  Original Center: ({(x1 + x2) / 2f:F0}, {(y_min + y_max) / 2f:F0})\n" +
-                             $"  Adjusted Center: {centerPixel}");
+                    Debug.Log($"[Coord Debug] {detection.class_name}:\n" +
+                             $"  Sent bbox: ({x1_sent:F1}, {y1_sent:F1}, {x2_sent:F1}, {y2_sent:F1})\n" +
+                             $"  Scaled bbox: ({x1_cam:F1}, {y1_cam:F1}, {x2_cam:F1}, {y2_cam:F1})\n" +
+                             $"  Y-flipped: ({x1:F1}, {y_min:F1}, {x2:F1}, {y_max:F1})\n" +
+                             $"  Center pixel: {centerPixel}");
                 }
 
                 Ray centerRay = PixelToWorldRay(centerPixel, intrinsics, currentCameraPose);
@@ -839,33 +746,28 @@ namespace ARObjectDetection
             float nearDepth = Mathf.Max(0.1f, centerDepth - thickness * 0.5f);
             float farDepth = centerDepth + thickness * 0.5f;
 
-            // 4 corner pixels (Y already flipped and corrected)
-            // Note: y1 is bottom, y2 is top in camera space now
             Vector2Int topLeft = new Vector2Int(Mathf.RoundToInt(x1), Mathf.RoundToInt(y2));
             Vector2Int topRight = new Vector2Int(Mathf.RoundToInt(x2), Mathf.RoundToInt(y2));
             Vector2Int bottomLeft = new Vector2Int(Mathf.RoundToInt(x1), Mathf.RoundToInt(y1));
             Vector2Int bottomRight = new Vector2Int(Mathf.RoundToInt(x2), Mathf.RoundToInt(y1));
 
-            // FIXED: Convert pixels to rays using proper transform
             Ray rayTL = PixelToWorldRay(topLeft, intrinsics, cameraPose);
             Ray rayTR = PixelToWorldRay(topRight, intrinsics, cameraPose);
             Ray rayBL = PixelToWorldRay(bottomLeft, intrinsics, cameraPose);
             Ray rayBR = PixelToWorldRay(bottomRight, intrinsics, cameraPose);
 
-            // 8 world points (4 corners × 2 depths)
             Vector3[] points = new Vector3[8]
             {
-            rayTL.GetPoint(nearDepth),
-            rayTR.GetPoint(nearDepth),
-            rayBL.GetPoint(nearDepth),
-            rayBR.GetPoint(nearDepth),
-            rayTL.GetPoint(farDepth),
-            rayTR.GetPoint(farDepth),
-            rayBL.GetPoint(farDepth),
-            rayBR.GetPoint(farDepth)
+                rayTL.GetPoint(nearDepth),
+                rayTR.GetPoint(nearDepth),
+                rayBL.GetPoint(nearDepth),
+                rayBR.GetPoint(nearDepth),
+                rayTL.GetPoint(farDepth),
+                rayTR.GetPoint(farDepth),
+                rayBL.GetPoint(farDepth),
+                rayBR.GetPoint(farDepth)
             };
 
-            // Create bounds
             Bounds bounds = new Bounds(points[0], Vector3.zero);
             for (int i = 1; i < points.Length; i++)
             {
@@ -873,32 +775,29 @@ namespace ARObjectDetection
             }
 
             return bounds;
-        }       
-         /// <summary>
-         /// Convert 3D world point back to 2D pixel coordinates (inverse transform)
-         /// Used for motion compensation
-         /// </summary>
+        }
+
+        /// <summary>
+        /// Convert 3D world point back to 2D pixel coordinates (inverse transform)
+        /// Used for motion compensation
+        /// </summary>
         private Vector2Int WorldPointToPixel(Vector3 worldPos, Pose cameraPose)
         {
             if (!cameraIntrinsics.HasValue) return Vector2Int.zero;
 
             var intrinsics = cameraIntrinsics.Value;
 
-            // Step 1: Transform world point to camera local space
             Vector3 localPos = Quaternion.Inverse(cameraPose.rotation) * (worldPos - cameraPose.position);
 
-            // Step 2: Prevent division by zero
             if (Mathf.Abs(localPos.z) < 0.01f)
             {
                 Debug.LogWarning($"[WorldToPixel] Point behind camera: {worldPos}");
                 return Vector2Int.zero;
             }
 
-            // Step 3: Pinhole camera projection (3D → 2D)
             float x_norm = localPos.x / localPos.z;
             float y_norm = localPos.y / localPos.z;
 
-            // Step 4: Apply camera intrinsics
             float x_pixel = x_norm * intrinsics.FocalLength.x + intrinsics.PrincipalPoint.x;
             float y_pixel = y_norm * intrinsics.FocalLength.y + intrinsics.PrincipalPoint.y;
 
@@ -921,7 +820,7 @@ namespace ARObjectDetection
         public Detection detection;
         public Vector3 worldPosition;
         public Vector3 worldSize;
-        public Bounds worldBounds;  
+        public Bounds worldBounds;
         public float depth;
         public Ray centerRay;
         public Vector2Int centerPixel;

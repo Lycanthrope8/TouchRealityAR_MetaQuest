@@ -1,6 +1,6 @@
 // ============================================================================
 // FILE 1: FrameCaptureService.cs
-// Add frame ID and capture time tracking
+// FIXED: Now actually resizes to targetResolution before JPEG encoding
 // ============================================================================
 
 using UnityEngine;
@@ -16,17 +16,23 @@ namespace ARObjectDetection
         public byte[] jpegData;
         public int frameId;
         public float captureTime;
+        public int width;   // NEW: actual sent resolution
+        public int height;  // NEW: actual sent resolution
     }
 
     /// <summary>
-    /// Captures frames from WebCamTexture WITHOUT RESIZING
+    /// Captures frames from WebCamTexture WITH GPU-ACCELERATED RESIZING
     /// </summary>
     public class FrameCaptureService
     {
         private DetectionConfig config;
         private int frameCounter = 0;
-        private int nextFrameId = 0;  // NEW: Frame ID counter
-        private Texture2D processingTexture;
+        private int nextFrameId = 0;
+
+        // GPU resize resources (cached, NOT allocated per-frame)
+        private RenderTexture _resizeRT;
+        private Texture2D _resizeTex;
+        private Rect _resizeRect;
 
         public FrameCaptureService(DetectionConfig config)
         {
@@ -45,11 +51,14 @@ namespace ARObjectDetection
         }
 
         /// <summary>
-        /// Capture frame with metadata
+        /// Capture frame with metadata and GPU downscaling
         /// </summary>
         public CapturedFrame CaptureFrameWithMetadata(WebCamTexture webCamTexture)
         {
-            byte[] jpegData = CaptureFrame(webCamTexture);
+            int targetW = config.targetResolution.x;
+            int targetH = config.targetResolution.y;
+
+            byte[] jpegData = CaptureAndResizeToJpeg(webCamTexture, targetW, targetH, config.jpegQuality);
 
             if (jpegData == null)
                 return null;
@@ -58,51 +67,44 @@ namespace ARObjectDetection
             {
                 jpegData = jpegData,
                 frameId = nextFrameId++,
-                captureTime = Time.realtimeSinceStartup
+                captureTime = Time.realtimeSinceStartup,
+                width = targetW,   // CRITICAL: set to what we actually sent
+                height = targetH   // CRITICAL: set to what we actually sent
             };
         }
 
         /// <summary>
-        /// Capture and encode frame WITHOUT resizing
+        /// GPU-accelerated resize + JPEG encode
         /// </summary>
-        public byte[] CaptureFrame(WebCamTexture webCamTexture)
+        private byte[] CaptureAndResizeToJpeg(Texture sourceTex, int targetW, int targetH, int jpegQuality)
         {
-            if (webCamTexture == null || !webCamTexture.isPlaying)
+            if (sourceTex == null)
             {
-                Debug.LogWarning("WebCamTexture is not ready for capture");
+                Debug.LogWarning("Source texture is null");
                 return null;
             }
 
             try
             {
-                int width = webCamTexture.width;
-                int height = webCamTexture.height;
+                // Ensure resize resources exist
+                EnsureResizeResources(targetW, targetH);
 
-                if (processingTexture == null ||
-                    processingTexture.width != width ||
-                    processingTexture.height != height)
-                {
-                    if (processingTexture != null)
-                        UnityEngine.Object.Destroy(processingTexture);
+                // GPU downscale (FAST)
+                Graphics.Blit(sourceTex, _resizeRT);
 
-                    processingTexture = new Texture2D(
-                        width,
-                        height,
-                        TextureFormat.RGB24,
-                        false
-                    );
+                // CPU readback (synchronous for now - can optimize with AsyncGPUReadback later)
+                var prev = RenderTexture.active;
+                RenderTexture.active = _resizeRT;
+                _resizeTex.ReadPixels(_resizeRect, 0, 0, false);
+                _resizeTex.Apply(false, false);
+                RenderTexture.active = prev;
 
-                    Debug.Log($"[FrameCapture] Created texture matching camera: {width}×{height}");
-                }
-
-                processingTexture.SetPixels(webCamTexture.GetPixels());
-                processingTexture.Apply();
-
-                byte[] jpegData = processingTexture.EncodeToJPG(config.jpegQuality);
+                // Encode small JPEG
+                byte[] jpegData = _resizeTex.EncodeToJPG(jpegQuality);
 
                 if (config.enablePerformanceLogging)
                 {
-                    Debug.Log($"[FrameCapture] Captured: {width}×{height}, Size: {jpegData.Length / 1024f:F2} KB");
+                    Debug.Log($"[FrameCapture] Camera:{sourceTex.width}×{sourceTex.height} → Sent:{targetW}×{targetH}, Size:{jpegData.Length / 1024f:F2} KB");
                 }
 
                 return jpegData;
@@ -114,12 +116,52 @@ namespace ARObjectDetection
             }
         }
 
+        /// <summary>
+        /// Ensure resize resources are allocated (cached)
+        /// </summary>
+        private void EnsureResizeResources(int w, int h)
+        {
+            // RenderTexture
+            if (_resizeRT == null || _resizeRT.width != w || _resizeRT.height != h)
+            {
+                if (_resizeRT != null)
+                {
+                    _resizeRT.Release();
+                    UnityEngine.Object.Destroy(_resizeRT);
+                }
+
+                _resizeRT = new RenderTexture(w, h, 0, RenderTextureFormat.ARGB32);
+                _resizeRT.Create();
+                _resizeRect = new Rect(0, 0, w, h);
+
+                Debug.Log($"[FrameCapture] Created RenderTexture: {w}×{h}");
+            }
+
+            // Texture2D for readback
+            if (_resizeTex == null || _resizeTex.width != w || _resizeTex.height != h)
+            {
+                if (_resizeTex != null)
+                    UnityEngine.Object.Destroy(_resizeTex);
+
+                _resizeTex = new Texture2D(w, h, TextureFormat.RGB24, false);
+
+                Debug.Log($"[FrameCapture] Created Texture2D: {w}×{h}");
+            }
+        }
+
         public void Dispose()
         {
-            if (processingTexture != null)
+            if (_resizeRT != null)
             {
-                UnityEngine.Object.Destroy(processingTexture);
-                processingTexture = null;
+                _resizeRT.Release();
+                UnityEngine.Object.Destroy(_resizeRT);
+                _resizeRT = null;
+            }
+
+            if (_resizeTex != null)
+            {
+                UnityEngine.Object.Destroy(_resizeTex);
+                _resizeTex = null;
             }
         }
     }

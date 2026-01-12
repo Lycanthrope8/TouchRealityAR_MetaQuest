@@ -358,6 +358,7 @@ extern void U3CSendFrameWithRetryU3Ed__5_System_Collections_IEnumerator_Reset_mC
 extern void U3CSendFrameWithRetryU3Ed__5_System_Collections_IEnumerator_get_Current_m0277002432CD864EDC09D2B3B3798524DBB93BB3 (void);
 extern void DetectionConfig_get_DetectEndpoint_mB0C0E06E29B28318B88AFE1D92DA01D27B723577 (void);
 extern void DetectionConfig_get_HealthEndpoint_m50465B7519F097A00D74D2154ED48E0C11DBF5CE (void);
+extern void DetectionConfig_OnValidate_mBC5553A164BFD8AE04AE2FD99A55DB2DEC6F7AD9 (void);
 extern void DetectionConfig__ctor_m17A7ADB714196A6C56B7D4EC73B0F3270D9E757E (void);
 extern void Detection_GetRect_m30E369B878B09E9BDE91072FC352A8450C73F8D4 (void);
 extern void Detection_GetCenter_m360614F4155AE479044D8F7CD2B219269BE672FE (void);
@@ -372,7 +373,8 @@ extern void CapturedFrame__ctor_mA2CC8CDB40951E9977FEA6849911F0D3DF9B51E0 (void)
 extern void FrameCaptureService__ctor_mA3A0F3C0038564E4672284B50C264B2A8DE7D4BC (void);
 extern void FrameCaptureService_ShouldCaptureFrame_m63373469ED66E121B1DE40571DB78E139D2C5491 (void);
 extern void FrameCaptureService_CaptureFrameWithMetadata_m8532461F2073C1B98D043D1B58DE6EF58DB6627D (void);
-extern void FrameCaptureService_CaptureFrame_m2155D071728971568D570364CB1B4D1EDCC3E624 (void);
+extern void FrameCaptureService_CaptureAndResizeToJpeg_m8423D9FB0A6DB21550E19A6E7DEDF7D959AD6F30 (void);
+extern void FrameCaptureService_EnsureResizeResources_m31FDB3677CB9C2CC9516D735B0CA05BBB7875300 (void);
 extern void FrameCaptureService_Dispose_mA92FAC93FB230AC075DCAEE20F1E18F848DDCB5F (void);
 extern void ObjectTracker_get_Instance_mF429CABE88563850FE40AD8565BEE7C70CD1F3A5 (void);
 extern void ObjectTracker_get_ActiveTrackCount_m6538D4F0273D630B27A80A5EE5C2BF1F0790E3AA (void);
@@ -482,7 +484,7 @@ extern void U3CInitializeWebCamTextureU3Ed__12_MoveNext_m45CDC5B283D629D6E7B2357
 extern void U3CInitializeWebCamTextureU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2C6F606A347F4E2CA11D4FE2680C1382BB31CDC1 (void);
 extern void U3CInitializeWebCamTextureU3Ed__12_System_Collections_IEnumerator_Reset_mDB91D3B9389B30DA938D4268E03DFBC7834466E8 (void);
 extern void U3CInitializeWebCamTextureU3Ed__12_System_Collections_IEnumerator_get_Current_m5E304D77D7CFEBE8F7A56CCB9687D0BE8D95030F (void);
-static Il2CppMethodPointer s_methodPointers[477] = 
+static Il2CppMethodPointer s_methodPointers[479] = 
 {
 	WebcamTextureAssigner_Start_m9348192CAD3E9D97F9EA385DF35C875FA24C59D8,
 	WebcamTextureAssigner__ctor_mFB8C66D2C79D2BA88F2A41A1281BD119C7F3E3C4,
@@ -835,6 +837,7 @@ static Il2CppMethodPointer s_methodPointers[477] =
 	U3CSendFrameWithRetryU3Ed__5_System_Collections_IEnumerator_get_Current_m0277002432CD864EDC09D2B3B3798524DBB93BB3,
 	DetectionConfig_get_DetectEndpoint_mB0C0E06E29B28318B88AFE1D92DA01D27B723577,
 	DetectionConfig_get_HealthEndpoint_m50465B7519F097A00D74D2154ED48E0C11DBF5CE,
+	DetectionConfig_OnValidate_mBC5553A164BFD8AE04AE2FD99A55DB2DEC6F7AD9,
 	DetectionConfig__ctor_m17A7ADB714196A6C56B7D4EC73B0F3270D9E757E,
 	Detection_GetRect_m30E369B878B09E9BDE91072FC352A8450C73F8D4,
 	Detection_GetCenter_m360614F4155AE479044D8F7CD2B219269BE672FE,
@@ -849,7 +852,8 @@ static Il2CppMethodPointer s_methodPointers[477] =
 	FrameCaptureService__ctor_mA3A0F3C0038564E4672284B50C264B2A8DE7D4BC,
 	FrameCaptureService_ShouldCaptureFrame_m63373469ED66E121B1DE40571DB78E139D2C5491,
 	FrameCaptureService_CaptureFrameWithMetadata_m8532461F2073C1B98D043D1B58DE6EF58DB6627D,
-	FrameCaptureService_CaptureFrame_m2155D071728971568D570364CB1B4D1EDCC3E624,
+	FrameCaptureService_CaptureAndResizeToJpeg_m8423D9FB0A6DB21550E19A6E7DEDF7D959AD6F30,
+	FrameCaptureService_EnsureResizeResources_m31FDB3677CB9C2CC9516D735B0CA05BBB7875300,
 	FrameCaptureService_Dispose_mA92FAC93FB230AC075DCAEE20F1E18F848DDCB5F,
 	ObjectTracker_get_Instance_mF429CABE88563850FE40AD8565BEE7C70CD1F3A5,
 	ObjectTracker_get_ActiveTrackCount_m6538D4F0273D630B27A80A5EE5C2BF1F0790E3AA,
@@ -962,7 +966,7 @@ static Il2CppMethodPointer s_methodPointers[477] =
 	U3CInitializeWebCamTextureU3Ed__12_System_Collections_IEnumerator_Reset_mDB91D3B9389B30DA938D4268E03DFBC7834466E8,
 	U3CInitializeWebCamTextureU3Ed__12_System_Collections_IEnumerator_get_Current_m5E304D77D7CFEBE8F7A56CCB9687D0BE8D95030F,
 };
-static const int32_t s_InvokerIndices[477] = 
+static const int32_t s_InvokerIndices[479] = 
 {
 	19068,
 	19292,
@@ -1316,6 +1320,7 @@ static const int32_t s_InvokerIndices[477] =
 	19068,
 	19068,
 	19292,
+	19292,
 	19122,
 	19279,
 	19292,
@@ -1329,7 +1334,8 @@ static const int32_t s_InvokerIndices[477] =
 	14779,
 	18835,
 	12876,
-	12876,
+	2232,
+	7056,
 	19292,
 	31179,
 	18983,
@@ -1444,8 +1450,8 @@ static const int32_t s_InvokerIndices[477] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[2] = 
 {
-	{ 0x060001C8, { 0, 2 } },
-	{ 0x060001C9, { 2, 2 } },
+	{ 0x060001CA, { 0, 2 } },
+	{ 0x060001CB, { 2, 2 } },
 };
 extern const uint32_t g_rgctx_PassthroughCameraUtils_GetCameraValueByKey_TisT_tE0935303ED2C2684C66CEE7DF0694C0D408B833D_m6AA6E615D64C20E2B6A2EBCC202BDF632A8D1A85;
 extern const uint32_t g_rgctx_T_tE0935303ED2C2684C66CEE7DF0694C0D408B833D;
@@ -1462,7 +1468,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	477,
+	479,
 	s_methodPointers,
 	0,
 	NULL,

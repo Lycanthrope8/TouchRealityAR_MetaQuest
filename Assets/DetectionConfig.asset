@@ -15,9 +15,9 @@ MonoBehaviour:
   serverUrl: http://10.0.0.93:5000
   requestTimeout: 5
   maxRetryAttempts: 2
-  frameCaptureInterval: 3
-  targetResolution: {x: 640, y: 480}
-  jpegQuality: 55
+  frameCaptureInterval: 6
+  targetResolution: {x: 640, y: 360}
+  jpegQuality: 70
   confidenceThreshold: 0.25
   enableClassFilter: 1
   classFilter:
