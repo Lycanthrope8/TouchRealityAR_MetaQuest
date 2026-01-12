@@ -16,8 +16,8 @@ MonoBehaviour:
   requestTimeout: 5
   maxRetryAttempts: 2
   frameCaptureInterval: 6
-  targetResolution: {x: 640, y: 360}
-  jpegQuality: 70
+  targetResolution: {x: 640, y: 640}
+  jpegQuality: 60
   confidenceThreshold: 0.25
   enableClassFilter: 1
   classFilter:

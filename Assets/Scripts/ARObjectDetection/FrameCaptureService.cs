@@ -86,25 +86,40 @@ namespace ARObjectDetection
 
             try
             {
+                float t0 = Time.realtimeSinceStartup;
+
                 // Ensure resize resources exist
                 EnsureResizeResources(targetW, targetH);
+
+                float t1 = Time.realtimeSinceStartup;
 
                 // GPU downscale (FAST)
                 Graphics.Blit(sourceTex, _resizeRT);
 
-                // CPU readback (synchronous for now - can optimize with AsyncGPUReadback later)
+                float t2 = Time.realtimeSinceStartup;
+
+                // CPU readback
                 var prev = RenderTexture.active;
                 RenderTexture.active = _resizeRT;
                 _resizeTex.ReadPixels(_resizeRect, 0, 0, false);
                 _resizeTex.Apply(false, false);
                 RenderTexture.active = prev;
 
-                // Encode small JPEG
+                float t3 = Time.realtimeSinceStartup;
+
+                // Encode JPEG
                 byte[] jpegData = _resizeTex.EncodeToJPG(jpegQuality);
+
+                float t4 = Time.realtimeSinceStartup;
+
+                float blitTime = (t2 - t1) * 1000f;
+                float readbackTime = (t3 - t2) * 1000f;
+                float encodeTime = (t4 - t3) * 1000f;
+                float totalTime = (t4 - t0) * 1000f;
 
                 if (config.enablePerformanceLogging)
                 {
-                    Debug.Log($"[FrameCapture] Camera:{sourceTex.width}×{sourceTex.height} → Sent:{targetW}×{targetH}, Size:{jpegData.Length / 1024f:F2} KB");
+                    Debug.Log($"[Capture Timing] Blit:{blitTime:F1}ms ReadPixels:{readbackTime:F1}ms Encode:{encodeTime:F1}ms Total:{totalTime:F1}ms Size:{jpegData.Length / 1024f:F1}KB");
                 }
 
                 return jpegData;

@@ -29,11 +29,11 @@ namespace ARObjectDetection
                     [Tooltip("Target resolution for captured frames - MUST maintain camera aspect ratio!\n" +
                              "Camera is typically 1280×720 (16:9), so use 640×360, 512×288, etc.\n" +
                              "SMALLER = faster encode + less bandwidth + faster inference")]
-                    public Vector2Int targetResolution = new Vector2Int(640, 360);
+                    public Vector2Int targetResolution = new Vector2Int(640, 640);
 
                     [Tooltip("JPEG compression quality (0-100, higher = better quality, larger size)")]
                     [Range(1, 100)]
-                    public int jpegQuality = 70;
+                    public int jpegQuality = 60;
 
                     [Header("Detection Settings")]
                     [Tooltip("Minimum confidence threshold for detections (0-1)")]

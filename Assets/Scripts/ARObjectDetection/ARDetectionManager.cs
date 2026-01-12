@@ -140,6 +140,12 @@ namespace ARObjectDetection
             if (webCamTexture == null || !webCamTexture.isPlaying)
                 return;
 
+            // NEW: Log actual webcam resolution (only once)
+            if (Time.frameCount % 300 == 0)  // Every 5 seconds at 60fps
+            {
+                Debug.Log($"[WebCam] Actual resolution: {webCamTexture.width}×{webCamTexture.height}");
+            }
+            
             if (Time.time - lastFrameTime > 0)
             {
                 metrics.captureFrameRate = 1f / (Time.time - lastFrameTime);

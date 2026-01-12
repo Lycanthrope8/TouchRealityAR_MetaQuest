@@ -76,6 +76,12 @@ namespace ARObjectDetection
             try
             {
                 cameraIntrinsics = PassthroughCameraUtils.GetCameraIntrinsics(cameraEye);
+                // NEW: Log the actual camera info
+                var intrinsics = cameraIntrinsics.Value;
+                Debug.Log($"[Camera Info] Resolution: {intrinsics.Resolution.x}×{intrinsics.Resolution.y}");
+                Debug.Log($"[Camera Info] Focal Length: ({intrinsics.FocalLength.x:F1}, {intrinsics.FocalLength.y:F1})");
+                Debug.Log($"[Camera Info] Principal Point: ({intrinsics.PrincipalPoint.x:F1}, {intrinsics.PrincipalPoint.y:F1})");
+
                 Debug.Log($"[ObjectTracker] Camera intrinsics loaded: {cameraIntrinsics.Value.Resolution}");
             }
             catch (System.Exception e)
@@ -628,7 +634,7 @@ namespace ARObjectDetection
             float sx = (sentW > 0) ? (float)camW / sentW : 1f;
             float sy = (sentH > 0) ? (float)camH / sentH : 1f;
 
-            Debug.Log($"[BBox Scale] Sent:{sentW}×{sentH} → Camera:{camW}×{camH} | Scale:({sx:F2}, {sy:F2})");
+            Debug.Log($"[Coord Scale] Sent:{sentW}×{sentH} → Camera:{camW}×{camH} | sx={sx:F2}, sy={sy:F2}");
 
             Pose currentCameraPose = new Pose(
                 centerEyeTransform.position,
