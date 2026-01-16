@@ -376,8 +376,8 @@ struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t
 struct U3CPrivateImplementationDetailsU3E_t004D4AFA27FA0452CA11C0682B9F9C6931C562D6_StaticFields
 {
 	__StaticArrayInitTypeSizeU3D7294_tD1B60406156BB9DA4528DEA56A9978BDC324A373 ___04FAB4D99AB623C2F0A0E5D5DEACBDE19A57D17D1D7BE70667902FB332256A2A;
+	__StaticArrayInitTypeSizeU3D12732_t9EE82E14505F094D4D93E3B7EF21089B181C68BF ___12A6B4F40578282425B2AE52A30A938F7E54DDA8D70E7394F3FC4250B2529AD0;
 	__StaticArrayInitTypeSizeU3D5_t7669CAF0F18364A7A29EC8B987BE83E7B0CDEF4F ___28B6B91C427039BA5AEDC5289AFBB4A580BB1A36B2783E5742E5CBD6C48EE3FF;
-	__StaticArrayInitTypeSizeU3D12732_t9EE82E14505F094D4D93E3B7EF21089B181C68BF ___4AA2EF34801F6C3E3BB38E277C4C206D9899A04DEF118D33006D01AA8424D032;
 	__StaticArrayInitTypeSizeU3D5_t7669CAF0F18364A7A29EC8B987BE83E7B0CDEF4F ___B05E2187E81ED5FCA02CC5CBA7178A0572071ABF078B962520EE22AF9DBE6C75;
 };
 struct GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_StaticFields
@@ -623,15 +623,15 @@ IL2CPP_EXTERN_C void GizmoTypeInfo_t93D18342D531CD0DF986A1D22C7EE972069C8A25_mar
 IL2CPP_EXTERN_C void GizmoTypeInfo_t93D18342D531CD0DF986A1D22C7EE972069C8A25_marshal_com_cleanup(GizmoTypeInfo_t93D18342D531CD0DF986A1D22C7EE972069C8A25_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 110319
+// Method Definition Index: 110321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypeInfo__ctor_m555B2EB4C93CE481EC5A9DFCF8DABC80458C9C3C (GizmoTypeInfo_t93D18342D531CD0DF986A1D22C7EE972069C8A25* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_renderDelegate, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:33>
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_0 = ___0_renderDelegate;
 		__this->___RenderDelegate = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RenderDelegate), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:34>
 		return;
 	}
 }
@@ -650,7 +650,7 @@ IL2CPP_EXTERN_C  void GizmoTypeInfo__ctor_m555B2EB4C93CE481EC5A9DFCF8DABC80458C9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 110320
+// Method Definition Index: 110322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypesRegistry_Init_m7D5ADD821AD717FA76A29F50481D1334D0AFB96B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -663,7 +663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypesRegistry_Init_m7D5ADD821AD717F
 	Dictionary_2_t641DA8DE076FF1F9D0562684D7515657CE65F424* G_B2_0 = NULL;
 	Dictionary_2_t641DA8DE076FF1F9D0562684D7515657CE65F424* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:42>
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		Dictionary_2_t641DA8DE076FF1F9D0562684D7515657CE65F424* L_0 = ((GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_StaticFields*)il2cpp_codegen_static_fields_for(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var))->___GizmoTypeInfos;
 		Dictionary_2_t641DA8DE076FF1F9D0562684D7515657CE65F424* L_1 = L_0;
@@ -682,11 +682,11 @@ IL_000a:
 	{
 		NullCheck(G_B2_0);
 		Dictionary_2_Clear_m9D25532553D33F09E03831FE59B6A75BEA996CCF(G_B2_0, Dictionary_2_Clear_m9D25532553D33F09E03831FE59B6A75BEA996CCF_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 110321
+// Method Definition Index: 110323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypesRegistry_RegisterGizmoType_mA6B9F12F78F59E5D194EC263D66D96383F3AC841 (int32_t ___0_gizmoType, Type_t* ___1_dataSourceType, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___2_renderDelegate, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -698,7 +698,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypesRegistry_RegisterGizmoType_mA6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:49>
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		Dictionary_2_t641DA8DE076FF1F9D0562684D7515657CE65F424* L_0 = ((GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_StaticFields*)il2cpp_codegen_static_fields_for(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var))->___GizmoTypeInfos;
 		int32_t L_1 = ___0_gizmoType;
@@ -712,11 +712,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypesRegistry_RegisterGizmoType_mA6
 		GizmoTypeInfo__ctor_m555B2EB4C93CE481EC5A9DFCF8DABC80458C9C3C_inline((&L_5), L_4, NULL);
 		NullCheck(L_0);
 		Dictionary_2_Add_m13E976DC184061254F3B8E69173E4A5895A2CC76(L_0, L_3, L_5, Dictionary_2_Add_m13E976DC184061254F3B8E69173E4A5895A2CC76_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:50>
 		return;
 	}
 }
-// Method Definition Index: 110322
+// Method Definition Index: 110324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypesRegistry_InitGizmos_m4F9436ABF76F1115FDA5A70A10EC13461C8031C6 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -806,13 +806,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypesRegistry_InitGizmos_m4F9436ABF
 	Type_t* G_B19_1 = NULL;
 	int32_t G_B19_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:54>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:55>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:56>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:57>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:58>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:59>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:60>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -848,13 +848,13 @@ IL_002a:
 	{
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		GizmoTypesRegistry_RegisterGizmoType_mA6B9F12F78F59E5D194EC263D66D96383F3AC841(G_B2_2, G_B2_1, G_B2_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:61>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:62>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:63>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:64>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:65>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:66>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:67>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_8;
@@ -890,13 +890,13 @@ IL_0059:
 	{
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		GizmoTypesRegistry_RegisterGizmoType_mA6B9F12F78F59E5D194EC263D66D96383F3AC841(G_B4_2, G_B4_1, G_B4_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:68>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:69>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:70>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:71>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:72>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:73>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:74>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_14 = { reinterpret_cast<intptr_t> (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_15;
@@ -932,13 +932,13 @@ IL_0088:
 	{
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		GizmoTypesRegistry_RegisterGizmoType_mA6B9F12F78F59E5D194EC263D66D96383F3AC841(G_B6_2, G_B6_1, G_B6_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:75>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:76>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:77>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:78>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:79>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:80>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:81>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_21 = { reinterpret_cast<intptr_t> (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_22;
@@ -974,13 +974,13 @@ IL_00b7:
 	{
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		GizmoTypesRegistry_RegisterGizmoType_mA6B9F12F78F59E5D194EC263D66D96383F3AC841(G_B8_2, G_B8_1, G_B8_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:82>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:83>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:84>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:85>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:86>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:87>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:88>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_28 = { reinterpret_cast<intptr_t> (Tuple_2_t1031294228C6EDBE7C73F19D2C7E9C5CEB82B29F_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_29;
@@ -1016,16 +1016,16 @@ IL_00e6:
 	{
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		GizmoTypesRegistry_RegisterGizmoType_mA6B9F12F78F59E5D194EC263D66D96383F3AC841(G_B10_2, G_B10_1, G_B10_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:89>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:90>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:91>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:92>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:93>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:94>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:95>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:96>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:97>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:98>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_35 = { reinterpret_cast<intptr_t> (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_36;
@@ -1061,13 +1061,13 @@ IL_0115:
 	{
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		GizmoTypesRegistry_RegisterGizmoType_mA6B9F12F78F59E5D194EC263D66D96383F3AC841(G_B12_2, G_B12_1, G_B12_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:99>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:100>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:101>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:102>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:103>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:104>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:105>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_42 = { reinterpret_cast<intptr_t> (Tuple_3_t4F66A5E98AEAE37DCDB7C4409998C7D74F649A25_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_43;
@@ -1103,13 +1103,13 @@ IL_0144:
 	{
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		GizmoTypesRegistry_RegisterGizmoType_mA6B9F12F78F59E5D194EC263D66D96383F3AC841(G_B14_2, G_B14_1, G_B14_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:106>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:107>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:108>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:109>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:110>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:111>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:112>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_49 = { reinterpret_cast<intptr_t> (Tuple_2_tA7C2516BCF161E7460ECB96A4AA0F32EE68F1D32_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_50;
@@ -1145,13 +1145,13 @@ IL_0173:
 	{
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		GizmoTypesRegistry_RegisterGizmoType_mA6B9F12F78F59E5D194EC263D66D96383F3AC841(G_B16_2, G_B16_1, G_B16_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:113>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:114>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:115>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:116>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:117>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:118>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:119>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_56 = { reinterpret_cast<intptr_t> (Tuple_4_tE8C10AEA6C8B176681F8DF9607B42D5E43310CAF_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_57;
@@ -1187,13 +1187,13 @@ IL_01a2:
 	{
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		GizmoTypesRegistry_RegisterGizmoType_mA6B9F12F78F59E5D194EC263D66D96383F3AC841(G_B18_2, G_B18_1, G_B18_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:120>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:121>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:122>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:123>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:124>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:125>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:126>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_63 = { reinterpret_cast<intptr_t> (Tuple_4_tE8C10AEA6C8B176681F8DF9607B42D5E43310CAF_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_64;
@@ -1229,11 +1229,11 @@ IL_01d1:
 	{
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		GizmoTypesRegistry_RegisterGizmoType_mA6B9F12F78F59E5D194EC263D66D96383F3AC841(G_B20_2, G_B20_1, G_B20_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:127>
 		return;
 	}
 }
-// Method Definition Index: 110323
+// Method Definition Index: 110325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GizmoTypesRegistry_IsValidDataTypeForGizmoType_mE67AA30AC824A7B621F4BCCAAFF5EF4ECC9028A5 (Type_t* ___0_type, int32_t ___1_gizmoType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1250,7 +1250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GizmoTypesRegistry_IsValidDataTypeForGiz
 	GizmoTypeInfo_t93D18342D531CD0DF986A1D22C7EE972069C8A25 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:131>
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		Dictionary_2_t641DA8DE076FF1F9D0562684D7515657CE65F424* L_0 = ((GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_StaticFields*)il2cpp_codegen_static_fields_for(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var))->___GizmoTypeInfos;
 		int32_t L_1 = ___1_gizmoType;
@@ -1267,13 +1267,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GizmoTypesRegistry_IsValidDataTypeForGiz
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:133>
 		return (bool)1;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:135>
 		int32_t L_5 = ___1_gizmoType;
 		int32_t L_6 = L_5;
 		RuntimeObject* L_7 = Box(DebugGizmoType_tB18946982B1E6CA3D84DA2DB7E5AB84C28E787AF_il2cpp_TypeInfo_var, &L_6);
@@ -1281,11 +1281,11 @@ IL_0017:
 		L_8 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralC80CA7FA543DCBC7CF2049E5164BCFBFAB537AE6, L_7, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:136>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 110324
+// Method Definition Index: 110326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypesRegistry_RenderGizmo_m4B75AE0635D9A3F0B1CD58055B3CB6D592614717 (int32_t ___0_type, RuntimeObject* ___1_dataSource, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1299,7 +1299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypesRegistry_RenderGizmo_m4B75AE06
 	GizmoTypeInfo_t93D18342D531CD0DF986A1D22C7EE972069C8A25 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:141>
 		RuntimeObject* L_0 = ___1_dataSource;
 		if (L_0)
 		{
@@ -1307,13 +1307,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypesRegistry_RenderGizmo_m4B75AE06
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:143>
 		return;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:146>
 		il2cpp_codegen_runtime_class_init_inline(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var);
 		Dictionary_2_t641DA8DE076FF1F9D0562684D7515657CE65F424* L_1 = ((GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_StaticFields*)il2cpp_codegen_static_fields_for(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var))->___GizmoTypeInfos;
 		int32_t L_2 = ___0_type;
@@ -1333,7 +1333,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:148>
 		GizmoTypeInfo_t93D18342D531CD0DF986A1D22C7EE972069C8A25 L_7 = V_0;
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_8 = L_7.___RenderDelegate;
 		RuntimeObject* L_9 = ___1_dataSource;
@@ -1343,11 +1343,11 @@ IL_0004:
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:150>
 		return;
 	}
 }
-// Method Definition Index: 110325
+// Method Definition Index: 110327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypesRegistry__cctor_m8F57B59BFD5EE3AB99109175B5E7B350E3B532E6 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1359,7 +1359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypesRegistry__cctor_m8F57B59BFD5EE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:45>
 		Dictionary_2_t641DA8DE076FF1F9D0562684D7515657CE65F424* L_0 = (Dictionary_2_t641DA8DE076FF1F9D0562684D7515657CE65F424*)il2cpp_codegen_object_new(Dictionary_2_t641DA8DE076FF1F9D0562684D7515657CE65F424_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mA54CC94C7A024E36193B80B5A6F345B3AD5EBE35(L_0, Dictionary_2__ctor_mA54CC94C7A024E36193B80B5A6F345B3AD5EBE35_RuntimeMethod_var);
 		((GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_StaticFields*)il2cpp_codegen_static_fields_for(GizmoTypesRegistry_t948A23C1AA6FAA72AEDD312D08616E1BC8E721D1_il2cpp_TypeInfo_var))->___GizmoTypeInfos = L_0;
@@ -1375,7 +1375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GizmoTypesRegistry__cctor_m8F57B59BFD5EE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 110326
+// Method Definition Index: 110328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m619C000E4EBE48C71ED38EB1D5D2A90917565843 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1392,7 +1392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m619C000E4EBE48C71ED38EB1
 		return;
 	}
 }
-// Method Definition Index: 110327
+// Method Definition Index: 110329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mB3F00F19EDFE144FFD3E09CC96D3860ABB3A684C (U3CU3Ec_t5F5D5F7E00C1C12204D0252B5E0B1025BC5F3619* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1400,7 +1400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mB3F00F19EDFE144FFD3E09CC9
 		return;
 	}
 }
-// Method Definition Index: 110328
+// Method Definition Index: 110330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_0_m3C729B3FDA608BEB78A3BEBAFE107C19DD62D146 (U3CU3Ec_t5F5D5F7E00C1C12204D0252B5E0B1025BC5F3619* __this, RuntimeObject* ___0_dataSource, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1413,7 +1413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_0_m3C729B3F
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:56>
 		RuntimeObject* L_0 = ___0_dataSource;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var)))
 		{
@@ -1423,7 +1423,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_0_m3C729B3F
 	{
 		RuntimeObject* L_1 = ___0_dataSource;
 		V_0 = ((*(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)UnBox(L_1, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:58>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(DebugGizmos_tA5F66987724B46BC3F774F1452B083C80CA9F731_il2cpp_TypeInfo_var);
 		DebugGizmos_DrawAxis_mA12A67ABDEBEA31BB2A0BCF515A86F2D212F2FB9(L_2, (0.100000001f), NULL);
@@ -1431,11 +1431,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_0_m3C729B3F
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:60>
 		return;
 	}
 }
-// Method Definition Index: 110329
+// Method Definition Index: 110331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_1_m21B53BCC8360F83D89907ED06D2D21250923E5FF (U3CU3Ec_t5F5D5F7E00C1C12204D0252B5E0B1025BC5F3619* __this, RuntimeObject* ___0_dataSource, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1447,7 +1447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_1_m21B53BCC
 	}
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:63>
 		RuntimeObject* L_0 = ___0_dataSource;
 		V_0 = ((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)IsInstClass((RuntimeObject*)L_0, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = V_0;
@@ -1457,7 +1457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_1_m21B53BCC
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:65>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(DebugGizmos_tA5F66987724B46BC3F774F1452B083C80CA9F731_il2cpp_TypeInfo_var);
 		DebugGizmos_DrawAxis_mFFE29BAFA149A9832BF70F14F28A131999019264(L_2, (0.100000001f), NULL);
@@ -1465,11 +1465,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_1_m21B53BCC
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:67>
 		return;
 	}
 }
-// Method Definition Index: 110330
+// Method Definition Index: 110332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_2_m6DE9D96EFBD7CEDD80328BC1DDCF243A717FDF45 (U3CU3Ec_t5F5D5F7E00C1C12204D0252B5E0B1025BC5F3619* __this, RuntimeObject* ___0_dataSource, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1482,7 +1482,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_2_m6DE9D96E
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:70>
 		RuntimeObject* L_0 = ___0_dataSource;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var)))
 		{
@@ -1492,7 +1492,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_2_m6DE9D96E
 	{
 		RuntimeObject* L_1 = ___0_dataSource;
 		V_0 = ((*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)UnBox(L_1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:72>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(DebugGizmos_tA5F66987724B46BC3F774F1452B083C80CA9F731_il2cpp_TypeInfo_var);
 		DebugGizmos_DrawPoint_m42425751321CF229B68C82460615B60C3B17BE34(L_2, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
@@ -1500,11 +1500,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_2_m6DE9D96E
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 110331
+// Method Definition Index: 110333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_3_m95AF5DAB2B0CBE9D35A8672F0AC8A28F3549460F (U3CU3Ec_t5F5D5F7E00C1C12204D0252B5E0B1025BC5F3619* __this, RuntimeObject* ___0_dataSource, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1516,7 +1516,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_3_m95AF5DAB
 	}
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:77>
 		RuntimeObject* L_0 = ___0_dataSource;
 		V_0 = ((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)IsInstClass((RuntimeObject*)L_0, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = V_0;
@@ -1526,7 +1526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_3_m95AF5DAB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:79>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = V_0;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -1537,11 +1537,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_3_m95AF5DAB
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 110332
+// Method Definition Index: 110334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_4_m62989732170AAF83BF2D6CB91B7B05D25A3FCBEF (U3CU3Ec_t5F5D5F7E00C1C12204D0252B5E0B1025BC5F3619* __this, RuntimeObject* ___0_dataSource, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1555,7 +1555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_4_m62989732
 	}
 	Tuple_2_t1031294228C6EDBE7C73F19D2C7E9C5CEB82B29F* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:84>
 		RuntimeObject* L_0 = ___0_dataSource;
 		V_0 = ((Tuple_2_t1031294228C6EDBE7C73F19D2C7E9C5CEB82B29F*)IsInstClass((RuntimeObject*)L_0, Tuple_2_t1031294228C6EDBE7C73F19D2C7E9C5CEB82B29F_il2cpp_TypeInfo_var));
 		Tuple_2_t1031294228C6EDBE7C73F19D2C7E9C5CEB82B29F* L_1 = V_0;
@@ -1565,7 +1565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_4_m62989732
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:86>
 		Tuple_2_t1031294228C6EDBE7C73F19D2C7E9C5CEB82B29F* L_2 = V_0;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -1580,11 +1580,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_4_m62989732
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 110333
+// Method Definition Index: 110335
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_5_m43695FB5C87A861A45A8E9237714EC1E34ED44F3 (U3CU3Ec_t5F5D5F7E00C1C12204D0252B5E0B1025BC5F3619* __this, RuntimeObject* ___0_dataSource, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1597,7 +1597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_5_m43695FB5
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:91>
 		RuntimeObject* L_0 = ___0_dataSource;
 		V_0 = ((Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)IsInst((RuntimeObject*)L_0, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = V_0;
@@ -1607,14 +1607,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_5_m43695FB5
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:93>
 		V_1 = 1;
 		goto IL_0028;
 	}
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:95>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
@@ -1627,14 +1627,14 @@ IL_000e:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
 		il2cpp_codegen_runtime_class_init_inline(DebugGizmos_tA5F66987724B46BC3F774F1452B083C80CA9F731_il2cpp_TypeInfo_var);
 		DebugGizmos_DrawLine_m5922B2068FBADC72614FA661F5180C55D0096BD5(L_5, L_9, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:93>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:93>
 		int32_t L_11 = V_1;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_12 = V_0;
 		NullCheck(L_12);
@@ -1646,11 +1646,11 @@ IL_0028:
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:98>
 		return;
 	}
 }
-// Method Definition Index: 110334
+// Method Definition Index: 110336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_6_mFDCF0D9150757F63C57A0BC932B238689436F98B (U3CU3Ec_t5F5D5F7E00C1C12204D0252B5E0B1025BC5F3619* __this, RuntimeObject* ___0_dataSource, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1665,7 +1665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_6_mFDCF0D91
 	}
 	Tuple_3_t4F66A5E98AEAE37DCDB7C4409998C7D74F649A25* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:101>
 		RuntimeObject* L_0 = ___0_dataSource;
 		V_0 = ((Tuple_3_t4F66A5E98AEAE37DCDB7C4409998C7D74F649A25*)IsInstClass((RuntimeObject*)L_0, Tuple_3_t4F66A5E98AEAE37DCDB7C4409998C7D74F649A25_il2cpp_TypeInfo_var));
 		Tuple_3_t4F66A5E98AEAE37DCDB7C4409998C7D74F649A25* L_1 = V_0;
@@ -1675,7 +1675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_6_mFDCF0D91
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:103>
 		Tuple_3_t4F66A5E98AEAE37DCDB7C4409998C7D74F649A25* L_2 = V_0;
 		NullCheck(L_2);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_3;
@@ -1694,11 +1694,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_6_mFDCF0D91
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:105>
 		return;
 	}
 }
-// Method Definition Index: 110335
+// Method Definition Index: 110337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_7_mC573BA6CB0A36A9FBE8BDD3592B5EC5D3855B5D6 (U3CU3Ec_t5F5D5F7E00C1C12204D0252B5E0B1025BC5F3619* __this, RuntimeObject* ___0_dataSource, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1712,7 +1712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_7_mC573BA6C
 	}
 	Tuple_2_tA7C2516BCF161E7460ECB96A4AA0F32EE68F1D32* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:108>
 		RuntimeObject* L_0 = ___0_dataSource;
 		V_0 = ((Tuple_2_tA7C2516BCF161E7460ECB96A4AA0F32EE68F1D32*)IsInstClass((RuntimeObject*)L_0, Tuple_2_tA7C2516BCF161E7460ECB96A4AA0F32EE68F1D32_il2cpp_TypeInfo_var));
 		Tuple_2_tA7C2516BCF161E7460ECB96A4AA0F32EE68F1D32* L_1 = V_0;
@@ -1722,7 +1722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_7_mC573BA6C
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:110>
 		Tuple_2_tA7C2516BCF161E7460ECB96A4AA0F32EE68F1D32* L_2 = V_0;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -1737,11 +1737,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_7_mC573BA6C
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:112>
 		return;
 	}
 }
-// Method Definition Index: 110336
+// Method Definition Index: 110338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_8_mDE66FE362CD0D3B737FB2B0B0B140D3AC1891701 (U3CU3Ec_t5F5D5F7E00C1C12204D0252B5E0B1025BC5F3619* __this, RuntimeObject* ___0_dataSource, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1757,7 +1757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_8_mDE66FE36
 	}
 	Tuple_4_tE8C10AEA6C8B176681F8DF9607B42D5E43310CAF* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:115>
 		RuntimeObject* L_0 = ___0_dataSource;
 		V_0 = ((Tuple_4_tE8C10AEA6C8B176681F8DF9607B42D5E43310CAF*)IsInstClass((RuntimeObject*)L_0, Tuple_4_tE8C10AEA6C8B176681F8DF9607B42D5E43310CAF_il2cpp_TypeInfo_var));
 		Tuple_4_tE8C10AEA6C8B176681F8DF9607B42D5E43310CAF* L_1 = V_0;
@@ -1767,7 +1767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_8_mDE66FE36
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:117>
 		Tuple_4_tE8C10AEA6C8B176681F8DF9607B42D5E43310CAF* L_2 = V_0;
 		NullCheck(L_2);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_3;
@@ -1790,11 +1790,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_8_mDE66FE36
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:119>
 		return;
 	}
 }
-// Method Definition Index: 110337
+// Method Definition Index: 110339
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_9_m0783DD7A9BBB49BC5C859235FAC033A97A46531B (U3CU3Ec_t5F5D5F7E00C1C12204D0252B5E0B1025BC5F3619* __this, RuntimeObject* ___0_dataSource, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1810,7 +1810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_9_m0783DD7A
 	}
 	Tuple_4_tE8C10AEA6C8B176681F8DF9607B42D5E43310CAF* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:122>
 		RuntimeObject* L_0 = ___0_dataSource;
 		V_0 = ((Tuple_4_tE8C10AEA6C8B176681F8DF9607B42D5E43310CAF*)IsInstClass((RuntimeObject*)L_0, Tuple_4_tE8C10AEA6C8B176681F8DF9607B42D5E43310CAF_il2cpp_TypeInfo_var));
 		Tuple_4_tE8C10AEA6C8B176681F8DF9607B42D5E43310CAF* L_1 = V_0;
@@ -1820,7 +1820,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_9_m0783DD7A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:124>
 		Tuple_4_tE8C10AEA6C8B176681F8DF9607B42D5E43310CAF* L_2 = V_0;
 		NullCheck(L_2);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_3;
@@ -1843,7 +1843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitGizmosU3Eb__3_9_m0783DD7A
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:126>
 		return;
 	}
 }
@@ -1882,15 +1882,15 @@ IL_0028:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 110319
+// Method Definition Index: 110321
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GizmoTypeInfo__ctor_m555B2EB4C93CE481EC5A9DFCF8DABC80458C9C3C_inline (GizmoTypeInfo_t93D18342D531CD0DF986A1D22C7EE972069C8A25* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_renderDelegate, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:33>
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_0 = ___0_renderDelegate;
 		__this->___RenderDelegate = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RenderDelegate), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Gizmos/GizmoTypesRegistry.cs:34>
 		return;
 	}
 }

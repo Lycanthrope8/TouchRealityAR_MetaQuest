@@ -22999,21 +22999,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeParameter_1_op_Explicit_m06E2D8024
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 110116
+// Method Definition Index: 110118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7* Watch_1_get_ToDisplayStringsDelegate_m9C9AE6D106EA53DC1DF6E1B92849C867CB3E0BCF_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7* L_0 = ((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 110117
+// Method Definition Index: 110119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_set_ToDisplayStringsDelegate_mAABD138D6535546AFDC073F6FD6450B5F260154F_gshared (ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField = L_0;
@@ -23021,39 +23021,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_set_ToDisplayStringsDelegate_mAA
 		return;
 	}
 }
-// Method Definition Index: 110118
+// Method Definition Index: 110120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Watch_1_get_NumberOfDisplayStrings_m27D6E33C7B3CD9FC0D09972977338DFE28D5731B_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		int32_t L_0 = ((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 110119
+// Method Definition Index: 110121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_set_NumberOfDisplayStrings_mA0A72FE07A6CD2699D896DFFD7E4051822627864_gshared (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		int32_t L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 110120
+// Method Definition Index: 110122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Watch_1_get_NumberOfValues_mC3FF7C828218BD03C65C1141238144AC52FBA6A5_gshared (Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:151>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
 		int32_t L_0;
 		L_0 = Watch_1_get_NumberOfDisplayStrings_m27D6E33C7B3CD9FC0D09972977338DFE28D5731B_inline(il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		return L_0;
 	}
 }
-// Method Definition Index: 110121
+// Method Definition Index: 110123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_ResetBuffer_mFECEC835B84DD16E3F7B54F5B32A18E026113F03_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23063,35 +23063,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_ResetBuffer_mFECEC835B84DD16E3F7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:155>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		int32_t L_0;
 		L_0 = Watch_1_get_NumberOfDisplayStrings_m27D6E33C7B3CD9FC0D09972977338DFE28D5731B_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)L_0);
 		((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:156>
 		return;
 	}
 }
-// Method Definition Index: 110122
+// Method Definition Index: 110124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_Setup_mD3A0A340A5E7C1F624388F31CE1F4FFC4E2F6060_gshared (ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7* ___0_del, int32_t ___1_numberOfValues, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:160>
 		ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7* L_0 = ___0_del;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		Watch_1_set_ToDisplayStringsDelegate_mAABD138D6535546AFDC073F6FD6450B5F260154F_inline(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:161>
 		int32_t L_1 = ___1_numberOfValues;
 		Watch_1_set_NumberOfDisplayStrings_mA0A72FE07A6CD2699D896DFFD7E4051822627864_inline(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:162>
 		Watch_1_ResetBuffer_mFECEC835B84DD16E3F7B54F5B32A18E026113F03(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:163>
 		return;
 	}
 }
-// Method Definition Index: 110123
+// Method Definition Index: 110125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Watch_1_ToDisplayStrings_m0ACD8C4E5607CD48A7D5FF26E1BB4ADEE89080BA_gshared (bool ___0_value, const RuntimeMethod* method) 
 {
 	int32_t G_B4_0 = 0;
@@ -23102,7 +23102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 	int32_t G_B5_1 = 0;
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B5_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:167>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7* L_0;
 		L_0 = Watch_1_get_ToDisplayStringsDelegate_m9C9AE6D106EA53DC1DF6E1B92849C867CB3E0BCF_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
@@ -23112,7 +23112,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:169>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7* L_1;
 		L_1 = Watch_1_get_ToDisplayStringsDelegate_m9C9AE6D106EA53DC1DF6E1B92849C867CB3E0BCF_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
@@ -23124,7 +23124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:173>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer;
 		G_B4_0 = 0;
@@ -23150,17 +23150,17 @@ IL_003b:
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:175>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = ((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer;
 		return L_6;
 	}
 }
-// Method Definition Index: 110124
+// Method Definition Index: 110126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Watch_1_get_Values_m7350608DBC6BBA0BCB5E3A876107A812701DAD1F_gshared (Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:179>
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_0 = __this->____getter;
 		NullCheck(L_0);
 		bool L_1;
@@ -23171,11 +23171,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 		return L_2;
 	}
 }
-// Method Definition Index: 110125
+// Method Definition Index: 110127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Watch_1_get_Value_m8F3FB2AC3A5BD2B0B2E83213B534033436A8591A_gshared (Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:180>
 		NullCheck((Watch_tCE9CEFB7E24CF84E54A62924CD181E5346DE97F0*)__this);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0;
 		L_0 = VirtualFuncInvoker0< StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* >::Invoke(5, (Watch_tCE9CEFB7E24CF84E54A62924CD181E5346DE97F0*)__this);
@@ -23185,7 +23185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Watch_1_get_Value_m8F3FB2AC3A5BD2B0
 		return L_2;
 	}
 }
-// Method Definition Index: 110126
+// Method Definition Index: 110128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__ctor_mD2E8AC3CD8C65196FCA039E5858BD440DA8E9B6A_gshared (Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6* __this, MemberInfo_t* ___0_memberInfo, InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA ___1_instanceHandle, DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* ___2_attribute, const RuntimeMethod* method) 
 {
 	U3CU3Ec__DisplayClass20_0_tC340E476E7CD28700F9AD8C944E14547E4AAD2C3* V_0 = NULL;
@@ -23198,7 +23198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__ctor_mD2E8AC3CD8C65196FCA039E58
 		NullCheck(L_1);
 		L_1->___memberInfo = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___memberInfo), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:182>
 		U3CU3Ec__DisplayClass20_0_tC340E476E7CD28700F9AD8C944E14547E4AAD2C3* L_3 = V_0;
 		NullCheck(L_3);
 		MemberInfo_t* L_4 = L_3->___memberInfo;
@@ -23209,17 +23209,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__ctor_mD2E8AC3CD8C65196FCA039E58
 		NullCheck(L_7);
 		L_7->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___U3CU3E4__this), (void*)__this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:184>
 		U3CU3Ec__DisplayClass20_0_tC340E476E7CD28700F9AD8C944E14547E4AAD2C3* L_8 = V_0;
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_9 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 11));
 		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 16)), il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____getter = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____getter), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:185>
 		return;
 	}
 }
-// Method Definition Index: 110127
+// Method Definition Index: 110129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__cctor_m339FA81CB609E3E560A8C708F16DBF64C36CF307_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23229,12 +23229,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__cctor_m339FA81CB609E3E560A8C708
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField = (ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField), (void*)(ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField = 1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:149>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
 		((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer), (void*)L_0);
@@ -23249,21 +23249,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__cctor_m339FA81CB609E3E560A8C708
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 110116
+// Method Definition Index: 110118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8* Watch_1_get_ToDisplayStringsDelegate_m70DE450B1BCEBECE9DBF38ADD13F648F1FC6A1FA_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8* L_0 = ((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 110117
+// Method Definition Index: 110119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_set_ToDisplayStringsDelegate_mC96C0114AC3467A04F86C5769F34EC084840F136_gshared (ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField = L_0;
@@ -23271,39 +23271,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_set_ToDisplayStringsDelegate_mC9
 		return;
 	}
 }
-// Method Definition Index: 110118
+// Method Definition Index: 110120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Watch_1_get_NumberOfDisplayStrings_mEB55A8BCDAFF280F71CB0CD4BC7F2AFAC5DD11FF_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		int32_t L_0 = ((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 110119
+// Method Definition Index: 110121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_set_NumberOfDisplayStrings_m0A183D312D730AA638DEA2EE8BE53B1D481835E0_gshared (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		int32_t L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 110120
+// Method Definition Index: 110122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Watch_1_get_NumberOfValues_mDD70E83FC79CFD4C04A93D673B423E64DE4F55ED_gshared (Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:151>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
 		int32_t L_0;
 		L_0 = Watch_1_get_NumberOfDisplayStrings_mEB55A8BCDAFF280F71CB0CD4BC7F2AFAC5DD11FF_inline(il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		return L_0;
 	}
 }
-// Method Definition Index: 110121
+// Method Definition Index: 110123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_ResetBuffer_m8BB9D7D79FF287E1457FDAC8A10AAC90F2039B8F_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23313,35 +23313,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_ResetBuffer_m8BB9D7D79FF287E1457
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:155>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		int32_t L_0;
 		L_0 = Watch_1_get_NumberOfDisplayStrings_mEB55A8BCDAFF280F71CB0CD4BC7F2AFAC5DD11FF_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)L_0);
 		((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:156>
 		return;
 	}
 }
-// Method Definition Index: 110122
+// Method Definition Index: 110124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_Setup_mE0B696885832768A5716B95F64EB44D34B7F286E_gshared (ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8* ___0_del, int32_t ___1_numberOfValues, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:160>
 		ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8* L_0 = ___0_del;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		Watch_1_set_ToDisplayStringsDelegate_mC96C0114AC3467A04F86C5769F34EC084840F136_inline(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:161>
 		int32_t L_1 = ___1_numberOfValues;
 		Watch_1_set_NumberOfDisplayStrings_m0A183D312D730AA638DEA2EE8BE53B1D481835E0_inline(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:162>
 		Watch_1_ResetBuffer_m8BB9D7D79FF287E1457FDAC8A10AAC90F2039B8F(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:163>
 		return;
 	}
 }
-// Method Definition Index: 110123
+// Method Definition Index: 110125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Watch_1_ToDisplayStrings_m3CDD3DA1813DBE53CD9438BF8FD0C4C0A498D402_gshared (RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23358,7 +23358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 	int32_t G_B5_1 = 0;
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B5_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:167>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8* L_0;
 		L_0 = Watch_1_get_ToDisplayStringsDelegate_m70DE450B1BCEBECE9DBF38ADD13F648F1FC6A1FA_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
@@ -23368,7 +23368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:169>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8* L_1;
 		L_1 = Watch_1_get_ToDisplayStringsDelegate_m70DE450B1BCEBECE9DBF38ADD13F648F1FC6A1FA_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
@@ -23380,7 +23380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:173>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer;
 		RuntimeObject* L_4 = ___0_value;
@@ -23418,17 +23418,17 @@ IL_003b:
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:175>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = ((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer;
 		return L_6;
 	}
 }
-// Method Definition Index: 110124
+// Method Definition Index: 110126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Watch_1_get_Values_m3542E50DE4E58D0D58FAE07BC47CB4A9E0E1F13E_gshared (Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:179>
 		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_0 = __this->____getter;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -23439,11 +23439,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 		return L_2;
 	}
 }
-// Method Definition Index: 110125
+// Method Definition Index: 110127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Watch_1_get_Value_mE19B46F78DD8E63E59641DD86ADD9A029AF3AC18_gshared (Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:180>
 		NullCheck((Watch_tCE9CEFB7E24CF84E54A62924CD181E5346DE97F0*)__this);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0;
 		L_0 = VirtualFuncInvoker0< StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* >::Invoke(5, (Watch_tCE9CEFB7E24CF84E54A62924CD181E5346DE97F0*)__this);
@@ -23453,7 +23453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Watch_1_get_Value_mE19B46F78DD8E63E
 		return L_2;
 	}
 }
-// Method Definition Index: 110126
+// Method Definition Index: 110128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__ctor_m2E471702964D12E7BE9E9ABCEDEA4790DA1D5749_gshared (Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13* __this, MemberInfo_t* ___0_memberInfo, InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA ___1_instanceHandle, DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* ___2_attribute, const RuntimeMethod* method) 
 {
 	U3CU3Ec__DisplayClass20_0_tE0A51BB4A1CA3CAE950D8FE574F8261FD9A7D4D8* V_0 = NULL;
@@ -23466,7 +23466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__ctor_m2E471702964D12E7BE9E9ABCE
 		NullCheck(L_1);
 		L_1->___memberInfo = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___memberInfo), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:182>
 		U3CU3Ec__DisplayClass20_0_tE0A51BB4A1CA3CAE950D8FE574F8261FD9A7D4D8* L_3 = V_0;
 		NullCheck(L_3);
 		MemberInfo_t* L_4 = L_3->___memberInfo;
@@ -23477,17 +23477,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__ctor_m2E471702964D12E7BE9E9ABCE
 		NullCheck(L_7);
 		L_7->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___U3CU3E4__this), (void*)__this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:184>
 		U3CU3Ec__DisplayClass20_0_tE0A51BB4A1CA3CAE950D8FE574F8261FD9A7D4D8* L_8 = V_0;
 		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_9 = (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 11));
 		Func_1__ctor_m663374A863E492A515BE9626B6F0E444991834E8(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 16)), il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____getter = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____getter), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:185>
 		return;
 	}
 }
-// Method Definition Index: 110127
+// Method Definition Index: 110129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__cctor_m1CFCCBF1AC86C8EECA92DA4F2F0C499897F53AC5_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23497,12 +23497,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__cctor_m1CFCCBF1AC86C8EECA92DA4F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField = (ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField), (void*)(ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField = 1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:149>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
 		((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer), (void*)L_0);
@@ -23517,21 +23517,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__cctor_m1CFCCBF1AC86C8EECA92DA4F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 110116
+// Method Definition Index: 110118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765* Watch_1_get_ToDisplayStringsDelegate_m5B9DCA2E3499C4015D488431720819E6E27F7D36_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765* L_0 = ((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 110117
+// Method Definition Index: 110119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_set_ToDisplayStringsDelegate_m4C9484307663F997C7D9083BE42A78D9B004F0B8_gshared (ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField = L_0;
@@ -23539,39 +23539,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_set_ToDisplayStringsDelegate_m4C
 		return;
 	}
 }
-// Method Definition Index: 110118
+// Method Definition Index: 110120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Watch_1_get_NumberOfDisplayStrings_m0AE4F9E086E161DF385E929605BA1999CD255214_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		int32_t L_0 = ((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 110119
+// Method Definition Index: 110121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_set_NumberOfDisplayStrings_mEAAB2EE017345E014A0B54F26FFC20923A1065F7_gshared (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		int32_t L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 110120
+// Method Definition Index: 110122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Watch_1_get_NumberOfValues_m00A8FC174623B4649DA012C808FA191A843E57FD_gshared (Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:151>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
 		int32_t L_0;
 		L_0 = Watch_1_get_NumberOfDisplayStrings_m0AE4F9E086E161DF385E929605BA1999CD255214_inline(il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		return L_0;
 	}
 }
-// Method Definition Index: 110121
+// Method Definition Index: 110123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_ResetBuffer_mE16E66714BCB76390BEB6A0BE248873BB6F95197_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23581,35 +23581,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_ResetBuffer_mE16E66714BCB76390BE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:155>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		int32_t L_0;
 		L_0 = Watch_1_get_NumberOfDisplayStrings_m0AE4F9E086E161DF385E929605BA1999CD255214_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)L_0);
 		((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:156>
 		return;
 	}
 }
-// Method Definition Index: 110122
+// Method Definition Index: 110124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1_Setup_m06331EE8090FB808389FF9F7C4FB4C20A46C4375_gshared (ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765* ___0_del, int32_t ___1_numberOfValues, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:160>
 		ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765* L_0 = ___0_del;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		Watch_1_set_ToDisplayStringsDelegate_m4C9484307663F997C7D9083BE42A78D9B004F0B8_inline(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:161>
 		int32_t L_1 = ___1_numberOfValues;
 		Watch_1_set_NumberOfDisplayStrings_mEAAB2EE017345E014A0B54F26FFC20923A1065F7_inline(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:162>
 		Watch_1_ResetBuffer_mE16E66714BCB76390BEB6A0BE248873BB6F95197(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:163>
 		return;
 	}
 }
-// Method Definition Index: 110123
+// Method Definition Index: 110125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Watch_1_ToDisplayStrings_mBF95383DFFA62CB886BDFBEF0A4F327ED2687D35_gshared (float ___0_value, const RuntimeMethod* method) 
 {
 	int32_t G_B4_0 = 0;
@@ -23620,7 +23620,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 	int32_t G_B5_1 = 0;
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B5_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:167>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765* L_0;
 		L_0 = Watch_1_get_ToDisplayStringsDelegate_m5B9DCA2E3499C4015D488431720819E6E27F7D36_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
@@ -23630,7 +23630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:169>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765* L_1;
 		L_1 = Watch_1_get_ToDisplayStringsDelegate_m5B9DCA2E3499C4015D488431720819E6E27F7D36_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
@@ -23642,7 +23642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:173>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer;
 		G_B4_0 = 0;
@@ -23667,17 +23667,17 @@ IL_003b:
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:175>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = ((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer;
 		return L_6;
 	}
 }
-// Method Definition Index: 110124
+// Method Definition Index: 110126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Watch_1_get_Values_m6AB3CED4B62BFB09B4122600280A28DB64724A50_gshared (Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:179>
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_0 = __this->____getter;
 		NullCheck(L_0);
 		float L_1;
@@ -23688,11 +23688,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 		return L_2;
 	}
 }
-// Method Definition Index: 110125
+// Method Definition Index: 110127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Watch_1_get_Value_mDC89F8A7E7CBF6FDA2A6D78CE88B63D3E28B9FB5_gshared (Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:180>
 		NullCheck((Watch_tCE9CEFB7E24CF84E54A62924CD181E5346DE97F0*)__this);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0;
 		L_0 = VirtualFuncInvoker0< StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* >::Invoke(5, (Watch_tCE9CEFB7E24CF84E54A62924CD181E5346DE97F0*)__this);
@@ -23702,7 +23702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Watch_1_get_Value_mDC89F8A7E7CBF6FD
 		return L_2;
 	}
 }
-// Method Definition Index: 110126
+// Method Definition Index: 110128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__ctor_mBFEAD00EA33617443098FE586D82EEDB6394F9D9_gshared (Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B* __this, MemberInfo_t* ___0_memberInfo, InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA ___1_instanceHandle, DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* ___2_attribute, const RuntimeMethod* method) 
 {
 	U3CU3Ec__DisplayClass20_0_t37F308B837B61ECC4F2FFD505E54DA50D34DAF70* V_0 = NULL;
@@ -23715,7 +23715,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__ctor_mBFEAD00EA33617443098FE586
 		NullCheck(L_1);
 		L_1->___memberInfo = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___memberInfo), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:182>
 		U3CU3Ec__DisplayClass20_0_t37F308B837B61ECC4F2FFD505E54DA50D34DAF70* L_3 = V_0;
 		NullCheck(L_3);
 		MemberInfo_t* L_4 = L_3->___memberInfo;
@@ -23726,17 +23726,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__ctor_mBFEAD00EA33617443098FE586
 		NullCheck(L_7);
 		L_7->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___U3CU3E4__this), (void*)__this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:184>
 		U3CU3Ec__DisplayClass20_0_t37F308B837B61ECC4F2FFD505E54DA50D34DAF70* L_8 = V_0;
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_9 = (Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 11));
 		Func_1__ctor_m94E0C712F86101E026834DA318C3FFF46DE49C71(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 16)), il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____getter = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____getter), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:185>
 		return;
 	}
 }
-// Method Definition Index: 110127
+// Method Definition Index: 110129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__cctor_m1EF95D1C7736BEA7E5074182DD75A3EEB8E6AB5C_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23746,12 +23746,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Watch_1__cctor_m1EF95D1C7736BEA7E5074182
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField = (ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField), (void*)(ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField = 1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:149>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
 		((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____buffer), (void*)L_0);
@@ -23914,7 +23914,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CollectionViewController_t89D7C49
 		return L_0;
 	}
 }
-// Method Definition Index: 58876
+// Method Definition Index: 58878
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24017,7 +24017,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR VisualElement_t2667F9D19E62C7A315
 		return L_0;
 	}
 }
-// Method Definition Index: 58889
+// Method Definition Index: 58891
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24133,7 +24133,7 @@ IL_0017:
 		return L_10;
 	}
 }
-// Method Definition Index: 58894
+// Method Definition Index: 58896
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24199,7 +24199,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t58F89DEDCD7DABB0CFB009AAD
 		return L_0;
 	}
 }
-// Method Definition Index: 58800
+// Method Definition Index: 58802
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -24230,7 +24230,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 58787
+// Method Definition Index: 58789
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -24251,7 +24251,7 @@ IL_002d:
 		return L_6;
 	}
 }
-// Method Definition Index: 58625
+// Method Definition Index: 58627
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Color_GetHashCode_m2981EEA1DEFE55254945D7D03BE64D4F56BA58D0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, const RuntimeMethod* method) 
 {
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
@@ -24274,7 +24274,7 @@ IL_001d:
 		return L_3;
 	}
 }
-// Method Definition Index: 58626
+// Method Definition Index: 58628
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Color_Equals_m24E409BF329F25774C6577F18EFD3DE1253684D6_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, RuntimeObject* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24336,7 +24336,7 @@ IL_0026:
 		return L_5;
 	}
 }
-// Method Definition Index: 58925
+// Method Definition Index: 58927
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector2_GetHashCode_mED8670C0E122B7ED0DAB4C3381ADFF04B75E0B03_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24357,7 +24357,7 @@ IL_001d:
 		return L_4;
 	}
 }
-// Method Definition Index: 58926
+// Method Definition Index: 58928
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_Equals_mA4E81D6FCE503DBD502BA499708344410F60DA4E_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, RuntimeObject* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24419,7 +24419,7 @@ IL_0026:
 		return L_5;
 	}
 }
-// Method Definition Index: 58770
+// Method Definition Index: 58772
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector3_GetHashCode_mB08429DC931A85BD29CE11B9ABC77DE7E0E46327_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24443,7 +24443,7 @@ IL_002b:
 		return L_6;
 	}
 }
-// Method Definition Index: 58771
+// Method Definition Index: 58773
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_Equals_mB4BE43D5986864F5C22B919F2957E0309F10E3B4_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, RuntimeObject* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24505,7 +24505,7 @@ IL_0026:
 		return L_5;
 	}
 }
-// Method Definition Index: 59017
+// Method Definition Index: 59019
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector4_GetHashCode_m53F6FCA56A0051C9D1AB41AA3EAA2C86CDAA8B92_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24532,7 +24532,7 @@ IL_0039:
 		return L_8;
 	}
 }
-// Method Definition Index: 59018
+// Method Definition Index: 59020
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector4_Equals_mC2596CA0F441D25DE7A9419BE66A8FA2DA355CB9_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, RuntimeObject* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24639,7 +24639,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-// Method Definition Index: 60373
+// Method Definition Index: 60375
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ObjectPool_1_Release_m71F1CADB7AD9CC20BD824583A3675A4260965DB5_gshared_inline (ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49EDB91BA259* __this, RuntimeObject* ___0_element, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24839,7 +24839,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 60371
+// Method Definition Index: 60373
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ObjectPool_1_Get_m239BB169D8FEF3A2694E9A961C473D3807D67D89_gshared_inline (ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49EDB91BA259* __this, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -25307,21 +25307,21 @@ IL_0019:
 		return L_4;
 	}
 }
-// Method Definition Index: 110118
+// Method Definition Index: 110120
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Watch_1_get_NumberOfDisplayStrings_m27D6E33C7B3CD9FC0D09972977338DFE28D5731B_gshared_inline (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		int32_t L_0 = ((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 110117
+// Method Definition Index: 110119
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Watch_1_set_ToDisplayStringsDelegate_mAABD138D6535546AFDC073F6FD6450B5F260154F_gshared_inline (ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField = L_0;
@@ -25329,28 +25329,28 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Watch_1_set_ToDisplayStrings
 		return;
 	}
 }
-// Method Definition Index: 110119
+// Method Definition Index: 110121
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Watch_1_set_NumberOfDisplayStrings_mA0A72FE07A6CD2699D896DFFD7E4051822627864_gshared_inline (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		int32_t L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 110116
+// Method Definition Index: 110118
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7* Watch_1_get_ToDisplayStringsDelegate_m9C9AE6D106EA53DC1DF6E1B92849C867CB3E0BCF_gshared_inline (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7* L_0 = ((Watch_1_t9A2FE2B90FFBDD62081A7945A59A9F11513543E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 110129
+// Method Definition Index: 110131
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ToDisplayStringSignature_Invoke_mDDC2EEE95BD032CAFA9408DA9412F124DAE31539_gshared_inline (ToDisplayStringSignature_t05D5C766160AE969F7A0C1A59E27C6795C9F6CF7* __this, bool ___0_value, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248** ___1_valuesContainer, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, bool, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248**, const RuntimeMethod*);
@@ -25362,21 +25362,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Func_1_Invoke_mBB7F37C468451
 	typedef bool (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 110118
+// Method Definition Index: 110120
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Watch_1_get_NumberOfDisplayStrings_mEB55A8BCDAFF280F71CB0CD4BC7F2AFAC5DD11FF_gshared_inline (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		int32_t L_0 = ((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 110117
+// Method Definition Index: 110119
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Watch_1_set_ToDisplayStringsDelegate_mC96C0114AC3467A04F86C5769F34EC084840F136_gshared_inline (ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField = L_0;
@@ -25384,28 +25384,28 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Watch_1_set_ToDisplayStrings
 		return;
 	}
 }
-// Method Definition Index: 110119
+// Method Definition Index: 110121
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Watch_1_set_NumberOfDisplayStrings_m0A183D312D730AA638DEA2EE8BE53B1D481835E0_gshared_inline (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		int32_t L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 110116
+// Method Definition Index: 110118
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8* Watch_1_get_ToDisplayStringsDelegate_m70DE450B1BCEBECE9DBF38ADD13F648F1FC6A1FA_gshared_inline (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8* L_0 = ((Watch_1_tF838DAA92E88BFB48DB9B8A7D62DF4B20E2C1E13_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 110129
+// Method Definition Index: 110131
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ToDisplayStringSignature_Invoke_m0C7FBE2569C086F5B824439A0BECDADB9D27FBAE_gshared_inline (ToDisplayStringSignature_t24F582C10061926A5988EC3CD273F077D52B43F8* __this, RuntimeObject* ___0_value, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248** ___1_valuesContainer, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248**, const RuntimeMethod*);
@@ -25417,21 +25417,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_1_Invoke_m141
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 110118
+// Method Definition Index: 110120
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Watch_1_get_NumberOfDisplayStrings_m0AE4F9E086E161DF385E929605BA1999CD255214_gshared_inline (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		int32_t L_0 = ((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 110117
+// Method Definition Index: 110119
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Watch_1_set_ToDisplayStringsDelegate_m4C9484307663F997C7D9083BE42A78D9B004F0B8_gshared_inline (ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField = L_0;
@@ -25439,28 +25439,28 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Watch_1_set_ToDisplayStrings
 		return;
 	}
 }
-// Method Definition Index: 110119
+// Method Definition Index: 110121
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Watch_1_set_NumberOfDisplayStrings_mEAAB2EE017345E014A0B54F26FFC20923A1065F7_gshared_inline (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:148>
 		int32_t L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CNumberOfDisplayStringsU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 110116
+// Method Definition Index: 110118
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765* Watch_1_get_ToDisplayStringsDelegate_m5B9DCA2E3499C4015D488431720819E6E27F7D36_gshared_inline (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/ImmersiveDebugger/Managers/Hooks/Watch.cs:147>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765* L_0 = ((Watch_1_t2FE034CDD698F331247076A4A474B774FFB0458B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CToDisplayStringsDelegateU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 110129
+// Method Definition Index: 110131
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ToDisplayStringSignature_Invoke_m9475A7FCB258FE1909653446A6EE61B2E0D909DD_gshared_inline (ToDisplayStringSignature_t121868A6B69937A07B7184699F8C33B5C51A7765* __this, float ___0_value, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248** ___1_valuesContainer, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, float, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248**, const RuntimeMethod*);
@@ -25480,7 +25480,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t BitConverter_DoubleToInt6
 		return L_0;
 	}
 }
-// Method Definition Index: 58765
+// Method Definition Index: 58767
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -25493,7 +25493,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 58638
+// Method Definition Index: 58640
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Color_op_Implicit_m9B3228DAFA8DC57A75DE00CBBF13ED4F1E7B01FF_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_c, const RuntimeMethod* method) 
 {
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
@@ -25520,7 +25520,7 @@ IL_0021:
 		return L_9;
 	}
 }
-// Method Definition Index: 58627
+// Method Definition Index: 58629
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Color_Equals_mD297CAFFEBE9352C940873862FDF9A28F1F02435_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_other, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -25585,7 +25585,7 @@ IL_0051:
 		return L_16;
 	}
 }
-// Method Definition Index: 58927
+// Method Definition Index: 58929
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_Equals_mDF84D5ED14E018609C6A9C9BAE016C1B33BCFF4C_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_other, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -25624,7 +25624,7 @@ IL_0023:
 		return L_6;
 	}
 }
-// Method Definition Index: 58772
+// Method Definition Index: 58774
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_Equals_mEDEAF86793D229455BBF9BA5B30DDF438D6CABC1_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_other, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -25672,7 +25672,7 @@ IL_0031:
 		return L_9;
 	}
 }
-// Method Definition Index: 59019
+// Method Definition Index: 59021
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_other, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -25735,7 +25735,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 60367
+// Method Definition Index: 60369
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ObjectPool_1_get_CountAll_mF3CDC0B64D5037106573C6CEE921EAF0A8B3C8EB_gshared_inline (ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49EDB91BA259* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25743,7 +25743,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ObjectPool_1_get_CountAll
 		return L_0;
 	}
 }
-// Method Definition Index: 60368
+// Method Definition Index: 60370
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ObjectPool_1_set_CountAll_mED1939CDEBB184383799328A0C1AEC9E1D2960D9_gshared_inline (ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49EDB91BA259* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -25752,7 +25752,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ObjectPool_1_set_CountAll_mE
 		return;
 	}
 }
-// Method Definition Index: 59012
+// Method Definition Index: 59014
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	{

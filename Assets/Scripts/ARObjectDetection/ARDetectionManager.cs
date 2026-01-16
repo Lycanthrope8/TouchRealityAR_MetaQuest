@@ -12,11 +12,20 @@ namespace ARObjectDetection
         [Header("Configuration")]
         [SerializeField] private DetectionConfig config;
         [SerializeField] private TrackerConfig trackerConfig;
+
         [Header("References")]
         [SerializeField] private WebCamTextureManager webCamTextureManager;
         [SerializeField] private DetectionVisualizer visualizer;
         [SerializeField] private DetectionVisualizer3D visualizer3D;
         [SerializeField] private ObjectTracker tracker;
+        [SerializeField] private DepthAnchorSystem depthAnchorSystem;  // NEW: Depth-based anchor system
+
+        [Header("Visualization Options")]
+        [Tooltip("Enable 3D bounding box visualization")]
+        [SerializeField] private bool enable3DBoundingBoxes = false;  // OFF by default
+
+        [Tooltip("Enable depth-based anchor placement (most accurate)")]
+        [SerializeField] private bool enableDepthAnchors = true;  // ON by default
 
         [Header("Events")]
         public UnityEvent<DetectionResponse> OnDetectionReceived;
@@ -39,10 +48,41 @@ namespace ARObjectDetection
         public bool IsRunning => isRunning;
         public bool ServerHealthy => serverHealthy;
         public ObjectTracker Tracker => tracker;
+        public DepthAnchorSystem DepthAnchors => depthAnchorSystem;
 
         private int lastAcceptedFrameId = -1;
-        public float maxResponseAgeToAccept = 0.8f; // try 0.5–0.8
+        public float maxResponseAgeToAccept = 0.8f;
 
+        // Runtime toggles
+        public bool Enable3DBoundingBoxes
+        {
+            get => enable3DBoundingBoxes;
+            set
+            {
+                enable3DBoundingBoxes = value;
+                if (!value && visualizer3D != null)
+                {
+                    visualizer3D.ClearAllBoxes();
+                }
+            }
+        }
+
+        public bool EnableDepthAnchors
+        {
+            get => enableDepthAnchors;
+            set
+            {
+                enableDepthAnchors = value;
+                if (depthAnchorSystem != null)
+                {
+                    depthAnchorSystem.enabled = value;
+                    if (!value)
+                    {
+                        depthAnchorSystem.ClearAllAnchors();
+                    }
+                }
+            }
+        }
 
         private void Awake()
         {
@@ -82,10 +122,26 @@ namespace ARObjectDetection
                 }
             }
 
+            // Find depth anchor system
+            if (depthAnchorSystem == null)
+            {
+                depthAnchorSystem = GetComponent<DepthAnchorSystem>();
+                if (depthAnchorSystem == null)
+                {
+                    depthAnchorSystem = FindFirstObjectByType<DepthAnchorSystem>();
+                }
+            }
+
+            // Apply initial state
+            if (depthAnchorSystem != null)
+            {
+                depthAnchorSystem.enabled = enableDepthAnchors;
+            }
+
             frameCaptureService = new FrameCaptureService(config);
             detectionClient = new DetectionClient(config);
 
-            Debug.Log("ARDetectionManager initialized with 3D IoU tracking and backpressure");
+            Debug.Log("ARDetectionManager initialized with depth-based anchor placement");
         }
 
         private void Start()
@@ -122,7 +178,7 @@ namespace ARObjectDetection
 
             isRunning = true;
             metrics.Reset();
-            Debug.Log("Detection started with 3D IoU tracking and strict backpressure");
+            Debug.Log("Detection started");
         }
 
         public void StopDetection()
@@ -140,12 +196,11 @@ namespace ARObjectDetection
             if (webCamTexture == null || !webCamTexture.isPlaying)
                 return;
 
-            // NEW: Log actual webcam resolution (only once)
-            if (Time.frameCount % 300 == 0)  // Every 5 seconds at 60fps
+            if (Time.frameCount % 300 == 0)
             {
                 Debug.Log($"[WebCam] Actual resolution: {webCamTexture.width}×{webCamTexture.height}");
             }
-            
+
             if (Time.time - lastFrameTime > 0)
             {
                 metrics.captureFrameRate = 1f / (Time.time - lastFrameTime);
@@ -153,7 +208,6 @@ namespace ARObjectDetection
             lastFrameTime = Time.time;
             metrics.totalFramesCaptured++;
 
-            // Check backpressure BEFORE capture/encode
             if (detectionClient.GetPendingRequestCount() >= config.maxPendingRequests)
             {
                 metrics.droppedFrames++;
@@ -187,28 +241,27 @@ namespace ARObjectDetection
 
                 if (config.enablePerformanceLogging)
                 {
-                    Debug.Log("=== PHASE 2 METRICS (3D IoU) ===");
+                    Debug.Log("=== DETECTION METRICS ===");
                     Debug.Log($"Avg Latency: {metrics.averageLatency:F3}s ({metrics.averageLatency * 1000:F0}ms)");
                     Debug.Log($"Send Rate: {metrics.sendFrameRate:F1} Hz");
                     Debug.Log($"Success: {metrics.successfulDetections}, Failed: {metrics.failedRequests}, Dropped: {metrics.droppedFrames}");
-                    Debug.Log($"Out-of-order: {metrics.outOfOrderResponses}, Late: {metrics.lateResponses}");
                     Debug.Log($"Pending Requests: {detectionClient.GetPendingRequestCount()}/{config.maxPendingRequests}");
 
                     if (tracker != null)
                     {
                         int activeCount = tracker.ActiveTrackCount;
                         int confirmedCount = tracker.ConfirmedTrackCount;
-                        float confirmedRatio = activeCount > 0 ? (float)confirmedCount / activeCount : 0f;
-
-                        Debug.Log($"Tracks: {activeCount} active, {confirmedCount} confirmed ({confirmedRatio:P0})");
-
-                        if (confirmedRatio < 0.5f && activeCount > 5)
-                        {
-                            Debug.LogWarning("⚠️ Low confirmed ratio - check thresholds!");
-                        }
+                        Debug.Log($"Tracks: {activeCount} active, {confirmedCount} confirmed");
                     }
 
-                    Debug.Log("================================");
+                    if (depthAnchorSystem != null && enableDepthAnchors)
+                    {
+                        Debug.Log($"Anchors: {depthAnchorSystem.ActiveAnchorCount} active, " +
+                                 $"Depth Hits: {depthAnchorSystem.SuccessfulDepthHits}, " +
+                                 $"Fallbacks: {depthAnchorSystem.FallbacksUsed}");
+                    }
+
+                    Debug.Log("========================");
                 }
             }
         }
@@ -229,22 +282,17 @@ namespace ARObjectDetection
 
         private void OnDetectionSuccess(DetectionResponse response)
         {
-
             float responseAge = Time.realtimeSinceStartup - response.capture_time;
-            Debug.Log($"[Server Response] image_size={response.image_size[0]}×{response.image_size[1]}, " +
-                        $"processed_size={response.processed_size[0]}×{response.processed_size[1]}");
 
-            // Drop stale
             if (responseAge > maxResponseAgeToAccept)
             {
                 Debug.LogWarning($"[ARDetectionManager] Dropping stale response frame={response.frame_id} age={responseAge:F3}s");
                 return;
             }
 
-            // Drop out-of-order
             if (response.frame_id <= lastAcceptedFrameId)
             {
-                Debug.LogWarning($"[ARDetectionManager] Dropping out-of-order response frame={response.frame_id} last={lastAcceptedFrameId}");
+                Debug.LogWarning($"[ARDetectionManager] Dropping out-of-order response frame={response.frame_id}");
                 return;
             }
             lastAcceptedFrameId = response.frame_id;
@@ -258,104 +306,54 @@ namespace ARObjectDetection
             metrics.successfulDetections++;
             metrics.currentDetectionCount = response.count;
 
-            // DEBUG: Log filter status
-            Debug.Log($"[Filter DEBUG] enableClassFilter={config.enableClassFilter}, classFilter={(config.classFilter != null ? config.classFilter.Length.ToString() : "null")} classes");
-
-            // ====== CLASS FILTER (WHITELIST) - APPLIED FIRST ======
+            // Class filter
             if (config.enableClassFilter && config.classFilter != null && config.classFilter.Length > 0)
             {
-                int beforeCount = response.detections.Count;
-
-                // Remove detections NOT in whitelist
                 response.detections.RemoveAll(d =>
                 {
-                    // Check if this detection's class is in the allowed list
-                    bool isAllowed = false;
                     string detectionClass = d.class_name.ToLower().Trim();
-
                     foreach (string allowedClass in config.classFilter)
                     {
-                        string allowedClassLower = allowedClass.ToLower().Trim();
-
-                        if (detectionClass == allowedClassLower)
-                        {
-                            isAllowed = true;
-                            break;
-                        }
+                        if (detectionClass == allowedClass.ToLower().Trim())
+                            return false;
                     }
-
-                    // Log what's being blocked/allowed
-                    if (!isAllowed)
-                    {
-                        Debug.Log($"[Filter] BLOCKED: '{d.class_name}'");
-                    }
-                    else if (config.enablePerformanceLogging)
-                    {
-                        Debug.Log($"[Filter] ALLOWED: '{d.class_name}'");
-                    }
-
-                    return !isAllowed; // Remove if NOT allowed
+                    return true;
                 });
-
                 response.count = response.detections.Count;
-
-                int filteredCount = beforeCount - response.count;
-                if (filteredCount > 0)
-                {
-                    Debug.Log($"[Filter] Blocked {filteredCount} objects. Kept: {response.count}");
-                }
             }
 
-            // Filter by confidence threshold (AFTER class filter)
+            // Confidence filter
             if (config.confidenceThreshold > 0.25f)
             {
-                int beforeConfFilter = response.detections.Count;
                 response.detections.RemoveAll(d => d.confidence < config.confidenceThreshold);
                 response.count = response.detections.Count;
-
-                int confFilteredCount = beforeConfFilter - response.count;
-                if (confFilteredCount > 0)
-                {
-                    Debug.Log($"[Filter] Filtered {confFilteredCount} detections below confidence {config.confidenceThreshold:F2}");
-                }
             }
 
-            // Process detections through tracker
+            // Process through tracker
             if (tracker != null)
             {
                 tracker.ProcessDetections(response);
             }
 
-            // Show ALL active tracks (confirmed + tentative)
-            if (tracker != null && tracker.ActiveTrackCount > 0)
+            // 3D Bounding boxes (optional)
+            if (enable3DBoundingBoxes && visualizer3D != null && tracker != null)
             {
-                if (visualizer3D != null)
+                var visibleTracks = tracker.ActiveTracks
+                    .Where(t => t.state != TrackState.Lost)
+                    .ToList();
+
+                if (visibleTracks.Count > 0)
                 {
-                    // Filter out Lost tracks before visualization
-                    var visibleTracks = tracker.ActiveTracks
-                        .Where(t => t.state != TrackState.Lost)
-                        .ToList();
-
-                    if (visibleTracks.Count > 0)
-                    {
-                        visualizer3D.ShowTrackedObjects(visibleTracks);
-                    }
-                }
-
-                int confirmed = tracker.ConfirmedTrackCount;
-                int tentative = tracker.ActiveTrackCount - confirmed;
-
-                if (config.enablePerformanceLogging)
-                {
-                    Debug.Log($"[Manager] Visualizing {tracker.ActiveTrackCount} tracks " +
-                             $"({confirmed} confirmed, {tentative} tentative)");
+                    visualizer3D.ShowTrackedObjects(visibleTracks);
                 }
             }
-            else if (visualizer3D != null)
+            else if (!enable3DBoundingBoxes && visualizer3D != null)
             {
-                // Clear boxes when no tracks
                 visualizer3D.ClearAllBoxes();
             }
+
+            // NOTE: DepthAnchorSystem handles anchor placement automatically in its Update()
+            // by reading from ObjectTracker.ActiveTracks
 
             OnDetectionReceived?.Invoke(response);
         }
@@ -373,7 +371,6 @@ namespace ARObjectDetection
             {
                 frameCaptureService.Dispose();
             }
-
             StopDetection();
         }
 

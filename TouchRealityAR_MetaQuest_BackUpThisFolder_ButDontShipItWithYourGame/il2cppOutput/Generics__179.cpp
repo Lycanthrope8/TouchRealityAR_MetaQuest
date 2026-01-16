@@ -14764,21 +14764,21 @@ IL_00f8:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskScope_1__ctor_m6D37D81B532112A69AFB32D584B6C982CA36F862_gshared (TaskScope_1_t3AE7D8C9112DEE15F852BDD95D2971E1A614AF82* __this, List_1_t9A8530F83BF40B2D12ED5ACFBB295E1E0DD7521E** ___0_tasks, List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576** ___1_results, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRObjectPool.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRObjectPool.cs:181>
 		List_1_t9A8530F83BF40B2D12ED5ACFBB295E1E0DD7521E** L_0 = ___0_tasks;
 		ListScope_1_t1AA871C6CF5B434CBB3716175C94336C94501911 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		ListScope_1__ctor_mF42AC4F1AEEB2AB646A4680C1A5DE6B92FBCBF9A((&L_1), L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->____tasks = L_1;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____tasks))->____list), (void*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRObjectPool.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRObjectPool.cs:182>
 		List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576** L_2 = ___1_results;
 		ListScope_1_t847ECECE68ED7E12A998B04DF1A1989851B88892 L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		ListScope_1__ctor_mF1544FBC5C65EDB081E4CE3EB0EDEB4B164DA457((&L_3), L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->____results = L_3;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____results))->____list), (void*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRObjectPool.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRObjectPool.cs:183>
 		return;
 	}
 }
@@ -14793,13 +14793,13 @@ IL2CPP_EXTERN_C  void TaskScope_1__ctor_m6D37D81B532112A69AFB32D584B6C982CA36F86
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskScope_1_Dispose_m5FB3FFD0D245AD811BDAA0CE8DE9401BD4E303D0_gshared (TaskScope_1_t3AE7D8C9112DEE15F852BDD95D2971E1A614AF82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRObjectPool.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRObjectPool.cs:187>
 		ListScope_1_t1AA871C6CF5B434CBB3716175C94336C94501911* L_0 = (ListScope_1_t1AA871C6CF5B434CBB3716175C94336C94501911*)(&__this->____tasks);
 		ListScope_1_Dispose_m28C6125FB7EBCE417B0946001E0A6DDFF1ECA29B(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRObjectPool.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRObjectPool.cs:188>
 		ListScope_1_t847ECECE68ED7E12A998B04DF1A1989851B88892* L_1 = (ListScope_1_t847ECECE68ED7E12A998B04DF1A1989851B88892*)(&__this->____results);
 		ListScope_1_Dispose_m9279E6619C1760BCFCA7079CDE8BA3A2668176AF(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRObjectPool.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRObjectPool.cs:189>
 		return;
 	}
 }
@@ -14822,21 +14822,21 @@ IL2CPP_EXTERN_C  void TaskScope_1_Dispose_m5FB3FFD0D245AD811BDAA0CE8DE9401BD4E30
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskScope_1__ctor_m22512233B406CC09E325B755857B61C2F1ADDE10_gshared (TaskScope_1_t7178344705B44384A4E5F9E6E7D0E3F01FCC73F8* __this, List_1_t249F378A5285F3B467102111FC9A9C99CDFD288B** ___0_tasks, List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A** ___1_results, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRObjectPool.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRObjectPool.cs:181>
 		List_1_t249F378A5285F3B467102111FC9A9C99CDFD288B** L_0 = ___0_tasks;
 		ListScope_1_t9E1829D8A4BB816968B60C062BAC4AA61C9BA9BD L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		ListScope_1__ctor_mA36070683C245D7E70E117081A48435851271156((&L_1), L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->____tasks = L_1;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____tasks))->____list), (void*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRObjectPool.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRObjectPool.cs:182>
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A** L_2 = ___1_results;
 		ListScope_1_t79886822E24054B21750FAB6F5F0F80392E07223 L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		ListScope_1__ctor_mD82D85B6BD8615BB1C90581D8B89BF3A25066285((&L_3), L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->____results = L_3;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____results))->____list), (void*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRObjectPool.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRObjectPool.cs:183>
 		return;
 	}
 }
@@ -14851,13 +14851,13 @@ IL2CPP_EXTERN_C  void TaskScope_1__ctor_m22512233B406CC09E325B755857B61C2F1ADDE1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskScope_1_Dispose_mC5ED3CEF80EAD9A2D4AD8258A852C1DCD0027B80_gshared (TaskScope_1_t7178344705B44384A4E5F9E6E7D0E3F01FCC73F8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRObjectPool.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRObjectPool.cs:187>
 		ListScope_1_t9E1829D8A4BB816968B60C062BAC4AA61C9BA9BD* L_0 = (ListScope_1_t9E1829D8A4BB816968B60C062BAC4AA61C9BA9BD*)(&__this->____tasks);
 		((  void (*) (ListScope_1_t9E1829D8A4BB816968B60C062BAC4AA61C9BA9BD*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7)))(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRObjectPool.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRObjectPool.cs:188>
 		ListScope_1_t79886822E24054B21750FAB6F5F0F80392E07223* L_1 = (ListScope_1_t79886822E24054B21750FAB6F5F0F80392E07223*)(&__this->____results);
 		((  void (*) (ListScope_1_t79886822E24054B21750FAB6F5F0F80392E07223*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9)))(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRObjectPool.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRObjectPool.cs:189>
 		return;
 	}
 }
@@ -14876,7 +14876,7 @@ IL2CPP_EXTERN_C  void TaskScope_1_Dispose_mC5ED3CEF80EAD9A2D4AD8258A852C1DCD0027
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66484
+// Method Definition Index: 66486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSocketAsyncEventArgs_1__ctor_mBDDC293E03F391AA6A73AD5F75511875CD4149DE_gshared (TaskSocketAsyncEventArgs_1_tBF4E736DC8FCB94FF74068992FE40D092F521E90* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14884,7 +14884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSocketAsyncEventArgs_1__ctor_mBDDC29
 		return;
 	}
 }
-// Method Definition Index: 66485
+// Method Definition Index: 66487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncTaskMethodBuilder_1_tF0BDBC54D5EB433C1205550D0F9819F43C9D4019 TaskSocketAsyncEventArgs_1_GetCompletionResponsibility_m6567C4DB5B1FE07B600E6EA1FB6303666B5E97B5_gshared (TaskSocketAsyncEventArgs_1_tBF4E736DC8FCB94FF74068992FE40D092F521E90* __this, bool* ___0_responsibleForReturningToPool, const RuntimeMethod* method) 
 {
 	TaskSocketAsyncEventArgs_1_tBF4E736DC8FCB94FF74068992FE40D092F521E90* V_0 = NULL;
@@ -14955,7 +14955,7 @@ IL_003a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66484
+// Method Definition Index: 66486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSocketAsyncEventArgs_1__ctor_m291698E1FEC165A117C82B905423FDBAB81F1A80_gshared (TaskSocketAsyncEventArgs_1_t5EA3160C99B48ADC0C6D08D1B5E7FA33D47437DD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14963,7 +14963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSocketAsyncEventArgs_1__ctor_m291698
 		return;
 	}
 }
-// Method Definition Index: 66485
+// Method Definition Index: 66487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0 TaskSocketAsyncEventArgs_1_GetCompletionResponsibility_m04A3D10F3CE36F31F3E167BEB81882456566E6BF_gshared (TaskSocketAsyncEventArgs_1_t5EA3160C99B48ADC0C6D08D1B5E7FA33D47437DD* __this, bool* ___0_responsibleForReturningToPool, const RuntimeMethod* method) 
 {
 	TaskSocketAsyncEventArgs_1_t5EA3160C99B48ADC0C6D08D1B5E7FA33D47437DD* V_0 = NULL;
@@ -15034,7 +15034,7 @@ IL_003a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66484
+// Method Definition Index: 66486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSocketAsyncEventArgs_1__ctor_mD523E66FB86F8916B7CC84E9BF26304AC2500C67_gshared (TaskSocketAsyncEventArgs_1_t469108EDA49471DE9AF3FB9110FA49DFAA12E3C1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15042,7 +15042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSocketAsyncEventArgs_1__ctor_mD523E6
 		return;
 	}
 }
-// Method Definition Index: 66485
+// Method Definition Index: 66487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncTaskMethodBuilder_1_t9A3ADCFF6503F4230FFD38F6C333EBCF1A034AF4 TaskSocketAsyncEventArgs_1_GetCompletionResponsibility_mDBBDA9DFC99BC113A36D91A508332E7BC9E9025E_gshared (TaskSocketAsyncEventArgs_1_t469108EDA49471DE9AF3FB9110FA49DFAA12E3C1* __this, bool* ___0_responsibleForReturningToPool, const RuntimeMethod* method) 
 {
 	TaskSocketAsyncEventArgs_1_t469108EDA49471DE9AF3FB9110FA49DFAA12E3C1* V_0 = NULL;
@@ -15117,7 +15117,7 @@ IL_003a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t71017826F5A28F98D20C35E0096FDF61CA4D8647 TaskSource_get_Task_m706B66000E46FD726E2F25DAF30A952C4C70804E_gshared (TaskSource_t4DAE67D52FAB7383785AE3F26CC1F94C986DA095* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t71017826F5A28F98D20C35E0096FDF61CA4D8647 L_0 = __this->___U3CTaskU3Ek__BackingField;
 		return L_0;
 	}
@@ -15126,7 +15126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t71017826F5A28F98D20C35E0096FDF61
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_set_Task_m907A34B3B8916F073DF4700FA064FB62A23B18D7_gshared (TaskSource_t4DAE67D52FAB7383785AE3F26CC1F94C986DA095* __this, ValueTask_1_t71017826F5A28F98D20C35E0096FDF61CA4D8647 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t71017826F5A28F98D20C35E0096FDF61CA4D8647 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -15144,15 +15144,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRResult_1_t031FA996F4006B1D5E4CCDB3FFAE638C
 
 FINALLY_000f:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:917>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:917>
 				OVRObjectPool_Return_TisTaskSource_t4DAE67D52FAB7383785AE3F26CC1F94C986DA095_mA2503C5BC1A106E2C83C35CC416B58FE6F7FA967(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:918>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:918>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:913>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:913>
 			ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8* L_0 = (ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8*)(&__this->____manualSource);
 			int16_t L_1 = ___0_token;
 			OVRResult_1_t031FA996F4006B1D5E4CCDB3FFAE638C4F8C706E L_2;
@@ -15168,7 +15168,7 @@ FINALLY_000f:
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:919>
 		OVRResult_1_t031FA996F4006B1D5E4CCDB3FFAE638C4F8C706E L_3 = V_0;
 		return L_3;
 	}
@@ -15177,7 +15177,7 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_mF234F958A0930C4566F7B1EF8276DA46492591D3_gshared (TaskSource_t4DAE67D52FAB7383785AE3F26CC1F94C986DA095* __this, int16_t ___0_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:921>
 		ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8* L_0 = (ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8*)(&__this->____manualSource);
 		int16_t L_1 = ___0_token;
 		int32_t L_2;
@@ -15189,7 +15189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_mF234F958A0930C4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_mFAB8C0511208A382ABE9022C8428B45A252F6310_gshared (TaskSource_t4DAE67D52FAB7383785AE3F26CC1F94C986DA095* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_continuation, RuntimeObject* ___1_state, int16_t ___2_token, int32_t ___3_flags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:924>
 		ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8* L_0 = (ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8*)(&__this->____manualSource);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_1 = ___0_continuation;
 		RuntimeObject* L_2 = ___1_state;
@@ -15203,10 +15203,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_mFAB8C0511208A382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnGet_m9AFDFA5A65768C3A5BEB4E77BD59E2C10BA3AEBF_gshared (TaskSource_t4DAE67D52FAB7383785AE3F26CC1F94C986DA095* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:928>
 		ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8* L_0 = (ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8*)(&__this->____manualSource);
 		ManualResetValueTaskSourceCore_1_Reset_mA5BE7C6071AF6EE9DAEF448FA78BCF54031A1CEA(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:929>
 		ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8* L_1 = (ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8*)(&__this->____manualSource);
 		int16_t L_2;
 		L_2 = ManualResetValueTaskSourceCore_1_get_Version_m5316F317EC45E197E57BE23314E7ECFAD380ACE0_inline(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
@@ -15214,7 +15214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTask_1__ctor_m4333B78FBC36C5322D79EF77D1B68BAABCA16A32_inline((&L_3), (RuntimeObject*)__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		TaskSource_set_Task_m907A34B3B8916F073DF4700FA064FB62A23B18D7_inline(__this, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:930>
 		return;
 	}
 }
@@ -15222,7 +15222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnReturn_m21DDB6EBE92118FFA553DB47033E33B8D6657A6B_gshared (TaskSource_t4DAE67D52FAB7383785AE3F26CC1F94C986DA095* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:933>
 		return;
 	}
 }
@@ -15230,7 +15230,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnR
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m1237F809B79F81A379A77190A3AD9FEBC63CCABA_gshared (TaskSource_t4DAE67D52FAB7383785AE3F26CC1F94C986DA095* __this, OVRResult_1_t031FA996F4006B1D5E4CCDB3FFAE638C4F8C706E ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:935>
 		ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8* L_0 = (ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8*)(&__this->____manualSource);
 		OVRResult_1_t031FA996F4006B1D5E4CCDB3FFAE638C4F8C706E L_1 = ___0_result;
 		ManualResetValueTaskSourceCore_1_SetResult_mDA95F16E09CB6CB7DE675992F729F2C1F4D2DF1B(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
@@ -15241,7 +15241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m1237F809B79F81A379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetException_m34D09619591CA6B0CC4CA8EFD7DC39CFA95D1B15_gshared (TaskSource_t4DAE67D52FAB7383785AE3F26CC1F94C986DA095* __this, Exception_t* ___0_exception, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:937>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:937>
 		ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8* L_0 = (ManualResetValueTaskSourceCore_1_t93A1476C434E79CC3C8AE05462CEBD2F8CC13FD8*)(&__this->____manualSource);
 		Exception_t* L_1 = ___0_exception;
 		ManualResetValueTaskSourceCore_1_SetException_mAC59B9849B7635ACA4F12634CFF882D2FDC6C85C(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
@@ -15268,7 +15268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource__ctor_mD288B86DBE7365DCE74208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t574C5A8EC65E3357BFADDDDB4CF15DC96A25728F TaskSource_get_Task_m993FAF876EADA6C85CF5D22490487C17FBB66130_gshared (TaskSource_t0BB2CCA6A397CAE4492E1A587468631EFA9F4B7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t574C5A8EC65E3357BFADDDDB4CF15DC96A25728F L_0 = __this->___U3CTaskU3Ek__BackingField;
 		return L_0;
 	}
@@ -15277,7 +15277,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t574C5A8EC65E3357BFADDDDB4CF15DC9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_set_Task_mF8A55CE5CAC6B264AB3643A283326CA25DC33C76_gshared (TaskSource_t0BB2CCA6A397CAE4492E1A587468631EFA9F4B7D* __this, ValueTask_1_t574C5A8EC65E3357BFADDDDB4CF15DC96A25728F ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t574C5A8EC65E3357BFADDDDB4CF15DC96A25728F L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -15295,15 +15295,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRResult_2_t382B4FF2553AAAAEC35A420C74268539
 
 FINALLY_000f:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:917>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:917>
 				OVRObjectPool_Return_TisTaskSource_t0BB2CCA6A397CAE4492E1A587468631EFA9F4B7D_m98292A329527DEAD21D954A5488444FBF8C8BF39(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:918>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:918>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:913>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:913>
 			ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF* L_0 = (ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF*)(&__this->____manualSource);
 			int16_t L_1 = ___0_token;
 			OVRResult_2_t382B4FF2553AAAAEC35A420C742685395BE3C050 L_2;
@@ -15319,7 +15319,7 @@ FINALLY_000f:
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:919>
 		OVRResult_2_t382B4FF2553AAAAEC35A420C742685395BE3C050 L_3 = V_0;
 		return L_3;
 	}
@@ -15328,7 +15328,7 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m7390293B3C16F0DB3A785C666A9F10597CCDB2BC_gshared (TaskSource_t0BB2CCA6A397CAE4492E1A587468631EFA9F4B7D* __this, int16_t ___0_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:921>
 		ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF* L_0 = (ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF*)(&__this->____manualSource);
 		int16_t L_1 = ___0_token;
 		int32_t L_2;
@@ -15340,7 +15340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m7390293B3C16F0D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m4BB65285574B3FA3294F4B153AE46C3EE852575A_gshared (TaskSource_t0BB2CCA6A397CAE4492E1A587468631EFA9F4B7D* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_continuation, RuntimeObject* ___1_state, int16_t ___2_token, int32_t ___3_flags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:924>
 		ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF* L_0 = (ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF*)(&__this->____manualSource);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_1 = ___0_continuation;
 		RuntimeObject* L_2 = ___1_state;
@@ -15354,10 +15354,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m4BB65285574B3FA3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnGet_mA32AEB45C97549BEF50A0BDCB01ECB74A3976C07_gshared (TaskSource_t0BB2CCA6A397CAE4492E1A587468631EFA9F4B7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:928>
 		ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF* L_0 = (ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF*)(&__this->____manualSource);
 		ManualResetValueTaskSourceCore_1_Reset_m1EB66A6FFDC578E4870A0CF1FA7899F2DAE75F6B(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:929>
 		ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF* L_1 = (ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF*)(&__this->____manualSource);
 		int16_t L_2;
 		L_2 = ManualResetValueTaskSourceCore_1_get_Version_m71A2078C82FFB7BFB6DE90675BF6DA8B8F81672A_inline(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
@@ -15365,7 +15365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTask_1__ctor_m337234D2821EFEC16F2FF7246E980C71995E494E_inline((&L_3), (RuntimeObject*)__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		TaskSource_set_Task_mF8A55CE5CAC6B264AB3643A283326CA25DC33C76_inline(__this, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:930>
 		return;
 	}
 }
@@ -15373,7 +15373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnReturn_mAF98AFCE46BF591AE60E088BA377EE890A586F44_gshared (TaskSource_t0BB2CCA6A397CAE4492E1A587468631EFA9F4B7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:933>
 		return;
 	}
 }
@@ -15381,7 +15381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnR
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m459D07D0D790123B5122883086A2BA2B458D95E5_gshared (TaskSource_t0BB2CCA6A397CAE4492E1A587468631EFA9F4B7D* __this, OVRResult_2_t382B4FF2553AAAAEC35A420C742685395BE3C050 ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:935>
 		ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF* L_0 = (ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF*)(&__this->____manualSource);
 		OVRResult_2_t382B4FF2553AAAAEC35A420C742685395BE3C050 L_1 = ___0_result;
 		ManualResetValueTaskSourceCore_1_SetResult_mD531FC248FEE92957F6ADD35529A9B164C5A65C6(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
@@ -15392,7 +15392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m459D07D0D790123B51
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetException_m2F5B9CDC9AE9897501AECB479802EB6B9172926F_gshared (TaskSource_t0BB2CCA6A397CAE4492E1A587468631EFA9F4B7D* __this, Exception_t* ___0_exception, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:937>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:937>
 		ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF* L_0 = (ManualResetValueTaskSourceCore_1_t2252410399D99ED191450A19CC3F88F072A396BF*)(&__this->____manualSource);
 		Exception_t* L_1 = ___0_exception;
 		ManualResetValueTaskSourceCore_1_SetException_mB2C018F50D3F1127DCA7143FAC87DBC5F394051F(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
@@ -15419,7 +15419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource__ctor_m8DF18AA54734515A29B409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_tBF7837F18479FBBECA4EF033D3DAC900D25395A3 TaskSource_get_Task_m2965FD4091BC13D64C3D7CE10FA6110B23BFE863_gshared (TaskSource_t80CADB335C421F201D60F5002369F78BFF3179C3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_tBF7837F18479FBBECA4EF033D3DAC900D25395A3 L_0 = __this->___U3CTaskU3Ek__BackingField;
 		return L_0;
 	}
@@ -15428,7 +15428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_tBF7837F18479FBBECA4EF033D3DAC900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_set_Task_mAE6A51925CA4D8F443F2D567F63BD679D83790C1_gshared (TaskSource_t80CADB335C421F201D60F5002369F78BFF3179C3* __this, ValueTask_1_tBF7837F18479FBBECA4EF033D3DAC900D25395A3 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_tBF7837F18479FBBECA4EF033D3DAC900D25395A3 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -15449,15 +15449,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRResult_2_tEE309DA87971E4B023EDEF7A804AF736
 
 FINALLY_000f:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:917>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:917>
 				OVRObjectPool_Return_TisTaskSource_t80CADB335C421F201D60F5002369F78BFF3179C3_m53DC83D4E9309BC19166877ABA9767FA4ECE5A4E(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:918>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:918>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:913>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:913>
 			ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261* L_0 = (ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261*)(&__this->____manualSource);
 			int16_t L_1 = ___0_token;
 			OVRResult_2_tEE309DA87971E4B023EDEF7A804AF736830DF0C7 L_2;
@@ -15473,7 +15473,7 @@ FINALLY_000f:
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:919>
 		OVRResult_2_tEE309DA87971E4B023EDEF7A804AF736830DF0C7 L_3 = V_0;
 		return L_3;
 	}
@@ -15482,7 +15482,7 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m67C0E4E19E5DA75B0B7DA3D8DD5F4A15BDD300B4_gshared (TaskSource_t80CADB335C421F201D60F5002369F78BFF3179C3* __this, int16_t ___0_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:921>
 		ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261* L_0 = (ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261*)(&__this->____manualSource);
 		int16_t L_1 = ___0_token;
 		int32_t L_2;
@@ -15494,7 +15494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m67C0E4E19E5DA75
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m8730C7B5EC1659E2A4000D8A6C81B4CB7A67330E_gshared (TaskSource_t80CADB335C421F201D60F5002369F78BFF3179C3* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_continuation, RuntimeObject* ___1_state, int16_t ___2_token, int32_t ___3_flags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:924>
 		ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261* L_0 = (ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261*)(&__this->____manualSource);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_1 = ___0_continuation;
 		RuntimeObject* L_2 = ___1_state;
@@ -15508,10 +15508,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m8730C7B5EC1659E2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnGet_m93D1C4A6175E8394B6B5961F49EA160CBBC46472_gshared (TaskSource_t80CADB335C421F201D60F5002369F78BFF3179C3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:928>
 		ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261* L_0 = (ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261*)(&__this->____manualSource);
 		ManualResetValueTaskSourceCore_1_Reset_mE672CFB57DBFD5063E275FF56656E5B2AFC61D9C(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:929>
 		ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261* L_1 = (ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261*)(&__this->____manualSource);
 		int16_t L_2;
 		L_2 = ManualResetValueTaskSourceCore_1_get_Version_m1DFEDF790AFB9818DEBF9F98CFC889521DA85E59_inline(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
@@ -15519,7 +15519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTask_1__ctor_m15C719DBF2EC1E92766122B919452CC7A7090611_inline((&L_3), (RuntimeObject*)__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		TaskSource_set_Task_mAE6A51925CA4D8F443F2D567F63BD679D83790C1_inline(__this, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:930>
 		return;
 	}
 }
@@ -15527,7 +15527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnReturn_mAC1EFC7E8AF46309930A58950D19ED789FF4FF3E_gshared (TaskSource_t80CADB335C421F201D60F5002369F78BFF3179C3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:933>
 		return;
 	}
 }
@@ -15535,7 +15535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnR
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m0FC9638C93BC13782E1F344D570A40BB40058B85_gshared (TaskSource_t80CADB335C421F201D60F5002369F78BFF3179C3* __this, OVRResult_2_tEE309DA87971E4B023EDEF7A804AF736830DF0C7 ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:935>
 		ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261* L_0 = (ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261*)(&__this->____manualSource);
 		OVRResult_2_tEE309DA87971E4B023EDEF7A804AF736830DF0C7 L_1 = ___0_result;
 		ManualResetValueTaskSourceCore_1_SetResult_m9F7AE2733D6983ECABCD0972E9F5591D7ECA952E(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
@@ -15546,7 +15546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m0FC9638C93BC13782E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetException_m197EBA3099BC4CDED28F5D997164F9987F4DBB10_gshared (TaskSource_t80CADB335C421F201D60F5002369F78BFF3179C3* __this, Exception_t* ___0_exception, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:937>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:937>
 		ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261* L_0 = (ManualResetValueTaskSourceCore_1_tA25A1D179F329961D0975EB793A7A60813BC5261*)(&__this->____manualSource);
 		Exception_t* L_1 = ___0_exception;
 		ManualResetValueTaskSourceCore_1_SetException_m8D639E412144AC592F9DF9A161C163A469C2BDD5(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
@@ -15573,7 +15573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource__ctor_m04E062FE306AC643D17384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t67FC92E9074138194AF86F6344B5DB3F12FB773F TaskSource_get_Task_m6539358499C99BAF91F776747F04F10299C867A1_gshared (TaskSource_tBFC170297C1FF4254EA6B0294D36716F0C92BB33* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t67FC92E9074138194AF86F6344B5DB3F12FB773F L_0 = __this->___U3CTaskU3Ek__BackingField;
 		return L_0;
 	}
@@ -15582,7 +15582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t67FC92E9074138194AF86F6344B5DB3F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_set_Task_mEBEA9901D29138BE267022C9946457FA8EB81C6F_gshared (TaskSource_tBFC170297C1FF4254EA6B0294D36716F0C92BB33* __this, ValueTask_1_t67FC92E9074138194AF86F6344B5DB3F12FB773F ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t67FC92E9074138194AF86F6344B5DB3F12FB773F L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -15600,15 +15600,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRResult_2_t50B61EC2E3DFD5F81560F4ACE6984EF5
 
 FINALLY_000f:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:917>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:917>
 				OVRObjectPool_Return_TisTaskSource_tBFC170297C1FF4254EA6B0294D36716F0C92BB33_m15DFA5449BB3E13071A52ACD7F8E67E3EBC3085F(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:918>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:918>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:913>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:913>
 			ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B* L_0 = (ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B*)(&__this->____manualSource);
 			int16_t L_1 = ___0_token;
 			OVRResult_2_t50B61EC2E3DFD5F81560F4ACE6984EF563BDD05E L_2;
@@ -15624,7 +15624,7 @@ FINALLY_000f:
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:919>
 		OVRResult_2_t50B61EC2E3DFD5F81560F4ACE6984EF563BDD05E L_3 = V_0;
 		return L_3;
 	}
@@ -15633,7 +15633,7 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m49B0EDD39665FDC705C54EA1CE6C89B78E5A78E8_gshared (TaskSource_tBFC170297C1FF4254EA6B0294D36716F0C92BB33* __this, int16_t ___0_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:921>
 		ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B* L_0 = (ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B*)(&__this->____manualSource);
 		int16_t L_1 = ___0_token;
 		int32_t L_2;
@@ -15645,7 +15645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m49B0EDD39665FDC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m455F47B4E9DE813121377F3F0593B0A817CED86A_gshared (TaskSource_tBFC170297C1FF4254EA6B0294D36716F0C92BB33* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_continuation, RuntimeObject* ___1_state, int16_t ___2_token, int32_t ___3_flags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:924>
 		ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B* L_0 = (ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B*)(&__this->____manualSource);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_1 = ___0_continuation;
 		RuntimeObject* L_2 = ___1_state;
@@ -15659,10 +15659,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m455F47B4E9DE8131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnGet_mEAE513D37737C4DC861FBEECEB56D9CAB0AE0EC6_gshared (TaskSource_tBFC170297C1FF4254EA6B0294D36716F0C92BB33* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:928>
 		ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B* L_0 = (ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B*)(&__this->____manualSource);
 		ManualResetValueTaskSourceCore_1_Reset_m3AF376A84701C64C82925728DC65E05445D49B88(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:929>
 		ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B* L_1 = (ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B*)(&__this->____manualSource);
 		int16_t L_2;
 		L_2 = ManualResetValueTaskSourceCore_1_get_Version_mB810101EA17886EB326C8F35F6E3083EE83F4E22_inline(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
@@ -15670,7 +15670,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTask_1__ctor_m217BD66882E9D03C5CE268C6F7A6C6538F831570_inline((&L_3), (RuntimeObject*)__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		TaskSource_set_Task_mEBEA9901D29138BE267022C9946457FA8EB81C6F_inline(__this, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:930>
 		return;
 	}
 }
@@ -15678,7 +15678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnReturn_mD37D5B60F7E87C3BFD12F518C8D894712E128B0B_gshared (TaskSource_tBFC170297C1FF4254EA6B0294D36716F0C92BB33* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:933>
 		return;
 	}
 }
@@ -15686,7 +15686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnR
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m28B419A9CAAB9025A5570F8C7FEBE475A5404AFA_gshared (TaskSource_tBFC170297C1FF4254EA6B0294D36716F0C92BB33* __this, OVRResult_2_t50B61EC2E3DFD5F81560F4ACE6984EF563BDD05E ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:935>
 		ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B* L_0 = (ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B*)(&__this->____manualSource);
 		OVRResult_2_t50B61EC2E3DFD5F81560F4ACE6984EF563BDD05E L_1 = ___0_result;
 		ManualResetValueTaskSourceCore_1_SetResult_m63D2055292DDDCFCE7CCE3E3A37F3CE3E270BD86(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
@@ -15697,7 +15697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m28B419A9CAAB9025A5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetException_m6B0DB8F012B9E7EC8AB53365B366B4D2E3953ADA_gshared (TaskSource_tBFC170297C1FF4254EA6B0294D36716F0C92BB33* __this, Exception_t* ___0_exception, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:937>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:937>
 		ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B* L_0 = (ManualResetValueTaskSourceCore_1_t01FCD8F616115D07BDF8DC0B049E04AA9D760C1B*)(&__this->____manualSource);
 		Exception_t* L_1 = ___0_exception;
 		ManualResetValueTaskSourceCore_1_SetException_m6FD0D3A2EF9BB99C402753B4A4CDF462C64AF6F9(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
@@ -15724,7 +15724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource__ctor_mB8DA4102DE92FC5E990069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t843D6991D297A8B9397BA32A38FC4F8F1FFF4D11 TaskSource_get_Task_m80DEEABBF6CC08FAA004ED4A2C2EBEF0A2853904_gshared (TaskSource_tF34550AD986019780C1D8F94DB338B8E9D1B08CC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t843D6991D297A8B9397BA32A38FC4F8F1FFF4D11 L_0 = __this->___U3CTaskU3Ek__BackingField;
 		return L_0;
 	}
@@ -15733,7 +15733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t843D6991D297A8B9397BA32A38FC4F8F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_set_Task_mDA0A5A8D5EE5D60298EE1CAAFDA1F8ECE96CAB88_gshared (TaskSource_tF34550AD986019780C1D8F94DB338B8E9D1B08CC* __this, ValueTask_1_t843D6991D297A8B9397BA32A38FC4F8F1FFF4D11 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t843D6991D297A8B9397BA32A38FC4F8F1FFF4D11 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -15751,15 +15751,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tC290D1473EEF2960484F075957B2A1F
 
 FINALLY_000f:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:917>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:917>
 				OVRObjectPool_Return_TisTaskSource_tF34550AD986019780C1D8F94DB338B8E9D1B08CC_m4E7D5A2A5D5C257C31322132B957159BCE0A0933(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:918>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:918>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:913>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:913>
 			ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F* L_0 = (ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F*)(&__this->____manualSource);
 			int16_t L_1 = ___0_token;
 			ValueTuple_2_tC290D1473EEF2960484F075957B2A1F638CD9119 L_2;
@@ -15775,7 +15775,7 @@ FINALLY_000f:
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:919>
 		ValueTuple_2_tC290D1473EEF2960484F075957B2A1F638CD9119 L_3 = V_0;
 		return L_3;
 	}
@@ -15784,7 +15784,7 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_mCF0CDBF6F99869F71AB0B1B9BB35B416CAC9039B_gshared (TaskSource_tF34550AD986019780C1D8F94DB338B8E9D1B08CC* __this, int16_t ___0_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:921>
 		ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F* L_0 = (ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F*)(&__this->____manualSource);
 		int16_t L_1 = ___0_token;
 		int32_t L_2;
@@ -15796,7 +15796,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_mCF0CDBF6F99869F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m93FBF62AFC321F89A34A581B960CEF9A927BAED1_gshared (TaskSource_tF34550AD986019780C1D8F94DB338B8E9D1B08CC* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_continuation, RuntimeObject* ___1_state, int16_t ___2_token, int32_t ___3_flags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:924>
 		ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F* L_0 = (ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F*)(&__this->____manualSource);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_1 = ___0_continuation;
 		RuntimeObject* L_2 = ___1_state;
@@ -15810,10 +15810,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m93FBF62AFC321F89
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnGet_mF22AC8DA5B086B3BB8391F82AF6BFEEC33B6F012_gshared (TaskSource_tF34550AD986019780C1D8F94DB338B8E9D1B08CC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:928>
 		ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F* L_0 = (ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F*)(&__this->____manualSource);
 		ManualResetValueTaskSourceCore_1_Reset_m1012068E5CD8BDB61D89C7F9C57F40191FAA6FB6(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:929>
 		ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F* L_1 = (ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F*)(&__this->____manualSource);
 		int16_t L_2;
 		L_2 = ManualResetValueTaskSourceCore_1_get_Version_m1062E6D32ADCF6D63F40F62BA0FFC2BFE4CBB57B_inline(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
@@ -15821,7 +15821,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTask_1__ctor_m06175F68B5F6D47BA9BDAE45883DAB3D4B27F7EE_inline((&L_3), (RuntimeObject*)__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		TaskSource_set_Task_mDA0A5A8D5EE5D60298EE1CAAFDA1F8ECE96CAB88_inline(__this, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:930>
 		return;
 	}
 }
@@ -15829,7 +15829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnReturn_m13F9ED7753730AE32216C7F76DDDC7C549CC32CD_gshared (TaskSource_tF34550AD986019780C1D8F94DB338B8E9D1B08CC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:933>
 		return;
 	}
 }
@@ -15837,7 +15837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnR
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m5D235E2E6823A1368080E67C6164E93F7D9F22C5_gshared (TaskSource_tF34550AD986019780C1D8F94DB338B8E9D1B08CC* __this, ValueTuple_2_tC290D1473EEF2960484F075957B2A1F638CD9119 ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:935>
 		ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F* L_0 = (ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F*)(&__this->____manualSource);
 		ValueTuple_2_tC290D1473EEF2960484F075957B2A1F638CD9119 L_1 = ___0_result;
 		ManualResetValueTaskSourceCore_1_SetResult_m71E1A1E0EE2BADFAF3801D8BA12A75423DCA8E38(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
@@ -15848,7 +15848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m5D235E2E6823A13680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetException_m0634EA03535E967D15FE884081409F8345D133F3_gshared (TaskSource_tF34550AD986019780C1D8F94DB338B8E9D1B08CC* __this, Exception_t* ___0_exception, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:937>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:937>
 		ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F* L_0 = (ManualResetValueTaskSourceCore_1_t0A444AE23A318A1F8FA114AA427F61305A49945F*)(&__this->____manualSource);
 		Exception_t* L_1 = ___0_exception;
 		ManualResetValueTaskSourceCore_1_SetException_m8EB5AB6B5DDDF28F9F29C158F427A3C9CA27AD51(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
@@ -15875,7 +15875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource__ctor_m72668C87AE638B485E9459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t6C11772369DAED1304F29D047B2ED0A540F4650D TaskSource_get_Task_m38045C7B607923CEC53362B5007C2782C25A2A27_gshared (TaskSource_t1501BB87EBC869376CBE0D07F6DECA3D52864BD6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t6C11772369DAED1304F29D047B2ED0A540F4650D L_0 = __this->___U3CTaskU3Ek__BackingField;
 		return L_0;
 	}
@@ -15884,7 +15884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t6C11772369DAED1304F29D047B2ED0A5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_set_Task_m2A967CD39F70F300DE7AA8F738285DEB36C8A40C_gshared (TaskSource_t1501BB87EBC869376CBE0D07F6DECA3D52864BD6* __this, ValueTask_1_t6C11772369DAED1304F29D047B2ED0A540F4650D ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t6C11772369DAED1304F29D047B2ED0A540F4650D L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -15901,15 +15901,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskSource_GetResult_m1A6D6710842E87BE43
 
 FINALLY_000f:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:917>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:917>
 				OVRObjectPool_Return_TisTaskSource_t1501BB87EBC869376CBE0D07F6DECA3D52864BD6_m5A778B16A80FB3C70DA12B515FA12F6DE1FA6613(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:918>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:918>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:913>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:913>
 			ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37* L_0 = (ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37*)(&__this->____manualSource);
 			int16_t L_1 = ___0_token;
 			bool L_2;
@@ -15925,7 +15925,7 @@ FINALLY_000f:
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:919>
 		bool L_3 = V_0;
 		return L_3;
 	}
@@ -15934,7 +15934,7 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_mBF3EF6C3BBF4171E82407C4DD567FA78240E841B_gshared (TaskSource_t1501BB87EBC869376CBE0D07F6DECA3D52864BD6* __this, int16_t ___0_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:921>
 		ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37* L_0 = (ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37*)(&__this->____manualSource);
 		int16_t L_1 = ___0_token;
 		int32_t L_2;
@@ -15946,7 +15946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_mBF3EF6C3BBF4171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_mB3D01BED81144BF20C2AC1D2DEDC7BB8E1C1C95A_gshared (TaskSource_t1501BB87EBC869376CBE0D07F6DECA3D52864BD6* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_continuation, RuntimeObject* ___1_state, int16_t ___2_token, int32_t ___3_flags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:924>
 		ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37* L_0 = (ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37*)(&__this->____manualSource);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_1 = ___0_continuation;
 		RuntimeObject* L_2 = ___1_state;
@@ -15960,10 +15960,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_mB3D01BED81144BF2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnGet_m1EECD8212BB4CFDE292B4D09AC8894B0AE4CF4B7_gshared (TaskSource_t1501BB87EBC869376CBE0D07F6DECA3D52864BD6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:928>
 		ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37* L_0 = (ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37*)(&__this->____manualSource);
 		ManualResetValueTaskSourceCore_1_Reset_m0D16E61936A591EE50C6A0775F03BA50C38BD32A(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:929>
 		ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37* L_1 = (ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37*)(&__this->____manualSource);
 		int16_t L_2;
 		L_2 = ManualResetValueTaskSourceCore_1_get_Version_mDBEB9C4A34525DB098B1BB39EB7C82C6F3A59EBB_inline(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
@@ -15971,7 +15971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTask_1__ctor_m7A512E22E291C68063CD164B653C9B707D7958A0_inline((&L_3), (RuntimeObject*)__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		TaskSource_set_Task_m2A967CD39F70F300DE7AA8F738285DEB36C8A40C_inline(__this, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:930>
 		return;
 	}
 }
@@ -15979,7 +15979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnReturn_mDBF00012CA95094B7AF72FB0CFEE1E4A8F487021_gshared (TaskSource_t1501BB87EBC869376CBE0D07F6DECA3D52864BD6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:933>
 		return;
 	}
 }
@@ -15987,7 +15987,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnR
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m676D65D8535B45C50FBACA5FE29960D13891254F_gshared (TaskSource_t1501BB87EBC869376CBE0D07F6DECA3D52864BD6* __this, bool ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:935>
 		ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37* L_0 = (ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37*)(&__this->____manualSource);
 		bool L_1 = ___0_result;
 		ManualResetValueTaskSourceCore_1_SetResult_m68CA264778C35B72D3720931E7657F724D12E04C(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
@@ -15998,7 +15998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m676D65D8535B45C50F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetException_m592873B20372FBD5C21EA1A7B2E1C603D97E113D_gshared (TaskSource_t1501BB87EBC869376CBE0D07F6DECA3D52864BD6* __this, Exception_t* ___0_exception, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:937>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:937>
 		ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37* L_0 = (ManualResetValueTaskSourceCore_1_t2E398A2A234CF04D398646A8A8343CCA832C8E37*)(&__this->____manualSource);
 		Exception_t* L_1 = ___0_exception;
 		ManualResetValueTaskSourceCore_1_SetException_mB0640DBFBC14BC4F6CEBEA405E621B9D61B86D4B(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
@@ -16025,7 +16025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource__ctor_m5E4EF24E161D74E27FDB47
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t1903446F552E8A8DAFA54235976742DB79BE2171 TaskSource_get_Task_mCD922049C510B2DA4F60C17D16E522760FF8E3E2_gshared (TaskSource_t304C5270F272B1EF4B8C81C528C24EF6D8299FD4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t1903446F552E8A8DAFA54235976742DB79BE2171 L_0 = __this->___U3CTaskU3Ek__BackingField;
 		return L_0;
 	}
@@ -16034,7 +16034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t1903446F552E8A8DAFA54235976742DB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_set_Task_m01D048150878274A0C5B58F8C8ADA5F3569D5113_gshared (TaskSource_t304C5270F272B1EF4B8C81C528C24EF6D8299FD4* __this, ValueTask_1_t1903446F552E8A8DAFA54235976742DB79BE2171 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t1903446F552E8A8DAFA54235976742DB79BE2171 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -16051,15 +16051,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetResult_mF7C7440F8BB7EC6
 
 FINALLY_000f:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:917>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:917>
 				OVRObjectPool_Return_TisTaskSource_t304C5270F272B1EF4B8C81C528C24EF6D8299FD4_mC6BCA2C4BE300C6EE671803B1CA942CC7DD93CA4(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:918>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:918>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:913>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:913>
 			ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8* L_0 = (ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8*)(&__this->____manualSource);
 			int16_t L_1 = ___0_token;
 			int32_t L_2;
@@ -16075,7 +16075,7 @@ FINALLY_000f:
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:919>
 		int32_t L_3 = V_0;
 		return L_3;
 	}
@@ -16084,7 +16084,7 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m35C49E480F85400E838D58ABE051A6199713B2E7_gshared (TaskSource_t304C5270F272B1EF4B8C81C528C24EF6D8299FD4* __this, int16_t ___0_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:921>
 		ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8* L_0 = (ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8*)(&__this->____manualSource);
 		int16_t L_1 = ___0_token;
 		int32_t L_2;
@@ -16096,7 +16096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m35C49E480F85400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m1DE3BD94C8DC03EC14BD05AE4D41A0B71255044D_gshared (TaskSource_t304C5270F272B1EF4B8C81C528C24EF6D8299FD4* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_continuation, RuntimeObject* ___1_state, int16_t ___2_token, int32_t ___3_flags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:924>
 		ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8* L_0 = (ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8*)(&__this->____manualSource);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_1 = ___0_continuation;
 		RuntimeObject* L_2 = ___1_state;
@@ -16110,10 +16110,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m1DE3BD94C8DC03EC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnGet_m0C94898CAE9329597ABC85B59D96C3B42D5B36FF_gshared (TaskSource_t304C5270F272B1EF4B8C81C528C24EF6D8299FD4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:928>
 		ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8* L_0 = (ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8*)(&__this->____manualSource);
 		ManualResetValueTaskSourceCore_1_Reset_m20B78E9F8B3521B54674C1F2F6BD6B881B7E2C16(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:929>
 		ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8* L_1 = (ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8*)(&__this->____manualSource);
 		int16_t L_2;
 		L_2 = ManualResetValueTaskSourceCore_1_get_Version_mF67E542A3666E7EA41400029C47F6F3EA127E9AB_inline(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
@@ -16121,7 +16121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTask_1__ctor_mCBA4E57ABF3D4935BE56B3F348A1258DA029CA9D_inline((&L_3), (RuntimeObject*)__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		TaskSource_set_Task_m01D048150878274A0C5B58F8C8ADA5F3569D5113_inline(__this, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:930>
 		return;
 	}
 }
@@ -16129,7 +16129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnReturn_m567313FC737B79A0E90DEC53EA9D9620A3A5FB4F_gshared (TaskSource_t304C5270F272B1EF4B8C81C528C24EF6D8299FD4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:933>
 		return;
 	}
 }
@@ -16137,7 +16137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnR
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m3172128FC9EEED301ECEFDDCDD2718A67F01881E_gshared (TaskSource_t304C5270F272B1EF4B8C81C528C24EF6D8299FD4* __this, int32_t ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:935>
 		ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8* L_0 = (ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8*)(&__this->____manualSource);
 		int32_t L_1 = ___0_result;
 		ManualResetValueTaskSourceCore_1_SetResult_mEA0E3C484407DB6AC5CF85B1A060EDF02CF3BFB9(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
@@ -16148,7 +16148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m3172128FC9EEED301E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetException_m86F05DCF5D50255E0D3F4788E6A00DCE6874A6A5_gshared (TaskSource_t304C5270F272B1EF4B8C81C528C24EF6D8299FD4* __this, Exception_t* ___0_exception, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:937>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:937>
 		ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8* L_0 = (ManualResetValueTaskSourceCore_1_tDF6C78470B26313310D1994989CED89D814A33A8*)(&__this->____manualSource);
 		Exception_t* L_1 = ___0_exception;
 		ManualResetValueTaskSourceCore_1_SetException_m2FDCEC74065B1164FC87DF8214989EFF4A64C837(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
@@ -16175,7 +16175,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource__ctor_mF57D475027787011AE0B25
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t0C60B4D6EA2C1C6516EF33482A41EC587B6887E2 TaskSource_get_Task_mEE74071863CC511D024B26BFBA705B752B34BD4C_gshared (TaskSource_t9F8201C27A6A1B6F8EDD24D0BDE378C2142EBAD7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t0C60B4D6EA2C1C6516EF33482A41EC587B6887E2 L_0 = __this->___U3CTaskU3Ek__BackingField;
 		return L_0;
 	}
@@ -16184,7 +16184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t0C60B4D6EA2C1C6516EF33482A41EC58
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_set_Task_mEDF497CF0E1BB1E15B1A857B75A5DCD74AB2870F_gshared (TaskSource_t9F8201C27A6A1B6F8EDD24D0BDE378C2142EBAD7* __this, ValueTask_1_t0C60B4D6EA2C1C6516EF33482A41EC587B6887E2 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t0C60B4D6EA2C1C6516EF33482A41EC587B6887E2 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -16202,15 +16202,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246
 
 FINALLY_000f:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:917>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:917>
 				OVRObjectPool_Return_TisTaskSource_t9F8201C27A6A1B6F8EDD24D0BDE378C2142EBAD7_m5B8EB039749B29589AD99F1D7E3D7E22DB3FF908(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:918>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:918>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:913>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:913>
 			ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F* L_0 = (ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F*)(&__this->____manualSource);
 			int16_t L_1 = ___0_token;
 			OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_2;
@@ -16226,7 +16226,7 @@ FINALLY_000f:
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:919>
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_3 = V_0;
 		return L_3;
 	}
@@ -16235,7 +16235,7 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m04EF55E366018E382A940544A90D7CF21E6F0D03_gshared (TaskSource_t9F8201C27A6A1B6F8EDD24D0BDE378C2142EBAD7* __this, int16_t ___0_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:921>
 		ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F* L_0 = (ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F*)(&__this->____manualSource);
 		int16_t L_1 = ___0_token;
 		int32_t L_2;
@@ -16247,7 +16247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m04EF55E366018E3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m4B57560DE08A3FC07091784EA8F20ED3C564C488_gshared (TaskSource_t9F8201C27A6A1B6F8EDD24D0BDE378C2142EBAD7* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_continuation, RuntimeObject* ___1_state, int16_t ___2_token, int32_t ___3_flags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:924>
 		ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F* L_0 = (ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F*)(&__this->____manualSource);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_1 = ___0_continuation;
 		RuntimeObject* L_2 = ___1_state;
@@ -16261,10 +16261,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m4B57560DE08A3FC0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnGet_m0F161F73442F85CC18DFED9D0C39CC6C268D9AC9_gshared (TaskSource_t9F8201C27A6A1B6F8EDD24D0BDE378C2142EBAD7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:928>
 		ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F* L_0 = (ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F*)(&__this->____manualSource);
 		ManualResetValueTaskSourceCore_1_Reset_mA1124455316B9A21B574B7534B7634930DBF4819(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:929>
 		ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F* L_1 = (ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F*)(&__this->____manualSource);
 		int16_t L_2;
 		L_2 = ManualResetValueTaskSourceCore_1_get_Version_mEB84EF7AF3EF779326591C4029D2D67800C83F79_inline(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
@@ -16272,7 +16272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTask_1__ctor_mA388B7ECF5E6C14713BBCA3B351DAB2C62201772_inline((&L_3), (RuntimeObject*)__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		TaskSource_set_Task_mEDF497CF0E1BB1E15B1A857B75A5DCD74AB2870F_inline(__this, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:930>
 		return;
 	}
 }
@@ -16280,7 +16280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnReturn_mA7C660492C5C8782C5A84E4BB557822801B55CFE_gshared (TaskSource_t9F8201C27A6A1B6F8EDD24D0BDE378C2142EBAD7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:933>
 		return;
 	}
 }
@@ -16288,7 +16288,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnR
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_mD12B41B00310D52639EAD03EEB8CF40A0536B588_gshared (TaskSource_t9F8201C27A6A1B6F8EDD24D0BDE378C2142EBAD7* __this, OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:935>
 		ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F* L_0 = (ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F*)(&__this->____manualSource);
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_1 = ___0_result;
 		ManualResetValueTaskSourceCore_1_SetResult_mAB1E4665D9FAE9382F8E3D9F3DA6E1FDEBDB8988(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
@@ -16299,7 +16299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_mD12B41B00310D52639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetException_m00ED4939300CA1EE70D0A4D6D18CBD397882A90F_gshared (TaskSource_t9F8201C27A6A1B6F8EDD24D0BDE378C2142EBAD7* __this, Exception_t* ___0_exception, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:937>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:937>
 		ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F* L_0 = (ManualResetValueTaskSourceCore_1_t187D4194C22D6F37F094AE93C58BDA9217135D4F*)(&__this->____manualSource);
 		Exception_t* L_1 = ___0_exception;
 		ManualResetValueTaskSourceCore_1_SetException_mA9CAF16B00FD644238D06CD1E400C5EAAC77B223(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
@@ -16326,7 +16326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource__ctor_m872BAFC7EA7BC4D2C4BB77
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 TaskSource_get_Task_m03E991AA00A84E4A4700C158F6B198F0D2E5606F_gshared (TaskSource_t019B31D931A4D871112EE7A40494DC270CF28CD6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 L_0 = __this->___U3CTaskU3Ek__BackingField;
 		return L_0;
 	}
@@ -16335,7 +16335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_set_Task_m087AE14F309D40D668B4A6ACC166B463776BDEFF_gshared (TaskSource_t019B31D931A4D871112EE7A40494DC270CF28CD6* __this, ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -16355,15 +16355,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TaskSource_GetResult_m43C37D38
 
 FINALLY_000f:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:917>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:917>
 				OVRObjectPool_Return_TisTaskSource_t019B31D931A4D871112EE7A40494DC270CF28CD6_m4B0DE1821BA0361B1A56E812185CC08BEED2520A(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:918>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:918>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:913>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:913>
 			ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985* L_0 = (ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985*)(&__this->____manualSource);
 			int16_t L_1 = ___0_token;
 			RuntimeObject* L_2;
@@ -16379,7 +16379,7 @@ FINALLY_000f:
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:919>
 		RuntimeObject* L_3 = V_0;
 		return L_3;
 	}
@@ -16388,7 +16388,7 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m1A230ADED4B47F669BD2114CD736E9646056639D_gshared (TaskSource_t019B31D931A4D871112EE7A40494DC270CF28CD6* __this, int16_t ___0_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:921>
 		ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985* L_0 = (ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985*)(&__this->____manualSource);
 		int16_t L_1 = ___0_token;
 		int32_t L_2;
@@ -16400,7 +16400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m1A230ADED4B47F6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_mE5BAE52F42185653678CD554FAB34D31FBF22531_gshared (TaskSource_t019B31D931A4D871112EE7A40494DC270CF28CD6* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_continuation, RuntimeObject* ___1_state, int16_t ___2_token, int32_t ___3_flags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:924>
 		ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985* L_0 = (ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985*)(&__this->____manualSource);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_1 = ___0_continuation;
 		RuntimeObject* L_2 = ___1_state;
@@ -16414,10 +16414,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_mE5BAE52F42185653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnGet_mF54A0541E78D62F2313D7202D1FC4A304DA7BEF5_gshared (TaskSource_t019B31D931A4D871112EE7A40494DC270CF28CD6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:928>
 		ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985* L_0 = (ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985*)(&__this->____manualSource);
 		ManualResetValueTaskSourceCore_1_Reset_m721893AEDD42B319DE00F9E296C68E4D46E20AD3(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:929>
 		ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985* L_1 = (ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985*)(&__this->____manualSource);
 		int16_t L_2;
 		L_2 = ManualResetValueTaskSourceCore_1_get_Version_m1152B5E9B9A7CE245182FA93E38692FCC00BD4AC_inline(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
@@ -16425,7 +16425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTask_1__ctor_m177950552C93B57A4BB1739D0F7D66EDD7C59D11_inline((&L_3), (RuntimeObject*)__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		TaskSource_set_Task_m087AE14F309D40D668B4A6ACC166B463776BDEFF_inline(__this, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:930>
 		return;
 	}
 }
@@ -16433,7 +16433,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnReturn_mEF1D0FC721BA0244B2F58FAECCF43B7553C91CA1_gshared (TaskSource_t019B31D931A4D871112EE7A40494DC270CF28CD6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:933>
 		return;
 	}
 }
@@ -16441,7 +16441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnR
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_mBB498F797EA58A77F6ED44C6B54986DBC5B47F84_gshared (TaskSource_t019B31D931A4D871112EE7A40494DC270CF28CD6* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:935>
 		ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985* L_0 = (ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985*)(&__this->____manualSource);
 		RuntimeObject* L_1 = ___0_result;
 		ManualResetValueTaskSourceCore_1_SetResult_m17450D6849EFB042FFB176DDFADE56CF97E1EBA1(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
@@ -16452,7 +16452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_mBB498F797EA58A77F6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetException_mF1C4A1BE0FC4BE4FF91D46D582AC9F1A4CE60BC9_gshared (TaskSource_t019B31D931A4D871112EE7A40494DC270CF28CD6* __this, Exception_t* ___0_exception, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:937>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:937>
 		ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985* L_0 = (ManualResetValueTaskSourceCore_1_t6451DA975B280BA45E6B4FFEE5DAC9D2A188E985*)(&__this->____manualSource);
 		Exception_t* L_1 = ___0_exception;
 		ManualResetValueTaskSourceCore_1_SetException_m9FA50C7E9CC155E7DEA50AD6E2E713AAEBB1AD80(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
@@ -16481,7 +16481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_get_Task_mDA6AB67C0F31B3BFAC3
 	const uint32_t SizeOf_ValueTask_1_t91D97A6CCD62606ED77A5CCB288B27C189B5AF94 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const ValueTask_1_t0F0EE445D46F85FEC54EC1B5DD82D484EB19B4A7 L_0 = alloca(SizeOf_ValueTask_1_t91D97A6CCD62606ED77A5CCB288B27C189B5AF94);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		il2cpp_codegen_memcpy(L_0, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1)), SizeOf_ValueTask_1_t91D97A6CCD62606ED77A5CCB288B27C189B5AF94);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_0, SizeOf_ValueTask_1_t91D97A6CCD62606ED77A5CCB288B27C189B5AF94);
 		return;
@@ -16493,7 +16493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_set_Task_m51548B0217411074470
 	const uint32_t SizeOf_ValueTask_1_t91D97A6CCD62606ED77A5CCB288B27C189B5AF94 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const ValueTask_1_t0F0EE445D46F85FEC54EC1B5DD82D484EB19B4A7 L_0 = alloca(SizeOf_ValueTask_1_t91D97A6CCD62606ED77A5CCB288B27C189B5AF94);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		il2cpp_codegen_memcpy(L_0, ___0_value, SizeOf_ValueTask_1_t91D97A6CCD62606ED77A5CCB288B27C189B5AF94);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1), L_0, SizeOf_ValueTask_1_t91D97A6CCD62606ED77A5CCB288B27C189B5AF94);
 		return;
@@ -16513,15 +16513,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_GetResult_m37D003FA2FC8F3B5DE
 
 FINALLY_000f:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:917>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:917>
 				((  void (*) (TaskSource_tEB3831A69CBBBDEDFC4D6CF57A9E9357D6CB95A8*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:918>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:918>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:913>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:913>
 			int16_t L_0 = ___0_token;
 			InvokerActionInvoker2< int16_t, Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)), il2cpp_rgctx_method(method->klass->rgctx_data, 3), (((ManualResetValueTaskSourceCore_1_t72FE11A135308C8A62DD0AC910D879E7498C2A3A*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0)))), L_0, (Il2CppFullySharedGenericAny*)L_1);
 			il2cpp_codegen_memcpy(V_0, L_1, SizeOf_TResult_t20C524F448293EF1BEB92253F5D71CAD23F5759D);
@@ -16535,7 +16535,7 @@ FINALLY_000f:
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:919>
 		il2cpp_codegen_memcpy(L_2, V_0, SizeOf_TResult_t20C524F448293EF1BEB92253F5D71CAD23F5759D);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_2, SizeOf_TResult_t20C524F448293EF1BEB92253F5D71CAD23F5759D);
 		return;
@@ -16545,7 +16545,7 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m84D18E842C4BDC9BC18498FC116E88B280CE11AC_gshared (TaskSource_tEB3831A69CBBBDEDFC4D6CF57A9E9357D6CB95A8* __this, int16_t ___0_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:921>
 		int16_t L_0 = ___0_token;
 		int32_t L_1;
 		L_1 = ((  int32_t (*) (ManualResetValueTaskSourceCore_1_t72FE11A135308C8A62DD0AC910D879E7498C2A3A*, int16_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))((((ManualResetValueTaskSourceCore_1_t72FE11A135308C8A62DD0AC910D879E7498C2A3A*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0)))), L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
@@ -16556,7 +16556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_m84D18E842C4BDC9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m1E5ED379CB164ADBE21C1CAB0AF4F37C5AF23AD6_gshared (TaskSource_tEB3831A69CBBBDEDFC4D6CF57A9E9357D6CB95A8* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_continuation, RuntimeObject* ___1_state, int16_t ___2_token, int32_t ___3_flags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:924>
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_0 = ___0_continuation;
 		RuntimeObject* L_1 = ___1_state;
 		int16_t L_2 = ___2_token;
@@ -16571,15 +16571,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 	const uint32_t SizeOf_ValueTask_1_t91D97A6CCD62606ED77A5CCB288B27C189B5AF94 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const ValueTask_1_t0F0EE445D46F85FEC54EC1B5DD82D484EB19B4A7 L_1 = alloca(SizeOf_ValueTask_1_t91D97A6CCD62606ED77A5CCB288B27C189B5AF94);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:928>
 		((  void (*) (ManualResetValueTaskSourceCore_1_t72FE11A135308C8A62DD0AC910D879E7498C2A3A*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))((((ManualResetValueTaskSourceCore_1_t72FE11A135308C8A62DD0AC910D879E7498C2A3A*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0)))), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:929>
 		int16_t L_0;
 		L_0 = ((  int16_t (*) (ManualResetValueTaskSourceCore_1_t72FE11A135308C8A62DD0AC910D879E7498C2A3A*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 10)))((((ManualResetValueTaskSourceCore_1_t72FE11A135308C8A62DD0AC910D879E7498C2A3A*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0)))), il2cpp_rgctx_method(method->klass->rgctx_data, 10));
 		memset(L_1, 0, SizeOf_ValueTask_1_t91D97A6CCD62606ED77A5CCB288B27C189B5AF94);
 		ValueTask_1__ctor_m6290E5FE79CCE71C6983D5D86933A41BFB4BDEE0_inline((ValueTask_1_t0F0EE445D46F85FEC54EC1B5DD82D484EB19B4A7*)L_1, (RuntimeObject*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		InvokerActionInvoker1< ValueTask_1_t0F0EE445D46F85FEC54EC1B5DD82D484EB19B4A7 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 13)), il2cpp_rgctx_method(method->klass->rgctx_data, 13), __this, L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:930>
 		return;
 	}
 }
@@ -16587,7 +16587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnReturn_mFBADE26B03E5B83130A3E1851291524E1A642488_gshared (TaskSource_tEB3831A69CBBBDEDFC4D6CF57A9E9357D6CB95A8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:933>
 		return;
 	}
 }
@@ -16597,7 +16597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m0EA8A0240133184F9A
 	const uint32_t SizeOf_TResult_t20C524F448293EF1BEB92253F5D71CAD23F5759D = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_TResult_t20C524F448293EF1BEB92253F5D71CAD23F5759D);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:935>
 		il2cpp_codegen_memcpy(L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5)) ? ___0_result : &___0_result), SizeOf_TResult_t20C524F448293EF1BEB92253F5D71CAD23F5759D);
 		InvokerActionInvoker1< Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 14)), il2cpp_rgctx_method(method->klass->rgctx_data, 14), (((ManualResetValueTaskSourceCore_1_t72FE11A135308C8A62DD0AC910D879E7498C2A3A*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0)))), (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5)) ? L_0: *(void**)L_0));
 		return;
@@ -16607,7 +16607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_m0EA8A0240133184F9A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetException_mC59961002F735639D84A8520766CE9FD3D2814EF_gshared (TaskSource_tEB3831A69CBBBDEDFC4D6CF57A9E9357D6CB95A8* __this, Exception_t* ___0_exception, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:937>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:937>
 		Exception_t* L_0 = ___0_exception;
 		((  void (*) (ManualResetValueTaskSourceCore_1_t72FE11A135308C8A62DD0AC910D879E7498C2A3A*, Exception_t*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 15)))((((ManualResetValueTaskSourceCore_1_t72FE11A135308C8A62DD0AC910D879E7498C2A3A*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0)))), L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
 		return;
@@ -16633,7 +16633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource__ctor_m9E9C3491DA486D21325CCA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t44F53CC4AEB3A4F536514DFD2175AA5E8C7A0113 TaskSource_get_Task_mD6703E27BAB70096F19F9E3F73D2A35AC98459D6_gshared (TaskSource_t06F99A6C220FDD5918DFAA1C037AA00A3D8F3E1B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t44F53CC4AEB3A4F536514DFD2175AA5E8C7A0113 L_0 = __this->___U3CTaskU3Ek__BackingField;
 		return L_0;
 	}
@@ -16642,7 +16642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_t44F53CC4AEB3A4F536514DFD2175AA5E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_set_Task_mFD09613CCADBD2C9912B41257E1621ACEEC452AB_gshared (TaskSource_t06F99A6C220FDD5918DFAA1C037AA00A3D8F3E1B* __this, ValueTask_1_t44F53CC4AEB3A4F536514DFD2175AA5E8C7A0113 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t44F53CC4AEB3A4F536514DFD2175AA5E8C7A0113 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -16660,15 +16660,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Metrics_t865BF0741490865117A79705F58784742D6F
 
 FINALLY_000f:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:917>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:917>
 				OVRObjectPool_Return_TisTaskSource_t06F99A6C220FDD5918DFAA1C037AA00A3D8F3E1B_mADE91F485892FA194F9CA7330687421480E44D71(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:918>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:918>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:913>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:913>
 			ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3* L_0 = (ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3*)(&__this->____manualSource);
 			int16_t L_1 = ___0_token;
 			Metrics_t865BF0741490865117A79705F58784742D6F02B8 L_2;
@@ -16684,7 +16684,7 @@ FINALLY_000f:
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:919>
 		Metrics_t865BF0741490865117A79705F58784742D6F02B8 L_3 = V_0;
 		return L_3;
 	}
@@ -16693,7 +16693,7 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_mDE7A1281A5ECD73A8B6A54DE8770E6D96FB42ADB_gshared (TaskSource_t06F99A6C220FDD5918DFAA1C037AA00A3D8F3E1B* __this, int16_t ___0_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:921>
 		ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3* L_0 = (ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3*)(&__this->____manualSource);
 		int16_t L_1 = ___0_token;
 		int32_t L_2;
@@ -16705,7 +16705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_mDE7A1281A5ECD73
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m66550456C41C3B0AB588FED1622BA85B7B9324AA_gshared (TaskSource_t06F99A6C220FDD5918DFAA1C037AA00A3D8F3E1B* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_continuation, RuntimeObject* ___1_state, int16_t ___2_token, int32_t ___3_flags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:924>
 		ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3* L_0 = (ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3*)(&__this->____manualSource);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_1 = ___0_continuation;
 		RuntimeObject* L_2 = ___1_state;
@@ -16719,10 +16719,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m66550456C41C3B0A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnGet_m7CCC1C565A7620225673D0347D3AE3FD51463768_gshared (TaskSource_t06F99A6C220FDD5918DFAA1C037AA00A3D8F3E1B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:928>
 		ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3* L_0 = (ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3*)(&__this->____manualSource);
 		ManualResetValueTaskSourceCore_1_Reset_m2C9FA4F1EFF240198BC2E23FEEED563F75943CA9(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:929>
 		ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3* L_1 = (ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3*)(&__this->____manualSource);
 		int16_t L_2;
 		L_2 = ManualResetValueTaskSourceCore_1_get_Version_m5E989EA24BC5AEEA00447BBC85971C2B7FDADCF0_inline(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
@@ -16730,7 +16730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTask_1__ctor_m34FF2A61DB11EE1DEF6DBF26A81C890F9F994869_inline((&L_3), (RuntimeObject*)__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		TaskSource_set_Task_mFD09613CCADBD2C9912B41257E1621ACEEC452AB_inline(__this, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:930>
 		return;
 	}
 }
@@ -16738,7 +16738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnReturn_mE167E1F0FB8B053B107CB4B5D18F0CCFED00FF3F_gshared (TaskSource_t06F99A6C220FDD5918DFAA1C037AA00A3D8F3E1B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:933>
 		return;
 	}
 }
@@ -16746,7 +16746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnR
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_mAC78B52353A0586CD96ECA1756B9B9FD058D2FF1_gshared (TaskSource_t06F99A6C220FDD5918DFAA1C037AA00A3D8F3E1B* __this, Metrics_t865BF0741490865117A79705F58784742D6F02B8 ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:935>
 		ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3* L_0 = (ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3*)(&__this->____manualSource);
 		Metrics_t865BF0741490865117A79705F58784742D6F02B8 L_1 = ___0_result;
 		ManualResetValueTaskSourceCore_1_SetResult_m57DBA55193D0E8E9B2773FAD70255D7E5E1402D1(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
@@ -16757,7 +16757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_mAC78B52353A0586CD9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetException_mCAF79C6A5CA7D7272915C1C6587E5E6BC6994D64_gshared (TaskSource_t06F99A6C220FDD5918DFAA1C037AA00A3D8F3E1B* __this, Exception_t* ___0_exception, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:937>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:937>
 		ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3* L_0 = (ManualResetValueTaskSourceCore_1_t577E7A3888BD47E24571A9F769B80447F6E595B3*)(&__this->____manualSource);
 		Exception_t* L_1 = ___0_exception;
 		ManualResetValueTaskSourceCore_1_SetException_mCDF3AD1FEA7C4FDAF0DCD2B0747301DE32DC2921(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
@@ -16784,7 +16784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource__ctor_mF5AABEB1B96BD8435D9475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_tBE3BB58F13783C2C6ACFB96B4620F663C8CD0FC7 TaskSource_get_Task_mCF6FAD0D8FA24D1FFBF779466D10E5CCC41036C0_gshared (TaskSource_t72E1BD4CC5D95D8777B3E7963C454733AC0DB39A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_tBE3BB58F13783C2C6ACFB96B4620F663C8CD0FC7 L_0 = __this->___U3CTaskU3Ek__BackingField;
 		return L_0;
 	}
@@ -16793,7 +16793,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_tBE3BB58F13783C2C6ACFB96B4620F663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_set_Task_mA21C4D75DC020013902AA8E8C1CB64EFFCBCEC61_gshared (TaskSource_t72E1BD4CC5D95D8777B3E7963C454733AC0DB39A* __this, ValueTask_1_tBE3BB58F13783C2C6ACFB96B4620F663C8CD0FC7 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_tBE3BB58F13783C2C6ACFB96B4620F663C8CD0FC7 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -16814,15 +16814,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncLock_t4C2B2F5A918FB982D90F2689A8BC5DEC78
 
 FINALLY_000f:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:917>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:917>
 				OVRObjectPool_Return_TisTaskSource_t72E1BD4CC5D95D8777B3E7963C454733AC0DB39A_m8A9EC0C03DBC1B8F4BF166F65540ED2B2C8D982D(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:918>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:918>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:913>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:913>
 			ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45* L_0 = (ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45*)(&__this->____manualSource);
 			int16_t L_1 = ___0_token;
 			AsyncLock_t4C2B2F5A918FB982D90F2689A8BC5DEC785DE52B L_2;
@@ -16838,7 +16838,7 @@ FINALLY_000f:
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:919>
 		AsyncLock_t4C2B2F5A918FB982D90F2689A8BC5DEC785DE52B L_3 = V_0;
 		return L_3;
 	}
@@ -16847,7 +16847,7 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_mC73EAFFB6E87CF21264B8C4C84B9DEBBDFA372ED_gshared (TaskSource_t72E1BD4CC5D95D8777B3E7963C454733AC0DB39A* __this, int16_t ___0_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:921>
 		ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45* L_0 = (ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45*)(&__this->____manualSource);
 		int16_t L_1 = ___0_token;
 		int32_t L_2;
@@ -16859,7 +16859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TaskSource_GetStatus_mC73EAFFB6E87CF2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m99A157F4C0B4C6E0905DB0EB5CC89744C6A5799B_gshared (TaskSource_t72E1BD4CC5D95D8777B3E7963C454733AC0DB39A* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_continuation, RuntimeObject* ___1_state, int16_t ___2_token, int32_t ___3_flags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:924>
 		ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45* L_0 = (ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45*)(&__this->____manualSource);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_1 = ___0_continuation;
 		RuntimeObject* L_2 = ___1_state;
@@ -16873,10 +16873,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OnCompleted_m99A157F4C0B4C6E0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnGet_m53C4F41E737F17D2DA675660712CDAC232341EE7_gshared (TaskSource_t72E1BD4CC5D95D8777B3E7963C454733AC0DB39A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:928>
 		ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45* L_0 = (ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45*)(&__this->____manualSource);
 		ManualResetValueTaskSourceCore_1_Reset_mA6E9D9E32AB793820A07F932070B08244B72E15A(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:929>
 		ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45* L_1 = (ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45*)(&__this->____manualSource);
 		int16_t L_2;
 		L_2 = ManualResetValueTaskSourceCore_1_get_Version_m6BA376B040B19F6E5029A54DD3F90BFEC92B0061_inline(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
@@ -16884,7 +16884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTask_1__ctor_m320B675F044C3156D377B1413D3148D27FC4E175_inline((&L_3), (RuntimeObject*)__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		TaskSource_set_Task_mA21C4D75DC020013902AA8E8C1CB64EFFCBCEC61_inline(__this, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:930>
 		return;
 	}
 }
@@ -16892,7 +16892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnReturn_m2E46FEDA3F598B6CB3440449CA9C6BD15E4178A4_gshared (TaskSource_t72E1BD4CC5D95D8777B3E7963C454733AC0DB39A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:933>
 		return;
 	}
 }
@@ -16900,7 +16900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_OVRObjectPool_IPoolObject_OnR
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_mFD5E24ACB2AB65C8A779848CB32C46CEEA72E622_gshared (TaskSource_t72E1BD4CC5D95D8777B3E7963C454733AC0DB39A* __this, AsyncLock_t4C2B2F5A918FB982D90F2689A8BC5DEC785DE52B ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:935>
 		ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45* L_0 = (ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45*)(&__this->____manualSource);
 		AsyncLock_t4C2B2F5A918FB982D90F2689A8BC5DEC785DE52B L_1 = ___0_result;
 		ManualResetValueTaskSourceCore_1_SetResult_m9D66096AB30564492A008691A9141024B187503F(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
@@ -16911,7 +16911,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetResult_mFD5E24ACB2AB65C8A7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskSource_SetException_mE9A946BB8A2F21E7EE28E0EE438383FAD9F1F0C4_gshared (TaskSource_t72E1BD4CC5D95D8777B3E7963C454733AC0DB39A* __this, Exception_t* ___0_exception, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:937>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:937>
 		ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45* L_0 = (ManualResetValueTaskSourceCore_1_t18665AEE27B38E9FF2A6184B277FD61EFD60AF45*)(&__this->____manualSource);
 		Exception_t* L_1 = ___0_exception;
 		ManualResetValueTaskSourceCore_1_SetException_m95B5A2AF3F3B703E79765E1ED5E447656FBF56D5(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
@@ -31815,7 +31815,7 @@ IL_000a:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskSource_set_Task_m907A34B3B8916F073DF4700FA064FB62A23B18D7_gshared_inline (TaskSource_t4DAE67D52FAB7383785AE3F26CC1F94C986DA095* __this, ValueTask_1_t71017826F5A28F98D20C35E0096FDF61CA4D8647 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t71017826F5A28F98D20C35E0096FDF61CA4D8647 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -31861,7 +31861,7 @@ IL_000a:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskSource_set_Task_mF8A55CE5CAC6B264AB3643A283326CA25DC33C76_gshared_inline (TaskSource_t0BB2CCA6A397CAE4492E1A587468631EFA9F4B7D* __this, ValueTask_1_t574C5A8EC65E3357BFADDDDB4CF15DC96A25728F ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t574C5A8EC65E3357BFADDDDB4CF15DC96A25728F L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -31907,7 +31907,7 @@ IL_000a:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskSource_set_Task_mAE6A51925CA4D8F443F2D567F63BD679D83790C1_gshared_inline (TaskSource_t80CADB335C421F201D60F5002369F78BFF3179C3* __this, ValueTask_1_tBF7837F18479FBBECA4EF033D3DAC900D25395A3 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_tBF7837F18479FBBECA4EF033D3DAC900D25395A3 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -31956,7 +31956,7 @@ IL_000a:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskSource_set_Task_mEBEA9901D29138BE267022C9946457FA8EB81C6F_gshared_inline (TaskSource_tBFC170297C1FF4254EA6B0294D36716F0C92BB33* __this, ValueTask_1_t67FC92E9074138194AF86F6344B5DB3F12FB773F ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t67FC92E9074138194AF86F6344B5DB3F12FB773F L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -32002,7 +32002,7 @@ IL_000a:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskSource_set_Task_mDA0A5A8D5EE5D60298EE1CAAFDA1F8ECE96CAB88_gshared_inline (TaskSource_tF34550AD986019780C1D8F94DB338B8E9D1B08CC* __this, ValueTask_1_t843D6991D297A8B9397BA32A38FC4F8F1FFF4D11 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t843D6991D297A8B9397BA32A38FC4F8F1FFF4D11 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -32048,7 +32048,7 @@ IL_000a:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskSource_set_Task_m2A967CD39F70F300DE7AA8F738285DEB36C8A40C_gshared_inline (TaskSource_t1501BB87EBC869376CBE0D07F6DECA3D52864BD6* __this, ValueTask_1_t6C11772369DAED1304F29D047B2ED0A540F4650D ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t6C11772369DAED1304F29D047B2ED0A540F4650D L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -32094,7 +32094,7 @@ IL_000a:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskSource_set_Task_m01D048150878274A0C5B58F8C8ADA5F3569D5113_gshared_inline (TaskSource_t304C5270F272B1EF4B8C81C528C24EF6D8299FD4* __this, ValueTask_1_t1903446F552E8A8DAFA54235976742DB79BE2171 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t1903446F552E8A8DAFA54235976742DB79BE2171 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -32140,7 +32140,7 @@ IL_000a:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskSource_set_Task_mEDF497CF0E1BB1E15B1A857B75A5DCD74AB2870F_gshared_inline (TaskSource_t9F8201C27A6A1B6F8EDD24D0BDE378C2142EBAD7* __this, ValueTask_1_t0C60B4D6EA2C1C6516EF33482A41EC587B6887E2 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t0C60B4D6EA2C1C6516EF33482A41EC587B6887E2 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -32186,7 +32186,7 @@ IL_000a:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskSource_set_Task_m087AE14F309D40D668B4A6ACC166B463776BDEFF_gshared_inline (TaskSource_t019B31D931A4D871112EE7A40494DC270CF28CD6* __this, ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -32261,7 +32261,7 @@ IL_000a:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskSource_set_Task_mFD09613CCADBD2C9912B41257E1621ACEEC452AB_gshared_inline (TaskSource_t06F99A6C220FDD5918DFAA1C037AA00A3D8F3E1B* __this, ValueTask_1_t44F53CC4AEB3A4F536514DFD2175AA5E8C7A0113 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_t44F53CC4AEB3A4F536514DFD2175AA5E8C7A0113 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);
@@ -32307,7 +32307,7 @@ IL_000a:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskSource_set_Task_mA21C4D75DC020013902AA8E8C1CB64EFFCBCEC61_gshared_inline (TaskSource_t72E1BD4CC5D95D8777B3E7963C454733AC0DB39A* __this, ValueTask_1_tBE3BB58F13783C2C6ACFB96B4620F663C8CD0FC7 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:907>
 		ValueTask_1_tBE3BB58F13783C2C6ACFB96B4620F663C8CD0FC7 L_0 = ___0_value;
 		__this->___U3CTaskU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CTaskU3Ek__BackingField))->____obj), (void*)NULL);

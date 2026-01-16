@@ -15587,7 +15587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Memory_1_CombineHashCodes_mAF5A2B5782
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 108430
+// Method Definition Index: 108432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Message_1__ctor_mFCCE1267D4ACA3BB8CFBB659E901BC94323D2E88_gshared (Message_1_t6EF0E94E11FCC46D1F0485A5CE3AF6ED69DFDC0A* __this, intptr_t ___0_c_message, const RuntimeMethod* method) 
 {
 	{
@@ -15617,7 +15617,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 108431
+// Method Definition Index: 108433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Message_1_get_Data_mD3919529D63BA60F282FFDFD8BFB71C711D755F3_gshared (Message_1_t6EF0E94E11FCC46D1F0485A5CE3AF6ED69DFDC0A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15634,7 +15634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Message_1_get_Data_mD3919529D63BA60F282F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 108430
+// Method Definition Index: 108432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Message_1__ctor_m566E2EA3A05EB218169FCD55C0C6C67376717D2A_gshared (Message_1_tC4674D49302BAB6183CEF95D099A5F93211019CB* __this, intptr_t ___0_c_message, const RuntimeMethod* method) 
 {
 	{
@@ -15665,7 +15665,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 108431
+// Method Definition Index: 108433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Message_1_get_Data_mD1E64D6ED8A65C626BADB30710BCF145A526E86B_gshared (Message_1_tC4674D49302BAB6183CEF95D099A5F93211019CB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15682,7 +15682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Message_1_get_Data_mD1E64D6ED8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 108430
+// Method Definition Index: 108432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Message_1__ctor_mB481DD40B260E87F3862665A775C28CC61CA02AE_gshared (Message_1_t8BF76F99FB79AB5D2F9555ED887A26898E8E8FE5* __this, intptr_t ___0_c_message, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t1245204DBAA308A90982EB515C36CDBE54B4A166 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2));
@@ -15713,7 +15713,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 108431
+// Method Definition Index: 108433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Message_1_get_Data_m14D7BB9E73AD2FCFE890A03645F969AABE4C3A63_gshared (Message_1_t8BF76F99FB79AB5D2F9555ED887A26898E8E8FE5* __this, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t1245204DBAA308A90982EB515C36CDBE54B4A166 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2));
@@ -15777,7 +15777,7 @@ RuntimeObject* MethodCall_2_Invoke_mAC350F7B2DCA000500300DF8D02E12C72DC0D194_Ope
 	NullCheck(___0_target);
 	return GenericInterfaceFuncInvoker1< RuntimeObject*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(method, ___0_target, ___1_args);
 }
-// Method Definition Index: 81047
+// Method Definition Index: 81049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MethodCall_2__ctor_m57E69722197F6AF8DF4EC46673E3A867CFC312A1_gshared (MethodCall_2_t442B9ECE1B9ABC22BDFC90B2BB9048805D1D2270* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15830,13 +15830,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MethodCall_2__ctor_m57E69722197F6AF8DF4E
 	}
 	__this->___extra_arg = (intptr_t)&MethodCall_2_Invoke_mAC350F7B2DCA000500300DF8D02E12C72DC0D194_Multicast;
 }
-// Method Definition Index: 81048
+// Method Definition Index: 81050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MethodCall_2_Invoke_mAC350F7B2DCA000500300DF8D02E12C72DC0D194_gshared (MethodCall_2_t442B9ECE1B9ABC22BDFC90B2BB9048805D1D2270* __this, RuntimeObject* ___0_target, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_target, ___1_args, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 81049
+// Method Definition Index: 81051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MethodCall_2_BeginInvoke_mF497D3483E17E73825007A431FD56B3EBEECBD5D_gshared (MethodCall_2_t442B9ECE1B9ABC22BDFC90B2BB9048805D1D2270* __this, RuntimeObject* ___0_target, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15844,7 +15844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MethodCall_2_BeginInvoke_mF497
 	__d_args[1] = ___1_args;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 81050
+// Method Definition Index: 81052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MethodCall_2_EndInvoke_mF301EB0D52DD076AEE0E60E468230F5F53BE5A94_gshared (MethodCall_2_t442B9ECE1B9ABC22BDFC90B2BB9048805D1D2270* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15906,7 +15906,7 @@ void MethodCall_2_Invoke_mBE44341CFE5BC8BE628105C1EFBD456D0F2DF9CB_OpenGenericIn
 	NullCheck(___0_target);
 	GenericInterfaceActionInvoker2Invoker< ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, Il2CppFullySharedGenericAny* >::Invoke(method, (RuntimeObject*)___0_target, ___1_args, il2cppRetVal);
 }
-// Method Definition Index: 81047
+// Method Definition Index: 81049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MethodCall_2__ctor_m919571D49200E1FEC7040CB004FB9BEBFFCA5F65_gshared (MethodCall_2_t6F0B468D208A254B1132895278B24899F2A0AB91* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15955,13 +15955,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MethodCall_2__ctor_m919571D49200E1FEC704
 	}
 	__this->___extra_arg = (intptr_t)&MethodCall_2_Invoke_mBE44341CFE5BC8BE628105C1EFBD456D0F2DF9CB_Multicast;
 }
-// Method Definition Index: 81048
+// Method Definition Index: 81050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MethodCall_2_Invoke_mBE44341CFE5BC8BE628105C1EFBD456D0F2DF9CB_gshared (MethodCall_2_t6F0B468D208A254B1132895278B24899F2A0AB91* __this, Il2CppFullySharedGenericAny ___0_target, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Il2CppFullySharedGenericAny, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, Il2CppFullySharedGenericAny*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_target, ___1_args, il2cppRetVal, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 81049
+// Method Definition Index: 81051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MethodCall_2_BeginInvoke_m9365ED4FAC423FB5BD9FB9E9C51B7FA333F2D3F3_gshared (MethodCall_2_t6F0B468D208A254B1132895278B24899F2A0AB91* __this, Il2CppFullySharedGenericAny ___0_target, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15970,7 +15970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MethodCall_2_BeginInvoke_m9365
 	__d_args[1] = ___1_args;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 81050
+// Method Definition Index: 81052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MethodCall_2_EndInvoke_m93BA4C67065B85DBF8A0D41ACAD53B0343C2BC4D_gshared (MethodCall_2_t6F0B468D208A254B1132895278B24899F2A0AB91* __this, RuntimeObject* ___0_result, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -17261,19 +17261,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_1_OVRObjectPool_IPoolObjec
 	}
 	const uint32_t SizeOf_T_t707DE0E9C7C0537EB33C3828C5403EAB784C75E2 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 3));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:95>
 		Guid_t L_0;
 		L_0 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_1;
 		L_1 = ((  OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 (*) (Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 		il2cpp_codegen_write_instance_field_data<OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2),0), L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:96>
 		il2cpp_codegen_initobj((((Il2CppFullySharedGenericAny*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2),1)))), SizeOf_T_t707DE0E9C7C0537EB33C3828C5403EAB784C75E2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:97>
 		HashSet_1_tE0D78BA14B046CC2F5B3FF9664D03B65E68C00F4* L_2;
 		L_2 = OVRObjectPool_HashSet_TisGuid_t_mA2421D052A3ED55B53F5691182A281CEC7474C05(OVRObjectPool_HashSet_TisGuid_t_mA2421D052A3ED55B53F5691182A281CEC7474C05_RuntimeMethod_var);
 		il2cpp_codegen_write_instance_field_data<HashSet_1_tE0D78BA14B046CC2F5B3FF9664D03B65E68C00F4*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2),2), L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:98>
 		return;
 	}
 }
@@ -17288,12 +17288,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_1_OVRObjectPool_IPoolObjec
 	}
 	const uint32_t SizeOf_T_t707DE0E9C7C0537EB33C3828C5403EAB784C75E2 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 3));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:102>
 		il2cpp_codegen_initobj((((Il2CppFullySharedGenericAny*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2),1)))), SizeOf_T_t707DE0E9C7C0537EB33C3828C5403EAB784C75E2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:103>
 		HashSet_1_tE0D78BA14B046CC2F5B3FF9664D03B65E68C00F4* L_0 = *(HashSet_1_tE0D78BA14B046CC2F5B3FF9664D03B65E68C00F4**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2),2));
 		OVRObjectPool_Return_TisGuid_t_mDCF0957D8C8D58802EAE50BE4F4BF8DC70314276(L_0, OVRObjectPool_Return_TisGuid_t_mDCF0957D8C8D58802EAE50BE4F4BF8DC70314276_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:104>
 		return;
 	}
 }
@@ -17307,7 +17307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_1_AddTask_m662625B8250535A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:106>
 		HashSet_1_tE0D78BA14B046CC2F5B3FF9664D03B65E68C00F4* L_0 = *(HashSet_1_tE0D78BA14B046CC2F5B3FF9664D03B65E68C00F4**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2),2));
 		Guid_t L_1 = ___0_id;
 		NullCheck(L_0);
@@ -17329,13 +17329,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_1_OnResult_m79B005E2AD521E
 	const uint32_t SizeOf_T_t707DE0E9C7C0537EB33C3828C5403EAB784C75E2 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 3));
 	const Il2CppFullySharedGenericAny L_5 = alloca(SizeOf_T_t707DE0E9C7C0537EB33C3828C5403EAB784C75E2);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:110>
 		HashSet_1_tE0D78BA14B046CC2F5B3FF9664D03B65E68C00F4* L_0 = *(HashSet_1_tE0D78BA14B046CC2F5B3FF9664D03B65E68C00F4**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2),2));
 		Guid_t L_1 = ___0_taskId;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = HashSet_1_Remove_m78A9C7EE57CD16347570EE708FEFE0B97D8E59CE(L_0, L_1, HashSet_1_Remove_m78A9C7EE57CD16347570EE708FEFE0B97D8E59CE_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:111>
 		HashSet_1_tE0D78BA14B046CC2F5B3FF9664D03B65E68C00F4* L_3 = *(HashSet_1_tE0D78BA14B046CC2F5B3FF9664D03B65E68C00F4**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2),2));
 		NullCheck(L_3);
 		int32_t L_4;
@@ -17346,7 +17346,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_1_OnResult_m79B005E2AD521E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:111>
 		return;
 	}
 
@@ -17359,19 +17359,19 @@ IL_001b:
 
 FINALLY_002f:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:119>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:119>
 				((  void (*) (MultiTaskData_1_t3BE3833251AEB93B7CB09E1EAAFFF844C13F4EC4*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:120>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:120>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:115>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:115>
 			il2cpp_codegen_memcpy(L_5, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2),1)), SizeOf_T_t707DE0E9C7C0537EB33C3828C5403EAB784C75E2);
 			il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 5));
 			InvokerActionInvoker1< Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)), il2cpp_rgctx_method(method->klass->rgctx_data, 4), (((OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2),0)))), (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 3)) ? L_5: *(void**)L_5));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:116>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:116>
 			goto IL_0036;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -17382,7 +17382,7 @@ FINALLY_002f:
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:121>
 		return;
 	}
 }
@@ -17407,23 +17407,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t7177E77598C0DF02EB4493CF58B7D83B08
 {
 	MultiTaskData_2_tFF93446BC801D0FD949F522C91A62C57C829B6B9* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:192>
 		MultiTaskData_2_tFF93446BC801D0FD949F522C91A62C57C829B6B9* L_0;
 		L_0 = ((  MultiTaskData_2_tFF93446BC801D0FD949F522C91A62C57C829B6B9* (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:193>
 		MultiTaskData_2_tFF93446BC801D0FD949F522C91A62C57C829B6B9* L_1 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_2 = ___0_task1;
 		Guid_t L_3 = L_2.____id;
 		NullCheck((MultiTaskData_1_t56EBDB977CF67311E136B357B338FE38CE23862D*)L_1);
 		((  void (*) (MultiTaskData_1_t56EBDB977CF67311E136B357B338FE38CE23862D*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t56EBDB977CF67311E136B357B338FE38CE23862D*)L_1, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:194>
 		MultiTaskData_2_tFF93446BC801D0FD949F522C91A62C57C829B6B9* L_4 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_5 = ___1_task2;
 		Guid_t L_6 = L_5.____id;
 		NullCheck((MultiTaskData_1_t56EBDB977CF67311E136B357B338FE38CE23862D*)L_4);
 		((  void (*) (MultiTaskData_1_t56EBDB977CF67311E136B357B338FE38CE23862D*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t56EBDB977CF67311E136B357B338FE38CE23862D*)L_4, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:195>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		Action_2_tF8F0B43E553F0A29526E3682C6C303C70AC3F771* L_7 = ((MultiTaskData_2_tFF93446BC801D0FD949F522C91A62C57C829B6B9_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7)))->____onResult1;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_8 = ___0_task1;
@@ -17434,7 +17434,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t7177E77598C0DF02EB4493CF58B7D83B08
 		ValueTuple_2__ctor_m56F999FB525E2361AF43B30E39CA0A02E14090F1((&L_11), L_9, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 10));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		InvokerActionInvoker2< Action_2_tF8F0B43E553F0A29526E3682C6C303C70AC3F771*, ValueTuple_2_tF69E22C110F4C559BA0C783A4E2D03149CB776E6 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11), (&___0_task1), L_7, L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:196>
 		Action_2_tF8F0B43E553F0A29526E3682C6C303C70AC3F771* L_12 = ((MultiTaskData_2_tFF93446BC801D0FD949F522C91A62C57C829B6B9_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7)))->____onResult2;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_13 = ___1_task2;
 		Guid_t L_14 = L_13.____id;
@@ -17444,7 +17444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t7177E77598C0DF02EB4493CF58B7D83B08
 		ValueTuple_2__ctor_m56F999FB525E2361AF43B30E39CA0A02E14090F1((&L_16), L_14, L_15, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 10));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		InvokerActionInvoker2< Action_2_tF8F0B43E553F0A29526E3682C6C303C70AC3F771*, ValueTuple_2_tF69E22C110F4C559BA0C783A4E2D03149CB776E6 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14), (&___1_task2), L_12, L_16);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:197>
 		MultiTaskData_2_tFF93446BC801D0FD949F522C91A62C57C829B6B9* L_17 = V_0;
 		OVRTask_1_t7177E77598C0DF02EB4493CF58B7D83B08FCAAE2 L_18 = *(OVRTask_1_t7177E77598C0DF02EB4493CF58B7D83B08FCAAE2*)il2cpp_codegen_get_instance_field_data_pointer(L_17, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 3),0));
 		return L_18;
@@ -17462,22 +17462,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_2__ctor_m13FEF046E30400C43
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_2__cctor_m36025854043FC595321393FB8767D300739F4F43_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:200>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:201>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:202>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:203>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:204>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:202>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:203>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:204>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 19));
 		U3CU3Ec_t4F26883F86F6AAC3CBC81C712D2606F7FC0ED296* L_0 = ((U3CU3Ec_t4F26883F86F6AAC3CBC81C712D2606F7FC0ED296_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 19)))->___U3CU3E9;
 		Action_2_tF8F0B43E553F0A29526E3682C6C303C70AC3F771* L_1 = (Action_2_tF8F0B43E553F0A29526E3682C6C303C70AC3F771*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		((  void (*) (Action_2_tF8F0B43E553F0A29526E3682C6C303C70AC3F771*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 21)))(L_1, (RuntimeObject*)L_0, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 20)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 21));
 		((MultiTaskData_2_tFF93446BC801D0FD949F522C91A62C57C829B6B9_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7)))->____onResult1 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_2_tFF93446BC801D0FD949F522C91A62C57C829B6B9_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7)))->____onResult1), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:206>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:207>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:208>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:209>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:208>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:209>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:210>
 		U3CU3Ec_t4F26883F86F6AAC3CBC81C712D2606F7FC0ED296* L_2 = ((U3CU3Ec_t4F26883F86F6AAC3CBC81C712D2606F7FC0ED296_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 19)))->___U3CU3E9;
 		Action_2_tF8F0B43E553F0A29526E3682C6C303C70AC3F771* L_3 = (Action_2_tF8F0B43E553F0A29526E3682C6C303C70AC3F771*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13));
 		((  void (*) (Action_2_tF8F0B43E553F0A29526E3682C6C303C70AC3F771*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 23)))(L_3, (RuntimeObject*)L_2, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 22)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 23));
@@ -17499,29 +17499,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t47E86E2F730087D9D6453334347EE55C61
 {
 	MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:217>
 		MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008* L_0;
 		L_0 = ((  MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008* (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:218>
 		MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008* L_1 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_2 = ___0_task1;
 		Guid_t L_3 = L_2.____id;
 		NullCheck((MultiTaskData_1_tCF117992E00EFEB386293844B32735F71265AAB6*)L_1);
 		((  void (*) (MultiTaskData_1_tCF117992E00EFEB386293844B32735F71265AAB6*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tCF117992E00EFEB386293844B32735F71265AAB6*)L_1, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:219>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:219>
 		MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008* L_4 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_5 = ___1_task2;
 		Guid_t L_6 = L_5.____id;
 		NullCheck((MultiTaskData_1_tCF117992E00EFEB386293844B32735F71265AAB6*)L_4);
 		((  void (*) (MultiTaskData_1_tCF117992E00EFEB386293844B32735F71265AAB6*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tCF117992E00EFEB386293844B32735F71265AAB6*)L_4, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:220>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:220>
 		MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008* L_7 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_8 = ___2_task3;
 		Guid_t L_9 = L_8.____id;
 		NullCheck((MultiTaskData_1_tCF117992E00EFEB386293844B32735F71265AAB6*)L_7);
 		((  void (*) (MultiTaskData_1_tCF117992E00EFEB386293844B32735F71265AAB6*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tCF117992E00EFEB386293844B32735F71265AAB6*)L_7, L_9, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:221>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA* L_10 = ((MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 8)))->____onResult1;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_11 = ___0_task1;
@@ -17532,7 +17532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t47E86E2F730087D9D6453334347EE55C61
 		ValueTuple_2__ctor_m608D2F4A9A0E02B673573E7410BA8CF63E398924((&L_14), L_12, L_13, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13));
 		InvokerActionInvoker2< Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA*, ValueTuple_2_t7BF54523331AB3B84AB9E7A75EFE8FCCD3A2C210 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12), (&___0_task1), L_10, L_14);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:222>
 		Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA* L_15 = ((MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 8)))->____onResult2;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_16 = ___1_task2;
 		Guid_t L_17 = L_16.____id;
@@ -17542,7 +17542,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t47E86E2F730087D9D6453334347EE55C61
 		ValueTuple_2__ctor_m608D2F4A9A0E02B673573E7410BA8CF63E398924((&L_19), L_17, L_18, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		InvokerActionInvoker2< Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA*, ValueTuple_2_t7BF54523331AB3B84AB9E7A75EFE8FCCD3A2C210 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15), (&___1_task2), L_15, L_19);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:223>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:223>
 		Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA* L_20 = ((MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 8)))->____onResult3;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_21 = ___2_task3;
 		Guid_t L_22 = L_21.____id;
@@ -17552,7 +17552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t47E86E2F730087D9D6453334347EE55C61
 		ValueTuple_2__ctor_m608D2F4A9A0E02B673573E7410BA8CF63E398924((&L_24), L_22, L_23, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 19));
 		InvokerActionInvoker2< Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA*, ValueTuple_2_t7BF54523331AB3B84AB9E7A75EFE8FCCD3A2C210 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18), (&___2_task3), L_20, L_24);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:224>
 		MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008* L_25 = V_0;
 		OVRTask_1_t47E86E2F730087D9D6453334347EE55C6103E477 L_26 = *(OVRTask_1_t47E86E2F730087D9D6453334347EE55C6103E477*)il2cpp_codegen_get_instance_field_data_pointer(L_25, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 3),0));
 		return L_26;
@@ -17570,32 +17570,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_3__ctor_m18A03FFC29C33FF2E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_3__cctor_m65A8A6A1D83DFFE436E5C96E3B91C4781509E50D_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:227>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:228>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:229>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:230>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:231>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:227>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:228>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:229>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:230>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:231>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 23));
 		U3CU3Ec_tB11F64CCB80A43D39B5D5DC6F937C612FB75755B* L_0 = ((U3CU3Ec_tB11F64CCB80A43D39B5D5DC6F937C612FB75755B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 23)))->___U3CU3E9;
 		Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA* L_1 = (Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		((  void (*) (Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 25)))(L_1, (RuntimeObject*)L_0, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 24)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 25));
 		((MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 8)))->____onResult1 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 8)))->____onResult1), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:233>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:234>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:235>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:236>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:233>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:234>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:236>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:237>
 		U3CU3Ec_tB11F64CCB80A43D39B5D5DC6F937C612FB75755B* L_2 = ((U3CU3Ec_tB11F64CCB80A43D39B5D5DC6F937C612FB75755B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 23)))->___U3CU3E9;
 		Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA* L_3 = (Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 14));
 		((  void (*) (Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 27)))(L_3, (RuntimeObject*)L_2, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 26)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 27));
 		((MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 8)))->____onResult2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_3_t43A1D47589C437A9E607F0F2C2B191D8C3620008_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 8)))->____onResult2), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:239>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:240>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:241>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:242>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:243>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:239>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:240>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:241>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:242>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:243>
 		U3CU3Ec_tB11F64CCB80A43D39B5D5DC6F937C612FB75755B* L_4 = ((U3CU3Ec_tB11F64CCB80A43D39B5D5DC6F937C612FB75755B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 23)))->___U3CU3E9;
 		Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA* L_5 = (Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		((  void (*) (Action_2_tAB46F0F728094BCEAA8ED7576A1E6CD3D5CB44DA*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 29)))(L_5, (RuntimeObject*)L_4, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 28)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 29));
@@ -17617,35 +17617,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t8E4F10907E8BDE1E300651B3AAB62EDEF3
 {
 	MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:250>
 		MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C* L_0;
 		L_0 = ((  MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C* (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:251>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:251>
 		MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C* L_1 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_2 = ___0_task1;
 		Guid_t L_3 = L_2.____id;
 		NullCheck((MultiTaskData_1_t59DC82A0D020689751CB2BD0F1110774A583F8FF*)L_1);
 		((  void (*) (MultiTaskData_1_t59DC82A0D020689751CB2BD0F1110774A583F8FF*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t59DC82A0D020689751CB2BD0F1110774A583F8FF*)L_1, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:252>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:252>
 		MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C* L_4 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_5 = ___1_task2;
 		Guid_t L_6 = L_5.____id;
 		NullCheck((MultiTaskData_1_t59DC82A0D020689751CB2BD0F1110774A583F8FF*)L_4);
 		((  void (*) (MultiTaskData_1_t59DC82A0D020689751CB2BD0F1110774A583F8FF*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t59DC82A0D020689751CB2BD0F1110774A583F8FF*)L_4, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:253>
 		MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C* L_7 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_8 = ___2_task3;
 		Guid_t L_9 = L_8.____id;
 		NullCheck((MultiTaskData_1_t59DC82A0D020689751CB2BD0F1110774A583F8FF*)L_7);
 		((  void (*) (MultiTaskData_1_t59DC82A0D020689751CB2BD0F1110774A583F8FF*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t59DC82A0D020689751CB2BD0F1110774A583F8FF*)L_7, L_9, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:254>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:254>
 		MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C* L_10 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_11 = ___3_task4;
 		Guid_t L_12 = L_11.____id;
 		NullCheck((MultiTaskData_1_t59DC82A0D020689751CB2BD0F1110774A583F8FF*)L_10);
 		((  void (*) (MultiTaskData_1_t59DC82A0D020689751CB2BD0F1110774A583F8FF*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t59DC82A0D020689751CB2BD0F1110774A583F8FF*)L_10, L_12, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:255>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:255>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC* L_13 = ((MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->____onResult1;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_14 = ___0_task1;
@@ -17656,7 +17656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t8E4F10907E8BDE1E300651B3AAB62EDEF3
 		ValueTuple_2__ctor_mBD7E75A1BCC88A13D9C611F49A212154728932E2((&L_17), L_15, L_16, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 14));
 		InvokerActionInvoker2< Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC*, ValueTuple_2_t2AAB044B3C378C8FAE5AB683819C4C9988C69526 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13), (&___0_task1), L_13, L_17);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:256>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:256>
 		Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC* L_18 = ((MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->____onResult2;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_19 = ___1_task2;
 		Guid_t L_20 = L_19.____id;
@@ -17666,7 +17666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t8E4F10907E8BDE1E300651B3AAB62EDEF3
 		ValueTuple_2__ctor_mBD7E75A1BCC88A13D9C611F49A212154728932E2((&L_22), L_20, L_21, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		InvokerActionInvoker2< Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC*, ValueTuple_2_t2AAB044B3C378C8FAE5AB683819C4C9988C69526 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16), (&___1_task2), L_18, L_22);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:257>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:257>
 		Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC* L_23 = ((MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->____onResult3;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_24 = ___2_task3;
 		Guid_t L_25 = L_24.____id;
@@ -17676,7 +17676,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t8E4F10907E8BDE1E300651B3AAB62EDEF3
 		ValueTuple_2__ctor_mBD7E75A1BCC88A13D9C611F49A212154728932E2((&L_27), L_25, L_26, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 20));
 		InvokerActionInvoker2< Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC*, ValueTuple_2_t2AAB044B3C378C8FAE5AB683819C4C9988C69526 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 19)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 19), (&___2_task3), L_23, L_27);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:258>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:258>
 		Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC* L_28 = ((MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->____onResult4;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_29 = ___3_task4;
 		Guid_t L_30 = L_29.____id;
@@ -17686,7 +17686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t8E4F10907E8BDE1E300651B3AAB62EDEF3
 		ValueTuple_2__ctor_mBD7E75A1BCC88A13D9C611F49A212154728932E2((&L_32), L_30, L_31, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 23));
 		InvokerActionInvoker2< Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC*, ValueTuple_2_t2AAB044B3C378C8FAE5AB683819C4C9988C69526 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 22)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 22), (&___3_task4), L_28, L_32);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:259>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:259>
 		MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C* L_33 = V_0;
 		OVRTask_1_t8E4F10907E8BDE1E300651B3AAB62EDEF34E1A75 L_34 = *(OVRTask_1_t8E4F10907E8BDE1E300651B3AAB62EDEF34E1A75*)il2cpp_codegen_get_instance_field_data_pointer(L_33, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 3),0));
 		return L_34;
@@ -17704,42 +17704,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_4__ctor_m00E90FC65FA4E58FC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_4__cctor_m7AA6A4925C56BF7BF33E5F9AB1979DBF3B068888_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:262>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:263>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:264>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:265>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:262>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:263>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:265>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:266>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 27));
 		U3CU3Ec_t9CA4E8E687444487E5B634DD306C0CB2C47EA871* L_0 = ((U3CU3Ec_t9CA4E8E687444487E5B634DD306C0CB2C47EA871_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 27)))->___U3CU3E9;
 		Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC* L_1 = (Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		((  void (*) (Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 29)))(L_1, (RuntimeObject*)L_0, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 28)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 29));
 		((MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->____onResult1 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->____onResult1), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:268>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:269>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:270>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:271>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:272>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:268>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:269>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:270>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:271>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:272>
 		U3CU3Ec_t9CA4E8E687444487E5B634DD306C0CB2C47EA871* L_2 = ((U3CU3Ec_t9CA4E8E687444487E5B634DD306C0CB2C47EA871_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 27)))->___U3CU3E9;
 		Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC* L_3 = (Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		((  void (*) (Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 31)))(L_3, (RuntimeObject*)L_2, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 30)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 31));
 		((MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->____onResult2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->____onResult2), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:274>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:275>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:276>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:277>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:278>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:274>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:275>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:276>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:277>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:278>
 		U3CU3Ec_t9CA4E8E687444487E5B634DD306C0CB2C47EA871* L_4 = ((U3CU3Ec_t9CA4E8E687444487E5B634DD306C0CB2C47EA871_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 27)))->___U3CU3E9;
 		Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC* L_5 = (Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 18));
 		((  void (*) (Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 33)))(L_5, (RuntimeObject*)L_4, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 32)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 33));
 		((MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->____onResult3 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_4_tF7BF8A5DCE16E6397D1D2D9BAB6F7A8F0988300C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->____onResult3), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:280>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:281>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:282>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:283>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:284>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:280>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:281>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:282>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:283>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:284>
 		U3CU3Ec_t9CA4E8E687444487E5B634DD306C0CB2C47EA871* L_6 = ((U3CU3Ec_t9CA4E8E687444487E5B634DD306C0CB2C47EA871_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 27)))->___U3CU3E9;
 		Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC* L_7 = (Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 21));
 		((  void (*) (Action_2_tC89CCFD648CEBDF431CA04027FD630DC788B86BC*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 35)))(L_7, (RuntimeObject*)L_6, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 34)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 35));
@@ -17761,41 +17761,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t8B8EDEC1E6A367F533A09451D1284CF24D
 {
 	MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:291>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:291>
 		MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B* L_0;
 		L_0 = ((  MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B* (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:292>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:292>
 		MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B* L_1 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_2 = ___0_task1;
 		Guid_t L_3 = L_2.____id;
 		NullCheck((MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*)L_1);
 		((  void (*) (MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*)L_1, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:293>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:293>
 		MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B* L_4 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_5 = ___1_task2;
 		Guid_t L_6 = L_5.____id;
 		NullCheck((MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*)L_4);
 		((  void (*) (MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*)L_4, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:294>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:294>
 		MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B* L_7 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_8 = ___2_task3;
 		Guid_t L_9 = L_8.____id;
 		NullCheck((MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*)L_7);
 		((  void (*) (MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*)L_7, L_9, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:295>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:295>
 		MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B* L_10 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_11 = ___3_task4;
 		Guid_t L_12 = L_11.____id;
 		NullCheck((MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*)L_10);
 		((  void (*) (MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*)L_10, L_12, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:296>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:296>
 		MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B* L_13 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_14 = ___4_task5;
 		Guid_t L_15 = L_14.____id;
 		NullCheck((MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*)L_13);
 		((  void (*) (MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t07487AB76767E4D8938192A73C8AE0A33230E1AF*)L_13, L_15, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:297>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:297>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10));
 		Action_2_t539527DAB206E65C6C7B9262524871F3382E848D* L_16 = ((MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)))->____onResult1;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_17 = ___0_task1;
@@ -17806,7 +17806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t8B8EDEC1E6A367F533A09451D1284CF24D
 		ValueTuple_2__ctor_mAA8053D89F1FA99B43F62380CCC1AB47E7C2296E((&L_20), L_18, L_19, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		InvokerActionInvoker2< Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*, ValueTuple_2_tDE792359832236616813A24F886474182F7B9336 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14), (&___0_task1), L_16, L_20);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:298>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:298>
 		Action_2_t539527DAB206E65C6C7B9262524871F3382E848D* L_21 = ((MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)))->____onResult2;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_22 = ___1_task2;
 		Guid_t L_23 = L_22.____id;
@@ -17816,7 +17816,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t8B8EDEC1E6A367F533A09451D1284CF24D
 		ValueTuple_2__ctor_mAA8053D89F1FA99B43F62380CCC1AB47E7C2296E((&L_25), L_23, L_24, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 18));
 		InvokerActionInvoker2< Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*, ValueTuple_2_tDE792359832236616813A24F886474182F7B9336 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17), (&___1_task2), L_21, L_25);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:299>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:299>
 		Action_2_t539527DAB206E65C6C7B9262524871F3382E848D* L_26 = ((MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)))->____onResult3;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_27 = ___2_task3;
 		Guid_t L_28 = L_27.____id;
@@ -17826,7 +17826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t8B8EDEC1E6A367F533A09451D1284CF24D
 		ValueTuple_2__ctor_mAA8053D89F1FA99B43F62380CCC1AB47E7C2296E((&L_30), L_28, L_29, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 21));
 		InvokerActionInvoker2< Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*, ValueTuple_2_tDE792359832236616813A24F886474182F7B9336 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 20)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 20), (&___2_task3), L_26, L_30);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:300>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:300>
 		Action_2_t539527DAB206E65C6C7B9262524871F3382E848D* L_31 = ((MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)))->____onResult4;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_32 = ___3_task4;
 		Guid_t L_33 = L_32.____id;
@@ -17836,7 +17836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t8B8EDEC1E6A367F533A09451D1284CF24D
 		ValueTuple_2__ctor_mAA8053D89F1FA99B43F62380CCC1AB47E7C2296E((&L_35), L_33, L_34, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 24));
 		InvokerActionInvoker2< Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*, ValueTuple_2_tDE792359832236616813A24F886474182F7B9336 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 23)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 23), (&___3_task4), L_31, L_35);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:301>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:301>
 		Action_2_t539527DAB206E65C6C7B9262524871F3382E848D* L_36 = ((MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)))->____onResult5;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_37 = ___4_task5;
 		Guid_t L_38 = L_37.____id;
@@ -17846,7 +17846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t8B8EDEC1E6A367F533A09451D1284CF24D
 		ValueTuple_2__ctor_mAA8053D89F1FA99B43F62380CCC1AB47E7C2296E((&L_40), L_38, L_39, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 27));
 		InvokerActionInvoker2< Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*, ValueTuple_2_tDE792359832236616813A24F886474182F7B9336 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 26)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 26), (&___4_task5), L_36, L_40);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:302>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:302>
 		MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B* L_41 = V_0;
 		OVRTask_1_t8B8EDEC1E6A367F533A09451D1284CF24D6E3883 L_42 = *(OVRTask_1_t8B8EDEC1E6A367F533A09451D1284CF24D6E3883*)il2cpp_codegen_get_instance_field_data_pointer(L_41, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 3),0));
 		return L_42;
@@ -17864,52 +17864,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_5__ctor_m1E86AC55DBC023FFB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_5__cctor_mEA87986467DBC85EB5903346230B141DD9032C1E_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:305>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:306>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:307>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:308>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:309>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:305>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:306>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:307>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:308>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:309>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 31));
 		U3CU3Ec_t9A6D5F990B887FA6B11B478B3D6907AB5AA1EBB4* L_0 = ((U3CU3Ec_t9A6D5F990B887FA6B11B478B3D6907AB5AA1EBB4_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 31)))->___U3CU3E9;
 		Action_2_t539527DAB206E65C6C7B9262524871F3382E848D* L_1 = (Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		((  void (*) (Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 33)))(L_1, (RuntimeObject*)L_0, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 32)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 33));
 		((MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)))->____onResult1 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)))->____onResult1), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:311>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:312>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:313>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:314>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:315>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:311>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:312>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:313>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:314>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:315>
 		U3CU3Ec_t9A6D5F990B887FA6B11B478B3D6907AB5AA1EBB4* L_2 = ((U3CU3Ec_t9A6D5F990B887FA6B11B478B3D6907AB5AA1EBB4_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 31)))->___U3CU3E9;
 		Action_2_t539527DAB206E65C6C7B9262524871F3382E848D* L_3 = (Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		((  void (*) (Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 35)))(L_3, (RuntimeObject*)L_2, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 34)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 35));
 		((MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)))->____onResult2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)))->____onResult2), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:317>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:318>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:319>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:320>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:321>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:317>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:318>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:319>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:320>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:321>
 		U3CU3Ec_t9A6D5F990B887FA6B11B478B3D6907AB5AA1EBB4* L_4 = ((U3CU3Ec_t9A6D5F990B887FA6B11B478B3D6907AB5AA1EBB4_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 31)))->___U3CU3E9;
 		Action_2_t539527DAB206E65C6C7B9262524871F3382E848D* L_5 = (Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 19));
 		((  void (*) (Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 37)))(L_5, (RuntimeObject*)L_4, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 36)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 37));
 		((MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)))->____onResult3 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)))->____onResult3), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:323>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:324>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:325>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:326>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:327>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:323>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:324>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:325>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:326>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:327>
 		U3CU3Ec_t9A6D5F990B887FA6B11B478B3D6907AB5AA1EBB4* L_6 = ((U3CU3Ec_t9A6D5F990B887FA6B11B478B3D6907AB5AA1EBB4_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 31)))->___U3CU3E9;
 		Action_2_t539527DAB206E65C6C7B9262524871F3382E848D* L_7 = (Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 22));
 		((  void (*) (Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 39)))(L_7, (RuntimeObject*)L_6, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 38)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 39));
 		((MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)))->____onResult4 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_5_t2B7B5896799AB01E60EE12696A6A9DF5C721EE0B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)))->____onResult4), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:329>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:330>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:331>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:332>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:333>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:329>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:330>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:331>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:332>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:333>
 		U3CU3Ec_t9A6D5F990B887FA6B11B478B3D6907AB5AA1EBB4* L_8 = ((U3CU3Ec_t9A6D5F990B887FA6B11B478B3D6907AB5AA1EBB4_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 31)))->___U3CU3E9;
 		Action_2_t539527DAB206E65C6C7B9262524871F3382E848D* L_9 = (Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 25));
 		((  void (*) (Action_2_t539527DAB206E65C6C7B9262524871F3382E848D*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 41)))(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 40)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 41));
@@ -17931,47 +17931,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t34E4F7BEE63797A13C3DA031E8524DA089
 {
 	MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:340>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:340>
 		MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E* L_0;
 		L_0 = ((  MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E* (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:341>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:341>
 		MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E* L_1 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_2 = ___0_task1;
 		Guid_t L_3 = L_2.____id;
 		NullCheck((MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*)L_1);
 		((  void (*) (MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*)L_1, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:342>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:342>
 		MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E* L_4 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_5 = ___1_task2;
 		Guid_t L_6 = L_5.____id;
 		NullCheck((MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*)L_4);
 		((  void (*) (MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*)L_4, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:343>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:343>
 		MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E* L_7 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_8 = ___2_task3;
 		Guid_t L_9 = L_8.____id;
 		NullCheck((MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*)L_7);
 		((  void (*) (MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*)L_7, L_9, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:344>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:344>
 		MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E* L_10 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_11 = ___3_task4;
 		Guid_t L_12 = L_11.____id;
 		NullCheck((MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*)L_10);
 		((  void (*) (MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*)L_10, L_12, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:345>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:345>
 		MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E* L_13 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_14 = ___4_task5;
 		Guid_t L_15 = L_14.____id;
 		NullCheck((MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*)L_13);
 		((  void (*) (MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*)L_13, L_15, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:346>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:346>
 		MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E* L_16 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_17 = ___5_task6;
 		Guid_t L_18 = L_17.____id;
 		NullCheck((MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*)L_16);
 		((  void (*) (MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_t9A3AD50A5ADEDFA09A9C055D6B89244C259644B3*)L_16, L_18, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:347>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:347>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11));
 		Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3* L_19 = ((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult1;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_20 = ___0_task1;
@@ -17982,7 +17982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t34E4F7BEE63797A13C3DA031E8524DA089
 		ValueTuple_2__ctor_m375A76CB31BEB5912F0A08A50A97D63743A818D5((&L_23), L_21, L_22, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		InvokerActionInvoker2< Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*, ValueTuple_2_tDF20532AA16E783E77A347A4275DCF33D4C2944D >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15), (&___0_task1), L_19, L_23);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:348>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:348>
 		Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3* L_24 = ((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult2;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_25 = ___1_task2;
 		Guid_t L_26 = L_25.____id;
@@ -17992,7 +17992,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t34E4F7BEE63797A13C3DA031E8524DA089
 		ValueTuple_2__ctor_m375A76CB31BEB5912F0A08A50A97D63743A818D5((&L_28), L_26, L_27, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 19));
 		InvokerActionInvoker2< Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*, ValueTuple_2_tDF20532AA16E783E77A347A4275DCF33D4C2944D >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18), (&___1_task2), L_24, L_28);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:349>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:349>
 		Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3* L_29 = ((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult3;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_30 = ___2_task3;
 		Guid_t L_31 = L_30.____id;
@@ -18002,7 +18002,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t34E4F7BEE63797A13C3DA031E8524DA089
 		ValueTuple_2__ctor_m375A76CB31BEB5912F0A08A50A97D63743A818D5((&L_33), L_31, L_32, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 22));
 		InvokerActionInvoker2< Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*, ValueTuple_2_tDF20532AA16E783E77A347A4275DCF33D4C2944D >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 21)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 21), (&___2_task3), L_29, L_33);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:350>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:350>
 		Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3* L_34 = ((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult4;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_35 = ___3_task4;
 		Guid_t L_36 = L_35.____id;
@@ -18012,7 +18012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t34E4F7BEE63797A13C3DA031E8524DA089
 		ValueTuple_2__ctor_m375A76CB31BEB5912F0A08A50A97D63743A818D5((&L_38), L_36, L_37, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 25));
 		InvokerActionInvoker2< Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*, ValueTuple_2_tDF20532AA16E783E77A347A4275DCF33D4C2944D >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 24)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 24), (&___3_task4), L_34, L_38);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:351>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:351>
 		Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3* L_39 = ((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult5;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_40 = ___4_task5;
 		Guid_t L_41 = L_40.____id;
@@ -18022,7 +18022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t34E4F7BEE63797A13C3DA031E8524DA089
 		ValueTuple_2__ctor_m375A76CB31BEB5912F0A08A50A97D63743A818D5((&L_43), L_41, L_42, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 28));
 		InvokerActionInvoker2< Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*, ValueTuple_2_tDF20532AA16E783E77A347A4275DCF33D4C2944D >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 27)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 27), (&___4_task5), L_39, L_43);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:352>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:352>
 		Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3* L_44 = ((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult6;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_45 = ___5_task6;
 		Guid_t L_46 = L_45.____id;
@@ -18032,7 +18032,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t34E4F7BEE63797A13C3DA031E8524DA089
 		ValueTuple_2__ctor_m375A76CB31BEB5912F0A08A50A97D63743A818D5((&L_48), L_46, L_47, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 31));
 		InvokerActionInvoker2< Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*, ValueTuple_2_tDF20532AA16E783E77A347A4275DCF33D4C2944D >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 30)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 30), (&___5_task6), L_44, L_48);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:353>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:353>
 		MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E* L_49 = V_0;
 		OVRTask_1_t34E4F7BEE63797A13C3DA031E8524DA089D787F7 L_50 = *(OVRTask_1_t34E4F7BEE63797A13C3DA031E8524DA089D787F7*)il2cpp_codegen_get_instance_field_data_pointer(L_49, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 3),0));
 		return L_50;
@@ -18050,62 +18050,62 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_6__ctor_m3956B45549230DEE4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_6__cctor_m3DF7066C4801B12DEC8713A04CF044EDEF25AC0D_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:356>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:357>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:358>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:359>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:360>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:356>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:357>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:358>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:359>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:360>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 35));
 		U3CU3Ec_t54F821816BE3FE149CE00F12CF7E783452609EE0* L_0 = ((U3CU3Ec_t54F821816BE3FE149CE00F12CF7E783452609EE0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 35)))->___U3CU3E9;
 		Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3* L_1 = (Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10));
 		((  void (*) (Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 37)))(L_1, (RuntimeObject*)L_0, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 36)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 37));
 		((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult1 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult1), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:362>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:363>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:364>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:365>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:366>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:362>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:363>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:364>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:365>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:366>
 		U3CU3Ec_t54F821816BE3FE149CE00F12CF7E783452609EE0* L_2 = ((U3CU3Ec_t54F821816BE3FE149CE00F12CF7E783452609EE0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 35)))->___U3CU3E9;
 		Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3* L_3 = (Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		((  void (*) (Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 39)))(L_3, (RuntimeObject*)L_2, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 38)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 39));
 		((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult2), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:368>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:369>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:370>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:371>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:372>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:368>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:369>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:370>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:371>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:372>
 		U3CU3Ec_t54F821816BE3FE149CE00F12CF7E783452609EE0* L_4 = ((U3CU3Ec_t54F821816BE3FE149CE00F12CF7E783452609EE0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 35)))->___U3CU3E9;
 		Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3* L_5 = (Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 20));
 		((  void (*) (Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 41)))(L_5, (RuntimeObject*)L_4, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 40)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 41));
 		((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult3 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult3), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:374>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:375>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:376>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:377>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:378>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:374>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:375>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:376>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:377>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:378>
 		U3CU3Ec_t54F821816BE3FE149CE00F12CF7E783452609EE0* L_6 = ((U3CU3Ec_t54F821816BE3FE149CE00F12CF7E783452609EE0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 35)))->___U3CU3E9;
 		Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3* L_7 = (Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 23));
 		((  void (*) (Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 43)))(L_7, (RuntimeObject*)L_6, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 42)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 43));
 		((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult4 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult4), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:380>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:381>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:382>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:383>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:384>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:380>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:381>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:382>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:383>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:384>
 		U3CU3Ec_t54F821816BE3FE149CE00F12CF7E783452609EE0* L_8 = ((U3CU3Ec_t54F821816BE3FE149CE00F12CF7E783452609EE0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 35)))->___U3CU3E9;
 		Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3* L_9 = (Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 26));
 		((  void (*) (Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 45)))(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 44)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 45));
 		((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult5 = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_6_tF9C58546A08F812E633DEBFE7C6ADFD6B423215E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11)))->____onResult5), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:386>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:387>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:388>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:389>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:390>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:386>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:387>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:388>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:389>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:390>
 		U3CU3Ec_t54F821816BE3FE149CE00F12CF7E783452609EE0* L_10 = ((U3CU3Ec_t54F821816BE3FE149CE00F12CF7E783452609EE0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 35)))->___U3CU3E9;
 		Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3* L_11 = (Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 29));
 		((  void (*) (Action_2_t98738C8CDD0E0C832529C9B849D91A01F2DD76C3*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 47)))(L_11, (RuntimeObject*)L_10, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 46)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 47));
@@ -18127,53 +18127,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t7F8D2D379E516FE01DBECA67F96BF44F1C
 {
 	MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:397>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:397>
 		MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E* L_0;
 		L_0 = ((  MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E* (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:398>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:398>
 		MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E* L_1 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_2 = ___0_task1;
 		Guid_t L_3 = L_2.____id;
 		NullCheck((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_1);
 		((  void (*) (MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_1, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:399>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:399>
 		MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E* L_4 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_5 = ___1_task2;
 		Guid_t L_6 = L_5.____id;
 		NullCheck((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_4);
 		((  void (*) (MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_4, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:400>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:400>
 		MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E* L_7 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_8 = ___2_task3;
 		Guid_t L_9 = L_8.____id;
 		NullCheck((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_7);
 		((  void (*) (MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_7, L_9, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:401>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:401>
 		MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E* L_10 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_11 = ___3_task4;
 		Guid_t L_12 = L_11.____id;
 		NullCheck((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_10);
 		((  void (*) (MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_10, L_12, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:402>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:402>
 		MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E* L_13 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_14 = ___4_task5;
 		Guid_t L_15 = L_14.____id;
 		NullCheck((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_13);
 		((  void (*) (MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_13, L_15, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:403>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:403>
 		MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E* L_16 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_17 = ___5_task6;
 		Guid_t L_18 = L_17.____id;
 		NullCheck((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_16);
 		((  void (*) (MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_16, L_18, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:404>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:404>
 		MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E* L_19 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_20 = ___6_task7;
 		Guid_t L_21 = L_20.____id;
 		NullCheck((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_19);
 		((  void (*) (MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tD5B42918C00548D1D4D58C6E801ADB90628EA243*)L_19, L_21, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:405>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:405>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_22 = ((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult1;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_23 = ___0_task1;
@@ -18184,7 +18184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t7F8D2D379E516FE01DBECA67F96BF44F1C
 		ValueTuple_2__ctor_m31F6C6F5BF2D1149D3215DB1FB7AFE31B2CDF9C6((&L_26), L_24, L_25, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		InvokerActionInvoker2< Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, ValueTuple_2_tBC7FB5D64DDE726221671C23BF83A51714E59954 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16), (&___0_task1), L_22, L_26);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:406>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:406>
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_27 = ((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult2;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_28 = ___1_task2;
 		Guid_t L_29 = L_28.____id;
@@ -18194,7 +18194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t7F8D2D379E516FE01DBECA67F96BF44F1C
 		ValueTuple_2__ctor_m31F6C6F5BF2D1149D3215DB1FB7AFE31B2CDF9C6((&L_31), L_29, L_30, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 20));
 		InvokerActionInvoker2< Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, ValueTuple_2_tBC7FB5D64DDE726221671C23BF83A51714E59954 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 19)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 19), (&___1_task2), L_27, L_31);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:407>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:407>
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_32 = ((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult3;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_33 = ___2_task3;
 		Guid_t L_34 = L_33.____id;
@@ -18204,7 +18204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t7F8D2D379E516FE01DBECA67F96BF44F1C
 		ValueTuple_2__ctor_m31F6C6F5BF2D1149D3215DB1FB7AFE31B2CDF9C6((&L_36), L_34, L_35, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 23));
 		InvokerActionInvoker2< Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, ValueTuple_2_tBC7FB5D64DDE726221671C23BF83A51714E59954 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 22)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 22), (&___2_task3), L_32, L_36);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:408>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:408>
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_37 = ((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult4;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_38 = ___3_task4;
 		Guid_t L_39 = L_38.____id;
@@ -18214,7 +18214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t7F8D2D379E516FE01DBECA67F96BF44F1C
 		ValueTuple_2__ctor_m31F6C6F5BF2D1149D3215DB1FB7AFE31B2CDF9C6((&L_41), L_39, L_40, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 26));
 		InvokerActionInvoker2< Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, ValueTuple_2_tBC7FB5D64DDE726221671C23BF83A51714E59954 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 25)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 25), (&___3_task4), L_37, L_41);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:409>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:409>
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_42 = ((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult5;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_43 = ___4_task5;
 		Guid_t L_44 = L_43.____id;
@@ -18224,7 +18224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t7F8D2D379E516FE01DBECA67F96BF44F1C
 		ValueTuple_2__ctor_m31F6C6F5BF2D1149D3215DB1FB7AFE31B2CDF9C6((&L_46), L_44, L_45, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 29));
 		InvokerActionInvoker2< Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, ValueTuple_2_tBC7FB5D64DDE726221671C23BF83A51714E59954 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 28)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 28), (&___4_task5), L_42, L_46);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:410>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:410>
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_47 = ((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult6;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_48 = ___5_task6;
 		Guid_t L_49 = L_48.____id;
@@ -18234,7 +18234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t7F8D2D379E516FE01DBECA67F96BF44F1C
 		ValueTuple_2__ctor_m31F6C6F5BF2D1149D3215DB1FB7AFE31B2CDF9C6((&L_51), L_49, L_50, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 32));
 		InvokerActionInvoker2< Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, ValueTuple_2_tBC7FB5D64DDE726221671C23BF83A51714E59954 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 31)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 31), (&___5_task6), L_47, L_51);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:411>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:411>
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_52 = ((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult7;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_53 = ___6_task7;
 		Guid_t L_54 = L_53.____id;
@@ -18244,7 +18244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t7F8D2D379E516FE01DBECA67F96BF44F1C
 		ValueTuple_2__ctor_m31F6C6F5BF2D1149D3215DB1FB7AFE31B2CDF9C6((&L_56), L_54, L_55, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 35));
 		InvokerActionInvoker2< Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, ValueTuple_2_tBC7FB5D64DDE726221671C23BF83A51714E59954 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 34)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 34), (&___6_task7), L_52, L_56);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:412>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:412>
 		MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E* L_57 = V_0;
 		OVRTask_1_t7F8D2D379E516FE01DBECA67F96BF44F1C769AEB L_58 = *(OVRTask_1_t7F8D2D379E516FE01DBECA67F96BF44F1C769AEB*)il2cpp_codegen_get_instance_field_data_pointer(L_57, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 3),0));
 		return L_58;
@@ -18262,72 +18262,72 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_7__ctor_m66C2C1D65360857D6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_7__cctor_m3D5F98677C75B49C81892C4D5AE124A942C15F4F_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:415>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:416>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:417>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:418>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:419>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:415>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:416>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:417>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:418>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:419>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 39));
 		U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB* L_0 = ((U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 39)))->___U3CU3E9;
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_1 = (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11));
 		((  void (*) (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 41)))(L_1, (RuntimeObject*)L_0, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 40)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 41));
 		((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult1 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult1), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:421>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:422>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:423>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:424>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:425>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:421>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:422>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:423>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:424>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:425>
 		U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB* L_2 = ((U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 39)))->___U3CU3E9;
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_3 = (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 18));
 		((  void (*) (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 43)))(L_3, (RuntimeObject*)L_2, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 42)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 43));
 		((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult2), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:427>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:428>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:429>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:430>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:431>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:427>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:428>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:429>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:430>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:431>
 		U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB* L_4 = ((U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 39)))->___U3CU3E9;
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_5 = (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 21));
 		((  void (*) (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 45)))(L_5, (RuntimeObject*)L_4, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 44)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 45));
 		((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult3 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult3), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:433>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:434>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:435>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:436>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:437>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:433>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:434>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:435>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:436>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:437>
 		U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB* L_6 = ((U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 39)))->___U3CU3E9;
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_7 = (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 24));
 		((  void (*) (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 47)))(L_7, (RuntimeObject*)L_6, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 46)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 47));
 		((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult4 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult4), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:439>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:440>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:441>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:442>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:443>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:439>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:440>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:441>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:442>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:443>
 		U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB* L_8 = ((U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 39)))->___U3CU3E9;
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_9 = (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 27));
 		((  void (*) (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 49)))(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 48)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 49));
 		((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult5 = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult5), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:445>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:446>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:447>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:448>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:449>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:445>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:446>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:447>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:448>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:449>
 		U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB* L_10 = ((U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 39)))->___U3CU3E9;
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_11 = (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 30));
 		((  void (*) (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 51)))(L_11, (RuntimeObject*)L_10, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 50)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 51));
 		((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult6 = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_7_t28F589F2A9A7C9A9EA6773C736750CF6F1F3968E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12)))->____onResult6), (void*)L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:451>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:452>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:453>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:454>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:455>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:451>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:452>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:453>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:454>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:455>
 		U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB* L_12 = ((U3CU3Ec_tF899BF5EB083262A280CFE8672F5228F4BAB28DB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 39)))->___U3CU3E9;
 		Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F* L_13 = (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 33));
 		((  void (*) (Action_2_tF018E8AEEEAB86D24DA7A569729D991325B8996F*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 53)))(L_13, (RuntimeObject*)L_12, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 52)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 53));
@@ -18349,59 +18349,59 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t92091D6CF8FAA1F209E90693CA0BF9D574
 {
 	MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:462>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:462>
 		MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96* L_0;
 		L_0 = ((  MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96* (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:463>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:463>
 		MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96* L_1 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_2 = ___0_task1;
 		Guid_t L_3 = L_2.____id;
 		NullCheck((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_1);
 		((  void (*) (MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_1, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:464>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:464>
 		MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96* L_4 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_5 = ___1_task2;
 		Guid_t L_6 = L_5.____id;
 		NullCheck((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_4);
 		((  void (*) (MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_4, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:465>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:465>
 		MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96* L_7 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_8 = ___2_task3;
 		Guid_t L_9 = L_8.____id;
 		NullCheck((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_7);
 		((  void (*) (MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_7, L_9, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:466>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:466>
 		MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96* L_10 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_11 = ___3_task4;
 		Guid_t L_12 = L_11.____id;
 		NullCheck((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_10);
 		((  void (*) (MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_10, L_12, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:467>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:467>
 		MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96* L_13 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_14 = ___4_task5;
 		Guid_t L_15 = L_14.____id;
 		NullCheck((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_13);
 		((  void (*) (MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_13, L_15, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:468>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:468>
 		MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96* L_16 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_17 = ___5_task6;
 		Guid_t L_18 = L_17.____id;
 		NullCheck((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_16);
 		((  void (*) (MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_16, L_18, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:469>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:469>
 		MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96* L_19 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_20 = ___6_task7;
 		Guid_t L_21 = L_20.____id;
 		NullCheck((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_19);
 		((  void (*) (MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_19, L_21, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:470>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:470>
 		MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96* L_22 = V_0;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_23 = ___7_task8;
 		Guid_t L_24 = L_23.____id;
 		NullCheck((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_22);
 		((  void (*) (MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*, Guid_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))((MultiTaskData_1_tA1A84BBDA62520C5AB03D8861064F39FF4B3A4B5*)L_22, L_24, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:471>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:471>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13));
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_25 = ((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult1;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_26 = ___0_task1;
@@ -18412,7 +18412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t92091D6CF8FAA1F209E90693CA0BF9D574
 		ValueTuple_2__ctor_m8BA03C3C820053F7A9D2918A3399B73957EF652E((&L_29), L_27, L_28, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 18));
 		InvokerActionInvoker2< Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, ValueTuple_2_t8AC673BF3ED78EC4576486881727B244BD4D0F85 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17), (&___0_task1), L_25, L_29);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:472>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:472>
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_30 = ((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult2;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_31 = ___1_task2;
 		Guid_t L_32 = L_31.____id;
@@ -18422,7 +18422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t92091D6CF8FAA1F209E90693CA0BF9D574
 		ValueTuple_2__ctor_m8BA03C3C820053F7A9D2918A3399B73957EF652E((&L_34), L_32, L_33, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 21));
 		InvokerActionInvoker2< Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, ValueTuple_2_t8AC673BF3ED78EC4576486881727B244BD4D0F85 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 20)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 20), (&___1_task2), L_30, L_34);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:473>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:473>
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_35 = ((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult3;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_36 = ___2_task3;
 		Guid_t L_37 = L_36.____id;
@@ -18432,7 +18432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t92091D6CF8FAA1F209E90693CA0BF9D574
 		ValueTuple_2__ctor_m8BA03C3C820053F7A9D2918A3399B73957EF652E((&L_39), L_37, L_38, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 24));
 		InvokerActionInvoker2< Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, ValueTuple_2_t8AC673BF3ED78EC4576486881727B244BD4D0F85 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 23)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 23), (&___2_task3), L_35, L_39);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:474>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:474>
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_40 = ((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult4;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_41 = ___3_task4;
 		Guid_t L_42 = L_41.____id;
@@ -18442,7 +18442,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t92091D6CF8FAA1F209E90693CA0BF9D574
 		ValueTuple_2__ctor_m8BA03C3C820053F7A9D2918A3399B73957EF652E((&L_44), L_42, L_43, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 27));
 		InvokerActionInvoker2< Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, ValueTuple_2_t8AC673BF3ED78EC4576486881727B244BD4D0F85 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 26)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 26), (&___3_task4), L_40, L_44);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:475>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:475>
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_45 = ((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult5;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_46 = ___4_task5;
 		Guid_t L_47 = L_46.____id;
@@ -18452,7 +18452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t92091D6CF8FAA1F209E90693CA0BF9D574
 		ValueTuple_2__ctor_m8BA03C3C820053F7A9D2918A3399B73957EF652E((&L_49), L_47, L_48, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 30));
 		InvokerActionInvoker2< Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, ValueTuple_2_t8AC673BF3ED78EC4576486881727B244BD4D0F85 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 29)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 29), (&___4_task5), L_45, L_49);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:476>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:476>
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_50 = ((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult6;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_51 = ___5_task6;
 		Guid_t L_52 = L_51.____id;
@@ -18462,7 +18462,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t92091D6CF8FAA1F209E90693CA0BF9D574
 		ValueTuple_2__ctor_m8BA03C3C820053F7A9D2918A3399B73957EF652E((&L_54), L_52, L_53, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 33));
 		InvokerActionInvoker2< Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, ValueTuple_2_t8AC673BF3ED78EC4576486881727B244BD4D0F85 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 32)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 32), (&___5_task6), L_50, L_54);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:477>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:477>
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_55 = ((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult7;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_56 = ___6_task7;
 		Guid_t L_57 = L_56.____id;
@@ -18472,7 +18472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t92091D6CF8FAA1F209E90693CA0BF9D574
 		ValueTuple_2__ctor_m8BA03C3C820053F7A9D2918A3399B73957EF652E((&L_59), L_57, L_58, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 36));
 		InvokerActionInvoker2< Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, ValueTuple_2_t8AC673BF3ED78EC4576486881727B244BD4D0F85 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 35)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 35), (&___6_task7), L_55, L_59);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:478>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:478>
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_60 = ((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult8;
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_61 = ___7_task8;
 		Guid_t L_62 = L_61.____id;
@@ -18482,7 +18482,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRTask_1_t92091D6CF8FAA1F209E90693CA0BF9D574
 		ValueTuple_2__ctor_m8BA03C3C820053F7A9D2918A3399B73957EF652E((&L_64), L_62, L_63, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 39));
 		InvokerActionInvoker2< Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, ValueTuple_2_t8AC673BF3ED78EC4576486881727B244BD4D0F85 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 38)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 38), (&___7_task8), L_60, L_64);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:479>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:479>
 		MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96* L_65 = V_0;
 		OVRTask_1_t92091D6CF8FAA1F209E90693CA0BF9D5748D1AC5 L_66 = *(OVRTask_1_t92091D6CF8FAA1F209E90693CA0BF9D5748D1AC5*)il2cpp_codegen_get_instance_field_data_pointer(L_65, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 3),0));
 		return L_66;
@@ -18500,82 +18500,82 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_8__ctor_m7D07D557A2C447A58
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiTaskData_8__cctor_m5CAAFED8F45FE59A9B1B20AB60C64A6A35EA9A3C_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:482>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:483>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:484>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:485>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:486>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:482>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:483>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:484>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:485>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:486>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 43));
 		U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC* L_0 = ((U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 43)))->___U3CU3E9;
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_1 = (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		((  void (*) (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 45)))(L_1, (RuntimeObject*)L_0, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 44)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 45));
 		((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult1 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult1), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:488>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:489>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:490>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:491>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:492>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:488>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:489>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:490>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:491>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:492>
 		U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC* L_2 = ((U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 43)))->___U3CU3E9;
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_3 = (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 19));
 		((  void (*) (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 47)))(L_3, (RuntimeObject*)L_2, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 46)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 47));
 		((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult2), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:494>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:495>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:496>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:497>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:498>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:494>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:495>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:496>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:497>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:498>
 		U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC* L_4 = ((U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 43)))->___U3CU3E9;
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_5 = (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 22));
 		((  void (*) (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 49)))(L_5, (RuntimeObject*)L_4, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 48)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 49));
 		((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult3 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult3), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:500>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:501>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:502>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:503>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:504>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:500>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:501>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:502>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:503>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:504>
 		U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC* L_6 = ((U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 43)))->___U3CU3E9;
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_7 = (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 25));
 		((  void (*) (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 51)))(L_7, (RuntimeObject*)L_6, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 50)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 51));
 		((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult4 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult4), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:506>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:507>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:508>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:509>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:510>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:506>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:507>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:508>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:509>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:510>
 		U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC* L_8 = ((U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 43)))->___U3CU3E9;
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_9 = (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 28));
 		((  void (*) (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 53)))(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 52)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 53));
 		((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult5 = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult5), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:512>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:513>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:514>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:515>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:516>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:512>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:513>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:514>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:515>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:516>
 		U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC* L_10 = ((U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 43)))->___U3CU3E9;
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_11 = (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 31));
 		((  void (*) (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 55)))(L_11, (RuntimeObject*)L_10, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 54)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 55));
 		((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult6 = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult6), (void*)L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:518>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:519>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:520>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:521>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:522>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:518>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:519>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:520>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:521>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:522>
 		U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC* L_12 = ((U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 43)))->___U3CU3E9;
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_13 = (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 34));
 		((  void (*) (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 57)))(L_13, (RuntimeObject*)L_12, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 56)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 57));
 		((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult7 = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&((MultiTaskData_8_tDC6003B212B8DEE402D578839FB5642E06296D96_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 13)))->____onResult7), (void*)L_13);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:524>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:525>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:526>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:527>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/Async/OVRTask.gen.cs:528>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:524>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:525>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:526>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:527>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.gen.cs:528>
 		U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC* L_14 = ((U3CU3Ec_t849568B5EA756A1298C15728BC2B4351529025FC_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 43)))->___U3CU3E9;
 		Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7* L_15 = (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 37));
 		((  void (*) (Action_2_t5B4C3513A746CEA192B8131B4A0C54F87B8A4EE7*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 59)))(L_15, (RuntimeObject*)L_14, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 58)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 59));
@@ -18606,18 +18606,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1__ctor_m61CCFBCFEEF47
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:121>
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_0 = ___0_ovrArray;
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_1;
 		L_1 = GCHandle_Alloc_m3BFD398427352FC756FFE078F01A504B681352EC((RuntimeObject*)L_0, (int32_t)3, NULL);
 		__this->____handle = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:122>
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_2 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle);
 		intptr_t L_3;
 		L_3 = GCHandle_AddrOfPinnedObject_m9C047E154D6F0FE66BE003AB99F0B67A2CA953A6(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:123>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:124>
 		intptr_t L_4 = V_0;
 		void* L_5;
 		L_5 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_4, NULL);
@@ -18625,7 +18625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1__ctor_m61CCFBCFEEF47
 		NativeArray_1_t1779DD80E20BBE47D98F52B8F789215FA99BC8C8 L_7;
 		L_7 = NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_mC4941734FE8EF73CA24C2646508E084FEF5BF3B8(L_5, L_6, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___UnityNativeArray = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:130>
 		return;
 	}
 }
@@ -18640,10 +18640,10 @@ IL2CPP_EXTERN_C  void NativeArrayHelper_1__ctor_m61CCFBCFEEF47BEFFA9137A26FA4B5C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1_Dispose_mA86E6331A9F3C2323C89A196C940E1BEA17FA0A3_gshared (NativeArrayHelper_1_tBEE6E1B3C37565171395180E6A0A0AF9861A0D42* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:140>
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_0 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle);
 		GCHandle_Free_m1320A260E487EB1EA6D95F9E54BFFCB5A4EF83A3(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:141>
 		return;
 	}
 }
@@ -18668,18 +18668,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1__ctor_m917C160D15464
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:121>
 		__Il2CppFullySharedGenericStructTypeU5BU5D_tF3B929B6E80D0A8C109178E11CE8FF9957B014C1* L_0 = ___0_ovrArray;
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_1;
 		L_1 = GCHandle_Alloc_m3BFD398427352FC756FFE078F01A504B681352EC((RuntimeObject*)L_0, (int32_t)3, NULL);
 		__this->____handle = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:122>
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_2 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle);
 		intptr_t L_3;
 		L_3 = GCHandle_AddrOfPinnedObject_m9C047E154D6F0FE66BE003AB99F0B67A2CA953A6(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:123>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:124>
 		intptr_t L_4 = V_0;
 		void* L_5;
 		L_5 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_4, NULL);
@@ -18687,7 +18687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1__ctor_m917C160D15464
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_7;
 		L_7 = ((  NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 (*) (void*, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2)))(L_5, L_6, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___UnityNativeArray = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:130>
 		return;
 	}
 }
@@ -18702,10 +18702,10 @@ IL2CPP_EXTERN_C  void NativeArrayHelper_1__ctor_m917C160D15464B5016C2579378D8601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1_Dispose_m05159639A42C734AA9C3863E76320405805DA716_gshared (NativeArrayHelper_1_t9A0360DDC610EA6E6168C11BC671A34D1DA38AF3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:140>
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_0 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle);
 		GCHandle_Free_m1320A260E487EB1EA6D95F9E54BFFCB5A4EF83A3(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:141>
 		return;
 	}
 }
@@ -18730,18 +18730,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1__ctor_mBDB03474744DF
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:121>
 		Vector2fU5BU5D_t5DA1A4AE7EC02A732E5E041738B405F5E484486E* L_0 = ___0_ovrArray;
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_1;
 		L_1 = GCHandle_Alloc_m3BFD398427352FC756FFE078F01A504B681352EC((RuntimeObject*)L_0, (int32_t)3, NULL);
 		__this->____handle = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:122>
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_2 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle);
 		intptr_t L_3;
 		L_3 = GCHandle_AddrOfPinnedObject_m9C047E154D6F0FE66BE003AB99F0B67A2CA953A6(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:123>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:124>
 		intptr_t L_4 = V_0;
 		void* L_5;
 		L_5 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_4, NULL);
@@ -18749,7 +18749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1__ctor_mBDB03474744DF
 		NativeArray_1_t008D23894D7C870BC8B73B974B64F9C62B7562FB L_7;
 		L_7 = NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector2f_tB2A7770F503276F90D359B6933F0A86D51BA3186_mCFEAF049E0531EB65ED61FEC4E2D359848951B20(L_5, L_6, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___UnityNativeArray = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:130>
 		return;
 	}
 }
@@ -18764,10 +18764,10 @@ IL2CPP_EXTERN_C  void NativeArrayHelper_1__ctor_mBDB03474744DF9C3B27A0814C11524E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1_Dispose_mBCA4F7970821C306FFD24087C6526F229C77E0B6_gshared (NativeArrayHelper_1_t3A4F73FA013AA6FC960F974CC2EC2EBE087F1794* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:140>
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_0 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle);
 		GCHandle_Free_m1320A260E487EB1EA6D95F9E54BFFCB5A4EF83A3(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:141>
 		return;
 	}
 }
@@ -18792,18 +18792,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1__ctor_m8B8EC011A9503
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:121>
 		Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E* L_0 = ___0_ovrArray;
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_1;
 		L_1 = GCHandle_Alloc_m3BFD398427352FC756FFE078F01A504B681352EC((RuntimeObject*)L_0, (int32_t)3, NULL);
 		__this->____handle = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:122>
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_2 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle);
 		intptr_t L_3;
 		L_3 = GCHandle_AddrOfPinnedObject_m9C047E154D6F0FE66BE003AB99F0B67A2CA953A6(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:123>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:124>
 		intptr_t L_4 = V_0;
 		void* L_5;
 		L_5 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_4, NULL);
@@ -18811,7 +18811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1__ctor_m8B8EC011A9503
 		NativeArray_1_t46BC6D8B664164480242B126DA5A4EC3FFEFDBB2 L_7;
 		L_7 = NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector3f_t232AF83B4642C67BE8EFF85D8E1599D3B06BD562_m1D11353F838DB20CF629E37F3394BB4C9FC58F52(L_5, L_6, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___UnityNativeArray = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:130>
 		return;
 	}
 }
@@ -18826,10 +18826,10 @@ IL2CPP_EXTERN_C  void NativeArrayHelper_1__ctor_m8B8EC011A95035E7EA365D39B6A7AE1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1_Dispose_mE9B08B663FDB37BAFB61DC70118C382593AA25B1_gshared (NativeArrayHelper_1_t21006ECE03C7F3FA009CBB282DCABC1FAB998B62* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:140>
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_0 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle);
 		GCHandle_Free_m1320A260E487EB1EA6D95F9E54BFFCB5A4EF83A3(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:141>
 		return;
 	}
 }
@@ -18854,18 +18854,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1__ctor_mF359F5754B6C4
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:121>
 		Vector4fU5BU5D_t8C456EF1B7F1A65A800970FDBD2E2252FFD87912* L_0 = ___0_ovrArray;
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_1;
 		L_1 = GCHandle_Alloc_m3BFD398427352FC756FFE078F01A504B681352EC((RuntimeObject*)L_0, (int32_t)3, NULL);
 		__this->____handle = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:122>
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_2 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle);
 		intptr_t L_3;
 		L_3 = GCHandle_AddrOfPinnedObject_m9C047E154D6F0FE66BE003AB99F0B67A2CA953A6(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:123>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:124>
 		intptr_t L_4 = V_0;
 		void* L_5;
 		L_5 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_4, NULL);
@@ -18873,7 +18873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1__ctor_mF359F5754B6C4
 		NativeArray_1_t70361F6B5151A784FBD8CD8D4E29E01BAAAF62FF L_7;
 		L_7 = NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector4f_t1B7E11764C0EA53E7809996B56E208E32A1D5A86_m8992FF7CBFCB7F351D0CA0EAC17CADAC4499E799(L_5, L_6, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___UnityNativeArray = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:130>
 		return;
 	}
 }
@@ -18888,10 +18888,10 @@ IL2CPP_EXTERN_C  void NativeArrayHelper_1__ctor_mF359F5754B6C4FC9AD5FA65E694201F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1_Dispose_m048ECD54738BD3B0A58EBE1DA92AC3CF25278181_gshared (NativeArrayHelper_1_t09955C59BF0BFE18365984A76B890C8BD699FD48* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:140>
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_0 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle);
 		GCHandle_Free_m1320A260E487EB1EA6D95F9E54BFFCB5A4EF83A3(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:141>
 		return;
 	}
 }
@@ -18916,18 +18916,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1__ctor_m7DFD3395AF0EB
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:121>
 		Vector4sU5BU5D_tCE3CEB861C8985711926C79E06BFF5295B837B63* L_0 = ___0_ovrArray;
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_1;
 		L_1 = GCHandle_Alloc_m3BFD398427352FC756FFE078F01A504B681352EC((RuntimeObject*)L_0, (int32_t)3, NULL);
 		__this->____handle = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:122>
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_2 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle);
 		intptr_t L_3;
 		L_3 = GCHandle_AddrOfPinnedObject_m9C047E154D6F0FE66BE003AB99F0B67A2CA953A6(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:123>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:124>
 		intptr_t L_4 = V_0;
 		void* L_5;
 		L_5 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_4, NULL);
@@ -18935,7 +18935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1__ctor_m7DFD3395AF0EB
 		NativeArray_1_t7C35F5CF572344395C7C2A378F29F9C97B48636C L_7;
 		L_7 = NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector4s_t37178C957A1C65EEC13FADEFB227695709228857_m1477A1D5A053434321E741ACA63EF56BC02A8250(L_5, L_6, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___UnityNativeArray = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:130>
 		return;
 	}
 }
@@ -18950,10 +18950,10 @@ IL2CPP_EXTERN_C  void NativeArrayHelper_1__ctor_m7DFD3395AF0EB931D6033ADC65D751F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayHelper_1_Dispose_m4D0FB65A9F29CE4651E8D67394364650A091635F_gshared (NativeArrayHelper_1_t8C0829B991DF4A6284E5E061E8D7BE2B4188797B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:140>
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_0 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle);
 		GCHandle_Free_m1320A260E487EB1EA6D95F9E54BFFCB5A4EF83A3(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRMeshJobs.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRMeshJobs.cs:141>
 		return;
 	}
 }
@@ -18980,7 +18980,7 @@ IL2CPP_EXTERN_C  void NativeArrayHelper_1_Dispose_m4D0FB65A9F29CE4651E8D67394364
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 88673
+// Method Definition Index: 88675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayStaticId_1__cctor_m67213AA7112EE9BCD68829DC44441438CB42950A_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -30721,7 +30721,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t* Array_GetRawSzArrayData_
 		return L_1;
 	}
 }
-// Method Definition Index: 58947
+// Method Definition Index: 58949
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -30744,7 +30744,7 @@ IL_001a:
 		return L_5;
 	}
 }
-// Method Definition Index: 58946
+// Method Definition Index: 58948
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -30776,7 +30776,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventBase_set_propagation_m1
 		return;
 	}
 }
-// Method Definition Index: 58948
+// Method Definition Index: 58950
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32988,7 +32988,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MouseEventBase_1_get_recompu
 		return L_0;
 	}
 }
-// Method Definition Index: 98506
+// Method Definition Index: 98508
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m139A176CD271A0532D75BE08DA7831C8C45CE28F_gshared_inline (Enumerator_t72556E98D7DDBE118A973D782D523D15A96461C8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32996,7 +32996,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 98471
+// Method Definition Index: 98473
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HashSet_1_get_Count_m23207F1DD5F45160C36B1BF49C42C8A86F1C55E4_gshared_inline (HashSet_1_tE0D78BA14B046CC2F5B3FF9664D03B65E68C00F4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -34159,7 +34159,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 58765
+// Method Definition Index: 58767
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -34172,7 +34172,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 58917
+// Method Definition Index: 58919
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{

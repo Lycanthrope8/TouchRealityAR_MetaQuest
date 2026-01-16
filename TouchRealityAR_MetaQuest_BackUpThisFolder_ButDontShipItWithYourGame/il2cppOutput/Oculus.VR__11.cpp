@@ -17374,9 +17374,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem__ctor_mFEA433AFD11D20C3FA69758
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1693>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1693>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1695>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1695>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -17525,7 +17525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem__ctor_mFEA433AFD11D20C3FA69758
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___AcknowledgeQuit_UserPrompt), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1696>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1696>
 		return;
 	}
 }
@@ -17533,20 +17533,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem__ctor_mFEA433AFD11D20C3FA69758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetRecommendedRenderTargetSize_m3AD004AA094C159ABFA521C918CE1A8B8A6AFA5E (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t* ___0_pnWidth, uint32_t* ___1_pnHeight, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1699>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1699>
 		uint32_t* L_0 = ___0_pnWidth;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1700>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1700>
 		uint32_t* L_1 = ___1_pnHeight;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1701>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1701>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_2 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetRecommendedRenderTargetSize_tE5DCCAA3C127070265E730E834989CD71122B1EF* L_3 = L_2->___GetRecommendedRenderTargetSize;
 		uint32_t* L_4 = ___0_pnWidth;
 		uint32_t* L_5 = ___1_pnHeight;
 		NullCheck(L_3);
 		_GetRecommendedRenderTargetSize_Invoke_mD874AE4607153DBDA8A2A21BD32007EB19FC527D_inline(L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1702>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1702>
 		return;
 	}
 }
@@ -17554,7 +17554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetRecommendedRenderTargetSize
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix44_t_tF23EB340D2BFF58C56BDAB1354E8BBF7FCB16FF4 CVRSystem_GetProjectionMatrix_m3233CEA02201C011F521FD1CA2A795A1BCC7A8EB (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, int32_t ___0_eEye, float ___1_fNearZ, float ___2_fFarZ, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1705>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1705>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetProjectionMatrix_t9B0D0C3225387862FA516D50DB79579834EF0DD0* L_1 = L_0->___GetProjectionMatrix;
 		int32_t L_2 = ___0_eEye;
@@ -17563,7 +17563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix44_t_tF23EB340D2BFF58C56BDAB1354E8BB
 		NullCheck(L_1);
 		HmdMatrix44_t_tF23EB340D2BFF58C56BDAB1354E8BBF7FCB16FF4 L_5;
 		L_5 = _GetProjectionMatrix_Invoke_mA8EA60AAA6E14790F65A6AB8E9205228A5CB1E00_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1706>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1706>
 		return L_5;
 	}
 }
@@ -17571,19 +17571,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix44_t_tF23EB340D2BFF58C56BDAB1354E8BB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetProjectionRaw_m298E86B4DF5F9241236F104FD742A8B38E0CB965 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, int32_t ___0_eEye, float* ___1_pfLeft, float* ___2_pfRight, float* ___3_pfTop, float* ___4_pfBottom, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1710>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1710>
 		float* L_0 = ___1_pfLeft;
 		*((float*)L_0) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1711>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1711>
 		float* L_1 = ___2_pfRight;
 		*((float*)L_1) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1712>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1712>
 		float* L_2 = ___3_pfTop;
 		*((float*)L_2) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1713>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1713>
 		float* L_3 = ___4_pfBottom;
 		*((float*)L_3) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1714>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1714>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_4 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetProjectionRaw_t6867187AE3A0151807D995F184BC67408FFA7496* L_5 = L_4->___GetProjectionRaw;
 		int32_t L_6 = ___0_eEye;
@@ -17593,7 +17593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetProjectionRaw_m298E86B4DF5F
 		float* L_10 = ___4_pfBottom;
 		NullCheck(L_5);
 		_GetProjectionRaw_Invoke_mB15D24154DD933D96DEAE399836A77CE69C09049_inline(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1715>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1715>
 		return;
 	}
 }
@@ -17601,7 +17601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetProjectionRaw_m298E86B4DF5F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_ComputeDistortion_mB393AF6301A455857F056102047EF8CA43C3B994 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, int32_t ___0_eEye, float ___1_fU, float ___2_fV, DistortionCoordinates_t_t2D60F21FF28509DAD3CF0981611885E0B8235F99* ___3_pDistortionCoordinates, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1718>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1718>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_ComputeDistortion_tD147426B3B0270DAA7EB1C32043EBEF527870407* L_1 = L_0->___ComputeDistortion;
 		int32_t L_2 = ___0_eEye;
@@ -17611,7 +17611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_ComputeDistortion_mB393AF6301A
 		NullCheck(L_1);
 		bool L_6;
 		L_6 = _ComputeDistortion_Invoke_mF54FBACF6AD69FB63DECE4A02BC0442166C6F06E_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1719>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1719>
 		return L_6;
 	}
 }
@@ -17619,14 +17619,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_ComputeDistortion_mB393AF6301A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9 CVRSystem_GetEyeToHeadTransform_mEA687F8196F61854F92C89DC19952D293E5E2A6A (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, int32_t ___0_eEye, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1723>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1723>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetEyeToHeadTransform_t85F575C6B4387A61016410FF9B7F670D25973926* L_1 = L_0->___GetEyeToHeadTransform;
 		int32_t L_2 = ___0_eEye;
 		NullCheck(L_1);
 		HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9 L_3;
 		L_3 = _GetEyeToHeadTransform_Invoke_mD1E0D47793C32DD53B214097E4F0F11317246934_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1724>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1724>
 		return L_3;
 	}
 }
@@ -17634,13 +17634,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetTimeSinceLastVsync_mC18212F9B2158690DF3CA7E7303A2F15335094F8 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, float* ___0_pfSecondsSinceLastVsync, uint64_t* ___1_pulFrameCounter, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1728>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1728>
 		float* L_0 = ___0_pfSecondsSinceLastVsync;
 		*((float*)L_0) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1729>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1729>
 		uint64_t* L_1 = ___1_pulFrameCounter;
 		*((int64_t*)L_1) = (int64_t)((int64_t)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1730>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1730>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_2 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetTimeSinceLastVsync_tCC442F5CDBF0A619CD0CD84A061FEA9DB1774D33* L_3 = L_2->___GetTimeSinceLastVsync;
 		float* L_4 = ___0_pfSecondsSinceLastVsync;
@@ -17648,7 +17648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetTimeSinceLastVsync_mC18212F
 		NullCheck(L_3);
 		bool L_6;
 		L_6 = _GetTimeSinceLastVsync_Invoke_mCDB06812387869471E48A8B90418E4C4E4294266_inline(L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1731>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1731>
 		return L_6;
 	}
 }
@@ -17656,13 +17656,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetTimeSinceLastVsync_mC18212F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetD3D9AdapterIndex_m2A17A135697089DF8155175B6C599D84F24FCD9F (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1735>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1735>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetD3D9AdapterIndex_t6EEF3293C1B40E937D92113B8A3F96DED8415791* L_1 = L_0->___GetD3D9AdapterIndex;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = _GetD3D9AdapterIndex_Invoke_mAFE4B4BF1E0DE47A408D3B66FDE4055898558AE3_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1736>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1736>
 		return L_2;
 	}
 }
@@ -17670,16 +17670,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetD3D9AdapterIndex_m2A17A1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetDXGIOutputInfo_m4F73113E921FDA94F177AB167EB7FF1C1C0BFF0A (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, int32_t* ___0_pnAdapterIndex, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1740>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1740>
 		int32_t* L_0 = ___0_pnAdapterIndex;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1741>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1741>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_1 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetDXGIOutputInfo_t73FA51E5AB534DC0A3A6FDFD0C2D67177090E66C* L_2 = L_1->___GetDXGIOutputInfo;
 		int32_t* L_3 = ___0_pnAdapterIndex;
 		NullCheck(L_2);
 		_GetDXGIOutputInfo_Invoke_m3AFC69D74499EF048574072EE0E6377247F79609_inline(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1742>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1742>
 		return;
 	}
 }
@@ -17687,10 +17687,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetDXGIOutputInfo_m4F73113E921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetOutputDevice_mB2E29B35FD511DBD94864FC80F49B1BDE210E78E (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint64_t* ___0_pnDevice, int32_t ___1_textureType, intptr_t ___2_pInstance, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1745>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1745>
 		uint64_t* L_0 = ___0_pnDevice;
 		*((int64_t*)L_0) = (int64_t)((int64_t)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1746>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1746>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_1 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetOutputDevice_t83D6AE0AB6B1F21E5D87ECBB559E60D183610222* L_2 = L_1->___GetOutputDevice;
 		uint64_t* L_3 = ___0_pnDevice;
@@ -17698,7 +17698,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetOutputDevice_mB2E29B35FD511
 		intptr_t L_5 = ___2_pInstance;
 		NullCheck(L_2);
 		_GetOutputDevice_Invoke_m75B130479C0DE5A5B01FB585D691A5156BAD9CF5_inline(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1747>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1747>
 		return;
 	}
 }
@@ -17706,13 +17706,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetOutputDevice_mB2E29B35FD511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_IsDisplayOnDesktop_m122B1A8909AB65E00ADBB931A39EA07C40DF849A (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1750>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1750>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_IsDisplayOnDesktop_tB1D86880DF7E8EEFEA7D0DA7B46695B38688FDF3* L_1 = L_0->___IsDisplayOnDesktop;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _IsDisplayOnDesktop_Invoke_m8C42B852E469AAE337E21BAD9DE62A50672330D1_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1751>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1751>
 		return L_2;
 	}
 }
@@ -17720,14 +17720,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_IsDisplayOnDesktop_m122B1A8909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_SetDisplayVisibility_m99F464A50D78619C471CE962370569353A339AFE (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, bool ___0_bIsVisibleOnDesktop, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1755>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1755>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_SetDisplayVisibility_tF1714A7C8CF32C530DF3BFEBA6F217AD02250F26* L_1 = L_0->___SetDisplayVisibility;
 		bool L_2 = ___0_bIsVisibleOnDesktop;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _SetDisplayVisibility_Invoke_mA6E6B88313ADA3AADFAC4BAA028B08FF1D025396_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1756>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1756>
 		return L_3;
 	}
 }
@@ -17735,7 +17735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_SetDisplayVisibility_m99F464A5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetDeviceToAbsoluteTrackingPose_m891A24391F5E26B6B02E0242A41B37E587E5E369 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, int32_t ___0_eOrigin, float ___1_fPredictedSecondsToPhotonsFromNow, TrackedDevicePose_tU5BU5D_t668B884D1E47F6D4A6ED2A1CB395E6BC9EB547EE* ___2_pTrackedDevicePoseArray, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1760>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1760>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetDeviceToAbsoluteTrackingPose_tBB4998801BAFE6FFD6003002E6948AABD08D081C* L_1 = L_0->___GetDeviceToAbsoluteTrackingPose;
 		int32_t L_2 = ___0_eOrigin;
@@ -17745,7 +17745,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetDeviceToAbsoluteTrackingPos
 		NullCheck(L_5);
 		NullCheck(L_1);
 		_GetDeviceToAbsoluteTrackingPose_Invoke_m3FD2A3EB6BBB55C365E646B2151B568BE009504C_inline(L_1, L_2, L_3, L_4, ((int32_t)(((RuntimeArray*)L_5)->max_length)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1761>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1761>
 		return;
 	}
 }
@@ -17753,12 +17753,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetDeviceToAbsoluteTrackingPos
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_ResetSeatedZeroPose_m9EDCAF21DAF5E486FDC44F779AF552E7B5144A66 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1764>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1764>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_ResetSeatedZeroPose_t5DA7EB83B5BC1CC765227E8BA0B5AAA63D14F009* L_1 = L_0->___ResetSeatedZeroPose;
 		NullCheck(L_1);
 		_ResetSeatedZeroPose_Invoke_m5B909F616D48EDBE030CE381419112EF5B2E5465_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1765>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1765>
 		return;
 	}
 }
@@ -17766,13 +17766,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_ResetSeatedZeroPose_m9EDCAF21D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9 CVRSystem_GetSeatedZeroPoseToStandingAbsoluteTrackingPose_m73865BB2DDB8075BD75D84E638B7FBAECFA5E54D (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1768>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1768>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetSeatedZeroPoseToStandingAbsoluteTrackingPose_tBCAF710571F3E9B304E65DB1A7EC953392A29CF8* L_1 = L_0->___GetSeatedZeroPoseToStandingAbsoluteTrackingPose;
 		NullCheck(L_1);
 		HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9 L_2;
 		L_2 = _GetSeatedZeroPoseToStandingAbsoluteTrackingPose_Invoke_m7D90174F14480A251A876E6E24D26A9DEC178C27_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1769>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1769>
 		return L_2;
 	}
 }
@@ -17780,13 +17780,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9 CVRSystem_GetRawZeroPoseToStandingAbsoluteTrackingPose_mE61EDBA0F4553C5645D2ACB594E1B7849A2566DE (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1773>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1773>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetRawZeroPoseToStandingAbsoluteTrackingPose_t4CA0DDBB2D4969509146BAE587278F7C5DD922B2* L_1 = L_0->___GetRawZeroPoseToStandingAbsoluteTrackingPose;
 		NullCheck(L_1);
 		HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9 L_2;
 		L_2 = _GetRawZeroPoseToStandingAbsoluteTrackingPose_Invoke_mADA06FC01CEAC822C35BBA70C3CF6CA5F66C292C_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1774>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1774>
 		return L_2;
 	}
 }
@@ -17794,7 +17794,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetSortedTrackedDeviceIndicesOfClass_m8784DC379D5DEA23B15CC8D68A689588542994B3 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, int32_t ___0_eTrackedDeviceClass, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___1_punTrackedDeviceIndexArray, uint32_t ___2_unRelativeToTrackedDeviceIndex, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1778>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1778>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetSortedTrackedDeviceIndicesOfClass_t883B6DB2CE87516A965060EE45B5451AA01541E5* L_1 = L_0->___GetSortedTrackedDeviceIndicesOfClass;
 		int32_t L_2 = ___0_eTrackedDeviceClass;
@@ -17805,7 +17805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetSortedTrackedDeviceIndi
 		NullCheck(L_1);
 		uint32_t L_6;
 		L_6 = _GetSortedTrackedDeviceIndicesOfClass_Invoke_m55CF151440206390DEE04C1298BD4649990A1C5E_inline(L_1, L_2, L_3, ((int32_t)(((RuntimeArray*)L_4)->max_length)), L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1779>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1779>
 		return L_6;
 	}
 }
@@ -17813,14 +17813,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetSortedTrackedDeviceIndi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetTrackedDeviceActivityLevel_m7964CB2F9AB6FB2A5157B7CD963373AEC2756403 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unDeviceId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1783>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1783>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetTrackedDeviceActivityLevel_t18F25E592E9F23E1B42CE3FC8BBCDA9991877F73* L_1 = L_0->___GetTrackedDeviceActivityLevel;
 		uint32_t L_2 = ___0_unDeviceId;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _GetTrackedDeviceActivityLevel_Invoke_m9A21B0C2866634843E5D29FF5E265D8A11951366_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1784>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1784>
 		return L_3;
 	}
 }
@@ -17828,7 +17828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetTrackedDeviceActivityLev
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_ApplyTransform_m1859E9960B69609D7C2B26D571895060044FB48D (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, TrackedDevicePose_t_tEA070E1560BC50A88F8237D1DB91D90A91A02259* ___0_pOutputPose, TrackedDevicePose_t_tEA070E1560BC50A88F8237D1DB91D90A91A02259* ___1_pTrackedDevicePose, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___2_pTransform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1788>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1788>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_ApplyTransform_t1D87B7AC1195BDAAA4CB3A0BC58BADBA6E134082* L_1 = L_0->___ApplyTransform;
 		TrackedDevicePose_t_tEA070E1560BC50A88F8237D1DB91D90A91A02259* L_2 = ___0_pOutputPose;
@@ -17836,7 +17836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_ApplyTransform_m1859E9960B6960
 		HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* L_4 = ___2_pTransform;
 		NullCheck(L_1);
 		_ApplyTransform_Invoke_mFD7CC264B88A4344D4B5FC7A726C927EE1BD4301_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1789>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1789>
 		return;
 	}
 }
@@ -17844,14 +17844,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_ApplyTransform_m1859E9960B6960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetTrackedDeviceIndexForControllerRole_m76AEBEB2DDEEACA6D0052AC96757BAD5D4A191C5 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, int32_t ___0_unDeviceType, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1792>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1792>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetTrackedDeviceIndexForControllerRole_tDC374474D4B923D02CF3907E7C7F19B0E01CE418* L_1 = L_0->___GetTrackedDeviceIndexForControllerRole;
 		int32_t L_2 = ___0_unDeviceType;
 		NullCheck(L_1);
 		uint32_t L_3;
 		L_3 = _GetTrackedDeviceIndexForControllerRole_Invoke_m1554B6647B03B7E5B9891357F1868414DB3FFE03_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1793>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1793>
 		return L_3;
 	}
 }
@@ -17859,14 +17859,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetTrackedDeviceIndexForCo
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetControllerRoleForTrackedDeviceIndex_m9B4BE7F863A791CDBA1AE3F57138BD3DBFD6E7BB (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unDeviceIndex, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1797>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1797>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetControllerRoleForTrackedDeviceIndex_t04E0EBF506A4CA91A1F9F1E4528AD1BC9738C5EC* L_1 = L_0->___GetControllerRoleForTrackedDeviceIndex;
 		uint32_t L_2 = ___0_unDeviceIndex;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _GetControllerRoleForTrackedDeviceIndex_Invoke_mE5529119F2D52A25F3A7CE7DF7C053C7943E34D2_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1798>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1798>
 		return L_3;
 	}
 }
@@ -17874,14 +17874,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetControllerRoleForTracked
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetTrackedDeviceClass_mBCBA6F54A44687E8F540E5EE900B769F8A3CFA97 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unDeviceIndex, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1802>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1802>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetTrackedDeviceClass_t7347331DDB1CBA2ED64A115A3F67805DACFB92F9* L_1 = L_0->___GetTrackedDeviceClass;
 		uint32_t L_2 = ___0_unDeviceIndex;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _GetTrackedDeviceClass_Invoke_m55A333B7726251F86047DA596C7C8222A43F5B10_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1803>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1803>
 		return L_3;
 	}
 }
@@ -17889,14 +17889,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetTrackedDeviceClass_mBCBA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_IsTrackedDeviceConnected_m13950757132ED5FB0ADD7137A0F6BB123F16DDBD (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unDeviceIndex, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1807>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1807>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_IsTrackedDeviceConnected_t9AA842DF79300B59CA9D06D4BB080D34F2A8BE55* L_1 = L_0->___IsTrackedDeviceConnected;
 		uint32_t L_2 = ___0_unDeviceIndex;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _IsTrackedDeviceConnected_Invoke_mC579ADEC37288029BA063C05D7C85B45964C36F2_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1808>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1808>
 		return L_3;
 	}
 }
@@ -17904,7 +17904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_IsTrackedDeviceConnected_m1395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetBoolTrackedDeviceProperty_m2C60DAB7FED3F5CFDF93FC9DD768E4A4F304BB65 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unDeviceIndex, int32_t ___1_prop, int32_t* ___2_pError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1812>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1812>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetBoolTrackedDeviceProperty_t8F0763D4AAD303DA0DD843E9A8336C7B3E098A63* L_1 = L_0->___GetBoolTrackedDeviceProperty;
 		uint32_t L_2 = ___0_unDeviceIndex;
@@ -17913,7 +17913,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetBoolTrackedDeviceProperty_m
 		NullCheck(L_1);
 		bool L_5;
 		L_5 = _GetBoolTrackedDeviceProperty_Invoke_m134DAED96CE539E193086C2D99B50AF321F68488_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1813>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1813>
 		return L_5;
 	}
 }
@@ -17921,7 +17921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetBoolTrackedDeviceProperty_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRSystem_GetFloatTrackedDeviceProperty_m2FDF1F4E45402AAF3A3C4E102A66B9040D10852A (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unDeviceIndex, int32_t ___1_prop, int32_t* ___2_pError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1817>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1817>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetFloatTrackedDeviceProperty_t819CE8B33EBD3DB70A2F691EC0EA87F3B9E9F117* L_1 = L_0->___GetFloatTrackedDeviceProperty;
 		uint32_t L_2 = ___0_unDeviceIndex;
@@ -17930,7 +17930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRSystem_GetFloatTrackedDeviceProperty
 		NullCheck(L_1);
 		float L_5;
 		L_5 = _GetFloatTrackedDeviceProperty_Invoke_m12692E2D92AF345E6AF512A3F6C2B23246034871_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1818>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1818>
 		return L_5;
 	}
 }
@@ -17938,7 +17938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRSystem_GetFloatTrackedDeviceProperty
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetInt32TrackedDeviceProperty_m1466FBD2D683CE92439C38928FA027F3A2AA82BB (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unDeviceIndex, int32_t ___1_prop, int32_t* ___2_pError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1822>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1822>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetInt32TrackedDeviceProperty_t90F760BFCB8EFA6DE76F7DC6B6ADDB9E7A82AB86* L_1 = L_0->___GetInt32TrackedDeviceProperty;
 		uint32_t L_2 = ___0_unDeviceIndex;
@@ -17947,7 +17947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetInt32TrackedDeviceProper
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _GetInt32TrackedDeviceProperty_Invoke_mEFE069962A09044F4213A9309E6A0CBF441FDDCC_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1823>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1823>
 		return L_5;
 	}
 }
@@ -17955,7 +17955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetInt32TrackedDeviceProper
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRSystem_GetUint64TrackedDeviceProperty_m098FD1A0DC1B4E01AF62FA065241CF5D71A29631 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unDeviceIndex, int32_t ___1_prop, int32_t* ___2_pError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1827>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1827>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetUint64TrackedDeviceProperty_tF9AAE5FDB16FE39CDF74EA82D87D05C9A58D6A8A* L_1 = L_0->___GetUint64TrackedDeviceProperty;
 		uint32_t L_2 = ___0_unDeviceIndex;
@@ -17964,7 +17964,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRSystem_GetUint64TrackedDeviceProp
 		NullCheck(L_1);
 		uint64_t L_5;
 		L_5 = _GetUint64TrackedDeviceProperty_Invoke_m98BAE6E90EA98C8BCDF295E8E1BCC2256D7B5841_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1828>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1828>
 		return L_5;
 	}
 }
@@ -17972,7 +17972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRSystem_GetUint64TrackedDeviceProp
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9 CVRSystem_GetMatrix34TrackedDeviceProperty_m1148012C2AF68A2CCCB56EDB1F65FBB4809261CC (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unDeviceIndex, int32_t ___1_prop, int32_t* ___2_pError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1832>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1832>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetMatrix34TrackedDeviceProperty_t2CF43EAD342BBD7FDE42D16D697091316658494B* L_1 = L_0->___GetMatrix34TrackedDeviceProperty;
 		uint32_t L_2 = ___0_unDeviceIndex;
@@ -17981,7 +17981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95
 		NullCheck(L_1);
 		HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9 L_5;
 		L_5 = _GetMatrix34TrackedDeviceProperty_Invoke_m18B573980A54796D5A0291E9F68CE11D3FA154DF_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1833>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1833>
 		return L_5;
 	}
 }
@@ -17989,7 +17989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetArrayTrackedDeviceProperty_mB43CB8E5F751F3394C2B5BC6B40020AE5DA2B294 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unDeviceIndex, int32_t ___1_prop, uint32_t ___2_propType, intptr_t ___3_pBuffer, uint32_t ___4_unBufferSize, int32_t* ___5_pError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1837>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1837>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetArrayTrackedDeviceProperty_t36E75990577ED75C9F44C743E8E27396AF36240C* L_1 = L_0->___GetArrayTrackedDeviceProperty;
 		uint32_t L_2 = ___0_unDeviceIndex;
@@ -18001,7 +18001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetArrayTrackedDevicePrope
 		NullCheck(L_1);
 		uint32_t L_8;
 		L_8 = _GetArrayTrackedDeviceProperty_Invoke_mF08B216E4A121F87B370165AECBE9357A2433E62_inline(L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1838>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1838>
 		return L_8;
 	}
 }
@@ -18009,7 +18009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetArrayTrackedDevicePrope
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetStringTrackedDeviceProperty_mFEFAEDDF2415565002891E4C84A6EA7C45BAF9A4 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unDeviceIndex, int32_t ___1_prop, StringBuilder_t* ___2_pchValue, uint32_t ___3_unBufferSize, int32_t* ___4_pError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1842>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1842>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetStringTrackedDeviceProperty_t76FD9D8448083C12ED3BE15AE73D5C38E4ADECC5* L_1 = L_0->___GetStringTrackedDeviceProperty;
 		uint32_t L_2 = ___0_unDeviceIndex;
@@ -18020,7 +18020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetStringTrackedDeviceProp
 		NullCheck(L_1);
 		uint32_t L_7;
 		L_7 = _GetStringTrackedDeviceProperty_Invoke_mC5EEBB5155F1E9533F85543460023B869AA41D90_inline(L_1, L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1843>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1843>
 		return L_7;
 	}
 }
@@ -18034,14 +18034,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetPropErrorNameFromEnum_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1847>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1847>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetPropErrorNameFromEnum_t89F1CBA1871CB900043DA4EA17B5C59A44A19EF5* L_1 = L_0->___GetPropErrorNameFromEnum;
 		int32_t L_2 = ___0_error;
 		NullCheck(L_1);
 		intptr_t L_3;
 		L_3 = _GetPropErrorNameFromEnum_Invoke_m129BF766F5BB81D8522994BAD42B77D1B1AA2C55_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1848>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1848>
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		String_t* L_4;
 		L_4 = Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A(L_3, NULL);
@@ -18063,8 +18063,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_PollNextEvent_m00D5B4AECE5BACA
 	VREvent_t_Packed_t8AA2D8A5BD65A607F6540FEB55D6A1E1D4C27939 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1865>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1866>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1865>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1866>
 		OperatingSystem_t08A94435A5C7D999B5553B6C58763A6F2E3C8557* L_0;
 		L_0 = Environment_get_OSVersion_mDDD265F5864A2086664CAE56D7C4B59E9A50AF66(NULL);
 		NullCheck(L_0);
@@ -18089,17 +18089,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_PollNextEvent_m00D5B4AECE5BACA
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1869>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1869>
 		il2cpp_codegen_initobj((&V_1), sizeof(VREvent_t_Packed_t8AA2D8A5BD65A607F6540FEB55D6A1E1D4C27939));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1870>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1870>
 		(&V_0)->___pPollNextEventPacked = (_PollNextEventPacked_tD404A3D2E335A83BEB8533DC6F777A1F1A7E3FB6*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___pPollNextEventPacked), (void*)(_PollNextEventPacked_tD404A3D2E335A83BEB8533DC6F777A1F1A7E3FB6*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1871>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1871>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_4 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_PollNextEvent_t7661E5AF679D8C0B4F9959F46724FAB9AD4658DD* L_5 = L_4->___PollNextEvent;
 		(&V_0)->___pPollNextEvent = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___pPollNextEvent), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1872>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1872>
 		PollNextEventUnion_t6802191230FC997B572C8B6AC44243AAF6E0C548 L_6 = V_0;
 		_PollNextEventPacked_tD404A3D2E335A83BEB8533DC6F777A1F1A7E3FB6* L_7 = L_6.___pPollNextEventPacked;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_8 = { reinterpret_cast<intptr_t> (VREvent_t_Packed_t8AA2D8A5BD65A607F6540FEB55D6A1E1D4C27939_0_0_0_var) };
@@ -18112,16 +18112,16 @@ IL_001a:
 		NullCheck(L_7);
 		bool L_11;
 		L_11 = _PollNextEventPacked_Invoke_mD7BB4FF33BBBF31F0D59EFE9EC54A048327B0870_inline(L_7, (&V_1), L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1874>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1874>
 		VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56* L_12 = ___0_pEvent;
 		VREvent_t_Packed_Unpack_m096BCE005ED7DB1ED1526D8BC91C1C1742CBB490((&V_1), L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1875>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1875>
 		return L_11;
 	}
 
 IL_0061:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1878>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1878>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_13 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_PollNextEvent_t7661E5AF679D8C0B4F9959F46724FAB9AD4658DD* L_14 = L_13->___PollNextEvent;
 		VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56* L_15 = ___0_pEvent;
@@ -18129,7 +18129,7 @@ IL_0061:
 		NullCheck(L_14);
 		bool L_17;
 		L_17 = _PollNextEvent_Invoke_mBAF45A5A23DA69D4367A6A574D4F04EDBC4975FC_inline(L_14, L_15, L_16, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1879>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1879>
 		return L_17;
 	}
 }
@@ -18137,7 +18137,7 @@ IL_0061:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_PollNextEventWithPose_mBAC2AC0B1E79FA0F918AC4885B2E49D3F92CAB13 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, int32_t ___0_eOrigin, VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56* ___1_pEvent, uint32_t ___2_uncbVREvent, TrackedDevicePose_t_tEA070E1560BC50A88F8237D1DB91D90A91A02259* ___3_pTrackedDevicePose, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1883>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1883>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_PollNextEventWithPose_tAC36873017089F9D283AFA6D22503AFD8ACFA96F* L_1 = L_0->___PollNextEventWithPose;
 		int32_t L_2 = ___0_eOrigin;
@@ -18147,7 +18147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_PollNextEventWithPose_mBAC2AC0
 		NullCheck(L_1);
 		bool L_6;
 		L_6 = _PollNextEventWithPose_Invoke_m143D77ACB86FBCC1EC31D9BF8E3F7EC60ACF16C7_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1884>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1884>
 		return L_6;
 	}
 }
@@ -18161,14 +18161,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetEventTypeNameFromEnum_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1888>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1888>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetEventTypeNameFromEnum_tBCFA4CF8CD31A63BCE5C028F86023D5B3F56C4C5* L_1 = L_0->___GetEventTypeNameFromEnum;
 		int32_t L_2 = ___0_eType;
 		NullCheck(L_1);
 		intptr_t L_3;
 		L_3 = _GetEventTypeNameFromEnum_Invoke_m0A4624084E6FD0B74CCCAD72B909564C46EDCFF0_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1889>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1889>
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		String_t* L_4;
 		L_4 = Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A(L_3, NULL);
@@ -18179,7 +18179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetEventTypeNameFromEnum_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HiddenAreaMesh_t_t94244AEA54FC806F524A9FB826CBB0339D3FC8E4 CVRSystem_GetHiddenAreaMesh_mADFFA8033B933D55322363240C651C4925C1D926 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, int32_t ___0_eEye, int32_t ___1_type, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1893>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1893>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetHiddenAreaMesh_t426F5CEB93D8D3593835185EA732C11AB30E2A43* L_1 = L_0->___GetHiddenAreaMesh;
 		int32_t L_2 = ___0_eEye;
@@ -18187,7 +18187,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HiddenAreaMesh_t_t94244AEA54FC806F524A9FB826C
 		NullCheck(L_1);
 		HiddenAreaMesh_t_t94244AEA54FC806F524A9FB826CBB0339D3FC8E4 L_4;
 		L_4 = _GetHiddenAreaMesh_Invoke_m47651F42CC827F599A2E9A6ABB7875C3BA69AD4F_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1894>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1894>
 		return L_4;
 	}
 }
@@ -18206,8 +18206,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetControllerState_m67FF86AADB
 	VRControllerState_t_Packed_tA47E12879BEB2EC3B71C6FD98D323B82FB0CFB1D V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1911>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1912>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1911>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1912>
 		OperatingSystem_t08A94435A5C7D999B5553B6C58763A6F2E3C8557* L_0;
 		L_0 = Environment_get_OSVersion_mDDD265F5864A2086664CAE56D7C4B59E9A50AF66(NULL);
 		NullCheck(L_0);
@@ -18232,19 +18232,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetControllerState_m67FF86AADB
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1915>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1915>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_4 = ___1_pControllerState;
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D L_5 = (*(VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D*)L_4);
 		VRControllerState_t_Packed__ctor_mC1DBB259912332D284B1A8D2EF26C57461BBAAF1((&V_1), L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1916>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1916>
 		(&V_0)->___pGetControllerStatePacked = (_GetControllerStatePacked_t0828DBD186E5ADD94949330479F5E29ECD3BF21A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___pGetControllerStatePacked), (void*)(_GetControllerStatePacked_t0828DBD186E5ADD94949330479F5E29ECD3BF21A*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1917>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1917>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_6 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetControllerState_tA53B014959406294ECAB190EBC86F3A1EFF49E00* L_7 = L_6->___GetControllerState;
 		(&V_0)->___pGetControllerState = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___pGetControllerState), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1918>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1918>
 		GetControllerStateUnion_t3A134DD3E68F958BA4286703BCF9AE96474E223B L_8 = V_0;
 		_GetControllerStatePacked_t0828DBD186E5ADD94949330479F5E29ECD3BF21A* L_9 = L_8.___pGetControllerStatePacked;
 		uint32_t L_10 = ___0_unControllerDeviceIndex;
@@ -18258,16 +18258,16 @@ IL_001a:
 		NullCheck(L_9);
 		bool L_14;
 		L_14 = _GetControllerStatePacked_Invoke_m7A8B155C7DC7A7832E66F31F4F125519A21D5C63_inline(L_9, L_10, (&V_1), L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1920>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1920>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_15 = ___1_pControllerState;
 		VRControllerState_t_Packed_Unpack_m2AE06AF41BB43E3D337631902E2FBEF7CC113F98((&V_1), L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1921>
 		return L_14;
 	}
 
 IL_0067:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1924>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_16 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetControllerState_tA53B014959406294ECAB190EBC86F3A1EFF49E00* L_17 = L_16->___GetControllerState;
 		uint32_t L_18 = ___0_unControllerDeviceIndex;
@@ -18276,7 +18276,7 @@ IL_0067:
 		NullCheck(L_17);
 		bool L_21;
 		L_21 = _GetControllerState_Invoke_m48BD23150A13D984A76E1DB957F8E8FCC07B6223_inline(L_17, L_18, L_19, L_20, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1925>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1925>
 		return L_21;
 	}
 }
@@ -18295,8 +18295,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetControllerStateWithPose_m92
 	VRControllerState_t_Packed_tA47E12879BEB2EC3B71C6FD98D323B82FB0CFB1D V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1942>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1943>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1942>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1943>
 		OperatingSystem_t08A94435A5C7D999B5553B6C58763A6F2E3C8557* L_0;
 		L_0 = Environment_get_OSVersion_mDDD265F5864A2086664CAE56D7C4B59E9A50AF66(NULL);
 		NullCheck(L_0);
@@ -18321,19 +18321,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetControllerStateWithPose_m92
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1946>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1946>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_4 = ___2_pControllerState;
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D L_5 = (*(VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D*)L_4);
 		VRControllerState_t_Packed__ctor_mC1DBB259912332D284B1A8D2EF26C57461BBAAF1((&V_1), L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1947>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1947>
 		(&V_0)->___pGetControllerStateWithPosePacked = (_GetControllerStateWithPosePacked_tAC9426083F4C63A8CB9F2BA5EE06B82373A48A23*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___pGetControllerStateWithPosePacked), (void*)(_GetControllerStateWithPosePacked_tAC9426083F4C63A8CB9F2BA5EE06B82373A48A23*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1948>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1948>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_6 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetControllerStateWithPose_t64510A0EF68D6CB2CAFDC50BA60A66729637DB56* L_7 = L_6->___GetControllerStateWithPose;
 		(&V_0)->___pGetControllerStateWithPose = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___pGetControllerStateWithPose), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1949>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1949>
 		GetControllerStateWithPoseUnion_t2317CF06435B0D559ECB5D47D5B6F68BA9FB6228 L_8 = V_0;
 		_GetControllerStateWithPosePacked_tAC9426083F4C63A8CB9F2BA5EE06B82373A48A23* L_9 = L_8.___pGetControllerStateWithPosePacked;
 		int32_t L_10 = ___0_eOrigin;
@@ -18349,16 +18349,16 @@ IL_001a:
 		NullCheck(L_9);
 		bool L_16;
 		L_16 = _GetControllerStateWithPosePacked_Invoke_m687959D64D602B0B4FC7C5AC6C7A28E9B455F5F3_inline(L_9, L_10, L_11, (&V_1), L_14, L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1951>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1951>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_17 = ___2_pControllerState;
 		VRControllerState_t_Packed_Unpack_m2AE06AF41BB43E3D337631902E2FBEF7CC113F98((&V_1), L_17, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1952>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1952>
 		return L_16;
 	}
 
 IL_006a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1955>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1955>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_18 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetControllerStateWithPose_t64510A0EF68D6CB2CAFDC50BA60A66729637DB56* L_19 = L_18->___GetControllerStateWithPose;
 		int32_t L_20 = ___0_eOrigin;
@@ -18369,7 +18369,7 @@ IL_006a:
 		NullCheck(L_19);
 		bool L_25;
 		L_25 = _GetControllerStateWithPose_Invoke_m7101FC71AE8152C4F43A377D4D8CA76BD9CFB77F_inline(L_19, L_20, L_21, L_22, L_23, L_24, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1956>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1956>
 		return L_25;
 	}
 }
@@ -18377,7 +18377,7 @@ IL_006a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_TriggerHapticPulse_m18A6EF5A5B80D838BC186A057C11A45151D8FA7B (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unControllerDeviceIndex, uint32_t ___1_unAxisId, uint16_t ___2_usDurationMicroSec, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1960>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1960>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_TriggerHapticPulse_tEDD2E25EA770F3D7341ECEA5409A692C8BCCE773* L_1 = L_0->___TriggerHapticPulse;
 		uint32_t L_2 = ___0_unControllerDeviceIndex;
@@ -18385,7 +18385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_TriggerHapticPulse_m18A6EF5A5B
 		uint16_t L_4 = ___2_usDurationMicroSec;
 		NullCheck(L_1);
 		_TriggerHapticPulse_Invoke_m6F5264C2F77488A88DF22726291808D21AAB219E_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1961>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1961>
 		return;
 	}
 }
@@ -18399,14 +18399,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetButtonIdNameFromEnum_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1964>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1964>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetButtonIdNameFromEnum_t723788274FE11A4D7D6CD49D95D14266B392E65F* L_1 = L_0->___GetButtonIdNameFromEnum;
 		int32_t L_2 = ___0_eButtonId;
 		NullCheck(L_1);
 		intptr_t L_3;
 		L_3 = _GetButtonIdNameFromEnum_Invoke_mD7DAA0AD50A87B68A4DE2EA73D5AEFDBA3552FA1_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1965>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1965>
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		String_t* L_4;
 		L_4 = Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A(L_3, NULL);
@@ -18423,14 +18423,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetControllerAxisTypeName
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1969>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1969>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_GetControllerAxisTypeNameFromEnum_t7FD5B5167CB91A7866C19AA6D30A175467EC2CAF* L_1 = L_0->___GetControllerAxisTypeNameFromEnum;
 		int32_t L_2 = ___0_eAxisType;
 		NullCheck(L_1);
 		intptr_t L_3;
 		L_3 = _GetControllerAxisTypeNameFromEnum_Invoke_m00757ADECBDB306D642364A4ED146448FB3D2A0F_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1970>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1970>
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		String_t* L_4;
 		L_4 = Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A(L_3, NULL);
@@ -18441,13 +18441,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetControllerAxisTypeName
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_IsInputAvailable_m6286E1D6971E346430E55C70903C15A042D9F482 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1974>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1974>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_IsInputAvailable_t432F7CFC272FE7E8A2D8C57AC0F6A9AD55BF759B* L_1 = L_0->___IsInputAvailable;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _IsInputAvailable_Invoke_m244895C007E27A3A214DDFC7C7A59AD66A238A3D_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1975>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1975>
 		return L_2;
 	}
 }
@@ -18455,13 +18455,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_IsInputAvailable_m6286E1D6971E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_IsSteamVRDrawingControllers_m8FF5711E558FC0C2E44A1D76EAEC534368D183DD (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1979>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1979>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_IsSteamVRDrawingControllers_t2BBCA30078A8E13FA361F46562662C6B4DEB0223* L_1 = L_0->___IsSteamVRDrawingControllers;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _IsSteamVRDrawingControllers_Invoke_m0483F677AAE790650B44B6741F4910B3041B2577_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1980>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1980>
 		return L_2;
 	}
 }
@@ -18469,13 +18469,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_IsSteamVRDrawingControllers_m8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_ShouldApplicationPause_mE4830AF1E20034F609147B254C9CFD9955039005 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1984>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1984>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_ShouldApplicationPause_t363B2CBD8131B77FADAF11D24071E94B3A15FA37* L_1 = L_0->___ShouldApplicationPause;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _ShouldApplicationPause_Invoke_m3A6034CE02BF44F674A8945ED5A308E74C9C137D_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1985>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1985>
 		return L_2;
 	}
 }
@@ -18483,13 +18483,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_ShouldApplicationPause_mE4830A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_ShouldApplicationReduceRenderingWork_mB68211459530AB45080F5C91C6FB7CFD3C7CF5F5 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1989>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1989>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_ShouldApplicationReduceRenderingWork_t49429140C48F7CFAFDD2EAFBEB0FE31BA6FBFA29* L_1 = L_0->___ShouldApplicationReduceRenderingWork;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _ShouldApplicationReduceRenderingWork_Invoke_mB8F561B90A0FEBB08BE7F1C273634FE8EEE30D4B_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1990>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1990>
 		return L_2;
 	}
 }
@@ -18497,7 +18497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_ShouldApplicationReduceRenderi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_DriverDebugRequest_mA7F00882FD43171FB21D94F7D3FA7383C7CC3AC4 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unDeviceIndex, String_t* ___1_pchRequest, StringBuilder_t* ___2_pchResponseBuffer, uint32_t ___3_unResponseBufferSize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1994>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1994>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_DriverDebugRequest_t3418F0E739483EDFBDB2AB22D7AF53CFA2EAE313* L_1 = L_0->___DriverDebugRequest;
 		uint32_t L_2 = ___0_unDeviceIndex;
@@ -18507,7 +18507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_DriverDebugRequest_mA7F008
 		NullCheck(L_1);
 		uint32_t L_6;
 		L_6 = _DriverDebugRequest_Invoke_mA0D9CB1D040B82A8830FA422DC147ADA490B4B50_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1995>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1995>
 		return L_6;
 	}
 }
@@ -18515,14 +18515,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_DriverDebugRequest_mA7F008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_PerformFirmwareUpdate_m0CE6D1780169A4D0EECB71CC5E16E8B39551A1EB (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, uint32_t ___0_unDeviceIndex, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:1999>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:1999>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_PerformFirmwareUpdate_t26607D5B0AFAB7AFE81A453EC1749DC43FAB3E98* L_1 = L_0->___PerformFirmwareUpdate;
 		uint32_t L_2 = ___0_unDeviceIndex;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _PerformFirmwareUpdate_Invoke_m7C7AEBE7E4EA90B56FF473C0E9C71E1F00D3FEEF_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2000>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2000>
 		return L_3;
 	}
 }
@@ -18530,12 +18530,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_PerformFirmwareUpdate_m0CE6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_AcknowledgeQuit_Exiting_m1CD9E42674CCE367F9618C6355FE04405879AA41 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2004>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2004>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_AcknowledgeQuit_Exiting_tEF47D178982F69800F0863A0556AA537BE44047D* L_1 = L_0->___AcknowledgeQuit_Exiting;
 		NullCheck(L_1);
 		_AcknowledgeQuit_Exiting_Invoke_m7BF1050FE4AB757516D91DB569395391875EE83D_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2005>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2005>
 		return;
 	}
 }
@@ -18543,12 +18543,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_AcknowledgeQuit_Exiting_m1CD9E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_AcknowledgeQuit_UserPrompt_m6E1B0E800BE3E55BD216443303CB134551A5B314 (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2008>
 		IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58* L_0 = (IVRSystem_t6B77F1167E7DA3724D1593D1046A529EDB2A5F58*)(&__this->___FnTable);
 		_AcknowledgeQuit_UserPrompt_t39607F7E8E1F30F7A3286CC18C60010E7568AF37* L_1 = L_0->___AcknowledgeQuit_UserPrompt;
 		NullCheck(L_1);
 		_AcknowledgeQuit_UserPrompt_Invoke_m91802D121E4F6986C8B205A2CBBB1CB2C0DC11D2_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2009>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2009>
 		return;
 	}
 }
@@ -19034,9 +19034,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRExtendedDisplay__ctor_m28DBF83045329D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2016>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2016>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2018>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2018>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRExtendedDisplay_t35C46EEBB0DD15A6BD91F9079AC1C8F15A14AD92_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -19053,7 +19053,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRExtendedDisplay__ctor_m28DBF83045329D
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___GetDXGIOutputInfo), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2019>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2019>
 		return;
 	}
 }
@@ -19061,19 +19061,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRExtendedDisplay__ctor_m28DBF83045329D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRExtendedDisplay_GetWindowBounds_m5109D7A93449A44D3C6CD73DD82C7E77BE94AB1A (CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8C35499887276ACE* __this, int32_t* ___0_pnX, int32_t* ___1_pnY, uint32_t* ___2_pnWidth, uint32_t* ___3_pnHeight, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2022>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2022>
 		int32_t* L_0 = ___0_pnX;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2023>
 		int32_t* L_1 = ___1_pnY;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2024>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2024>
 		uint32_t* L_2 = ___2_pnWidth;
 		*((int32_t*)L_2) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2025>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2025>
 		uint32_t* L_3 = ___3_pnHeight;
 		*((int32_t*)L_3) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2026>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2026>
 		IVRExtendedDisplay_t35C46EEBB0DD15A6BD91F9079AC1C8F15A14AD92* L_4 = (IVRExtendedDisplay_t35C46EEBB0DD15A6BD91F9079AC1C8F15A14AD92*)(&__this->___FnTable);
 		_GetWindowBounds_t8A5EE4FEA706C1E2132D0867F4EDA5C480369FE4* L_5 = L_4->___GetWindowBounds;
 		int32_t* L_6 = ___0_pnX;
@@ -19082,7 +19082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRExtendedDisplay_GetWindowBounds_m5109
 		uint32_t* L_9 = ___3_pnHeight;
 		NullCheck(L_5);
 		_GetWindowBounds_Invoke_m4C6F67C0095E7C2C7144129B7C1EC0A71F5BA813_inline(L_5, L_6, L_7, L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2027>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2027>
 		return;
 	}
 }
@@ -19090,19 +19090,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRExtendedDisplay_GetWindowBounds_m5109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRExtendedDisplay_GetEyeOutputViewport_mC385CE6E4846EA9BDB6530E90D1F2942416475D8 (CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8C35499887276ACE* __this, int32_t ___0_eEye, uint32_t* ___1_pnX, uint32_t* ___2_pnY, uint32_t* ___3_pnWidth, uint32_t* ___4_pnHeight, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2030>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2030>
 		uint32_t* L_0 = ___1_pnX;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2031>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2031>
 		uint32_t* L_1 = ___2_pnY;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2032>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2032>
 		uint32_t* L_2 = ___3_pnWidth;
 		*((int32_t*)L_2) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2033>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2033>
 		uint32_t* L_3 = ___4_pnHeight;
 		*((int32_t*)L_3) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2034>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2034>
 		IVRExtendedDisplay_t35C46EEBB0DD15A6BD91F9079AC1C8F15A14AD92* L_4 = (IVRExtendedDisplay_t35C46EEBB0DD15A6BD91F9079AC1C8F15A14AD92*)(&__this->___FnTable);
 		_GetEyeOutputViewport_t37FBB86EDF06894BE0CE1DD396F8FD6B97E569E5* L_5 = L_4->___GetEyeOutputViewport;
 		int32_t L_6 = ___0_eEye;
@@ -19112,7 +19112,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRExtendedDisplay_GetEyeOutputViewport_
 		uint32_t* L_10 = ___4_pnHeight;
 		NullCheck(L_5);
 		_GetEyeOutputViewport_Invoke_m79F9DC0FC1E3AB670716AA74C57B469318751829_inline(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2035>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2035>
 		return;
 	}
 }
@@ -19120,20 +19120,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRExtendedDisplay_GetEyeOutputViewport_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRExtendedDisplay_GetDXGIOutputInfo_m1462AA9F1FD86BA51E2BEC933EBDE145E3C10119 (CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8C35499887276ACE* __this, int32_t* ___0_pnAdapterIndex, int32_t* ___1_pnAdapterOutputIndex, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2038>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2038>
 		int32_t* L_0 = ___0_pnAdapterIndex;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2039>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2039>
 		int32_t* L_1 = ___1_pnAdapterOutputIndex;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2040>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2040>
 		IVRExtendedDisplay_t35C46EEBB0DD15A6BD91F9079AC1C8F15A14AD92* L_2 = (IVRExtendedDisplay_t35C46EEBB0DD15A6BD91F9079AC1C8F15A14AD92*)(&__this->___FnTable);
 		_GetDXGIOutputInfo_t0B5CC37DCD207B5A6B0606B0C54D5B756BC7F243* L_3 = L_2->___GetDXGIOutputInfo;
 		int32_t* L_4 = ___0_pnAdapterIndex;
 		int32_t* L_5 = ___1_pnAdapterOutputIndex;
 		NullCheck(L_3);
 		_GetDXGIOutputInfo_Invoke_m674805A54CC4A94B5464F114FC755753430AB14A_inline(L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2041>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2041>
 		return;
 	}
 }
@@ -19157,9 +19157,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRTrackedCamera__ctor_mBBE912CB35A38F53
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2048>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2048>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2050>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2050>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -19203,7 +19203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRTrackedCamera__ctor_mBBE912CB35A38F53
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___ReleaseVideoStreamTextureGL), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2051>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2051>
 		return;
 	}
 }
@@ -19217,14 +19217,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRTrackedCamera_GetCameraErrorName
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2054>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2054>
 		IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06* L_0 = (IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06*)(&__this->___FnTable);
 		_GetCameraErrorNameFromEnum_t4D8847A5F5D409B6EA57229203B0F28DE3DBAA22* L_1 = L_0->___GetCameraErrorNameFromEnum;
 		int32_t L_2 = ___0_eCameraError;
 		NullCheck(L_1);
 		intptr_t L_3;
 		L_3 = _GetCameraErrorNameFromEnum_Invoke_m293B54D8857F0B27D96BCC72090B50FCF9FD48DD_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2055>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2055>
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		String_t* L_4;
 		L_4 = Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A(L_3, NULL);
@@ -19235,10 +19235,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRTrackedCamera_GetCameraErrorName
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_HasCamera_m12D513C64C141056E1A10AB43CD440B40BC847E8 (CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* __this, uint32_t ___0_nDeviceIndex, bool* ___1_pHasCamera, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2059>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2059>
 		bool* L_0 = ___1_pHasCamera;
 		*((int8_t*)L_0) = (int8_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2060>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2060>
 		IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06* L_1 = (IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06*)(&__this->___FnTable);
 		_HasCamera_tD458536D06615D86A0F5223ECC92BBDA8B12DDEB* L_2 = L_1->___HasCamera;
 		uint32_t L_3 = ___0_nDeviceIndex;
@@ -19246,7 +19246,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_HasCamera_m12D513C64
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = _HasCamera_Invoke_m10CE1744E91DBA696118D5A21F798EC3B56C2BF9_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2061>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2061>
 		return L_5;
 	}
 }
@@ -19254,16 +19254,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_HasCamera_m12D513C64
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraFrameSize_m0D6D28CF6641AC61F0C3A7997DD98270F8D14516 (CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* __this, uint32_t ___0_nDeviceIndex, int32_t ___1_eFrameType, uint32_t* ___2_pnWidth, uint32_t* ___3_pnHeight, uint32_t* ___4_pnFrameBufferSize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2065>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2065>
 		uint32_t* L_0 = ___2_pnWidth;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2066>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2066>
 		uint32_t* L_1 = ___3_pnHeight;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2067>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2067>
 		uint32_t* L_2 = ___4_pnFrameBufferSize;
 		*((int32_t*)L_2) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2068>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2068>
 		IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06* L_3 = (IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06*)(&__this->___FnTable);
 		_GetCameraFrameSize_tBA868F720BFF12F3AC15E15172EF881236F01260* L_4 = L_3->___GetCameraFrameSize;
 		uint32_t L_5 = ___0_nDeviceIndex;
@@ -19274,7 +19274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraFrameSize_m
 		NullCheck(L_4);
 		int32_t L_10;
 		L_10 = _GetCameraFrameSize_Invoke_mF16D640FE414C8D376F8555DBF919CFE26982CE0_inline(L_4, L_5, L_6, L_7, L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2069>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2069>
 		return L_10;
 	}
 }
@@ -19282,7 +19282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraFrameSize_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraIntrinsics_m191914D0E8696FAB8A6ABA6EBDFA10EF60C9405A (CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* __this, uint32_t ___0_nDeviceIndex, int32_t ___1_eFrameType, HmdVector2_t_tCCEF5F67B49C6ABAC22E7757A470D9B127936833* ___2_pFocalLength, HmdVector2_t_tCCEF5F67B49C6ABAC22E7757A470D9B127936833* ___3_pCenter, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2073>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2073>
 		IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06* L_0 = (IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06*)(&__this->___FnTable);
 		_GetCameraIntrinsics_tF4D6057A3EDAC670DBF6BD155C6C8A348F7DB8BB* L_1 = L_0->___GetCameraIntrinsics;
 		uint32_t L_2 = ___0_nDeviceIndex;
@@ -19292,7 +19292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraIntrinsics_
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _GetCameraIntrinsics_Invoke_mA680B27CC728FD372EA879DC6829F1346415D6D8_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2074>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2074>
 		return L_6;
 	}
 }
@@ -19300,7 +19300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraIntrinsics_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraProjection_mEB4C862C5068FD671420CC4615F1E5EFBD1FB6DB (CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* __this, uint32_t ___0_nDeviceIndex, int32_t ___1_eFrameType, float ___2_flZNear, float ___3_flZFar, HmdMatrix44_t_tF23EB340D2BFF58C56BDAB1354E8BBF7FCB16FF4* ___4_pProjection, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2078>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2078>
 		IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06* L_0 = (IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06*)(&__this->___FnTable);
 		_GetCameraProjection_t2D53F4CA7DD1218E99470F20CFF342DC7F1F31DC* L_1 = L_0->___GetCameraProjection;
 		uint32_t L_2 = ___0_nDeviceIndex;
@@ -19311,7 +19311,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraProjection_
 		NullCheck(L_1);
 		int32_t L_7;
 		L_7 = _GetCameraProjection_Invoke_mE40CC7D43B927CF59247B8894EA2A29150E9CE9D_inline(L_1, L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2079>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2079>
 		return L_7;
 	}
 }
@@ -19319,10 +19319,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraProjection_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_AcquireVideoStreamingService_mB64C3CC5F6357DA62FDD300224F6CAE1FCB0C05B (CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* __this, uint32_t ___0_nDeviceIndex, uint64_t* ___1_pHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2083>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2083>
 		uint64_t* L_0 = ___1_pHandle;
 		*((int64_t*)L_0) = (int64_t)((int64_t)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2084>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2084>
 		IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06* L_1 = (IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06*)(&__this->___FnTable);
 		_AcquireVideoStreamingService_tC0E6E106B44AF9B48F0CE1B5061869A9E23839CC* L_2 = L_1->___AcquireVideoStreamingService;
 		uint32_t L_3 = ___0_nDeviceIndex;
@@ -19330,7 +19330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_AcquireVideoStreamin
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = _AcquireVideoStreamingService_Invoke_mA8914B8D35DCFE30A053A35C780F8301463BC19B_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2085>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2085>
 		return L_5;
 	}
 }
@@ -19338,14 +19338,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_AcquireVideoStreamin
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_ReleaseVideoStreamingService_m775895586C29C15A74F0F859BF46789A4DEA91F0 (CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* __this, uint64_t ___0_hTrackedCamera, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2089>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2089>
 		IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06* L_0 = (IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06*)(&__this->___FnTable);
 		_ReleaseVideoStreamingService_t9F8B638163F48EADAC095A5957C5EA999B52640C* L_1 = L_0->___ReleaseVideoStreamingService;
 		uint64_t L_2 = ___0_hTrackedCamera;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _ReleaseVideoStreamingService_Invoke_m9ACF61BCAF40C9AA959EED9C7C080956B3E1D56B_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2090>
 		return L_3;
 	}
 }
@@ -19353,7 +19353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_ReleaseVideoStreamin
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamFrameBuffer_m5F92DA3A64B123414943E054F6D4EDC2C0B815C2 (CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* __this, uint64_t ___0_hTrackedCamera, int32_t ___1_eFrameType, intptr_t ___2_pFrameBuffer, uint32_t ___3_nFrameBufferSize, CameraVideoStreamFrameHeader_t_tA08F3633C7C939D41BE88F4B3F7CD52DCF83FF3F* ___4_pFrameHeader, uint32_t ___5_nFrameHeaderSize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2094>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2094>
 		IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06* L_0 = (IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06*)(&__this->___FnTable);
 		_GetVideoStreamFrameBuffer_t5B2634C87D11C5DE78B67F99748D687F2273E4B4* L_1 = L_0->___GetVideoStreamFrameBuffer;
 		uint64_t L_2 = ___0_hTrackedCamera;
@@ -19365,7 +19365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamFrameB
 		NullCheck(L_1);
 		int32_t L_8;
 		L_8 = _GetVideoStreamFrameBuffer_Invoke_mC22E9B1A4D807C677D8ED9F7D3E4FA794EAF608A_inline(L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2095>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2095>
 		return L_8;
 	}
 }
@@ -19373,13 +19373,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamFrameB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextureSize_mCF1E9A5BED9A210146AE8A330326C7337683300F (CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* __this, uint32_t ___0_nDeviceIndex, int32_t ___1_eFrameType, VRTextureBounds_t_tAF4CD1C68BA9CB7C330262817761A7C07612CAB9* ___2_pTextureBounds, uint32_t* ___3_pnWidth, uint32_t* ___4_pnHeight, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2099>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2099>
 		uint32_t* L_0 = ___3_pnWidth;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2100>
 		uint32_t* L_1 = ___4_pnHeight;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2101>
 		IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06* L_2 = (IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06*)(&__this->___FnTable);
 		_GetVideoStreamTextureSize_tA59FC0BCB333B8107834A1BE40EDDF45D6F2513C* L_3 = L_2->___GetVideoStreamTextureSize;
 		uint32_t L_4 = ___0_nDeviceIndex;
@@ -19390,7 +19390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextur
 		NullCheck(L_3);
 		int32_t L_9;
 		L_9 = _GetVideoStreamTextureSize_Invoke_m0A8A9895C3A08CF6B3095552960F4D491C7FC3E5_inline(L_3, L_4, L_5, L_6, L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2102>
 		return L_9;
 	}
 }
@@ -19398,7 +19398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextur
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextureD3D11_mDB2EE668786B78B319A1AEBA0C8CBA9BC66B50D5 (CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* __this, uint64_t ___0_hTrackedCamera, int32_t ___1_eFrameType, intptr_t ___2_pD3D11DeviceOrResource, intptr_t* ___3_ppD3D11ShaderResourceView, CameraVideoStreamFrameHeader_t_tA08F3633C7C939D41BE88F4B3F7CD52DCF83FF3F* ___4_pFrameHeader, uint32_t ___5_nFrameHeaderSize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2106>
 		IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06* L_0 = (IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06*)(&__this->___FnTable);
 		_GetVideoStreamTextureD3D11_t6C22B3197DC2024EE879DB995135672362798CFD* L_1 = L_0->___GetVideoStreamTextureD3D11;
 		uint64_t L_2 = ___0_hTrackedCamera;
@@ -19410,7 +19410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextur
 		NullCheck(L_1);
 		int32_t L_8;
 		L_8 = _GetVideoStreamTextureD3D11_Invoke_m077C8457138655DA133EB1CF0B08FB5F3684C1F0_inline(L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2107>
 		return L_8;
 	}
 }
@@ -19418,10 +19418,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextur
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextureGL_m81786AD3E8119D3CABF1316B78AEE9B68537DB28 (CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* __this, uint64_t ___0_hTrackedCamera, int32_t ___1_eFrameType, uint32_t* ___2_pglTextureId, CameraVideoStreamFrameHeader_t_tA08F3633C7C939D41BE88F4B3F7CD52DCF83FF3F* ___3_pFrameHeader, uint32_t ___4_nFrameHeaderSize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2111>
 		uint32_t* L_0 = ___2_pglTextureId;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2112>
 		IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06* L_1 = (IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06*)(&__this->___FnTable);
 		_GetVideoStreamTextureGL_t8205B382FFDB160BAA8E91BCB673F4707C5F3893* L_2 = L_1->___GetVideoStreamTextureGL;
 		uint64_t L_3 = ___0_hTrackedCamera;
@@ -19432,7 +19432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextur
 		NullCheck(L_2);
 		int32_t L_8;
 		L_8 = _GetVideoStreamTextureGL_Invoke_mC66AB2091BFD546044ED70B34578E48C4A7B310F_inline(L_2, L_3, L_4, L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2113>
 		return L_8;
 	}
 }
@@ -19440,7 +19440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextur
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_ReleaseVideoStreamTextureGL_m0DB5A5227E4055D7973CFFEB06303E70D2D4A661 (CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* __this, uint64_t ___0_hTrackedCamera, uint32_t ___1_glTextureId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2117>
 		IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06* L_0 = (IVRTrackedCamera_t3D8EA01AFEB0F5395F4449B6C33730D531B32E06*)(&__this->___FnTable);
 		_ReleaseVideoStreamTextureGL_tFD74B96FFC9530DC64D895310AAA0D3F35A05B80* L_1 = L_0->___ReleaseVideoStreamTextureGL;
 		uint64_t L_2 = ___0_hTrackedCamera;
@@ -19448,7 +19448,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_ReleaseVideoStreamTe
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _ReleaseVideoStreamTextureGL_Invoke_m893AF62F289A07478D6E707E61E3AF8F9F2A0715_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2118>
 		return L_4;
 	}
 }
@@ -19472,9 +19472,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRApplications__ctor_mA23CABB9CB976C755
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2126>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2128>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -19575,7 +19575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRApplications__ctor_mA23CABB9CB976C755
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___GetCurrentSceneProcessId), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2129>
 		return;
 	}
 }
@@ -19583,7 +19583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRApplications__ctor_mA23CABB9CB976C755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_AddApplicationManifest_m7426E013C6A012C59B915FCF2E52FF33C7052D25 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchApplicationManifestFullPath, bool ___1_bTemporary, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2132>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_AddApplicationManifest_tB2134603E7C8088A9AA673F7A4A4D1C0E28E6824* L_1 = L_0->___AddApplicationManifest;
 		String_t* L_2 = ___0_pchApplicationManifestFullPath;
@@ -19591,7 +19591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_AddApplicationManifes
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _AddApplicationManifest_Invoke_m4C228D9BBC6270F6F36055247F629B46FE085877_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2133>
 		return L_4;
 	}
 }
@@ -19599,14 +19599,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_AddApplicationManifes
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_RemoveApplicationManifest_mFEFA507DF8D8456F81F5CEBC93E241984FB52F09 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchApplicationManifestFullPath, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2137>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_RemoveApplicationManifest_tB91807F57CF8DD61E9E0CC48BE57D15807E07B49* L_1 = L_0->___RemoveApplicationManifest;
 		String_t* L_2 = ___0_pchApplicationManifestFullPath;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _RemoveApplicationManifest_Invoke_m77B0B6AE61D1DECB0FBE9A0B0ACCE7585C4CC194_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2138>
 		return L_3;
 	}
 }
@@ -19614,14 +19614,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_RemoveApplicationMani
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_IsApplicationInstalled_m33AC110C3FB2FEC33E1CDE87E2A6C5633905C85B (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchAppKey, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2142>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_IsApplicationInstalled_tDC846A5201A9A9ED5858D562FF23FF7F582B416A* L_1 = L_0->___IsApplicationInstalled;
 		String_t* L_2 = ___0_pchAppKey;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _IsApplicationInstalled_Invoke_mE4C41A8D3459D5158C3191E0AD0228D583F04937_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2143>
 		return L_3;
 	}
 }
@@ -19629,13 +19629,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_IsApplicationInstalled_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationCount_m24C82520406206195B47170F452341BEAC3177EA (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2147>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetApplicationCount_t66BD00649FFD743E4B2DAF999E24B49BCF244539* L_1 = L_0->___GetApplicationCount;
 		NullCheck(L_1);
 		uint32_t L_2;
 		L_2 = _GetApplicationCount_Invoke_m9F10D74DA259E98936EF1E3BF56F5B38E554C4EF_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2148>
 		return L_2;
 	}
 }
@@ -19643,7 +19643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationCount_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetApplicationKeyByIndex_mC016A9D7C7A25770A09F28A62BC7D2DAF5BCC928 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, uint32_t ___0_unApplicationIndex, StringBuilder_t* ___1_pchAppKeyBuffer, uint32_t ___2_unAppKeyBufferLen, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2152>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetApplicationKeyByIndex_t77640F4E3EA4CE9EEA3EE69375BC7C3961D78EBF* L_1 = L_0->___GetApplicationKeyByIndex;
 		uint32_t L_2 = ___0_unApplicationIndex;
@@ -19652,7 +19652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetApplicationKeyByIn
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _GetApplicationKeyByIndex_Invoke_mB7D277FEDF3C2CC77A960C3A11E7A3F0E28EE14A_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2153>
 		return L_5;
 	}
 }
@@ -19660,7 +19660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetApplicationKeyByIn
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetApplicationKeyByProcessId_m6EFA16D6A64DB54FC4441C594BEA7539FE3A673E (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, uint32_t ___0_unProcessId, StringBuilder_t* ___1_pchAppKeyBuffer, uint32_t ___2_unAppKeyBufferLen, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2157>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetApplicationKeyByProcessId_t6B2248A5ECF00F41007B20CC0586C28643D4D023* L_1 = L_0->___GetApplicationKeyByProcessId;
 		uint32_t L_2 = ___0_unProcessId;
@@ -19669,7 +19669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetApplicationKeyByPr
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _GetApplicationKeyByProcessId_Invoke_m566B2AFD09D0AF6784037C2442389962E62D64FB_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2158>
 		return L_5;
 	}
 }
@@ -19677,14 +19677,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetApplicationKeyByPr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchApplication_m5C277948E22A2548F214F769BEA010F3B94EA754 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchAppKey, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2162>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_LaunchApplication_t6ADF874C0C2962F95CBE36AFD2FEED4891959688* L_1 = L_0->___LaunchApplication;
 		String_t* L_2 = ___0_pchAppKey;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _LaunchApplication_Invoke_mDD82F7E0F153850F788DC86A52D9372D59756AE2_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2163>
 		return L_3;
 	}
 }
@@ -19692,7 +19692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchApplication_m5C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchTemplateApplication_m012D0711CF052574D6FAC1BB94E1A5B70B0BD3DA (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchTemplateAppKey, String_t* ___1_pchNewAppKey, AppOverrideKeys_tU5BU5D_tFE7785147BC2857CE507DEE319C8041B71CBE8A5* ___2_pKeys, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2167>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_LaunchTemplateApplication_t02E892FFFEE8F4E79A54EFE4766F78E9F97BFB26* L_1 = L_0->___LaunchTemplateApplication;
 		String_t* L_2 = ___0_pchTemplateAppKey;
@@ -19703,7 +19703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchTemplateApplica
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _LaunchTemplateApplication_Invoke_m526520185916F28A445CA41F5E04ED675F3DD207_inline(L_1, L_2, L_3, L_4, ((int32_t)(((RuntimeArray*)L_5)->max_length)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2168>
 		return L_6;
 	}
 }
@@ -19711,7 +19711,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchTemplateApplica
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchApplicationFromMimeType_m716D1FF0EFEC08A0A2F4460A9C333A3D313C988B (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchMimeType, String_t* ___1_pchArgs, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2172>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_LaunchApplicationFromMimeType_t9295A82DBD19BF9E20F03F490E3E0A1A22BA02E1* L_1 = L_0->___LaunchApplicationFromMimeType;
 		String_t* L_2 = ___0_pchMimeType;
@@ -19719,7 +19719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchApplicationFrom
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _LaunchApplicationFromMimeType_Invoke_mBFB97BBBF7297120BA8CB62051327AB37D983B40_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2173>
 		return L_4;
 	}
 }
@@ -19727,14 +19727,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchApplicationFrom
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchDashboardOverlay_mD43DE8BF9FDC8000C5026298777947EF05655176 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchAppKey, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2177>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_LaunchDashboardOverlay_tFEDDA05647EEBAEA00B195476EDA456EB775591D* L_1 = L_0->___LaunchDashboardOverlay;
 		String_t* L_2 = ___0_pchAppKey;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _LaunchDashboardOverlay_Invoke_m0DE6717BE3985C3E2BDEE6741E534F3C767D22C7_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2178>
 		return L_3;
 	}
 }
@@ -19742,14 +19742,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchDashboardOverla
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_CancelApplicationLaunch_mE14F9A6159E5D93C07E8246DA571FC6B023142F2 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchAppKey, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2182>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_CancelApplicationLaunch_t86934ADDD52239E3D1F9035336F5654191803B0F* L_1 = L_0->___CancelApplicationLaunch;
 		String_t* L_2 = ___0_pchAppKey;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _CancelApplicationLaunch_Invoke_m30C0AF8FBAB632C8F7B3E61E3BB84D6BE9A52778_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2183>
 		return L_3;
 	}
 }
@@ -19757,7 +19757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_CancelApplicationLaunch_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_IdentifyApplication_m5AA8BB7AC03A4D2A42A8E4BF03C7A37AB54B7E26 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, uint32_t ___0_unProcessId, String_t* ___1_pchAppKey, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2187>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_IdentifyApplication_tFBEE85C3E7A2DC6EA2A6DB00016C157FE76BFE5C* L_1 = L_0->___IdentifyApplication;
 		uint32_t L_2 = ___0_unProcessId;
@@ -19765,7 +19765,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_IdentifyApplication_m
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _IdentifyApplication_Invoke_mE6C326A12C38ED8B75116A0DAE3FB0317641D68D_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2188>
 		return L_4;
 	}
 }
@@ -19773,14 +19773,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_IdentifyApplication_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationProcessId_mF6425843EF97618BAFB58DF1C5A39C36EC18DC73 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchAppKey, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2192>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetApplicationProcessId_tE62C7B73085BFC11F339CC0661133F7B28FDBA13* L_1 = L_0->___GetApplicationProcessId;
 		String_t* L_2 = ___0_pchAppKey;
 		NullCheck(L_1);
 		uint32_t L_3;
 		L_3 = _GetApplicationProcessId_Invoke_m0C016643E95125D292F4168E8C3F39F060C0AEA2_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2193>
 		return L_3;
 	}
 }
@@ -19794,14 +19794,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRApplications_GetApplicationsErro
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2197>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetApplicationsErrorNameFromEnum_tD413DF2229541511448BA791425742744A6187FF* L_1 = L_0->___GetApplicationsErrorNameFromEnum;
 		int32_t L_2 = ___0_error;
 		NullCheck(L_1);
 		intptr_t L_3;
 		L_3 = _GetApplicationsErrorNameFromEnum_Invoke_m1D44F201E8437102816A8A910B7F12D11ADF60E4_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2198>
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		String_t* L_4;
 		L_4 = Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A(L_3, NULL);
@@ -19812,7 +19812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRApplications_GetApplicationsErro
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationPropertyString_mCCED595BA965BD19245E343CD2188FFACDBEEAD3 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchAppKey, int32_t ___1_eProperty, StringBuilder_t* ___2_pchPropertyValueBuffer, uint32_t ___3_unPropertyValueBufferLen, int32_t* ___4_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2202>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2202>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetApplicationPropertyString_t6FE1E9F99C8355CDBA68F8976D5FEB7858D70197* L_1 = L_0->___GetApplicationPropertyString;
 		String_t* L_2 = ___0_pchAppKey;
@@ -19823,7 +19823,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationProper
 		NullCheck(L_1);
 		uint32_t L_7;
 		L_7 = _GetApplicationPropertyString_Invoke_m421D2F09039CFED023267FF56F76E04193470F9A_inline(L_1, L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2203>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2203>
 		return L_7;
 	}
 }
@@ -19831,7 +19831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationProper
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationPropertyBool_mFACAE6EE04B6E196495D2CCD29D1EC04EC497BF8 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchAppKey, int32_t ___1_eProperty, int32_t* ___2_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2207>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetApplicationPropertyBool_t98CF7E6039202B54DA9795BA6162EDEBF83D7816* L_1 = L_0->___GetApplicationPropertyBool;
 		String_t* L_2 = ___0_pchAppKey;
@@ -19840,7 +19840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationPropertyBo
 		NullCheck(L_1);
 		bool L_5;
 		L_5 = _GetApplicationPropertyBool_Invoke_mE8E7AF83BAD5E45F2ED00301E87F70B43632405D_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2208>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2208>
 		return L_5;
 	}
 }
@@ -19848,7 +19848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationPropertyBo
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRApplications_GetApplicationPropertyUint64_m6342DE472C7A4B5A0A74CB3435147994339A1CFA (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchAppKey, int32_t ___1_eProperty, int32_t* ___2_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2212>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetApplicationPropertyUint64_t771851CC95671A19F55B282C84959CC18367004C* L_1 = L_0->___GetApplicationPropertyUint64;
 		String_t* L_2 = ___0_pchAppKey;
@@ -19857,7 +19857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRApplications_GetApplicationProper
 		NullCheck(L_1);
 		uint64_t L_5;
 		L_5 = _GetApplicationPropertyUint64_Invoke_mBB4DE750C56F59CF204252E8B53F2B7C3AC9A21F_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2213>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2213>
 		return L_5;
 	}
 }
@@ -19865,7 +19865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRApplications_GetApplicationProper
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_SetApplicationAutoLaunch_mF432CB30C1AF94EB529B4726BD3B78DE98EC2E9A (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchAppKey, bool ___1_bAutoLaunch, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2217>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_SetApplicationAutoLaunch_t4646DA1CC3440D864DA4D8C2DF9547E8D8CA0E1E* L_1 = L_0->___SetApplicationAutoLaunch;
 		String_t* L_2 = ___0_pchAppKey;
@@ -19873,7 +19873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_SetApplicationAutoLau
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetApplicationAutoLaunch_Invoke_mB13473015A2FAE6CAB81A2D4612EEC1BAB3E9AF6_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2218>
 		return L_4;
 	}
 }
@@ -19881,14 +19881,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_SetApplicationAutoLau
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationAutoLaunch_m1F32B70CE93F8AFEC67678C702D183B0C57016C3 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchAppKey, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2222>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetApplicationAutoLaunch_tD3C961C939CCE20AB711DBC4CCEA75D1FD7D16B5* L_1 = L_0->___GetApplicationAutoLaunch;
 		String_t* L_2 = ___0_pchAppKey;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _GetApplicationAutoLaunch_Invoke_mB71CFD7AB441856ACD0332836867E260E6C78D3D_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2223>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2223>
 		return L_3;
 	}
 }
@@ -19896,7 +19896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationAutoLaunch
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_SetDefaultApplicationForMimeType_m87485D11DC93AD6A81640D4B7E75E4329FC55CBF (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchAppKey, String_t* ___1_pchMimeType, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2227>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2227>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_SetDefaultApplicationForMimeType_t20EAD51B0D0B39DEB7D40E66B3F112F0651A852B* L_1 = L_0->___SetDefaultApplicationForMimeType;
 		String_t* L_2 = ___0_pchAppKey;
@@ -19904,7 +19904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_SetDefaultApplication
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetDefaultApplicationForMimeType_Invoke_m9AD32DF0940AFC564126EF14C83E02100256C0AA_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2228>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2228>
 		return L_4;
 	}
 }
@@ -19912,7 +19912,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_SetDefaultApplication
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetDefaultApplicationForMimeType_mC1AFC7312EBC03475670A8345687488FBF03B2CE (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchMimeType, StringBuilder_t* ___1_pchAppKeyBuffer, uint32_t ___2_unAppKeyBufferLen, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2232>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2232>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetDefaultApplicationForMimeType_t33F32E03564ED826685AA592774DC85C14BEEDD8* L_1 = L_0->___GetDefaultApplicationForMimeType;
 		String_t* L_2 = ___0_pchMimeType;
@@ -19921,7 +19921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetDefaultApplicationFor
 		NullCheck(L_1);
 		bool L_5;
 		L_5 = _GetDefaultApplicationForMimeType_Invoke_mF28971FF692493B7126AA69D614560151006A194_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2233>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2233>
 		return L_5;
 	}
 }
@@ -19929,7 +19929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetDefaultApplicationFor
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationSupportedMimeTypes_mA25CC9D9A1198058E943752D0401B4950513F655 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchAppKey, StringBuilder_t* ___1_pchMimeTypesBuffer, uint32_t ___2_unMimeTypesBuffer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2237>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetApplicationSupportedMimeTypes_t382D111237AD7EF7B8E195D7D312FBA291785F3E* L_1 = L_0->___GetApplicationSupportedMimeTypes;
 		String_t* L_2 = ___0_pchAppKey;
@@ -19938,7 +19938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationSupportedM
 		NullCheck(L_1);
 		bool L_5;
 		L_5 = _GetApplicationSupportedMimeTypes_Invoke_m1CA9F4B9745679A7BB5D3C988193AC78445FE223_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2238>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2238>
 		return L_5;
 	}
 }
@@ -19946,7 +19946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationSupportedM
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationsThatSupportMimeType_m3A5484AD1FEDB53C5B0CB1288E9015C8DB3732DF (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchMimeType, StringBuilder_t* ___1_pchAppKeysThatSupportBuffer, uint32_t ___2_unAppKeysThatSupportBuffer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2242>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2242>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetApplicationsThatSupportMimeType_t13E456F2E3BB757B38C782C8D232665D83768832* L_1 = L_0->___GetApplicationsThatSupportMimeType;
 		String_t* L_2 = ___0_pchMimeType;
@@ -19955,7 +19955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationsThatS
 		NullCheck(L_1);
 		uint32_t L_5;
 		L_5 = _GetApplicationsThatSupportMimeType_Invoke_mC4F12913D6C4B6D7ADA7D96CDB9D211E7D055748_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2243>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2243>
 		return L_5;
 	}
 }
@@ -19963,7 +19963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationsThatS
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationLaunchArguments_m3A7585A3B803242B5258C2BDF2F157F9B7A75F4C (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, uint32_t ___0_unHandle, StringBuilder_t* ___1_pchArgs, uint32_t ___2_unArgs, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2247>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2247>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetApplicationLaunchArguments_t69693DEB05938AADA158E81C8AAF88C501D0B109* L_1 = L_0->___GetApplicationLaunchArguments;
 		uint32_t L_2 = ___0_unHandle;
@@ -19972,7 +19972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationLaunch
 		NullCheck(L_1);
 		uint32_t L_5;
 		L_5 = _GetApplicationLaunchArguments_Invoke_m98F42C6D63C138E494F8E2CE02C0F2FFC4A72923_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2248>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2248>
 		return L_5;
 	}
 }
@@ -19980,7 +19980,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationLaunch
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetStartingApplication_mF5933A337202F4074F3FC341EC61027C4455CEB9 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, StringBuilder_t* ___0_pchAppKeyBuffer, uint32_t ___1_unAppKeyBufferLen, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2252>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2252>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetStartingApplication_tDA95EDF3BE1DC20FBC8B29DC987670CDBEE52B0D* L_1 = L_0->___GetStartingApplication;
 		StringBuilder_t* L_2 = ___0_pchAppKeyBuffer;
@@ -19988,7 +19988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetStartingApplicatio
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _GetStartingApplication_Invoke_m81BE457BFFCB8904783B7966B618A1A1B6F96A02_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2253>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2253>
 		return L_4;
 	}
 }
@@ -19996,13 +19996,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetStartingApplicatio
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetTransitionState_mA0F48E9227AB3477FE8CEA5B2FD34BC0A63F25CE (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2257>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2257>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetTransitionState_t7860EFB586686276E29A860FC05FFBEABFDC2C3E* L_1 = L_0->___GetTransitionState;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = _GetTransitionState_Invoke_m7FDAA3614C831EF5259DDDA8AECD751144162209_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2258>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2258>
 		return L_2;
 	}
 }
@@ -20010,14 +20010,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetTransitionState_mA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_PerformApplicationPrelaunchCheck_mFA59999BD3288E194740B6FBA259396719C55017 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchAppKey, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2262>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2262>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_PerformApplicationPrelaunchCheck_t6EF3B4EE8FF95B1E260B81AB953E671803758FCB* L_1 = L_0->___PerformApplicationPrelaunchCheck;
 		String_t* L_2 = ___0_pchAppKey;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _PerformApplicationPrelaunchCheck_Invoke_m1602912DE2355B7453E73C23F77207D632113A55_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2263>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2263>
 		return L_3;
 	}
 }
@@ -20031,14 +20031,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRApplications_GetApplicationsTran
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2267>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetApplicationsTransitionStateNameFromEnum_tE7256117DDFAF6CDAD71A9D0CE7EFDC83B5D7D46* L_1 = L_0->___GetApplicationsTransitionStateNameFromEnum;
 		int32_t L_2 = ___0_state;
 		NullCheck(L_1);
 		intptr_t L_3;
 		L_3 = _GetApplicationsTransitionStateNameFromEnum_Invoke_mC1BBCCECAD7F9A04C8F3EB1F63B80F4483D8E625_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2268>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2268>
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		String_t* L_4;
 		L_4 = Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A(L_3, NULL);
@@ -20049,13 +20049,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRApplications_GetApplicationsTran
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_IsQuitUserPromptRequested_m318EA8186AA13FC65197ED6E574101630CCA521B (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2272>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2272>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_IsQuitUserPromptRequested_t92A7613624BD682887D5A8967C83708099EE5BBA* L_1 = L_0->___IsQuitUserPromptRequested;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _IsQuitUserPromptRequested_Invoke_mD1A56D1842EBD42075773FAAA582D2CCA13A0D75_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2273>
 		return L_2;
 	}
 }
@@ -20063,7 +20063,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_IsQuitUserPromptRequeste
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchInternalProcess_mE501CC6E3D8098CB400CFAA0B9524C402F846E17 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, String_t* ___0_pchBinaryPath, String_t* ___1_pchArguments, String_t* ___2_pchWorkingDirectory, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2277>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2277>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_LaunchInternalProcess_t6777545D14DAA61D1A83A5A3DA51018CCA92E4BF* L_1 = L_0->___LaunchInternalProcess;
 		String_t* L_2 = ___0_pchBinaryPath;
@@ -20072,7 +20072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchInternalProcess
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _LaunchInternalProcess_Invoke_m915685F14CA81F2C5B5A874FF474C8D840B00FAC_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2278>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2278>
 		return L_5;
 	}
 }
@@ -20080,13 +20080,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchInternalProcess
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetCurrentSceneProcessId_m7CC1B0FAE0D3E917759727A15040CEC0EF980460 (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2282>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2282>
 		IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9* L_0 = (IVRApplications_t514FC22F24D4E92F266BED6EFC7E478EB4743DE9*)(&__this->___FnTable);
 		_GetCurrentSceneProcessId_t71F4BAE23AE7A3333D0BD7AB0264B1BCC96BD05F* L_1 = L_0->___GetCurrentSceneProcessId;
 		NullCheck(L_1);
 		uint32_t L_2;
 		L_2 = _GetCurrentSceneProcessId_Invoke_mB288BD78E0F3D8E652EDDBD51C49CE13731E9F48_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2283>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2283>
 		return L_2;
 	}
 }
@@ -20110,9 +20110,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperone__ctor_mD0A8DF59B14B9AB0174F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2291>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2291>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2293>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2293>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -20144,7 +20144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperone__ctor_mD0A8DF59B14B9AB0174F
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___ForceBoundsVisible), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2294>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2294>
 		return;
 	}
 }
@@ -20152,13 +20152,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperone__ctor_mD0A8DF59B14B9AB0174F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRChaperone_GetCalibrationState_m6810F654E8493F2949A7018317EC16BDD171A64D (CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2297>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2297>
 		IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB* L_0 = (IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB*)(&__this->___FnTable);
 		_GetCalibrationState_t1AFD85FE859C72ADD2600F3AA6050C762BFDA8A6* L_1 = L_0->___GetCalibrationState;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = _GetCalibrationState_Invoke_mF412BB4A0FE035422A6F7A37644D41F9D04E0B19_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2298>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2298>
 		return L_2;
 	}
 }
@@ -20166,13 +20166,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRChaperone_GetCalibrationState_m681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperone_GetPlayAreaSize_m135A05FFA6E4D3DB1FE7D05BB321A846A323CD44 (CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7* __this, float* ___0_pSizeX, float* ___1_pSizeZ, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2302>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2302>
 		float* L_0 = ___0_pSizeX;
 		*((float*)L_0) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2303>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2303>
 		float* L_1 = ___1_pSizeZ;
 		*((float*)L_1) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2304>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2304>
 		IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB* L_2 = (IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB*)(&__this->___FnTable);
 		_GetPlayAreaSize_tD8DCFD70AE2DFF421706C976BE912C1AE8199D98* L_3 = L_2->___GetPlayAreaSize;
 		float* L_4 = ___0_pSizeX;
@@ -20180,7 +20180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperone_GetPlayAreaSize_m135A05FFA6
 		NullCheck(L_3);
 		bool L_6;
 		L_6 = _GetPlayAreaSize_Invoke_m3AC105BED55FFE8C376CE663954B95D72C2CC608_inline(L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2305>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2305>
 		return L_6;
 	}
 }
@@ -20188,14 +20188,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperone_GetPlayAreaSize_m135A05FFA6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperone_GetPlayAreaRect_m7AB9B5B731C094CBE3B29C0AC99E399D3AAA069D (CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7* __this, HmdQuad_t_t024B6D746F2FF3C1609895FB111FE853CBF7C78A* ___0_rect, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2309>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2309>
 		IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB* L_0 = (IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB*)(&__this->___FnTable);
 		_GetPlayAreaRect_t4EF5A642F58B105515B6F1334090F35E66072599* L_1 = L_0->___GetPlayAreaRect;
 		HmdQuad_t_t024B6D746F2FF3C1609895FB111FE853CBF7C78A* L_2 = ___0_rect;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _GetPlayAreaRect_Invoke_m8C1C1924DAE0FB2436AD1244870868F95FBF2A4F_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2310>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2310>
 		return L_3;
 	}
 }
@@ -20203,12 +20203,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperone_GetPlayAreaRect_m7AB9B5B731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperone_ReloadInfo_m8D9E5535BE1646C6D509E70373EABF7A38C42B1E (CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2314>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2314>
 		IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB* L_0 = (IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB*)(&__this->___FnTable);
 		_ReloadInfo_tD325C5625CAF6B2D6B26CA4C6674555470743FC8* L_1 = L_0->___ReloadInfo;
 		NullCheck(L_1);
 		_ReloadInfo_Invoke_m04C555EDD2AF1EE6A8B3DA4212B5088A815F5729_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2315>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2315>
 		return;
 	}
 }
@@ -20216,13 +20216,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperone_ReloadInfo_m8D9E5535BE1646C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperone_SetSceneColor_mD5A8406A0E4DA5537B36626AD84AA4706920A8E7 (CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7* __this, HmdColor_t_tD211FE8C3842A816107B1EA05CCFBE0C49625079 ___0_color, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2318>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2318>
 		IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB* L_0 = (IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB*)(&__this->___FnTable);
 		_SetSceneColor_tDF31CB54DC4C6C2B36AC1078D2F920803BA525BA* L_1 = L_0->___SetSceneColor;
 		HmdColor_t_tD211FE8C3842A816107B1EA05CCFBE0C49625079 L_2 = ___0_color;
 		NullCheck(L_1);
 		_SetSceneColor_Invoke_mF980A2673F65FB2679A0EE6FDE745299B311CDFF_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2319>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2319>
 		return;
 	}
 }
@@ -20230,7 +20230,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperone_SetSceneColor_mD5A8406A0E4D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperone_GetBoundsColor_m2DAA25DD3441F0774D327398DC0330C3B3C7A630 (CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7* __this, HmdColor_t_tD211FE8C3842A816107B1EA05CCFBE0C49625079* ___0_pOutputColorArray, int32_t ___1_nNumOutputColors, float ___2_flCollisionBoundsFadeDistance, HmdColor_t_tD211FE8C3842A816107B1EA05CCFBE0C49625079* ___3_pOutputCameraColor, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2322>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2322>
 		IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB* L_0 = (IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB*)(&__this->___FnTable);
 		_GetBoundsColor_t5336B5AE8B44BE10ACD232B1EC9501558C2F296D* L_1 = L_0->___GetBoundsColor;
 		HmdColor_t_tD211FE8C3842A816107B1EA05CCFBE0C49625079* L_2 = ___0_pOutputColorArray;
@@ -20239,7 +20239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperone_GetBoundsColor_m2DAA25DD344
 		HmdColor_t_tD211FE8C3842A816107B1EA05CCFBE0C49625079* L_5 = ___3_pOutputCameraColor;
 		NullCheck(L_1);
 		_GetBoundsColor_Invoke_m7251F20669F1EA02626C0D286221059E313C5AA6_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2323>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2323>
 		return;
 	}
 }
@@ -20247,13 +20247,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperone_GetBoundsColor_m2DAA25DD344
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperone_AreBoundsVisible_mD4A97ED05C5F613E45458BEB844E25125F1C3C32 (CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2326>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2326>
 		IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB* L_0 = (IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB*)(&__this->___FnTable);
 		_AreBoundsVisible_tF8D7BD9887C25D87D0D446B0CD4862D9F2D679F1* L_1 = L_0->___AreBoundsVisible;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _AreBoundsVisible_Invoke_m7B2D2018F635EB002C9CD64DC629F5469FC39B7C_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2327>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2327>
 		return L_2;
 	}
 }
@@ -20261,13 +20261,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperone_AreBoundsVisible_mD4A97ED05
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperone_ForceBoundsVisible_m32449F2F920EF36D0B8857CCF4656968904EA206 (CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7* __this, bool ___0_bForce, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2331>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2331>
 		IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB* L_0 = (IVRChaperone_t991FA89759F26D4928F7EDAE4610F16E935A3AAB*)(&__this->___FnTable);
 		_ForceBoundsVisible_t1A5CB76DC93B2C2BFF16D0621E300E8CA01039C6* L_1 = L_0->___ForceBoundsVisible;
 		bool L_2 = ___0_bForce;
 		NullCheck(L_1);
 		_ForceBoundsVisible_Invoke_mFD4C2728EA863CEB2E17BD1BC905B51A0ED6A4B3_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2332>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2332>
 		return;
 	}
 }
@@ -20291,9 +20291,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup__ctor_mB5288467BB57852
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2339>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2339>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2341>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2341>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -20361,7 +20361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup__ctor_mB5288467BB57852
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___ImportFromBufferToWorking), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2342>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2342>
 		return;
 	}
 }
@@ -20369,14 +20369,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup__ctor_mB5288467BB57852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_CommitWorkingCopy_m10AC1D2D653AC86E9CD12B8624F3994276E03D44 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, int32_t ___0_configFile, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2345>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2345>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_CommitWorkingCopy_t9880727C4FC8722E12AD8A2037A297558AB65A5D* L_1 = L_0->___CommitWorkingCopy;
 		int32_t L_2 = ___0_configFile;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _CommitWorkingCopy_Invoke_m34C88A1F8887761457D094B081583734AB1B9FFC_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2346>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2346>
 		return L_3;
 	}
 }
@@ -20384,12 +20384,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_CommitWorkingCopy_m10A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_RevertWorkingCopy_m6FA3764A956363B8056EA71E6E1205DB2ED11043 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2350>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2350>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_RevertWorkingCopy_tD878AE47408B87BFBD9F88411696E4D66A9166F5* L_1 = L_0->___RevertWorkingCopy;
 		NullCheck(L_1);
 		_RevertWorkingCopy_Invoke_mFB1BB4725FCE47571893805AE4162B7B390E3C50_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2351>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2351>
 		return;
 	}
 }
@@ -20397,13 +20397,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_RevertWorkingCopy_m6FA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingPlayAreaSize_m805B488AB9A69AF3027A4CB3335483FDEC4FDA74 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, float* ___0_pSizeX, float* ___1_pSizeZ, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2354>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2354>
 		float* L_0 = ___0_pSizeX;
 		*((float*)L_0) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2355>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2355>
 		float* L_1 = ___1_pSizeZ;
 		*((float*)L_1) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2356>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2356>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_2 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_GetWorkingPlayAreaSize_t7DBA8CB4F72E476C33FC993949DFE50F4439DD94* L_3 = L_2->___GetWorkingPlayAreaSize;
 		float* L_4 = ___0_pSizeX;
@@ -20411,7 +20411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingPlayAreaSize
 		NullCheck(L_3);
 		bool L_6;
 		L_6 = _GetWorkingPlayAreaSize_Invoke_m41183C2D17A077A77880638124A47FF1C7351A5D_inline(L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2357>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2357>
 		return L_6;
 	}
 }
@@ -20419,14 +20419,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingPlayAreaSize
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingPlayAreaRect_mD30C1D4F57ADFAF880D68D063A33F40C29065DE8 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, HmdQuad_t_t024B6D746F2FF3C1609895FB111FE853CBF7C78A* ___0_rect, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2361>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2361>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_GetWorkingPlayAreaRect_t7D3E0087CFA846DD295B57F7B1FEF5DF0D3AE24D* L_1 = L_0->___GetWorkingPlayAreaRect;
 		HmdQuad_t_t024B6D746F2FF3C1609895FB111FE853CBF7C78A* L_2 = ___0_rect;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _GetWorkingPlayAreaRect_Invoke_mBC499D63D6D17688075C6784DDB2E5A4C7226575_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2362>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2362>
 		return L_3;
 	}
 }
@@ -20441,21 +20441,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingCollisionBou
 	}
 	uint32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2366>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2366>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2367>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2367>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_GetWorkingCollisionBoundsInfo_tFA8242F1BE7D745000AC58309B1FF2D43B229D34* L_1 = L_0->___GetWorkingCollisionBoundsInfo;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _GetWorkingCollisionBoundsInfo_Invoke_m8325EB0CFCEBC0EE6B3AAD0ABAD1070F69E8F514_inline(L_1, (HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7*)NULL, (&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2368>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2368>
 		HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7** L_3 = ___0_pQuadsBuffer;
 		uint32_t L_4 = V_0;
 		HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7* L_5 = (HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7*)(HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7*)SZArrayNew(HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7_il2cpp_TypeInfo_var, (uint32_t)L_4);
 		*((RuntimeObject**)L_3) = (RuntimeObject*)L_5;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_3, (void*)(RuntimeObject*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2369>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2369>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_6 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_GetWorkingCollisionBoundsInfo_tFA8242F1BE7D745000AC58309B1FF2D43B229D34* L_7 = L_6->___GetWorkingCollisionBoundsInfo;
 		HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7** L_8 = ___0_pQuadsBuffer;
@@ -20463,7 +20463,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingCollisionBou
 		NullCheck(L_7);
 		bool L_10;
 		L_10 = _GetWorkingCollisionBoundsInfo_Invoke_m8325EB0CFCEBC0EE6B3AAD0ABAD1070F69E8F514_inline(L_7, L_9, (&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2370>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2370>
 		return L_10;
 	}
 }
@@ -20478,21 +20478,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLiveCollisionBounds
 	}
 	uint32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2374>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2374>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2375>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2375>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_GetLiveCollisionBoundsInfo_tBBF95292081C1D6AFCC74D184E2D5F97658C2BE3* L_1 = L_0->___GetLiveCollisionBoundsInfo;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _GetLiveCollisionBoundsInfo_Invoke_m379FA4CA26A3609BE8F74F6857CC618EA4F22537_inline(L_1, (HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7*)NULL, (&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2376>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2376>
 		HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7** L_3 = ___0_pQuadsBuffer;
 		uint32_t L_4 = V_0;
 		HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7* L_5 = (HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7*)(HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7*)SZArrayNew(HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7_il2cpp_TypeInfo_var, (uint32_t)L_4);
 		*((RuntimeObject**)L_3) = (RuntimeObject*)L_5;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_3, (void*)(RuntimeObject*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2377>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2377>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_6 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_GetLiveCollisionBoundsInfo_tBBF95292081C1D6AFCC74D184E2D5F97658C2BE3* L_7 = L_6->___GetLiveCollisionBoundsInfo;
 		HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7** L_8 = ___0_pQuadsBuffer;
@@ -20500,7 +20500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLiveCollisionBounds
 		NullCheck(L_7);
 		bool L_10;
 		L_10 = _GetLiveCollisionBoundsInfo_Invoke_m379FA4CA26A3609BE8F74F6857CC618EA4F22537_inline(L_7, L_9, (&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2378>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2378>
 		return L_10;
 	}
 }
@@ -20508,14 +20508,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLiveCollisionBounds
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingSeatedZeroPoseToRawTrackingPose_mA415C1BF535E086A639A108E658334F3EB6DC42D (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___0_pmatSeatedZeroPoseToRawTrackingPose, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2382>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2382>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_GetWorkingSeatedZeroPoseToRawTrackingPose_tE4AB0E734686910A211A85F28F949B9BD6D71B9C* L_1 = L_0->___GetWorkingSeatedZeroPoseToRawTrackingPose;
 		HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* L_2 = ___0_pmatSeatedZeroPoseToRawTrackingPose;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _GetWorkingSeatedZeroPoseToRawTrackingPose_Invoke_m2B7683228100650BA2A5A8135363D20F36E2FE02_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2383>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2383>
 		return L_3;
 	}
 }
@@ -20523,14 +20523,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingSeatedZeroPo
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingStandingZeroPoseToRawTrackingPose_m34275EE0FB5780A833BA228C97DDBA98C2B8EF66 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___0_pmatStandingZeroPoseToRawTrackingPose, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2387>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2387>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_GetWorkingStandingZeroPoseToRawTrackingPose_t4EC1736EF81202A06AB43288B0755CDA70D25C2E* L_1 = L_0->___GetWorkingStandingZeroPoseToRawTrackingPose;
 		HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* L_2 = ___0_pmatStandingZeroPoseToRawTrackingPose;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _GetWorkingStandingZeroPoseToRawTrackingPose_Invoke_m80E16C90EE52DD911594EE6D8425B98A0936535B_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2388>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2388>
 		return L_3;
 	}
 }
@@ -20538,14 +20538,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingStandingZero
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_SetWorkingPlayAreaSize_mC5D04DDD393EE4C5383575E2DAA0C704F43C9673 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, float ___0_sizeX, float ___1_sizeZ, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2392>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2392>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_SetWorkingPlayAreaSize_t6CF2DBD1BD53727008F32DECEC5333B6BA01DA2A* L_1 = L_0->___SetWorkingPlayAreaSize;
 		float L_2 = ___0_sizeX;
 		float L_3 = ___1_sizeZ;
 		NullCheck(L_1);
 		_SetWorkingPlayAreaSize_Invoke_m3D4798B506EE16BA0C855A98FE1EC559976E3D8C_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2393>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2393>
 		return;
 	}
 }
@@ -20553,7 +20553,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_SetWorkingPlayAreaSize
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_SetWorkingCollisionBoundsInfo_m4A976FD759A0EFA8122B639F0E99D96486AFAC81 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7* ___0_pQuadsBuffer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2396>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2396>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_SetWorkingCollisionBoundsInfo_t0DB6624DDC34CC10CB7B225EC7B085CB28EBBD70* L_1 = L_0->___SetWorkingCollisionBoundsInfo;
 		HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7* L_2 = ___0_pQuadsBuffer;
@@ -20561,7 +20561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_SetWorkingCollisionBou
 		NullCheck(L_3);
 		NullCheck(L_1);
 		_SetWorkingCollisionBoundsInfo_Invoke_m387AA5068701B6C7361593336F950F3C9253238E_inline(L_1, L_2, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2397>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2397>
 		return;
 	}
 }
@@ -20569,13 +20569,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_SetWorkingCollisionBou
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_SetWorkingSeatedZeroPoseToRawTrackingPose_m074C630E1994AC711D9EA777C17BE59408041DE0 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___0_pMatSeatedZeroPoseToRawTrackingPose, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2400>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2400>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_SetWorkingSeatedZeroPoseToRawTrackingPose_tD23D5C8E2151D6E1E6961881994FB8E22A48CD27* L_1 = L_0->___SetWorkingSeatedZeroPoseToRawTrackingPose;
 		HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* L_2 = ___0_pMatSeatedZeroPoseToRawTrackingPose;
 		NullCheck(L_1);
 		_SetWorkingSeatedZeroPoseToRawTrackingPose_Invoke_m719A83852E4C94D0F3D3A53A8905DA3BFAE30223_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2401>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2401>
 		return;
 	}
 }
@@ -20583,13 +20583,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_SetWorkingSeatedZeroPo
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_SetWorkingStandingZeroPoseToRawTrackingPose_mFF756EB71AFAA34C23428046C4DFA1BCB1938EC5 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___0_pMatStandingZeroPoseToRawTrackingPose, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2404>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2404>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_SetWorkingStandingZeroPoseToRawTrackingPose_tD3C959C457F041DBDB5536BFA162394586780DEC* L_1 = L_0->___SetWorkingStandingZeroPoseToRawTrackingPose;
 		HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* L_2 = ___0_pMatStandingZeroPoseToRawTrackingPose;
 		NullCheck(L_1);
 		_SetWorkingStandingZeroPoseToRawTrackingPose_Invoke_m8877268240C56A5C740CD3695BF79548EA0C4371_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2405>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2405>
 		return;
 	}
 }
@@ -20597,13 +20597,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_SetWorkingStandingZero
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_ReloadFromDisk_mB021A5A98A4F6B6FE8C08AAA7ED5B55DA5BB66A0 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, int32_t ___0_configFile, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2408>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2408>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_ReloadFromDisk_tC88E3E23183913569FB5D76838BD1F507A9E66DF* L_1 = L_0->___ReloadFromDisk;
 		int32_t L_2 = ___0_configFile;
 		NullCheck(L_1);
 		_ReloadFromDisk_Invoke_m9FF02461AC339276067A64643051349C30D61ECE_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2409>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2409>
 		return;
 	}
 }
@@ -20611,14 +20611,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_ReloadFromDisk_mB021A5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLiveSeatedZeroPoseToRawTrackingPose_mBF1D381BC10ADCDACE3101D5A2CFBA13728BA1F2 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___0_pmatSeatedZeroPoseToRawTrackingPose, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2412>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2412>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_GetLiveSeatedZeroPoseToRawTrackingPose_t835E3470CE57F4057BD78A49E82DF20E4BFAACEB* L_1 = L_0->___GetLiveSeatedZeroPoseToRawTrackingPose;
 		HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* L_2 = ___0_pmatSeatedZeroPoseToRawTrackingPose;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _GetLiveSeatedZeroPoseToRawTrackingPose_Invoke_m3D1522A32592431FC61541869CADD5A50EE2ED08_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2413>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2413>
 		return L_3;
 	}
 }
@@ -20626,7 +20626,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLiveSeatedZeroPoseT
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_SetWorkingCollisionBoundsTagsInfo_m44BE87570C4592B3895C3FCD68B127612535B360 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_pTagsBuffer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2417>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2417>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_SetWorkingCollisionBoundsTagsInfo_t8BB773F52B942457EF50428476486A892D4D6C7E* L_1 = L_0->___SetWorkingCollisionBoundsTagsInfo;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___0_pTagsBuffer;
@@ -20634,7 +20634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_SetWorkingCollisionBou
 		NullCheck(L_3);
 		NullCheck(L_1);
 		_SetWorkingCollisionBoundsTagsInfo_Invoke_m5A5C6235609C58A46B66A5613DB53A74937EDCD6_inline(L_1, L_2, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2418>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2418>
 		return;
 	}
 }
@@ -20649,21 +20649,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLiveCollisionBounds
 	}
 	uint32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2421>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2421>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2422>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2422>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_GetLiveCollisionBoundsTagsInfo_tEEE0147816C31226E25310B10CF277EF4B77959C* L_1 = L_0->___GetLiveCollisionBoundsTagsInfo;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _GetLiveCollisionBoundsTagsInfo_Invoke_m9D0ECDE31E730A6B6754DB3B4A31FF6CC366313C_inline(L_1, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, (&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2423>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2423>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** L_3 = ___0_pTagsBuffer;
 		uint32_t L_4 = V_0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_4);
 		*((RuntimeObject**)L_3) = (RuntimeObject*)L_5;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_3, (void*)(RuntimeObject*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2424>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2424>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_6 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_GetLiveCollisionBoundsTagsInfo_tEEE0147816C31226E25310B10CF277EF4B77959C* L_7 = L_6->___GetLiveCollisionBoundsTagsInfo;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** L_8 = ___0_pTagsBuffer;
@@ -20671,7 +20671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLiveCollisionBounds
 		NullCheck(L_7);
 		bool L_10;
 		L_10 = _GetLiveCollisionBoundsTagsInfo_Invoke_m9D0ECDE31E730A6B6754DB3B4A31FF6CC366313C_inline(L_7, L_9, (&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2425>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2425>
 		return L_10;
 	}
 }
@@ -20679,7 +20679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLiveCollisionBounds
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_SetWorkingPhysicalBoundsInfo_mFFD831ECAFB415FB3B42242B54ACA9C24477F291 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7* ___0_pQuadsBuffer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2429>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2429>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_SetWorkingPhysicalBoundsInfo_tD0E7DF0A43941807DC038C58539FCAD158104270* L_1 = L_0->___SetWorkingPhysicalBoundsInfo;
 		HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7* L_2 = ___0_pQuadsBuffer;
@@ -20688,7 +20688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_SetWorkingPhysicalBoun
 		NullCheck(L_1);
 		bool L_4;
 		L_4 = _SetWorkingPhysicalBoundsInfo_Invoke_m3CD9A2281505075F88CAF73EAA92D9097C53094C_inline(L_1, L_2, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2430>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2430>
 		return L_4;
 	}
 }
@@ -20703,21 +20703,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLivePhysicalBoundsI
 	}
 	uint32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2434>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2434>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2435>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2435>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_GetLivePhysicalBoundsInfo_t94E32D16FF7B09EC1D82B0E75718F164AF3C365D* L_1 = L_0->___GetLivePhysicalBoundsInfo;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _GetLivePhysicalBoundsInfo_Invoke_m7D91D754D956933FD5920317A0136F1066A9F0B4_inline(L_1, (HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7*)NULL, (&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2436>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2436>
 		HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7** L_3 = ___0_pQuadsBuffer;
 		uint32_t L_4 = V_0;
 		HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7* L_5 = (HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7*)(HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7*)SZArrayNew(HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7_il2cpp_TypeInfo_var, (uint32_t)L_4);
 		*((RuntimeObject**)L_3) = (RuntimeObject*)L_5;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_3, (void*)(RuntimeObject*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2437>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2437>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_6 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_GetLivePhysicalBoundsInfo_t94E32D16FF7B09EC1D82B0E75718F164AF3C365D* L_7 = L_6->___GetLivePhysicalBoundsInfo;
 		HmdQuad_tU5BU5D_t641864109E5A0C54ED0E904E1C9DCC0A75A449B7** L_8 = ___0_pQuadsBuffer;
@@ -20725,7 +20725,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLivePhysicalBoundsI
 		NullCheck(L_7);
 		bool L_10;
 		L_10 = _GetLivePhysicalBoundsInfo_Invoke_m7D91D754D956933FD5920317A0136F1066A9F0B4_inline(L_7, L_9, (&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2438>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2438>
 		return L_10;
 	}
 }
@@ -20733,10 +20733,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLivePhysicalBoundsI
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_ExportLiveToBuffer_m11C43F6B28F4E33BA5976C0C101D6380292E00E3 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, StringBuilder_t* ___0_pBuffer, uint32_t* ___1_pnBufferLength, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2442>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2442>
 		uint32_t* L_0 = ___1_pnBufferLength;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2443>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2443>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_1 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_ExportLiveToBuffer_tF5FBF7E71CFA6172127F8365E3C5D5334C46E303* L_2 = L_1->___ExportLiveToBuffer;
 		StringBuilder_t* L_3 = ___0_pBuffer;
@@ -20744,7 +20744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_ExportLiveToBuffer_m11
 		NullCheck(L_2);
 		bool L_5;
 		L_5 = _ExportLiveToBuffer_Invoke_m0A8F95B6CEF6C6862EECE56C2373F5CFC5CCFB16_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2444>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2444>
 		return L_5;
 	}
 }
@@ -20752,7 +20752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_ExportLiveToBuffer_m11
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_ImportFromBufferToWorking_m10CAC1DA5E1082149ABEA394E35949CBECE620D2 (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* __this, String_t* ___0_pBuffer, uint32_t ___1_nImportFlags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2448>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2448>
 		IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F* L_0 = (IVRChaperoneSetup_t4B83717DEF4B4594F4B730800E979923DEA0690F*)(&__this->___FnTable);
 		_ImportFromBufferToWorking_t16903557624BDA57E7BC42CFDA654DA7638AA641* L_1 = L_0->___ImportFromBufferToWorking;
 		String_t* L_2 = ___0_pBuffer;
@@ -20760,7 +20760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_ImportFromBufferToWork
 		NullCheck(L_1);
 		bool L_4;
 		L_4 = _ImportFromBufferToWorking_Invoke_m39AC7CA4A24D9FC6F3A271F9115E5C08315AD506_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2449>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2449>
 		return L_4;
 	}
 }
@@ -20784,9 +20784,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor__ctor_mD6542AAFD23DDF760AA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2457>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2457>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2459>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2459>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -20923,7 +20923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor__ctor_mD6542AAFD23DDF760AA
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___SubmitExplicitTimingData), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2460>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2460>
 		return;
 	}
 }
@@ -20931,13 +20931,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor__ctor_mD6542AAFD23DDF760AA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_SetTrackingSpace_m77AD210A7E8679675FAFC8FA74CFC7FE5DF30A9D (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, int32_t ___0_eOrigin, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2463>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2463>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_SetTrackingSpace_tBFF6CE3D8987B3CB8288FD148CA4E7882A9C754E* L_1 = L_0->___SetTrackingSpace;
 		int32_t L_2 = ___0_eOrigin;
 		NullCheck(L_1);
 		_SetTrackingSpace_Invoke_m8CD16FE34FF06941AA3F12D559337DCAA4473844_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2464>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2464>
 		return;
 	}
 }
@@ -20945,13 +20945,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_SetTrackingSpace_m77AD210A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetTrackingSpace_mEE4E191085F994081C294A00CD19CB7433C24CC1 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2467>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2467>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetTrackingSpace_t0562B59D5C76631A46ED7D4D5D00072DAA86D932* L_1 = L_0->___GetTrackingSpace;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = _GetTrackingSpace_Invoke_m10AB42482BF5B7B642B5F0B3212DFB802520C0F9_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2468>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2468>
 		return L_2;
 	}
 }
@@ -20959,7 +20959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetTrackingSpace_mEE4E1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_WaitGetPoses_m5F6A67C170966D863E5F5504B367C49ED0C57BBA (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, TrackedDevicePose_tU5BU5D_t668B884D1E47F6D4A6ED2A1CB395E6BC9EB547EE* ___0_pRenderPoseArray, TrackedDevicePose_tU5BU5D_t668B884D1E47F6D4A6ED2A1CB395E6BC9EB547EE* ___1_pGamePoseArray, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2472>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2472>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_WaitGetPoses_t65ED9115B474A9A3B0700D8807CFB5A723A60A08* L_1 = L_0->___WaitGetPoses;
 		TrackedDevicePose_tU5BU5D_t668B884D1E47F6D4A6ED2A1CB395E6BC9EB547EE* L_2 = ___0_pRenderPoseArray;
@@ -20971,7 +20971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_WaitGetPoses_m5F6A67C17
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _WaitGetPoses_Invoke_m3EA229728520313C18957775C248403F20F58EB2_inline(L_1, L_2, ((int32_t)(((RuntimeArray*)L_3)->max_length)), L_4, ((int32_t)(((RuntimeArray*)L_5)->max_length)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2473>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2473>
 		return L_6;
 	}
 }
@@ -20979,7 +20979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_WaitGetPoses_m5F6A67C17
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetLastPoses_mEA0343D9A45080E4476129CD37AFCB7399BBBBC8 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, TrackedDevicePose_tU5BU5D_t668B884D1E47F6D4A6ED2A1CB395E6BC9EB547EE* ___0_pRenderPoseArray, TrackedDevicePose_tU5BU5D_t668B884D1E47F6D4A6ED2A1CB395E6BC9EB547EE* ___1_pGamePoseArray, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2477>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2477>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetLastPoses_t5B065AF3302B75CC6E4503A49AB098E2C374BFAD* L_1 = L_0->___GetLastPoses;
 		TrackedDevicePose_tU5BU5D_t668B884D1E47F6D4A6ED2A1CB395E6BC9EB547EE* L_2 = ___0_pRenderPoseArray;
@@ -20991,7 +20991,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetLastPoses_mEA0343D9A
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _GetLastPoses_Invoke_m0C5BF7432F5C9E156BE302A1A91B050FD820775B_inline(L_1, L_2, ((int32_t)(((RuntimeArray*)L_3)->max_length)), L_4, ((int32_t)(((RuntimeArray*)L_5)->max_length)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2478>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2478>
 		return L_6;
 	}
 }
@@ -20999,7 +20999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetLastPoses_mEA0343D9A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetLastPoseForTrackedDeviceIndex_mA00417DF46FED6E9C35DB9C38A48DF83DA33D220 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, uint32_t ___0_unDeviceIndex, TrackedDevicePose_t_tEA070E1560BC50A88F8237D1DB91D90A91A02259* ___1_pOutputPose, TrackedDevicePose_t_tEA070E1560BC50A88F8237D1DB91D90A91A02259* ___2_pOutputGamePose, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2482>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2482>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetLastPoseForTrackedDeviceIndex_t5A0CA1821264304990B74D6D8A4F35C1B83F0BAF* L_1 = L_0->___GetLastPoseForTrackedDeviceIndex;
 		uint32_t L_2 = ___0_unDeviceIndex;
@@ -21008,7 +21008,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetLastPoseForTrackedDe
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _GetLastPoseForTrackedDeviceIndex_Invoke_m7B8B80E6196C894834AC4910222D4EEB76C925B5_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2483>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2483>
 		return L_5;
 	}
 }
@@ -21016,7 +21016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetLastPoseForTrackedDe
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_Submit_mF8FF270B8727361E4621B0D71B30C7B5309D7DDF (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, int32_t ___0_eEye, Texture_t_tFB45C121EC1C6016549D7A8194F11C1338E42196* ___1_pTexture, VRTextureBounds_t_tAF4CD1C68BA9CB7C330262817761A7C07612CAB9* ___2_pBounds, int32_t ___3_nSubmitFlags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2487>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2487>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_Submit_t0F332246BDCEBC756C84B4EAD2486D627769135A* L_1 = L_0->___Submit;
 		int32_t L_2 = ___0_eEye;
@@ -21026,7 +21026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_Submit_mF8FF270B8727361
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _Submit_Invoke_m98A8205E3BC931A5465A12BC6E13F5529A450E1A_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2488>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2488>
 		return L_6;
 	}
 }
@@ -21034,12 +21034,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_Submit_mF8FF270B8727361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ClearLastSubmittedFrame_m4260AF157B25DF1274F0CC5957603D6B38C912C2 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2492>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2492>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_ClearLastSubmittedFrame_tAFC2410938A79F715664C19A2F2C3CE9BA5DC544* L_1 = L_0->___ClearLastSubmittedFrame;
 		NullCheck(L_1);
 		_ClearLastSubmittedFrame_Invoke_mD8572E9424567673989F3A58A73250CE268E25AD_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2493>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2493>
 		return;
 	}
 }
@@ -21047,12 +21047,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ClearLastSubmittedFrame_m4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_PostPresentHandoff_m5A4E62F491F935D6E2BB41BD91E7C6A72EEF01DC (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2496>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2496>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_PostPresentHandoff_t2FB1A151C07D0DBD1CFAD942FD9C57595C89A118* L_1 = L_0->___PostPresentHandoff;
 		NullCheck(L_1);
 		_PostPresentHandoff_Invoke_mB69B30CE11801A9BA2FA3D11116B7DAF56106B9F_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2497>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2497>
 		return;
 	}
 }
@@ -21060,7 +21060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_PostPresentHandoff_m5A4E62
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_GetFrameTiming_m7E62FF4DF9222C662AAFF626ADE63CAA28AD3C3D (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, Compositor_FrameTiming_tC2EE3D304C589FC46FAE1A475C01AD029F7A2B5E* ___0_pTiming, uint32_t ___1_unFramesAgo, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2500>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2500>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetFrameTiming_t9615F6E82A00672215641F1ED69036DDCAEAB4B4* L_1 = L_0->___GetFrameTiming;
 		Compositor_FrameTiming_tC2EE3D304C589FC46FAE1A475C01AD029F7A2B5E* L_2 = ___0_pTiming;
@@ -21068,7 +21068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_GetFrameTiming_m7E62FF4DF9
 		NullCheck(L_1);
 		bool L_4;
 		L_4 = _GetFrameTiming_Invoke_mC3ABD64C016D08BCB3375B3A0AC91E170CE4F0EB_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2501>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2501>
 		return L_4;
 	}
 }
@@ -21076,7 +21076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_GetFrameTiming_m7E62FF4DF9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetFrameTimings_m9265C21288E782B47E4E9026A41FABE56B9AC651 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, Compositor_FrameTiming_tC2EE3D304C589FC46FAE1A475C01AD029F7A2B5E* ___0_pTiming, uint32_t ___1_nFrames, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2505>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2505>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetFrameTimings_tD753E5BEC77A893B88CA8B01985E43C6DC4CE051* L_1 = L_0->___GetFrameTimings;
 		Compositor_FrameTiming_tC2EE3D304C589FC46FAE1A475C01AD029F7A2B5E* L_2 = ___0_pTiming;
@@ -21084,7 +21084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetFrameTimings_m9265C
 		NullCheck(L_1);
 		uint32_t L_4;
 		L_4 = _GetFrameTimings_Invoke_m222E9B0142CD500720475883D6247FB443C44F73_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2506>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2506>
 		return L_4;
 	}
 }
@@ -21092,13 +21092,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetFrameTimings_m9265C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRCompositor_GetFrameTimeRemaining_mD961FE75F7190C8B3BC7CFD74B3A02C91FF6C3FF (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2510>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2510>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetFrameTimeRemaining_t67ADEF5FEFDF70005598F4765C6396DD22FA6001* L_1 = L_0->___GetFrameTimeRemaining;
 		NullCheck(L_1);
 		float L_2;
 		L_2 = _GetFrameTimeRemaining_Invoke_m95207F561B1D6F5130921ABCF1FC143910458B4D_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2511>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2511>
 		return L_2;
 	}
 }
@@ -21106,14 +21106,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRCompositor_GetFrameTimeRemaining_mD9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_GetCumulativeStats_mCFE41CCA3E3E24FECC0D62401F5082360D5A0E84 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, Compositor_CumulativeStats_t7BDA9E2382AE22E26921CC14ED92B12A850F2CC3* ___0_pStats, uint32_t ___1_nStatsSizeInBytes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2515>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2515>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetCumulativeStats_tD4D354FC6FC968C74965B559E9024A51685E5855* L_1 = L_0->___GetCumulativeStats;
 		Compositor_CumulativeStats_t7BDA9E2382AE22E26921CC14ED92B12A850F2CC3* L_2 = ___0_pStats;
 		uint32_t L_3 = ___1_nStatsSizeInBytes;
 		NullCheck(L_1);
 		_GetCumulativeStats_Invoke_m91FBD26F2DF70E9789D8FB304D9D08886BDA74BE_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2516>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2516>
 		return;
 	}
 }
@@ -21121,7 +21121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_GetCumulativeStats_mCFE41C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_FadeToColor_m1F5A7E4A7564D2379EF15B6D7690914F1F0BFDF2 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, float ___0_fSeconds, float ___1_fRed, float ___2_fGreen, float ___3_fBlue, float ___4_fAlpha, bool ___5_bBackground, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2519>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2519>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_FadeToColor_t121E6287BED1BD11330F7D40E4468E800A3F9884* L_1 = L_0->___FadeToColor;
 		float L_2 = ___0_fSeconds;
@@ -21132,7 +21132,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_FadeToColor_m1F5A7E4A7564D
 		bool L_7 = ___5_bBackground;
 		NullCheck(L_1);
 		_FadeToColor_Invoke_mEE39864E4AB6950441919CE07C9697AF7DF41BAB_inline(L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2520>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2520>
 		return;
 	}
 }
@@ -21140,14 +21140,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_FadeToColor_m1F5A7E4A7564D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdColor_t_tD211FE8C3842A816107B1EA05CCFBE0C49625079 CVRCompositor_GetCurrentFadeColor_m4D475E3A2737AC44DABAC63921C85636D8E932BE (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, bool ___0_bBackground, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2523>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2523>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetCurrentFadeColor_t2D44A08815BA84F67615068B442EA5EEB7A0BE7A* L_1 = L_0->___GetCurrentFadeColor;
 		bool L_2 = ___0_bBackground;
 		NullCheck(L_1);
 		HmdColor_t_tD211FE8C3842A816107B1EA05CCFBE0C49625079 L_3;
 		L_3 = _GetCurrentFadeColor_Invoke_mB10CA528379CAB0523412B21D2CD945BB6E3EEB6_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2524>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2524>
 		return L_3;
 	}
 }
@@ -21155,14 +21155,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdColor_t_tD211FE8C3842A816107B1EA05CCFBE0C4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_FadeGrid_mB92938302599FBC7CC8538B4B1A6837273DC9249 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, float ___0_fSeconds, bool ___1_bFadeIn, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2528>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2528>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_FadeGrid_t650CDF2A23FC729AC210548E8CBA0CB913B96979* L_1 = L_0->___FadeGrid;
 		float L_2 = ___0_fSeconds;
 		bool L_3 = ___1_bFadeIn;
 		NullCheck(L_1);
 		_FadeGrid_Invoke_mD23D58971DF1184F8BF1D52B4BA97241009AE200_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2529>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2529>
 		return;
 	}
 }
@@ -21170,13 +21170,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_FadeGrid_mB92938302599FBC7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRCompositor_GetCurrentGridAlpha_m9E2B13281D0C4A736AAE451C8A082078B4255D01 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2532>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2532>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetCurrentGridAlpha_t7487679E150A9E30EACD9E79986D9A16DF14025B* L_1 = L_0->___GetCurrentGridAlpha;
 		NullCheck(L_1);
 		float L_2;
 		L_2 = _GetCurrentGridAlpha_Invoke_m7D1E93DE245A3521A16B40F4B15DB7EE997962AF_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2533>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2533>
 		return L_2;
 	}
 }
@@ -21184,7 +21184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRCompositor_GetCurrentGridAlpha_m9E2B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_SetSkyboxOverride_m55AF8CF40CD9EA388A473115BC4E50B024BE8F24 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, Texture_tU5BU5D_tA99C1A5C0AE425DAA8D886826FA35CDA65C50136* ___0_pTextures, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2537>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2537>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_SetSkyboxOverride_t799A7CCEE3BFB04FA19C37FA15DAF2072B981D1F* L_1 = L_0->___SetSkyboxOverride;
 		Texture_tU5BU5D_tA99C1A5C0AE425DAA8D886826FA35CDA65C50136* L_2 = ___0_pTextures;
@@ -21193,7 +21193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_SetSkyboxOverride_m55AF
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetSkyboxOverride_Invoke_mADB11EAADF04AEDCB2FEB4C89684682ABA003279_inline(L_1, L_2, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2538>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2538>
 		return L_4;
 	}
 }
@@ -21201,12 +21201,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_SetSkyboxOverride_m55AF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ClearSkyboxOverride_mC5611B36FEFE26E31A23896452D533791B605554 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2542>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2542>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_ClearSkyboxOverride_t46B668F129492C03591F08B0BE9AFDBB97A00691* L_1 = L_0->___ClearSkyboxOverride;
 		NullCheck(L_1);
 		_ClearSkyboxOverride_Invoke_m565F34140DE5435A45245E0FB86BDAEC52184BBD_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2543>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2543>
 		return;
 	}
 }
@@ -21214,12 +21214,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ClearSkyboxOverride_mC5611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_CompositorBringToFront_m092124AD346C26E6BF3CBEB49DD21646F3C4CD50 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2546>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2546>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_CompositorBringToFront_t3D928D19F5047ECA3746D22DB2DFF8F1154B6274* L_1 = L_0->___CompositorBringToFront;
 		NullCheck(L_1);
 		_CompositorBringToFront_Invoke_m34014D357F23E5601DB0FCDCA8C003BA0081A70F_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2547>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2547>
 		return;
 	}
 }
@@ -21227,12 +21227,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_CompositorBringToFront_m09
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_CompositorGoToBack_m391B5A7E4ACBD2B44E8B5C27BD8E0722D1C45F31 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2550>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2550>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_CompositorGoToBack_t253B7AA8875601E4359CF02577C6243E44DF3272* L_1 = L_0->___CompositorGoToBack;
 		NullCheck(L_1);
 		_CompositorGoToBack_Invoke_m88CFF38F8074B54AEEB4422FD9FAF5753E081C05_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2551>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2551>
 		return;
 	}
 }
@@ -21240,12 +21240,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_CompositorGoToBack_m391B5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_CompositorQuit_m8D1823DB304134C031A0ED4DC99DC55B476FDFC6 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2554>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2554>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_CompositorQuit_t6F2BD0FE1FEC12D10AB988127D619C4DE16DC2FB* L_1 = L_0->___CompositorQuit;
 		NullCheck(L_1);
 		_CompositorQuit_Invoke_m9F24558E0FCFB2F7FFBC2EA1AF2AC8BB622791B3_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2555>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2555>
 		return;
 	}
 }
@@ -21253,13 +21253,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_CompositorQuit_m8D1823DB30
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_IsFullscreen_m631D1525A780A9B5CD38150852B7AFF7A6ED204E (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2558>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2558>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_IsFullscreen_tFD9DFC2C0CF21DDAB127E99BF936B17E188DAFFA* L_1 = L_0->___IsFullscreen;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _IsFullscreen_Invoke_m1906A8DF0248DC37A2BC0DA75D8F98738CF2B4C7_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2559>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2559>
 		return L_2;
 	}
 }
@@ -21267,13 +21267,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_IsFullscreen_m631D1525A780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetCurrentSceneFocusProcess_mE63027794B51FE8FEBD8BFAD9A437ED27CAAAD6E (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2563>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2563>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetCurrentSceneFocusProcess_tCF8A2124575A09E3929B5B8A421C99FD95FCC79C* L_1 = L_0->___GetCurrentSceneFocusProcess;
 		NullCheck(L_1);
 		uint32_t L_2;
 		L_2 = _GetCurrentSceneFocusProcess_Invoke_m9FBCBB33685CE97A6116EE1713A571A95A751E8F_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2564>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2564>
 		return L_2;
 	}
 }
@@ -21281,13 +21281,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetCurrentSceneFocusPr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetLastFrameRenderer_mDA1A4419304A95386A9EAA656DF7BE993ADFB11E (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2568>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2568>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetLastFrameRenderer_t244108CB75920FA45C3C8C49F9DF411283392DE6* L_1 = L_0->___GetLastFrameRenderer;
 		NullCheck(L_1);
 		uint32_t L_2;
 		L_2 = _GetLastFrameRenderer_Invoke_m0F605B7BA9838377645294B93805861CA6425DB3_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2569>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2569>
 		return L_2;
 	}
 }
@@ -21295,13 +21295,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetLastFrameRenderer_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_CanRenderScene_mAF631E6126E0E7F456F9F3698D006358D759CD3B (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2573>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2573>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_CanRenderScene_t87BD55B23A6E762F046FEC7A07AEAEF4256C61AB* L_1 = L_0->___CanRenderScene;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _CanRenderScene_Invoke_m898068006DEED7BF4FA23A0C16EE1A50A447EB9E_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2574>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2574>
 		return L_2;
 	}
 }
@@ -21309,12 +21309,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_CanRenderScene_mAF631E6126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ShowMirrorWindow_m3688C45BA070D78D6FD5537A2926FA509DA74FE1 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2578>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2578>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_ShowMirrorWindow_tAB2A3E209CE89E9F4715D5A5C3D0BE1FB8E8A3F4* L_1 = L_0->___ShowMirrorWindow;
 		NullCheck(L_1);
 		_ShowMirrorWindow_Invoke_m990490DE081B2A1EC740CFAB3B9835A56BFF2D5E_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2579>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2579>
 		return;
 	}
 }
@@ -21322,12 +21322,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ShowMirrorWindow_m3688C45B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_HideMirrorWindow_m9B28CBFA93AF1D73499D536F7B75CC4905E531A9 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2582>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2582>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_HideMirrorWindow_t2AF8703671D7F3CA01738924AC4935CE82317F0A* L_1 = L_0->___HideMirrorWindow;
 		NullCheck(L_1);
 		_HideMirrorWindow_Invoke_m3C71F33367BCBF8BD7D9F8220427077831DD31B1_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2583>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2583>
 		return;
 	}
 }
@@ -21335,13 +21335,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_HideMirrorWindow_m9B28CBFA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_IsMirrorWindowVisible_mF51E6722358524A0C56D4D17EEBF89DF4ECEBE6C (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2586>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2586>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_IsMirrorWindowVisible_tEEC6293C1C832ACF124B96757EBDBF064BBDBDBF* L_1 = L_0->___IsMirrorWindowVisible;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _IsMirrorWindowVisible_Invoke_mF661BDE24A490AD26BFE4950D1E1E7A048E0EDA2_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2587>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2587>
 		return L_2;
 	}
 }
@@ -21349,12 +21349,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_IsMirrorWindowVisible_mF51
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_CompositorDumpImages_m6F40376C3F57EA50FDA51442BDCF27B4210DB265 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2591>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2591>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_CompositorDumpImages_t2C607DC32885967B6D53D75F5681FF58D419AFF1* L_1 = L_0->___CompositorDumpImages;
 		NullCheck(L_1);
 		_CompositorDumpImages_Invoke_m4555BDD98C887B7638E2070EE9DBD04B49BA0955_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2592>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2592>
 		return;
 	}
 }
@@ -21362,13 +21362,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_CompositorDumpImages_m6F40
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_ShouldAppRenderWithLowResources_m42B539D5A132E20283668090579E9C616DD29BA4 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2595>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2595>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_ShouldAppRenderWithLowResources_t6CBAEE18B3987BBBC64E748CF31AA0801DD4CDB4* L_1 = L_0->___ShouldAppRenderWithLowResources;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _ShouldAppRenderWithLowResources_Invoke_mC21C581EBBED3E2E831573D0C7F7828B7E342256_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2596>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2596>
 		return L_2;
 	}
 }
@@ -21376,13 +21376,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_ShouldAppRenderWithLowReso
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ForceInterleavedReprojectionOn_m071AD1A7A478F6351E086AA106C892FB5A007F90 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, bool ___0_bOverride, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2600>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2600>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_ForceInterleavedReprojectionOn_t2E2159CCDB19E331E6F37A293765F1646A56DA22* L_1 = L_0->___ForceInterleavedReprojectionOn;
 		bool L_2 = ___0_bOverride;
 		NullCheck(L_1);
 		_ForceInterleavedReprojectionOn_Invoke_mE5DFF2ECD06086C8A3BAF1A6439410EAC51365C0_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2601>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2601>
 		return;
 	}
 }
@@ -21390,12 +21390,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ForceInterleavedReprojecti
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ForceReconnectProcess_mE61A44BD224440C00E3D8A71D1D4DEF6618C6388 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2604>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2604>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_ForceReconnectProcess_tD19461D2311A958A867AAE0F41FCBA76495CA56B* L_1 = L_0->___ForceReconnectProcess;
 		NullCheck(L_1);
 		_ForceReconnectProcess_Invoke_m97957289C481C286E11E7DECC9699D5E65256836_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2605>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2605>
 		return;
 	}
 }
@@ -21403,13 +21403,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ForceReconnectProcess_mE61
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_SuspendRendering_mB22B788D20A4F420FF7D4A4EC6B2BE9451C8B037 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, bool ___0_bSuspend, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2608>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2608>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_SuspendRendering_tB799E0505ACBE20AFAF327ED90A7C055CD496183* L_1 = L_0->___SuspendRendering;
 		bool L_2 = ___0_bSuspend;
 		NullCheck(L_1);
 		_SuspendRendering_Invoke_m0DBB03B8696C54FFD5F75BC2E5287394DA79DF0D_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2609>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2609>
 		return;
 	}
 }
@@ -21417,7 +21417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_SuspendRendering_mB22B788D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetMirrorTextureD3D11_mA4FA07C03E43FBE09104731F9D7DF2EE23125D79 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, int32_t ___0_eEye, intptr_t ___1_pD3D11DeviceOrResource, intptr_t* ___2_ppD3D11ShaderResourceView, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2612>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2612>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetMirrorTextureD3D11_t733C3FDD9CC32072F8C2CF65DB3455724D892783* L_1 = L_0->___GetMirrorTextureD3D11;
 		int32_t L_2 = ___0_eEye;
@@ -21426,7 +21426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetMirrorTextureD3D11_m
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _GetMirrorTextureD3D11_Invoke_m8D7B9EC40E74B91737377CF831148A79878DA1B1_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2613>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2613>
 		return L_5;
 	}
 }
@@ -21434,13 +21434,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetMirrorTextureD3D11_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ReleaseMirrorTextureD3D11_m778D2386AC2B9BC35CC1B8E9DC190D85444D102F (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, intptr_t ___0_pD3D11ShaderResourceView, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2617>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2617>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_ReleaseMirrorTextureD3D11_tFDF453C21A503D26C0A7CD18323D53E6D527F10A* L_1 = L_0->___ReleaseMirrorTextureD3D11;
 		intptr_t L_2 = ___0_pD3D11ShaderResourceView;
 		NullCheck(L_1);
 		_ReleaseMirrorTextureD3D11_Invoke_m7BC6051C206D7908CF9D25575BF5327490927C45_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2618>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2618>
 		return;
 	}
 }
@@ -21448,10 +21448,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ReleaseMirrorTextureD3D11_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetMirrorTextureGL_m14032694BDD88810DB7507D383BB38FCCC761D37 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, int32_t ___0_eEye, uint32_t* ___1_pglTextureId, intptr_t ___2_pglSharedTextureHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2621>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2621>
 		uint32_t* L_0 = ___1_pglTextureId;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2622>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2622>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_1 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetMirrorTextureGL_t6930BF51F5E7D78D356A7BE75D862736E605A653* L_2 = L_1->___GetMirrorTextureGL;
 		int32_t L_3 = ___0_eEye;
@@ -21460,7 +21460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetMirrorTextureGL_m140
 		NullCheck(L_2);
 		int32_t L_6;
 		L_6 = _GetMirrorTextureGL_Invoke_mE83752F0782E77DDF305ADD4CDA204A7CC1833EB_inline(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2623>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2623>
 		return L_6;
 	}
 }
@@ -21468,7 +21468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetMirrorTextureGL_m140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_ReleaseSharedGLTexture_mAD037D24BEC2915D1EC3174C0B35355AEC35C526 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, uint32_t ___0_glTextureId, intptr_t ___1_glSharedTextureHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2627>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2627>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_ReleaseSharedGLTexture_t5F693BC0577C88F2EE86A139F306C868B0BA3921* L_1 = L_0->___ReleaseSharedGLTexture;
 		uint32_t L_2 = ___0_glTextureId;
@@ -21476,7 +21476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_ReleaseSharedGLTexture_mAD
 		NullCheck(L_1);
 		bool L_4;
 		L_4 = _ReleaseSharedGLTexture_Invoke_m2A4CC481860162C60990BD925498C97BBF400F59_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2628>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2628>
 		return L_4;
 	}
 }
@@ -21484,13 +21484,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_ReleaseSharedGLTexture_mAD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_LockGLSharedTextureForAccess_m1C3EC4515C4CABF79354B75C9063B99D3DF9B057 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, intptr_t ___0_glSharedTextureHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2632>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2632>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_LockGLSharedTextureForAccess_t5A3857BB8E6BC71B0E2BC317C4915A0744F8E9EC* L_1 = L_0->___LockGLSharedTextureForAccess;
 		intptr_t L_2 = ___0_glSharedTextureHandle;
 		NullCheck(L_1);
 		_LockGLSharedTextureForAccess_Invoke_m870F5EF8AE43904EE35C635FBBAC8D58D31572F4_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2633>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2633>
 		return;
 	}
 }
@@ -21498,13 +21498,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_LockGLSharedTextureForAcce
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_UnlockGLSharedTextureForAccess_mE6B5759F04AE8164CCEA7DF18B985F3865C5C7EE (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, intptr_t ___0_glSharedTextureHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2636>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2636>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_UnlockGLSharedTextureForAccess_t627213672696F793927BFE4FBE1591E0DA645705* L_1 = L_0->___UnlockGLSharedTextureForAccess;
 		intptr_t L_2 = ___0_glSharedTextureHandle;
 		NullCheck(L_1);
 		_UnlockGLSharedTextureForAccess_Invoke_mFF3770CC9DBDC48ECBED0C90D61850CDACA51050_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2637>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2637>
 		return;
 	}
 }
@@ -21512,7 +21512,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_UnlockGLSharedTextureForAc
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetVulkanInstanceExtensionsRequired_m54BCEE350CCCF3228F04C652D885413A0E9EA8CA (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, StringBuilder_t* ___0_pchValue, uint32_t ___1_unBufferSize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2640>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2640>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetVulkanInstanceExtensionsRequired_t02214D401773984820B15BB8BA1873BE301E0B7D* L_1 = L_0->___GetVulkanInstanceExtensionsRequired;
 		StringBuilder_t* L_2 = ___0_pchValue;
@@ -21520,7 +21520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetVulkanInstanceExten
 		NullCheck(L_1);
 		uint32_t L_4;
 		L_4 = _GetVulkanInstanceExtensionsRequired_Invoke_mB17BF65FFD00AEBAAD04BE96440182553C659BB5_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2641>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2641>
 		return L_4;
 	}
 }
@@ -21528,7 +21528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetVulkanInstanceExten
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetVulkanDeviceExtensionsRequired_m5F0D12983E0A6D842AF11224950BA48049419257 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, intptr_t ___0_pPhysicalDevice, StringBuilder_t* ___1_pchValue, uint32_t ___2_unBufferSize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2645>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2645>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_GetVulkanDeviceExtensionsRequired_tE8B9F0DC9BE6558BED74371D154A5676F1EC6593* L_1 = L_0->___GetVulkanDeviceExtensionsRequired;
 		intptr_t L_2 = ___0_pPhysicalDevice;
@@ -21537,7 +21537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetVulkanDeviceExtensi
 		NullCheck(L_1);
 		uint32_t L_5;
 		L_5 = _GetVulkanDeviceExtensionsRequired_Invoke_m2B1A9B81794BB69AC94F7B45144F43FD1EB97E65_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2646>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2646>
 		return L_5;
 	}
 }
@@ -21545,13 +21545,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetVulkanDeviceExtensi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_SetExplicitTimingMode_mC4B88A78DF7D8FC936124C95A5BD27826B178803 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, int32_t ___0_eTimingMode, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2650>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2650>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_SetExplicitTimingMode_t12D5085E4D2285D32D78A90A97AEC2D1EEA6898C* L_1 = L_0->___SetExplicitTimingMode;
 		int32_t L_2 = ___0_eTimingMode;
 		NullCheck(L_1);
 		_SetExplicitTimingMode_Invoke_m0FA507F316F4BD9F9B1F3FF5759A09A2D267F1A3_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2651>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2651>
 		return;
 	}
 }
@@ -21559,13 +21559,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_SetExplicitTimingMode_mC4B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_SubmitExplicitTimingData_m2683802663F02343CB6DEDF1CF08F9F09EB8C822 (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2654>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2654>
 		IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0* L_0 = (IVRCompositor_tA115D9B9E7B67163A0501BF1F5DFBDA439849EB0*)(&__this->___FnTable);
 		_SubmitExplicitTimingData_t0AC2595316A9044B5B49CB787DC94AE767995C1E* L_1 = L_0->___SubmitExplicitTimingData;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = _SubmitExplicitTimingData_Invoke_mDD83754541755978E21D84525326A81D2230B6F0_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2655>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2655>
 		return L_2;
 	}
 }
@@ -21589,9 +21589,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlay__ctor_mAFDD8A03579398D5CF2194
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2663>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2663>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2665>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2665>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -21845,7 +21845,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlay__ctor_mAFDD8A03579398D5CF2194
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___CloseMessageOverlay), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2666>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2666>
 		return;
 	}
 }
@@ -21853,10 +21853,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlay__ctor_mAFDD8A03579398D5CF2194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_FindOverlay_m87440B7A9668656B26764BA04DFCB52E48DEED1E (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, String_t* ___0_pchOverlayKey, uint64_t* ___1_pOverlayHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2669>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2669>
 		uint64_t* L_0 = ___1_pOverlayHandle;
 		*((int64_t*)L_0) = (int64_t)((int64_t)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2670>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2670>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_1 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_FindOverlay_tAE960AA2C6B42919AD03CE164D7D39A22BB01033* L_2 = L_1->___FindOverlay;
 		String_t* L_3 = ___0_pchOverlayKey;
@@ -21864,7 +21864,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_FindOverlay_m87440B7A96686
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = _FindOverlay_Invoke_m2A3BE25B833B1C61076A5600726542BFF36EDF16_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2671>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2671>
 		return L_5;
 	}
 }
@@ -21872,10 +21872,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_FindOverlay_m87440B7A96686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_CreateOverlay_m971CF579F222B3D7CB64C28AB6CF543883BD49C9 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, String_t* ___0_pchOverlayKey, String_t* ___1_pchOverlayName, uint64_t* ___2_pOverlayHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2675>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2675>
 		uint64_t* L_0 = ___2_pOverlayHandle;
 		*((int64_t*)L_0) = (int64_t)((int64_t)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2676>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2676>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_1 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_CreateOverlay_t39025EDF1826E9D95A5E01B9D6FA809FD2E718AF* L_2 = L_1->___CreateOverlay;
 		String_t* L_3 = ___0_pchOverlayKey;
@@ -21884,7 +21884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_CreateOverlay_m971CF579F22
 		NullCheck(L_2);
 		int32_t L_6;
 		L_6 = _CreateOverlay_Invoke_m9E72D8850C78B9185FA475CCCB7C991EA75CA619_inline(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2677>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2677>
 		return L_6;
 	}
 }
@@ -21892,14 +21892,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_CreateOverlay_m971CF579F22
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_DestroyOverlay_m010E4133FCD598F6783175B4761793288CAEB0CA (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2681>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2681>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_DestroyOverlay_t38EFCB644BFDE914E24A7CBD778BBA088EC901D5* L_1 = L_0->___DestroyOverlay;
 		uint64_t L_2 = ___0_ulOverlayHandle;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _DestroyOverlay_Invoke_m5BFC5C87EB12021ACA8EAEA996E220B385ECCC7C_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2682>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2682>
 		return L_3;
 	}
 }
@@ -21907,14 +21907,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_DestroyOverlay_m010E4133FC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetHighQualityOverlay_mA12DC12795BC756E027093B2CC27E62F22CE380D (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2686>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2686>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetHighQualityOverlay_tD2EC58029C57F518FC0BD32BA49D954DF5DA21B9* L_1 = L_0->___SetHighQualityOverlay;
 		uint64_t L_2 = ___0_ulOverlayHandle;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _SetHighQualityOverlay_Invoke_mBBEACB760DBF73EE75266E0E0E86AC3C149DAD09_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2687>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2687>
 		return L_3;
 	}
 }
@@ -21922,13 +21922,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetHighQualityOverlay_mA12
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVROverlay_GetHighQualityOverlay_m7720F739378D620F297952748D22C644C2964721 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2691>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2691>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetHighQualityOverlay_t1971BCB925797B9197F9D1EEDF044613EB2513AB* L_1 = L_0->___GetHighQualityOverlay;
 		NullCheck(L_1);
 		uint64_t L_2;
 		L_2 = _GetHighQualityOverlay_Invoke_mEFF319753870A574D7158F7AF3B5B12E7D87941B_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2692>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2692>
 		return L_2;
 	}
 }
@@ -21936,7 +21936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVROverlay_GetHighQualityOverlay_m77
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayKey_mA5A79E79B6503AA3AF7B9A6FBB47FF7FBF2DEEBB (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, StringBuilder_t* ___1_pchValue, uint32_t ___2_unBufferSize, int32_t* ___3_pError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2696>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2696>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayKey_t04E5303BB3B8351ACB123FA9679BDE96A56E53CA* L_1 = L_0->___GetOverlayKey;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -21946,7 +21946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayKey_mA5A79E79B6
 		NullCheck(L_1);
 		uint32_t L_6;
 		L_6 = _GetOverlayKey_Invoke_m3761D3DFAA39F61755902B2D08934B78D1432905_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2697>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2697>
 		return L_6;
 	}
 }
@@ -21954,7 +21954,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayKey_mA5A79E79B6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayName_mE6EEF2CE363C11608C1E107DF5405148C19BE9D3 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, StringBuilder_t* ___1_pchValue, uint32_t ___2_unBufferSize, int32_t* ___3_pError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2701>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2701>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayName_t9D08814FB16F293E719321A455E4FFE0180C48C7* L_1 = L_0->___GetOverlayName;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -21964,7 +21964,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayName_mE6EEF2CE3
 		NullCheck(L_1);
 		uint32_t L_6;
 		L_6 = _GetOverlayName_Invoke_m85CB057F05E7E1EDD71BA3F0D97AF3B7C5DD27C3_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2702>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2702>
 		return L_6;
 	}
 }
@@ -21972,7 +21972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayName_mE6EEF2CE3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayName_mC89C3122C68B5147D0DE8A4E597D8FECEF1EE869 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, String_t* ___1_pchName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2706>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2706>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayName_tB1F43B0D461D43E3C74A0F3470D17489478AAB01* L_1 = L_0->___SetOverlayName;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -21980,7 +21980,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayName_mC89C3122C6
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetOverlayName_Invoke_m3CBFC044108B56053073FC1582786AB53FDEBA1D_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2707>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2707>
 		return L_4;
 	}
 }
@@ -21988,13 +21988,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayName_mC89C3122C6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayImageData_m8C4AB08F62E330D2A257D01E99A3E098A4B8197A (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, intptr_t ___1_pvBuffer, uint32_t ___2_unBufferSize, uint32_t* ___3_punWidth, uint32_t* ___4_punHeight, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2711>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2711>
 		uint32_t* L_0 = ___3_punWidth;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2712>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2712>
 		uint32_t* L_1 = ___4_punHeight;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2713>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2713>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_2 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayImageData_tC296EE7A537CC37A50B13C9BB21C42E119BFEBF3* L_3 = L_2->___GetOverlayImageData;
 		uint64_t L_4 = ___0_ulOverlayHandle;
@@ -22005,7 +22005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayImageData_m8C4AB
 		NullCheck(L_3);
 		int32_t L_9;
 		L_9 = _GetOverlayImageData_Invoke_m8E6F722E18B86DD2152DE6E2FA18BAFA57FF8B0A_inline(L_3, L_4, L_5, L_6, L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2714>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2714>
 		return L_9;
 	}
 }
@@ -22019,14 +22019,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVROverlay_GetOverlayErrorNameFromE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2718>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2718>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayErrorNameFromEnum_t5E2A92AF7E10FAEB8DC6A9B83CB964623AF65B57* L_1 = L_0->___GetOverlayErrorNameFromEnum;
 		int32_t L_2 = ___0_error;
 		NullCheck(L_1);
 		intptr_t L_3;
 		L_3 = _GetOverlayErrorNameFromEnum_Invoke_m162ABD90143DDDDA8273B0758F970FEDE7B64B48_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2719>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2719>
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		String_t* L_4;
 		L_4 = Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A(L_3, NULL);
@@ -22037,7 +22037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVROverlay_GetOverlayErrorNameFromE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayRenderingPid_m29AF98191839B2DA145CD9F7009DFDE3DF4553B2 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, uint32_t ___1_unPID, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2723>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2723>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayRenderingPid_t860D46875C206D3A0494F3FB39CB956CA0ACEF11* L_1 = L_0->___SetOverlayRenderingPid;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22045,7 +22045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayRenderingPid_m29
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetOverlayRenderingPid_Invoke_mEA2F9B801B135AB721F5B2C40D91B12D0478751D_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2724>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2724>
 		return L_4;
 	}
 }
@@ -22053,14 +22053,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayRenderingPid_m29
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayRenderingPid_mE360212EE2185E55C88A4243A61B844FE93F2AD2 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2728>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2728>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayRenderingPid_t8B0CB9FCC759F791FBF70596E913E49A50A9623C* L_1 = L_0->___GetOverlayRenderingPid;
 		uint64_t L_2 = ___0_ulOverlayHandle;
 		NullCheck(L_1);
 		uint32_t L_3;
 		L_3 = _GetOverlayRenderingPid_Invoke_m8753463722ACA9EA6989896EB0655DE6AA5C13AD_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2729>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2729>
 		return L_3;
 	}
 }
@@ -22068,7 +22068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayRenderingPid_mE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayFlag_mB515A4DF4B6E7CD46746BB4E43AC5C52857B530E (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, int32_t ___1_eOverlayFlag, bool ___2_bEnabled, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2733>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2733>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayFlag_t2E4E80F706BB0353DE6FFAEBE880014A4600A02F* L_1 = L_0->___SetOverlayFlag;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22077,7 +22077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayFlag_mB515A4DF4B
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _SetOverlayFlag_Invoke_m4CA8F383132953B332A3F7B333301F65EE08F989_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2734>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2734>
 		return L_5;
 	}
 }
@@ -22085,10 +22085,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayFlag_mB515A4DF4B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayFlag_mB328770C0CA4356649ED438281D240CB7E7AF6FA (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, int32_t ___1_eOverlayFlag, bool* ___2_pbEnabled, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2738>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2738>
 		bool* L_0 = ___2_pbEnabled;
 		*((int8_t*)L_0) = (int8_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2739>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2739>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_1 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayFlag_t304E10EEDC342F118C854A3F2999D90AA8448C54* L_2 = L_1->___GetOverlayFlag;
 		uint64_t L_3 = ___0_ulOverlayHandle;
@@ -22097,7 +22097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayFlag_mB328770C0C
 		NullCheck(L_2);
 		int32_t L_6;
 		L_6 = _GetOverlayFlag_Invoke_mF9A83B699A50AE2AC0F1A8BB8FA81729FF1BCB6F_inline(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2740>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2740>
 		return L_6;
 	}
 }
@@ -22105,7 +22105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayFlag_mB328770C0C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayColor_m90B10CEAB8848141DA61B081F0147C467DFBBC41 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, float ___1_fRed, float ___2_fGreen, float ___3_fBlue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2744>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2744>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayColor_tC7B21B0DACDBCAF62443C4379F6469BA32196D7E* L_1 = L_0->___SetOverlayColor;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22115,7 +22115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayColor_m90B10CEAB
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _SetOverlayColor_Invoke_m742B3BC07D3E38E35F2606C0D47A3CFB3A097659_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2745>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2745>
 		return L_6;
 	}
 }
@@ -22123,16 +22123,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayColor_m90B10CEAB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayColor_m06B18197255D3B8883EF62C745172FDE2D5D8EDF (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, float* ___1_pfRed, float* ___2_pfGreen, float* ___3_pfBlue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2749>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2749>
 		float* L_0 = ___1_pfRed;
 		*((float*)L_0) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2750>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2750>
 		float* L_1 = ___2_pfGreen;
 		*((float*)L_1) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2751>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2751>
 		float* L_2 = ___3_pfBlue;
 		*((float*)L_2) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2752>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2752>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_3 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayColor_tFAB0ACB07BDE770AA13BB5E43EB4096A93A7107F* L_4 = L_3->___GetOverlayColor;
 		uint64_t L_5 = ___0_ulOverlayHandle;
@@ -22142,7 +22142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayColor_m06B181972
 		NullCheck(L_4);
 		int32_t L_9;
 		L_9 = _GetOverlayColor_Invoke_mBF9312629E81352727E5FA7FC6F584091A8AB7B6_inline(L_4, L_5, L_6, L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2753>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2753>
 		return L_9;
 	}
 }
@@ -22150,7 +22150,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayColor_m06B181972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayAlpha_mB35C9FF047F18DFED936E1E51A33B7D1719DC90D (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, float ___1_fAlpha, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2757>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2757>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayAlpha_t89F2909463A1A87222C4ADE8E6A9B97FA7D815E2* L_1 = L_0->___SetOverlayAlpha;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22158,7 +22158,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayAlpha_mB35C9FF04
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetOverlayAlpha_Invoke_m2935AD243D8B6A4E86F08FBC06E708987928A709_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2758>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2758>
 		return L_4;
 	}
 }
@@ -22166,10 +22166,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayAlpha_mB35C9FF04
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayAlpha_mD863A4455F192561BC21D8F13F9FE2FE4E80C5B7 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, float* ___1_pfAlpha, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2762>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2762>
 		float* L_0 = ___1_pfAlpha;
 		*((float*)L_0) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2763>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2763>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_1 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayAlpha_tDADA0BB21ABC426722A40CC32DB279769DCF021A* L_2 = L_1->___GetOverlayAlpha;
 		uint64_t L_3 = ___0_ulOverlayHandle;
@@ -22177,7 +22177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayAlpha_mD863A4455
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = _GetOverlayAlpha_Invoke_mCBE96F64CA1B7594213D6CBE86C6102ABFEB23F2_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2764>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2764>
 		return L_5;
 	}
 }
@@ -22185,7 +22185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayAlpha_mD863A4455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTexelAspect_m46EE6A0CD5ABE26E706A7E667380695A35322410 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, float ___1_fTexelAspect, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2768>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2768>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayTexelAspect_t3FABDC04D9599FD0AAB0ACBF8AA3BBEC32929DFD* L_1 = L_0->___SetOverlayTexelAspect;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22193,7 +22193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTexelAspect_m46E
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetOverlayTexelAspect_Invoke_m1E0D2B3041B4776CD07ED599DD4900759A3AD756_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2769>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2769>
 		return L_4;
 	}
 }
@@ -22201,10 +22201,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTexelAspect_m46E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTexelAspect_m0AA17147BAD52159645429439B599C67982CBACD (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, float* ___1_pfTexelAspect, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2773>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2773>
 		float* L_0 = ___1_pfTexelAspect;
 		*((float*)L_0) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2774>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2774>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_1 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayTexelAspect_t2588FAAA9256DAB500789D45446FCD9B9C3341AE* L_2 = L_1->___GetOverlayTexelAspect;
 		uint64_t L_3 = ___0_ulOverlayHandle;
@@ -22212,7 +22212,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTexelAspect_m0AA
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = _GetOverlayTexelAspect_Invoke_m81DB01534F446E4403F73B8D4A742D6F2FE09B5B_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2775>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2775>
 		return L_5;
 	}
 }
@@ -22220,7 +22220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTexelAspect_m0AA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlaySortOrder_m204936465557E288D4FC16D0848FCA5878407E60 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, uint32_t ___1_unSortOrder, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2779>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2779>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlaySortOrder_t8593A1D71B05DE8FC7BB3AAB6C5B1393A0059CEB* L_1 = L_0->___SetOverlaySortOrder;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22228,7 +22228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlaySortOrder_m20493
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetOverlaySortOrder_Invoke_m75EDA24159E97EC92E5A55F21DBCC808175AAE86_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2780>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2780>
 		return L_4;
 	}
 }
@@ -22236,10 +22236,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlaySortOrder_m20493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlaySortOrder_mF1A573F2D4A0C30FC82CB5FBD2C5DE69BB848FB2 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, uint32_t* ___1_punSortOrder, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2784>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2784>
 		uint32_t* L_0 = ___1_punSortOrder;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2785>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2785>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_1 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlaySortOrder_tD30DCEF0DC27DBF62C7FD8CFB4CB4B27A042CD99* L_2 = L_1->___GetOverlaySortOrder;
 		uint64_t L_3 = ___0_ulOverlayHandle;
@@ -22247,7 +22247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlaySortOrder_mF1A57
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = _GetOverlaySortOrder_Invoke_mCA80FD9B94B50B6FD7F54A9F83108D735C98F39F_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2786>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2786>
 		return L_5;
 	}
 }
@@ -22255,7 +22255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlaySortOrder_mF1A57
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayWidthInMeters_mE09DA95837228B54038613755E72FFD3B1822CC7 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, float ___1_fWidthInMeters, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2790>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2790>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayWidthInMeters_t3499F9F5B93449716E795BD6494C2F2465E2851C* L_1 = L_0->___SetOverlayWidthInMeters;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22263,7 +22263,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayWidthInMeters_mE
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetOverlayWidthInMeters_Invoke_m1901F4B4B048ED4ADB7B23815360529FCA68BB4B_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2791>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2791>
 		return L_4;
 	}
 }
@@ -22271,10 +22271,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayWidthInMeters_mE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayWidthInMeters_m99D852CFEB1B713ED9EB608F94DB8C798D275AE9 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, float* ___1_pfWidthInMeters, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2795>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2795>
 		float* L_0 = ___1_pfWidthInMeters;
 		*((float*)L_0) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2796>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2796>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_1 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayWidthInMeters_t332D0C1E24DBA4D7E69C08FE1E2CB857BBAA7BB7* L_2 = L_1->___GetOverlayWidthInMeters;
 		uint64_t L_3 = ___0_ulOverlayHandle;
@@ -22282,7 +22282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayWidthInMeters_m9
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = _GetOverlayWidthInMeters_Invoke_mCFE89E5F14FE20E8FEF8BFE1D5030FD6CC4EFA44_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2797>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2797>
 		return L_5;
 	}
 }
@@ -22290,7 +22290,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayWidthInMeters_m9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayAutoCurveDistanceRangeInMeters_m9762D0BA4D5EA0C5B0A231C69C91F56431AB7F63 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, float ___1_fMinDistanceInMeters, float ___2_fMaxDistanceInMeters, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2801>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2801>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayAutoCurveDistanceRangeInMeters_t70611E84FE31CF3AE06D867439E05B6AA29BB6E3* L_1 = L_0->___SetOverlayAutoCurveDistanceRangeInMeters;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22299,7 +22299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayAutoCurveDistanc
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _SetOverlayAutoCurveDistanceRangeInMeters_Invoke_m8CDF9DC28420B3F1062130F4861F8DA06C9C7ED3_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2802>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2802>
 		return L_5;
 	}
 }
@@ -22307,13 +22307,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayAutoCurveDistanc
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayAutoCurveDistanceRangeInMeters_mFA29BED207F947A67E7464DB605A633B253C8DE4 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, float* ___1_pfMinDistanceInMeters, float* ___2_pfMaxDistanceInMeters, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2806>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2806>
 		float* L_0 = ___1_pfMinDistanceInMeters;
 		*((float*)L_0) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2807>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2807>
 		float* L_1 = ___2_pfMaxDistanceInMeters;
 		*((float*)L_1) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2808>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2808>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_2 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayAutoCurveDistanceRangeInMeters_tA92ABA483C12CC57AF5BE7064465E45E61A88C23* L_3 = L_2->___GetOverlayAutoCurveDistanceRangeInMeters;
 		uint64_t L_4 = ___0_ulOverlayHandle;
@@ -22322,7 +22322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayAutoCurveDistanc
 		NullCheck(L_3);
 		int32_t L_7;
 		L_7 = _GetOverlayAutoCurveDistanceRangeInMeters_Invoke_m6C8BB93C2E4425859C83498B40B9C40553A16DAE_inline(L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2809>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2809>
 		return L_7;
 	}
 }
@@ -22330,7 +22330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayAutoCurveDistanc
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTextureColorSpace_mF888827CE8D339BBEE3A034186A4AFF9A1DE1A21 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, int32_t ___1_eTextureColorSpace, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2813>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2813>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayTextureColorSpace_tA461E86D2455E1A47A898EA6BDF9B3072FCAEE79* L_1 = L_0->___SetOverlayTextureColorSpace;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22338,7 +22338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTextureColorSpac
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetOverlayTextureColorSpace_Invoke_mA03A2FB712BEAAF48300F34685C6A903C0E2D633_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2814>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2814>
 		return L_4;
 	}
 }
@@ -22346,7 +22346,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTextureColorSpac
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureColorSpace_mBF2F9AE843A38698ACF23462ABA2EF42D68BC3AE (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, int32_t* ___1_peTextureColorSpace, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2818>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2818>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayTextureColorSpace_t8C6D9E3C64159C910AE228282CD92ADFDE73251C* L_1 = L_0->___GetOverlayTextureColorSpace;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22354,7 +22354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureColorSpac
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _GetOverlayTextureColorSpace_Invoke_mCFD7397B6C9481D84DBA70A882C3ACE9FEB276C1_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2819>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2819>
 		return L_4;
 	}
 }
@@ -22362,7 +22362,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureColorSpac
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTextureBounds_mBB15623F5D833C9E5B9132EE0BA05B8FB7FB0FEF (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, VRTextureBounds_t_tAF4CD1C68BA9CB7C330262817761A7C07612CAB9* ___1_pOverlayTextureBounds, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2823>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2823>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayTextureBounds_t9409D3709F417BA3D4F239303AA7C70E5543E2C6* L_1 = L_0->___SetOverlayTextureBounds;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22370,7 +22370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTextureBounds_mB
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetOverlayTextureBounds_Invoke_m1F240B151D13823507C0C441074488A1A134FAAE_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2824>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2824>
 		return L_4;
 	}
 }
@@ -22378,7 +22378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTextureBounds_mB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureBounds_m3E81C8CC0FEDEE1707A7E38D3BEEF3DC415D0F9E (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, VRTextureBounds_t_tAF4CD1C68BA9CB7C330262817761A7C07612CAB9* ___1_pOverlayTextureBounds, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2828>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2828>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayTextureBounds_t2C2DA89DF6265C667C98352D433BEF964AD51D83* L_1 = L_0->___GetOverlayTextureBounds;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22386,7 +22386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureBounds_m3
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _GetOverlayTextureBounds_Invoke_mD469FAA5C4D37FF6C19B562EE00C7F0A7AD438D1_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2829>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2829>
 		return L_4;
 	}
 }
@@ -22394,7 +22394,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureBounds_m3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayRenderModel_mD610C915918013E4147BA13F059740C56C04F6E5 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, StringBuilder_t* ___1_pchValue, uint32_t ___2_unBufferSize, HmdColor_t_tD211FE8C3842A816107B1EA05CCFBE0C49625079* ___3_pColor, int32_t* ___4_pError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2833>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2833>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayRenderModel_t77332019BB8EA1382A34E1DF2C4DE30EC8586136* L_1 = L_0->___GetOverlayRenderModel;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22405,7 +22405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayRenderModel_mD6
 		NullCheck(L_1);
 		uint32_t L_7;
 		L_7 = _GetOverlayRenderModel_Invoke_mE7C5C8160F6BE1F89B79D4C2F86478CFE254B71A_inline(L_1, L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2834>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2834>
 		return L_7;
 	}
 }
@@ -22413,7 +22413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayRenderModel_mD6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayRenderModel_m3D7C54A351448E19D264FE47891FBAE9392178F3 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, String_t* ___1_pchRenderModel, HmdColor_t_tD211FE8C3842A816107B1EA05CCFBE0C49625079* ___2_pColor, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2838>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2838>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayRenderModel_t6AA08CE4B1A865EFD28B9995AFB14E12D1DDE263* L_1 = L_0->___SetOverlayRenderModel;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22422,7 +22422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayRenderModel_m3D7
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _SetOverlayRenderModel_Invoke_m869F4D1E34FAD775C0DAD9F6339ABFF542589AB8_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2839>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2839>
 		return L_5;
 	}
 }
@@ -22430,7 +22430,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayRenderModel_m3D7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformType_m0169869EC6E60685B231A455FD76BFD015E19332 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, int32_t* ___1_peTransformType, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2843>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2843>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayTransformType_t8C6834F0574553D54618E7FE4A47697920264AB9* L_1 = L_0->___GetOverlayTransformType;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22438,7 +22438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformType_m0
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _GetOverlayTransformType_Invoke_m62CA4338FA40E70D8939AAD507B27BECDE1B6050_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2844>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2844>
 		return L_4;
 	}
 }
@@ -22446,7 +22446,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformType_m0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformAbsolute_mD8D667F59C0DB552198523D3B9D6DF2A5D656DAF (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, int32_t ___1_eTrackingOrigin, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___2_pmatTrackingOriginToOverlayTransform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2848>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2848>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayTransformAbsolute_t0576036BCE72EAA1058E5463CF463129932ED014* L_1 = L_0->___SetOverlayTransformAbsolute;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22455,7 +22455,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformAbsolut
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _SetOverlayTransformAbsolute_Invoke_m87547432510BCBE3FD4A074FE842A46786FEDC06_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2849>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2849>
 		return L_5;
 	}
 }
@@ -22463,7 +22463,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformAbsolut
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformAbsolute_m26DD2D2F0349CDAD12BF0EDA331B5C215B33489B (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, int32_t* ___1_peTrackingOrigin, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___2_pmatTrackingOriginToOverlayTransform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2853>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2853>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayTransformAbsolute_t879060F1EF17C256C94FFEAA89A165213F7EA7B3* L_1 = L_0->___GetOverlayTransformAbsolute;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22472,7 +22472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformAbsolut
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _GetOverlayTransformAbsolute_Invoke_mEDC1A0BC20317EF82147B02B10D65574ECCAAB1D_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2854>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2854>
 		return L_5;
 	}
 }
@@ -22480,7 +22480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformAbsolut
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformTrackedDeviceRelative_m8AC46FFA8B6CEEF616728331D2B0E2015ADB1680 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, uint32_t ___1_unTrackedDevice, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___2_pmatTrackedDeviceToOverlayTransform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2858>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2858>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayTransformTrackedDeviceRelative_t33FBD552EF11DF0F4BCEA44E766694502C284295* L_1 = L_0->___SetOverlayTransformTrackedDeviceRelative;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22489,7 +22489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformTracked
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _SetOverlayTransformTrackedDeviceRelative_Invoke_m2BF9F15A74F21AAB9214EBB1299C073FBA6EE961_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2859>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2859>
 		return L_5;
 	}
 }
@@ -22497,10 +22497,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformTracked
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformTrackedDeviceRelative_m34752A317D6DF4CA636EDDC357B0B76B65025610 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, uint32_t* ___1_punTrackedDevice, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___2_pmatTrackedDeviceToOverlayTransform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2863>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2863>
 		uint32_t* L_0 = ___1_punTrackedDevice;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2864>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2864>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_1 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayTransformTrackedDeviceRelative_t6D0C0F2C25DF1E8FE63869F6D171672FBFDB9D37* L_2 = L_1->___GetOverlayTransformTrackedDeviceRelative;
 		uint64_t L_3 = ___0_ulOverlayHandle;
@@ -22509,7 +22509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformTracked
 		NullCheck(L_2);
 		int32_t L_6;
 		L_6 = _GetOverlayTransformTrackedDeviceRelative_Invoke_m231FB4C3C5380896A486B5400B9860D409C5934B_inline(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2865>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2865>
 		return L_6;
 	}
 }
@@ -22517,7 +22517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformTracked
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformTrackedDeviceComponent_mA1F9614E468F099B2E2F8D9AA917FC8CC2326AEB (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, uint32_t ___1_unDeviceIndex, String_t* ___2_pchComponentName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2869>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2869>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayTransformTrackedDeviceComponent_tE3F87DEEBBC8BF1166B735A84528B387A8D617C4* L_1 = L_0->___SetOverlayTransformTrackedDeviceComponent;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22526,7 +22526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformTracked
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _SetOverlayTransformTrackedDeviceComponent_Invoke_m8CCC2F23CD6B9A3B73E76981D508A34000659333_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2870>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2870>
 		return L_5;
 	}
 }
@@ -22534,10 +22534,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformTracked
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformTrackedDeviceComponent_mE180FEDC057C5B20ACAD5595281E39BD5F237EA5 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, uint32_t* ___1_punDeviceIndex, StringBuilder_t* ___2_pchComponentName, uint32_t ___3_unComponentNameSize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2874>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2874>
 		uint32_t* L_0 = ___1_punDeviceIndex;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2875>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2875>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_1 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayTransformTrackedDeviceComponent_t6D6D6E536F03E5F484270DA2063E692833C8C553* L_2 = L_1->___GetOverlayTransformTrackedDeviceComponent;
 		uint64_t L_3 = ___0_ulOverlayHandle;
@@ -22547,7 +22547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformTracked
 		NullCheck(L_2);
 		int32_t L_7;
 		L_7 = _GetOverlayTransformTrackedDeviceComponent_Invoke_m213DF882785ADF455AC0A94B262014152E9C63FD_inline(L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2876>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2876>
 		return L_7;
 	}
 }
@@ -22555,10 +22555,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformTracked
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformOverlayRelative_m570F8B552DFBDFAD859F4D2EE5B6E23FBADE8F1D (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, uint64_t* ___1_ulOverlayHandleParent, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___2_pmatParentOverlayToOverlayTransform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2880>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2880>
 		uint64_t* L_0 = ___1_ulOverlayHandleParent;
 		*((int64_t*)L_0) = (int64_t)((int64_t)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2881>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2881>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_1 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayTransformOverlayRelative_tEC30088656BF1375A80F5F83311E100390C23899* L_2 = L_1->___GetOverlayTransformOverlayRelative;
 		uint64_t L_3 = ___0_ulOverlayHandle;
@@ -22567,7 +22567,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformOverlay
 		NullCheck(L_2);
 		int32_t L_6;
 		L_6 = _GetOverlayTransformOverlayRelative_Invoke_m37A85D4CEFFEBEFC833A12D82F2B0A7440025606_inline(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2882>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2882>
 		return L_6;
 	}
 }
@@ -22575,7 +22575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformOverlay
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformOverlayRelative_m98A4FA593A454F30E61B989A55EBC322FAFE502A (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, uint64_t ___1_ulOverlayHandleParent, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___2_pmatParentOverlayToOverlayTransform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2886>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2886>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayTransformOverlayRelative_tE71C623CAE5889E35901C6B1D48EF7197F2D3977* L_1 = L_0->___SetOverlayTransformOverlayRelative;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22584,7 +22584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformOverlay
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _SetOverlayTransformOverlayRelative_Invoke_mDE66BC09F68752CB858FF3B4C853C795347B6AE5_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2887>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2887>
 		return L_5;
 	}
 }
@@ -22592,14 +22592,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformOverlay
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowOverlay_mC5106D570F05D4472E3D75326F255927DDB03D65 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2891>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2891>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_ShowOverlay_t6BD14A5A4683B52F4ED881890ABBED19EE8D5A92* L_1 = L_0->___ShowOverlay;
 		uint64_t L_2 = ___0_ulOverlayHandle;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _ShowOverlay_Invoke_m52EED9663D0C7C73ADE43780781421B4FB19FACD_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2892>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2892>
 		return L_3;
 	}
 }
@@ -22607,14 +22607,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowOverlay_mC5106D570F05D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_HideOverlay_mC5E7F545DAB4F9036DA5DE591E07F44D2398438F (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2896>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2896>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_HideOverlay_tBCB13A361710FD0B2014BF41C8D90E8657BCF78F* L_1 = L_0->___HideOverlay;
 		uint64_t L_2 = ___0_ulOverlayHandle;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _HideOverlay_Invoke_m0CEDE356AC5B131CEB1001757ACB008BADD3ABEB_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2897>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2897>
 		return L_3;
 	}
 }
@@ -22622,14 +22622,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_HideOverlay_mC5E7F545DAB4F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsOverlayVisible_m3D0388E7ACBDC22E6B049BD171C2853FDAE3EEA6 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2901>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2901>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_IsOverlayVisible_t3C5C8EEC1D3CEE3372299FE5D13B02638954CBC1* L_1 = L_0->___IsOverlayVisible;
 		uint64_t L_2 = ___0_ulOverlayHandle;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _IsOverlayVisible_Invoke_m14B06DE01117C0FFDCD23D372064F92C4FFDC3B0_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2902>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2902>
 		return L_3;
 	}
 }
@@ -22637,7 +22637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsOverlayVisible_m3D0388E7ACB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetTransformForOverlayCoordinates_mFEEA04A625BB24CAC3357DA142826ACB964A62C2 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, int32_t ___1_eTrackingOrigin, HmdVector2_t_tCCEF5F67B49C6ABAC22E7757A470D9B127936833 ___2_coordinatesInOverlay, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___3_pmatTransform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2906>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2906>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetTransformForOverlayCoordinates_tC6923776B4A8411D63402D9178A9C5CD1FBF7D3E* L_1 = L_0->___GetTransformForOverlayCoordinates;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22647,7 +22647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetTransformForOverlayCoor
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _GetTransformForOverlayCoordinates_Invoke_m2F906AE32EC1587A71E3C6E8D7D06B5A044CCA75_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2907>
 		return L_6;
 	}
 }
@@ -22666,8 +22666,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_PollNextOverlayEvent_mE32BDBA
 	VREvent_t_Packed_t8AA2D8A5BD65A607F6540FEB55D6A1E1D4C27939 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2924>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2925>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2925>
 		OperatingSystem_t08A94435A5C7D999B5553B6C58763A6F2E3C8557* L_0;
 		L_0 = Environment_get_OSVersion_mDDD265F5864A2086664CAE56D7C4B59E9A50AF66(NULL);
 		NullCheck(L_0);
@@ -22692,17 +22692,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_PollNextOverlayEvent_mE32BDBA
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2928>
 		il2cpp_codegen_initobj((&V_1), sizeof(VREvent_t_Packed_t8AA2D8A5BD65A607F6540FEB55D6A1E1D4C27939));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2929>
 		(&V_0)->___pPollNextOverlayEventPacked = (_PollNextOverlayEventPacked_t8C67CBDB828FEED99C752EB46213BD05BE98FEBF*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___pPollNextOverlayEventPacked), (void*)(_PollNextOverlayEventPacked_t8C67CBDB828FEED99C752EB46213BD05BE98FEBF*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2930>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_4 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_PollNextOverlayEvent_t861B82E88DCEA65F2BED439C81B3BF2DCB3D8A56* L_5 = L_4->___PollNextOverlayEvent;
 		(&V_0)->___pPollNextOverlayEvent = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___pPollNextOverlayEvent), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2931>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2931>
 		PollNextOverlayEventUnion_t245DCB05FAC026E6D33EAA707B0A852D139237E8 L_6 = V_0;
 		_PollNextOverlayEventPacked_t8C67CBDB828FEED99C752EB46213BD05BE98FEBF* L_7 = L_6.___pPollNextOverlayEventPacked;
 		uint64_t L_8 = ___0_ulOverlayHandle;
@@ -22716,16 +22716,16 @@ IL_001a:
 		NullCheck(L_7);
 		bool L_12;
 		L_12 = _PollNextOverlayEventPacked_Invoke_mD99789664A477D7B79AA21054743207B69AB73E1_inline(L_7, L_8, (&V_1), L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2933>
 		VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56* L_13 = ___1_pEvent;
 		VREvent_t_Packed_Unpack_m096BCE005ED7DB1ED1526D8BC91C1C1742CBB490((&V_1), L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2934>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2934>
 		return L_12;
 	}
 
 IL_0062:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2937>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2937>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_14 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_PollNextOverlayEvent_t861B82E88DCEA65F2BED439C81B3BF2DCB3D8A56* L_15 = L_14->___PollNextOverlayEvent;
 		uint64_t L_16 = ___0_ulOverlayHandle;
@@ -22734,7 +22734,7 @@ IL_0062:
 		NullCheck(L_15);
 		bool L_19;
 		L_19 = _PollNextOverlayEvent_Invoke_m027E796ED74E84DEEE13DA6F6FB131FB64935340_inline(L_15, L_16, L_17, L_18, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2938>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2938>
 		return L_19;
 	}
 }
@@ -22742,7 +22742,7 @@ IL_0062:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayInputMethod_m0BDC13962DD53D5AF53651F854EC8B81799FC148 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, int32_t* ___1_peInputMethod, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2942>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2942>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayInputMethod_tCB6A8DE641A2F0DC2AE54DCB5E625D8BFD4104E1* L_1 = L_0->___GetOverlayInputMethod;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22750,7 +22750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayInputMethod_m0BD
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _GetOverlayInputMethod_Invoke_mD9DD653126A80EA9C4D0CFF9C10EFE4B81078189_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2943>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2943>
 		return L_4;
 	}
 }
@@ -22758,7 +22758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayInputMethod_m0BD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayInputMethod_mFB58E7CD2C13CD5295AEE2AE85C5303FA8395A15 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, int32_t ___1_eInputMethod, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2947>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2947>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayInputMethod_t0D329E6A101EA6E3004D5A1843D988E94A41E522* L_1 = L_0->___SetOverlayInputMethod;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22766,7 +22766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayInputMethod_mFB5
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetOverlayInputMethod_Invoke_mEDE92D62821C0FDD256E0F4A4C44BC4F3E508050_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2948>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2948>
 		return L_4;
 	}
 }
@@ -22774,7 +22774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayInputMethod_mFB5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayMouseScale_m12992582F12D965A5FFC2CB7633165DACF9D1980 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, HmdVector2_t_tCCEF5F67B49C6ABAC22E7757A470D9B127936833* ___1_pvecMouseScale, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2952>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2952>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayMouseScale_tA8CBBA77190651C271D36B39C86563B176112DAC* L_1 = L_0->___GetOverlayMouseScale;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22782,7 +22782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayMouseScale_m1299
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _GetOverlayMouseScale_Invoke_m7E1EAB699A8008528F3405AFD33F7FAEAD259D58_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2953>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2953>
 		return L_4;
 	}
 }
@@ -22790,7 +22790,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayMouseScale_m1299
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayMouseScale_m936724D1CC564578652F7E1ED6D539A510A82D28 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, HmdVector2_t_tCCEF5F67B49C6ABAC22E7757A470D9B127936833* ___1_pvecMouseScale, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2957>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2957>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayMouseScale_t53A3DB9CA8CFA7D0C982DFE70F3BF6526E397B62* L_1 = L_0->___SetOverlayMouseScale;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22798,7 +22798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayMouseScale_m9367
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetOverlayMouseScale_Invoke_mCACAC78937A91B7449798687FC8D285BF37BAA5F_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2958>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2958>
 		return L_4;
 	}
 }
@@ -22806,7 +22806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayMouseScale_m9367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_ComputeOverlayIntersection_m5FB98516DD4B6FD1787C37B0941C1011C942FC8C (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, VROverlayIntersectionParams_t_tA9219512FFAD024D790D5E5A01A8E50E832EB6D9* ___1_pParams, VROverlayIntersectionResults_t_tBD8897230791CE20E63567C43F9722694800DF49* ___2_pResults, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2962>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2962>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_ComputeOverlayIntersection_tCED6948296A5F66347803E61D649426AC795E8CF* L_1 = L_0->___ComputeOverlayIntersection;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22815,7 +22815,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_ComputeOverlayIntersection_m5
 		NullCheck(L_1);
 		bool L_5;
 		L_5 = _ComputeOverlayIntersection_Invoke_m672E3EEED61C7FB6D289B86187C4E6C0EF3BC5CA_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2963>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2963>
 		return L_5;
 	}
 }
@@ -22823,14 +22823,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_ComputeOverlayIntersection_m5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsHoverTargetOverlay_m05907B0D7E4AF532CE4825B653E84025070A4D44 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2967>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2967>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_IsHoverTargetOverlay_tA4AC077F55D0C9D109B7EC275D19C494E4687B91* L_1 = L_0->___IsHoverTargetOverlay;
 		uint64_t L_2 = ___0_ulOverlayHandle;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _IsHoverTargetOverlay_Invoke_m4AFBA3A2CBFAF224ACF1615722866F3E7B06892B_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2968>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2968>
 		return L_3;
 	}
 }
@@ -22838,13 +22838,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsHoverTargetOverlay_m05907B0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVROverlay_GetGamepadFocusOverlay_m074A25DBA4F5F2D682996685D5D3835A49FEBBC2 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2972>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2972>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetGamepadFocusOverlay_tA8D7B9E689FCD3BAD42449710717C34A9D5353B1* L_1 = L_0->___GetGamepadFocusOverlay;
 		NullCheck(L_1);
 		uint64_t L_2;
 		L_2 = _GetGamepadFocusOverlay_Invoke_mEE356B0F2B47FFFFE880A381B25D1F2206A84999_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2973>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2973>
 		return L_2;
 	}
 }
@@ -22852,14 +22852,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVROverlay_GetGamepadFocusOverlay_m0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetGamepadFocusOverlay_mC0CA4658B2E8E008F300B2BEFFDE4017C16E8172 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulNewFocusOverlay, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2977>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2977>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetGamepadFocusOverlay_tA538A9D45966E31323CD06675F8164A8D3326C7D* L_1 = L_0->___SetGamepadFocusOverlay;
 		uint64_t L_2 = ___0_ulNewFocusOverlay;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _SetGamepadFocusOverlay_Invoke_m75B9B2BB9EB18A55C4829DA817FC90883496FC59_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2978>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2978>
 		return L_3;
 	}
 }
@@ -22867,7 +22867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetGamepadFocusOverlay_mC0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayNeighbor_m77A2B9EE27C80F1E12DAD9EA3DC427CD0BC2AF78 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, int32_t ___0_eDirection, uint64_t ___1_ulFrom, uint64_t ___2_ulTo, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2982>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2982>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayNeighbor_t940D54C253D9B8DA001AFF3422FFEAFCAA89D581* L_1 = L_0->___SetOverlayNeighbor;
 		int32_t L_2 = ___0_eDirection;
@@ -22876,7 +22876,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayNeighbor_m77A2B9
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _SetOverlayNeighbor_Invoke_m95E2BB08725C1B56120E1A316B1066B0FDAEE7C8_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2983>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2983>
 		return L_5;
 	}
 }
@@ -22884,7 +22884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayNeighbor_m77A2B9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_MoveGamepadFocusToNeighbor_mF8A90A82C5B88BBA51273BB2F25E6FC7CD01BBCE (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, int32_t ___0_eDirection, uint64_t ___1_ulFrom, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2987>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2987>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_MoveGamepadFocusToNeighbor_tEC3BDC5D3A5AA07C7BC459D3E9E2BDE29A376A61* L_1 = L_0->___MoveGamepadFocusToNeighbor;
 		int32_t L_2 = ___0_eDirection;
@@ -22892,7 +22892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_MoveGamepadFocusToNeighbor
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _MoveGamepadFocusToNeighbor_Invoke_m079CC8396C48C15D9F2557A6AF15F4BBC93A9D0B_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2988>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2988>
 		return L_4;
 	}
 }
@@ -22900,7 +22900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_MoveGamepadFocusToNeighbor
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayDualAnalogTransform_m01826635673D751C5EE15FF98FB360B408242628 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlay, int32_t ___1_eWhich, intptr_t ___2_vCenter, float ___3_fRadius, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2992>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2992>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayDualAnalogTransform_t3000681F8D96981D99C030F20625B962D4A030BF* L_1 = L_0->___SetOverlayDualAnalogTransform;
 		uint64_t L_2 = ___0_ulOverlay;
@@ -22910,7 +22910,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayDualAnalogTransf
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _SetOverlayDualAnalogTransform_Invoke_m3EC414B6FD69AF6A78E9C1D204A8E9FEB0D1310D_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2993>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2993>
 		return L_6;
 	}
 }
@@ -22918,10 +22918,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayDualAnalogTransf
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayDualAnalogTransform_mA897FCCC8A97589DA8AF180BC2F791C231B86784 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlay, int32_t ___1_eWhich, HmdVector2_t_tCCEF5F67B49C6ABAC22E7757A470D9B127936833* ___2_pvCenter, float* ___3_pfRadius, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2997>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2997>
 		float* L_0 = ___3_pfRadius;
 		*((float*)L_0) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2998>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2998>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_1 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayDualAnalogTransform_t404625AB2AA2C28CB18A9C52514500BD1B6AD314* L_2 = L_1->___GetOverlayDualAnalogTransform;
 		uint64_t L_3 = ___0_ulOverlay;
@@ -22931,7 +22931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayDualAnalogTransf
 		NullCheck(L_2);
 		int32_t L_7;
 		L_7 = _GetOverlayDualAnalogTransform_Invoke_mB04564146B602A5A7E700AEC59D5B572252624AF_inline(L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:2999>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:2999>
 		return L_7;
 	}
 }
@@ -22939,7 +22939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayDualAnalogTransf
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTexture_m575654E7DADACDE535EF8FB64EA15C64D1C4EC1E (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, Texture_t_tFB45C121EC1C6016549D7A8194F11C1338E42196* ___1_pTexture, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3003>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3003>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayTexture_t339C34C655DE707851F518E72EE5B54AC8230260* L_1 = L_0->___SetOverlayTexture;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22947,7 +22947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTexture_m575654E
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetOverlayTexture_Invoke_m9B672838BB60340D5426AB59209B6AA5B946E6BF_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3004>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3004>
 		return L_4;
 	}
 }
@@ -22955,14 +22955,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTexture_m575654E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ClearOverlayTexture_mB2485D9694CEFA358C3E4CBB69805F976AE9146A (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3008>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_ClearOverlayTexture_tFFC6110B6E7118585822C4EC91426EECF55DDE2D* L_1 = L_0->___ClearOverlayTexture;
 		uint64_t L_2 = ___0_ulOverlayHandle;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _ClearOverlayTexture_Invoke_mC93CFF1E546C409B2CACAB1A80D85C1C702A1A70_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3009>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3009>
 		return L_3;
 	}
 }
@@ -22970,7 +22970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ClearOverlayTexture_mB2485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayRaw_m107A5248A62CBD8F734EE17B60618CAA4C53A799 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, intptr_t ___1_pvBuffer, uint32_t ___2_unWidth, uint32_t ___3_unHeight, uint32_t ___4_unDepth, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3013>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3013>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayRaw_tCF57C8541185FCCAA4AC3583DA872A4A046D0B1B* L_1 = L_0->___SetOverlayRaw;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22981,7 +22981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayRaw_m107A5248A62
 		NullCheck(L_1);
 		int32_t L_7;
 		L_7 = _SetOverlayRaw_Invoke_m18199FECB76EDC8669653B480B281786623475C3_inline(L_1, L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3014>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3014>
 		return L_7;
 	}
 }
@@ -22989,7 +22989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayRaw_m107A5248A62
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayFromFile_m3E622B676D77FECADB259F22CEBB404D3E4609C6 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, String_t* ___1_pchFilePath, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3018>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3018>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayFromFile_t5B1988B50A0A81F72BEFF99FB83D92A9101391EA* L_1 = L_0->___SetOverlayFromFile;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -22997,7 +22997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayFromFile_m3E622B
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetOverlayFromFile_Invoke_mAD3C9E68C8D6AC68F84F6B948F8D1857D62B4EA4_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3019>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3019>
 		return L_4;
 	}
 }
@@ -23005,16 +23005,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayFromFile_m3E622B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTexture_mBF0E017E3E0538401EA046A283B77BB9D2C3B28F (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, intptr_t* ___1_pNativeTextureHandle, intptr_t ___2_pNativeTextureRef, uint32_t* ___3_pWidth, uint32_t* ___4_pHeight, uint32_t* ___5_pNativeFormat, int32_t* ___6_pAPIType, int32_t* ___7_pColorSpace, VRTextureBounds_t_tAF4CD1C68BA9CB7C330262817761A7C07612CAB9* ___8_pTextureBounds, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3023>
 		uint32_t* L_0 = ___3_pWidth;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3024>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3024>
 		uint32_t* L_1 = ___4_pHeight;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3025>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3025>
 		uint32_t* L_2 = ___5_pNativeFormat;
 		*((int32_t*)L_2) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3026>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3026>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_3 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayTexture_t67AC8CF0315368A175D183FD6B8B18853D857139* L_4 = L_3->___GetOverlayTexture;
 		uint64_t L_5 = ___0_ulOverlayHandle;
@@ -23029,7 +23029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTexture_mBF0E017
 		NullCheck(L_4);
 		int32_t L_14;
 		L_14 = _GetOverlayTexture_Invoke_m1FCD51EBDCCC59F605829CA6248049FDD2AB83A3_inline(L_4, L_5, L_6, L_7, L_8, L_9, L_10, L_11, L_12, L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3027>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3027>
 		return L_14;
 	}
 }
@@ -23037,7 +23037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTexture_mBF0E017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ReleaseNativeOverlayHandle_m33CBAB7ABFF4FEE3238CCE59C61781B3C11F69A8 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, intptr_t ___1_pNativeTextureHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3031>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3031>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_ReleaseNativeOverlayHandle_t0051D17B74002B4E6DD4E2BE7331314830CA0798* L_1 = L_0->___ReleaseNativeOverlayHandle;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -23045,7 +23045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ReleaseNativeOverlayHandle
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _ReleaseNativeOverlayHandle_Invoke_m9EF5AE41F0833DCF7DC9B58D39474CCDD32E6366_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3032>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3032>
 		return L_4;
 	}
 }
@@ -23053,13 +23053,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ReleaseNativeOverlayHandle
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureSize_m689292CADD936932F04FCFB113A4026FD61A537B (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, uint32_t* ___1_pWidth, uint32_t* ___2_pHeight, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3036>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3036>
 		uint32_t* L_0 = ___1_pWidth;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3037>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3037>
 		uint32_t* L_1 = ___2_pHeight;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3038>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3038>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_2 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayTextureSize_t51D0FF0C60C1AE56D484CC02189E1CB7FA4039DB* L_3 = L_2->___GetOverlayTextureSize;
 		uint64_t L_4 = ___0_ulOverlayHandle;
@@ -23068,7 +23068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureSize_m689
 		NullCheck(L_3);
 		int32_t L_7;
 		L_7 = _GetOverlayTextureSize_Invoke_mE90DBBBD838E35700902211AE618F83F9CFDA445_inline(L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3039>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3039>
 		return L_7;
 	}
 }
@@ -23076,13 +23076,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureSize_m689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_CreateDashboardOverlay_mB8B1B81613DF4606DC79BDAC97B50C9D8A10D625 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, String_t* ___0_pchOverlayKey, String_t* ___1_pchOverlayFriendlyName, uint64_t* ___2_pMainHandle, uint64_t* ___3_pThumbnailHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3043>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3043>
 		uint64_t* L_0 = ___2_pMainHandle;
 		*((int64_t*)L_0) = (int64_t)((int64_t)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3044>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3044>
 		uint64_t* L_1 = ___3_pThumbnailHandle;
 		*((int64_t*)L_1) = (int64_t)((int64_t)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3045>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3045>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_2 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_CreateDashboardOverlay_tF97873092E399C09805C0A916093734348B5304D* L_3 = L_2->___CreateDashboardOverlay;
 		String_t* L_4 = ___0_pchOverlayKey;
@@ -23092,7 +23092,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_CreateDashboardOverlay_mB8
 		NullCheck(L_3);
 		int32_t L_8;
 		L_8 = _CreateDashboardOverlay_Invoke_m7B8E22A71C3D8C2DC58C5852D2F10A21FDCF0D3B_inline(L_3, L_4, L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3046>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3046>
 		return L_8;
 	}
 }
@@ -23100,13 +23100,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_CreateDashboardOverlay_mB8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsDashboardVisible_mDF4F412EF062E49839B8DEB8241A9FF6B8CA98F0 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3050>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3050>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_IsDashboardVisible_tBACAC97FDD339E6F836ECEBA981AB2A725E1D93A* L_1 = L_0->___IsDashboardVisible;
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = _IsDashboardVisible_Invoke_mAB122EFE51E59B930E548AAB1205D164DC376E84_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3051>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3051>
 		return L_2;
 	}
 }
@@ -23114,14 +23114,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsDashboardVisible_mDF4F412EF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsActiveDashboardOverlay_mE8F3ED37B4DF81AF42662B2F435599C1FAEBDAB6 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3055>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3055>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_IsActiveDashboardOverlay_t99372611271BA8BDC647FED2397BD131320B96B4* L_1 = L_0->___IsActiveDashboardOverlay;
 		uint64_t L_2 = ___0_ulOverlayHandle;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = _IsActiveDashboardOverlay_Invoke_mBD8F592142E817A64ED4309817500C4DCE94B8AE_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3056>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3056>
 		return L_3;
 	}
 }
@@ -23129,7 +23129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsActiveDashboardOverlay_mE8F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetDashboardOverlaySceneProcess_m72B1D326B468CBE2AFCAFAED93841F1C4B12839D (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, uint32_t ___1_unProcessId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3060>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3060>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetDashboardOverlaySceneProcess_tDB53D4E98795548BA55A028EC757794DF02D1A4E* L_1 = L_0->___SetDashboardOverlaySceneProcess;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -23137,7 +23137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetDashboardOverlayScenePr
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _SetDashboardOverlaySceneProcess_Invoke_m1FC114C82EB4BDDD3ECCDA75F64B07498C78C50C_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3061>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3061>
 		return L_4;
 	}
 }
@@ -23145,10 +23145,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetDashboardOverlayScenePr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetDashboardOverlaySceneProcess_mE55802D778CF17FAF803F9B11E70EF633C8DC2B1 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, uint32_t* ___1_punProcessId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3065>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3065>
 		uint32_t* L_0 = ___1_punProcessId;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3066>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3066>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_1 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetDashboardOverlaySceneProcess_t1DE4D2D445D002DE984C1D5C360AE6E64233798E* L_2 = L_1->___GetDashboardOverlaySceneProcess;
 		uint64_t L_3 = ___0_ulOverlayHandle;
@@ -23156,7 +23156,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetDashboardOverlayScenePr
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = _GetDashboardOverlaySceneProcess_Invoke_m02BD8EB3F8E3BE05692009DF7E9C7BA8373F549F_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3067>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3067>
 		return L_5;
 	}
 }
@@ -23164,13 +23164,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetDashboardOverlayScenePr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlay_ShowDashboard_mCABC2BD0808F162386186C7CC9D6564F2FCE1E39 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, String_t* ___0_pchOverlayToShow, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3071>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3071>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_ShowDashboard_tF6F5EC88D960FDCFE77B9DEEF5FDEF8ADC7322A4* L_1 = L_0->___ShowDashboard;
 		String_t* L_2 = ___0_pchOverlayToShow;
 		NullCheck(L_1);
 		_ShowDashboard_Invoke_m9D0C29109D282A4646CC5558024A6FE35FA24DB0_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3072>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3072>
 		return;
 	}
 }
@@ -23178,13 +23178,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlay_ShowDashboard_mCABC2BD0808F16
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetPrimaryDashboardDevice_m28BB712ACCA0734C6C7595A200A0732C520C4F7E (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3075>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3075>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetPrimaryDashboardDevice_tDA46E8CABE82915FCD216F6CA21A6D1BEA11010B* L_1 = L_0->___GetPrimaryDashboardDevice;
 		NullCheck(L_1);
 		uint32_t L_2;
 		L_2 = _GetPrimaryDashboardDevice_Invoke_m3EA3AD24A7A25F41607E781B7E39DEE9B7CCEBC4_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3076>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3076>
 		return L_2;
 	}
 }
@@ -23192,7 +23192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetPrimaryDashboardDevice
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowKeyboard_mF5D717DE50C5DB034239A918BA934D3893948EAE (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, int32_t ___0_eInputMode, int32_t ___1_eLineInputMode, String_t* ___2_pchDescription, uint32_t ___3_unCharMax, String_t* ___4_pchExistingText, bool ___5_bUseMinimalMode, uint64_t ___6_uUserValue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3080>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3080>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_ShowKeyboard_tC4004266F122C2EA442DCBBE6A5E4147C646607E* L_1 = L_0->___ShowKeyboard;
 		int32_t L_2 = ___0_eInputMode;
@@ -23205,7 +23205,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowKeyboard_mF5D717DE50C5
 		NullCheck(L_1);
 		int32_t L_9;
 		L_9 = _ShowKeyboard_Invoke_mC378AAE2DA50D5B64DBCE176C6E48270E33E88F4_inline(L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3081>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3081>
 		return L_9;
 	}
 }
@@ -23213,7 +23213,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowKeyboard_mF5D717DE50C5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowKeyboardForOverlay_mB3F35BBB7FAF2795AA1E7A09789E4CC9A4A3D05A (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, int32_t ___1_eInputMode, int32_t ___2_eLineInputMode, String_t* ___3_pchDescription, uint32_t ___4_unCharMax, String_t* ___5_pchExistingText, bool ___6_bUseMinimalMode, uint64_t ___7_uUserValue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3085>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3085>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_ShowKeyboardForOverlay_tD95F95B2E3AD73DC540C7ABDE633480C06AB8E1A* L_1 = L_0->___ShowKeyboardForOverlay;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -23227,7 +23227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowKeyboardForOverlay_mB3
 		NullCheck(L_1);
 		int32_t L_10;
 		L_10 = _ShowKeyboardForOverlay_Invoke_m9EFB0290A1A354735FB9ED73182409B0AE37C901_inline(L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3086>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3086>
 		return L_10;
 	}
 }
@@ -23235,7 +23235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowKeyboardForOverlay_mB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetKeyboardText_m3AA3DF2E9E2A7AE9115389EC28A8248786265BFC (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, StringBuilder_t* ___0_pchText, uint32_t ___1_cchText, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3090>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetKeyboardText_t4D13F42ED39CBD7B45322FBA3B075B786B2DDED6* L_1 = L_0->___GetKeyboardText;
 		StringBuilder_t* L_2 = ___0_pchText;
@@ -23243,7 +23243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetKeyboardText_m3AA3DF2E
 		NullCheck(L_1);
 		uint32_t L_4;
 		L_4 = _GetKeyboardText_Invoke_m0171EEFC06D2B38E1E8387663568E9A7C499F0BE_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3091>
 		return L_4;
 	}
 }
@@ -23251,12 +23251,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetKeyboardText_m3AA3DF2E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlay_HideKeyboard_m01831D18C5EB2F5F9679C4A694C38848FA6DAF99 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3095>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3095>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_HideKeyboard_t4F532F93EE9B416A79E7313115007024B0867B6C* L_1 = L_0->___HideKeyboard;
 		NullCheck(L_1);
 		_HideKeyboard_Invoke_m3B6380CF10734934D9BA69A57728638939800031_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3096>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3096>
 		return;
 	}
 }
@@ -23264,14 +23264,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlay_HideKeyboard_m01831D18C5EB2F5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlay_SetKeyboardTransformAbsolute_m20C0BFE532FEE1ADE62CED187D10EB8BBF54A788 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, int32_t ___0_eTrackingOrigin, HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* ___1_pmatTrackingOriginToKeyboardTransform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3099>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3099>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetKeyboardTransformAbsolute_tD124AF043E47202B43D6826CE99D6E84C838AB85* L_1 = L_0->___SetKeyboardTransformAbsolute;
 		int32_t L_2 = ___0_eTrackingOrigin;
 		HmdMatrix34_t_t63D86814DA8F9D9DC7AA3143CE8C95454D5709F9* L_3 = ___1_pmatTrackingOriginToKeyboardTransform;
 		NullCheck(L_1);
 		_SetKeyboardTransformAbsolute_Invoke_m3497BEA16539C89B6A7D57C8625C2DAA29006F36_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3100>
 		return;
 	}
 }
@@ -23279,14 +23279,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlay_SetKeyboardTransformAbsolute_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlay_SetKeyboardPositionForOverlay_m461FB3B5E16CDFE594E0BC79DA4674944DF61682 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, HmdRect2_t_tAF394D41DC1EEC399E9D2B45C173C3504AA23C74 ___1_avoidRect, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3103>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetKeyboardPositionForOverlay_t244BE803F53B3EFE2BFBCF9061453A2A1309B8EF* L_1 = L_0->___SetKeyboardPositionForOverlay;
 		uint64_t L_2 = ___0_ulOverlayHandle;
 		HmdRect2_t_tAF394D41DC1EEC399E9D2B45C173C3504AA23C74 L_3 = ___1_avoidRect;
 		NullCheck(L_1);
 		_SetKeyboardPositionForOverlay_Invoke_m69FA992E3B8922406BEF0B112CBDA80B66B9FBBD_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3104>
 		return;
 	}
 }
@@ -23294,7 +23294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlay_SetKeyboardPositionForOverlay
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayIntersectionMask_m69F7CB33E346346E35B8A01D8E15BAC9A0EF0D41 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, VROverlayIntersectionMaskPrimitive_t_tB8C13CEB92E242AF507CDCF32C16944219DD6B32* ___1_pMaskPrimitives, uint32_t ___2_unNumMaskPrimitives, uint32_t ___3_unPrimitiveSize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3107>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_SetOverlayIntersectionMask_tAE5CA17C565A30886F10D7A11260E6263092B376* L_1 = L_0->___SetOverlayIntersectionMask;
 		uint64_t L_2 = ___0_ulOverlayHandle;
@@ -23304,7 +23304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayIntersectionMask
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _SetOverlayIntersectionMask_Invoke_m9F305DA9388441F2EFCB8488A15C06752C28EB13_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3108>
 		return L_6;
 	}
 }
@@ -23312,10 +23312,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayIntersectionMask
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayFlags_m7A79AA3E2C7DA7149579F1C9B51494E0D038C173 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, uint64_t ___0_ulOverlayHandle, uint32_t* ___1_pFlags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3112>
 		uint32_t* L_0 = ___1_pFlags;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3113>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_1 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_GetOverlayFlags_t44E5C4A2EC91529F47DC48FEC054CC746451CD7D* L_2 = L_1->___GetOverlayFlags;
 		uint64_t L_3 = ___0_ulOverlayHandle;
@@ -23323,7 +23323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayFlags_m7A79AA3E2
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = _GetOverlayFlags_Invoke_m475448D58D7D935623E1C4858C508E3DB6FD6BD2_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3114>
 		return L_5;
 	}
 }
@@ -23331,7 +23331,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayFlags_m7A79AA3E2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowMessageOverlay_m557F1D4AB8BBF72574197850C3499A2DC13A7E2D (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, String_t* ___0_pchText, String_t* ___1_pchCaption, String_t* ___2_pchButton0Text, String_t* ___3_pchButton1Text, String_t* ___4_pchButton2Text, String_t* ___5_pchButton3Text, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3118>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_ShowMessageOverlay_t66E673DEEF62CC4BC981C5FEF8A46AB588B67C3C* L_1 = L_0->___ShowMessageOverlay;
 		String_t* L_2 = ___0_pchText;
@@ -23343,7 +23343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowMessageOverlay_m557F1D
 		NullCheck(L_1);
 		int32_t L_8;
 		L_8 = _ShowMessageOverlay_Invoke_mDD90FCF8E4949398018FB75499480754DEC42B7D_inline(L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3119>
 		return L_8;
 	}
 }
@@ -23351,12 +23351,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowMessageOverlay_m557F1D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlay_CloseMessageOverlay_m1961A7F2027BA30DF87819DD662B05CFA66BBFC6 (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3123>
 		IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79* L_0 = (IVROverlay_t1F72C1A5A7D309113494D12FC43D63DD03533D79*)(&__this->___FnTable);
 		_CloseMessageOverlay_tEC2DEDD441F091EF78915B0A0BD8487722539D0F* L_1 = L_0->___CloseMessageOverlay;
 		NullCheck(L_1);
 		_CloseMessageOverlay_Invoke_m7700E1FB364F43E27F4707FC61FBC8D9295686FE_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3124>
 		return;
 	}
 }
@@ -23530,9 +23530,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRRenderModels__ctor_mBB5574FD94741A582
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3131>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3133>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -23597,7 +23597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRRenderModels__ctor_mBB5574FD94741A582
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___GetRenderModelErrorNameFromEnum), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3134>
 		return;
 	}
 }
@@ -23605,7 +23605,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRRenderModels__ctor_mBB5574FD94741A582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadRenderModel_Async_mF2E8D04117F039655ECE240440A52A2E89210DC0 (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, String_t* ___0_pchRenderModelName, intptr_t* ___1_ppRenderModel, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3137>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_LoadRenderModel_Async_tE8E63954032C284B008807EE4CF1531221D608DA* L_1 = L_0->___LoadRenderModel_Async;
 		String_t* L_2 = ___0_pchRenderModelName;
@@ -23613,7 +23613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadRenderModel_Async
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _LoadRenderModel_Async_Invoke_m0A010574BDA91EF93CFE1BB6375FE3ED3AFD6E97_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3138>
 		return L_4;
 	}
 }
@@ -23621,13 +23621,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadRenderModel_Async
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRRenderModels_FreeRenderModel_mA6B0019F5EFCD8C91266DD25E7E3451EC5A6EBE4 (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, intptr_t ___0_pRenderModel, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3142>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_FreeRenderModel_tE41E4A27E462FD2C26239CB2D4DAC027946C7D86* L_1 = L_0->___FreeRenderModel;
 		intptr_t L_2 = ___0_pRenderModel;
 		NullCheck(L_1);
 		_FreeRenderModel_Invoke_m2585349D404208B7180A2B5C74402CC1EF755523_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3143>
 		return;
 	}
 }
@@ -23635,7 +23635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRRenderModels_FreeRenderModel_mA6B0019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadTexture_Async_m4A07FD3451FAFFBA5E803ADDBFCEE015DD08F5F8 (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, int32_t ___0_textureId, intptr_t* ___1_ppTexture, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3146>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_LoadTexture_Async_t3EE34541EEE0128821D90456D708E41764535923* L_1 = L_0->___LoadTexture_Async;
 		int32_t L_2 = ___0_textureId;
@@ -23643,7 +23643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadTexture_Async_m4A
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _LoadTexture_Async_Invoke_m25F6466B4C93984036655BEC1DB8465102E9F94E_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3147>
 		return L_4;
 	}
 }
@@ -23651,13 +23651,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadTexture_Async_m4A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRRenderModels_FreeTexture_m9CA14872BAB0825B8E252135D2B6307968E4D4CA (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, intptr_t ___0_pTexture, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3151>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_FreeTexture_tC2F1F3E17EB538F2062D6DC20C6E7CFA8B81373B* L_1 = L_0->___FreeTexture;
 		intptr_t L_2 = ___0_pTexture;
 		NullCheck(L_1);
 		_FreeTexture_Invoke_m68E7F1E69FB81BAD1643923ADB5851B421D73361_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3152>
 		return;
 	}
 }
@@ -23665,7 +23665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRRenderModels_FreeTexture_m9CA14872BAB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadTextureD3D11_Async_mF175735F92A1AAC6D49CB512C192C7CB03D788E4 (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, int32_t ___0_textureId, intptr_t ___1_pD3D11Device, intptr_t* ___2_ppD3D11Texture2D, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3155>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_LoadTextureD3D11_Async_t5D3CE5C4651078EF2D91A51670FD8834BF73EEF8* L_1 = L_0->___LoadTextureD3D11_Async;
 		int32_t L_2 = ___0_textureId;
@@ -23674,7 +23674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadTextureD3D11_Asyn
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _LoadTextureD3D11_Async_Invoke_m116DB44F562AEE1E110327612A8D3EB70BBBAF8E_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3156>
 		return L_5;
 	}
 }
@@ -23682,7 +23682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadTextureD3D11_Asyn
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadIntoTextureD3D11_Async_m422C9FEF74E4EBE253B4CDBAB60302181CB2FCED (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, int32_t ___0_textureId, intptr_t ___1_pDstTexture, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3160>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_LoadIntoTextureD3D11_Async_t0D1673D83774DFEBCC76896938CEACCFBA491B16* L_1 = L_0->___LoadIntoTextureD3D11_Async;
 		int32_t L_2 = ___0_textureId;
@@ -23690,7 +23690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadIntoTextureD3D11_
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _LoadIntoTextureD3D11_Async_Invoke_m962511747A601D733CE23B3EF865D462B153E628_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3161>
 		return L_4;
 	}
 }
@@ -23698,13 +23698,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadIntoTextureD3D11_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRRenderModels_FreeTextureD3D11_m02E0D1D32F1F394BCB97AF6D5E8B19B890B9DAAA (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, intptr_t ___0_pD3D11Texture2D, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3165>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_FreeTextureD3D11_t69CA1907BBF7DDCF5C7E8B17E7A92C93B9ECFA7A* L_1 = L_0->___FreeTextureD3D11;
 		intptr_t L_2 = ___0_pD3D11Texture2D;
 		NullCheck(L_1);
 		_FreeTextureD3D11_Invoke_m0CC53F3B72B2A8FF1AC9EC7BA348C53D53F7A1B4_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3166>
 		return;
 	}
 }
@@ -23712,7 +23712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRRenderModels_FreeTextureD3D11_m02E0D1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelName_m9045D63C9ADB3DFA8B009CD5811D37FE34A53B7E (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, uint32_t ___0_unRenderModelIndex, StringBuilder_t* ___1_pchRenderModelName, uint32_t ___2_unRenderModelNameLen, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3169>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_GetRenderModelName_tFB3366C105A45F229CB4430B82F5C5801860CF28* L_1 = L_0->___GetRenderModelName;
 		uint32_t L_2 = ___0_unRenderModelIndex;
@@ -23721,7 +23721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelName_m
 		NullCheck(L_1);
 		uint32_t L_5;
 		L_5 = _GetRenderModelName_Invoke_mDE585944BE3DF09316EFF7FE4D6219457774BD10_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3170>
 		return L_5;
 	}
 }
@@ -23729,13 +23729,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelName_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelCount_m2EA78E53E1980C6EBB00BBA2482C1A684D49F57D (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3174>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_GetRenderModelCount_tCB831BEA4DD84FE81E4CD8193DD496530CB0AB11* L_1 = L_0->___GetRenderModelCount;
 		NullCheck(L_1);
 		uint32_t L_2;
 		L_2 = _GetRenderModelCount_Invoke_m239446E04F19F0A4AA05046284172110EA197B18_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3175>
 		return L_2;
 	}
 }
@@ -23743,14 +23743,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelCount_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentCount_m33ACBA0C6B436E69224FD52681BDC4A1144BB4F0 (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, String_t* ___0_pchRenderModelName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3179>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_GetComponentCount_t1F748AD512498F9BF3B23D622A4C1B2FBF1776BE* L_1 = L_0->___GetComponentCount;
 		String_t* L_2 = ___0_pchRenderModelName;
 		NullCheck(L_1);
 		uint32_t L_3;
 		L_3 = _GetComponentCount_Invoke_m2C37243B227C44FC1CDFF8343880AAF149CB422B_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3180>
 		return L_3;
 	}
 }
@@ -23758,7 +23758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentCount_m3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentName_mFC13EC1578894EFC2FCD379AE5F25433FA77EF5C (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, String_t* ___0_pchRenderModelName, uint32_t ___1_unComponentIndex, StringBuilder_t* ___2_pchComponentName, uint32_t ___3_unComponentNameLen, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3184>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_GetComponentName_t7299B12E9580B82EAFB2C3C98576322C1FA3DB0F* L_1 = L_0->___GetComponentName;
 		String_t* L_2 = ___0_pchRenderModelName;
@@ -23768,7 +23768,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentName_mFC
 		NullCheck(L_1);
 		uint32_t L_6;
 		L_6 = _GetComponentName_Invoke_m91614BBBD513A8AA2F8309333FB09F675ACF78FE_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3185>
 		return L_6;
 	}
 }
@@ -23776,7 +23776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentName_mFC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRRenderModels_GetComponentButtonMask_m37D9BFD0A8E5556C3BEA3AB5F56F34E3AEBB2738 (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, String_t* ___0_pchRenderModelName, String_t* ___1_pchComponentName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3189>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_GetComponentButtonMask_t72CEC4637FF7C3BE2B1F2CEBD60C01C665DB284B* L_1 = L_0->___GetComponentButtonMask;
 		String_t* L_2 = ___0_pchRenderModelName;
@@ -23784,7 +23784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRRenderModels_GetComponentButtonMa
 		NullCheck(L_1);
 		uint64_t L_4;
 		L_4 = _GetComponentButtonMask_Invoke_m2DF72AD07B393E1555434C840F13051DF820CCFE_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3190>
 		return L_4;
 	}
 }
@@ -23792,7 +23792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRRenderModels_GetComponentButtonMa
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentRenderModelName_m4F275C4A9D3D926C1AEBA6724709D39117D00B14 (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, String_t* ___0_pchRenderModelName, String_t* ___1_pchComponentName, StringBuilder_t* ___2_pchComponentRenderModelName, uint32_t ___3_unComponentRenderModelNameLen, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3194>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_GetComponentRenderModelName_tD2B798AB4FC395634444E8667BA389B5861F47A1* L_1 = L_0->___GetComponentRenderModelName;
 		String_t* L_2 = ___0_pchRenderModelName;
@@ -23802,7 +23802,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentRenderMo
 		NullCheck(L_1);
 		uint32_t L_6;
 		L_6 = _GetComponentRenderModelName_Invoke_mFE191277DE02D3ADF1DB7DA9A0F2C98F00EDE189_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3195>
 		return L_6;
 	}
 }
@@ -23810,7 +23810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentRenderMo
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_GetComponentStateForDevicePath_mA5FEC9C27C82509B71EA27A45D1FA44A237BCB70 (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, String_t* ___0_pchRenderModelName, String_t* ___1_pchComponentName, uint64_t ___2_devicePath, RenderModel_ControllerMode_State_t_t34D2F28521D9A03EEDDCE656874EC94B807C9AF2* ___3_pState, RenderModel_ComponentState_t_tA36BAA0FFA38B08B53A05D742E1188C6AD632B2E* ___4_pComponentState, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3199>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_GetComponentStateForDevicePath_t2FC5E923758C5B41B6BC3049EAD6B043D9E44936* L_1 = L_0->___GetComponentStateForDevicePath;
 		String_t* L_2 = ___0_pchRenderModelName;
@@ -23821,7 +23821,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_GetComponentStateForDevi
 		NullCheck(L_1);
 		bool L_7;
 		L_7 = _GetComponentStateForDevicePath_Invoke_m10BECF7BA77FD8D00E56529C86C1862FDAC99C26_inline(L_1, L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3200>
 		return L_7;
 	}
 }
@@ -23833,8 +23833,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_GetComponentState_m889C4
 	VRControllerState_t_Packed_tA47E12879BEB2EC3B71C6FD98D323B82FB0CFB1D V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3217>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3218>
 		OperatingSystem_t08A94435A5C7D999B5553B6C58763A6F2E3C8557* L_0;
 		L_0 = Environment_get_OSVersion_mDDD265F5864A2086664CAE56D7C4B59E9A50AF66(NULL);
 		NullCheck(L_0);
@@ -23859,19 +23859,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_GetComponentState_m889C4
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3221>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_4 = ___2_pControllerState;
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D L_5 = (*(VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D*)L_4);
 		VRControllerState_t_Packed__ctor_mC1DBB259912332D284B1A8D2EF26C57461BBAAF1((&V_1), L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3222>
 		(&V_0)->___pGetComponentStatePacked = (_GetComponentStatePacked_tDBAF1299643A6AA74D9D05A4BB3CCADA52A5C93F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___pGetComponentStatePacked), (void*)(_GetComponentStatePacked_tDBAF1299643A6AA74D9D05A4BB3CCADA52A5C93F*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3223>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3223>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_6 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_GetComponentState_t674BF5C44FF954F474C2F7557EE68C8399EE7D79* L_7 = L_6->___GetComponentState;
 		(&V_0)->___pGetComponentState = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___pGetComponentState), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3224>
 		GetComponentStateUnion_tB77E554E90BCDA4E209C95AE35BBA76A686027C3 L_8 = V_0;
 		_GetComponentStatePacked_tDBAF1299643A6AA74D9D05A4BB3CCADA52A5C93F* L_9 = L_8.___pGetComponentStatePacked;
 		String_t* L_10 = ___0_pchRenderModelName;
@@ -23881,16 +23881,16 @@ IL_001a:
 		NullCheck(L_9);
 		bool L_14;
 		L_14 = _GetComponentStatePacked_Invoke_m74816E8D58CB2C7339E796346CC8E36CB0BFF423_inline(L_9, L_10, L_11, (&V_1), L_12, L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3226>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3226>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_15 = ___2_pControllerState;
 		VRControllerState_t_Packed_Unpack_m2AE06AF41BB43E3D337631902E2FBEF7CC113F98((&V_1), L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3227>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3227>
 		return L_14;
 	}
 
 IL_005d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3230>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3230>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_16 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_GetComponentState_t674BF5C44FF954F474C2F7557EE68C8399EE7D79* L_17 = L_16->___GetComponentState;
 		String_t* L_18 = ___0_pchRenderModelName;
@@ -23901,7 +23901,7 @@ IL_005d:
 		NullCheck(L_17);
 		bool L_23;
 		L_23 = _GetComponentState_Invoke_mE81B6AFB859BDF0C5B1A55FB728AE4B99313AF6F_inline(L_17, L_18, L_19, L_20, L_21, L_22, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3231>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3231>
 		return L_23;
 	}
 }
@@ -23909,7 +23909,7 @@ IL_005d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_RenderModelHasComponent_m146DCBE8F691E34BF9ED230E75A75F39841EE504 (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, String_t* ___0_pchRenderModelName, String_t* ___1_pchComponentName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3235>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_RenderModelHasComponent_t1BE46B86D466CEC4149009CE794724C393E31C05* L_1 = L_0->___RenderModelHasComponent;
 		String_t* L_2 = ___0_pchRenderModelName;
@@ -23917,7 +23917,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_RenderModelHasComponent_
 		NullCheck(L_1);
 		bool L_4;
 		L_4 = _RenderModelHasComponent_Invoke_m363EAD00D00A8065E709450333C9C3CBE27A6209_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3236>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3236>
 		return L_4;
 	}
 }
@@ -23925,7 +23925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_RenderModelHasComponent_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelThumbnailURL_m6263D1ED8957119FA256C6A8FBF4F5A56D454CF1 (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, String_t* ___0_pchRenderModelName, StringBuilder_t* ___1_pchThumbnailURL, uint32_t ___2_unThumbnailURLLen, int32_t* ___3_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3240>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3240>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_GetRenderModelThumbnailURL_tD05F5C73B26E362981EAB0BCE35E1591CEA88267* L_1 = L_0->___GetRenderModelThumbnailURL;
 		String_t* L_2 = ___0_pchRenderModelName;
@@ -23935,7 +23935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelThumbn
 		NullCheck(L_1);
 		uint32_t L_6;
 		L_6 = _GetRenderModelThumbnailURL_Invoke_m597483F3CA6602E69270A7E4102EF3413A150BFE_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3241>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3241>
 		return L_6;
 	}
 }
@@ -23943,7 +23943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelThumbn
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelOriginalPath_m0D8E4CF93C47EC90AB4A4855C8B720D894250933 (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* __this, String_t* ___0_pchRenderModelName, StringBuilder_t* ___1_pchOriginalPath, uint32_t ___2_unOriginalPathLen, int32_t* ___3_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3245>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3245>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_GetRenderModelOriginalPath_tB6E08E5F6C75B2C426E5D0CE2969E2A31DC45994* L_1 = L_0->___GetRenderModelOriginalPath;
 		String_t* L_2 = ___0_pchRenderModelName;
@@ -23953,7 +23953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelOrigin
 		NullCheck(L_1);
 		uint32_t L_6;
 		L_6 = _GetRenderModelOriginalPath_Invoke_mD65899C502F8353921386BD4B6FD015D2C25EFB7_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3246>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3246>
 		return L_6;
 	}
 }
@@ -23967,14 +23967,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRRenderModels_GetRenderModelError
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3250>
 		IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3* L_0 = (IVRRenderModels_t403A4506C6E82781E47914FC6B07A36164137FD3*)(&__this->___FnTable);
 		_GetRenderModelErrorNameFromEnum_tF2FA0CC09F6503BC3FB59FACB0ED370A304E5012* L_1 = L_0->___GetRenderModelErrorNameFromEnum;
 		int32_t L_2 = ___0_error;
 		NullCheck(L_1);
 		intptr_t L_3;
 		L_3 = _GetRenderModelErrorNameFromEnum_Invoke_mFC2B820A425DA88203B27EC4B2046155D11C656F_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3251>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3251>
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		String_t* L_4;
 		L_4 = Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A(L_3, NULL);
@@ -24178,9 +24178,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRNotifications__ctor_mED68B5C361B11AED
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3259>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3259>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3261>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3261>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRNotifications_t62DF907707368452B4C3E361E330FDA266FDAD6E_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -24194,7 +24194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRNotifications__ctor_mED68B5C361B11AED
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___RemoveNotification), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3262>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3262>
 		return;
 	}
 }
@@ -24202,10 +24202,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRNotifications__ctor_mED68B5C361B11AED
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRNotifications_CreateNotification_mAEEA8567B711B076D8EB3C896E744CEE9749F707 (CVRNotifications_t2B6CBADD0E63AAAAA10122AF7509A6C068098847* __this, uint64_t ___0_ulOverlayHandle, uint64_t ___1_ulUserValue, int32_t ___2_type, String_t* ___3_pchText, int32_t ___4_style, NotificationBitmap_t_t9A93F7C2B3261CD4DB0E2F2EDBF8C57E4690EC85* ___5_pImage, uint32_t* ___6_pNotificationId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3265>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3265>
 		uint32_t* L_0 = ___6_pNotificationId;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3266>
 		IVRNotifications_t62DF907707368452B4C3E361E330FDA266FDAD6E* L_1 = (IVRNotifications_t62DF907707368452B4C3E361E330FDA266FDAD6E*)(&__this->___FnTable);
 		_CreateNotification_tF611238A1CCE717F88BA1B6AA3C1BF2348DEE2E2* L_2 = L_1->___CreateNotification;
 		uint64_t L_3 = ___0_ulOverlayHandle;
@@ -24218,7 +24218,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRNotifications_CreateNotification_m
 		NullCheck(L_2);
 		int32_t L_10;
 		L_10 = _CreateNotification_Invoke_mC05F022A4CABC7AE31C1A9273CDBEEEC59CFAA7E_inline(L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3267>
 		return L_10;
 	}
 }
@@ -24226,14 +24226,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRNotifications_CreateNotification_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRNotifications_RemoveNotification_mDCA6AC4DD7639CE9B17BBC3C795A57BCEF36796D (CVRNotifications_t2B6CBADD0E63AAAAA10122AF7509A6C068098847* __this, uint32_t ___0_notificationId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3271>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3271>
 		IVRNotifications_t62DF907707368452B4C3E361E330FDA266FDAD6E* L_0 = (IVRNotifications_t62DF907707368452B4C3E361E330FDA266FDAD6E*)(&__this->___FnTable);
 		_RemoveNotification_t9440B9276B2A81FFE487DF42083344B8432F8184* L_1 = L_0->___RemoveNotification;
 		uint32_t L_2 = ___0_notificationId;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _RemoveNotification_Invoke_m2C9C9643903502593DFC074A173E3F4A5642F428_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3272>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3272>
 		return L_3;
 	}
 }
@@ -24257,9 +24257,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings__ctor_m0E1E80DC9504F30ECD80B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3280>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3280>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3282>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3282>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -24303,7 +24303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings__ctor_m0E1E80DC9504F30ECD80B
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___RemoveKeyInSection), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3283>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3283>
 		return;
 	}
 }
@@ -24317,14 +24317,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSettings_GetSettingsErrorNameFro
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3286>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3286>
 		IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1* L_0 = (IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1*)(&__this->___FnTable);
 		_GetSettingsErrorNameFromEnum_tE19BF24F45CCAB8E99D8AEA8638EA2F86E8E6D05* L_1 = L_0->___GetSettingsErrorNameFromEnum;
 		int32_t L_2 = ___0_eError;
 		NullCheck(L_1);
 		intptr_t L_3;
 		L_3 = _GetSettingsErrorNameFromEnum_Invoke_m7FDF2AE2824455DA691B9E0756CFCD68437AEFAA_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3287>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3287>
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		String_t* L_4;
 		L_4 = Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A(L_3, NULL);
@@ -24335,7 +24335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSettings_GetSettingsErrorNameFro
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSettings_Sync_mFA7571D54933AC23DC5B44C62FC9CD09F2BEC699 (CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* __this, bool ___0_bForce, int32_t* ___1_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3291>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3291>
 		IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1* L_0 = (IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1*)(&__this->___FnTable);
 		_Sync_t430077019655288600E02875B7D1EAE5BE13DF84* L_1 = L_0->___Sync;
 		bool L_2 = ___0_bForce;
@@ -24343,7 +24343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSettings_Sync_mFA7571D54933AC23DC5B44
 		NullCheck(L_1);
 		bool L_4;
 		L_4 = _Sync_Invoke_mBE92B5A51C18F583D940816221EFF17D906049D4_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3292>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3292>
 		return L_4;
 	}
 }
@@ -24351,7 +24351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSettings_Sync_mFA7571D54933AC23DC5B44
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_SetBool_mF483EC5B47460AE21BB9F2335FCF4387DEE67ADE (CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* __this, String_t* ___0_pchSection, String_t* ___1_pchSettingsKey, bool ___2_bValue, int32_t* ___3_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3296>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3296>
 		IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1* L_0 = (IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1*)(&__this->___FnTable);
 		_SetBool_t590A9BAD61735EB0CA000B2CF2C31BF4C8E1C461* L_1 = L_0->___SetBool;
 		String_t* L_2 = ___0_pchSection;
@@ -24360,7 +24360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_SetBool_mF483EC5B47460AE21BB
 		int32_t* L_5 = ___3_peError;
 		NullCheck(L_1);
 		_SetBool_Invoke_m4EA9C938726D22B6AC463F7EB11308C45F2D1E6E_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3297>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3297>
 		return;
 	}
 }
@@ -24368,7 +24368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_SetBool_mF483EC5B47460AE21BB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_SetInt32_mA389D2FF671558B3F23569EAF170FC862DCCD75B (CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* __this, String_t* ___0_pchSection, String_t* ___1_pchSettingsKey, int32_t ___2_nValue, int32_t* ___3_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3300>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3300>
 		IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1* L_0 = (IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1*)(&__this->___FnTable);
 		_SetInt32_t24716C9A29208CAB49C0772500A13FB7629545EE* L_1 = L_0->___SetInt32;
 		String_t* L_2 = ___0_pchSection;
@@ -24377,7 +24377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_SetInt32_mA389D2FF671558B3F2
 		int32_t* L_5 = ___3_peError;
 		NullCheck(L_1);
 		_SetInt32_Invoke_mA8191307FD69C801C84B11A235811B5996AA109F_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3301>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3301>
 		return;
 	}
 }
@@ -24385,7 +24385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_SetInt32_mA389D2FF671558B3F2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_SetFloat_mA39FEA208273F23D9C68BC57A84F2503A2B25A94 (CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* __this, String_t* ___0_pchSection, String_t* ___1_pchSettingsKey, float ___2_flValue, int32_t* ___3_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3304>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3304>
 		IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1* L_0 = (IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1*)(&__this->___FnTable);
 		_SetFloat_tF6BC7345AA2576A2050756958C48A8BEAEA83D60* L_1 = L_0->___SetFloat;
 		String_t* L_2 = ___0_pchSection;
@@ -24394,7 +24394,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_SetFloat_mA39FEA208273F23D9C
 		int32_t* L_5 = ___3_peError;
 		NullCheck(L_1);
 		_SetFloat_Invoke_m676B76F3586020DC80CD8ECE9F2BE62498912AAA_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3305>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3305>
 		return;
 	}
 }
@@ -24402,7 +24402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_SetFloat_mA39FEA208273F23D9C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_SetString_m9729AD7D3CFE15D8CC3BA963A468F939809E6A2B (CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* __this, String_t* ___0_pchSection, String_t* ___1_pchSettingsKey, String_t* ___2_pchValue, int32_t* ___3_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3308>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3308>
 		IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1* L_0 = (IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1*)(&__this->___FnTable);
 		_SetString_tA84B0B0115B8651854756E7F91DCFAAA78E250C3* L_1 = L_0->___SetString;
 		String_t* L_2 = ___0_pchSection;
@@ -24411,7 +24411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_SetString_m9729AD7D3CFE15D8C
 		int32_t* L_5 = ___3_peError;
 		NullCheck(L_1);
 		_SetString_Invoke_m29414DD4BE192651ABE89CB7D3C4644EAA9C32FD_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3309>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3309>
 		return;
 	}
 }
@@ -24419,7 +24419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_SetString_m9729AD7D3CFE15D8C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSettings_GetBool_m7F6CB9291286D5F12F26B53D8016156EBBB93C64 (CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* __this, String_t* ___0_pchSection, String_t* ___1_pchSettingsKey, int32_t* ___2_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3312>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3312>
 		IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1* L_0 = (IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1*)(&__this->___FnTable);
 		_GetBool_t29EA55F8DD3D522FD063768958A2F408683BC035* L_1 = L_0->___GetBool;
 		String_t* L_2 = ___0_pchSection;
@@ -24428,7 +24428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSettings_GetBool_m7F6CB9291286D5F12F2
 		NullCheck(L_1);
 		bool L_5;
 		L_5 = _GetBool_Invoke_mC535BC76FC02ED2EB6C4C40F74705965CA216B07_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3313>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3313>
 		return L_5;
 	}
 }
@@ -24436,7 +24436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSettings_GetBool_m7F6CB9291286D5F12F2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSettings_GetInt32_mAC7C48DB6149D0E30831EA9F8D896DD022678BFB (CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* __this, String_t* ___0_pchSection, String_t* ___1_pchSettingsKey, int32_t* ___2_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3317>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3317>
 		IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1* L_0 = (IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1*)(&__this->___FnTable);
 		_GetInt32_tD937806391FE3FB32419301C9B27007E8618DB56* L_1 = L_0->___GetInt32;
 		String_t* L_2 = ___0_pchSection;
@@ -24445,7 +24445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSettings_GetInt32_mAC7C48DB6149D0E
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _GetInt32_Invoke_m793F5C306C6579003C2D2BEC7F81EF07687F2688_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3318>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3318>
 		return L_5;
 	}
 }
@@ -24453,7 +24453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSettings_GetInt32_mAC7C48DB6149D0E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRSettings_GetFloat_mB56A2CF66AE78268E9CAE7313C44A38265B136D2 (CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* __this, String_t* ___0_pchSection, String_t* ___1_pchSettingsKey, int32_t* ___2_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3322>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3322>
 		IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1* L_0 = (IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1*)(&__this->___FnTable);
 		_GetFloat_t848D513E61C65565FC4B6F7691AD9D7B32E136D0* L_1 = L_0->___GetFloat;
 		String_t* L_2 = ___0_pchSection;
@@ -24462,7 +24462,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRSettings_GetFloat_mB56A2CF66AE78268E
 		NullCheck(L_1);
 		float L_5;
 		L_5 = _GetFloat_Invoke_mF3330B7CBEDC08FF84E6CC9ADFE29E360FD913A4_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3323>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3323>
 		return L_5;
 	}
 }
@@ -24470,7 +24470,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRSettings_GetFloat_mB56A2CF66AE78268E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_GetString_m6A9B2D3FB77048E77FC5FA2E60F04CE65CBFCCC9 (CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* __this, String_t* ___0_pchSection, String_t* ___1_pchSettingsKey, StringBuilder_t* ___2_pchValue, uint32_t ___3_unValueLen, int32_t* ___4_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3327>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3327>
 		IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1* L_0 = (IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1*)(&__this->___FnTable);
 		_GetString_tFC69BFD84DBF2D49A787716ED1A0F47BF885C256* L_1 = L_0->___GetString;
 		String_t* L_2 = ___0_pchSection;
@@ -24480,7 +24480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_GetString_m6A9B2D3FB77048E77
 		int32_t* L_6 = ___4_peError;
 		NullCheck(L_1);
 		_GetString_Invoke_m4A1717111E34DD0698533D1F2BCAF44A35D70E19_inline(L_1, L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3328>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3328>
 		return;
 	}
 }
@@ -24488,14 +24488,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_GetString_m6A9B2D3FB77048E77
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_RemoveSection_m959D4D937053B0896579ADB1648C59054AABF224 (CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* __this, String_t* ___0_pchSection, int32_t* ___1_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3331>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3331>
 		IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1* L_0 = (IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1*)(&__this->___FnTable);
 		_RemoveSection_t79069D43F391B66FD545913D879F29568694D89E* L_1 = L_0->___RemoveSection;
 		String_t* L_2 = ___0_pchSection;
 		int32_t* L_3 = ___1_peError;
 		NullCheck(L_1);
 		_RemoveSection_Invoke_m9490F9341C4CC49F1AAE787927F1DC5C77F126E3_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3332>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3332>
 		return;
 	}
 }
@@ -24503,7 +24503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_RemoveSection_m959D4D937053B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_RemoveKeyInSection_m754BA43ECE58F512516D0C3095B0574226504329 (CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* __this, String_t* ___0_pchSection, String_t* ___1_pchSettingsKey, int32_t* ___2_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3335>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3335>
 		IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1* L_0 = (IVRSettings_tEE42EA90E095038800200064A9451F4E718A73F1*)(&__this->___FnTable);
 		_RemoveKeyInSection_tE3DD46E935D75353E0C5E246F3814CCDE6C24813* L_1 = L_0->___RemoveKeyInSection;
 		String_t* L_2 = ___0_pchSection;
@@ -24511,7 +24511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSettings_RemoveKeyInSection_m754BA43E
 		int32_t* L_4 = ___2_peError;
 		NullCheck(L_1);
 		_RemoveKeyInSection_Invoke_m077E2D9A6E05A50B039692E2102D512EECA0B305_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3336>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3336>
 		return;
 	}
 }
@@ -24535,9 +24535,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRScreenshots__ctor_mBF3A0C16F332C4F518
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3343>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3343>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3345>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3345>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -24566,7 +24566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRScreenshots__ctor_mBF3A0C16F332C4F518
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___SubmitScreenshot), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3346>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3346>
 		return;
 	}
 }
@@ -24574,10 +24574,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRScreenshots__ctor_mBF3A0C16F332C4F518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_RequestScreenshot_m5FF659D93E38E11A4FC9257093D698F994BE9862 (CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23* __this, uint32_t* ___0_pOutScreenshotHandle, int32_t ___1_type, String_t* ___2_pchPreviewFilename, String_t* ___3_pchVRFilename, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3349>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3349>
 		uint32_t* L_0 = ___0_pOutScreenshotHandle;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3350>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3350>
 		IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3* L_1 = (IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3*)(&__this->___FnTable);
 		_RequestScreenshot_tC517F798F459B5BA7144A0130EDE242610068FD9* L_2 = L_1->___RequestScreenshot;
 		uint32_t* L_3 = ___0_pOutScreenshotHandle;
@@ -24587,7 +24587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_RequestScreenshot_m5FF
 		NullCheck(L_2);
 		int32_t L_7;
 		L_7 = _RequestScreenshot_Invoke_m9B44E0CB5887A448AD6EAB119BA388419508017C_inline(L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3351>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3351>
 		return L_7;
 	}
 }
@@ -24595,7 +24595,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_RequestScreenshot_m5FF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_HookScreenshot_mED3ECC10621211EEE8114E31E132F9DE7B7FEBEB (CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23* __this, EVRScreenshotTypeU5BU5D_t91D7B64E2A9FCEA7FD1EC093DBC199D3D3E18028* ___0_pSupportedTypes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3355>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3355>
 		IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3* L_0 = (IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3*)(&__this->___FnTable);
 		_HookScreenshot_tA6785AC8EBF0D04CF69D27D656C2A6FB3F659334* L_1 = L_0->___HookScreenshot;
 		EVRScreenshotTypeU5BU5D_t91D7B64E2A9FCEA7FD1EC093DBC199D3D3E18028* L_2 = ___0_pSupportedTypes;
@@ -24604,7 +24604,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_HookScreenshot_mED3ECC
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _HookScreenshot_Invoke_mDAD2EEAE3C3BD833162A580153B9D8BFEBF39FF6_inline(L_1, L_2, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3356>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3356>
 		return L_4;
 	}
 }
@@ -24612,7 +24612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_HookScreenshot_mED3ECC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_GetScreenshotPropertyType_mA1D7F008584804B6B287E63AAE1A59545A13CF77 (CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23* __this, uint32_t ___0_screenshotHandle, int32_t* ___1_pError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3360>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3360>
 		IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3* L_0 = (IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3*)(&__this->___FnTable);
 		_GetScreenshotPropertyType_t884FA5B326A0AA72D3ACE9EE7D68E33D5EA3DC3B* L_1 = L_0->___GetScreenshotPropertyType;
 		uint32_t L_2 = ___0_screenshotHandle;
@@ -24620,7 +24620,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_GetScreenshotPropertyT
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _GetScreenshotPropertyType_Invoke_m8618D6FD8C7B000EFC3670AA1971E61C9366F81A_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3361>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3361>
 		return L_4;
 	}
 }
@@ -24628,7 +24628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_GetScreenshotPropertyT
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRScreenshots_GetScreenshotPropertyFilename_m9F4CBE6E305C2381D6B4DA44B3B31011A222497E (CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23* __this, uint32_t ___0_screenshotHandle, int32_t ___1_filenameType, StringBuilder_t* ___2_pchFilename, uint32_t ___3_cchFilename, int32_t* ___4_pError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3365>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3365>
 		IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3* L_0 = (IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3*)(&__this->___FnTable);
 		_GetScreenshotPropertyFilename_tC69E6AF13818B54364AE7B02C43537BD48DF4E76* L_1 = L_0->___GetScreenshotPropertyFilename;
 		uint32_t L_2 = ___0_screenshotHandle;
@@ -24639,7 +24639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRScreenshots_GetScreenshotProperty
 		NullCheck(L_1);
 		uint32_t L_7;
 		L_7 = _GetScreenshotPropertyFilename_Invoke_mB619ECA096E36684665D137AB5C0BCE3F26C5643_inline(L_1, L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3366>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3366>
 		return L_7;
 	}
 }
@@ -24647,7 +24647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRScreenshots_GetScreenshotProperty
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_UpdateScreenshotProgress_mD75B98D5716CBD35CCD39C6C8DC53D72D7F235A2 (CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23* __this, uint32_t ___0_screenshotHandle, float ___1_flProgress, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3370>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3370>
 		IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3* L_0 = (IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3*)(&__this->___FnTable);
 		_UpdateScreenshotProgress_t81F0DF5F950DBF93E3892995DA01F7843D4A3682* L_1 = L_0->___UpdateScreenshotProgress;
 		uint32_t L_2 = ___0_screenshotHandle;
@@ -24655,7 +24655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_UpdateScreenshotProgre
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _UpdateScreenshotProgress_Invoke_m463A2EF380A485B887153E0688719AA1B5941C77_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3371>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3371>
 		return L_4;
 	}
 }
@@ -24663,10 +24663,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_UpdateScreenshotProgre
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_TakeStereoScreenshot_m50483EB40AB5FD80AC007211D476573A0E5C0A5E (CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23* __this, uint32_t* ___0_pOutScreenshotHandle, String_t* ___1_pchPreviewFilename, String_t* ___2_pchVRFilename, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3375>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3375>
 		uint32_t* L_0 = ___0_pOutScreenshotHandle;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3376>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3376>
 		IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3* L_1 = (IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3*)(&__this->___FnTable);
 		_TakeStereoScreenshot_t0515309753D7CCEF3F9DD7A77E16BF7F2A8AC2F9* L_2 = L_1->___TakeStereoScreenshot;
 		uint32_t* L_3 = ___0_pOutScreenshotHandle;
@@ -24675,7 +24675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_TakeStereoScreenshot_m
 		NullCheck(L_2);
 		int32_t L_6;
 		L_6 = _TakeStereoScreenshot_Invoke_mA55FD4E7DBAB86429F6629209D22CEBF171127C9_inline(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3377>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3377>
 		return L_6;
 	}
 }
@@ -24683,7 +24683,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_TakeStereoScreenshot_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_SubmitScreenshot_m58741CF50A5A7230CF09974B6258C6F655787090 (CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23* __this, uint32_t ___0_screenshotHandle, int32_t ___1_type, String_t* ___2_pchSourcePreviewFilename, String_t* ___3_pchSourceVRFilename, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3381>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3381>
 		IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3* L_0 = (IVRScreenshots_t7FB9DAD22CC684EBE50D4256CD3197507FDDDBA3*)(&__this->___FnTable);
 		_SubmitScreenshot_t52597DCA551B3F5CD77FFFBFD6546907BF1FEFC5* L_1 = L_0->___SubmitScreenshot;
 		uint32_t L_2 = ___0_screenshotHandle;
@@ -24693,7 +24693,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_SubmitScreenshot_m5874
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _SubmitScreenshot_Invoke_m49192C8EA804090DD797352E8300E9142763B6D0_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3382>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3382>
 		return L_6;
 	}
 }
@@ -24717,9 +24717,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRResources__ctor_mFCDAD54FD76CA9B16F7B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3390>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3390>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3392>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3392>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRResources_tAFACB829F51A38DB522657180F4788A15E14EF32_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -24733,7 +24733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRResources__ctor_mFCDAD54FD76CA9B16F7B
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___GetResourceFullPath), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3393>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3393>
 		return;
 	}
 }
@@ -24741,7 +24741,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRResources__ctor_mFCDAD54FD76CA9B16F7B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRResources_LoadSharedResource_m016EC373F50B3498539CA7E09A1BF3AFBC4BBB31 (CVRResources_tC19257439021A53782B6925A2EBA43B2F165F8E1* __this, String_t* ___0_pchResourceName, String_t* ___1_pchBuffer, uint32_t ___2_unBufferLen, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3396>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3396>
 		IVRResources_tAFACB829F51A38DB522657180F4788A15E14EF32* L_0 = (IVRResources_tAFACB829F51A38DB522657180F4788A15E14EF32*)(&__this->___FnTable);
 		_LoadSharedResource_t8A472C6697D9DBF4F455676DFD8996AD0BA89E85* L_1 = L_0->___LoadSharedResource;
 		String_t* L_2 = ___0_pchResourceName;
@@ -24750,7 +24750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRResources_LoadSharedResource_m016
 		NullCheck(L_1);
 		uint32_t L_5;
 		L_5 = _LoadSharedResource_Invoke_m7C260B8F754173C4D15EC7F84F5C937D9068D18C_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3397>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3397>
 		return L_5;
 	}
 }
@@ -24758,7 +24758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRResources_LoadSharedResource_m016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRResources_GetResourceFullPath_m227017BB3B6C511AA3A7BE64EE0AE287C4269FF9 (CVRResources_tC19257439021A53782B6925A2EBA43B2F165F8E1* __this, String_t* ___0_pchResourceName, String_t* ___1_pchResourceTypeDirectory, StringBuilder_t* ___2_pchPathBuffer, uint32_t ___3_unBufferLen, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3401>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3401>
 		IVRResources_tAFACB829F51A38DB522657180F4788A15E14EF32* L_0 = (IVRResources_tAFACB829F51A38DB522657180F4788A15E14EF32*)(&__this->___FnTable);
 		_GetResourceFullPath_t2074B74CAB427D41B409BD28DB1CB91944AD410D* L_1 = L_0->___GetResourceFullPath;
 		String_t* L_2 = ___0_pchResourceName;
@@ -24768,7 +24768,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRResources_GetResourceFullPath_m22
 		NullCheck(L_1);
 		uint32_t L_6;
 		L_6 = _GetResourceFullPath_Invoke_mB71C6502B69C14C49709A543AD534732F826628F_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3402>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3402>
 		return L_6;
 	}
 }
@@ -24792,9 +24792,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRDriverManager__ctor_m3524EC0479654E91
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3410>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3410>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3412>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3412>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRDriverManager_tEC906DDE1FC7FD214505C4DD20666DD68BFBA48F_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -24811,7 +24811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRDriverManager__ctor_m3524EC0479654E91
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___GetDriverHandle), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3413>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3413>
 		return;
 	}
 }
@@ -24819,13 +24819,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRDriverManager__ctor_m3524EC0479654E91
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRDriverManager_GetDriverCount_m6E054C464E73BF927604A5DEDB6D6962C68B29E6 (CVRDriverManager_t0351071DDC842A8E7E3655B2F32EAF3559C0FFA3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3416>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3416>
 		IVRDriverManager_tEC906DDE1FC7FD214505C4DD20666DD68BFBA48F* L_0 = (IVRDriverManager_tEC906DDE1FC7FD214505C4DD20666DD68BFBA48F*)(&__this->___FnTable);
 		_GetDriverCount_t7F4F95090692BE39ADAA12991F0D53DBB396E148* L_1 = L_0->___GetDriverCount;
 		NullCheck(L_1);
 		uint32_t L_2;
 		L_2 = _GetDriverCount_Invoke_m3E17BAE9409D507D396AAA1B0170926C87E37168_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3417>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3417>
 		return L_2;
 	}
 }
@@ -24833,7 +24833,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRDriverManager_GetDriverCount_m6E0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRDriverManager_GetDriverName_m6BD87AB9DEEF356ADF19F2A8C99016FC638A73A6 (CVRDriverManager_t0351071DDC842A8E7E3655B2F32EAF3559C0FFA3* __this, uint32_t ___0_nDriver, StringBuilder_t* ___1_pchValue, uint32_t ___2_unBufferSize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3421>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3421>
 		IVRDriverManager_tEC906DDE1FC7FD214505C4DD20666DD68BFBA48F* L_0 = (IVRDriverManager_tEC906DDE1FC7FD214505C4DD20666DD68BFBA48F*)(&__this->___FnTable);
 		_GetDriverName_t0F9C1661D57ABAA63929E5458006C2C1B9CF3D70* L_1 = L_0->___GetDriverName;
 		uint32_t L_2 = ___0_nDriver;
@@ -24842,7 +24842,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRDriverManager_GetDriverName_m6BD8
 		NullCheck(L_1);
 		uint32_t L_5;
 		L_5 = _GetDriverName_Invoke_m35D679F4106CD8BD88E82225309AC8E3F23E15A8_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3422>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3422>
 		return L_5;
 	}
 }
@@ -24850,14 +24850,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRDriverManager_GetDriverName_m6BD8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRDriverManager_GetDriverHandle_mAE0585F990281C522CB3D1FFF2E407C9A80B3F6B (CVRDriverManager_t0351071DDC842A8E7E3655B2F32EAF3559C0FFA3* __this, String_t* ___0_pchDriverName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3426>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3426>
 		IVRDriverManager_tEC906DDE1FC7FD214505C4DD20666DD68BFBA48F* L_0 = (IVRDriverManager_tEC906DDE1FC7FD214505C4DD20666DD68BFBA48F*)(&__this->___FnTable);
 		_GetDriverHandle_t07CD8DE231F62D0EA5F01E54D5734AF04852F773* L_1 = L_0->___GetDriverHandle;
 		String_t* L_2 = ___0_pchDriverName;
 		NullCheck(L_1);
 		uint64_t L_3;
 		L_3 = _GetDriverHandle_Invoke_mFFA86BF88FC91E6C40DBF570BD92EEF53E8CDE25_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3427>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3427>
 		return L_3;
 	}
 }
@@ -24881,9 +24881,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRInput__ctor_m4F41D0D9B884BC130C4854CB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3435>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3435>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3437>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3437>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -24945,7 +24945,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRInput__ctor_m4F41D0D9B884BC130C4854CB
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___ShowBindingsForActionSet), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3438>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3438>
 		return;
 	}
 }
@@ -24953,14 +24953,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRInput__ctor_m4F41D0D9B884BC130C4854CB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_SetActionManifestPath_m456A49CB494BB5262B6A946FF44315110684C2E1 (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, String_t* ___0_pchActionManifestPath, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3441>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3441>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_SetActionManifestPath_t007D27FE5EC4DAB48FFFB5D25B25EBDF34210A2D* L_1 = L_0->___SetActionManifestPath;
 		String_t* L_2 = ___0_pchActionManifestPath;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _SetActionManifestPath_Invoke_m5F422069D064A51A3ECC527936765CA5E1D6BA23_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3442>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3442>
 		return L_3;
 	}
 }
@@ -24968,10 +24968,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_SetActionManifestPath_m456A4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionSetHandle_mAECB6F584B1BE47F635FA65B5043859BCB1E6098 (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, String_t* ___0_pchActionSetName, uint64_t* ___1_pHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3446>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3446>
 		uint64_t* L_0 = ___1_pHandle;
 		*((int64_t*)L_0) = (int64_t)((int64_t)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3447>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3447>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_1 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_GetActionSetHandle_tE44EE2278C7ECAE67894D97421427FC535C6ED86* L_2 = L_1->___GetActionSetHandle;
 		String_t* L_3 = ___0_pchActionSetName;
@@ -24979,7 +24979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionSetHandle_mAECB6F58
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = _GetActionSetHandle_Invoke_m49F0333FAFB0E349910E5DA7E4CE6DA3563440A2_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3448>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3448>
 		return L_5;
 	}
 }
@@ -24987,10 +24987,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionSetHandle_mAECB6F58
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionHandle_mE19C7F368E3457A95AF366FE073922FCC2D14F70 (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, String_t* ___0_pchActionName, uint64_t* ___1_pHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3452>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3452>
 		uint64_t* L_0 = ___1_pHandle;
 		*((int64_t*)L_0) = (int64_t)((int64_t)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3453>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3453>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_1 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_GetActionHandle_t39687D8C957CC72700EB789569511CE49A6887AA* L_2 = L_1->___GetActionHandle;
 		String_t* L_3 = ___0_pchActionName;
@@ -24998,7 +24998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionHandle_mE19C7F368E3
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = _GetActionHandle_Invoke_m1198533772545B5BF547638445D88A7313F5E44C_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3454>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3454>
 		return L_5;
 	}
 }
@@ -25006,10 +25006,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionHandle_mE19C7F368E3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetInputSourceHandle_m58BA4E7DA373FD89B471505177632363A33AC02A (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, String_t* ___0_pchInputSourcePath, uint64_t* ___1_pHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3458>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3458>
 		uint64_t* L_0 = ___1_pHandle;
 		*((int64_t*)L_0) = (int64_t)((int64_t)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3459>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3459>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_1 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_GetInputSourceHandle_tB4F253D6BED390474F619356FE0F92CA23E6B74E* L_2 = L_1->___GetInputSourceHandle;
 		String_t* L_3 = ___0_pchInputSourcePath;
@@ -25017,7 +25017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetInputSourceHandle_m58BA4E
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = _GetInputSourceHandle_Invoke_mF75E72AAF95CCD47CD7A29F9D6B1482A524EDD84_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3460>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3460>
 		return L_5;
 	}
 }
@@ -25025,7 +25025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetInputSourceHandle_m58BA4E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_UpdateActionState_m650D5174FE93D7A0B51220EE1C745CA4A1017953 (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, VRActiveActionSet_tU5BU5D_tB48843E5775650D32855319B9EDDD3E9E62F2652* ___0_pSets, uint32_t ___1_unSizeOfVRSelectedActionSet_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3464>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3464>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_UpdateActionState_tACCEE9E8315AAC639F386F0E5E1352A12DF728B2* L_1 = L_0->___UpdateActionState;
 		VRActiveActionSet_tU5BU5D_tB48843E5775650D32855319B9EDDD3E9E62F2652* L_2 = ___0_pSets;
@@ -25035,7 +25035,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_UpdateActionState_m650D5174F
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _UpdateActionState_Invoke_mABE0C9B1B2B0F883249117D58355FD9CA255B389_inline(L_1, L_2, L_3, ((int32_t)(((RuntimeArray*)L_4)->max_length)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3465>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3465>
 		return L_5;
 	}
 }
@@ -25043,7 +25043,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_UpdateActionState_m650D5174F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetDigitalActionData_mE6C14DA71B44D6104077EB1C7065B396D5D7CE9D (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, uint64_t ___0_action, InputDigitalActionData_t_t6827660F2AECA4C30284279B5A1476F031B3BD06* ___1_pActionData, uint32_t ___2_unActionDataSize, uint64_t ___3_ulRestrictToDevice, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3469>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3469>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_GetDigitalActionData_tC4ED08E3304DF7CBD9AD288D8ECBE78461B0C667* L_1 = L_0->___GetDigitalActionData;
 		uint64_t L_2 = ___0_action;
@@ -25053,7 +25053,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetDigitalActionData_mE6C14D
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _GetDigitalActionData_Invoke_m4D1E14C1AD453E3B63AD53E568794AE799E4A8AA_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3470>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3470>
 		return L_6;
 	}
 }
@@ -25061,7 +25061,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetDigitalActionData_mE6C14D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetAnalogActionData_m02AB6421E5B34223CF84FEBC810C3B36C279770E (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, uint64_t ___0_action, InputAnalogActionData_t_t6BB5DF944FF61AC3B2AB61A395CAA0E7E9463F96* ___1_pActionData, uint32_t ___2_unActionDataSize, uint64_t ___3_ulRestrictToDevice, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3474>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3474>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_GetAnalogActionData_t33F3832C40079A8B5BC284939F694FF79503A6E0* L_1 = L_0->___GetAnalogActionData;
 		uint64_t L_2 = ___0_action;
@@ -25071,7 +25071,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetAnalogActionData_m02AB642
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _GetAnalogActionData_Invoke_m6C917F4C173D7BEC30F499C008B29E768754EEF6_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3475>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3475>
 		return L_6;
 	}
 }
@@ -25079,7 +25079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetAnalogActionData_m02AB642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetPoseActionData_mF7F1FA1A375257E9856D113A5C4D78E8DAAA0DAC (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, uint64_t ___0_action, int32_t ___1_eOrigin, float ___2_fPredictedSecondsFromNow, InputPoseActionData_t_t883A4CA6B3CFE9D47FCA3D7F677FD3E91F7AE51F* ___3_pActionData, uint32_t ___4_unActionDataSize, uint64_t ___5_ulRestrictToDevice, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3479>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3479>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_GetPoseActionData_t75C7FAB1DB16893DF110B06A6C466A2C15D7D30C* L_1 = L_0->___GetPoseActionData;
 		uint64_t L_2 = ___0_action;
@@ -25091,7 +25091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetPoseActionData_mF7F1FA1A3
 		NullCheck(L_1);
 		int32_t L_8;
 		L_8 = _GetPoseActionData_Invoke_m86348F2F15C11FE468DE092C500297981E2E5044_inline(L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3480>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3480>
 		return L_8;
 	}
 }
@@ -25099,7 +25099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetPoseActionData_mF7F1FA1A3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalActionData_m9D7D3F873100FF9E5F6BAE675E6885CA3DF42ECD (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, uint64_t ___0_action, InputSkeletalActionData_t_tBC46284C8B5DBAAEF4CF5EAB45F85D4A262AE4A0* ___1_pActionData, uint32_t ___2_unActionDataSize, uint64_t ___3_ulRestrictToDevice, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3484>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3484>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_GetSkeletalActionData_t7FFB9696FFE2E3F36B591D7B46D1DD8B6B60570E* L_1 = L_0->___GetSkeletalActionData;
 		uint64_t L_2 = ___0_action;
@@ -25109,7 +25109,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalActionData_m9D7D3
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _GetSkeletalActionData_Invoke_mE570AD110550E75A0CBA2C51F337ADD8864E13E3_inline(L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3485>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3485>
 		return L_6;
 	}
 }
@@ -25117,7 +25117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalActionData_m9D7D3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalBoneData_m84A9466F98797A8367510A3BD48B06AA94CAE2A3 (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, uint64_t ___0_action, int32_t ___1_eTransformSpace, int32_t ___2_eMotionRange, VRBoneTransform_tU5BU5D_t90031940C0AC0559AB38B2A99C9DAEA4B7CA84B5* ___3_pTransformArray, uint64_t ___4_ulRestrictToDevice, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3489>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3489>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_GetSkeletalBoneData_t6E341E34803B8415B8A1BD9BA1A8D9181F57FF2F* L_1 = L_0->___GetSkeletalBoneData;
 		uint64_t L_2 = ___0_action;
@@ -25130,7 +25130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalBoneData_m84A9466
 		NullCheck(L_1);
 		int32_t L_8;
 		L_8 = _GetSkeletalBoneData_Invoke_mC3C28A05B281D15A92D9A84DC4A55F17D74BF695_inline(L_1, L_2, L_3, L_4, L_5, ((int32_t)(((RuntimeArray*)L_6)->max_length)), L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3490>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3490>
 		return L_8;
 	}
 }
@@ -25138,10 +25138,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalBoneData_m84A9466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalBoneDataCompressed_m8E1BA576042FB9A329E8172978CE93E434C7CF1F (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, uint64_t ___0_action, int32_t ___1_eTransformSpace, int32_t ___2_eMotionRange, intptr_t ___3_pvCompressedData, uint32_t ___4_unCompressedSize, uint32_t* ___5_punRequiredCompressedSize, uint64_t ___6_ulRestrictToDevice, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3494>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3494>
 		uint32_t* L_0 = ___5_punRequiredCompressedSize;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3495>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3495>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_1 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_GetSkeletalBoneDataCompressed_t4A81338DAFC4A52D1364EB694943AF73C2245A19* L_2 = L_1->___GetSkeletalBoneDataCompressed;
 		uint64_t L_3 = ___0_action;
@@ -25154,7 +25154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalBoneDataCompresse
 		NullCheck(L_2);
 		int32_t L_10;
 		L_10 = _GetSkeletalBoneDataCompressed_Invoke_mFD668E12FFF32E1CBC00F4198C6075A13AA7B5BF_inline(L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3496>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3496>
 		return L_10;
 	}
 }
@@ -25162,7 +25162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalBoneDataCompresse
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_DecompressSkeletalBoneData_mC96A116B5BA7D59F5B02B112AB1CC425BC569E7A (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, intptr_t ___0_pvCompressedBuffer, uint32_t ___1_unCompressedBufferSize, int32_t* ___2_peTransformSpace, VRBoneTransform_tU5BU5D_t90031940C0AC0559AB38B2A99C9DAEA4B7CA84B5* ___3_pTransformArray, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3500>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3500>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_DecompressSkeletalBoneData_t0795FF773DDA3E07E2530AD3EAF3EF500FCDED54* L_1 = L_0->___DecompressSkeletalBoneData;
 		intptr_t L_2 = ___0_pvCompressedBuffer;
@@ -25174,7 +25174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_DecompressSkeletalBoneData_m
 		NullCheck(L_1);
 		int32_t L_7;
 		L_7 = _DecompressSkeletalBoneData_Invoke_m0CA9A23DCAA5765AED570EC6A1754D962D9F7A55_inline(L_1, L_2, L_3, L_4, L_5, ((int32_t)(((RuntimeArray*)L_6)->max_length)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3501>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3501>
 		return L_7;
 	}
 }
@@ -25182,7 +25182,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_DecompressSkeletalBoneData_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_TriggerHapticVibrationAction_mFE150E60521469AA5A679877C1A2AC67098CE994 (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, uint64_t ___0_action, float ___1_fStartSecondsFromNow, float ___2_fDurationSeconds, float ___3_fFrequency, float ___4_fAmplitude, uint64_t ___5_ulRestrictToDevice, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3505>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3505>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_TriggerHapticVibrationAction_t1A066FFBC7DBF34094EF95271394C9D9FB2E1739* L_1 = L_0->___TriggerHapticVibrationAction;
 		uint64_t L_2 = ___0_action;
@@ -25194,7 +25194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_TriggerHapticVibrationAction
 		NullCheck(L_1);
 		int32_t L_8;
 		L_8 = _TriggerHapticVibrationAction_Invoke_m9A43ADEBCD77C06F2EA51F1D38BA96AB6D141F84_inline(L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3506>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3506>
 		return L_8;
 	}
 }
@@ -25202,7 +25202,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_TriggerHapticVibrationAction
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionOrigins_m5182D3E95A8A6DA761ED6CA8B4EB900C54A9CFBE (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, uint64_t ___0_actionSetHandle, uint64_t ___1_digitalActionHandle, UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* ___2_originsOut, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3510>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3510>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_GetActionOrigins_t02D3F6AA21518D8409114EB96C9862BCFE06D014* L_1 = L_0->___GetActionOrigins;
 		uint64_t L_2 = ___0_actionSetHandle;
@@ -25213,7 +25213,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionOrigins_m5182D3E95A
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _GetActionOrigins_Invoke_m15550C325C86699B765928EDE71B2EBC7FD08F02_inline(L_1, L_2, L_3, L_4, ((int32_t)(((RuntimeArray*)L_5)->max_length)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3511>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3511>
 		return L_6;
 	}
 }
@@ -25221,7 +25221,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionOrigins_m5182D3E95A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetOriginLocalizedName_m3409DE5685CE7CDEE6CDFDBAAEDE99F486E29659 (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, uint64_t ___0_origin, StringBuilder_t* ___1_pchNameArray, uint32_t ___2_unNameArraySize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3515>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3515>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_GetOriginLocalizedName_t449130E1262626D4E366745AE5FA14F043682A26* L_1 = L_0->___GetOriginLocalizedName;
 		uint64_t L_2 = ___0_origin;
@@ -25230,7 +25230,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetOriginLocalizedName_m3409
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _GetOriginLocalizedName_Invoke_m3B09ECD29F458480F780889287996231E31798DF_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3516>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3516>
 		return L_5;
 	}
 }
@@ -25238,7 +25238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetOriginLocalizedName_m3409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetOriginTrackedDeviceInfo_m6E432C69BD42649E580E37E4C973BDA29AC0BF86 (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, uint64_t ___0_origin, InputOriginInfo_t_t8B32306A74375A60995F8531FCEBDDE65BC1E14A* ___1_pOriginInfo, uint32_t ___2_unOriginInfoSize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3520>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3520>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_GetOriginTrackedDeviceInfo_tB16781893247989A97CBC0F84D7EC6A48DD29D34* L_1 = L_0->___GetOriginTrackedDeviceInfo;
 		uint64_t L_2 = ___0_origin;
@@ -25247,7 +25247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetOriginTrackedDeviceInfo_m
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _GetOriginTrackedDeviceInfo_Invoke_mE8D98FBB6A2DDAABD78F1B4673D8623469FFBC19_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3521>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3521>
 		return L_5;
 	}
 }
@@ -25255,7 +25255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetOriginTrackedDeviceInfo_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_ShowActionOrigins_m543DC4F8218099386CA155105584D362E8389C01 (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, uint64_t ___0_actionSetHandle, uint64_t ___1_ulActionHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3525>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3525>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_ShowActionOrigins_t1CDFD1768C660D605CDA2B1CC89065EA2B992C3D* L_1 = L_0->___ShowActionOrigins;
 		uint64_t L_2 = ___0_actionSetHandle;
@@ -25263,7 +25263,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_ShowActionOrigins_m543DC4F82
 		NullCheck(L_1);
 		int32_t L_4;
 		L_4 = _ShowActionOrigins_Invoke_m0F815EC237632ACC043EFB6D1C7B8FA03C94060B_inline(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3526>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3526>
 		return L_4;
 	}
 }
@@ -25271,7 +25271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_ShowActionOrigins_m543DC4F82
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_ShowBindingsForActionSet_mC43E5B21B17E83241C6432B3696207A998DAECAC (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* __this, VRActiveActionSet_tU5BU5D_tB48843E5775650D32855319B9EDDD3E9E62F2652* ___0_pSets, uint32_t ___1_unSizeOfVRSelectedActionSet_t, uint64_t ___2_originToHighlight, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3530>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3530>
 		IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147* L_0 = (IVRInput_t2388F05027ABF70F7274C50DE3F028D2B7441147*)(&__this->___FnTable);
 		_ShowBindingsForActionSet_t4303E97F8A04760480AB5129904FA50FA9471CF5* L_1 = L_0->___ShowBindingsForActionSet;
 		VRActiveActionSet_tU5BU5D_tB48843E5775650D32855319B9EDDD3E9E62F2652* L_2 = ___0_pSets;
@@ -25282,7 +25282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_ShowBindingsForActionSet_mC4
 		NullCheck(L_1);
 		int32_t L_6;
 		L_6 = _ShowBindingsForActionSet_Invoke_m30B41C036E296263347763A4DBB9D42F81BF4C4F_inline(L_1, L_2, L_3, ((int32_t)(((RuntimeArray*)L_4)->max_length)), L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3531>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3531>
 		return L_6;
 	}
 }
@@ -25306,9 +25306,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRIOBuffer__ctor_m92B77D8C6717687BF4CD6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3539>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3539>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3541>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3541>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRIOBuffer_t94AC5EEFA16A75EE05BA9525A2C717E31F331212_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -25331,7 +25331,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRIOBuffer__ctor_m92B77D8C6717687BF4CD6
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___PropertyContainer), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3542>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3542>
 		return;
 	}
 }
@@ -25339,10 +25339,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRIOBuffer__ctor_m92B77D8C6717687BF4CD6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Open_mC1E3A4DA4B184B38547FB1D5E2319D70D88CE173 (CVRIOBuffer_tFE552F23B99A550AD5844571A91B13EBDD058B18* __this, String_t* ___0_pchPath, int32_t ___1_mode, uint32_t ___2_unElementSize, uint32_t ___3_unElements, uint64_t* ___4_pulBuffer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3545>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3545>
 		uint64_t* L_0 = ___4_pulBuffer;
 		*((int64_t*)L_0) = (int64_t)((int64_t)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3546>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3546>
 		IVRIOBuffer_t94AC5EEFA16A75EE05BA9525A2C717E31F331212* L_1 = (IVRIOBuffer_t94AC5EEFA16A75EE05BA9525A2C717E31F331212*)(&__this->___FnTable);
 		_Open_tC317B81214FB925FD945D541D0A7CF3B3D23A752* L_2 = L_1->___Open;
 		String_t* L_3 = ___0_pchPath;
@@ -25353,7 +25353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Open_mC1E3A4DA4B184B38547
 		NullCheck(L_2);
 		int32_t L_8;
 		L_8 = _Open_Invoke_m3C29388A8716A638DCC4630D54AE72171836332C_inline(L_2, L_3, L_4, L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3547>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3547>
 		return L_8;
 	}
 }
@@ -25361,14 +25361,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Open_mC1E3A4DA4B184B38547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Close_m7A73AF8F1D37AC63EB84EE35ACD84BE1FB1C5D84 (CVRIOBuffer_tFE552F23B99A550AD5844571A91B13EBDD058B18* __this, uint64_t ___0_ulBuffer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3551>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3551>
 		IVRIOBuffer_t94AC5EEFA16A75EE05BA9525A2C717E31F331212* L_0 = (IVRIOBuffer_t94AC5EEFA16A75EE05BA9525A2C717E31F331212*)(&__this->___FnTable);
 		_Close_t4CDE1578EA391AF8146B99A5DD7745D884EBF452* L_1 = L_0->___Close;
 		uint64_t L_2 = ___0_ulBuffer;
 		NullCheck(L_1);
 		int32_t L_3;
 		L_3 = _Close_Invoke_m71833430B66545DC79E1A2B38D67F4922CE3BDB8_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3552>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3552>
 		return L_3;
 	}
 }
@@ -25376,10 +25376,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Close_m7A73AF8F1D37AC63EB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Read_mF35916B0C441FC46D4D0C5140A49368FDC2225DD (CVRIOBuffer_tFE552F23B99A550AD5844571A91B13EBDD058B18* __this, uint64_t ___0_ulBuffer, intptr_t ___1_pDst, uint32_t ___2_unBytes, uint32_t* ___3_punRead, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3556>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3556>
 		uint32_t* L_0 = ___3_punRead;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3557>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3557>
 		IVRIOBuffer_t94AC5EEFA16A75EE05BA9525A2C717E31F331212* L_1 = (IVRIOBuffer_t94AC5EEFA16A75EE05BA9525A2C717E31F331212*)(&__this->___FnTable);
 		_Read_tAC1A1F12B07F7E8DDDEDACC49AC687071501A11A* L_2 = L_1->___Read;
 		uint64_t L_3 = ___0_ulBuffer;
@@ -25389,7 +25389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Read_mF35916B0C441FC46D4D
 		NullCheck(L_2);
 		int32_t L_7;
 		L_7 = _Read_Invoke_mF2DA6F3E29BE0C7CCAFDC95B086D84F24163AB65_inline(L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3558>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3558>
 		return L_7;
 	}
 }
@@ -25397,7 +25397,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Read_mF35916B0C441FC46D4D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Write_m3D2AE1A3EBC36605E3E9D2359C634122301FF6C6 (CVRIOBuffer_tFE552F23B99A550AD5844571A91B13EBDD058B18* __this, uint64_t ___0_ulBuffer, intptr_t ___1_pSrc, uint32_t ___2_unBytes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3562>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3562>
 		IVRIOBuffer_t94AC5EEFA16A75EE05BA9525A2C717E31F331212* L_0 = (IVRIOBuffer_t94AC5EEFA16A75EE05BA9525A2C717E31F331212*)(&__this->___FnTable);
 		_Write_t70013CC378C37D2170258A6F8368EB537A36D3CE* L_1 = L_0->___Write;
 		uint64_t L_2 = ___0_ulBuffer;
@@ -25406,7 +25406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Write_m3D2AE1A3EBC36605E3
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _Write_Invoke_m640B30A23EE2103A2121E2E08115659E88C39EFF_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3563>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3563>
 		return L_5;
 	}
 }
@@ -25414,14 +25414,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Write_m3D2AE1A3EBC36605E3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRIOBuffer_PropertyContainer_mC965BFA41573E586D9E892E3D4FCB66C82CBF79A (CVRIOBuffer_tFE552F23B99A550AD5844571A91B13EBDD058B18* __this, uint64_t ___0_ulBuffer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3567>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3567>
 		IVRIOBuffer_t94AC5EEFA16A75EE05BA9525A2C717E31F331212* L_0 = (IVRIOBuffer_t94AC5EEFA16A75EE05BA9525A2C717E31F331212*)(&__this->___FnTable);
 		_PropertyContainer_tB0590D682E8137C9AA2364565F6487E3F0072C03* L_1 = L_0->___PropertyContainer;
 		uint64_t L_2 = ___0_ulBuffer;
 		NullCheck(L_1);
 		uint64_t L_3;
 		L_3 = _PropertyContainer_Invoke_m863AC7000DB0D96A485324D97F247780F0308505_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3568>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3568>
 		return L_3;
 	}
 }
@@ -25445,9 +25445,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSpatialAnchors__ctor_m632B95E1D9EBBB0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3576>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3576>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3578>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3578>
 		intptr_t L_0 = ___0_pInterface;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (IVRSpatialAnchors_tFAD20563C0543E5ABE191F247BCF14F768DD7E03_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -25467,7 +25467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSpatialAnchors__ctor_m632B95E1D9EBBB0
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___FnTable))->___GetSpatialAnchorDescriptor), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3579>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3579>
 		return;
 	}
 }
@@ -25475,10 +25475,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSpatialAnchors__ctor_m632B95E1D9EBBB0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_CreateSpatialAnchorFromDescriptor_m17DCC7B129936721E4210B70CC23CA4C4CEABD88 (CVRSpatialAnchors_t8E126D6724183A251E6649E32BB114979368086C* __this, String_t* ___0_pchDescriptor, uint32_t* ___1_pHandleOut, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3582>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3582>
 		uint32_t* L_0 = ___1_pHandleOut;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3583>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3583>
 		IVRSpatialAnchors_tFAD20563C0543E5ABE191F247BCF14F768DD7E03* L_1 = (IVRSpatialAnchors_tFAD20563C0543E5ABE191F247BCF14F768DD7E03*)(&__this->___FnTable);
 		_CreateSpatialAnchorFromDescriptor_tBA53981C13E3D9073976CCD6539297864F99DC44* L_2 = L_1->___CreateSpatialAnchorFromDescriptor;
 		String_t* L_3 = ___0_pchDescriptor;
@@ -25486,7 +25486,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_CreateSpatialAnchor
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = _CreateSpatialAnchorFromDescriptor_Invoke_m3F41DD1D21780303782CBD0C2E074D07FA39DC26_inline(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3584>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3584>
 		return L_5;
 	}
 }
@@ -25494,10 +25494,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_CreateSpatialAnchor
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_CreateSpatialAnchorFromPose_m3DF84C27F5379EC393C5C18435310ADC03B80B5F (CVRSpatialAnchors_t8E126D6724183A251E6649E32BB114979368086C* __this, uint32_t ___0_unDeviceIndex, int32_t ___1_eOrigin, SpatialAnchorPose_t_tEE076016CB29802BF44A08A9EB016337343C9A89* ___2_pPose, uint32_t* ___3_pHandleOut, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3588>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3588>
 		uint32_t* L_0 = ___3_pHandleOut;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3589>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3589>
 		IVRSpatialAnchors_tFAD20563C0543E5ABE191F247BCF14F768DD7E03* L_1 = (IVRSpatialAnchors_tFAD20563C0543E5ABE191F247BCF14F768DD7E03*)(&__this->___FnTable);
 		_CreateSpatialAnchorFromPose_tE13DF519C9E1EBE00E68F6EA6F6D8486C6F7E08F* L_2 = L_1->___CreateSpatialAnchorFromPose;
 		uint32_t L_3 = ___0_unDeviceIndex;
@@ -25507,7 +25507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_CreateSpatialAnchor
 		NullCheck(L_2);
 		int32_t L_7;
 		L_7 = _CreateSpatialAnchorFromPose_Invoke_mAA0C0296D7C85F98571C3B2CB3F47BC9B58259E2_inline(L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3590>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3590>
 		return L_7;
 	}
 }
@@ -25515,7 +25515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_CreateSpatialAnchor
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_GetSpatialAnchorPose_m2614EA539729620429BDDAE901B9AB006433AA1E (CVRSpatialAnchors_t8E126D6724183A251E6649E32BB114979368086C* __this, uint32_t ___0_unHandle, int32_t ___1_eOrigin, SpatialAnchorPose_t_tEE076016CB29802BF44A08A9EB016337343C9A89* ___2_pPoseOut, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3594>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3594>
 		IVRSpatialAnchors_tFAD20563C0543E5ABE191F247BCF14F768DD7E03* L_0 = (IVRSpatialAnchors_tFAD20563C0543E5ABE191F247BCF14F768DD7E03*)(&__this->___FnTable);
 		_GetSpatialAnchorPose_t94B25B5A23E2B42FE88F859C721FF4E04DB14B24* L_1 = L_0->___GetSpatialAnchorPose;
 		uint32_t L_2 = ___0_unHandle;
@@ -25524,7 +25524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_GetSpatialAnchorPos
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = _GetSpatialAnchorPose_Invoke_mEB8ADAFC9D7DF2A521FC5A5A8DBF7B8880A61758_inline(L_1, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3595>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3595>
 		return L_5;
 	}
 }
@@ -25532,10 +25532,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_GetSpatialAnchorPos
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_GetSpatialAnchorDescriptor_m8CE0B11F8C1632F61C4A4C4E45F51A724349AE43 (CVRSpatialAnchors_t8E126D6724183A251E6649E32BB114979368086C* __this, uint32_t ___0_unHandle, StringBuilder_t* ___1_pchDescriptorOut, uint32_t* ___2_punDescriptorBufferLenInOut, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3599>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3599>
 		uint32_t* L_0 = ___2_punDescriptorBufferLenInOut;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3600>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3600>
 		IVRSpatialAnchors_tFAD20563C0543E5ABE191F247BCF14F768DD7E03* L_1 = (IVRSpatialAnchors_tFAD20563C0543E5ABE191F247BCF14F768DD7E03*)(&__this->___FnTable);
 		_GetSpatialAnchorDescriptor_tAAA8579E216F58E7DDC2DF4E24285AA30E5EFFFA* L_2 = L_1->___GetSpatialAnchorDescriptor;
 		uint32_t L_3 = ___0_unHandle;
@@ -25544,7 +25544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_GetSpatialAnchorDes
 		NullCheck(L_2);
 		int32_t L_6;
 		L_6 = _GetSpatialAnchorDescriptor_Invoke_m6767164DC563D7CB13AB85195087B0E15890F478_inline(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:3601>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:3601>
 		return L_6;
 	}
 }
@@ -26549,58 +26549,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VREvent_Keyboard_t_get_cNewInput_m1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4864>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4864>
 		StringBuilder_t* L_0 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m2619CA8D2C3476DF1A302D9D941498BB1C6164C5(L_0, 8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4865>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4865>
 		StringBuilder_t* L_1 = L_0;
 		uint8_t L_2 = __this->___cNewInput0;
 		NullCheck(L_1);
 		StringBuilder_t* L_3;
 		L_3 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4866>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4866>
 		StringBuilder_t* L_4 = L_1;
 		uint8_t L_5 = __this->___cNewInput1;
 		NullCheck(L_4);
 		StringBuilder_t* L_6;
 		L_6 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4867>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4867>
 		StringBuilder_t* L_7 = L_4;
 		uint8_t L_8 = __this->___cNewInput2;
 		NullCheck(L_7);
 		StringBuilder_t* L_9;
 		L_9 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4868>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4868>
 		StringBuilder_t* L_10 = L_7;
 		uint8_t L_11 = __this->___cNewInput3;
 		NullCheck(L_10);
 		StringBuilder_t* L_12;
 		L_12 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_10, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4869>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4869>
 		StringBuilder_t* L_13 = L_10;
 		uint8_t L_14 = __this->___cNewInput4;
 		NullCheck(L_13);
 		StringBuilder_t* L_15;
 		L_15 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_13, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4870>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4870>
 		StringBuilder_t* L_16 = L_13;
 		uint8_t L_17 = __this->___cNewInput5;
 		NullCheck(L_16);
 		StringBuilder_t* L_18;
 		L_18 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_16, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4871>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4871>
 		StringBuilder_t* L_19 = L_16;
 		uint8_t L_20 = __this->___cNewInput6;
 		NullCheck(L_19);
 		StringBuilder_t* L_21;
 		L_21 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_19, L_20, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4872>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4872>
 		StringBuilder_t* L_22 = L_19;
 		uint8_t L_23 = __this->___cNewInput7;
 		NullCheck(L_22);
 		StringBuilder_t* L_24;
 		L_24 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_22, L_23, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4873>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4873>
 		NullCheck(L_22);
 		String_t* L_25;
 		L_25 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_22);
@@ -26772,23 +26772,23 @@ IL2CPP_EXTERN_C  String_t* VREvent_Keyboard_t_get_cNewInput_m174E294CBF7A8F2D0E8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VREvent_t_Packed__ctor_m484B567FC19A246082286514E27178820FE099D3 (VREvent_t_Packed_t8AA2D8A5BD65A607F6540FEB55D6A1E1D4C27939* __this, VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56 ___0_unpacked, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4985>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4985>
 		VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56 L_0 = ___0_unpacked;
 		uint32_t L_1 = L_0.___eventType;
 		__this->___eventType = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4986>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4986>
 		VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56 L_2 = ___0_unpacked;
 		uint32_t L_3 = L_2.___trackedDeviceIndex;
 		__this->___trackedDeviceIndex = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4987>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4987>
 		VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56 L_4 = ___0_unpacked;
 		float L_5 = L_4.___eventAgeSeconds;
 		__this->___eventAgeSeconds = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4988>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4988>
 		VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56 L_6 = ___0_unpacked;
 		VREvent_Data_t_t8A74777675138966ED359DF504F5AD7CA299040D L_7 = L_6.___data;
 		__this->___data = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4989>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4989>
 		return;
 	}
 }
@@ -26803,23 +26803,23 @@ IL2CPP_EXTERN_C  void VREvent_t_Packed__ctor_m484B567FC19A246082286514E27178820F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VREvent_t_Packed_Unpack_m096BCE005ED7DB1ED1526D8BC91C1C1742CBB490 (VREvent_t_Packed_t8AA2D8A5BD65A607F6540FEB55D6A1E1D4C27939* __this, VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56* ___0_unpacked, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4992>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4992>
 		VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56* L_0 = ___0_unpacked;
 		uint32_t L_1 = __this->___eventType;
 		L_0->___eventType = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4993>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4993>
 		VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56* L_2 = ___0_unpacked;
 		uint32_t L_3 = __this->___trackedDeviceIndex;
 		L_2->___trackedDeviceIndex = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4994>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4994>
 		VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56* L_4 = ___0_unpacked;
 		float L_5 = __this->___eventAgeSeconds;
 		L_4->___eventAgeSeconds = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4995>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4995>
 		VREvent_t_t74CAE5B0EB059B97CD04DD5C03552E1D2A893E56* L_6 = ___0_unpacked;
 		VREvent_Data_t_t8A74777675138966ED359DF504F5AD7CA299040D L_7 = __this->___data;
 		L_6->___data = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:4996>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:4996>
 		return;
 	}
 }
@@ -26866,39 +26866,39 @@ IL2CPP_EXTERN_C  void VREvent_t_Packed_Unpack_m096BCE005ED7DB1ED1526D8BC91C1C174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRControllerState_t_Packed__ctor_mC1DBB259912332D284B1A8D2EF26C57461BBAAF1 (VRControllerState_t_Packed_tA47E12879BEB2EC3B71C6FD98D323B82FB0CFB1D* __this, VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D ___0_unpacked, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5032>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5032>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D L_0 = ___0_unpacked;
 		uint32_t L_1 = L_0.___unPacketNum;
 		__this->___unPacketNum = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5033>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5033>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D L_2 = ___0_unpacked;
 		uint64_t L_3 = L_2.___ulButtonPressed;
 		__this->___ulButtonPressed = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5034>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5034>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D L_4 = ___0_unpacked;
 		uint64_t L_5 = L_4.___ulButtonTouched;
 		__this->___ulButtonTouched = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5035>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5035>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D L_6 = ___0_unpacked;
 		VRControllerAxis_t_t7A458D676363300CD993C97644DD786720A9C7E4 L_7 = L_6.___rAxis0;
 		__this->___rAxis0 = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5036>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5036>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D L_8 = ___0_unpacked;
 		VRControllerAxis_t_t7A458D676363300CD993C97644DD786720A9C7E4 L_9 = L_8.___rAxis1;
 		__this->___rAxis1 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5037>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5037>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D L_10 = ___0_unpacked;
 		VRControllerAxis_t_t7A458D676363300CD993C97644DD786720A9C7E4 L_11 = L_10.___rAxis2;
 		__this->___rAxis2 = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5038>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5038>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D L_12 = ___0_unpacked;
 		VRControllerAxis_t_t7A458D676363300CD993C97644DD786720A9C7E4 L_13 = L_12.___rAxis3;
 		__this->___rAxis3 = L_13;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5039>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5039>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D L_14 = ___0_unpacked;
 		VRControllerAxis_t_t7A458D676363300CD993C97644DD786720A9C7E4 L_15 = L_14.___rAxis4;
 		__this->___rAxis4 = L_15;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5040>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5040>
 		return;
 	}
 }
@@ -26913,39 +26913,39 @@ IL2CPP_EXTERN_C  void VRControllerState_t_Packed__ctor_mC1DBB259912332D284B1A8D2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRControllerState_t_Packed_Unpack_m2AE06AF41BB43E3D337631902E2FBEF7CC113F98 (VRControllerState_t_Packed_tA47E12879BEB2EC3B71C6FD98D323B82FB0CFB1D* __this, VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* ___0_unpacked, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5043>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5043>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_0 = ___0_unpacked;
 		uint32_t L_1 = __this->___unPacketNum;
 		L_0->___unPacketNum = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5044>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5044>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_2 = ___0_unpacked;
 		uint64_t L_3 = __this->___ulButtonPressed;
 		L_2->___ulButtonPressed = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5045>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5045>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_4 = ___0_unpacked;
 		uint64_t L_5 = __this->___ulButtonTouched;
 		L_4->___ulButtonTouched = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5046>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5046>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_6 = ___0_unpacked;
 		VRControllerAxis_t_t7A458D676363300CD993C97644DD786720A9C7E4 L_7 = __this->___rAxis0;
 		L_6->___rAxis0 = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5047>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5047>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_8 = ___0_unpacked;
 		VRControllerAxis_t_t7A458D676363300CD993C97644DD786720A9C7E4 L_9 = __this->___rAxis1;
 		L_8->___rAxis1 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5048>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5048>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_10 = ___0_unpacked;
 		VRControllerAxis_t_t7A458D676363300CD993C97644DD786720A9C7E4 L_11 = __this->___rAxis2;
 		L_10->___rAxis2 = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5049>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5049>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_12 = ___0_unpacked;
 		VRControllerAxis_t_t7A458D676363300CD993C97644DD786720A9C7E4 L_13 = __this->___rAxis3;
 		L_12->___rAxis3 = L_13;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5050>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5050>
 		VRControllerState_t_t50475AF703AB39117DE2C6CE266154309CD9BD4D* L_14 = ___0_unpacked;
 		VRControllerAxis_t_t7A458D676363300CD993C97644DD786720A9C7E4 L_15 = __this->___rAxis4;
 		L_14->___rAxis4 = L_15;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5051>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5051>
 		return;
 	}
 }
@@ -27096,19 +27096,19 @@ IL2CPP_EXTERN_C  void VRControllerState_t_Packed_Unpack_m2AE06AF41BB43E3D3376319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderModel_TextureMap_t_Packed__ctor_mCE473918ABF427B7773B8F8B717BB05678998908 (RenderModel_TextureMap_t_Packed_t780763C440B1710BCCAF121019A7375FA5EDE218* __this, RenderModel_TextureMap_t_tF5DFE39B9218B0746669BEBF9D5F8EB3C2E297F9 ___0_unpacked, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5209>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5209>
 		RenderModel_TextureMap_t_tF5DFE39B9218B0746669BEBF9D5F8EB3C2E297F9 L_0 = ___0_unpacked;
 		uint16_t L_1 = L_0.___unWidth;
 		__this->___unWidth = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5210>
 		RenderModel_TextureMap_t_tF5DFE39B9218B0746669BEBF9D5F8EB3C2E297F9 L_2 = ___0_unpacked;
 		uint16_t L_3 = L_2.___unHeight;
 		__this->___unHeight = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5211>
 		RenderModel_TextureMap_t_tF5DFE39B9218B0746669BEBF9D5F8EB3C2E297F9 L_4 = ___0_unpacked;
 		intptr_t L_5 = L_4.___rubTextureMapData;
 		__this->___rubTextureMapData = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5212>
 		return;
 	}
 }
@@ -27123,19 +27123,19 @@ IL2CPP_EXTERN_C  void RenderModel_TextureMap_t_Packed__ctor_mCE473918ABF427B7773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderModel_TextureMap_t_Packed_Unpack_mC3769188A1E8608331A894009A45404AAB8C17B4 (RenderModel_TextureMap_t_Packed_t780763C440B1710BCCAF121019A7375FA5EDE218* __this, RenderModel_TextureMap_t_tF5DFE39B9218B0746669BEBF9D5F8EB3C2E297F9* ___0_unpacked, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5215>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5215>
 		RenderModel_TextureMap_t_tF5DFE39B9218B0746669BEBF9D5F8EB3C2E297F9* L_0 = ___0_unpacked;
 		uint16_t L_1 = __this->___unWidth;
 		L_0->___unWidth = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5216>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5216>
 		RenderModel_TextureMap_t_tF5DFE39B9218B0746669BEBF9D5F8EB3C2E297F9* L_2 = ___0_unpacked;
 		uint16_t L_3 = __this->___unHeight;
 		L_2->___unHeight = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5217>
 		RenderModel_TextureMap_t_tF5DFE39B9218B0746669BEBF9D5F8EB3C2E297F9* L_4 = ___0_unpacked;
 		intptr_t L_5 = __this->___rubTextureMapData;
 		L_4->___rubTextureMapData = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5218>
 		return;
 	}
 }
@@ -27166,27 +27166,27 @@ IL2CPP_EXTERN_C  void RenderModel_TextureMap_t_Packed_Unpack_mC3769188A1E8608331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderModel_t_Packed__ctor_m0982FF9906A7D4D848A76577E3155B4F31DC0E42 (RenderModel_t_Packed_t28B2B2748239AF4AD0C3ECE3DF40219CB9BFAAB8* __this, RenderModel_t_t16668A816F365EAA92FD4C06B747B9542E87C0BA ___0_unpacked, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5238>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5238>
 		RenderModel_t_t16668A816F365EAA92FD4C06B747B9542E87C0BA L_0 = ___0_unpacked;
 		intptr_t L_1 = L_0.___rVertexData;
 		__this->___rVertexData = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5239>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5239>
 		RenderModel_t_t16668A816F365EAA92FD4C06B747B9542E87C0BA L_2 = ___0_unpacked;
 		uint32_t L_3 = L_2.___unVertexCount;
 		__this->___unVertexCount = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5240>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5240>
 		RenderModel_t_t16668A816F365EAA92FD4C06B747B9542E87C0BA L_4 = ___0_unpacked;
 		intptr_t L_5 = L_4.___rIndexData;
 		__this->___rIndexData = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5241>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5241>
 		RenderModel_t_t16668A816F365EAA92FD4C06B747B9542E87C0BA L_6 = ___0_unpacked;
 		uint32_t L_7 = L_6.___unTriangleCount;
 		__this->___unTriangleCount = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5242>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5242>
 		RenderModel_t_t16668A816F365EAA92FD4C06B747B9542E87C0BA L_8 = ___0_unpacked;
 		int32_t L_9 = L_8.___diffuseTextureId;
 		__this->___diffuseTextureId = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5243>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5243>
 		return;
 	}
 }
@@ -27201,27 +27201,27 @@ IL2CPP_EXTERN_C  void RenderModel_t_Packed__ctor_m0982FF9906A7D4D848A76577E3155B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderModel_t_Packed_Unpack_m69045AE3D8368C294A5D168FB40E9391FAF5AF51 (RenderModel_t_Packed_t28B2B2748239AF4AD0C3ECE3DF40219CB9BFAAB8* __this, RenderModel_t_t16668A816F365EAA92FD4C06B747B9542E87C0BA* ___0_unpacked, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5246>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5246>
 		RenderModel_t_t16668A816F365EAA92FD4C06B747B9542E87C0BA* L_0 = ___0_unpacked;
 		intptr_t L_1 = __this->___rVertexData;
 		L_0->___rVertexData = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5247>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5247>
 		RenderModel_t_t16668A816F365EAA92FD4C06B747B9542E87C0BA* L_2 = ___0_unpacked;
 		uint32_t L_3 = __this->___unVertexCount;
 		L_2->___unVertexCount = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5248>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5248>
 		RenderModel_t_t16668A816F365EAA92FD4C06B747B9542E87C0BA* L_4 = ___0_unpacked;
 		intptr_t L_5 = __this->___rIndexData;
 		L_4->___rIndexData = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5249>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5249>
 		RenderModel_t_t16668A816F365EAA92FD4C06B747B9542E87C0BA* L_6 = ___0_unpacked;
 		uint32_t L_7 = __this->___unTriangleCount;
 		L_6->___unTriangleCount = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5250>
 		RenderModel_t_t16668A816F365EAA92FD4C06B747B9542E87C0BA* L_8 = ___0_unpacked;
 		int32_t L_9 = __this->___diffuseTextureId;
 		L_8->___diffuseTextureId = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5251>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5251>
 		return;
 	}
 }
@@ -27306,778 +27306,778 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputOriginInfo_t_get_rchRenderMode
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5316>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5316>
 		StringBuilder_t* L_0 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m2619CA8D2C3476DF1A302D9D941498BB1C6164C5(L_0, ((int32_t)128), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5317>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5317>
 		StringBuilder_t* L_1 = L_0;
 		uint8_t L_2 = __this->___rchRenderModelComponentName0;
 		NullCheck(L_1);
 		StringBuilder_t* L_3;
 		L_3 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5318>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5318>
 		StringBuilder_t* L_4 = L_1;
 		uint8_t L_5 = __this->___rchRenderModelComponentName1;
 		NullCheck(L_4);
 		StringBuilder_t* L_6;
 		L_6 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5319>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5319>
 		StringBuilder_t* L_7 = L_4;
 		uint8_t L_8 = __this->___rchRenderModelComponentName2;
 		NullCheck(L_7);
 		StringBuilder_t* L_9;
 		L_9 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5320>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5320>
 		StringBuilder_t* L_10 = L_7;
 		uint8_t L_11 = __this->___rchRenderModelComponentName3;
 		NullCheck(L_10);
 		StringBuilder_t* L_12;
 		L_12 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_10, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5321>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5321>
 		StringBuilder_t* L_13 = L_10;
 		uint8_t L_14 = __this->___rchRenderModelComponentName4;
 		NullCheck(L_13);
 		StringBuilder_t* L_15;
 		L_15 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_13, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5322>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5322>
 		StringBuilder_t* L_16 = L_13;
 		uint8_t L_17 = __this->___rchRenderModelComponentName5;
 		NullCheck(L_16);
 		StringBuilder_t* L_18;
 		L_18 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_16, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5323>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5323>
 		StringBuilder_t* L_19 = L_16;
 		uint8_t L_20 = __this->___rchRenderModelComponentName6;
 		NullCheck(L_19);
 		StringBuilder_t* L_21;
 		L_21 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_19, L_20, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5324>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5324>
 		StringBuilder_t* L_22 = L_19;
 		uint8_t L_23 = __this->___rchRenderModelComponentName7;
 		NullCheck(L_22);
 		StringBuilder_t* L_24;
 		L_24 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_22, L_23, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5325>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5325>
 		StringBuilder_t* L_25 = L_22;
 		uint8_t L_26 = __this->___rchRenderModelComponentName8;
 		NullCheck(L_25);
 		StringBuilder_t* L_27;
 		L_27 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_25, L_26, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5326>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5326>
 		StringBuilder_t* L_28 = L_25;
 		uint8_t L_29 = __this->___rchRenderModelComponentName9;
 		NullCheck(L_28);
 		StringBuilder_t* L_30;
 		L_30 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_28, L_29, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5327>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5327>
 		StringBuilder_t* L_31 = L_28;
 		uint8_t L_32 = __this->___rchRenderModelComponentName10;
 		NullCheck(L_31);
 		StringBuilder_t* L_33;
 		L_33 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_31, L_32, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5328>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5328>
 		StringBuilder_t* L_34 = L_31;
 		uint8_t L_35 = __this->___rchRenderModelComponentName11;
 		NullCheck(L_34);
 		StringBuilder_t* L_36;
 		L_36 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_34, L_35, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5329>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5329>
 		StringBuilder_t* L_37 = L_34;
 		uint8_t L_38 = __this->___rchRenderModelComponentName12;
 		NullCheck(L_37);
 		StringBuilder_t* L_39;
 		L_39 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_37, L_38, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5330>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5330>
 		StringBuilder_t* L_40 = L_37;
 		uint8_t L_41 = __this->___rchRenderModelComponentName13;
 		NullCheck(L_40);
 		StringBuilder_t* L_42;
 		L_42 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_40, L_41, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5331>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5331>
 		StringBuilder_t* L_43 = L_40;
 		uint8_t L_44 = __this->___rchRenderModelComponentName14;
 		NullCheck(L_43);
 		StringBuilder_t* L_45;
 		L_45 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_43, L_44, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5332>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5332>
 		StringBuilder_t* L_46 = L_43;
 		uint8_t L_47 = __this->___rchRenderModelComponentName15;
 		NullCheck(L_46);
 		StringBuilder_t* L_48;
 		L_48 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_46, L_47, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5333>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5333>
 		StringBuilder_t* L_49 = L_46;
 		uint8_t L_50 = __this->___rchRenderModelComponentName16;
 		NullCheck(L_49);
 		StringBuilder_t* L_51;
 		L_51 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_49, L_50, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5334>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5334>
 		StringBuilder_t* L_52 = L_49;
 		uint8_t L_53 = __this->___rchRenderModelComponentName17;
 		NullCheck(L_52);
 		StringBuilder_t* L_54;
 		L_54 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_52, L_53, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5335>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5335>
 		StringBuilder_t* L_55 = L_52;
 		uint8_t L_56 = __this->___rchRenderModelComponentName18;
 		NullCheck(L_55);
 		StringBuilder_t* L_57;
 		L_57 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_55, L_56, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5336>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5336>
 		StringBuilder_t* L_58 = L_55;
 		uint8_t L_59 = __this->___rchRenderModelComponentName19;
 		NullCheck(L_58);
 		StringBuilder_t* L_60;
 		L_60 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_58, L_59, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5337>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5337>
 		StringBuilder_t* L_61 = L_58;
 		uint8_t L_62 = __this->___rchRenderModelComponentName20;
 		NullCheck(L_61);
 		StringBuilder_t* L_63;
 		L_63 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_61, L_62, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5338>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5338>
 		StringBuilder_t* L_64 = L_61;
 		uint8_t L_65 = __this->___rchRenderModelComponentName21;
 		NullCheck(L_64);
 		StringBuilder_t* L_66;
 		L_66 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_64, L_65, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5339>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5339>
 		StringBuilder_t* L_67 = L_64;
 		uint8_t L_68 = __this->___rchRenderModelComponentName22;
 		NullCheck(L_67);
 		StringBuilder_t* L_69;
 		L_69 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_67, L_68, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5340>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5340>
 		StringBuilder_t* L_70 = L_67;
 		uint8_t L_71 = __this->___rchRenderModelComponentName23;
 		NullCheck(L_70);
 		StringBuilder_t* L_72;
 		L_72 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_70, L_71, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5341>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5341>
 		StringBuilder_t* L_73 = L_70;
 		uint8_t L_74 = __this->___rchRenderModelComponentName24;
 		NullCheck(L_73);
 		StringBuilder_t* L_75;
 		L_75 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_73, L_74, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5342>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5342>
 		StringBuilder_t* L_76 = L_73;
 		uint8_t L_77 = __this->___rchRenderModelComponentName25;
 		NullCheck(L_76);
 		StringBuilder_t* L_78;
 		L_78 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_76, L_77, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5343>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5343>
 		StringBuilder_t* L_79 = L_76;
 		uint8_t L_80 = __this->___rchRenderModelComponentName26;
 		NullCheck(L_79);
 		StringBuilder_t* L_81;
 		L_81 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_79, L_80, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5344>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5344>
 		StringBuilder_t* L_82 = L_79;
 		uint8_t L_83 = __this->___rchRenderModelComponentName27;
 		NullCheck(L_82);
 		StringBuilder_t* L_84;
 		L_84 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_82, L_83, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5345>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5345>
 		StringBuilder_t* L_85 = L_82;
 		uint8_t L_86 = __this->___rchRenderModelComponentName28;
 		NullCheck(L_85);
 		StringBuilder_t* L_87;
 		L_87 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_85, L_86, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5346>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5346>
 		StringBuilder_t* L_88 = L_85;
 		uint8_t L_89 = __this->___rchRenderModelComponentName29;
 		NullCheck(L_88);
 		StringBuilder_t* L_90;
 		L_90 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_88, L_89, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5347>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5347>
 		StringBuilder_t* L_91 = L_88;
 		uint8_t L_92 = __this->___rchRenderModelComponentName30;
 		NullCheck(L_91);
 		StringBuilder_t* L_93;
 		L_93 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_91, L_92, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5348>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5348>
 		StringBuilder_t* L_94 = L_91;
 		uint8_t L_95 = __this->___rchRenderModelComponentName31;
 		NullCheck(L_94);
 		StringBuilder_t* L_96;
 		L_96 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_94, L_95, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5349>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5349>
 		StringBuilder_t* L_97 = L_94;
 		uint8_t L_98 = __this->___rchRenderModelComponentName32;
 		NullCheck(L_97);
 		StringBuilder_t* L_99;
 		L_99 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_97, L_98, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5350>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5350>
 		StringBuilder_t* L_100 = L_97;
 		uint8_t L_101 = __this->___rchRenderModelComponentName33;
 		NullCheck(L_100);
 		StringBuilder_t* L_102;
 		L_102 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_100, L_101, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5351>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5351>
 		StringBuilder_t* L_103 = L_100;
 		uint8_t L_104 = __this->___rchRenderModelComponentName34;
 		NullCheck(L_103);
 		StringBuilder_t* L_105;
 		L_105 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_103, L_104, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5352>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5352>
 		StringBuilder_t* L_106 = L_103;
 		uint8_t L_107 = __this->___rchRenderModelComponentName35;
 		NullCheck(L_106);
 		StringBuilder_t* L_108;
 		L_108 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_106, L_107, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5353>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5353>
 		StringBuilder_t* L_109 = L_106;
 		uint8_t L_110 = __this->___rchRenderModelComponentName36;
 		NullCheck(L_109);
 		StringBuilder_t* L_111;
 		L_111 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_109, L_110, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5354>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5354>
 		StringBuilder_t* L_112 = L_109;
 		uint8_t L_113 = __this->___rchRenderModelComponentName37;
 		NullCheck(L_112);
 		StringBuilder_t* L_114;
 		L_114 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_112, L_113, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5355>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5355>
 		StringBuilder_t* L_115 = L_112;
 		uint8_t L_116 = __this->___rchRenderModelComponentName38;
 		NullCheck(L_115);
 		StringBuilder_t* L_117;
 		L_117 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_115, L_116, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5356>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5356>
 		StringBuilder_t* L_118 = L_115;
 		uint8_t L_119 = __this->___rchRenderModelComponentName39;
 		NullCheck(L_118);
 		StringBuilder_t* L_120;
 		L_120 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_118, L_119, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5357>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5357>
 		StringBuilder_t* L_121 = L_118;
 		uint8_t L_122 = __this->___rchRenderModelComponentName40;
 		NullCheck(L_121);
 		StringBuilder_t* L_123;
 		L_123 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_121, L_122, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5358>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5358>
 		StringBuilder_t* L_124 = L_121;
 		uint8_t L_125 = __this->___rchRenderModelComponentName41;
 		NullCheck(L_124);
 		StringBuilder_t* L_126;
 		L_126 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_124, L_125, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5359>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5359>
 		StringBuilder_t* L_127 = L_124;
 		uint8_t L_128 = __this->___rchRenderModelComponentName42;
 		NullCheck(L_127);
 		StringBuilder_t* L_129;
 		L_129 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_127, L_128, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5360>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5360>
 		StringBuilder_t* L_130 = L_127;
 		uint8_t L_131 = __this->___rchRenderModelComponentName43;
 		NullCheck(L_130);
 		StringBuilder_t* L_132;
 		L_132 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_130, L_131, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5361>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5361>
 		StringBuilder_t* L_133 = L_130;
 		uint8_t L_134 = __this->___rchRenderModelComponentName44;
 		NullCheck(L_133);
 		StringBuilder_t* L_135;
 		L_135 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_133, L_134, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5362>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5362>
 		StringBuilder_t* L_136 = L_133;
 		uint8_t L_137 = __this->___rchRenderModelComponentName45;
 		NullCheck(L_136);
 		StringBuilder_t* L_138;
 		L_138 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_136, L_137, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5363>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5363>
 		StringBuilder_t* L_139 = L_136;
 		uint8_t L_140 = __this->___rchRenderModelComponentName46;
 		NullCheck(L_139);
 		StringBuilder_t* L_141;
 		L_141 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_139, L_140, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5364>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5364>
 		StringBuilder_t* L_142 = L_139;
 		uint8_t L_143 = __this->___rchRenderModelComponentName47;
 		NullCheck(L_142);
 		StringBuilder_t* L_144;
 		L_144 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_142, L_143, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5365>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5365>
 		StringBuilder_t* L_145 = L_142;
 		uint8_t L_146 = __this->___rchRenderModelComponentName48;
 		NullCheck(L_145);
 		StringBuilder_t* L_147;
 		L_147 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_145, L_146, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5366>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5366>
 		StringBuilder_t* L_148 = L_145;
 		uint8_t L_149 = __this->___rchRenderModelComponentName49;
 		NullCheck(L_148);
 		StringBuilder_t* L_150;
 		L_150 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_148, L_149, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5367>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5367>
 		StringBuilder_t* L_151 = L_148;
 		uint8_t L_152 = __this->___rchRenderModelComponentName50;
 		NullCheck(L_151);
 		StringBuilder_t* L_153;
 		L_153 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_151, L_152, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5368>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5368>
 		StringBuilder_t* L_154 = L_151;
 		uint8_t L_155 = __this->___rchRenderModelComponentName51;
 		NullCheck(L_154);
 		StringBuilder_t* L_156;
 		L_156 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_154, L_155, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5369>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5369>
 		StringBuilder_t* L_157 = L_154;
 		uint8_t L_158 = __this->___rchRenderModelComponentName52;
 		NullCheck(L_157);
 		StringBuilder_t* L_159;
 		L_159 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_157, L_158, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5370>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5370>
 		StringBuilder_t* L_160 = L_157;
 		uint8_t L_161 = __this->___rchRenderModelComponentName53;
 		NullCheck(L_160);
 		StringBuilder_t* L_162;
 		L_162 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_160, L_161, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5371>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5371>
 		StringBuilder_t* L_163 = L_160;
 		uint8_t L_164 = __this->___rchRenderModelComponentName54;
 		NullCheck(L_163);
 		StringBuilder_t* L_165;
 		L_165 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_163, L_164, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5372>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5372>
 		StringBuilder_t* L_166 = L_163;
 		uint8_t L_167 = __this->___rchRenderModelComponentName55;
 		NullCheck(L_166);
 		StringBuilder_t* L_168;
 		L_168 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_166, L_167, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5373>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5373>
 		StringBuilder_t* L_169 = L_166;
 		uint8_t L_170 = __this->___rchRenderModelComponentName56;
 		NullCheck(L_169);
 		StringBuilder_t* L_171;
 		L_171 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_169, L_170, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5374>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5374>
 		StringBuilder_t* L_172 = L_169;
 		uint8_t L_173 = __this->___rchRenderModelComponentName57;
 		NullCheck(L_172);
 		StringBuilder_t* L_174;
 		L_174 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_172, L_173, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5375>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5375>
 		StringBuilder_t* L_175 = L_172;
 		uint8_t L_176 = __this->___rchRenderModelComponentName58;
 		NullCheck(L_175);
 		StringBuilder_t* L_177;
 		L_177 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_175, L_176, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5376>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5376>
 		StringBuilder_t* L_178 = L_175;
 		uint8_t L_179 = __this->___rchRenderModelComponentName59;
 		NullCheck(L_178);
 		StringBuilder_t* L_180;
 		L_180 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_178, L_179, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5377>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5377>
 		StringBuilder_t* L_181 = L_178;
 		uint8_t L_182 = __this->___rchRenderModelComponentName60;
 		NullCheck(L_181);
 		StringBuilder_t* L_183;
 		L_183 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_181, L_182, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5378>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5378>
 		StringBuilder_t* L_184 = L_181;
 		uint8_t L_185 = __this->___rchRenderModelComponentName61;
 		NullCheck(L_184);
 		StringBuilder_t* L_186;
 		L_186 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_184, L_185, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5379>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5379>
 		StringBuilder_t* L_187 = L_184;
 		uint8_t L_188 = __this->___rchRenderModelComponentName62;
 		NullCheck(L_187);
 		StringBuilder_t* L_189;
 		L_189 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_187, L_188, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5380>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5380>
 		StringBuilder_t* L_190 = L_187;
 		uint8_t L_191 = __this->___rchRenderModelComponentName63;
 		NullCheck(L_190);
 		StringBuilder_t* L_192;
 		L_192 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_190, L_191, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5381>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5381>
 		StringBuilder_t* L_193 = L_190;
 		uint8_t L_194 = __this->___rchRenderModelComponentName64;
 		NullCheck(L_193);
 		StringBuilder_t* L_195;
 		L_195 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_193, L_194, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5382>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5382>
 		StringBuilder_t* L_196 = L_193;
 		uint8_t L_197 = __this->___rchRenderModelComponentName65;
 		NullCheck(L_196);
 		StringBuilder_t* L_198;
 		L_198 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_196, L_197, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5383>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5383>
 		StringBuilder_t* L_199 = L_196;
 		uint8_t L_200 = __this->___rchRenderModelComponentName66;
 		NullCheck(L_199);
 		StringBuilder_t* L_201;
 		L_201 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_199, L_200, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5384>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5384>
 		StringBuilder_t* L_202 = L_199;
 		uint8_t L_203 = __this->___rchRenderModelComponentName67;
 		NullCheck(L_202);
 		StringBuilder_t* L_204;
 		L_204 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_202, L_203, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5385>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5385>
 		StringBuilder_t* L_205 = L_202;
 		uint8_t L_206 = __this->___rchRenderModelComponentName68;
 		NullCheck(L_205);
 		StringBuilder_t* L_207;
 		L_207 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_205, L_206, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5386>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5386>
 		StringBuilder_t* L_208 = L_205;
 		uint8_t L_209 = __this->___rchRenderModelComponentName69;
 		NullCheck(L_208);
 		StringBuilder_t* L_210;
 		L_210 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_208, L_209, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5387>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5387>
 		StringBuilder_t* L_211 = L_208;
 		uint8_t L_212 = __this->___rchRenderModelComponentName70;
 		NullCheck(L_211);
 		StringBuilder_t* L_213;
 		L_213 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_211, L_212, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5388>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5388>
 		StringBuilder_t* L_214 = L_211;
 		uint8_t L_215 = __this->___rchRenderModelComponentName71;
 		NullCheck(L_214);
 		StringBuilder_t* L_216;
 		L_216 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_214, L_215, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5389>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5389>
 		StringBuilder_t* L_217 = L_214;
 		uint8_t L_218 = __this->___rchRenderModelComponentName72;
 		NullCheck(L_217);
 		StringBuilder_t* L_219;
 		L_219 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_217, L_218, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5390>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5390>
 		StringBuilder_t* L_220 = L_217;
 		uint8_t L_221 = __this->___rchRenderModelComponentName73;
 		NullCheck(L_220);
 		StringBuilder_t* L_222;
 		L_222 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_220, L_221, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5391>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5391>
 		StringBuilder_t* L_223 = L_220;
 		uint8_t L_224 = __this->___rchRenderModelComponentName74;
 		NullCheck(L_223);
 		StringBuilder_t* L_225;
 		L_225 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_223, L_224, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5392>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5392>
 		StringBuilder_t* L_226 = L_223;
 		uint8_t L_227 = __this->___rchRenderModelComponentName75;
 		NullCheck(L_226);
 		StringBuilder_t* L_228;
 		L_228 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_226, L_227, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5393>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5393>
 		StringBuilder_t* L_229 = L_226;
 		uint8_t L_230 = __this->___rchRenderModelComponentName76;
 		NullCheck(L_229);
 		StringBuilder_t* L_231;
 		L_231 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_229, L_230, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5394>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5394>
 		StringBuilder_t* L_232 = L_229;
 		uint8_t L_233 = __this->___rchRenderModelComponentName77;
 		NullCheck(L_232);
 		StringBuilder_t* L_234;
 		L_234 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_232, L_233, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5395>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5395>
 		StringBuilder_t* L_235 = L_232;
 		uint8_t L_236 = __this->___rchRenderModelComponentName78;
 		NullCheck(L_235);
 		StringBuilder_t* L_237;
 		L_237 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_235, L_236, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5396>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5396>
 		StringBuilder_t* L_238 = L_235;
 		uint8_t L_239 = __this->___rchRenderModelComponentName79;
 		NullCheck(L_238);
 		StringBuilder_t* L_240;
 		L_240 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_238, L_239, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5397>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5397>
 		StringBuilder_t* L_241 = L_238;
 		uint8_t L_242 = __this->___rchRenderModelComponentName80;
 		NullCheck(L_241);
 		StringBuilder_t* L_243;
 		L_243 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_241, L_242, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5398>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5398>
 		StringBuilder_t* L_244 = L_241;
 		uint8_t L_245 = __this->___rchRenderModelComponentName81;
 		NullCheck(L_244);
 		StringBuilder_t* L_246;
 		L_246 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_244, L_245, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5399>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5399>
 		StringBuilder_t* L_247 = L_244;
 		uint8_t L_248 = __this->___rchRenderModelComponentName82;
 		NullCheck(L_247);
 		StringBuilder_t* L_249;
 		L_249 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_247, L_248, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5400>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5400>
 		StringBuilder_t* L_250 = L_247;
 		uint8_t L_251 = __this->___rchRenderModelComponentName83;
 		NullCheck(L_250);
 		StringBuilder_t* L_252;
 		L_252 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_250, L_251, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5401>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5401>
 		StringBuilder_t* L_253 = L_250;
 		uint8_t L_254 = __this->___rchRenderModelComponentName84;
 		NullCheck(L_253);
 		StringBuilder_t* L_255;
 		L_255 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_253, L_254, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5402>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5402>
 		StringBuilder_t* L_256 = L_253;
 		uint8_t L_257 = __this->___rchRenderModelComponentName85;
 		NullCheck(L_256);
 		StringBuilder_t* L_258;
 		L_258 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_256, L_257, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5403>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5403>
 		StringBuilder_t* L_259 = L_256;
 		uint8_t L_260 = __this->___rchRenderModelComponentName86;
 		NullCheck(L_259);
 		StringBuilder_t* L_261;
 		L_261 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_259, L_260, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5404>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5404>
 		StringBuilder_t* L_262 = L_259;
 		uint8_t L_263 = __this->___rchRenderModelComponentName87;
 		NullCheck(L_262);
 		StringBuilder_t* L_264;
 		L_264 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_262, L_263, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5405>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5405>
 		StringBuilder_t* L_265 = L_262;
 		uint8_t L_266 = __this->___rchRenderModelComponentName88;
 		NullCheck(L_265);
 		StringBuilder_t* L_267;
 		L_267 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_265, L_266, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5406>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5406>
 		StringBuilder_t* L_268 = L_265;
 		uint8_t L_269 = __this->___rchRenderModelComponentName89;
 		NullCheck(L_268);
 		StringBuilder_t* L_270;
 		L_270 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_268, L_269, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5407>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5407>
 		StringBuilder_t* L_271 = L_268;
 		uint8_t L_272 = __this->___rchRenderModelComponentName90;
 		NullCheck(L_271);
 		StringBuilder_t* L_273;
 		L_273 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_271, L_272, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5408>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5408>
 		StringBuilder_t* L_274 = L_271;
 		uint8_t L_275 = __this->___rchRenderModelComponentName91;
 		NullCheck(L_274);
 		StringBuilder_t* L_276;
 		L_276 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_274, L_275, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5409>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5409>
 		StringBuilder_t* L_277 = L_274;
 		uint8_t L_278 = __this->___rchRenderModelComponentName92;
 		NullCheck(L_277);
 		StringBuilder_t* L_279;
 		L_279 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_277, L_278, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5410>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5410>
 		StringBuilder_t* L_280 = L_277;
 		uint8_t L_281 = __this->___rchRenderModelComponentName93;
 		NullCheck(L_280);
 		StringBuilder_t* L_282;
 		L_282 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_280, L_281, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5411>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5411>
 		StringBuilder_t* L_283 = L_280;
 		uint8_t L_284 = __this->___rchRenderModelComponentName94;
 		NullCheck(L_283);
 		StringBuilder_t* L_285;
 		L_285 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_283, L_284, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5412>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5412>
 		StringBuilder_t* L_286 = L_283;
 		uint8_t L_287 = __this->___rchRenderModelComponentName95;
 		NullCheck(L_286);
 		StringBuilder_t* L_288;
 		L_288 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_286, L_287, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5413>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5413>
 		StringBuilder_t* L_289 = L_286;
 		uint8_t L_290 = __this->___rchRenderModelComponentName96;
 		NullCheck(L_289);
 		StringBuilder_t* L_291;
 		L_291 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_289, L_290, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5414>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5414>
 		StringBuilder_t* L_292 = L_289;
 		uint8_t L_293 = __this->___rchRenderModelComponentName97;
 		NullCheck(L_292);
 		StringBuilder_t* L_294;
 		L_294 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_292, L_293, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5415>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5415>
 		StringBuilder_t* L_295 = L_292;
 		uint8_t L_296 = __this->___rchRenderModelComponentName98;
 		NullCheck(L_295);
 		StringBuilder_t* L_297;
 		L_297 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_295, L_296, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5416>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5416>
 		StringBuilder_t* L_298 = L_295;
 		uint8_t L_299 = __this->___rchRenderModelComponentName99;
 		NullCheck(L_298);
 		StringBuilder_t* L_300;
 		L_300 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_298, L_299, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5417>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5417>
 		StringBuilder_t* L_301 = L_298;
 		uint8_t L_302 = __this->___rchRenderModelComponentName100;
 		NullCheck(L_301);
 		StringBuilder_t* L_303;
 		L_303 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_301, L_302, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5418>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5418>
 		StringBuilder_t* L_304 = L_301;
 		uint8_t L_305 = __this->___rchRenderModelComponentName101;
 		NullCheck(L_304);
 		StringBuilder_t* L_306;
 		L_306 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_304, L_305, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5419>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5419>
 		StringBuilder_t* L_307 = L_304;
 		uint8_t L_308 = __this->___rchRenderModelComponentName102;
 		NullCheck(L_307);
 		StringBuilder_t* L_309;
 		L_309 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_307, L_308, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5420>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5420>
 		StringBuilder_t* L_310 = L_307;
 		uint8_t L_311 = __this->___rchRenderModelComponentName103;
 		NullCheck(L_310);
 		StringBuilder_t* L_312;
 		L_312 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_310, L_311, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5421>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5421>
 		StringBuilder_t* L_313 = L_310;
 		uint8_t L_314 = __this->___rchRenderModelComponentName104;
 		NullCheck(L_313);
 		StringBuilder_t* L_315;
 		L_315 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_313, L_314, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5422>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5422>
 		StringBuilder_t* L_316 = L_313;
 		uint8_t L_317 = __this->___rchRenderModelComponentName105;
 		NullCheck(L_316);
 		StringBuilder_t* L_318;
 		L_318 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_316, L_317, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5423>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5423>
 		StringBuilder_t* L_319 = L_316;
 		uint8_t L_320 = __this->___rchRenderModelComponentName106;
 		NullCheck(L_319);
 		StringBuilder_t* L_321;
 		L_321 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_319, L_320, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5424>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5424>
 		StringBuilder_t* L_322 = L_319;
 		uint8_t L_323 = __this->___rchRenderModelComponentName107;
 		NullCheck(L_322);
 		StringBuilder_t* L_324;
 		L_324 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_322, L_323, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5425>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5425>
 		StringBuilder_t* L_325 = L_322;
 		uint8_t L_326 = __this->___rchRenderModelComponentName108;
 		NullCheck(L_325);
 		StringBuilder_t* L_327;
 		L_327 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_325, L_326, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5426>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5426>
 		StringBuilder_t* L_328 = L_325;
 		uint8_t L_329 = __this->___rchRenderModelComponentName109;
 		NullCheck(L_328);
 		StringBuilder_t* L_330;
 		L_330 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_328, L_329, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5427>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5427>
 		StringBuilder_t* L_331 = L_328;
 		uint8_t L_332 = __this->___rchRenderModelComponentName110;
 		NullCheck(L_331);
 		StringBuilder_t* L_333;
 		L_333 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_331, L_332, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5428>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5428>
 		StringBuilder_t* L_334 = L_331;
 		uint8_t L_335 = __this->___rchRenderModelComponentName111;
 		NullCheck(L_334);
 		StringBuilder_t* L_336;
 		L_336 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_334, L_335, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5429>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5429>
 		StringBuilder_t* L_337 = L_334;
 		uint8_t L_338 = __this->___rchRenderModelComponentName112;
 		NullCheck(L_337);
 		StringBuilder_t* L_339;
 		L_339 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_337, L_338, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5430>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5430>
 		StringBuilder_t* L_340 = L_337;
 		uint8_t L_341 = __this->___rchRenderModelComponentName113;
 		NullCheck(L_340);
 		StringBuilder_t* L_342;
 		L_342 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_340, L_341, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5431>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5431>
 		StringBuilder_t* L_343 = L_340;
 		uint8_t L_344 = __this->___rchRenderModelComponentName114;
 		NullCheck(L_343);
 		StringBuilder_t* L_345;
 		L_345 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_343, L_344, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5432>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5432>
 		StringBuilder_t* L_346 = L_343;
 		uint8_t L_347 = __this->___rchRenderModelComponentName115;
 		NullCheck(L_346);
 		StringBuilder_t* L_348;
 		L_348 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_346, L_347, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5433>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5433>
 		StringBuilder_t* L_349 = L_346;
 		uint8_t L_350 = __this->___rchRenderModelComponentName116;
 		NullCheck(L_349);
 		StringBuilder_t* L_351;
 		L_351 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_349, L_350, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5434>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5434>
 		StringBuilder_t* L_352 = L_349;
 		uint8_t L_353 = __this->___rchRenderModelComponentName117;
 		NullCheck(L_352);
 		StringBuilder_t* L_354;
 		L_354 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_352, L_353, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5435>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5435>
 		StringBuilder_t* L_355 = L_352;
 		uint8_t L_356 = __this->___rchRenderModelComponentName118;
 		NullCheck(L_355);
 		StringBuilder_t* L_357;
 		L_357 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_355, L_356, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5436>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5436>
 		StringBuilder_t* L_358 = L_355;
 		uint8_t L_359 = __this->___rchRenderModelComponentName119;
 		NullCheck(L_358);
 		StringBuilder_t* L_360;
 		L_360 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_358, L_359, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5437>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5437>
 		StringBuilder_t* L_361 = L_358;
 		uint8_t L_362 = __this->___rchRenderModelComponentName120;
 		NullCheck(L_361);
 		StringBuilder_t* L_363;
 		L_363 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_361, L_362, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5438>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5438>
 		StringBuilder_t* L_364 = L_361;
 		uint8_t L_365 = __this->___rchRenderModelComponentName121;
 		NullCheck(L_364);
 		StringBuilder_t* L_366;
 		L_366 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_364, L_365, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5439>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5439>
 		StringBuilder_t* L_367 = L_364;
 		uint8_t L_368 = __this->___rchRenderModelComponentName122;
 		NullCheck(L_367);
 		StringBuilder_t* L_369;
 		L_369 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_367, L_368, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5440>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5440>
 		StringBuilder_t* L_370 = L_367;
 		uint8_t L_371 = __this->___rchRenderModelComponentName123;
 		NullCheck(L_370);
 		StringBuilder_t* L_372;
 		L_372 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_370, L_371, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5441>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5441>
 		StringBuilder_t* L_373 = L_370;
 		uint8_t L_374 = __this->___rchRenderModelComponentName124;
 		NullCheck(L_373);
 		StringBuilder_t* L_375;
 		L_375 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_373, L_374, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5442>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5442>
 		StringBuilder_t* L_376 = L_373;
 		uint8_t L_377 = __this->___rchRenderModelComponentName125;
 		NullCheck(L_376);
 		StringBuilder_t* L_378;
 		L_378 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_376, L_377, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5443>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5443>
 		StringBuilder_t* L_379 = L_376;
 		uint8_t L_380 = __this->___rchRenderModelComponentName126;
 		NullCheck(L_379);
 		StringBuilder_t* L_381;
 		L_381 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_379, L_380, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5444>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5444>
 		StringBuilder_t* L_382 = L_379;
 		uint8_t L_383 = __this->___rchRenderModelComponentName127;
 		NullCheck(L_382);
 		StringBuilder_t* L_384;
 		L_384 = StringBuilder_Append_m2AE3195218B68BDDF01EF85928C76D6B596ED18D(L_382, L_383, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5445>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5445>
 		NullCheck(L_382);
 		String_t* L_385;
 		L_385 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_382);
@@ -28129,7 +28129,7 @@ IL2CPP_EXTERN_C  String_t* InputOriginInfo_t_get_rchRenderModelComponentName_m20
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t OpenVR_InitInternal_mE3F867F429E23B03889D2E28C99A9411DDB6EE38 (int32_t* ___0_peError, int32_t ___1_eApplicationType, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5486>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5486>
 		int32_t* L_0 = ___0_peError;
 		int32_t L_1 = ___1_eApplicationType;
 		uint32_t L_2;
@@ -28141,7 +28141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t OpenVR_InitInternal_mE3F867F429E23B0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t OpenVR_InitInternal2_m15578451924C0230AE669E766B30312AE86AF464 (int32_t* ___0_peError, int32_t ___1_eApplicationType, String_t* ___2_pchStartupInfo, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5491>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5491>
 		int32_t* L_0 = ___0_peError;
 		int32_t L_1 = ___1_eApplicationType;
 		String_t* L_2 = ___2_pchStartupInfo;
@@ -28154,9 +28154,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t OpenVR_InitInternal2_m15578451924C02
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVR_ShutdownInternal_m469DC26C55EBCCF5BE670A3E95449501BDB0F3AE (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5496>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5496>
 		OpenVRInterop_ShutdownInternal_m450D042F95B365E91AAB3F718EB1858234F218D9(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5497>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5497>
 		return;
 	}
 }
@@ -28164,7 +28164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVR_ShutdownInternal_m469DC26C55EBCCF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVR_IsHmdPresent_m178A98315AC2097BF71963E1D03223DA302CE8BF (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5501>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5501>
 		bool L_0;
 		L_0 = OpenVRInterop_IsHmdPresent_mABA5F20535ECCFFF121C0DC7C538D1A1AC3B9490(NULL);
 		return L_0;
@@ -28174,7 +28174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVR_IsHmdPresent_m178A98315AC2097BF71
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVR_IsRuntimeInstalled_m0C444E7D9A36A3C2B7812D59DC2F66D1B332B8A4 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5506>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5506>
 		bool L_0;
 		L_0 = OpenVRInterop_IsRuntimeInstalled_mF545A675398A5C9BB1D6ACDBCD65004B59552EB0(NULL);
 		return L_0;
@@ -28190,7 +28190,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OpenVR_GetStringForHmdError_mA08838
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5511>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5511>
 		int32_t L_0 = ___0_error;
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetStringForHmdError_m8FF399213281B5199E32C93EA597FBCDAEB39C35(L_0, NULL);
@@ -28204,7 +28204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OpenVR_GetStringForHmdError_mA08838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t OpenVR_GetGenericInterface_m7D8E98D035EF8B81F68A97B78832147123E28483 (String_t* ___0_pchInterfaceVersion, int32_t* ___1_peError, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5516>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5516>
 		String_t* L_0 = ___0_pchInterfaceVersion;
 		int32_t* L_1 = ___1_peError;
 		intptr_t L_2;
@@ -28216,7 +28216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t OpenVR_GetGenericInterface_m7D8E98D0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVR_IsInterfaceVersionValid_mA6D387D4DD48B7EAB28F45A66DE73041775D9838 (String_t* ___0_pchInterfaceVersion, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5521>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5521>
 		String_t* L_0 = ___0_pchInterfaceVersion;
 		bool L_1;
 		L_1 = OpenVRInterop_IsInterfaceVersionValid_m785F253730F9886BBF3D7DA26C806B69F4A2149D(L_0, NULL);
@@ -28227,7 +28227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVR_IsInterfaceVersionValid_mA6D387D4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t OpenVR_GetInitToken_mC0921D780224352282C1DFC4A3958E9158FACEC3 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5526>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5526>
 		uint32_t L_0;
 		L_0 = OpenVRInterop_GetInitToken_m9CB8AF9977E98367AAD96EBD97A9488C8AFB3F97(NULL);
 		return L_0;
@@ -28243,7 +28243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t OpenVR_get_VRToken_mCD564FB45B8B2975
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5749>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5749>
 		uint32_t L_0 = ((OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_StaticFields*)il2cpp_codegen_static_fields_for(OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_il2cpp_TypeInfo_var))->___U3CVRTokenU3Ek__BackingField;
 		return L_0;
 	}
@@ -28258,7 +28258,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVR_set_VRToken_mC7E9BB9F5F6A01C78347
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5749>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5749>
 		uint32_t L_0 = ___0_value;
 		((OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_StaticFields*)il2cpp_codegen_static_fields_for(OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_il2cpp_TypeInfo_var))->___U3CVRTokenU3Ek__BackingField = L_0;
 		return;
@@ -28275,7 +28275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5972>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5972>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0 = ((OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_StaticFields*)il2cpp_codegen_static_fields_for(OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_il2cpp_TypeInfo_var))->____OpenVRInternal_ModuleContext;
 		if (L_0)
 		{
@@ -28283,7 +28283,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5973>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5973>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_1 = (COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D*)il2cpp_codegen_object_new(COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D_il2cpp_TypeInfo_var);
 		COpenVRContext__ctor_mE9D5B40D5D13661C47719EF7E915A29DBF38F274(L_1, NULL);
 		((OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_StaticFields*)il2cpp_codegen_static_fields_for(OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_il2cpp_TypeInfo_var))->____OpenVRInternal_ModuleContext = L_1;
@@ -28292,7 +28292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30F
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5974>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5974>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_2 = ((OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_StaticFields*)il2cpp_codegen_static_fields_for(OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_il2cpp_TypeInfo_var))->____OpenVRInternal_ModuleContext;
 		return L_2;
 	}
@@ -28301,7 +28301,7 @@ IL_0011:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* OpenVR_get_System_m3E623FF7D408DACC163D9CB6CD2F9193CB5E51EA (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5978>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5978>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0;
 		L_0 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_0);
@@ -28314,7 +28314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7* OpenVR_get_Chaperone_mF7F84491320C4C7F16851A3AECE99E954D4664E7 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5979>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5979>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0;
 		L_0 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_0);
@@ -28327,7 +28327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* OpenVR_get_ChaperoneSetup_mB86A19D56D2B2DD6E7B817A11C11C7462F6AAFD8 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5980>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5980>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0;
 		L_0 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_0);
@@ -28340,7 +28340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRChaperoneSetup_tEAFD9324CBCF526B4313763709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* OpenVR_get_Compositor_m029FB3CBC26F2F6CE377EBF065DDF54F47BDFE3E (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5981>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5981>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0;
 		L_0 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_0);
@@ -28353,7 +28353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* OpenVR_get_Overlay_m5EC60FDA4DA7BEC8A260FF9BA611F437E0953672 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5982>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5982>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0;
 		L_0 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_0);
@@ -28366,7 +28366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVROverlay_tEEC15D8EE0BB588983281A0C78C889B01
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* OpenVR_get_RenderModels_m345A8E505CAD870D2145554A450093C21198B6EF (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5983>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5983>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0;
 		L_0 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_0);
@@ -28379,7 +28379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8C35499887276ACE* OpenVR_get_ExtendedDisplay_m3180E8D78ADE72077EB28C3D6EC69F832EBA4658 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5984>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5984>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0;
 		L_0 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_0);
@@ -28392,7 +28392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* OpenVR_get_Settings_mEA3226083DD26C27BD431CD183FA9744CAFC6FBD (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5985>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5985>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0;
 		L_0 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_0);
@@ -28405,7 +28405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSettings_tEEC46FCC85078682D38B8E505955A876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* OpenVR_get_Applications_m9B86C8B9F93167C4102269896C5073F0CDCD5BFE (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5986>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5986>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0;
 		L_0 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_0);
@@ -28418,7 +28418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRApplications_t618A5474E6688FD75B26FA522628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23* OpenVR_get_Screenshots_mE551B4050FA10EA6DA2EE8D542A3A97F27A14423 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5987>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5987>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0;
 		L_0 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_0);
@@ -28431,7 +28431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* OpenVR_get_TrackedCamera_m1592A1B6EDBD89A110F71ADA4247BFCB54293D8A (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5988>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5988>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0;
 		L_0 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_0);
@@ -28444,7 +28444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* OpenVR_get_Input_mCEA62714C394CA4663123B6BF51E77A4461CF6CF (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5989>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5989>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0;
 		L_0 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_0);
@@ -28457,7 +28457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSpatialAnchors_t8E126D6724183A251E6649E32BB114979368086C* OpenVR_get_SpatialAnchors_m8066719876EFC2E7576810ED31AAC95CAD96FA5D (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5990>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5990>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_0;
 		L_0 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_0);
@@ -28478,14 +28478,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	try
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5997>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5997>
 		int32_t* L_0 = ___0_peError;
 		int32_t L_1 = ___1_eApplicationType;
 		String_t* L_2 = ___2_pchStartupInfo;
 		uint32_t L_3;
 		L_3 = OpenVR_InitInternal2_m15578451924C0230AE669E766B30312AE86AF464(L_0, L_1, L_2, NULL);
 		OpenVR_set_VRToken_mC7E9BB9F5F6A01C78347241B0BE75343741BF768_inline(L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5998>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5998>
 		goto IL_001e;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -28501,26 +28501,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2
 CATCH_000f:
 	{
 		EntryPointNotFoundException_t15F4C4ABBCF00C39FC1C2C903F15DF41055C1743* L_4 = ((EntryPointNotFoundException_t15F4C4ABBCF00C39FC1C2C903F15DF41055C1743*)IL2CPP_GET_ACTIVE_EXCEPTION(EntryPointNotFoundException_t15F4C4ABBCF00C39FC1C2C903F15DF41055C1743*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5999>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:6001>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5999>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:6001>
 		int32_t* L_5 = ___0_peError;
 		int32_t L_6 = ___1_eApplicationType;
 		uint32_t L_7;
 		L_7 = OpenVR_InitInternal_mE3F867F429E23B03889D2E28C99A9411DDB6EE38(L_5, L_6, NULL);
 		OpenVR_set_VRToken_mC7E9BB9F5F6A01C78347241B0BE75343741BF768_inline(L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:6002>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:6002>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_001e;
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:6004>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:6004>
 		COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* L_8;
 		L_8 = OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6(NULL);
 		NullCheck(L_8);
 		COpenVRContext_Clear_m51E0244AAD6E1EFADB69A34AAF713D8E9EB6FA73(L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:6006>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:6006>
 		int32_t* L_9 = ___0_peError;
 		int32_t L_10 = *((int32_t*)L_9);
 		if (!L_10)
@@ -28529,34 +28529,34 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:6007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:6007>
 		return (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A*)NULL;
 	}
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:6009>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:6009>
 		bool L_11;
 		L_11 = OpenVR_IsInterfaceVersionValid_mA6D387D4DD48B7EAB28F45A66DE73041775D9838(_stringLiteralDAEB7B8940990F9109863DC8E84D57775C55E0B6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:6010>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:6010>
 		if (L_11)
 		{
 			goto IL_0045;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:6012>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:6012>
 		OpenVR_ShutdownInternal_m469DC26C55EBCCF5BE670A3E95449501BDB0F3AE(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:6013>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:6013>
 		int32_t* L_12 = ___0_peError;
 		*((int32_t*)L_12) = (int32_t)((int32_t)105);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:6014>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:6014>
 		return (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A*)NULL;
 	}
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:6017>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:6017>
 		CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* L_13;
 		L_13 = OpenVR_get_System_m3E623FF7D408DACC163D9CB6CD2F9193CB5E51EA(NULL);
 		return L_13;
@@ -28566,9 +28566,9 @@ IL_0045:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVR_Shutdown_mAE690261A33B64510E4C08F9CF416AC993DD6F22 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:6024>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:6024>
 		OpenVR_ShutdownInternal_m469DC26C55EBCCF5BE670A3E95449501BDB0F3AE(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:6025>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:6025>
 		return;
 	}
 }
@@ -28592,11 +28592,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVR__ctor_mC15B753CDE11FCA2A80D94EF64
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void COpenVRContext__ctor_mE9D5B40D5D13661C47719EF7E915A29DBF38F274 (COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5755>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5755>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5755>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5755>
 		COpenVRContext_Clear_m51E0244AAD6E1EFADB69A34AAF713D8E9EB6FA73(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5755>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5755>
 		return;
 	}
 }
@@ -28604,46 +28604,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void COpenVRContext__ctor_mE9D5B40D5D13661C47
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void COpenVRContext_Clear_m51E0244AAD6E1EFADB69A34AAF713D8E9EB6FA73 (COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5759>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5759>
 		__this->___m_pVRSystem = (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pVRSystem), (void*)(CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5760>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5760>
 		__this->___m_pVRChaperone = (CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pVRChaperone), (void*)(CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5761>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5761>
 		__this->___m_pVRChaperoneSetup = (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pVRChaperoneSetup), (void*)(CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5762>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5762>
 		__this->___m_pVRCompositor = (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pVRCompositor), (void*)(CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5763>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5763>
 		__this->___m_pVROverlay = (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pVROverlay), (void*)(CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5764>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5764>
 		__this->___m_pVRRenderModels = (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pVRRenderModels), (void*)(CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5765>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5765>
 		__this->___m_pVRExtendedDisplay = (CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8C35499887276ACE*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pVRExtendedDisplay), (void*)(CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8C35499887276ACE*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5766>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5766>
 		__this->___m_pVRSettings = (CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pVRSettings), (void*)(CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5767>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5767>
 		__this->___m_pVRApplications = (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pVRApplications), (void*)(CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5768>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5768>
 		__this->___m_pVRScreenshots = (CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pVRScreenshots), (void*)(CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5769>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5769>
 		__this->___m_pVRTrackedCamera = (CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pVRTrackedCamera), (void*)(CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5770>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5770>
 		__this->___m_pVRInput = (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pVRInput), (void*)(CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5771>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5771>
 		__this->___m_pVRSpatialAnchors = (CVRSpatialAnchors_t8E126D6724183A251E6649E32BB114979368086C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pVRSpatialAnchors), (void*)(CVRSpatialAnchors_t8E126D6724183A251E6649E32BB114979368086C*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5772>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5772>
 		return;
 	}
 }
@@ -28651,7 +28651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void COpenVRContext_Clear_m51E0244AAD6E1EFADB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E (COpenVRContext_tC9F7BAED05AFE15C6EA6FF312B30FB8C60C88E0D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5776>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5776>
 		uint32_t L_0;
 		L_0 = OpenVR_get_VRToken_mCD564FB45B8B2975059C0829310A9EE0653931A4_inline(NULL);
 		uint32_t L_1;
@@ -28662,9 +28662,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void COpenVRContext_CheckClear_m35BC9A5A5B6E6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5778>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5778>
 		COpenVRContext_Clear_m51E0244AAD6E1EFADB69A34AAF713D8E9EB6FA73(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5779>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5779>
 		uint32_t L_2;
 		L_2 = OpenVR_GetInitToken_mC0921D780224352282C1DFC4A3958E9158FACEC3(NULL);
 		OpenVR_set_VRToken_mC7E9BB9F5F6A01C78347241B0BE75343741BF768_inline(L_2, NULL);
@@ -28672,7 +28672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void COpenVRContext_CheckClear_m35BC9A5A5B6E6
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5781>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5781>
 		return;
 	}
 }
@@ -28690,9 +28690,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5785>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5785>
 		COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5786>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5786>
 		CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* L_0 = __this->___m_pVRSystem;
 		if (L_0)
 		{
@@ -28700,13 +28700,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5788>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5788>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5789>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5789>
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5(_stringLiteral15E7EEE9B4F65A10FF1CD01608CD7013FC21BE87, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5790>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5790>
 		intptr_t L_2 = V_1;
 		bool L_3;
 		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
@@ -28723,7 +28723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5791>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5791>
 		intptr_t L_5 = V_1;
 		CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* L_6 = (CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A*)il2cpp_codegen_object_new(CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A_il2cpp_TypeInfo_var);
 		CVRSystem__ctor_mFEA433AFD11D20C3FA69758D9C2C76DC2526A677(L_6, L_5, NULL);
@@ -28733,7 +28733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5793>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5793>
 		CVRSystem_tD199D16B8A7CC7F19E6E0B5D9AE59156C2312B1A* L_7 = __this->___m_pVRSystem;
 		return L_7;
 	}
@@ -28752,9 +28752,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5798>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5798>
 		COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5799>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5799>
 		CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7* L_0 = __this->___m_pVRChaperone;
 		if (L_0)
 		{
@@ -28762,13 +28762,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5801>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5801>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5802>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5802>
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5(_stringLiteralE9A60084C1546F7084A6B054A0BB5F950E25B26C, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5803>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5803>
 		intptr_t L_2 = V_1;
 		bool L_3;
 		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
@@ -28785,7 +28785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5804>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5804>
 		intptr_t L_5 = V_1;
 		CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7* L_6 = (CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7*)il2cpp_codegen_object_new(CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7_il2cpp_TypeInfo_var);
 		CVRChaperone__ctor_mD0A8DF59B14B9AB0174F4D2C1B6DE68AE9F24E8C(L_6, L_5, NULL);
@@ -28795,7 +28795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5806>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5806>
 		CVRChaperone_t99B5BAE5EECAE65CD16E55AA9167ADD6E5895EC7* L_7 = __this->___m_pVRChaperone;
 		return L_7;
 	}
@@ -28814,9 +28814,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRChaperoneSetup_tEAFD9324CBCF526B4313763709
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5811>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5811>
 		COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5812>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5812>
 		CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* L_0 = __this->___m_pVRChaperoneSetup;
 		if (L_0)
 		{
@@ -28824,13 +28824,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRChaperoneSetup_tEAFD9324CBCF526B4313763709
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5814>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5814>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5815>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5815>
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5(_stringLiteral1AC7A6AADEE9F4144302CCF4A8EA733455CCA310, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5816>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5816>
 		intptr_t L_2 = V_1;
 		bool L_3;
 		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
@@ -28847,7 +28847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRChaperoneSetup_tEAFD9324CBCF526B4313763709
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5817>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5817>
 		intptr_t L_5 = V_1;
 		CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* L_6 = (CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A*)il2cpp_codegen_object_new(CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A_il2cpp_TypeInfo_var);
 		CVRChaperoneSetup__ctor_mB5288467BB57852219EECE351CDF8E76F67212DA(L_6, L_5, NULL);
@@ -28857,7 +28857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRChaperoneSetup_tEAFD9324CBCF526B4313763709
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5819>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5819>
 		CVRChaperoneSetup_tEAFD9324CBCF526B4313763709704381091BA36A* L_7 = __this->___m_pVRChaperoneSetup;
 		return L_7;
 	}
@@ -28876,9 +28876,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5824>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5824>
 		COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5825>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5825>
 		CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* L_0 = __this->___m_pVRCompositor;
 		if (L_0)
 		{
@@ -28886,13 +28886,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5827>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5827>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5828>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5828>
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5(_stringLiteralC329DDB1444A0B2400D046076774E23B4E59914E, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5829>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5829>
 		intptr_t L_2 = V_1;
 		bool L_3;
 		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
@@ -28909,7 +28909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5830>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5830>
 		intptr_t L_5 = V_1;
 		CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* L_6 = (CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D*)il2cpp_codegen_object_new(CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D_il2cpp_TypeInfo_var);
 		CVRCompositor__ctor_mD6542AAFD23DDF760AA0E44892218659A7A0F209(L_6, L_5, NULL);
@@ -28919,7 +28919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5832>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5832>
 		CVRCompositor_tA4A7AE3CA079F0F40650854647B5A6616067138D* L_7 = __this->___m_pVRCompositor;
 		return L_7;
 	}
@@ -28938,9 +28938,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVROverlay_tEEC15D8EE0BB588983281A0C78C889B01
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5837>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5837>
 		COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5838>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5838>
 		CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* L_0 = __this->___m_pVROverlay;
 		if (L_0)
 		{
@@ -28948,13 +28948,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVROverlay_tEEC15D8EE0BB588983281A0C78C889B01
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5840>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5840>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5841>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5841>
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5(_stringLiteral3B504484310EE713CED878912EAABC43761A6A94, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5842>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5842>
 		intptr_t L_2 = V_1;
 		bool L_3;
 		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
@@ -28971,7 +28971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVROverlay_tEEC15D8EE0BB588983281A0C78C889B01
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5843>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5843>
 		intptr_t L_5 = V_1;
 		CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* L_6 = (CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D*)il2cpp_codegen_object_new(CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D_il2cpp_TypeInfo_var);
 		CVROverlay__ctor_mAFDD8A03579398D5CF2194086C9CFBDF774E36AB(L_6, L_5, NULL);
@@ -28981,7 +28981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVROverlay_tEEC15D8EE0BB588983281A0C78C889B01
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5845>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5845>
 		CVROverlay_tEEC15D8EE0BB588983281A0C78C889B018546C0D* L_7 = __this->___m_pVROverlay;
 		return L_7;
 	}
@@ -29000,9 +29000,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5850>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5850>
 		COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5851>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5851>
 		CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* L_0 = __this->___m_pVRRenderModels;
 		if (L_0)
 		{
@@ -29010,13 +29010,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5853>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5853>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5854>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5854>
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5(_stringLiteral6B1D394BA1E10CCEFFAE406CCEE946FCD85707C8, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5855>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5855>
 		intptr_t L_2 = V_1;
 		bool L_3;
 		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
@@ -29033,7 +29033,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5856>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5856>
 		intptr_t L_5 = V_1;
 		CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* L_6 = (CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414*)il2cpp_codegen_object_new(CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414_il2cpp_TypeInfo_var);
 		CVRRenderModels__ctor_mBB5574FD94741A582017DE3F74DB8987B21DF688(L_6, L_5, NULL);
@@ -29043,7 +29043,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5858>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5858>
 		CVRRenderModels_tAC044C1AE6AB2150C9C19BCED781F795F99B0414* L_7 = __this->___m_pVRRenderModels;
 		return L_7;
 	}
@@ -29062,9 +29062,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5863>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5863>
 		COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5864>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5864>
 		CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8C35499887276ACE* L_0 = __this->___m_pVRExtendedDisplay;
 		if (L_0)
 		{
@@ -29072,13 +29072,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5866>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5866>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5867>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5867>
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5(_stringLiteralC5E069394931E8E0955FD9C8114C74F9F13FBDEC, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5868>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5868>
 		intptr_t L_2 = V_1;
 		bool L_3;
 		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
@@ -29095,7 +29095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5869>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5869>
 		intptr_t L_5 = V_1;
 		CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8C35499887276ACE* L_6 = (CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8C35499887276ACE*)il2cpp_codegen_object_new(CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8C35499887276ACE_il2cpp_TypeInfo_var);
 		CVRExtendedDisplay__ctor_m28DBF83045329DA0E709A057BAA99FCAE6A4C727(L_6, L_5, NULL);
@@ -29105,7 +29105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5871>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5871>
 		CVRExtendedDisplay_tDE92CF626C4BDC1A262706CF8C35499887276ACE* L_7 = __this->___m_pVRExtendedDisplay;
 		return L_7;
 	}
@@ -29124,9 +29124,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSettings_tEEC46FCC85078682D38B8E505955A876
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5876>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5876>
 		COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5877>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5877>
 		CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* L_0 = __this->___m_pVRSettings;
 		if (L_0)
 		{
@@ -29134,13 +29134,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSettings_tEEC46FCC85078682D38B8E505955A876
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5879>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5879>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5880>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5880>
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5(_stringLiteral075497E631984D110F50DD57A78D3322985E7074, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5881>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5881>
 		intptr_t L_2 = V_1;
 		bool L_3;
 		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
@@ -29157,7 +29157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSettings_tEEC46FCC85078682D38B8E505955A876
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5882>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5882>
 		intptr_t L_5 = V_1;
 		CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* L_6 = (CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA*)il2cpp_codegen_object_new(CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA_il2cpp_TypeInfo_var);
 		CVRSettings__ctor_m0E1E80DC9504F30ECD80B0BD8A3CFBEA46F10884(L_6, L_5, NULL);
@@ -29167,7 +29167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSettings_tEEC46FCC85078682D38B8E505955A876
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5884>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5884>
 		CVRSettings_tEEC46FCC85078682D38B8E505955A8768A405FCA* L_7 = __this->___m_pVRSettings;
 		return L_7;
 	}
@@ -29186,9 +29186,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRApplications_t618A5474E6688FD75B26FA522628
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5889>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5889>
 		COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5890>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5890>
 		CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* L_0 = __this->___m_pVRApplications;
 		if (L_0)
 		{
@@ -29196,13 +29196,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRApplications_t618A5474E6688FD75B26FA522628
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5892>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5892>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5893>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5893>
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5(_stringLiteralD8B26D2E49ED1906CB08D5EAA595ADF035C65C70, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5894>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5894>
 		intptr_t L_2 = V_1;
 		bool L_3;
 		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
@@ -29219,7 +29219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRApplications_t618A5474E6688FD75B26FA522628
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5895>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5895>
 		intptr_t L_5 = V_1;
 		CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* L_6 = (CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA*)il2cpp_codegen_object_new(CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA_il2cpp_TypeInfo_var);
 		CVRApplications__ctor_mA23CABB9CB976C75552E6A7EF93C323CDC2897A2(L_6, L_5, NULL);
@@ -29229,7 +29229,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRApplications_t618A5474E6688FD75B26FA522628
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5897>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5897>
 		CVRApplications_t618A5474E6688FD75B26FA522628B10A897A1DFA* L_7 = __this->___m_pVRApplications;
 		return L_7;
 	}
@@ -29248,9 +29248,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A558
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5902>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5902>
 		COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5903>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5903>
 		CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23* L_0 = __this->___m_pVRScreenshots;
 		if (L_0)
 		{
@@ -29258,13 +29258,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A558
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5905>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5905>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5906>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5906>
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5(_stringLiteralBCD92AA05C77719824EAA3FACEBE1B405BF8B7C1, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5907>
 		intptr_t L_2 = V_1;
 		bool L_3;
 		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
@@ -29281,7 +29281,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A558
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5908>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5908>
 		intptr_t L_5 = V_1;
 		CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23* L_6 = (CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23*)il2cpp_codegen_object_new(CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23_il2cpp_TypeInfo_var);
 		CVRScreenshots__ctor_mBF3A0C16F332C4F518572295B55A1BE418DF874A(L_6, L_5, NULL);
@@ -29291,7 +29291,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A558
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5910>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5910>
 		CVRScreenshots_t717B8407A3B04AA5ADC75E8C8A55889DA5D96B23* L_7 = __this->___m_pVRScreenshots;
 		return L_7;
 	}
@@ -29310,9 +29310,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5915>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5915>
 		COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5916>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5916>
 		CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* L_0 = __this->___m_pVRTrackedCamera;
 		if (L_0)
 		{
@@ -29320,13 +29320,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5918>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5918>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5919>
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5(_stringLiteral5AD2F46BEB210D9D86A73F04E249F587A2D5C7EF, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5920>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5920>
 		intptr_t L_2 = V_1;
 		bool L_3;
 		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
@@ -29343,7 +29343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5921>
 		intptr_t L_5 = V_1;
 		CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* L_6 = (CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D*)il2cpp_codegen_object_new(CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D_il2cpp_TypeInfo_var);
 		CVRTrackedCamera__ctor_mBBE912CB35A38F53B963E8D495650876DE7F3F38(L_6, L_5, NULL);
@@ -29353,7 +29353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5923>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5923>
 		CVRTrackedCamera_t78C04DB15BA3010BD4E482D2714C70E8E76B219D* L_7 = __this->___m_pVRTrackedCamera;
 		return L_7;
 	}
@@ -29372,9 +29372,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF2
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5928>
 		COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5929>
 		CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* L_0 = __this->___m_pVRInput;
 		if (L_0)
 		{
@@ -29382,13 +29382,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5931>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5931>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5932>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5932>
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5(_stringLiteralC90919371B2B89DEA9D88530D18C91F93A2B7F2C, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5933>
 		intptr_t L_2 = V_1;
 		bool L_3;
 		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
@@ -29405,7 +29405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5934>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5934>
 		intptr_t L_5 = V_1;
 		CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* L_6 = (CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F*)il2cpp_codegen_object_new(CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F_il2cpp_TypeInfo_var);
 		CVRInput__ctor_m4F41D0D9B884BC130C4854CB531D1820C00C6273(L_6, L_5, NULL);
@@ -29415,7 +29415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF2
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5936>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5936>
 		CVRInput_t7A4ADF2E054654D1283EFEE8C3439FFDAF20FA3F* L_7 = __this->___m_pVRInput;
 		return L_7;
 	}
@@ -29434,9 +29434,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSpatialAnchors_t8E126D6724183A251E6649E32B
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5941>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5941>
 		COpenVRContext_CheckClear_m35BC9A5A5B6E66C960850C628B7D18CDC719380E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5942>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5942>
 		CVRSpatialAnchors_t8E126D6724183A251E6649E32BB114979368086C* L_0 = __this->___m_pVRSpatialAnchors;
 		if (L_0)
 		{
@@ -29444,13 +29444,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSpatialAnchors_t8E126D6724183A251E6649E32B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5944>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5944>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5945>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5945>
 		intptr_t L_1;
 		L_1 = OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5(_stringLiteral9A080EA79123FB1699656F259E9714E227AA0674, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5946>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5946>
 		intptr_t L_2 = V_1;
 		bool L_3;
 		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
@@ -29467,7 +29467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSpatialAnchors_t8E126D6724183A251E6649E32B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5947>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5947>
 		intptr_t L_5 = V_1;
 		CVRSpatialAnchors_t8E126D6724183A251E6649E32BB114979368086C* L_6 = (CVRSpatialAnchors_t8E126D6724183A251E6649E32BB114979368086C*)il2cpp_codegen_object_new(CVRSpatialAnchors_t8E126D6724183A251E6649E32BB114979368086C_il2cpp_TypeInfo_var);
 		CVRSpatialAnchors__ctor_m632B95E1D9EBBB0C8A56465372C79FC6CE5B5CB6(L_6, L_5, NULL);
@@ -29477,7 +29477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CVRSpatialAnchors_t8E126D6724183A251E6649E32B
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5949>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5949>
 		CVRSpatialAnchors_t8E126D6724183A251E6649E32BB114979368086C* L_7 = __this->___m_pVRSpatialAnchors;
 		return L_7;
 	}
@@ -29500,19 +29500,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIButtonSquishHelper_Start_m6801BC60EF84
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:33>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_0, NULL);
 		__this->____originalScale = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:34>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2;
 		L_2 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(__this, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->____button = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____button), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:35>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:35>
 		return;
 	}
 }
@@ -29526,7 +29526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIButtonSquishHelper_OnPointerEnter_m20C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:39>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->____button;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -29549,7 +29549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIButtonSquishHelper_OnPointerEnter_m20C
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:41>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = __this->____originalScale;
@@ -29561,7 +29561,7 @@ IL_001a:
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:43>
 		return;
 	}
 }
@@ -29575,7 +29575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIButtonSquishHelper_OnPointerDown_m2DC0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:47>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->____button;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -29598,7 +29598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIButtonSquishHelper_OnPointerDown_m2DC0
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:49>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = __this->____originalScale;
@@ -29610,7 +29610,7 @@ IL_001a:
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:51>
 		return;
 	}
 }
@@ -29624,7 +29624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIButtonSquishHelper_OnPointerExit_m8C12
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:55>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->____button;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -29647,7 +29647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIButtonSquishHelper_OnPointerExit_m8C12
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:57>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = __this->____originalScale;
@@ -29657,7 +29657,7 @@ IL_001a:
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:59>
 		return;
 	}
 }
@@ -29671,7 +29671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIButtonSquishHelper_OnPointerUp_m952D94
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:63>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->____button;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -29694,7 +29694,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIButtonSquishHelper_OnPointerUp_m952D94
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:65>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = __this->____originalScale;
@@ -29704,7 +29704,7 @@ IL_001a:
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/UIButtonSquishHelper.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/UIButtonSquishHelper.cs:67>
 		return;
 	}
 }
@@ -29728,20 +29728,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIButtonSquishHelper__ctor_m5BB3BD3CCFD0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Record__ctor_m737CDD176B83A2905E1D1A6D8BC7C01430161BF3 (Record_tFCAFE4978EFDAA014AA055159BD349F2F52CE2D2* __this, int32_t ___0_order, String_t* ___1_cat, String_t* ___2_msg, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:29>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:29>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:31>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:31>
 		int32_t L_0 = ___0_order;
 		__this->___sortOrder = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:32>
 		String_t* L_1 = ___1_cat;
 		__this->___category = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___category), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:33>
 		String_t* L_2 = ___2_msg;
 		__this->___message = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___message), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:34>
 		return;
 	}
 }
@@ -29757,21 +29757,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Record__ctor_m737CDD176B83A2905E1D1A6D8B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RangedRecord__ctor_mB5CBC3362E784E17401E590E1973C6302806A4DD (RangedRecord_t25D9982F58541F843CB54DC4E4B246EFCBD29699* __this, int32_t ___0_order, String_t* ___1_cat, String_t* ___2_msg, float ___3_val, float ___4_minVal, float ___5_maxVal, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:44>
 		int32_t L_0 = ___0_order;
 		String_t* L_1 = ___1_cat;
 		String_t* L_2 = ___2_msg;
 		Record__ctor_m737CDD176B83A2905E1D1A6D8BC7C01430161BF3(__this, L_0, L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:46>
 		float L_3 = ___3_val;
 		__this->___value = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:47>
 		float L_4 = ___4_minVal;
 		__this->___min = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:48>
 		float L_5 = ___5_maxVal;
 		__this->___max = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:49>
 		return;
 	}
 }
@@ -29919,29 +29919,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixMethodDelegate_EndInvoke_mE4151F7DD68
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixRecord__ctor_m855B11D45BA913A08C1D0ABE5BF3726A4313C059 (FixRecord_tA9619245BB76F73A6E03002DD6C237812E79254D* __this, int32_t ___0_order, String_t* ___1_cat, String_t* ___2_msg, FixMethodDelegate_t1ABFD1D51A08108AB0FF4995D1725EBA67975A6F* ___3_fix, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___4_target, bool ___5_editRequired, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___6_buttons, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:64>
 		int32_t L_0 = ___0_order;
 		String_t* L_1 = ___1_cat;
 		String_t* L_2 = ___2_msg;
 		Record__ctor_m737CDD176B83A2905E1D1A6D8BC7C01430161BF3(__this, L_0, L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:66>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___6_buttons;
 		__this->___buttonNames = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___buttonNames), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:67>
 		FixMethodDelegate_t1ABFD1D51A08108AB0FF4995D1725EBA67975A6F* L_4 = ___3_fix;
 		__this->___fixMethod = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___fixMethod), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:68>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_5 = ___4_target;
 		__this->___targetObject = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetObject), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:69>
 		bool L_6 = ___5_editRequired;
 		__this->___editModeRequired = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:70>
 		__this->___complete = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRRecord.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRRecord.cs:71>
 		return;
 	}
 }
@@ -29973,61 +29973,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule__ctor_m9F284E36BA8F046C6B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:40>
 		__this->___joyPadClickButton = 1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:43>
 		__this->___gazeClickKey = ((int32_t)32);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:51>
 		__this->___useRightStickScroll = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:54>
 		__this->___rightStickDeadZone = (0.150000006f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:58>
 		__this->___useSwipeScroll = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:61>
 		__this->___swipeDragThreshold = (2.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:64>
 		__this->___swipeDragScale = (1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:75>
 		__this->___angleDragThreshold = (1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:78>
 		__this->___m_SpherecastRadius = (1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:101>
 		HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2* L_0 = (HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2*)il2cpp_codegen_object_new(HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m78839548D7E3252DC1D5F2642AD73C49DD221534(L_0, HashSet_1__ctor_m78839548D7E3252DC1D5F2642AD73C49DD221534_RuntimeMethod_var);
 		__this->____objectsHitThisFrame = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____objectsHitThisFrame), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:148>
 		__this->___m_HorizontalAxis = _stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HorizontalAxis), (void*)_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:154>
 		__this->___m_VerticalAxis = _stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_VerticalAxis), (void*)_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:160>
 		__this->___m_SubmitButton = _stringLiteral190CDBBC7377A308B78E27EF91319FD2DA386895;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SubmitButton), (void*)_stringLiteral190CDBBC7377A308B78E27EF91319FD2DA386895);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:166>
 		__this->___m_CancelButton = _stringLiteral93717CD8FCD45BAB4F15D3BACC989A6A93BA2674;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CancelButton), (void*)_stringLiteral93717CD8FCD45BAB4F15D3BACC989A6A93BA2674);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:169>
 		__this->___m_InputActionsPerSecond = (10.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:611>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:611>
 		Dictionary_2_t9422155976AA5669B953F2FA792954DC4DFD250B* L_1 = (Dictionary_2_t9422155976AA5669B953F2FA792954DC4DFD250B*)il2cpp_codegen_object_new(Dictionary_2_t9422155976AA5669B953F2FA792954DC4DFD250B_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m945703AD572432985F6A555BBE2C516D84D78989(L_1, Dictionary_2__ctor_m945703AD572432985F6A555BBE2C516D84D78989_RuntimeMethod_var);
 		__this->___m_VRRayPointerData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_VRRayPointerData), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:668>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:668>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_2 = (MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09*)il2cpp_codegen_object_new(MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09_il2cpp_TypeInfo_var);
 		MouseState__ctor_mF4A8041A86E50D91202770E73CE0DAF12BB207D9(L_2, NULL);
 		__this->___m_MouseState = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MouseState), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1166>
 		List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B* L_3 = (List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B*)il2cpp_codegen_object_new(List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B_il2cpp_TypeInfo_var);
 		List_1__ctor_mD9A099B32B027680658ADA0C74B5F92352DF9085(L_3, List_1__ctor_mD9A099B32B027680658ADA0C74B5F92352DF9085_RuntimeMethod_var);
 		__this->____trackedInputSources = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____trackedInputSources), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:103>
 		PointerInputModule__ctor_mBF074492478BFC24F87EF2C941D6C11A8ACDAF11(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:105>
 		return;
 	}
 }
@@ -30047,19 +30047,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_Awake_mCF14E29F8CF1595FD0
 	int32_t V_0 = 0;
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:109>
 		UIBehaviour_Awake_mDF9D1A4867C8E730C59A7CAE97709CA9B8F3A0F2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:110>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		OVRInputModule_set_instance_mDEBA471D798F79C6E97C94874924218596D14887_inline(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:112>
 		V_0 = 0;
 		goto IL_0031;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:114>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B* L_0 = ((OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var))->____pendingInputSources;
 		int32_t L_1 = V_0;
@@ -30067,7 +30067,7 @@ IL_0010:
 		RuntimeObject* L_2;
 		L_2 = List_1_get_Item_m6A11493D06112007694C5C5CFD4D6778249116B2(L_0, L_1, List_1_get_Item_m6A11493D06112007694C5C5CFD4D6778249116B2_RuntimeMethod_var);
 		V_1 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:115>
 		RuntimeObject* L_3 = V_1;
 		if (!L_3)
 		{
@@ -30085,7 +30085,7 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:117>
 		RuntimeObject* L_6 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		OVRInputModule_TrackInputSource_mA7956EFAB61AF6E8F00E0DC9E7926A2FCB9B22EF(L_6, NULL);
@@ -30093,14 +30093,14 @@ IL_0010:
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:112>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:112>
 		int32_t L_8 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B* L_9 = ((OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var))->____pendingInputSources;
@@ -30113,12 +30113,12 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:121>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B* L_11 = ((OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var))->____pendingInputSources;
 		NullCheck(L_11);
 		List_1_Clear_m3A6F7BC2569BB1C6B466347A4CE3D2DC9FC6BBB9_inline(L_11, List_1_Clear_m3A6F7BC2569BB1C6B466347A4CE3D2DC9FC6BBB9_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:122>
 		return;
 	}
 }
@@ -30126,7 +30126,7 @@ IL_0031:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRInputModule_get_inputMode_m703F87EE86EB8904C748AAB9F3845AE4E27C0449 (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:143>
 		return (int32_t)(0);
 	}
 }
@@ -30134,7 +30134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRInputModule_get_inputMode_m703F87E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_get_allowActivationOnMobileDevice_m01129453E7D13735211F8F975C7CE4344A3292DA (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:176>
 		bool L_0 = __this->___m_AllowActivationOnMobileDevice;
 		return L_0;
 	}
@@ -30143,10 +30143,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_get_allowActivationOnMobi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_set_allowActivationOnMobileDevice_m6299794725C1183B18933AFC121512F941696F96 (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:177>
 		bool L_0 = ___0_value;
 		__this->___m_AllowActivationOnMobileDevice = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:177>
 		return;
 	}
 }
@@ -30154,7 +30154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_set_allowActivationOnMobi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRInputModule_get_inputActionsPerSecond_m1D908DC9F877C2174C2F7286C2EE0C1F3152AD67 (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:182>
 		float L_0 = __this->___m_InputActionsPerSecond;
 		return L_0;
 	}
@@ -30163,10 +30163,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRInputModule_get_inputActionsPerSecon
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_set_inputActionsPerSecond_m40445C073981556ACCEB8A9FB364837D7AA8E32E (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:183>
 		float L_0 = ___0_value;
 		__this->___m_InputActionsPerSecond = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:183>
 		return;
 	}
 }
@@ -30174,7 +30174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_set_inputActionsPerSecond
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRInputModule_get_horizontalAxis_m2ABAD368719FD1D795E539046FF537781A94FDEB (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:191>
 		String_t* L_0 = __this->___m_HorizontalAxis;
 		return L_0;
 	}
@@ -30183,11 +30183,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRInputModule_get_horizontalAxis_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_set_horizontalAxis_mC1ACF279E38A74A00E39AC82457FD67016CE5FDC (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:192>
 		String_t* L_0 = ___0_value;
 		__this->___m_HorizontalAxis = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HorizontalAxis), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:192>
 		return;
 	}
 }
@@ -30195,7 +30195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_set_horizontalAxis_mC1ACF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRInputModule_get_verticalAxis_m4D38ADE8D09F62B65DD7C6D2DAFE7B4CAC0772F1 (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:200>
 		String_t* L_0 = __this->___m_VerticalAxis;
 		return L_0;
 	}
@@ -30204,11 +30204,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRInputModule_get_verticalAxis_m4D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_set_verticalAxis_m0FD387FB0CA03DBD7673389702497B3A5D582B69 (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:201>
 		String_t* L_0 = ___0_value;
 		__this->___m_VerticalAxis = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_VerticalAxis), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:201>
 		return;
 	}
 }
@@ -30216,7 +30216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_set_verticalAxis_m0FD387F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRInputModule_get_submitButton_mB419D3F4EB6BEA013A8258423BECCE1C53F8592A (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:206>
 		String_t* L_0 = __this->___m_SubmitButton;
 		return L_0;
 	}
@@ -30225,11 +30225,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRInputModule_get_submitButton_mB4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_set_submitButton_m79894AD3C370FA5E3762E7B99B212CD7CFC6488B (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:207>
 		String_t* L_0 = ___0_value;
 		__this->___m_SubmitButton = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SubmitButton), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:207>
 		return;
 	}
 }
@@ -30237,7 +30237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_set_submitButton_m79894AD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRInputModule_get_cancelButton_m75EA72B209DF45390BC74319C81BD2E7F61D0B3D (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:212>
 		String_t* L_0 = __this->___m_CancelButton;
 		return L_0;
 	}
@@ -30246,11 +30246,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRInputModule_get_cancelButton_m75
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_set_cancelButton_m439529CB954D799F5548E0E3C9E1ADEBBA130172 (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:213>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:213>
 		String_t* L_0 = ___0_value;
 		__this->___m_CancelButton = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CancelButton), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:213>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:213>
 		return;
 	}
 }
@@ -30258,7 +30258,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_set_cancelButton_m439529C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_UpdateModule_m1FE521EFA9268EDD9FDE4B2F1AAE33ED56AEF66E (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:222>
 		return;
 	}
 }
@@ -30266,7 +30266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_UpdateModule_m1FE521EFA92
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_IsModuleSupported_m7B9DE0BA7E25485387B5C2E3D9F4ECC3B0573251 (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:229>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:229>
 		bool L_0 = __this->___m_AllowActivationOnMobileDevice;
 		if (L_0)
 		{
@@ -30288,10 +30288,10 @@ IL_000e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_ShouldActivateModule_mA012158257C8F2608D97BD3F4754BA8F9DF5AFED (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:234>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:234>
 		bool L_0;
 		L_0 = BaseInputModule_ShouldActivateModule_m51B70F9097EF7FEB20B62D4D775F7FEA853185A1(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:235>
 		return (bool)0;
 	}
 }
@@ -30306,16 +30306,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ActivateModule_m62AF1A8B1
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:252>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:252>
 		BaseInputModule_ActivateModule_m2C693E95727E13FDF06D54FA8762A040175AC3BA(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:258>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:258>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_0;
 		L_0 = BaseInputModule_get_eventSystem_m341B2378F61A58D5432906B9EE1E12265E2FAB33_inline(__this, NULL);
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = EventSystem_get_currentSelectedGameObject_mD606FFACF3E72755298A523CBB709535CF08C98A_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:259>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:259>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -30326,7 +30326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ActivateModule_m62AF1A8B1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:260>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:260>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_4;
 		L_4 = BaseInputModule_get_eventSystem_m341B2378F61A58D5432906B9EE1E12265E2FAB33_inline(__this, NULL);
 		NullCheck(L_4);
@@ -30337,7 +30337,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ActivateModule_m62AF1A8B1
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:262>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:262>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_6;
 		L_6 = BaseInputModule_get_eventSystem_m341B2378F61A58D5432906B9EE1E12265E2FAB33_inline(__this, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_0;
@@ -30345,7 +30345,7 @@ IL_0027:
 		L_8 = VirtualFuncInvoker0< BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* >::Invoke(19, __this);
 		NullCheck(L_6);
 		EventSystem_SetSelectedGameObject_m9675415B7B3FE13B35E2CCB220F0C8AF04ECA173(L_6, L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:263>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:263>
 		return;
 	}
 }
@@ -30353,11 +30353,11 @@ IL_0027:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_DeactivateModule_m57CD320E3D3BA8D6B64BD69F15F5B35E6E2597DB (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:267>
 		BaseInputModule_DeactivateModule_mAE698307DADBE4DE8A26BD3DE5F3F7E3D75B385D(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:268>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:268>
 		OVRInputModule_ClearSelection_m8BB4DB17CCE3F2897281E77858D85C9A8E218906(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:269>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:269>
 		return;
 	}
 }
@@ -30371,7 +30371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_SendSubmitEventToSelected
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:277>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:277>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_0;
 		L_0 = BaseInputModule_get_eventSystem_m341B2378F61A58D5432906B9EE1E12265E2FAB33_inline(__this, NULL);
 		NullCheck(L_0);
@@ -30386,16 +30386,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_SendSubmitEventToSelected
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:278>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:278>
 		return (bool)0;
 	}
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:280>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:280>
 		BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* L_3;
 		L_3 = VirtualFuncInvoker0< BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* >::Invoke(19, __this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:288>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:288>
 		NullCheck(L_3);
 		bool L_4;
 		L_4 = VirtualFuncInvoker0< bool >::Invoke(6, L_3);
@@ -30406,7 +30406,7 @@ IL_0015:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_AllowMoveEventProcessing_mCE84D054A5F4C27EFBACAAD16D1EDCA6F524F508 (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, float ___0_time, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:299>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:299>
 		return (bool)0;
 	}
 }
@@ -30416,21 +30416,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:305>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:305>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:306>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:306>
 		String_t* L_1 = __this->___m_HorizontalAxis;
 		float L_2;
 		L_2 = Input_GetAxisRaw_m47C0CF8E090561A2F407A4E11D5F2A45044EB8E4(L_1, NULL);
 		(&V_0)->___x = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:307>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:307>
 		String_t* L_3 = __this->___m_VerticalAxis;
 		float L_4;
 		L_4 = Input_GetAxisRaw_m47C0CF8E090561A2F407A4E11D5F2A45044EB8E4(L_3, NULL);
 		(&V_0)->___y = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:309>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:309>
 		String_t* L_5 = __this->___m_HorizontalAxis;
 		bool L_6;
 		L_6 = Input_GetButtonDown_mEF5F80C9E8F04104E807D9CBD6F70CDB98751579(L_5, NULL);
@@ -30440,7 +30440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:311>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:311>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = V_0;
 		float L_8 = L_7.___x;
 		if ((!(((float)L_8) < ((float)(0.0f)))))
@@ -30449,13 +30449,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:312>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:312>
 		(&V_0)->___x = (-1.0f);
 	}
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:313>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:313>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_0;
 		float L_10 = L_9.___x;
 		if ((!(((float)L_10) > ((float)(0.0f)))))
@@ -30464,13 +30464,13 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:314>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:314>
 		(&V_0)->___x = (1.0f);
 	}
 
 IL_0069:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:317>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:317>
 		String_t* L_11 = __this->___m_VerticalAxis;
 		bool L_12;
 		L_12 = Input_GetButtonDown_mEF5F80C9E8F04104E807D9CBD6F70CDB98751579(L_11, NULL);
@@ -30480,7 +30480,7 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:319>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:319>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = V_0;
 		float L_14 = L_13.___y;
 		if ((!(((float)L_14) < ((float)(0.0f)))))
@@ -30489,13 +30489,13 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:320>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:320>
 		(&V_0)->___y = (-1.0f);
 	}
 
 IL_008f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:321>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:321>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = V_0;
 		float L_16 = L_15.___y;
 		if ((!(((float)L_16) > ((float)(0.0f)))))
@@ -30504,13 +30504,13 @@ IL_008f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:322>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:322>
 		(&V_0)->___y = (1.0f);
 	}
 
 IL_00a8:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:325>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:325>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17 = V_0;
 		return L_17;
 	}
@@ -30530,11 +30530,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_SendMoveEventToSelectedOb
 	memset((&V_1), 0, sizeof(V_1));
 	AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:333>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:333>
 		float L_0;
 		L_0 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:335>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:335>
 		float L_1 = V_0;
 		bool L_2;
 		L_2 = OVRInputModule_AllowMoveEventProcessing_mCE84D054A5F4C27EFBACAAD16D1EDCA6F524F508(__this, L_1, NULL);
@@ -30544,17 +30544,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_SendMoveEventToSelectedOb
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:336>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:336>
 		return (bool)0;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:338>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:338>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = OVRInputModule_GetRawMoveVector_mAD07DA87FE40D256FAD36721214E8E5F554BC605(__this, NULL);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:340>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:340>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = V_1;
 		float L_5 = L_4.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = V_1;
@@ -30562,8 +30562,8 @@ IL_0011:
 		AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* L_8;
 		L_8 = VirtualFuncInvoker3< AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938*, float, float, float >::Invoke(18, __this, L_5, L_7, (0.600000024f));
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:341>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:342>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:341>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:342>
 		AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* L_9 = V_2;
 		NullCheck(L_9);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
@@ -30592,7 +30592,7 @@ IL_0011:
 
 IL_005e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:344>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:344>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_17;
 		L_17 = BaseInputModule_get_eventSystem_m341B2378F61A58D5432906B9EE1E12265E2FAB33_inline(__this, NULL);
 		NullCheck(L_17);
@@ -30608,11 +30608,11 @@ IL_005e:
 
 IL_0075:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:347>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:347>
 		float L_22 = V_0;
 		float L_23 = __this->___m_InputActionsPerSecond;
 		__this->___m_NextAction = ((float)il2cpp_codegen_add(L_22, ((float)((1.0f)/L_23))));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:348>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:348>
 		AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* L_24 = V_2;
 		NullCheck(L_24);
 		bool L_25;
@@ -30633,7 +30633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_SendUpdateEventToSelected
 	}
 	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:354>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:354>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_0;
 		L_0 = BaseInputModule_get_eventSystem_m341B2378F61A58D5432906B9EE1E12265E2FAB33_inline(__this, NULL);
 		NullCheck(L_0);
@@ -30648,17 +30648,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_SendUpdateEventToSelected
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:355>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:355>
 		return (bool)0;
 	}
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:357>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:357>
 		BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* L_3;
 		L_3 = VirtualFuncInvoker0< BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* >::Invoke(19, __this);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:358>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:358>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_4;
 		L_4 = BaseInputModule_get_eventSystem_m341B2378F61A58D5432906B9EE1E12265E2FAB33_inline(__this, NULL);
 		NullCheck(L_4);
@@ -30670,7 +30670,7 @@ IL_0015:
 		L_7 = ExecuteEvents_get_updateSelectedHandler_m8AF7543437082AD4F5690AAA77F2623AE28C3D09_inline(NULL);
 		bool L_8;
 		L_8 = ExecuteEvents_Execute_TisIUpdateSelectedHandler_tBBACEC3A6478F7DA4B682AFDA8CF59C6C3FCC9CC_m8AFB13536731ABE80F6AE964DA907EE6B27F055E(L_5, L_6, L_7, ExecuteEvents_Execute_TisIUpdateSelectedHandler_tBBACEC3A6478F7DA4B682AFDA8CF59C6C3FCC9CC_m8AFB13536731ABE80F6AE964DA907EE6B27F055E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:359>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:359>
 		BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* L_9 = V_0;
 		NullCheck(L_9);
 		bool L_10;
@@ -30707,12 +30707,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessMousePress_m8FB126
 	int32_t V_5 = 0;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_6 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:367>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:367>
 		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_0 = ___0_data;
 		NullCheck(L_0);
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_1 = L_0->___buttonData;
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:368>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:368>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_2 = V_0;
 		NullCheck(L_2);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_3;
@@ -30721,7 +30721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessMousePress_m8FB126
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = RaycastResult_get_gameObject_m77014B442B9E2D10F2CC3AEEDC07AA95CDE1E2F1_inline((&V_2), NULL);
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:371>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:371>
 		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_5 = ___0_data;
 		NullCheck(L_5);
 		bool L_6;
@@ -30732,25 +30732,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessMousePress_m8FB126
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:373>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:373>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_7 = V_0;
 		NullCheck(L_7);
 		PointerEventData_set_eligibleForClick_m360125CB3E348F3CF64C39F163467A842E479C21_inline(L_7, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:374>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:374>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_8 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
 		L_9 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_8);
 		PointerEventData_set_delta_mD200AF7CCAEAD92D947091902AF864CB4ACE0F1D_inline(L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:375>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:375>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_10 = V_0;
 		NullCheck(L_10);
 		PointerEventData_set_dragging_m43982B3F95F05986F40A736914CFBC45D2A9BB8E_inline(L_10, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:376>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:376>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_11 = V_0;
 		NullCheck(L_11);
 		PointerEventData_set_useDragThreshold_m63FE2034E4B240F1A0A902B1EB893B3DBA2D848B_inline(L_11, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:377>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:377>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_12 = V_0;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_13 = V_0;
 		NullCheck(L_13);
@@ -30758,11 +30758,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessMousePress_m8FB126
 		L_14 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_13, NULL);
 		NullCheck(L_12);
 		PointerEventData_set_pressPosition_m85544FBAB798DABE70067508294A6C4841A95379_inline(L_12, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:378>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:378>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_15 = V_0;
 		bool L_16;
 		L_16 = PointerEventDataExtension_IsVRPointer_m630294B1887266CFC4779146B4D066B6EBF4DCD5(L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:385>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:385>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_17 = V_0;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_18 = V_0;
 		NullCheck(L_18);
@@ -30770,12 +30770,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessMousePress_m8FB126
 		L_19 = PointerEventData_get_pointerCurrentRaycast_m1C6B7D707CEE9C6574DD443289D90102EDC7A2C4_inline(L_18, NULL);
 		NullCheck(L_17);
 		PointerEventData_set_pointerPressRaycast_m55CA127474B4CBCA795A9C872B7630AAF766F852_inline(L_17, L_19, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:387>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:387>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = V_1;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_21 = V_0;
 		PointerInputModule_DeselectIfSelectionChanged_m8F111DD2317E33C4F0498F651BC52BD5C984A95B(__this, L_20, L_21, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:392>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:393>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:392>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:393>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = V_1;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_23 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(ExecuteEvents_t74DCF8B83743EE2773ACF182344612A048E2CC59_il2cpp_TypeInfo_var);
@@ -30784,7 +30784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessMousePress_m8FB126
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
 		L_25 = ExecuteEvents_ExecuteHierarchy_TisIPointerDownHandler_t42CC83619BB6295404D44090142F7726003CE573_mF031AC46543C02039764EDB1B0673DFA36B1F58C(L_22, L_23, L_24, ExecuteEvents_ExecuteHierarchy_TisIPointerDownHandler_t42CC83619BB6295404D44090142F7726003CE573_mF031AC46543C02039764EDB1B0673DFA36B1F58C_RuntimeMethod_var);
 		V_3 = L_25;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:396>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:396>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_27;
@@ -30795,7 +30795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessMousePress_m8FB126
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:397>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:397>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(ExecuteEvents_t74DCF8B83743EE2773ACF182344612A048E2CC59_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29;
@@ -30805,7 +30805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessMousePress_m8FB126
 
 IL_0085:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:402>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:402>
 		HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2* L_30 = __this->____objectsHitThisFrame;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = V_3;
 		NullCheck(L_30);
@@ -30817,17 +30817,17 @@ IL_0085:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:404>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:404>
 		HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2* L_33 = __this->____objectsHitThisFrame;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = V_3;
 		NullCheck(L_33);
 		bool L_35;
 		L_35 = HashSet_1_Add_m838292240F40A79A8FA7248252D9DFE734E6EDB3(L_33, L_34, HashSet_1_Add_m838292240F40A79A8FA7248252D9DFE734E6EDB3_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:406>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:406>
 		float L_36;
 		L_36 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 		V_4 = L_36;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:408>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:408>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = V_3;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_38 = V_0;
 		NullCheck(L_38);
@@ -30842,20 +30842,20 @@ IL_0085:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:410>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:410>
 		float L_41 = V_4;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_42 = V_0;
 		NullCheck(L_42);
 		float L_43;
 		L_43 = PointerEventData_get_clickTime_m5ABE0298E8CEF28B6BD7E750E940756CD78AB96E_inline(L_42, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:411>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:411>
 		if ((!(((float)((float)il2cpp_codegen_subtract(L_41, L_43))) < ((float)(0.300000012f)))))
 		{
 			goto IL_00dc;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:412>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:412>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_44 = V_0;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_45 = L_44;
 		NullCheck(L_45);
@@ -30870,7 +30870,7 @@ IL_0085:
 
 IL_00dc:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:414>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:414>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_48 = V_0;
 		NullCheck(L_48);
 		PointerEventData_set_clickCount_m0A87C2C367987492F310786DC9C3DF1616EA4D49_inline(L_48, 1, NULL);
@@ -30878,7 +30878,7 @@ IL_00dc:
 
 IL_00e3:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:416>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:416>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_49 = V_0;
 		float L_50 = V_4;
 		NullCheck(L_49);
@@ -30888,7 +30888,7 @@ IL_00e3:
 
 IL_00ed:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:420>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:420>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_51 = V_0;
 		NullCheck(L_51);
 		PointerEventData_set_clickCount_m0A87C2C367987492F310786DC9C3DF1616EA4D49_inline(L_51, 1, NULL);
@@ -30896,22 +30896,22 @@ IL_00ed:
 
 IL_00f4:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:423>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:423>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_52 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_53 = V_3;
 		NullCheck(L_52);
 		PointerEventData_set_pointerPress_m51241AAA6E5F87ADEBBB8DB7D4452CE45200BEE8(L_52, L_53, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:424>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:424>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_54 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_55 = V_1;
 		NullCheck(L_54);
 		PointerEventData_set_rawPointerPress_mEEC4E3C7CD00F1DDCD3DA98DA5837E71BB8455E3_inline(L_54, L_55, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:426>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:426>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_56 = V_0;
 		float L_57 = V_4;
 		NullCheck(L_56);
 		PointerEventData_set_clickTime_m93D27EB35F490AC9100369A23002F09148F85996_inline(L_56, L_57, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:429>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:429>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_58 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(ExecuteEvents_t74DCF8B83743EE2773ACF182344612A048E2CC59_il2cpp_TypeInfo_var);
@@ -30919,7 +30919,7 @@ IL_00f4:
 		L_60 = ExecuteEvents_GetEventHandler_TisIDragHandler_t9FF2B3D79AB401D7E2485254973D15C0F117D00D_m9AA4E18082F53C60962F70D75570F1D400C37FBA(L_59, ExecuteEvents_GetEventHandler_TisIDragHandler_t9FF2B3D79AB401D7E2485254973D15C0F117D00D_m9AA4E18082F53C60962F70D75570F1D400C37FBA_RuntimeMethod_var);
 		NullCheck(L_58);
 		PointerEventData_set_pointerDrag_m0E8D72362B07962843671C39ADC8F4D5E4915010_inline(L_58, L_60, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:431>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:431>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_61 = V_0;
 		NullCheck(L_61);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_62;
@@ -30933,8 +30933,8 @@ IL_00f4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:432>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:433>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:432>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:433>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_64 = V_0;
 		NullCheck(L_64);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_65;
@@ -30949,7 +30949,7 @@ IL_00f4:
 
 IL_0136:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:438>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:438>
 		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_69 = ___0_data;
 		NullCheck(L_69);
 		bool L_70;
@@ -30960,7 +30960,7 @@ IL_0136:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:441>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:441>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_71 = V_0;
 		NullCheck(L_71);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_72;
@@ -30971,12 +30971,12 @@ IL_0136:
 		L_74 = ExecuteEvents_get_pointerUpHandler_m51B83B4AD7498D6F7A2CBD5F2331E91A37AE4CF2_inline(NULL);
 		bool L_75;
 		L_75 = ExecuteEvents_Execute_TisIPointerUpHandler_tB2D4D0ABEAFF77BE8D0159D638D85E1AF7BAF210_mBB70745D5D17BF6402CABEFF0F52911F88C197A6(L_72, L_73, L_74, ExecuteEvents_Execute_TisIPointerUpHandler_tB2D4D0ABEAFF77BE8D0159D638D85E1AF7BAF210_mBB70745D5D17BF6402CABEFF0F52911F88C197A6_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:446>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:446>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_76 = V_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_77;
 		L_77 = ExecuteEvents_GetEventHandler_TisIPointerClickHandler_t77341AA19DE37C26F5F619DE8BD28B70D5A2B5D8_m3363BED905E60A4545A8CA5B8C68BA709E99536E(L_76, ExecuteEvents_GetEventHandler_TisIPointerClickHandler_t77341AA19DE37C26F5F619DE8BD28B70D5A2B5D8_m3363BED905E60A4545A8CA5B8C68BA709E99536E_RuntimeMethod_var);
 		V_6 = L_77;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:449>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:449>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_78 = V_0;
 		NullCheck(L_78);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_79;
@@ -31001,7 +31001,7 @@ IL_0136:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:451>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:451>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_84 = V_0;
 		NullCheck(L_84);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_85;
@@ -31017,7 +31017,7 @@ IL_0136:
 
 IL_0186:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:453>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:453>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_89 = V_0;
 		NullCheck(L_89);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_90;
@@ -31031,7 +31031,7 @@ IL_0186:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:455>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:455>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_92 = V_1;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_93 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(ExecuteEvents_t74DCF8B83743EE2773ACF182344612A048E2CC59_il2cpp_TypeInfo_var);
@@ -31043,19 +31043,19 @@ IL_0186:
 
 IL_01a1:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:458>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:458>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_96 = V_0;
 		NullCheck(L_96);
 		PointerEventData_set_eligibleForClick_m360125CB3E348F3CF64C39F163467A842E479C21_inline(L_96, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:459>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:459>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_97 = V_0;
 		NullCheck(L_97);
 		PointerEventData_set_pointerPress_m51241AAA6E5F87ADEBBB8DB7D4452CE45200BEE8(L_97, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:460>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:460>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_98 = V_0;
 		NullCheck(L_98);
 		PointerEventData_set_rawPointerPress_mEEC4E3C7CD00F1DDCD3DA98DA5837E71BB8455E3_inline(L_98, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:462>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:462>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_99 = V_0;
 		NullCheck(L_99);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_100;
@@ -31079,7 +31079,7 @@ IL_01a1:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:463>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:463>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_104 = V_0;
 		NullCheck(L_104);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_105;
@@ -31094,15 +31094,15 @@ IL_01a1:
 
 IL_01de:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:465>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:465>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_109 = V_0;
 		NullCheck(L_109);
 		PointerEventData_set_dragging_m43982B3F95F05986F40A736914CFBC45D2A9BB8E_inline(L_109, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:466>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:466>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_110 = V_0;
 		NullCheck(L_110);
 		PointerEventData_set_pointerDrag_m0E8D72362B07962843671C39ADC8F4D5E4915010_inline(L_110, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:472>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:472>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_111 = V_1;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_112 = V_0;
 		NullCheck(L_112);
@@ -31117,10 +31117,10 @@ IL_01de:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:474>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:474>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_115 = V_0;
 		BaseInputModule_HandlePointerExitAndEnter_m0815F06EAF8F937916E0656D66A69844CB211298(__this, L_115, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:475>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:475>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_116 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_117 = V_1;
 		BaseInputModule_HandlePointerExitAndEnter_m0815F06EAF8F937916E0656D66A69844CB211298(__this, L_116, L_117, NULL);
@@ -31128,7 +31128,7 @@ IL_01de:
 
 IL_020a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:478>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:478>
 		return;
 	}
 }
@@ -31151,18 +31151,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessMouseEvent_mEF8F3D
 	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:491>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:491>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_0 = ___0_mouseData;
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = MouseState_AnyPressesThisFrame_m4887FF61D58D641496B95C83710C8A4E841970F3(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:492>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:492>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_2 = ___0_mouseData;
 		NullCheck(L_2);
 		bool L_3;
 		L_3 = MouseState_AnyReleasesThisFrame_m4FBA37A12735418AD0970F11BC44850517B05E93(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:494>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:494>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_4 = ___0_mouseData;
 		NullCheck(L_4);
 		ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* L_5;
@@ -31171,7 +31171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessMouseEvent_mEF8F3D
 		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_6;
 		L_6 = ButtonState_get_eventData_m4767730784143F1DCE06B6138658A31CBC5E155F_inline(L_5, NULL);
 		V_1 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:496>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:496>
 		bool L_7 = V_0;
 		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_8 = V_1;
 		NullCheck(L_8);
@@ -31185,26 +31185,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessMouseEvent_mEF8F3D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:497>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:497>
 		return;
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:500>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:500>
 		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_11 = V_1;
 		OVRInputModule_ProcessMousePress_m8FB12642E4586D7C5F71ECFA5E56ABE3FFE834E9(__this, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:501>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:501>
 		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_12 = V_1;
 		NullCheck(L_12);
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_13 = L_12->___buttonData;
 		VirtualActionInvoker1< PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* >::Invoke(31, __this, L_13);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:502>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:502>
 		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_14 = V_1;
 		NullCheck(L_14);
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_15 = L_14->___buttonData;
 		VirtualActionInvoker1< PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* >::Invoke(32, __this, L_15);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:505>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:505>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_16 = ___0_mouseData;
 		NullCheck(L_16);
 		ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* L_17;
@@ -31213,7 +31213,7 @@ IL_0029:
 		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_18;
 		L_18 = ButtonState_get_eventData_m4767730784143F1DCE06B6138658A31CBC5E155F_inline(L_17, NULL);
 		OVRInputModule_ProcessMousePress_m8FB12642E4586D7C5F71ECFA5E56ABE3FFE834E9(__this, L_18, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:506>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:506>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_19 = ___0_mouseData;
 		NullCheck(L_19);
 		ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* L_20;
@@ -31224,7 +31224,7 @@ IL_0029:
 		NullCheck(L_21);
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_22 = L_21->___buttonData;
 		VirtualActionInvoker1< PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* >::Invoke(32, __this, L_22);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:507>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:507>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_23 = ___0_mouseData;
 		NullCheck(L_23);
 		ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* L_24;
@@ -31233,7 +31233,7 @@ IL_0029:
 		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_25;
 		L_25 = ButtonState_get_eventData_m4767730784143F1DCE06B6138658A31CBC5E155F_inline(L_24, NULL);
 		OVRInputModule_ProcessMousePress_m8FB12642E4586D7C5F71ECFA5E56ABE3FFE834E9(__this, L_25, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:508>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:508>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_26 = ___0_mouseData;
 		NullCheck(L_26);
 		ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* L_27;
@@ -31244,7 +31244,7 @@ IL_0029:
 		NullCheck(L_28);
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_29 = L_28->___buttonData;
 		VirtualActionInvoker1< PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* >::Invoke(32, __this, L_29);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:510>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:510>
 		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_30 = V_1;
 		NullCheck(L_30);
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_31 = L_30->___buttonData;
@@ -31262,8 +31262,8 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:512>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:513>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:512>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:513>
 		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_35 = V_1;
 		NullCheck(L_35);
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_36 = L_35->___buttonData;
@@ -31276,7 +31276,7 @@ IL_0029:
 		il2cpp_codegen_runtime_class_init_inline(ExecuteEvents_t74DCF8B83743EE2773ACF182344612A048E2CC59_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39;
 		L_39 = ExecuteEvents_GetEventHandler_TisIScrollHandler_t762CB73017D561E11CF6759ED9FD8C9F24B3D13F_m3BFE4214B6075DAE2F291E508DC912DC72262D2E(L_38, ExecuteEvents_GetEventHandler_TisIScrollHandler_t762CB73017D561E11CF6759ED9FD8C9F24B3D13F_m3BFE4214B6075DAE2F291E508DC912DC72262D2E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:514>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:514>
 		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_40 = V_1;
 		NullCheck(L_40);
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_41 = L_40->___buttonData;
@@ -31288,7 +31288,7 @@ IL_0029:
 
 IL_00e2:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:516>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:516>
 		return;
 	}
 }
@@ -31310,11 +31310,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_Process_mAD086AA91AE73460
 	int32_t V_2 = 0;
 	MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:524>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:524>
 		bool L_0;
 		L_0 = OVRInputModule_SendUpdateEventToSelectedObject_mF799E28F265830EDBFC991825BEB97D3448472C1(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:526>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:526>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_1;
 		L_1 = BaseInputModule_get_eventSystem_m341B2378F61A58D5432906B9EE1E12265E2FAB33_inline(__this, NULL);
 		NullCheck(L_1);
@@ -31326,7 +31326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_Process_mAD086AA91AE73460
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:528>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:528>
 		bool L_3 = V_0;
 		if (L_3)
 		{
@@ -31334,7 +31334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_Process_mAD086AA91AE73460
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:529>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:529>
 		bool L_4 = V_0;
 		bool L_5;
 		L_5 = OVRInputModule_SendMoveEventToSelectedObject_mF3C86101342F589244CDA3984DAAEC291C693081(__this, NULL);
@@ -31343,7 +31343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_Process_mAD086AA91AE73460
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:531>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:531>
 		bool L_6 = V_0;
 		if (L_6)
 		{
@@ -31351,16 +31351,16 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:532>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:532>
 		bool L_7;
 		L_7 = OVRInputModule_SendSubmitEventToSelectedObject_mBCBAAAC7FE36D0C8AC77C333EC6376C0BA13A00A(__this, NULL);
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:536>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:536>
 		V_1 = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:537>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:537>
 		List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B* L_8 = __this->____trackedInputSources;
 		NullCheck(L_8);
 		int32_t L_9;
@@ -31371,7 +31371,7 @@ IL_002a:
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:539>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:539>
 		List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B* L_10 = __this->____trackedInputSources;
 		int32_t L_11 = V_2;
 		NullCheck(L_10);
@@ -31386,9 +31386,9 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:541>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:541>
 		V_1 = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:542>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:542>
 		List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B* L_14 = __this->____trackedInputSources;
 		int32_t L_15 = V_2;
 		NullCheck(L_14);
@@ -31398,21 +31398,21 @@ IL_003c:
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_18;
 		L_18 = VirtualFuncInvoker2< MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09*, RuntimeObject*, int32_t >::Invoke(33, __this, L_16, L_17);
 		V_3 = L_18;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:543>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:543>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_19 = V_3;
 		OVRInputModule_ProcessMouseEvent_mEF8F3DCD9DEBD00901217A431B8ADD2D15C007BF(__this, L_19, NULL);
 	}
 
 IL_006c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:537>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:537>
 		int32_t L_20 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_20, 1));
 	}
 
 IL_0070:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:537>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:537>
 		int32_t L_21 = V_2;
 		if ((((int32_t)L_21) >= ((int32_t)0)))
 		{
@@ -31420,7 +31420,7 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:547>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:547>
 		bool L_22 = V_1;
 		if (L_22)
 		{
@@ -31438,7 +31438,7 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:550>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:550>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = __this->___rayTransform;
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_26;
 		L_26 = VirtualFuncInvoker1< MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* >::Invoke(34, __this, L_25);
@@ -31447,11 +31447,11 @@ IL_0070:
 
 IL_0097:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:553>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:553>
 		HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2* L_27 = __this->____objectsHitThisFrame;
 		NullCheck(L_27);
 		HashSet_1_Clear_m61C3E680ED027CE4E157AEDB2CDE8A1678637745(L_27, HashSet_1_Clear_m61C3E680ED027CE4E157AEDB2CDE8A1678637745_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:557>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:557>
 		return;
 	}
 }
@@ -31465,7 +31465,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_UseMouse_mF84F562B4F48BD8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:565>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:565>
 		bool L_0 = ___0_pressed;
 		bool L_1 = ___1_released;
 		if (((int32_t)((int32_t)L_0|(int32_t)L_1)))
@@ -31496,13 +31496,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_UseMouse_mF84F562B4F48BD8
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:566>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:566>
 		return (bool)1;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:568>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:568>
 		return (bool)0;
 	}
 }
@@ -31510,7 +31510,7 @@ IL_0017:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_CopyFromTo_m7469C2E36FBE72A7109BC094DC3B19651698A691 (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* ___0_from, OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* ___1_to, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:581>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:581>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_0 = ___1_to;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_1 = ___0_from;
 		NullCheck(L_1);
@@ -31518,7 +31518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_CopyFromTo_m7469C2E36FBE7
 		L_2 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_1, NULL);
 		NullCheck(L_0);
 		PointerEventData_set_position_m66E8DFE693F550372E6B085C6E2F887FDB092FAA_inline(L_0, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:582>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:582>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_3 = ___1_to;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_4 = ___0_from;
 		NullCheck(L_4);
@@ -31526,7 +31526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_CopyFromTo_m7469C2E36FBE7
 		L_5 = PointerEventData_get_delta_m7DC87C01EAE1D10282C37842ED215FDBFE2C1C5B_inline(L_4, NULL);
 		NullCheck(L_3);
 		PointerEventData_set_delta_mD200AF7CCAEAD92D947091902AF864CB4ACE0F1D_inline(L_3, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:583>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:583>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_6 = ___1_to;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_7 = ___0_from;
 		NullCheck(L_7);
@@ -31534,7 +31534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_CopyFromTo_m7469C2E36FBE7
 		L_8 = PointerEventData_get_scrollDelta_m38C419C3E84811D17D1A42973AF7B3A457B316EA_inline(L_7, NULL);
 		NullCheck(L_6);
 		PointerEventData_set_scrollDelta_m58007CAE9A9B333B82C36B9E5431FBD926CB556C_inline(L_6, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:584>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:584>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_9 = ___1_to;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_10 = ___0_from;
 		NullCheck(L_10);
@@ -31542,7 +31542,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_CopyFromTo_m7469C2E36FBE7
 		L_11 = PointerEventData_get_pointerCurrentRaycast_m1C6B7D707CEE9C6574DD443289D90102EDC7A2C4_inline(L_10, NULL);
 		NullCheck(L_9);
 		PointerEventData_set_pointerCurrentRaycast_m52E1E9E89BACACFA6E8F105191654C7E24A98667_inline(L_9, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:585>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:585>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_12 = ___1_to;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_13 = ___0_from;
 		NullCheck(L_13);
@@ -31550,14 +31550,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_CopyFromTo_m7469C2E36FBE7
 		L_14 = PointerEventData_get_pointerEnter_m6CE76D5C0C36C4666CDDE348B57885C52D495A4B_inline(L_13, NULL);
 		NullCheck(L_12);
 		PointerEventData_set_pointerEnter_m2DA660C24CBDE9B83DF2B2D09D9AF0E94A770D17_inline(L_12, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:586>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:586>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_15 = ___1_to;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_16 = ___0_from;
 		NullCheck(L_16);
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_17 = L_16->___worldSpaceRay;
 		NullCheck(L_15);
 		L_15->___worldSpaceRay = L_17;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:587>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:587>
 		return;
 	}
 }
@@ -31565,7 +31565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_CopyFromTo_m7469C2E36FBE7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_CopyFromTo_m37C59AD69F91D8C3A407B94FC6D182F9B2F035C8 (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_from, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___1_to, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:596>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:596>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___1_to;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_1 = ___0_from;
 		NullCheck(L_1);
@@ -31573,7 +31573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_CopyFromTo_m37C59AD69F91D
 		L_2 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_1, NULL);
 		NullCheck(L_0);
 		PointerEventData_set_position_m66E8DFE693F550372E6B085C6E2F887FDB092FAA_inline(L_0, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:597>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:597>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_3 = ___1_to;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_4 = ___0_from;
 		NullCheck(L_4);
@@ -31581,7 +31581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_CopyFromTo_m37C59AD69F91D
 		L_5 = PointerEventData_get_delta_m7DC87C01EAE1D10282C37842ED215FDBFE2C1C5B_inline(L_4, NULL);
 		NullCheck(L_3);
 		PointerEventData_set_delta_mD200AF7CCAEAD92D947091902AF864CB4ACE0F1D_inline(L_3, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:598>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:598>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_6 = ___1_to;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_7 = ___0_from;
 		NullCheck(L_7);
@@ -31589,7 +31589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_CopyFromTo_m37C59AD69F91D
 		L_8 = PointerEventData_get_scrollDelta_m38C419C3E84811D17D1A42973AF7B3A457B316EA_inline(L_7, NULL);
 		NullCheck(L_6);
 		PointerEventData_set_scrollDelta_m58007CAE9A9B333B82C36B9E5431FBD926CB556C_inline(L_6, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:599>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:599>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_9 = ___1_to;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_10 = ___0_from;
 		NullCheck(L_10);
@@ -31597,7 +31597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_CopyFromTo_m37C59AD69F91D
 		L_11 = PointerEventData_get_pointerCurrentRaycast_m1C6B7D707CEE9C6574DD443289D90102EDC7A2C4_inline(L_10, NULL);
 		NullCheck(L_9);
 		PointerEventData_set_pointerCurrentRaycast_m52E1E9E89BACACFA6E8F105191654C7E24A98667_inline(L_9, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:600>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:600>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_12 = ___1_to;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_13 = ___0_from;
 		NullCheck(L_13);
@@ -31605,7 +31605,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_CopyFromTo_m37C59AD69F91D
 		L_14 = PointerEventData_get_pointerEnter_m6CE76D5C0C36C4666CDDE348B57885C52D495A4B_inline(L_13, NULL);
 		NullCheck(L_12);
 		PointerEventData_set_pointerEnter_m2DA660C24CBDE9B83DF2B2D09D9AF0E94A770D17_inline(L_12, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:601>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:601>
 		return;
 	}
 }
@@ -31621,7 +31621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_GetPointerData_m1D35FE2BE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:616>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:616>
 		Dictionary_2_t9422155976AA5669B953F2FA792954DC4DFD250B* L_0 = __this->___m_VRRayPointerData;
 		int32_t L_1 = ___0_id;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D** L_2 = ___1_data;
@@ -31635,10 +31635,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_GetPointerData_m1D35FE2BE
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:618>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:619>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:620>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:621>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:618>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:619>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:620>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:621>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D** L_5 = ___1_data;
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_6;
 		L_6 = BaseInputModule_get_eventSystem_m341B2378F61A58D5432906B9EE1E12265E2FAB33_inline(__this, NULL);
@@ -31650,20 +31650,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_GetPointerData_m1D35FE2BE
 		PointerEventData_set_pointerId_m5B5FF54AB1DE7BD4454022A7C0535C618049BD9B_inline(L_8, L_9, NULL);
 		*((RuntimeObject**)L_5) = (RuntimeObject*)L_8;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_5, (void*)(RuntimeObject*)L_8);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:623>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:623>
 		Dictionary_2_t9422155976AA5669B953F2FA792954DC4DFD250B* L_10 = __this->___m_VRRayPointerData;
 		int32_t L_11 = ___0_id;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D** L_12 = ___1_data;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_13 = *((OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D**)L_12);
 		NullCheck(L_10);
 		Dictionary_2_Add_m512E97E36FC083FBFAFE025842BE8237F6350ADA(L_10, L_11, L_13, Dictionary_2_Add_m512E97E36FC083FBFAFE025842BE8237F6350ADA_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:624>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:624>
 		return (bool)1;
 	}
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:627>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:627>
 		return (bool)0;
 	}
 }
@@ -31694,11 +31694,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ClearSelection_m8BB4DB17C
 	memset((&V_3), 0, sizeof(V_3));
 	OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* V_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:635>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:635>
 		BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* L_0;
 		L_0 = VirtualFuncInvoker0< BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* >::Invoke(19, __this);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:637>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:637>
 		Dictionary_2_t489B023479196B8FC9709A9F834FC38729BD9493* L_1 = ((PointerInputModule_tD71E11FA989C22D83883E120EAA4F05929907556*)__this)->___m_PointerData;
 		NullCheck(L_1);
 		ValueCollection_tE4A676F89CE73FFF8A0046F16CEAF380F9A9CA41* L_2;
@@ -31726,18 +31726,18 @@ FINALLY_0035:
 
 IL_001a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:637>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:637>
 				PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_4;
 				L_4 = Enumerator_get_Current_m8515E9D5662F47A89C296550439BBD4DA548AE6A_inline((&V_1), Enumerator_get_Current_m8515E9D5662F47A89C296550439BBD4DA548AE6A_RuntimeMethod_var);
 				V_2 = L_4;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:640>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:640>
 				PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_5 = V_2;
 				BaseInputModule_HandlePointerExitAndEnter_m0815F06EAF8F937916E0656D66A69844CB211298(__this, L_5, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, NULL);
 			}
 
 IL_002a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:637>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:637>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_mA415C7B94AC3728AFA7791318E9210FC5EEFAB58((&V_1), Enumerator_MoveNext_mA415C7B94AC3728AFA7791318E9210FC5EEFAB58_RuntimeMethod_var);
 				if (L_6)
@@ -31757,7 +31757,7 @@ IL_002a_1:
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:643>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:643>
 		Dictionary_2_t9422155976AA5669B953F2FA792954DC4DFD250B* L_7 = __this->___m_VRRayPointerData;
 		NullCheck(L_7);
 		ValueCollection_t7F9AC80C05B75661CEC6285A1325DAA197C47EBB* L_8;
@@ -31785,18 +31785,18 @@ FINALLY_0073:
 
 IL_0056_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:643>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:643>
 				OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_10;
 				L_10 = Enumerator_get_Current_mA8B955F9BDD498641D4406EF93DD9B4325F2D642_inline((&V_3), Enumerator_get_Current_mA8B955F9BDD498641D4406EF93DD9B4325F2D642_RuntimeMethod_var);
 				V_4 = L_10;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:646>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:646>
 				OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_11 = V_4;
 				BaseInputModule_HandlePointerExitAndEnter_m0815F06EAF8F937916E0656D66A69844CB211298(__this, L_11, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, NULL);
 			}
 
 IL_0068_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:643>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:643>
 				bool L_12;
 				L_12 = Enumerator_MoveNext_m66996C54FC3C3A499A738BD4A3E50CE3EAD5082B((&V_3), Enumerator_MoveNext_m66996C54FC3C3A499A738BD4A3E50CE3EAD5082B_RuntimeMethod_var);
 				if (L_12)
@@ -31816,17 +31816,17 @@ IL_0068_1:
 
 IL_0081:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:649>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:649>
 		Dictionary_2_t489B023479196B8FC9709A9F834FC38729BD9493* L_13 = ((PointerInputModule_tD71E11FA989C22D83883E120EAA4F05929907556*)__this)->___m_PointerData;
 		NullCheck(L_13);
 		Dictionary_2_Clear_mBB95A511CAA4D6BCF1D6EC54722BCA4DA4B37CF9(L_13, Dictionary_2_Clear_mBB95A511CAA4D6BCF1D6EC54722BCA4DA4B37CF9_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:650>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:650>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_14;
 		L_14 = BaseInputModule_get_eventSystem_m341B2378F61A58D5432906B9EE1E12265E2FAB33_inline(__this, NULL);
 		BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* L_15 = V_0;
 		NullCheck(L_14);
 		EventSystem_SetSelectedGameObject_m9675415B7B3FE13B35E2CCB220F0C8AF04ECA173(L_14, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:651>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:651>
 		return;
 	}
 }
@@ -31845,15 +31845,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:660>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:660>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)4);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:661>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:661>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = ___0_rectTransform;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = V_0;
 		NullCheck(L_1);
 		RectTransform_GetWorldCorners_m6E15303C3B065B2F65E0A7F0E0217695564C2E09(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:662>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:662>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = V_0;
 		NullCheck(L_3);
 		int32_t L_4 = 3;
@@ -31864,7 +31864,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_5, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:663>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:663>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_10 = V_0;
 		NullCheck(L_10);
 		int32_t L_11 = 1;
@@ -31876,12 +31876,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
 		L_16 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_12, L_15, NULL);
 		V_1 = L_16;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:664>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:664>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_17 = ___0_rectTransform;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_18 = V_0;
 		NullCheck(L_17);
 		RectTransform_GetWorldCorners_m6E15303C3B065B2F65E0A7F0E0217695564C2E09(L_17, L_18, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:665>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:665>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
 		L_20 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_9, L_19, NULL);
@@ -31934,23 +31934,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 V_16;
 	memset((&V_16), 0, sizeof(V_16));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:679>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:679>
 		RuntimeObject* L_0 = ___0_inputSource;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = InterfaceFuncInvoker0< Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* >::Invoke(2, InputSource_t2943E0171227A7DC3E03D55D1AD43C3AD26BF9F6_il2cpp_TypeInfo_var, L_0);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:683>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:683>
 		int32_t L_2 = ___1_id;
 		bool L_3;
 		L_3 = OVRInputModule_GetPointerData_m1D35FE2BEC6DF0322E533EE623C57D5D476C19D0(__this, L_2, (&V_1), (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:684>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:684>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_4 = V_1;
 		NullCheck(L_4);
 		VirtualActionInvoker0::Invoke(4, L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:686>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:686>
 		il2cpp_codegen_initobj((&V_2), sizeof(OVRInputRayData_t508141B5959DF4977AF335BF0A6E5DDA77189626));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:688>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:688>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -31961,7 +31961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:691>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:691>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_7 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = V_0;
 		NullCheck(L_8);
@@ -31976,46 +31976,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 		Ray__ctor_mE298992FD10A3894C38373198385F345C58BD64C_inline((&L_12), L_9, L_11, NULL);
 		NullCheck(L_7);
 		L_7->___worldSpaceRay = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:694>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:694>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_13 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
 		L_14 = OVRInputModule_GetExtraScrollDelta_mE441287D8A96D1E47BF5B28F8E61CF9CEA888AC5(__this, NULL);
 		NullCheck(L_13);
 		PointerEventData_set_scrollDelta_m58007CAE9A9B333B82C36B9E5431FBD926CB556C_inline(L_13, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:697>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:697>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_15 = V_1;
 		NullCheck(L_15);
 		PointerEventData_set_button_m77DA0291BA43CB813FE83752D826AF3982C81601_inline(L_15, 0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:698>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:698>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_16 = V_1;
 		NullCheck(L_16);
 		PointerEventData_set_useDragThreshold_m63FE2034E4B240F1A0A902B1EB893B3DBA2D848B_inline(L_16, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:700>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:700>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_17;
 		L_17 = BaseInputModule_get_eventSystem_m341B2378F61A58D5432906B9EE1E12265E2FAB33_inline(__this, NULL);
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_18 = V_1;
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_19 = ((BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1*)__this)->___m_RaycastResultCache;
 		NullCheck(L_17);
 		EventSystem_RaycastAll_mE93CC75909438D20D17A0EF98348A064FBFEA528(L_17, L_18, L_19, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:701>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:701>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_20 = ((BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1*)__this)->___m_RaycastResultCache;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_21;
 		L_21 = BaseInputModule_FindFirstRaycast_mE07BDA14A7C9A8E3DFBFDAF449E5896597C9F6F5(L_20, NULL);
 		V_8 = L_21;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:702>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:702>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_22 = V_1;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_23 = V_8;
 		NullCheck(L_22);
 		PointerEventData_set_pointerCurrentRaycast_m52E1E9E89BACACFA6E8F105191654C7E24A98667_inline(L_22, L_23, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:703>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:703>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_24 = ((BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1*)__this)->___m_RaycastResultCache;
 		NullCheck(L_24);
 		List_1_Clear_m88ECE219176F771E4C5F913CC01FFCF91E93E3D0_inline(L_24, List_1_Clear_m88ECE219176F771E4C5F913CC01FFCF91E93E3D0_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:704>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:704>
 		bool L_25;
 		L_25 = RaycastResult_get_isValid_m69957B97C041A9E3FAF4ECA82BB8099C9FA171CE((&V_8), NULL);
 		(&V_2)->___IsOverCanvas = L_25;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:705>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:705>
 		OVRInputRayData_t508141B5959DF4977AF335BF0A6E5DDA77189626 L_26 = V_2;
 		bool L_27 = L_26.___IsOverCanvas;
 		if (!L_27)
@@ -32024,15 +32024,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:707>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:707>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_28 = V_8;
 		float L_29 = L_28.___distance;
 		(&V_2)->___DistanceToCanvas = L_29;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:708>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:708>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_30 = V_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = L_30.___worldPosition;
 		(&V_2)->___WorldPosition = L_31;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:709>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:709>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_32 = V_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = L_32.___worldNormal;
 		(&V_2)->___WorldNormal = L_33;
@@ -32040,7 +32040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 
 IL_00cf:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:712>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:712>
 		OVRCursor_tC9427BFBD60354F4A80BD9129257DE67BE597E9A* L_34 = __this->___m_Cursor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_35;
@@ -32051,7 +32051,7 @@ IL_00cf:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:713>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:713>
 		OVRCursor_tC9427BFBD60354F4A80BD9129257DE67BE597E9A* L_36 = __this->___m_Cursor;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37 = V_0;
 		NullCheck(L_36);
@@ -32060,11 +32060,11 @@ IL_00cf:
 
 IL_00e8:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:715>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:715>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_38 = V_8;
 		BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* L_39 = L_38.___module;
 		V_9 = ((OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182*)IsInstClass((RuntimeObject*)L_39, OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:717>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:717>
 		OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182* L_40 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_41;
@@ -32075,7 +32075,7 @@ IL_00e8:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:722>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:722>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_42 = V_1;
 		OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182* L_43 = V_9;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_44 = V_8;
@@ -32084,7 +32084,7 @@ IL_00e8:
 		L_45 = OVRRaycaster_GetScreenPosition_mE54FD696C615E1CFF7E7AE19F0F9B95AB084617A(L_43, L_44, NULL);
 		NullCheck(L_42);
 		PointerEventData_set_position_m66E8DFE693F550372E6B085C6E2F887FDB092FAA_inline(L_42, L_45, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:725>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:725>
 		OVRCursor_tC9427BFBD60354F4A80BD9129257DE67BE597E9A* L_46 = __this->___m_Cursor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_47;
@@ -32106,17 +32106,17 @@ IL_00e8:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:727>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:727>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_50 = V_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51 = L_50.___worldPosition;
 		V_12 = L_51;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:728>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:728>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_52 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53;
 		L_53 = OVRInputModule_GetRectTransformNormal_mF03B37932F37A309381C3EBF51CAA0FE7C1BF348(L_52, NULL);
 		V_13 = L_53;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:729>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:729>
 		OVRCursor_tC9427BFBD60354F4A80BD9129257DE67BE597E9A* L_54 = __this->___m_Cursor;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_55 = V_0;
 		NullCheck(L_55);
@@ -32130,11 +32130,11 @@ IL_00e8:
 
 IL_0152:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:734>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:734>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_59 = V_8;
 		BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* L_60 = L_59.___module;
 		V_10 = ((OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7*)IsInstClass((RuntimeObject*)L_60, OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:735>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:735>
 		OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7* L_61 = V_10;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_62;
@@ -32145,11 +32145,11 @@ IL_0152:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:737>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:737>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_63 = V_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_64 = L_63.___worldPosition;
 		V_14 = L_64;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:739>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:739>
 		bool L_65 = __this->___performSphereCastForGazepointer;
 		if (!L_65)
 		{
@@ -32157,18 +32157,18 @@ IL_0152:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:743>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:743>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_66 = (List_1_t8292C421BBB00D7661DC07462822936152BAB446*)il2cpp_codegen_object_new(List_1_t8292C421BBB00D7661DC07462822936152BAB446_il2cpp_TypeInfo_var);
 		List_1__ctor_m95532062701811F50E0B0270E05E27297B2B3A7B(L_66, List_1__ctor_m95532062701811F50E0B0270E05E27297B2B3A7B_RuntimeMethod_var);
 		V_15 = L_66;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:744>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:744>
 		OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7* L_67 = V_10;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_68 = V_1;
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_69 = V_15;
 		float L_70 = __this->___m_SpherecastRadius;
 		NullCheck(L_67);
 		OVRPhysicsRaycaster_Spherecast_m5C0B2A941C9D1F9C92A2AD1026510DC5D64E9945(L_67, L_68, L_69, L_70, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:745>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:745>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_71 = V_15;
 		NullCheck(L_71);
 		int32_t L_72;
@@ -32192,14 +32192,14 @@ IL_0152:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:747>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:747>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_78 = V_15;
 		NullCheck(L_78);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_79;
 		L_79 = List_1_get_Item_mD1048CD848E8C4A91EE63478805C4EF923CA82CA(L_78, 0, List_1_get_Item_mD1048CD848E8C4A91EE63478805C4EF923CA82CA_RuntimeMethod_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_80 = L_79.___worldPosition;
 		V_14 = L_80;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:748>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:748>
 		bool* L_81 = (bool*)(&(&V_2)->___IsOverCanvas);
 		bool* L_82 = L_81;
 		int32_t L_83 = *((uint8_t*)L_82);
@@ -32211,21 +32211,21 @@ IL_0152:
 		bool L_86;
 		L_86 = RaycastResult_get_isValid_m69957B97C041A9E3FAF4ECA82BB8099C9FA171CE((&V_16), NULL);
 		*((int8_t*)L_82) = (int8_t)((int32_t)(L_83|(int32_t)L_86));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:749>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:749>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_87 = V_15;
 		NullCheck(L_87);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_88;
 		L_88 = List_1_get_Item_mD1048CD848E8C4A91EE63478805C4EF923CA82CA(L_87, 0, List_1_get_Item_mD1048CD848E8C4A91EE63478805C4EF923CA82CA_RuntimeMethod_var);
 		float L_89 = L_88.___distance;
 		(&V_2)->___DistanceToCanvas = L_89;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:750>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:750>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_90 = V_15;
 		NullCheck(L_90);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_91;
 		L_91 = List_1_get_Item_mD1048CD848E8C4A91EE63478805C4EF923CA82CA(L_90, 0, List_1_get_Item_mD1048CD848E8C4A91EE63478805C4EF923CA82CA_RuntimeMethod_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92 = L_91.___worldPosition;
 		(&V_2)->___WorldPosition = L_92;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:751>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:751>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_93 = V_15;
 		NullCheck(L_93);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_94;
@@ -32236,7 +32236,7 @@ IL_0152:
 
 IL_021e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:755>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:755>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_96 = V_1;
 		OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7* L_97 = V_10;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_98 = V_14;
@@ -32249,43 +32249,43 @@ IL_021e:
 
 IL_022d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:761>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:761>
 		bool L_100;
 		L_100 = OVRInputModule_GetPointerData_m1D35FE2BEC6DF0322E533EE623C57D5D476C19D0(__this, ((int32_t)-2), (&V_3), (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:762>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:762>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_101 = V_1;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_102 = V_3;
 		OVRInputModule_CopyFromTo_m7469C2E36FBE72A7109BC094DC3B19651698A691(__this, L_101, L_102, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:763>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:763>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_103 = V_3;
 		NullCheck(L_103);
 		PointerEventData_set_button_m77DA0291BA43CB813FE83752D826AF3982C81601_inline(L_103, 1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:766>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:766>
 		bool L_104;
 		L_104 = OVRInputModule_GetPointerData_m1D35FE2BEC6DF0322E533EE623C57D5D476C19D0(__this, ((int32_t)-3), (&V_4), (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:767>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:767>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_105 = V_1;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_106 = V_4;
 		OVRInputModule_CopyFromTo_m7469C2E36FBE72A7109BC094DC3B19651698A691(__this, L_105, L_106, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:768>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:768>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_107 = V_4;
 		NullCheck(L_107);
 		PointerEventData_set_button_m77DA0291BA43CB813FE83752D826AF3982C81601_inline(L_107, 2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:770>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:770>
 		V_5 = 3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:771>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:771>
 		RuntimeObject* L_108 = ___0_inputSource;
 		NullCheck(L_108);
 		bool L_109;
 		L_109 = InterfaceFuncInvoker0< bool >::Invoke(0, InputSource_t2943E0171227A7DC3E03D55D1AD43C3AD26BF9F6_il2cpp_TypeInfo_var, L_108);
 		V_6 = L_109;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:772>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:772>
 		RuntimeObject* L_110 = ___0_inputSource;
 		NullCheck(L_110);
 		bool L_111;
 		L_111 = InterfaceFuncInvoker0< bool >::Invoke(1, InputSource_t2943E0171227A7DC3E03D55D1AD43C3AD26BF9F6_il2cpp_TypeInfo_var, L_110);
 		V_7 = L_111;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:773>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:773>
 		bool L_112 = V_6;
 		if (!L_112)
 		{
@@ -32293,7 +32293,7 @@ IL_022d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:775>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:775>
 		bool L_113 = V_7;
 		if (!L_113)
 		{
@@ -32301,21 +32301,21 @@ IL_022d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:777>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:777>
 		V_5 = 2;
 		goto IL_0291;
 	}
 
 IL_0285:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:781>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:781>
 		V_5 = 0;
 		goto IL_0291;
 	}
 
 IL_028a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:786>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:786>
 		bool L_114 = V_7;
 		if (!L_114)
 		{
@@ -32323,40 +32323,40 @@ IL_028a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:788>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:788>
 		V_5 = 1;
 	}
 
 IL_0291:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:792>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:792>
 		bool L_115 = V_6;
 		(&V_2)->___IsActive = L_115;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:794>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:794>
 		RuntimeObject* L_116 = ___0_inputSource;
 		OVRInputRayData_t508141B5959DF4977AF335BF0A6E5DDA77189626 L_117 = V_2;
 		NullCheck(L_116);
 		InterfaceActionInvoker1< OVRInputRayData_t508141B5959DF4977AF335BF0A6E5DDA77189626 >::Invoke(5, InputSource_t2943E0171227A7DC3E03D55D1AD43C3AD26BF9F6_il2cpp_TypeInfo_var, L_116, L_117);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:796>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:797>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:796>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:797>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_118 = __this->___m_MouseState;
 		int32_t L_119 = V_5;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_120 = V_1;
 		NullCheck(L_118);
 		MouseState_SetButtonState_m72DA468C8D10E76923FA5F993BBDBCFFF57E4326(L_118, 0, L_119, L_120, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:798>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:799>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:798>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:799>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_121 = __this->___m_MouseState;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_122 = V_3;
 		NullCheck(L_121);
 		MouseState_SetButtonState_m72DA468C8D10E76923FA5F993BBDBCFFF57E4326(L_121, 1, 3, L_122, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:800>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:801>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:800>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:801>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_123 = __this->___m_MouseState;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_124 = V_4;
 		NullCheck(L_123);
 		MouseState_SetButtonState_m72DA468C8D10E76923FA5F993BBDBCFFF57E4326(L_123, 2, 3, L_124, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:802>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:802>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_125 = __this->___m_MouseState;
 		return L_125;
 	}
@@ -32395,14 +32395,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 	memset((&V_9), 0, sizeof(V_9));
 	List_1_t8292C421BBB00D7661DC07462822936152BAB446* V_10 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:813>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:813>
 		bool L_0;
 		L_0 = OVRInputModule_GetPointerData_m1D35FE2BEC6DF0322E533EE623C57D5D476C19D0(__this, (-1), (&V_0), (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:814>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:814>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_1 = V_0;
 		NullCheck(L_1);
 		VirtualActionInvoker0::Invoke(4, L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:817>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:817>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_2 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = ___0_rayOrigin;
 		NullCheck(L_3);
@@ -32417,42 +32417,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 		Ray__ctor_mE298992FD10A3894C38373198385F345C58BD64C_inline((&L_7), L_4, L_6, NULL);
 		NullCheck(L_2);
 		L_2->___worldSpaceRay = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:820>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:820>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_8 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
 		L_9 = OVRInputModule_GetExtraScrollDelta_mE441287D8A96D1E47BF5B28F8E61CF9CEA888AC5(__this, NULL);
 		NullCheck(L_8);
 		PointerEventData_set_scrollDelta_m58007CAE9A9B333B82C36B9E5431FBD926CB556C_inline(L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:823>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:823>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_10 = V_0;
 		NullCheck(L_10);
 		PointerEventData_set_button_m77DA0291BA43CB813FE83752D826AF3982C81601_inline(L_10, 0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:824>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:824>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_11 = V_0;
 		NullCheck(L_11);
 		PointerEventData_set_useDragThreshold_m63FE2034E4B240F1A0A902B1EB893B3DBA2D848B_inline(L_11, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:826>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:826>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_12;
 		L_12 = BaseInputModule_get_eventSystem_m341B2378F61A58D5432906B9EE1E12265E2FAB33_inline(__this, NULL);
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_13 = V_0;
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_14 = ((BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1*)__this)->___m_RaycastResultCache;
 		NullCheck(L_12);
 		EventSystem_RaycastAll_mE93CC75909438D20D17A0EF98348A064FBFEA528(L_12, L_13, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:827>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:827>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_15 = ((BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1*)__this)->___m_RaycastResultCache;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_16;
 		L_16 = BaseInputModule_FindFirstRaycast_mE07BDA14A7C9A8E3DFBFDAF449E5896597C9F6F5(L_15, NULL);
 		V_1 = L_16;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:828>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:828>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_17 = V_0;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_18 = V_1;
 		NullCheck(L_17);
 		PointerEventData_set_pointerCurrentRaycast_m52E1E9E89BACACFA6E8F105191654C7E24A98667_inline(L_17, L_18, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:829>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:829>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_19 = ((BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1*)__this)->___m_RaycastResultCache;
 		NullCheck(L_19);
 		List_1_Clear_m88ECE219176F771E4C5F913CC01FFCF91E93E3D0_inline(L_19, List_1_Clear_m88ECE219176F771E4C5F913CC01FFCF91E93E3D0_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:831>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:831>
 		OVRCursor_tC9427BFBD60354F4A80BD9129257DE67BE597E9A* L_20 = __this->___m_Cursor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -32463,7 +32463,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:832>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:832>
 		OVRCursor_tC9427BFBD60354F4A80BD9129257DE67BE597E9A* L_22 = __this->___m_Cursor;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = ___0_rayOrigin;
 		NullCheck(L_22);
@@ -32472,11 +32472,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 
 IL_008b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:834>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:834>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_24 = V_1;
 		BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* L_25 = L_24.___module;
 		V_2 = ((OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182*)IsInstClass((RuntimeObject*)L_25, OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:836>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:836>
 		OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182* L_26 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_27;
@@ -32487,7 +32487,7 @@ IL_008b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:841>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:841>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_28 = V_0;
 		OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182* L_29 = V_2;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_30 = V_1;
@@ -32496,7 +32496,7 @@ IL_008b:
 		L_31 = OVRRaycaster_GetScreenPosition_mE54FD696C615E1CFF7E7AE19F0F9B95AB084617A(L_29, L_30, NULL);
 		NullCheck(L_28);
 		PointerEventData_set_position_m66E8DFE693F550372E6B085C6E2F887FDB092FAA_inline(L_28, L_31, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:844>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:844>
 		OVRCursor_tC9427BFBD60354F4A80BD9129257DE67BE597E9A* L_32 = __this->___m_Cursor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_33;
@@ -32518,17 +32518,17 @@ IL_008b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:847>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:847>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_36 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = L_36.___worldPosition;
 		V_7 = L_37;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:848>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:848>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_38 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
 		L_39 = OVRInputModule_GetRectTransformNormal_mF03B37932F37A309381C3EBF51CAA0FE7C1BF348(L_38, NULL);
 		V_8 = L_39;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:849>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:849>
 		OVRCursor_tC9427BFBD60354F4A80BD9129257DE67BE597E9A* L_40 = __this->___m_Cursor;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_41 = ___0_rayOrigin;
 		NullCheck(L_41);
@@ -32542,11 +32542,11 @@ IL_008b:
 
 IL_00ef:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:854>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:854>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_45 = V_1;
 		BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* L_46 = L_45.___module;
 		V_3 = ((OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7*)IsInstClass((RuntimeObject*)L_46, OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:855>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:855>
 		OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7* L_47 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_48;
@@ -32557,11 +32557,11 @@ IL_00ef:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:857>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:857>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_49 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = L_49.___worldPosition;
 		V_9 = L_50;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:859>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:859>
 		bool L_51 = __this->___performSphereCastForGazepointer;
 		if (!L_51)
 		{
@@ -32569,18 +32569,18 @@ IL_00ef:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:863>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:863>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_52 = (List_1_t8292C421BBB00D7661DC07462822936152BAB446*)il2cpp_codegen_object_new(List_1_t8292C421BBB00D7661DC07462822936152BAB446_il2cpp_TypeInfo_var);
 		List_1__ctor_m95532062701811F50E0B0270E05E27297B2B3A7B(L_52, List_1__ctor_m95532062701811F50E0B0270E05E27297B2B3A7B_RuntimeMethod_var);
 		V_10 = L_52;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:864>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:864>
 		OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7* L_53 = V_3;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_54 = V_0;
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_55 = V_10;
 		float L_56 = __this->___m_SpherecastRadius;
 		NullCheck(L_53);
 		OVRPhysicsRaycaster_Spherecast_m5C0B2A941C9D1F9C92A2AD1026510DC5D64E9945(L_53, L_54, L_55, L_56, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:865>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:865>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_57 = V_10;
 		NullCheck(L_57);
 		int32_t L_58;
@@ -32604,7 +32604,7 @@ IL_00ef:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:867>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:867>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_64 = V_10;
 		NullCheck(L_64);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_65;
@@ -32615,7 +32615,7 @@ IL_00ef:
 
 IL_015a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:871>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:871>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_67 = V_0;
 		OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7* L_68 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69 = V_9;
@@ -32624,7 +32624,7 @@ IL_015a:
 		L_70 = OVRPhysicsRaycaster_GetScreenPos_mAD6CC9D4FC2F01C2CBFA281660E8BC7B3C3C0A84(L_68, L_69, NULL);
 		NullCheck(L_67);
 		PointerEventData_set_position_m66E8DFE693F550372E6B085C6E2F887FDB092FAA_inline(L_67, L_70, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:873>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:873>
 		OVRCursor_tC9427BFBD60354F4A80BD9129257DE67BE597E9A* L_71 = __this->___m_Cursor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_72;
@@ -32635,7 +32635,7 @@ IL_015a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:874>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:874>
 		OVRCursor_tC9427BFBD60354F4A80BD9129257DE67BE597E9A* L_73 = __this->___m_Cursor;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_74 = ___0_rayOrigin;
 		NullCheck(L_74);
@@ -32650,49 +32650,49 @@ IL_015a:
 
 IL_018e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:881>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:881>
 		bool L_79;
 		L_79 = OVRInputModule_GetPointerData_m1D35FE2BEC6DF0322E533EE623C57D5D476C19D0(__this, ((int32_t)-2), (&V_4), (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:882>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:882>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_80 = V_0;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_81 = V_4;
 		OVRInputModule_CopyFromTo_m7469C2E36FBE72A7109BC094DC3B19651698A691(__this, L_80, L_81, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:883>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:883>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_82 = V_4;
 		NullCheck(L_82);
 		PointerEventData_set_button_m77DA0291BA43CB813FE83752D826AF3982C81601_inline(L_82, 1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:886>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:886>
 		bool L_83;
 		L_83 = OVRInputModule_GetPointerData_m1D35FE2BEC6DF0322E533EE623C57D5D476C19D0(__this, ((int32_t)-3), (&V_5), (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:887>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:887>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_84 = V_0;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_85 = V_5;
 		OVRInputModule_CopyFromTo_m7469C2E36FBE72A7109BC094DC3B19651698A691(__this, L_84, L_85, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:888>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:888>
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_86 = V_5;
 		NullCheck(L_86);
 		PointerEventData_set_button_m77DA0291BA43CB813FE83752D826AF3982C81601_inline(L_86, 2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:891>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:892>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:891>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:892>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_87 = __this->___m_MouseState;
 		int32_t L_88;
 		L_88 = VirtualFuncInvoker0< int32_t >::Invoke(35, __this);
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_89 = V_0;
 		NullCheck(L_87);
 		MouseState_SetButtonState_m72DA468C8D10E76923FA5F993BBDBCFFF57E4326(L_87, 0, L_88, L_89, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:893>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:894>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:893>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:894>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_90 = __this->___m_MouseState;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_91 = V_4;
 		NullCheck(L_90);
 		MouseState_SetButtonState_m72DA468C8D10E76923FA5F993BBDBCFFF57E4326(L_90, 1, 3, L_91, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:895>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:896>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:895>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:896>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_92 = __this->___m_MouseState;
 		OVRPointerEventData_t16F6545720F0956B5AAA7A38FA81CF02E7F37B6D* L_93 = V_5;
 		NullCheck(L_92);
 		MouseState_SetButtonState_m72DA468C8D10E76923FA5F993BBDBCFFF57E4326(L_92, 2, 3, L_93, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:897>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:897>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_94 = __this->___m_MouseState;
 		return L_94;
 	}
@@ -32717,24 +32717,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:908>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:908>
 		bool L_0;
 		L_0 = PointerInputModule_GetPointerData_m8D1C52EE44136560312932072786A2B5AA2C8BE5(__this, (-1), (&V_0), (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:909>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:909>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_1 = V_0;
 		NullCheck(L_1);
 		VirtualActionInvoker0::Invoke(4, L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:913>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:913>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_2 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_2);
 		PointerEventData_set_position_m66E8DFE693F550372E6B085C6E2F887FDB092FAA_inline(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:917>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:917>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_4 = V_0;
 		NullCheck(L_4);
 		PointerEventData_set_button_m77DA0291BA43CB813FE83752D826AF3982C81601_inline(L_4, 0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:919>
 		OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182* L_5 = __this->___activeGraphicRaycaster;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -32745,31 +32745,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:922>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:922>
 		OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182* L_7 = __this->___activeGraphicRaycaster;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_8 = V_0;
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_9 = ((BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1*)__this)->___m_RaycastResultCache;
 		NullCheck(L_7);
 		OVRRaycaster_RaycastPointer_m5ECFC6B6EF2F57D5DE2C07AD91CEB698CE29E4BB(L_7, L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:923>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:923>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_10 = ((BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1*)__this)->___m_RaycastResultCache;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_11;
 		L_11 = BaseInputModule_FindFirstRaycast_mE07BDA14A7C9A8E3DFBFDAF449E5896597C9F6F5(L_10, NULL);
 		V_3 = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:924>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_12 = V_0;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_13 = V_3;
 		NullCheck(L_12);
 		PointerEventData_set_pointerCurrentRaycast_m52E1E9E89BACACFA6E8F105191654C7E24A98667_inline(L_12, L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:925>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:925>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_14 = ((BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1*)__this)->___m_RaycastResultCache;
 		NullCheck(L_14);
 		List_1_Clear_m88ECE219176F771E4C5F913CC01FFCF91E93E3D0_inline(L_14, List_1_Clear_m88ECE219176F771E4C5F913CC01FFCF91E93E3D0_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:927>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:927>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_15 = V_3;
 		BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* L_16 = L_15.___module;
 		V_4 = ((OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182*)IsInstClass((RuntimeObject*)L_16, OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:928>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:928>
 		OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182* L_17 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -32780,14 +32780,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:933>
 		OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182* L_19 = V_4;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_20 = V_3;
 		NullCheck(L_19);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21;
 		L_21 = OVRRaycaster_GetScreenPosition_mE54FD696C615E1CFF7E7AE19F0F9B95AB084617A(L_19, L_20, NULL);
 		V_5 = L_21;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:935>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_22 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23 = V_5;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_24 = V_0;
@@ -32798,7 +32798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 		L_26 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_23, L_25, NULL);
 		NullCheck(L_22);
 		PointerEventData_set_delta_mD200AF7CCAEAD92D947091902AF864CB4ACE0F1D_inline(L_22, L_26, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:936>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:936>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_27 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28 = V_5;
 		NullCheck(L_27);
@@ -32807,29 +32807,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseState_tCCE70861DE1EEECF949AFE8E2A922541D
 
 IL_009b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:942>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:942>
 		bool L_29;
 		L_29 = PointerInputModule_GetPointerData_m8D1C52EE44136560312932072786A2B5AA2C8BE5(__this, ((int32_t)-2), (&V_1), (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:943>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:943>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_30 = V_0;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_31 = V_1;
 		OVRInputModule_CopyFromTo_m37C59AD69F91D8C3A407B94FC6D182F9B2F035C8(__this, L_30, L_31, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:944>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:944>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_32 = V_1;
 		NullCheck(L_32);
 		PointerEventData_set_button_m77DA0291BA43CB813FE83752D826AF3982C81601_inline(L_32, 1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:947>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:947>
 		bool L_33;
 		L_33 = PointerInputModule_GetPointerData_m8D1C52EE44136560312932072786A2B5AA2C8BE5(__this, ((int32_t)-3), (&V_2), (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:948>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:948>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_34 = V_0;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_35 = V_2;
 		OVRInputModule_CopyFromTo_m37C59AD69F91D8C3A407B94FC6D182F9B2F035C8(__this, L_34, L_35, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:949>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:949>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_36 = V_2;
 		NullCheck(L_36);
 		PointerEventData_set_button_m77DA0291BA43CB813FE83752D826AF3982C81601_inline(L_36, 2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:956>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:956>
 		MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* L_37 = __this->___m_MouseState;
 		return L_37;
 	}
@@ -32846,7 +32846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_ShouldStartDrag_mCF231D4D
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:968>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:968>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___0_pointerEvent;
 		NullCheck(L_0);
 		bool L_1;
@@ -32857,13 +32857,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_ShouldStartDrag_mCF231D4D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:969>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:969>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:971>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:971>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_2 = ___0_pointerEvent;
 		bool L_3;
 		L_3 = PointerEventDataExtension_IsVRPointer_m630294B1887266CFC4779146B4D066B6EBF4DCD5(L_2, NULL);
@@ -32873,8 +32873,8 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:974>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:975>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:974>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:975>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_4 = ___0_pointerEvent;
 		NullCheck(L_4);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5;
@@ -32903,7 +32903,7 @@ IL_000a:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:987>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:987>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_14 = ___0_pointerEvent;
 		NullCheck(L_14);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_15;
@@ -32915,7 +32915,7 @@ IL_0049:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_16, NULL);
 		V_1 = L_17;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:988>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:988>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_18 = ___0_pointerEvent;
 		NullCheck(L_18);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_19;
@@ -32927,7 +32927,7 @@ IL_0049:
 		V_3 = L_22;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
 		L_23 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_3), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:989>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:989>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_24 = ___0_pointerEvent;
 		NullCheck(L_24);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_25;
@@ -32940,7 +32940,7 @@ IL_0049:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
 		L_29 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_3), NULL);
 		V_2 = L_29;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:990>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:990>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = V_2;
 		float L_31;
 		L_31 = Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline(L_23, L_30, NULL);
@@ -32954,7 +32954,7 @@ IL_0049:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_IsPointerMoving_m5D57E25B238B95FDD5BE45DA3A377529345FD186 (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_pointerEvent, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1007>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___0_pointerEvent;
 		bool L_1;
 		L_1 = PointerEventDataExtension_IsVRPointer_m630294B1887266CFC4779146B4D066B6EBF4DCD5(L_0, NULL);
@@ -32964,13 +32964,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputModule_IsPointerMoving_m5D57E25B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1008>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1010>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1010>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_2 = ___0_pointerEvent;
 		NullCheck(L_2);
 		bool L_3;
@@ -32982,7 +32982,7 @@ IL_000a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 OVRInputModule_SwipeAdjustedPosition_mA47A3CED9DE48B6338F6DF0D0D43245705962EEC (OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_originalPosition, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___1_pointerEvent, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1027>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1027>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_originalPosition;
 		return L_0;
 	}
@@ -33005,21 +33005,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessDrag_m2782747DF340
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1039>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1039>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___0_pointerEvent;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1040>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1040>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_2 = ___0_pointerEvent;
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = OVRInputModule_IsPointerMoving_m5D57E25B238B95FDD5BE45DA3A377529345FD186(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1041>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1042>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1043>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1041>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1042>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1043>
 		bool L_4 = V_1;
 		if (!L_4)
 		{
@@ -33059,7 +33059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessDrag_m2782747DF340
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1045>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1045>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_12 = ___0_pointerEvent;
 		bool L_13;
 		L_13 = PointerEventDataExtension_IsVRPointer_m630294B1887266CFC4779146B4D066B6EBF4DCD5(L_12, NULL);
@@ -33069,7 +33069,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessDrag_m2782747DF340
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1049>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1049>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_14 = ___0_pointerEvent;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = V_0;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_16 = ___0_pointerEvent;
@@ -33081,7 +33081,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_ProcessDrag_m2782747DF340
 
 IL_0046:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1052>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1052>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_18 = ___0_pointerEvent;
 		NullCheck(L_18);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19;
@@ -33092,7 +33092,7 @@ IL_0046:
 		L_21 = ExecuteEvents_get_beginDragHandler_mB0BEAC09E4A8F31438B07FE68A5BF7267FF8C2FC_inline(NULL);
 		bool L_22;
 		L_22 = ExecuteEvents_Execute_TisIBeginDragHandler_t0E0386CCAB531BD8291D12476D40D19AA98ED7EB_m1543843C77436B385445DCDE0E472112C8E40F87(L_19, L_20, L_21, ExecuteEvents_Execute_TisIBeginDragHandler_t0E0386CCAB531BD8291D12476D40D19AA98ED7EB_m1543843C77436B385445DCDE0E472112C8E40F87_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1053>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1053>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_23 = ___0_pointerEvent;
 		NullCheck(L_23);
 		PointerEventData_set_dragging_m43982B3F95F05986F40A736914CFBC45D2A9BB8E_inline(L_23, (bool)1, NULL);
@@ -33100,7 +33100,7 @@ IL_0046:
 
 IL_005f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1057>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1057>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_24 = ___0_pointerEvent;
 		NullCheck(L_24);
 		bool L_25;
@@ -33125,7 +33125,7 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1059>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1059>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_30 = ___0_pointerEvent;
 		bool L_31;
 		L_31 = PointerEventDataExtension_IsVRPointer_m630294B1887266CFC4779146B4D066B6EBF4DCD5(L_30, NULL);
@@ -33135,7 +33135,7 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1061>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1061>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_32 = ___0_pointerEvent;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33 = V_0;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_34 = ___0_pointerEvent;
@@ -33147,7 +33147,7 @@ IL_005f:
 
 IL_008d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1066>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1066>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_36 = ___0_pointerEvent;
 		NullCheck(L_36);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37;
@@ -33165,7 +33165,7 @@ IL_008d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1068>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1068>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_41 = ___0_pointerEvent;
 		NullCheck(L_41);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_42;
@@ -33176,15 +33176,15 @@ IL_008d:
 		L_44 = ExecuteEvents_get_pointerUpHandler_m51B83B4AD7498D6F7A2CBD5F2331E91A37AE4CF2_inline(NULL);
 		bool L_45;
 		L_45 = ExecuteEvents_Execute_TisIPointerUpHandler_tB2D4D0ABEAFF77BE8D0159D638D85E1AF7BAF210_mBB70745D5D17BF6402CABEFF0F52911F88C197A6(L_42, L_43, L_44, ExecuteEvents_Execute_TisIPointerUpHandler_tB2D4D0ABEAFF77BE8D0159D638D85E1AF7BAF210_mBB70745D5D17BF6402CABEFF0F52911F88C197A6_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1070>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1070>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_46 = ___0_pointerEvent;
 		NullCheck(L_46);
 		PointerEventData_set_eligibleForClick_m360125CB3E348F3CF64C39F163467A842E479C21_inline(L_46, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1071>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1071>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_47 = ___0_pointerEvent;
 		NullCheck(L_47);
 		PointerEventData_set_pointerPress_m51241AAA6E5F87ADEBBB8DB7D4452CE45200BEE8(L_47, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1072>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1072>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_48 = ___0_pointerEvent;
 		NullCheck(L_48);
 		PointerEventData_set_rawPointerPress_mEEC4E3C7CD00F1DDCD3DA98DA5837E71BB8455E3_inline(L_48, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, NULL);
@@ -33192,7 +33192,7 @@ IL_008d:
 
 IL_00c7:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1075>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1075>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_49 = ___0_pointerEvent;
 		NullCheck(L_49);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_50;
@@ -33207,7 +33207,7 @@ IL_00c7:
 
 IL_00d9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1077>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1077>
 		return;
 	}
 }
@@ -33223,18 +33223,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRInputModule_GetGazeButtonState_mAF
 	bool V_0 = false;
 	bool V_1 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1095>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1095>
 		int32_t L_0 = __this->___joyPadClickButton;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = OVRInput_GetDown_mEC4F71AEC93D3AF1A041934CA4C61680C6DB9AC7(L_0, ((int32_t)-2147483648LL), NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1096>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1096>
 		int32_t L_2 = __this->___joyPadClickButton;
 		bool L_3;
 		L_3 = OVRInput_GetUp_m66B13613FF16CBAB8B0A77A5ADCFD1A3A68F3898(L_2, ((int32_t)-2147483648LL), NULL);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1099>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1099>
 		bool L_4 = V_0;
 		bool L_5 = V_1;
 		if (!((int32_t)((int32_t)L_4&(int32_t)L_5)))
@@ -33243,13 +33243,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRInputModule_GetGazeButtonState_mAF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1100>
 		return (int32_t)(2);
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1101>
 		bool L_6 = V_0;
 		if (!L_6)
 		{
@@ -33257,13 +33257,13 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1102>
 		return (int32_t)(0);
 	}
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1103>
 		bool L_7 = V_1;
 		if (!L_7)
 		{
@@ -33271,13 +33271,13 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1104>
 		return (int32_t)(1);
 	}
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1105>
 		return (int32_t)(3);
 	}
 }
@@ -33295,9 +33295,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1113>
 		il2cpp_codegen_initobj((&V_0), sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1114>
 		bool L_0 = __this->___useRightStickScroll;
 		if (!L_0)
 		{
@@ -33305,12 +33305,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1116>
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = OVRInput_Get_mF4EA350D5898449529C641C72B7D440DF81180C8(2, ((int32_t)-2147483648LL), NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1117>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = V_1;
 		float L_3 = L_2.___x;
 		float L_4;
@@ -33322,13 +33322,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1117>
 		(&V_1)->___x = (0.0f);
 	}
 
 IL_003b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1118>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = V_1;
 		float L_7 = L_6.___y;
 		float L_8;
@@ -33340,20 +33340,20 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1118>
 		(&V_1)->___y = (0.0f);
 	}
 
 IL_005a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1119>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = V_1;
 		V_0 = L_10;
 	}
 
 IL_005c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1122>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = V_0;
 		return L_11;
 	}
@@ -33371,7 +33371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_TrackInputSource_mA7956EF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1127>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* L_0;
 		L_0 = OVRInputModule_get_instance_m27BD43D3EFD36A57B3CAE73F0DF6FF7F90232AA9_inline(NULL);
@@ -33384,7 +33384,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_TrackInputSource_mA7956EF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1129>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* L_2;
 		L_2 = OVRInputModule_get_instance_m27BD43D3EFD36A57B3CAE73F0DF6FF7F90232AA9_inline(NULL);
@@ -33400,7 +33400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_TrackInputSource_mA7956EF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1131>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* L_6;
 		L_6 = OVRInputModule_get_instance_m27BD43D3EFD36A57B3CAE73F0DF6FF7F90232AA9_inline(NULL);
@@ -33414,7 +33414,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_TrackInputSource_mA7956EF
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1136>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B* L_9 = ((OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var))->____pendingInputSources;
 		RuntimeObject* L_10 = ___0_hand;
@@ -33424,7 +33424,7 @@ IL_002f:
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1138>
 		return;
 	}
 }
@@ -33441,7 +33441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_UntrackInputSource_mF44B7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1142>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* L_0;
 		L_0 = OVRInputModule_get_instance_m27BD43D3EFD36A57B3CAE73F0DF6FF7F90232AA9_inline(NULL);
@@ -33454,7 +33454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_UntrackInputSource_mF44B7
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1144>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* L_2;
 		L_2 = OVRInputModule_get_instance_m27BD43D3EFD36A57B3CAE73F0DF6FF7F90232AA9_inline(NULL);
@@ -33469,7 +33469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_UntrackInputSource_mF44B7
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1148>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B* L_6 = ((OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var))->____pendingInputSources;
 		RuntimeObject* L_7 = ___0_hand;
@@ -33482,7 +33482,7 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1150>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B* L_9 = ((OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var))->____pendingInputSources;
 		RuntimeObject* L_10 = ___0_hand;
@@ -33493,7 +33493,7 @@ IL_001e:
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1153>
 		return;
 	}
 }
@@ -33508,18 +33508,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_OnDestroy_m30C6EDB398003B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1157>
 		UIBehaviour_OnDestroy_mF225CF9163823F19BE5E2B2735D35898A20D608B(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1158>
 		List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B* L_0 = __this->____trackedInputSources;
 		NullCheck(L_0);
 		List_1_Clear_m3A6F7BC2569BB1C6B466347A4CE3D2DC9FC6BBB9_inline(L_0, List_1_Clear_m3A6F7BC2569BB1C6B466347A4CE3D2DC9FC6BBB9_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1159>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B* L_1 = ((OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var))->____pendingInputSources;
 		NullCheck(L_1);
 		List_1_Clear_m3A6F7BC2569BB1C6B466347A4CE3D2DC9FC6BBB9_inline(L_1, List_1_Clear_m3A6F7BC2569BB1C6B466347A4CE3D2DC9FC6BBB9_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1160>
 		return;
 	}
 }
@@ -33533,7 +33533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1163>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* L_0 = ((OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var))->___U3CinstanceU3Ek__BackingField;
 		return L_0;
@@ -33549,7 +33549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule_set_instance_mDEBA471D798
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1163>
 		OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		((OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var))->___U3CinstanceU3Ek__BackingField = L_0;
@@ -33569,7 +33569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule__cctor_m9FB0F460C8A3C3B02
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1167>
 		List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B* L_0 = (List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B*)il2cpp_codegen_object_new(List_1_tCDB4A34F8156FC9145280AE733C5CBC2B296428B_il2cpp_TypeInfo_var);
 		List_1__ctor_mD9A099B32B027680658ADA0C74B5F92352DF9085(L_0, List_1__ctor_mD9A099B32B027680658ADA0C74B5F92352DF9085_RuntimeMethod_var);
 		((OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var))->____pendingInputSources = L_0;
@@ -33597,13 +33597,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputModule__cctor_m9FB0F460C8A3C3B02
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPhysicsRaycaster__ctor_m71618373897E4446CFD05055A56A540B3CB56ECD (OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:43>
 		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_0;
 		L_0 = LayerMask_op_Implicit_m01C8996A2CB2085328B9C33539C43139660D8222((-1), NULL);
 		__this->___m_EventMask = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:45>
 		BaseRaycaster__ctor_m1B6A963368E54C1E450BE15FAF1AE082142A1683(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:47>
 		return;
 	}
 }
@@ -33617,7 +33617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:51>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_0;
 		L_0 = Component_GetComponent_TisOVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9_m077B7F6A5755E612BD0ACA0BAD8F8FCAA9FB6E62(__this, Component_GetComponent_TisOVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9_m077B7F6A5755E612BD0ACA0BAD8F8FCAA9FB6E62_RuntimeMethod_var);
 		NullCheck(L_0);
@@ -33636,7 +33636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRPhysicsRaycaster_get_depth_m02C0C4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:59>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -33665,7 +33665,7 @@ IL_0014:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRPhysicsRaycaster_get_sortOrderPriority_m72C941C67B30A4ED8B280EB2BEB0140EE5FFC1C5 (OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:66>
 		int32_t L_0 = __this->___sortOrder;
 		return L_0;
 	}
@@ -33680,7 +33680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRPhysicsRaycaster_get_finalEventMas
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:74>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -33712,7 +33712,7 @@ IL_0010:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB OVRPhysicsRaycaster_get_eventMask_m0B52D9DC406E35C7EEBD2ED2205CC8589DAD9AA3 (OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:82>
 		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_0 = __this->___m_EventMask;
 		return L_0;
 	}
@@ -33721,10 +33721,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPhysicsRaycaster_set_eventMask_m29EBF0CDD59910195F49BD8A1609BC3DD1DC3B0D (OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7* __this, LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:83>
 		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_0 = ___0_value;
 		__this->___m_EventMask = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:83>
 		return;
 	}
 }
@@ -33757,7 +33757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPhysicsRaycaster_Raycast_m843259975D6
 	Comparison_1_t5A3269D71CFF48B1462FED00091AE93BBABC91E7* G_B6_0 = NULL;
 	RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* G_B6_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:96>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -33769,13 +33769,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPhysicsRaycaster_Raycast_m843259975D6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:97>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:99>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_2 = ___0_eventData;
 		bool L_3;
 		L_3 = PointerEventDataExtension_IsVRPointer_m630294B1887266CFC4779146B4D066B6EBF4DCD5(L_2, NULL);
@@ -33785,17 +33785,17 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:100>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:102>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_4 = ___0_eventData;
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_5;
 		L_5 = PointerEventDataExtension_GetRay_m8C036451341B0C37A138E9D3BB509B9DFDCADD99(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:104>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_6;
 		L_6 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
 		NullCheck(L_6);
@@ -33807,7 +33807,7 @@ IL_0018:
 		float L_9;
 		L_9 = Camera_get_nearClipPlane_m5E8FAF84326E3192CB036BD29DCCDAF6A9861013(L_8, NULL);
 		V_0 = ((float)il2cpp_codegen_subtract(L_7, L_9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:106>
 		float L_10 = V_0;
 		int32_t L_11;
 		L_11 = OVRPhysicsRaycaster_get_finalEventMask_m0870F8AB5B0021AB7BFE8A1CE5CC729E680484E2(__this, NULL);
@@ -33815,7 +33815,7 @@ IL_0018:
 		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_12;
 		L_12 = Physics_RaycastAll_m4055619E0F7EFA04620EAA0517F8393C4EBCFE87(L_5, L_10, L_11, NULL);
 		V_1 = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:108>
 		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_13 = V_1;
 		NullCheck(L_13);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_13)->max_length))) <= ((int32_t)1)))
@@ -33824,7 +33824,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:109>
 		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_14 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t682782D0E83E1C6EAB4F75B276D4EC4DFEF13B1D_il2cpp_TypeInfo_var);
 		Comparison_1_t5A3269D71CFF48B1462FED00091AE93BBABC91E7* L_15 = ((U3CU3Ec_t682782D0E83E1C6EAB4F75B276D4EC4DFEF13B1D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t682782D0E83E1C6EAB4F75B276D4EC4DFEF13B1D_il2cpp_TypeInfo_var))->___U3CU3E9__15_0;
@@ -33857,7 +33857,7 @@ IL_0069:
 
 IL_006e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:111>
 		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_20 = V_1;
 		NullCheck(L_20);
 		if (!(((RuntimeArray*)L_20)->max_length))
@@ -33866,9 +33866,9 @@ IL_006e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:113>
 		V_2 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:113>
 		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_21 = V_1;
 		NullCheck(L_21);
 		V_3 = ((int32_t)(((RuntimeArray*)L_21)->max_length));
@@ -33877,15 +33877,15 @@ IL_006e:
 
 IL_007d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:115>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:116>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:117>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:118>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:119>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:120>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:121>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:122>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:123>
 		il2cpp_codegen_initobj((&V_5), sizeof(RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023));
 		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_22 = V_1;
 		int32_t L_23 = V_2;
@@ -33921,19 +33921,19 @@ IL_007d:
 		(&V_5)->___worldNormal = L_34;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_35 = V_5;
 		V_4 = L_35;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:124>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_36 = ___1_resultAppendList;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_37 = V_4;
 		NullCheck(L_36);
 		List_1_Add_mEB6DFEA132B5B7BF540D34177054003185D250E7_inline(L_36, L_37, List_1_Add_mEB6DFEA132B5B7BF540D34177054003185D250E7_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:113>
 		int32_t L_38 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_38, 1));
 	}
 
 IL_00fc:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:113>
 		int32_t L_39 = V_2;
 		int32_t L_40 = V_3;
 		if ((((int32_t)L_39) < ((int32_t)L_40)))
@@ -33944,7 +33944,7 @@ IL_00fc:
 
 IL_0103:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:127>
 		return;
 	}
 }
@@ -33977,7 +33977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPhysicsRaycaster_Spherecast_m5C0B2A94
 	Comparison_1_t5A3269D71CFF48B1462FED00091AE93BBABC91E7* G_B6_0 = NULL;
 	RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* G_B6_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:137>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -33989,13 +33989,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPhysicsRaycaster_Spherecast_m5C0B2A94
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:138>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:140>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_2 = ___0_eventData;
 		bool L_3;
 		L_3 = PointerEventDataExtension_IsVRPointer_m630294B1887266CFC4779146B4D066B6EBF4DCD5(L_2, NULL);
@@ -34005,17 +34005,17 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:141>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:143>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_4 = ___0_eventData;
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_5;
 		L_5 = PointerEventDataExtension_GetRay_m8C036451341B0C37A138E9D3BB509B9DFDCADD99(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:146>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_6;
 		L_6 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
 		NullCheck(L_6);
@@ -34027,7 +34027,7 @@ IL_0018:
 		float L_9;
 		L_9 = Camera_get_nearClipPlane_m5E8FAF84326E3192CB036BD29DCCDAF6A9861013(L_8, NULL);
 		V_0 = ((float)il2cpp_codegen_subtract(L_7, L_9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:148>
 		float L_10 = ___2_radius;
 		float L_11 = V_0;
 		int32_t L_12;
@@ -34036,7 +34036,7 @@ IL_0018:
 		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_13;
 		L_13 = Physics_SphereCastAll_m0886C4624531C71A2CC6A3196B9EAEE108C17CB5(L_5, L_10, L_11, L_12, NULL);
 		V_1 = L_13;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:150>
 		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_14 = V_1;
 		NullCheck(L_14);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))) <= ((int32_t)1)))
@@ -34045,7 +34045,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:151>
 		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_15 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t682782D0E83E1C6EAB4F75B276D4EC4DFEF13B1D_il2cpp_TypeInfo_var);
 		Comparison_1_t5A3269D71CFF48B1462FED00091AE93BBABC91E7* L_16 = ((U3CU3Ec_t682782D0E83E1C6EAB4F75B276D4EC4DFEF13B1D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t682782D0E83E1C6EAB4F75B276D4EC4DFEF13B1D_il2cpp_TypeInfo_var))->___U3CU3E9__16_0;
@@ -34078,7 +34078,7 @@ IL_006a:
 
 IL_006f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:153>
 		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_21 = V_1;
 		NullCheck(L_21);
 		if (!(((RuntimeArray*)L_21)->max_length))
@@ -34087,9 +34087,9 @@ IL_006f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:155>
 		V_2 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:155>
 		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_22 = V_1;
 		NullCheck(L_22);
 		V_3 = ((int32_t)(((RuntimeArray*)L_22)->max_length));
@@ -34098,15 +34098,15 @@ IL_006f:
 
 IL_007e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:157>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:158>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:159>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:160>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:161>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:162>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:163>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:164>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:165>
 		il2cpp_codegen_initobj((&V_5), sizeof(RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023));
 		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_23 = V_1;
 		int32_t L_24 = V_2;
@@ -34142,19 +34142,19 @@ IL_007e:
 		(&V_5)->___worldNormal = L_35;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_36 = V_5;
 		V_4 = L_36;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:166>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_37 = ___1_resultAppendList;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_38 = V_4;
 		NullCheck(L_37);
 		List_1_Add_mEB6DFEA132B5B7BF540D34177054003185D250E7_inline(L_37, L_38, List_1_Add_mEB6DFEA132B5B7BF540D34177054003185D250E7_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:155>
 		int32_t L_39 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_39, 1));
 	}
 
 IL_00fd:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:155>
 		int32_t L_40 = V_2;
 		int32_t L_41 = V_3;
 		if ((((int32_t)L_40) < ((int32_t)L_41)))
@@ -34165,7 +34165,7 @@ IL_00fd:
 
 IL_0104:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:169>
 		return;
 	}
 }
@@ -34173,7 +34173,7 @@ IL_0104:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 OVRPhysicsRaycaster_GetScreenPos_mAD6CC9D4FC2F01C2CBFA281660E8BC7B3C3C0A84 (OVRPhysicsRaycaster_t1F411E5D373213271255DCD0AC8BB8B5A6D15EB7* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_worldPosition, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRPhysicsRaycaster.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRPhysicsRaycaster.cs:179>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_worldPosition;
@@ -36144,7 +36144,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OpenVR_set_VRToken_mC7E9BB9F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5749>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5749>
 		uint32_t L_0 = ___0_value;
 		((OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_StaticFields*)il2cpp_codegen_static_fields_for(OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_il2cpp_TypeInfo_var))->___U3CVRTokenU3Ek__BackingField = L_0;
 		return;
@@ -36160,7 +36160,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t OpenVR_get_VRToken_mCD56
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/ThirdParty/openvr_api.cs:5749>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/openvr_api.cs:5749>
 		uint32_t L_0 = ((OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_StaticFields*)il2cpp_codegen_static_fields_for(OpenVR_tD6A11EE014C48512C9048D3B1D02260B69B4847E_il2cpp_TypeInfo_var))->___U3CVRTokenU3Ek__BackingField;
 		return L_0;
 	}
@@ -36174,7 +36174,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 104715
+// Method Definition Index: 104717
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Selectable_get_interactable_m17DD0484DC62DCB4467109488D7A599BC85EC112_inline (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36183,7 +36183,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Selectable_get_interactable_
 		return L_0;
 	}
 }
-// Method Definition Index: 58802
+// Method Definition Index: 58804
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -36221,7 +36221,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OVRInputModule_set_instance_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1163>
 		OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		((OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var))->___U3CinstanceU3Ek__BackingField = L_0;
@@ -36229,7 +36229,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OVRInputModule_set_instance_
 		return;
 	}
 }
-// Method Definition Index: 105448
+// Method Definition Index: 105450
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* BaseInputModule_get_eventSystem_m341B2378F61A58D5432906B9EE1E12265E2FAB33_inline (BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36238,7 +36238,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventSystem_t61C51380B105BE9D2C39
 		return L_0;
 	}
 }
-// Method Definition Index: 105326
+// Method Definition Index: 105328
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* EventSystem_get_currentSelectedGameObject_mD606FFACF3E72755298A523CBB709535CF08C98A_inline (EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36247,7 +36247,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 105324
+// Method Definition Index: 105326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* EventSystem_get_firstSelectedGameObject_m15FB056EE7A99D8DD5891D40A6E3EF18719F0553_inline (EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36256,7 +36256,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 58948
+// Method Definition Index: 58950
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36279,7 +36279,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 105214
+// Method Definition Index: 105216
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 AxisEventData_get_moveVector_m7979B5CF62B6B3B0C5F2DA8B328C499ED80ECC41_inline (AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36288,7 +36288,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 58899
+// Method Definition Index: 58901
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36324,7 +36324,7 @@ IL_0035:
 		return L_10;
 	}
 }
-// Method Definition Index: 105410
+// Method Definition Index: 105412
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t2A3D445A0300FDC32D29761DDFBBBFC30426F013* ExecuteEvents_get_moveHandler_mF717824AB0018BBED3C2DF3C67486E3B2B3836D2_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36340,7 +36340,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t2A3D445A0300FDC3
 		return L_0;
 	}
 }
-// Method Definition Index: 105407
+// Method Definition Index: 105409
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_tB9684C6044C44F9A8317A5E5A9A3C1C0376A4678* ExecuteEvents_get_updateSelectedHandler_m8AF7543437082AD4F5690AAA77F2623AE28C3D09_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36356,7 +36356,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_tB9684C6044C44F9A
 		return L_0;
 	}
 }
-// Method Definition Index: 105237
+// Method Definition Index: 105239
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 PointerEventData_get_pointerCurrentRaycast_m1C6B7D707CEE9C6574DD443289D90102EDC7A2C4_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36365,7 +36365,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RaycastResult_tEC6A7B7CABA99C386F
 		return L_0;
 	}
 }
-// Method Definition Index: 105581
+// Method Definition Index: 105583
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* RaycastResult_get_gameObject_m77014B442B9E2D10F2CC3AEEDC07AA95CDE1E2F1_inline (RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36374,7 +36374,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 105242
+// Method Definition Index: 105244
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_eligibleForClick_m360125CB3E348F3CF64C39F163467A842E479C21_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36384,7 +36384,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_eligibl
 		return;
 	}
 }
-// Method Definition Index: 105250
+// Method Definition Index: 105252
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_delta_mD200AF7CCAEAD92D947091902AF864CB4ACE0F1D_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36394,7 +36394,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_delta_m
 		return;
 	}
 }
-// Method Definition Index: 105266
+// Method Definition Index: 105268
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_dragging_m43982B3F95F05986F40A736914CFBC45D2A9BB8E_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36404,7 +36404,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_draggin
 		return;
 	}
 }
-// Method Definition Index: 105264
+// Method Definition Index: 105266
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_useDragThreshold_m63FE2034E4B240F1A0A902B1EB893B3DBA2D848B_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36414,7 +36414,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_useDrag
 		return;
 	}
 }
-// Method Definition Index: 105247
+// Method Definition Index: 105249
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36423,7 +36423,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 105252
+// Method Definition Index: 105254
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_pressPosition_m85544FBAB798DABE70067508294A6C4841A95379_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36433,7 +36433,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_pressPo
 		return;
 	}
 }
-// Method Definition Index: 105240
+// Method Definition Index: 105242
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_pointerPressRaycast_m55CA127474B4CBCA795A9C872B7630AAF766F852_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36453,7 +36453,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_pointer
 		return;
 	}
 }
-// Method Definition Index: 105398
+// Method Definition Index: 105400
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t00024D26E9CCD074EEBC25568B0383863A4CF117* ExecuteEvents_get_pointerDownHandler_mA67CE33D32540939A273DB88D6456C7FE43C13EF_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36469,7 +36469,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t00024D26E9CCD074
 		return L_0;
 	}
 }
-// Method Definition Index: 105229
+// Method Definition Index: 105231
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* PointerEventData_get_lastPress_m46720C62503214A44EE947679A8BA307BC2AEEDC_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36478,7 +36478,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 105257
+// Method Definition Index: 105259
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PointerEventData_get_clickTime_m5ABE0298E8CEF28B6BD7E750E940756CD78AB96E_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36487,7 +36487,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PointerEventData_get_clickT
 		return L_0;
 	}
 }
-// Method Definition Index: 105259
+// Method Definition Index: 105261
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEventData_get_clickCount_m3977011C09DB9F904B1AAC3708B821B8D6AC0F9F_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36496,7 +36496,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEventData_get_clic
 		return L_0;
 	}
 }
-// Method Definition Index: 105260
+// Method Definition Index: 105262
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_clickCount_m0A87C2C367987492F310786DC9C3DF1616EA4D49_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36506,7 +36506,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_clickCo
 		return;
 	}
 }
-// Method Definition Index: 105258
+// Method Definition Index: 105260
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_clickTime_m93D27EB35F490AC9100369A23002F09148F85996_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36516,7 +36516,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_clickTi
 		return;
 	}
 }
-// Method Definition Index: 105232
+// Method Definition Index: 105234
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_rawPointerPress_mEEC4E3C7CD00F1DDCD3DA98DA5837E71BB8455E3_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36527,7 +36527,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_rawPoin
 		return;
 	}
 }
-// Method Definition Index: 105234
+// Method Definition Index: 105236
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_pointerDrag_m0E8D72362B07962843671C39ADC8F4D5E4915010_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36538,7 +36538,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_pointer
 		return;
 	}
 }
-// Method Definition Index: 105233
+// Method Definition Index: 105235
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* PointerEventData_get_pointerDrag_m36BF08A32216845A8095C5F74DFE6C9959A11E96_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36547,7 +36547,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 105401
+// Method Definition Index: 105403
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t7DFDB0A0C9926E06BF7870695CD48A0533DFABAD* ExecuteEvents_get_initializePotentialDrag_m16F4CD40448FB1B78F6683AA26A9CC574F48AFBD_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36563,7 +36563,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t7DFDB0A0C9926E06
 		return L_0;
 	}
 }
-// Method Definition Index: 105296
+// Method Definition Index: 105298
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* PointerEventData_get_pointerPress_mEE815DDB67E40AA587090BCCE0E3CABA6405C50A_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36572,7 +36572,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 105399
+// Method Definition Index: 105401
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t919A3841A202FB8C678BC0172FAB7E2F79B88AD8* ExecuteEvents_get_pointerUpHandler_m51B83B4AD7498D6F7A2CBD5F2331E91A37AE4CF2_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36588,7 +36588,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t919A3841A202FB8C
 		return L_0;
 	}
 }
-// Method Definition Index: 105241
+// Method Definition Index: 105243
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PointerEventData_get_eligibleForClick_m4B01A1640C694FD7421BDFB19CF763BC85672C8E_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36597,7 +36597,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PointerEventData_get_eligibl
 		return L_0;
 	}
 }
-// Method Definition Index: 105400
+// Method Definition Index: 105402
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t586168BFEFD0CF29A2B706B5411BF712BD73359E* ExecuteEvents_get_pointerClickHandler_m0017F9D1EAF7C02CDDB4C148C92D6685D88EA8D5_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36613,7 +36613,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t586168BFEFD0CF29
 		return L_0;
 	}
 }
-// Method Definition Index: 105405
+// Method Definition Index: 105407
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_tB3864D36512C3A896DAC44E898E5D9E1A92CB733* ExecuteEvents_get_dropHandler_m8E00FA7361DE68780ACEB365E6B14206A2180D03_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36629,7 +36629,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_tB3864D36512C3A89
 		return L_0;
 	}
 }
-// Method Definition Index: 105265
+// Method Definition Index: 105267
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PointerEventData_get_dragging_mE0AD837F228E3830D4A74657AD3D47F53F6C87E9_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36638,7 +36638,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PointerEventData_get_draggin
 		return L_0;
 	}
 }
-// Method Definition Index: 105404
+// Method Definition Index: 105406
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t33BA7CA3F9202146F70BE77589CE24F7451C584C* ExecuteEvents_get_endDragHandler_mE78FEEEAE114635E416FF1FE33C851E62B60555B_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36654,7 +36654,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t33BA7CA3F9202146
 		return L_0;
 	}
 }
-// Method Definition Index: 105227
+// Method Definition Index: 105229
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* PointerEventData_get_pointerEnter_m6CE76D5C0C36C4666CDDE348B57885C52D495A4B_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36663,7 +36663,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 105485
+// Method Definition Index: 105487
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* ButtonState_get_eventData_m4767730784143F1DCE06B6138658A31CBC5E155F_inline (ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36672,7 +36672,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MouseButtonEventData_t0761D63D3A2
 		return L_0;
 	}
 }
-// Method Definition Index: 105261
+// Method Definition Index: 105263
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PointerEventData_get_scrollDelta_m38C419C3E84811D17D1A42973AF7B3A457B316EA_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36681,7 +36681,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 58930
+// Method Definition Index: 58932
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -36700,7 +36700,7 @@ IL_001f:
 		return L_4;
 	}
 }
-// Method Definition Index: 105406
+// Method Definition Index: 105408
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t048C55D455059C49F0AFD58FA503F7A552C3DB65* ExecuteEvents_get_scrollHandler_m51E902070611D3F81AD5F1F5762AE2C48E84AFE2_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36716,7 +36716,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t048C55D455059C49
 		return L_0;
 	}
 }
-// Method Definition Index: 105319
+// Method Definition Index: 105321
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool EventSystem_get_sendNavigationEvents_m8BA21E58E633B2C5B477E49DAABAD3C97A8158AF_inline (EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36725,7 +36725,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool EventSystem_get_sendNavigati
 		return L_0;
 	}
 }
-// Method Definition Index: 105248
+// Method Definition Index: 105250
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_position_m66E8DFE693F550372E6B085C6E2F887FDB092FAA_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36735,7 +36735,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_positio
 		return;
 	}
 }
-// Method Definition Index: 105249
+// Method Definition Index: 105251
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PointerEventData_get_delta_m7DC87C01EAE1D10282C37842ED215FDBFE2C1C5B_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36744,7 +36744,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 105262
+// Method Definition Index: 105264
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_scrollDelta_m58007CAE9A9B333B82C36B9E5431FBD926CB556C_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36754,7 +36754,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_scrollD
 		return;
 	}
 }
-// Method Definition Index: 105238
+// Method Definition Index: 105240
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_pointerCurrentRaycast_m52E1E9E89BACACFA6E8F105191654C7E24A98667_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36774,7 +36774,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_pointer
 		return;
 	}
 }
-// Method Definition Index: 105228
+// Method Definition Index: 105230
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_pointerEnter_m2DA660C24CBDE9B83DF2B2D09D9AF0E94A770D17_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36785,7 +36785,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_pointer
 		return;
 	}
 }
-// Method Definition Index: 105246
+// Method Definition Index: 105248
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_pointerId_m5B5FF54AB1DE7BD4454022A7C0535C618049BD9B_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36795,7 +36795,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_pointer
 		return;
 	}
 }
-// Method Definition Index: 58800
+// Method Definition Index: 58802
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -36826,7 +36826,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 58769
+// Method Definition Index: 58771
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -36869,7 +36869,7 @@ IL_005a:
 		return L_25;
 	}
 }
-// Method Definition Index: 58776
+// Method Definition Index: 58778
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -36888,7 +36888,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 57119
+// Method Definition Index: 57121
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ray__ctor_mE298992FD10A3894C38373198385F345C58BD64C_inline (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_origin, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_direction, const RuntimeMethod* method) 
 {
 	{
@@ -36900,7 +36900,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ray__ctor_mE298992FD10A3894C
 		return;
 	}
 }
-// Method Definition Index: 105268
+// Method Definition Index: 105270
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_button_m77DA0291BA43CB813FE83752D826AF3982C81601_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -36910,7 +36910,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_button_
 		return;
 	}
 }
-// Method Definition Index: 58937
+// Method Definition Index: 58939
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -36937,7 +36937,7 @@ IL_0023:
 		return L_9;
 	}
 }
-// Method Definition Index: 105263
+// Method Definition Index: 105265
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PointerEventData_get_useDragThreshold_m3ED1F39E71630C9AB1F340C92F8FA39AA489E1C5_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36946,7 +36946,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PointerEventData_get_useDrag
 		return L_0;
 	}
 }
-// Method Definition Index: 105251
+// Method Definition Index: 105253
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PointerEventData_get_pressPosition_m8A6788DA6BF81481E4EBCBA2ED1838F786EBAE63_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36955,7 +36955,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 105321
+// Method Definition Index: 105323
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t EventSystem_get_pixelDragThreshold_m2F7B0D1B5ACC63EB507FD7CCFE74F2B2804FF2E3_inline (EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36964,7 +36964,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t EventSystem_get_pixelDrag
 		return L_0;
 	}
 }
-// Method Definition Index: 105239
+// Method Definition Index: 105241
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 PointerEventData_get_pointerPressRaycast_mEB1B974F5543F78162984E2924EF908E18CE3B5D_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36973,7 +36973,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RaycastResult_tEC6A7B7CABA99C386F
 		return L_0;
 	}
 }
-// Method Definition Index: 58777
+// Method Definition Index: 58779
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -37000,7 +37000,7 @@ IL_002d:
 		return L_12;
 	}
 }
-// Method Definition Index: 105402
+// Method Definition Index: 105404
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t5B9F26DC56564B82AEF63D8AFEEEADBAB365F403* ExecuteEvents_get_beginDragHandler_mB0BEAC09E4A8F31438B07FE68A5BF7267FF8C2FC_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37016,7 +37016,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t5B9F26DC56564B82
 		return L_0;
 	}
 }
-// Method Definition Index: 105403
+// Method Definition Index: 105405
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t37D97D8E7BDC68938191F138BFE31C7BEFCF855E* ExecuteEvents_get_dragHandler_m9193926B9685C80C0560C2E105FF6150C4EAE507_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37042,13 +37042,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRInputModule_tA57D6FB43C84C28A9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@af732d25d6c8/Scripts/Util/OVRInputModule.cs:1163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRInputModule.cs:1163>
 		il2cpp_codegen_runtime_class_init_inline(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var);
 		OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* L_0 = ((OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A_il2cpp_TypeInfo_var))->___U3CinstanceU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 105582
+// Method Definition Index: 105584
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RaycastResult_set_gameObject_mCFEB66C0E3F01AC5E55040FE8BEB16E40427BD9E_inline (RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -37060,7 +37060,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RaycastResult_set_gameObject
 		return;
 	}
 }
-// Method Definition Index: 58946
+// Method Definition Index: 58948
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -37243,7 +37243,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 58765
+// Method Definition Index: 58767
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -37256,7 +37256,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 58877
+// Method Definition Index: 58879
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -37293,7 +37293,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 58774
+// Method Definition Index: 58776
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -37336,7 +37336,7 @@ IL_0026:
 		return L_8;
 	}
 }
-// Method Definition Index: 58917
+// Method Definition Index: 58919
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -37347,7 +37347,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
-// Method Definition Index: 58784
+// Method Definition Index: 58786
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37383,7 +37383,7 @@ IL_0034:
 		return L_13;
 	}
 }
-// Method Definition Index: 58804
+// Method Definition Index: 58806
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -37411,7 +37411,7 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 58790
+// Method Definition Index: 58792
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

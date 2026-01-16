@@ -260,6 +260,7 @@ GameObject:
   - component: {fileID: 413534033}
   - component: {fileID: 413534032}
   - component: {fileID: 413534031}
+  - component: {fileID: 413534036}
   m_Layer: 0
   m_Name: '[BuildingBlock] Camera Rig'
   m_TagString: Untagged
@@ -422,6 +423,22 @@ Transform:
   - {fileID: 819466508}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &413534036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413534030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a155ece80369d4e99bdaf5e59169b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Meta.XR.EnvironmentDepth::Meta.XR.EnvironmentDepth.EnvironmentDepthManager
+  _occlusionShadersMode: 2
+  _removeHands: 0
+  CustomTrackingSpace: {fileID: 0}
+  <MaskMeshFilters>k__BackingField: []
 --- !u!1 &417257743
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +715,7 @@ GameObject:
   - component: {fileID: 670715293}
   - component: {fileID: 670715292}
   - component: {fileID: 670715294}
+  - component: {fileID: 670715295}
   m_Layer: 0
   m_Name: ARDetectionManager
   m_TagString: Untagged
@@ -723,12 +741,16 @@ MonoBehaviour:
   visualizer: {fileID: 638982208}
   visualizer3D: {fileID: 691523316}
   tracker: {fileID: 670715294}
+  depthAnchorSystem: {fileID: 0}
+  enable3DBoundingBoxes: 0
+  enableDepthAnchors: 1
   OnDetectionReceived:
     m_PersistentCalls:
       m_Calls: []
   OnDetectionError:
     m_PersistentCalls:
       m_Calls: []
+  maxResponseAgeToAccept: 0.8
 --- !u!4 &670715293
 Transform:
   m_ObjectHideFlags: 0
@@ -767,6 +789,41 @@ MonoBehaviour:
   manualYOffsetPixels: -160
   autoCorrectYOffset: 1
   yOffsetPercentage: 0
+--- !u!114 &670715295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670715291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6496ca4905feb4caf5e0eaa8ca919a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.DepthAnchorSystem
+  environmentRaycastManager: {fileID: 1190586617}
+  anchorPrefab: {fileID: 8553739118990585630, guid: f3adb2d8a152ab1499e342bccefb2ba8, type: 3}
+  objectTracker: {fileID: 670715294}
+  cameraEye: 0
+  placementPoint: 2
+  verticalOffset: 0.01
+  fallbackDepth: 2
+  maxRaycastDistance: 50
+  customYPercent: 0
+  minConfidenceToLock: 0.5
+  updateDistanceThreshold: 0.15
+  lockCooldown: 0.5
+  smoothingAlpha: 0.5
+  movementThreshold: 0.005
+  onlyConfirmedTracks: 0
+  minimumConfidence: 0.3
+  anchorScale: 0.1
+  scaleWithDistance: 0
+  confirmedColor: {r: 0.2, g: 1, b: 0.4, a: 1}
+  tentativeColor: {r: 1, g: 0.85, b: 0.2, a: 0.9}
+  lockedColor: {r: 0, g: 0.8, b: 1, a: 1}
+  enableDebugLogs: 1
+  drawDebugRays: 1
 --- !u!1 &691523315
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,6 +1036,51 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1964602101}
   m_SourcePrefab: {fileID: 100100000, guid: abfaad578d05e4a09838223134c41c46, type: 3}
+--- !u!1 &1190586616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1190586618}
+  - component: {fileID: 1190586617}
+  m_Layer: 0
+  m_Name: MRUK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1190586617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190586616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8affdff7ba47d892cc734baac9ac71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: meta.xr.mrutilitykit::Meta.XR.EnvironmentRaycastManager
+  CustomTrackingSpace: {fileID: 0}
+--- !u!4 &1190586618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190586616}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1284049743
 GameObject:
   m_ObjectHideFlags: 0
@@ -1806,3 +1908,4 @@ SceneRoots:
   - {fileID: 1765160975}
   - {fileID: 638982209}
   - {fileID: 691523317}
+  - {fileID: 1190586618}
