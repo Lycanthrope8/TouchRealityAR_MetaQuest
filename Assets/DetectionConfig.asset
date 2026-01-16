@@ -18,7 +18,7 @@ MonoBehaviour:
   frameCaptureInterval: 6
   targetResolution: {x: 640, y: 640}
   jpegQuality: 60
-  confidenceThreshold: 0.25
+  confidenceThreshold: 0.6
   enableClassFilter: 1
   classFilter:
   - laptop

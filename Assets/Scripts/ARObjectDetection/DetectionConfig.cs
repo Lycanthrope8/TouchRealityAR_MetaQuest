@@ -38,7 +38,7 @@ namespace ARObjectDetection
                     [Header("Detection Settings")]
                     [Tooltip("Minimum confidence threshold for detections (0-1)")]
                     [Range(0f, 1f)]
-                    public float confidenceThreshold = 0.25f;
+                    public float confidenceThreshold = 0.6f;
 
                     [Header("Class Filter (Whitelist)")]
                     [Tooltip("Enable class whitelist filtering")]
