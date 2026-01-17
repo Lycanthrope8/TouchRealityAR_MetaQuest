@@ -12,19 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f0480f5acd0912418dc4725b6d04751, type: 3}
   m_Name: TrackerConfig
   m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.TrackerConfig
+  max3DDistance: 2.5
   iou3DThreshold: 0.05
   iou2DThreshold: 0.15
   maxCenterDistance: 300
-  max3DDistance: 2.5
+  reacquireMax3DDistance: 4
+  reacquireWindowSec: 8
+  confirmedMaxMissTimeSec: 10
+  tentativeMaxMissTimeSec: 1.5
+  lostRetentionTimeSec: 8
+  maxMissTimeSec: 2.5
   depthThicknessFraction: 0.15
   minBoundsThickness: 0.1
   maxBoundsThickness: 0.8
   minHits: 3
-  maxMissTimeSec: 2.5
   smoothingAlphaPosition: 0.6
   smoothingAlphaSize: 0.25
   smoothingAlphaVelocity: 0.8
   enableMotionCompensation: 1
+  motionCompensateLostTracks: 1
   maxObjectVelocity: 10
   enableDebugLogs: 1
   showTrackIDs: 1
+  showRevivalMetrics: 1
+  metricsSummaryIntervalSec: 2

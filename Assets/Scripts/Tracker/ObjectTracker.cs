@@ -6,12 +6,16 @@ using PassthroughCameraSamples;
 namespace ARObjectDetection
 {
     /// <summary>
-    /// PHASE 2 - 3D IoU tracking with smoothing and backpressure
-    /// FIXED: Now scales bbox coordinates to match camera intrinsics resolution
+    /// PHASE 2.2 - 3D-FIRST tracking with PROPER Lost retention and revival
+    /// 
+    /// KEY FIXES:
+    /// 1. 3D distance is PRIMARY gate - 2D is ONLY a cost factor, never blocks
+    /// 2. Lost tracks are retained for lostRetentionTimeSec (default 8s)
+    /// 3. Lost tracks within reacquireWindow are motion-compensated
+    /// 4. Revival uses 3D-only matching
     /// </summary>
     public class ObjectTracker : MonoBehaviour
     {
-        // === SINGLETON ===
         private static ObjectTracker instance;
         public static ObjectTracker Instance => instance;
 
@@ -25,18 +29,13 @@ namespace ARObjectDetection
         [SerializeField] private LayerMask raycastLayers = ~0;
         [SerializeField] private float maxRaycastDistance = 10f;
 
-        [Header("Debug Y-Offset Compensation")]
-        [Tooltip("Manual Y-offset adjustment in pixels (positive = shift down)")]
+        [Header("Debug Y-Offset")]
         [SerializeField] private float manualYOffsetPixels = 0f;
-
-        [Tooltip("Enable automatic Y-offset correction based on bbox height")]
         [SerializeField] private bool autoCorrectYOffset = true;
-
-        [Tooltip("Y-offset as percentage of bbox height (0.5 = half bbox height)")]
         [Range(0f, 1f)]
         [SerializeField] private float yOffsetPercentage = 0.0f;
 
-        // Active tracks
+        // Track lists
         private List<TrackedObject> activeTracks = new List<TrackedObject>();
         private int nextTrackId = 0;
 
@@ -47,24 +46,46 @@ namespace ARObjectDetection
         // Frame tracking
         private int lastProcessedFrameId = -1;
 
-        // Metrics
-        public int ActiveTrackCount => activeTracks.Count;
+        // === DEBUG METRICS ===
+        private int reviveCountMainMatch = 0;
+        private int reviveCountSecondPass = 0;
+        private int newTrackCreatedWhileRecentLostExists = 0;
+        private int blockedBy2DGateCount = 0;  // Should stay 0 with 3D-first
+        private int lostPrunedCount = 0;
+        private float lastMetricsLogTime = 0f;
+
+        // Public metrics
+        public int ActiveTrackCount => activeTracks.Count(t => t.state != TrackState.Lost);
+        public int LostTrackCount => activeTracks.Count(t => t.state == TrackState.Lost);
+        public int TotalTrackCount => activeTracks.Count;
         public int ConfirmedTrackCount => activeTracks.Count(t => t.state == TrackState.Confirmed);
+
+        /// <summary>
+        /// All tracks including Lost ones (for internal use / advanced consumers).
+        /// WARNING: Consumers should filter by state or use NonLostTracks.
+        /// </summary>
         public List<TrackedObject> ActiveTracks => activeTracks;
+
+        /// <summary>
+        /// Only non-Lost tracks (Tentative + Confirmed). Use this for visualization/anchoring.
+        /// </summary>
+        public IEnumerable<TrackedObject> NonLostTracks => activeTracks.Where(t => t.state != TrackState.Lost);
+
+        public int ReviveCountMainMatch => reviveCountMainMatch;
+        public int ReviveCountSecondPass => reviveCountSecondPass;
+        public int NewTrackCreatedWhileRecentLostExists => newTrackCreatedWhileRecentLostExists;
+        public int LostPrunedCount => lostPrunedCount;
 
         private void Awake()
         {
-            // === ENFORCE SINGLETON ===
             if (instance != null && instance != this)
             {
-                Debug.LogWarning($"[ObjectTracker] Duplicate instance detected! Destroying {gameObject.name}");
+                Debug.LogWarning($"[ObjectTracker] Duplicate! Destroying {gameObject.name}");
                 Destroy(this);
                 return;
             }
-
             instance = this;
 
-            // Validate config
             if (config == null)
             {
                 Debug.LogError("[ObjectTracker] TrackerConfig not assigned!");
@@ -72,38 +93,32 @@ namespace ARObjectDetection
                 return;
             }
 
-            // Get camera intrinsics
             try
             {
                 cameraIntrinsics = PassthroughCameraUtils.GetCameraIntrinsics(cameraEye);
-                // NEW: Log the actual camera info
                 var intrinsics = cameraIntrinsics.Value;
-                Debug.Log($"[Camera Info] Resolution: {intrinsics.Resolution.x}×{intrinsics.Resolution.y}");
-                Debug.Log($"[Camera Info] Focal Length: ({intrinsics.FocalLength.x:F1}, {intrinsics.FocalLength.y:F1})");
-                Debug.Log($"[Camera Info] Principal Point: ({intrinsics.PrincipalPoint.x:F1}, {intrinsics.PrincipalPoint.y:F1})");
-
-                Debug.Log($"[ObjectTracker] Camera intrinsics loaded: {cameraIntrinsics.Value.Resolution}");
+                Debug.Log($"[ObjectTracker] Camera: {intrinsics.Resolution.x}×{intrinsics.Resolution.y}");
             }
             catch (System.Exception e)
             {
-                Debug.LogError($"[ObjectTracker] Failed to get camera intrinsics: {e.Message}");
+                Debug.LogError($"[ObjectTracker] Camera intrinsics failed: {e.Message}");
             }
 
-            // Get center eye transform
             if (OVRManager.instance != null)
             {
                 centerEyeTransform = OVRManager.instance.GetComponentInChildren<Camera>().transform;
             }
 
-            Debug.Log($"[ObjectTracker] ✅ Phase 2 initialized - 3D IoU={config.iou3DThreshold}, posAlpha={config.smoothingAlphaPosition}, sizeAlpha={config.smoothingAlphaSize}");
+            Debug.Log($"[ObjectTracker] ✅ PHASE 2.2 - 3D-FIRST with Lost retention");
+            Debug.Log($"[ObjectTracker] Settings: max3D={config.max3DDistance}m, " +
+                     $"reacquire3D={config.reacquireMax3DDistance}m, " +
+                     $"reacquireWindow={config.reacquireWindowSec}s, " +
+                     $"lostRetention={config.lostRetentionTimeSec}s");
         }
 
         private void OnDestroy()
         {
-            if (instance == this)
-            {
-                instance = null;
-            }
+            if (instance == this) instance = null;
         }
 
         private void Update()
@@ -116,323 +131,333 @@ namespace ARObjectDetection
             {
                 track.timeSinceLastUpdate = now - track.lastUpdateTime;
 
-                if (config.enableMotionCompensation)
+                // === FIX: Motion-compensate Lost tracks within reacquire window ===
+                bool shouldMotionCompensate = config.enableMotionCompensation &&
+                    (track.state != TrackState.Lost ||
+                     (config.motionCompensateLostTracks && track.IsEligibleForRevival(config.reacquireWindowSec)));
+
+                if (shouldMotionCompensate)
                 {
                     CompensateForCameraMotion(track);
                 }
 
-                float dt = (track.stateTime > 0f) ? (now - track.stateTime) : Time.deltaTime;
-                if (dt < 0f) dt = 0f;
-
-                track.worldPosition += track.velocity * dt;
-                track.stateTime = now;
-
-                track.worldPositionSmoothed = Vector3.Lerp(
-                    track.worldPositionSmoothed,
-                    track.worldPosition,
-                    config.smoothingAlphaPosition
-                );
-
-                track.worldBounds.center = track.worldPosition;
-
-                if (track.timeSinceLastUpdate > 0.1f)
+                // Predict motion for non-Lost tracks
+                if (track.state != TrackState.Lost)
                 {
-                    track.trackConfidence *= Mathf.Exp(-dt * 2.0f);
-                    track.trackConfidence = Mathf.Max(track.trackConfidence, 0.1f);
+                    float dt = (track.stateTime > 0f) ? (now - track.stateTime) : Time.deltaTime;
+                    if (dt > 0f)
+                    {
+                        track.worldPosition += track.velocity * dt;
+                        track.stateTime = now;
+                        track.worldBounds.center = track.worldPosition;
+
+                        track.worldPositionSmoothed = Vector3.Lerp(
+                            track.worldPositionSmoothed,
+                            track.worldPosition,
+                            config.smoothingAlphaPosition
+                        );
+
+                        if (track.timeSinceLastUpdate > 0.1f)
+                        {
+                            track.trackConfidence *= Mathf.Exp(-dt * 2.0f);
+                            track.trackConfidence = Mathf.Max(track.trackConfidence, 0.1f);
+                        }
+                    }
                 }
             }
 
-            int lostCount = activeTracks.RemoveAll(t => t.state == TrackState.Lost);
-            if (lostCount > 0)
+            // === PRUNE: Only remove Lost tracks after retention expires ===
+            int beforeCount = activeTracks.Count;
+            activeTracks.RemoveAll(t => t.ShouldPrune(now, config.lostRetentionTimeSec));
+            int pruned = beforeCount - activeTracks.Count;
+            if (pruned > 0)
             {
-                Debug.Log($"[ObjectTracker] 🗑️ Removed {lostCount} lost tracks");
+                lostPrunedCount += pruned;
+                Debug.Log($"[ObjectTracker] 🗑️ Pruned {pruned} Lost tracks (retention={config.lostRetentionTimeSec}s expired)");
+            }
+
+            // Periodic metrics summary
+            if (config.metricsSummaryIntervalSec > 0 && now - lastMetricsLogTime > config.metricsSummaryIntervalSec)
+            {
+                lastMetricsLogTime = now;
+                LogMetricsSummary();
             }
         }
 
         private void CompensateForCameraMotion(TrackedObject track)
         {
-            if (centerEyeTransform == null || !cameraIntrinsics.HasValue)
-                return;
+            if (centerEyeTransform == null || !cameraIntrinsics.HasValue) return;
 
-            Pose currentPose = new Pose(
-                centerEyeTransform.position,
-                centerEyeTransform.rotation
-            );
+            Pose currentPose = new Pose(centerEyeTransform.position, centerEyeTransform.rotation);
 
             Quaternion rotationDelta = currentPose.rotation * Quaternion.Inverse(track.lastCameraPose.rotation);
             Vector3 positionDelta = currentPose.position - track.lastCameraPose.position;
 
             if (Quaternion.Angle(rotationDelta, Quaternion.identity) < 0.5f && positionDelta.magnitude < 0.01f)
+                return;
+
+            // For Lost tracks: project stored worldPosition into new camera frame to update 2D
+            // (don't re-derive world position from stale depth)
+            if (track.state == TrackState.Lost)
             {
+                // Lost tracks keep their world position fixed; only update 2D projection
+                Vector2Int lostPixelCenter = WorldPointToPixel(track.worldPosition, currentPose);
+
+                // Shift bbox2D based on pixel delta
+                Vector2 lostPixelDelta = new Vector2(
+                    lostPixelCenter.x - track.centerPixel.x,
+                    lostPixelCenter.y - track.centerPixel.y
+                );
+                track.bbox2D = new Rect(
+                    track.bbox2D.x + lostPixelDelta.x,
+                    track.bbox2D.y + lostPixelDelta.y,
+                    track.bbox2D.width,
+                    track.bbox2D.height
+                );
+                track.centerPixel = lostPixelCenter;
+
+                // Update ray to point from new camera position to fixed world position
+                Vector3 toWorld = track.worldPosition - currentPose.position;
+                track.centerRay = new Ray(currentPose.position, toWorld.normalized);
+                track.depth = toWorld.magnitude;
+
+                track.lastCameraPose = currentPose;
                 return;
             }
 
-            Vector3 oldRayOrigin = track.centerRay.origin;
-            Vector3 oldRayDir = track.centerRay.direction;
-
-            Vector3 relativeOrigin = oldRayOrigin - track.lastCameraPose.position;
+            // For non-Lost tracks: standard motion compensation
+            Vector3 relativeOrigin = track.centerRay.origin - track.lastCameraPose.position;
             Vector3 newRayOrigin = rotationDelta * relativeOrigin + currentPose.position;
-            Vector3 newRayDir = rotationDelta * oldRayDir;
-
+            Vector3 newRayDir = rotationDelta * track.centerRay.direction;
             Ray newRay = new Ray(newRayOrigin, newRayDir);
+
             Vector3 worldPos = newRay.origin + newRay.direction * track.depth;
+
+            // Update 2D pixel center
             Vector2Int newPixelCenter = WorldPointToPixel(worldPos, currentPose);
+
+            // Shift bbox2D
+            Vector2 pixelDelta = new Vector2(
+                newPixelCenter.x - track.centerPixel.x,
+                newPixelCenter.y - track.centerPixel.y
+            );
+            track.bbox2D = new Rect(
+                track.bbox2D.x + pixelDelta.x,
+                track.bbox2D.y + pixelDelta.y,
+                track.bbox2D.width,
+                track.bbox2D.height
+            );
 
             track.centerPixel = newPixelCenter;
             track.centerRay = newRay;
             track.worldPosition = worldPos;
             track.worldBounds.center = worldPos;
             track.lastCameraPose = currentPose;
-
-            if (config.enableDebugLogs)
-            {
-                Debug.Log($"[Motion Comp] Track {track.id}: Moved {Vector2Int.Distance(track.centerPixel, newPixelCenter)}px");
-            }
         }
 
         public void ProcessDetections(DetectionResponse response)
         {
-            if (response == null || response.detections == null)
-                return;
-
+            if (response == null || response.detections == null) return;
             if (!cameraIntrinsics.HasValue)
             {
-                Debug.LogWarning("[ObjectTracker] ❌ No camera intrinsics available");
+                Debug.LogWarning("[ObjectTracker] No camera intrinsics!");
                 return;
             }
 
             if (response.frame_id <= lastProcessedFrameId)
             {
-                Debug.LogWarning($"[ObjectTracker] ⏭️ Dropping out-of-order frame {response.frame_id} (last: {lastProcessedFrameId})");
+                Debug.LogWarning($"[ObjectTracker] Dropping out-of-order frame {response.frame_id}");
                 return;
             }
-
             lastProcessedFrameId = response.frame_id;
 
             float captureTime = response.capture_time;
             float now = Time.realtimeSinceStartup;
-            float responseAge = now - captureTime;
 
-            Debug.Log($"[ObjectTracker] 📦 Processing frame {response.frame_id}, age: {responseAge:F3}s, detections: {response.detections.Count}");
+            Debug.Log($"[ObjectTracker] 📦 Frame {response.frame_id}, {response.detections.Count} detections");
 
             List<Detection3D> detections3D = ConvertDetectionsTo3D(response);
             if (detections3D.Count == 0)
             {
-                Debug.LogWarning("[ObjectTracker] ⚠️ No valid 3D detections");
+                Debug.LogWarning("[ObjectTracker] No valid 3D detections");
                 return;
             }
 
-            Debug.Log($"[ObjectTracker] ⏪ Aligning {activeTracks.Count} tracks to capture time");
+            // Align tracks to capture time
             foreach (var track in activeTracks)
             {
-                if (track.stateTime <= 0f)
-                    track.stateTime = now;
-
+                if (track.state == TrackState.Lost) continue;
+                if (track.stateTime <= 0f) track.stateTime = now;
                 float dtToCapture = captureTime - track.stateTime;
                 PredictTrack(track, dtToCapture);
                 track.stateTime = captureTime;
             }
 
-            var (costMatrix, validPairs) = BuildCostMatrix(detections3D);
+            // === 3D-FIRST MATCHING (includes Lost tracks) ===
+            var (costMatrix, validPairs) = Build3DFirstCostMatrix(detections3D);
             var matches = GreedyMatch(costMatrix, validPairs);
 
-            Debug.Log($"[ObjectTracker] 🔗 Matched {matches.Count}/{Mathf.Min(activeTracks.Count, detections3D.Count)} pairs using 3D IoU");
+            Debug.Log($"[ObjectTracker] 🔗 Matched {matches.Count} pairs");
 
-            if (config.enableDebugLogs && matches.Count > 0)
+            // Process matches (including revivals)
+            HashSet<int> matchedDetIndices = new HashSet<int>();
+            foreach (var (trackIdx, detIdx) in matches)
             {
-                foreach (var (trackIdx, detIdx) in matches)
+                var track = activeTracks[trackIdx];
+                bool wasLost = track.state == TrackState.Lost;
+
+                UpdateTrack(track, detections3D[detIdx], captureTime);
+                matchedDetIndices.Add(detIdx);
+
+                if (wasLost)
                 {
-                    var track = activeTracks[trackIdx];
-                    var det = detections3D[detIdx];
-                    float iou3d = CalculateIoU3D(track.worldBounds, det.worldBounds);
-                    float iou2d = CalculateIoU2D(track.bbox2D, det.bbox2D);
-                    float dist3D = Vector3.Distance(track.worldPosition, det.worldPosition);
-                    Debug.Log($"  ✅ Match: Track#{track.id}({track.className}) ↔ Det({det.detection.class_name}) | 3D IoU={iou3d:F2} 2D IoU={iou2d:F2} dist={dist3D:F2}m");
+                    track.Revive();
+                    reviveCountMainMatch++;
+                    Debug.Log($"[ObjectTracker] 🔄 REVIVED Track {track.id} ({track.className}) via main match - revival #{track.revivalCount}");
                 }
             }
 
-            foreach (var (trackIdx, detIdx) in matches)
-            {
-                UpdateTrack(activeTracks[trackIdx], detections3D[detIdx], captureTime);
-            }
+            // Handle unmatched active tracks
+            HandleUnmatchedTracks(matches, now);
 
-            HandleUnmatchedTracks(matches, captureTime);
-            int newTracksCreated = CreateNewTracks(matches, detections3D, captureTime);
+            // === CREATE NEW TRACKS / SECOND-PASS REVIVAL ===
+            CreateNewTracksOrRevive(detections3D, matchedDetIndices, captureTime);
 
+            // Forward predict to present
             float forwardDt = now - captureTime;
-            Debug.Log($"[ObjectTracker] ⏩ Predicting {activeTracks.Count} tracks forward {forwardDt:F3}s to present");
             foreach (var track in activeTracks)
             {
+                if (track.state == TrackState.Lost) continue;
                 PredictTrack(track, forwardDt);
                 track.stateTime = now;
             }
 
             MergeDuplicateTracks();
 
-            int tentative = activeTracks.Count(t => t.state == TrackState.Tentative);
-            int confirmed = ConfirmedTrackCount;
-            Debug.Log($"[ObjectTracker] 📊 Summary: {activeTracks.Count} tracks ({confirmed} confirmed, {tentative} tentative), {newTracksCreated} new");
+            Debug.Log($"[ObjectTracker] 📊 {TotalTrackCount} tracks ({ConfirmedTrackCount} confirmed, {LostTrackCount} lost)");
         }
 
-        private void PredictTrack(TrackedObject track, float dt)
-        {
-            if (Mathf.Abs(dt) < 0.001f) return;
-
-            track.worldPosition += track.velocity * dt;
-            track.worldBounds.center = track.worldPosition;
-
-            if (track.velocity.magnitude > config.maxObjectVelocity)
-            {
-                track.velocity = track.velocity.normalized * config.maxObjectVelocity;
-            }
-        }
-
-        private (float[,] costs, List<(int trackIdx, int detIdx)> validPairs) BuildCostMatrix(List<Detection3D> detections)
+        /// <summary>
+        /// 3D-FIRST cost matrix: 3D distance is the ONLY hard gate.
+        /// 2D metrics are cost factors only.
+        /// </summary>
+        private (float[,] costs, List<(int, int)> validPairs) Build3DFirstCostMatrix(List<Detection3D> detections)
         {
             float[,] costs = new float[activeTracks.Count, detections.Count];
             List<(int, int)> validPairs = new List<(int, int)>();
-
-            Debug.Log($"[ObjectTracker] 🧮 Building 3D IoU cost matrix: {activeTracks.Count} tracks × {detections.Count} detections");
 
             for (int i = 0; i < activeTracks.Count; i++)
             {
                 TrackedObject track = activeTracks[i];
 
+                // Determine if this is a revival candidate (Lost but within window)
+                bool isRevivalCandidate = track.IsEligibleForRevival(config.reacquireWindowSec);
+
+                // 3D distance threshold - use relaxed threshold for revival candidates
+                float max3DDist = isRevivalCandidate ? config.reacquireMax3DDistance : config.max3DDistance;
+
                 for (int j = 0; j < detections.Count; j++)
                 {
-                    Detection3D detection = detections[j];
+                    Detection3D det = detections[j];
 
-                    if (track.classId != detection.detection.class_id)
+                    // Class must match
+                    if (track.classId != det.detection.class_id)
                     {
                         costs[i, j] = 999f;
                         continue;
                     }
 
-                    float iou3d = CalculateIoU3D(track.worldBounds, detection.worldBounds);
-                    float iou2d = CalculateIoU2D(track.bbox2D, detection.bbox2D);
-                    float dist3D = Vector3.Distance(track.worldPosition, detection.worldPosition);
+                    // Calculate metrics
+                    float dist3D = Vector3.Distance(track.worldPosition, det.worldPosition);
+                    float iou3d = CalculateIoU3D(track.worldBounds, det.worldBounds);
+                    float iou2d = CalculateIoU2D(track.bbox2D, det.bbox2D);
                     float centerDist2D = Vector2.Distance(
                         new Vector2(track.centerPixel.x, track.centerPixel.y),
-                        new Vector2(detection.centerPixel.x, detection.centerPixel.y)
+                        new Vector2(det.centerPixel.x, det.centerPixel.y)
                     );
 
-                    float iou3dCost = 1.0f - iou3d;
-                    float iou2dCost = 1.0f - iou2d;
-                    float distCost3D = Mathf.Clamp01(dist3D / config.max3DDistance);
-                    float distCost2D = Mathf.Clamp01(centerDist2D / config.maxCenterDistance);
+                    // === 3D IS THE ONLY HARD GATE ===
+                    bool passes3DGate = dist3D <= max3DDist;
 
-                    float cost = (iou3dCost * 0.5f) + (iou2dCost * 0.2f) + (distCost3D * 0.2f) + (distCost2D * 0.1f);
-                    costs[i, j] = cost;
-
-                    bool passesGating = (iou3d >= config.iou3DThreshold || iou2d >= config.iou2DThreshold) &&
-                                       dist3D <= config.max3DDistance &&
-                                       centerDist2D <= config.maxCenterDistance;
-
-                    if (passesGating)
-                    {
-                        validPairs.Add((i, j));
-                        if (config.enableDebugLogs)
-                        {
-                            Debug.Log($"  ✓ Track#{track.id}({track.className}) ↔ Det({detection.detection.class_name}): 3D IoU={iou3d:F2} 2D IoU={iou2d:F2} dist={dist3D:F2}m cost={cost:F2}");
-                        }
-                    }
-                    else
+                    if (!passes3DGate)
                     {
                         costs[i, j] = 999f;
-                        if (config.enableDebugLogs && track.classId == detection.detection.class_id)
-                        {
-                            Debug.Log($"  ✗ REJECT Track#{track.id} ↔ Det: 3D IoU={iou3d:F2}(need>{config.iou3DThreshold}) 2D IoU={iou2d:F2}(need>{config.iou2DThreshold}) dist={dist3D:F2}m");
-                        }
+                        continue;
+                    }
+
+                    // === 2D metrics are COST FACTORS only, never block ===
+                    float dist3DCost = dist3D / max3DDist;  // 0-1 normalized
+                    float iou3dCost = 1.0f - iou3d;
+                    float iou2dCost = 1.0f - iou2d;
+                    float centerDist2DCost = Mathf.Clamp01(centerDist2D / 500f);  // Normalize but don't block
+
+                    // Weight: 3D dominates
+                    float cost = (dist3DCost * 0.5f) +
+                                (iou3dCost * 0.25f) +
+                                (iou2dCost * 0.15f) +
+                                (centerDist2DCost * 0.10f);
+
+                    // Small penalty for Lost tracks (prefer active tracks in ties)
+                    if (isRevivalCandidate) cost += 0.05f;
+
+                    costs[i, j] = cost;
+                    validPairs.Add((i, j));
+
+                    if (config.enableDebugLogs)
+                    {
+                        string tag = isRevivalCandidate ? " [LOST-revivable]" : "";
+                        Debug.Log($"  ✓ Track#{track.id}({track.className}){tag} ↔ Det: " +
+                                 $"dist3D={dist3D:F2}m IoU3D={iou3d:F2} cost={cost:F3}");
                     }
                 }
             }
 
-            Debug.Log($"[ObjectTracker] 🎯 Found {validPairs.Count} valid pairs after 3D IoU gating");
+            Debug.Log($"[ObjectTracker] 🎯 {validPairs.Count} valid pairs (3D-first gate)");
             return (costs, validPairs);
         }
 
-        private float CalculateIoU3D(Bounds a, Bounds b)
+        private List<(int, int)> GreedyMatch(float[,] costMatrix, List<(int, int)> validPairs)
         {
-            Vector3 min = Vector3.Max(a.min, b.min);
-            Vector3 max = Vector3.Min(a.max, b.max);
-            Vector3 d = max - min;
+            var matches = new List<(int, int)>();
+            if (activeTracks.Count == 0 || validPairs.Count == 0) return matches;
 
-            if (d.x <= 0f || d.y <= 0f || d.z <= 0f) return 0f;
+            var sorted = validPairs.OrderBy(p => costMatrix[p.Item1, p.Item2]).ToList();
+            var usedTracks = new HashSet<int>();
+            var usedDets = new HashSet<int>();
 
-            float intersection = d.x * d.y * d.z;
-            float volumeA = a.size.x * a.size.y * a.size.z;
-            float volumeB = b.size.x * b.size.y * b.size.z;
-            float union = volumeA + volumeB - intersection;
-
-            return union > 0f ? (intersection / union) : 0f;
-        }
-
-        private float CalculateIoU2D(Rect a, Rect b)
-        {
-            float x1 = Mathf.Max(a.xMin, b.xMin);
-            float y1 = Mathf.Max(a.yMin, b.yMin);
-            float x2 = Mathf.Min(a.xMax, b.xMax);
-            float y2 = Mathf.Min(a.yMax, b.yMax);
-
-            float intersection = Mathf.Max(0, x2 - x1) * Mathf.Max(0, y2 - y1);
-            float union = a.width * a.height + b.width * b.height - intersection;
-
-            return union > 0 ? intersection / union : 0f;
-        }
-
-        private List<(int trackIdx, int detIdx)> GreedyMatch(
-            float[,] costMatrix,
-            List<(int trackIdx, int detIdx)> validPairs)
-        {
-            List<(int, int)> matches = new List<(int, int)>();
-
-            if (activeTracks.Count == 0 || validPairs.Count == 0)
-                return matches;
-
-            var sortedPairs = validPairs
-                .OrderBy(p => costMatrix[p.trackIdx, p.detIdx])
-                .ToList();
-
-            HashSet<int> usedTracks = new HashSet<int>();
-            HashSet<int> usedDetections = new HashSet<int>();
-
-            foreach (var (trackIdx, detIdx) in sortedPairs)
+            foreach (var (ti, di) in sorted)
             {
-                if (usedTracks.Contains(trackIdx) || usedDetections.Contains(detIdx))
-                    continue;
-
-                matches.Add((trackIdx, detIdx));
-                usedTracks.Add(trackIdx);
-                usedDetections.Add(detIdx);
+                if (usedTracks.Contains(ti) || usedDets.Contains(di)) continue;
+                matches.Add((ti, di));
+                usedTracks.Add(ti);
+                usedDets.Add(di);
             }
 
             return matches;
         }
 
-        private void UpdateTrack(TrackedObject track, Detection3D detection, float updateTime)
+        private void UpdateTrack(TrackedObject track, Detection3D det, float updateTime)
         {
             float dtMeas = updateTime - track.lastMeasuredTime;
             if (dtMeas > 0.01f)
             {
-                Vector3 newVelocity = (detection.worldPosition - track.lastMeasuredPosition) / dtMeas;
-                track.velocity = Vector3.Lerp(track.velocity, newVelocity, config.smoothingAlphaVelocity);
+                Vector3 newVel = (det.worldPosition - track.lastMeasuredPosition) / dtMeas;
+                track.velocity = Vector3.Lerp(track.velocity, newVel, config.smoothingAlphaVelocity);
             }
 
-            track.worldPosition = detection.worldPosition;
-            track.worldSize = Vector3.Lerp(track.worldSize, detection.worldSize, config.smoothingAlphaSize);
+            track.worldPosition = det.worldPosition;
+            track.worldSize = Vector3.Lerp(track.worldSize, det.worldSize, config.smoothingAlphaSize);
             track.worldBounds = new Bounds(track.worldPosition, track.worldSize);
-
-            track.depth = detection.depth;
-            track.centerRay = detection.centerRay;
-            track.centerPixel = detection.centerPixel;
-            track.bbox2D = detection.bbox2D;
-            track.confidence = detection.detection.confidence;
+            track.depth = det.depth;
+            track.centerRay = det.centerRay;
+            track.centerPixel = det.centerPixel;
+            track.bbox2D = det.bbox2D;
+            track.confidence = det.detection.confidence;
             track.lastUpdateTime = updateTime;
             track.stateTime = updateTime;
             track.timeSinceLastUpdate = 0f;
-            track.lastCameraPose = detection.cameraPose;
-
-            track.lastMeasuredPosition = detection.worldPosition;
+            track.lastCameraPose = det.cameraPose;
+            track.lastMeasuredPosition = det.worldPosition;
             track.lastMeasuredTime = updateTime;
 
             track.hits++;
@@ -441,386 +466,339 @@ namespace ARObjectDetection
             if (track.hits >= config.minHits && track.state == TrackState.Tentative)
             {
                 track.state = TrackState.Confirmed;
-                Debug.Log($"[ObjectTracker] ✅ Track {track.id} CONFIRMED ({track.className}) after {track.hits} hits");
+                Debug.Log($"[ObjectTracker] ✅ Track {track.id} CONFIRMED ({track.className})");
             }
 
-            track.AddToHistory(detection.worldPosition, updateTime);
+            track.AddToHistory(det.worldPosition, updateTime);
         }
 
-        private void HandleUnmatchedTracks(List<(int trackIdx, int detIdx)> matches, float currentTime)
+        private void HandleUnmatchedTracks(List<(int, int)> matches, float now)
         {
-            var unmatchedTrackIndices = Enumerable.Range(0, activeTracks.Count)
-                .Except(matches.Select(m => m.trackIdx))
-                .ToList();
+            var matchedTrackIndices = matches.Select(m => m.Item1).ToHashSet();
 
-            if (unmatchedTrackIndices.Count > 0)
+            for (int i = 0; i < activeTracks.Count; i++)
             {
-                Debug.Log($"[ObjectTracker] 👻 {unmatchedTrackIndices.Count} unmatched tracks");
-            }
+                if (matchedTrackIndices.Contains(i)) continue;
 
-            foreach (int idx in unmatchedTrackIndices)
-            {
-                var track = activeTracks[idx];
+                var track = activeTracks[i];
+                if (track.state == TrackState.Lost) continue;  // Already Lost
 
-                float maxAge = track.state == TrackState.Confirmed
-                    ? config.maxMissTimeSec
-                    : config.maxMissTimeSec * 0.5f;
+                float maxMiss = track.state == TrackState.Confirmed
+                    ? config.confirmedMaxMissTimeSec
+                    : config.tentativeMaxMissTimeSec;
 
-                if (track.timeSinceLastUpdate > maxAge)
+                if (track.timeSinceLastUpdate > maxMiss)
                 {
-                    track.state = TrackState.Lost;
-                    Debug.Log($"[ObjectTracker] ❌ Track {track.id} LOST ({track.className}) - no updates for {track.timeSinceLastUpdate:F2}s");
+                    track.MarkLost(now);
+                    Debug.Log($"[ObjectTracker] ⚠️ Track {track.id} ({track.className}) → LOST " +
+                             $"(miss={track.timeSinceLastUpdate:F2}s > {maxMiss:F1}s)");
                 }
             }
         }
 
-        private int CreateNewTracks(List<(int trackIdx, int detIdx)> matches, List<Detection3D> detections, float createTime)
+        /// <summary>
+        /// For unmatched detections: try to revive a Lost track first, else create new.
+        /// Uses 3D-ONLY matching for revival.
+        /// </summary>
+        private void CreateNewTracksOrRevive(List<Detection3D> detections, HashSet<int> matchedDetIndices, float createTime)
         {
-            var unmatchedDetIndices = Enumerable.Range(0, detections.Count)
-                .Except(matches.Select(m => m.detIdx))
-                .ToList();
-
-            if (unmatchedDetIndices.Count > 0)
+            for (int detIdx = 0; detIdx < detections.Count; detIdx++)
             {
-                Debug.Log($"[ObjectTracker] 🆕 {unmatchedDetIndices.Count} unmatched detections → creating new tracks");
-            }
+                if (matchedDetIndices.Contains(detIdx)) continue;
 
-            int created = 0;
-            foreach (int idx in unmatchedDetIndices)
-            {
-                Detection3D detection = detections[idx];
+                Detection3D det = detections[detIdx];
 
-                bool tooClose = activeTracks.Any(t =>
-                    t.className == detection.detection.class_name &&
-                    Vector3.Distance(t.worldPosition, detection.worldPosition) < 0.3f
-                );
-
-                if (tooClose)
+                // === TRY REVIVAL FIRST (3D-only) ===
+                TrackedObject reviveCandidate = FindRevivalCandidate3DOnly(det);
+                if (reviveCandidate != null)
                 {
-                    Debug.Log($"[ObjectTracker] ⚠️ Rejected new {detection.detection.class_name} (too close to existing track)");
+                    UpdateTrack(reviveCandidate, det, createTime);
+                    reviveCandidate.Revive();
+                    reviveCountSecondPass++;
+                    Debug.Log($"[ObjectTracker] 🔄 REVIVED Track {reviveCandidate.id} ({reviveCandidate.className}) " +
+                             $"via second-pass - revival #{reviveCandidate.revivalCount}");
                     continue;
                 }
 
-                CreateNewTrack(detection, createTime);
-                created++;
-            }
+                // === CHECK: Is there a recent Lost track nearby that we SHOULD have revived? ===
+                bool recentLostExists = activeTracks.Any(t =>
+                    t.IsEligibleForRevival(config.reacquireWindowSec) &&
+                    t.classId == det.detection.class_id &&
+                    Vector3.Distance(t.worldPosition, det.worldPosition) < config.reacquireMax3DDistance * 1.5f
+                );
 
-            return created;
+                // === CHECK: Too close to an ACTIVE track? ===
+                bool tooCloseToActive = activeTracks.Any(t =>
+                    t.state != TrackState.Lost &&
+                    t.classId == det.detection.class_id &&
+                    Vector3.Distance(t.worldPosition, det.worldPosition) < 0.3f
+                );
+
+                if (tooCloseToActive)
+                {
+                    Debug.Log($"[ObjectTracker] ⚠️ Rejected {det.detection.class_name} (too close to active)");
+                    continue;
+                }
+
+                // === CREATE NEW TRACK ===
+                if (recentLostExists)
+                {
+                    newTrackCreatedWhileRecentLostExists++;
+                    Debug.LogWarning($"[ObjectTracker] ⚠️ Creating NEW track while recent Lost exists! " +
+                                   $"(class={det.detection.class_name}) - check thresholds");
+                }
+
+                CreateNewTrack(det, createTime);
+            }
         }
 
-        private void CreateNewTrack(Detection3D detection, float createTime)
+        /// <summary>
+        /// Find best Lost track to revive using 3D distance ONLY.
+        /// </summary>
+        private TrackedObject FindRevivalCandidate3DOnly(Detection3D det)
         {
-            TrackedObject newTrack = new TrackedObject
+            TrackedObject best = null;
+            float bestDist = config.reacquireMax3DDistance;
+
+            foreach (var track in activeTracks)
+            {
+                if (!track.IsEligibleForRevival(config.reacquireWindowSec)) continue;
+                if (track.classId != det.detection.class_id) continue;
+
+                float dist = Vector3.Distance(track.worldPosition, det.worldPosition);
+                if (dist < bestDist)
+                {
+                    bestDist = dist;
+                    best = track;
+                }
+            }
+
+            return best;
+        }
+
+        private void CreateNewTrack(Detection3D det, float createTime)
+        {
+            var track = new TrackedObject
             {
                 id = nextTrackId++,
-                classId = detection.detection.class_id,
-                className = detection.detection.class_name,
+                classId = det.detection.class_id,
+                className = det.detection.class_name,
                 stateTime = createTime,
-                lastMeasuredPosition = detection.worldPosition,
+                lastMeasuredPosition = det.worldPosition,
                 lastMeasuredTime = createTime,
-                worldPosition = detection.worldPosition,
-                worldPositionSmoothed = detection.worldPosition,
-                worldSize = detection.worldSize,
-                worldBounds = detection.worldBounds,
+                worldPosition = det.worldPosition,
+                worldPositionSmoothed = det.worldPosition,
+                worldSize = det.worldSize,
+                worldBounds = det.worldBounds,
                 worldRotation = Quaternion.identity,
                 velocity = Vector3.zero,
                 velocitySmoothed = Vector3.zero,
-                centerRay = detection.centerRay,
-                depth = detection.depth,
-                centerPixel = detection.centerPixel,
-                bbox2D = detection.bbox2D,
+                centerRay = det.centerRay,
+                depth = det.depth,
+                centerPixel = det.centerPixel,
+                bbox2D = det.bbox2D,
                 state = TrackState.Tentative,
                 hits = 1,
                 timeSinceLastUpdate = 0f,
                 lastUpdateTime = createTime,
-                confidence = detection.detection.confidence,
-                lastCameraPose = detection.cameraPose,
+                confidence = det.detection.confidence,
+                lastCameraPose = det.cameraPose,
                 trackConfidence = 1.0f,
                 displayColor = Color.yellow,
             };
 
-            activeTracks.Add(newTrack);
+            activeTracks.Add(track);
+            Debug.Log($"[ObjectTracker] 🆕 New track {track.id} ({track.className})");
+        }
 
-            Debug.Log($"[ObjectTracker] 🆕 New track {newTrack.id} created ({newTrack.className})");
+        private void PredictTrack(TrackedObject track, float dt)
+        {
+            if (Mathf.Abs(dt) < 0.001f) return;
+            track.worldPosition += track.velocity * dt;
+            track.worldBounds.center = track.worldPosition;
+            if (track.velocity.magnitude > config.maxObjectVelocity)
+                track.velocity = track.velocity.normalized * config.maxObjectVelocity;
         }
 
         private void MergeDuplicateTracks()
         {
-            int mergedCount = 0;
-
             for (int i = 0; i < activeTracks.Count; i++)
             {
+                var t1 = activeTracks[i];
+                if (t1.state == TrackState.Lost) continue;
+
                 for (int j = i + 1; j < activeTracks.Count; j++)
                 {
-                    var track1 = activeTracks[i];
-                    var track2 = activeTracks[j];
+                    var t2 = activeTracks[j];
+                    if (t2.state == TrackState.Lost) continue;
+                    if (t1.className != t2.className) continue;
 
-                    if (track1.className == track2.className)
+                    float dist = Vector3.Distance(t1.worldPosition, t2.worldPosition);
+                    if (dist < 0.25f)
                     {
-                        float dist = Vector3.Distance(track1.worldPosition, track2.worldPosition);
+                        var keep = t1.state == TrackState.Confirmed ? t1 :
+                                  t2.state == TrackState.Confirmed ? t2 :
+                                  (t1.id < t2.id ? t1 : t2);
+                        var remove = keep == t1 ? t2 : t1;
 
-                        if (dist < 0.25f)
-                        {
-                            TrackedObject keepTrack, removeTrack;
-
-                            if (track1.state == TrackState.Confirmed && track2.state != TrackState.Confirmed)
-                            {
-                                keepTrack = track1;
-                                removeTrack = track2;
-                            }
-                            else if (track2.state == TrackState.Confirmed && track1.state != TrackState.Confirmed)
-                            {
-                                keepTrack = track2;
-                                removeTrack = track1;
-                            }
-                            else
-                            {
-                                keepTrack = track1.id < track2.id ? track1 : track2;
-                                removeTrack = track1.id < track2.id ? track2 : track1;
-                            }
-
-                            removeTrack.state = TrackState.Lost;
-                            mergedCount++;
-
-                            Debug.Log($"[ObjectTracker] 🔀 Merged track {removeTrack.id} into {keepTrack.id} ({keepTrack.className}, dist={dist:F2}m)");
-                        }
+                        remove.MarkLost(Time.realtimeSinceStartup);
+                        Debug.Log($"[ObjectTracker] 🔀 Merged {remove.id} into {keep.id} ({keep.className})");
                     }
                 }
             }
-
-            if (mergedCount > 0)
-            {
-                Debug.Log($"[ObjectTracker] 🔀 Total merges: {mergedCount}");
-            }
         }
 
-        /// <summary>
-        /// Convert 2D pixel coordinates to 3D world ray (CORRECTED)
-        /// </summary>
-        private Ray PixelToWorldRay(Vector2Int pixelCoords, PassthroughCameraIntrinsics intrinsics, Pose cameraPose)
+        private float CalculateIoU3D(Bounds a, Bounds b)
         {
-            float x_norm = (pixelCoords.x - intrinsics.PrincipalPoint.x) / intrinsics.FocalLength.x;
-            float y_norm = (pixelCoords.y - intrinsics.PrincipalPoint.y) / intrinsics.FocalLength.y;
-
-            Vector3 rayDirLocal = new Vector3(x_norm, y_norm, 1f).normalized;
-            Vector3 rayDirWorld = cameraPose.rotation * rayDirLocal;
-
-            Ray worldRay = new Ray(cameraPose.position, rayDirWorld);
-
-            if (config.enableDebugLogs)
-            {
-                Debug.Log($"[Coord Transform] Pixel:{pixelCoords} → Norm:({x_norm:F3},{y_norm:F3}) → Ray:{rayDirWorld}");
-            }
-
-            return worldRay;
+            Vector3 min = Vector3.Max(a.min, b.min);
+            Vector3 max = Vector3.Min(a.max, b.max);
+            Vector3 d = max - min;
+            if (d.x <= 0 || d.y <= 0 || d.z <= 0) return 0f;
+            float inter = d.x * d.y * d.z;
+            float volA = a.size.x * a.size.y * a.size.z;
+            float volB = b.size.x * b.size.y * b.size.z;
+            float union = volA + volB - inter;
+            return union > 0 ? inter / union : 0f;
         }
 
-        /// <summary>
-        /// Convert 2D detections to 3D with CORRECTED coordinate transforms and bbox scaling
-        /// FIXED: Now scales bbox coordinates from sent resolution to camera intrinsics resolution
-        /// </summary>
+        private float CalculateIoU2D(Rect a, Rect b)
+        {
+            float x1 = Mathf.Max(a.xMin, b.xMin);
+            float y1 = Mathf.Max(a.yMin, b.yMin);
+            float x2 = Mathf.Min(a.xMax, b.xMax);
+            float y2 = Mathf.Min(a.yMax, b.yMax);
+            float inter = Mathf.Max(0, x2 - x1) * Mathf.Max(0, y2 - y1);
+            float union = a.width * a.height + b.width * b.height - inter;
+            return union > 0 ? inter / union : 0f;
+        }
+
+        private Ray PixelToWorldRay(Vector2Int pixel, PassthroughCameraIntrinsics intrinsics, Pose cameraPose)
+        {
+            float xn = (pixel.x - intrinsics.PrincipalPoint.x) / intrinsics.FocalLength.x;
+            float yn = (pixel.y - intrinsics.PrincipalPoint.y) / intrinsics.FocalLength.y;
+            Vector3 dirLocal = new Vector3(xn, yn, 1f).normalized;
+            Vector3 dirWorld = cameraPose.rotation * dirLocal;
+            return new Ray(cameraPose.position, dirWorld);
+        }
+
+        private Vector2Int WorldPointToPixel(Vector3 worldPos, Pose cameraPose)
+        {
+            if (!cameraIntrinsics.HasValue) return Vector2Int.zero;
+            var intrinsics = cameraIntrinsics.Value;
+            Vector3 local = Quaternion.Inverse(cameraPose.rotation) * (worldPos - cameraPose.position);
+            if (Mathf.Abs(local.z) < 0.01f) return Vector2Int.zero;
+            float xn = local.x / local.z;
+            float yn = local.y / local.z;
+            float xp = xn * intrinsics.FocalLength.x + intrinsics.PrincipalPoint.x;
+            float yp = yn * intrinsics.FocalLength.y + intrinsics.PrincipalPoint.y;
+            return new Vector2Int(Mathf.RoundToInt(xp), Mathf.RoundToInt(yp));
+        }
+
         private List<Detection3D> ConvertDetectionsTo3D(DetectionResponse response)
         {
-            List<Detection3D> detections3D = new List<Detection3D>();
-            PassthroughCameraIntrinsics intrinsics = cameraIntrinsics.Value;
+            var result = new List<Detection3D>();
+            var intrinsics = cameraIntrinsics.Value;
 
-            // CRITICAL FIX: Get sent image size and camera intrinsics resolution
             int sentW = response.image_size[0];
             int sentH = response.image_size[1];
             int camW = intrinsics.Resolution.x;
             int camH = intrinsics.Resolution.y;
 
-            // Calculate scaling factors
-            float sx = (sentW > 0) ? (float)camW / sentW : 1f;
-            float sy = (sentH > 0) ? (float)camH / sentH : 1f;
+            float sx = sentW > 0 ? (float)camW / sentW : 1f;
+            float sy = sentH > 0 ? (float)camH / sentH : 1f;
 
-            Debug.Log($"[Coord Scale] Sent:{sentW}×{sentH} → Camera:{camW}×{camH} | sx={sx:F2}, sy={sy:F2}");
+            Pose camPose = new Pose(centerEyeTransform.position, centerEyeTransform.rotation);
 
-            Pose currentCameraPose = new Pose(
-                centerEyeTransform.position,
-                centerEyeTransform.rotation
-            );
-
-            foreach (var detection in response.detections)
+            foreach (var det in response.detections)
             {
-                if (detection.bbox == null || detection.bbox.Length != 4)
-                    continue;
+                if (det.bbox == null || det.bbox.Length != 4) continue;
 
-                // CRITICAL FIX: Scale bbox from sent resolution to camera intrinsics resolution
-                float x1_sent = detection.bbox[0];
-                float y1_sent = detection.bbox[1];
-                float x2_sent = detection.bbox[2];
-                float y2_sent = detection.bbox[3];
+                float x1 = det.bbox[0] * sx;
+                float y1 = det.bbox[1] * sy;
+                float x2 = det.bbox[2] * sx;
+                float y2 = det.bbox[3] * sy;
 
-                // Scale to camera resolution
-                float x1_cam = x1_sent * sx;
-                float y1_cam = y1_sent * sy;
-                float x2_cam = x2_sent * sx;
-                float y2_cam = y2_sent * sy;
+                float y1f = camH - y1;
+                float y2f = camH - y2;
+                float yMin = Mathf.Min(y1f, y2f);
+                float yMax = Mathf.Max(y1f, y2f);
 
-                // Flip Y-axis (now in camera resolution space)
-                float y1 = camH - y1_cam;
-                float y2 = camH - y2_cam;
+                float bboxH = yMax - yMin;
+                float yOff = autoCorrectYOffset ? bboxH * yOffsetPercentage : 0f;
+                yOff += manualYOffsetPixels;
 
-                float y_min = Mathf.Min(y1, y2);
-                float y_max = Mathf.Max(y1, y2);
-
-                float x1 = x1_cam;
-                float x2 = x2_cam;
-
-                // Y-offset correction
-                float bboxHeightPixels = y_max - y_min;
-                float yOffsetAdjustment = 0f;
-
-                if (autoCorrectYOffset)
-                {
-                    yOffsetAdjustment = bboxHeightPixels * yOffsetPercentage;
-                }
-
-                yOffsetAdjustment += manualYOffsetPixels;
-
-                Vector2Int centerPixel = new Vector2Int(
+                Vector2Int center = new Vector2Int(
                     Mathf.RoundToInt((x1 + x2) / 2f),
-                    Mathf.RoundToInt((y_min + y_max) / 2f + yOffsetAdjustment)
+                    Mathf.RoundToInt((yMin + yMax) / 2f + yOff)
                 );
 
-                if (config.enableDebugLogs)
-                {
-                    Debug.Log($"[Coord Debug] {detection.class_name}:\n" +
-                             $"  Sent bbox: ({x1_sent:F1}, {y1_sent:F1}, {x2_sent:F1}, {y2_sent:F1})\n" +
-                             $"  Scaled bbox: ({x1_cam:F1}, {y1_cam:F1}, {x2_cam:F1}, {y2_cam:F1})\n" +
-                             $"  Y-flipped: ({x1:F1}, {y_min:F1}, {x2:F1}, {y_max:F1})\n" +
-                             $"  Center pixel: {centerPixel}");
-                }
-
-                Ray centerRay = PixelToWorldRay(centerPixel, intrinsics, currentCameraPose);
-
+                Ray ray = PixelToWorldRay(center, intrinsics, camPose);
                 float depth = defaultDepth;
-                if (Physics.Raycast(centerRay, out RaycastHit hit, maxRaycastDistance, raycastLayers))
-                {
+                if (Physics.Raycast(ray, out RaycastHit hit, maxRaycastDistance, raycastLayers))
                     depth = hit.distance;
-                }
 
-                Vector3 worldPosition = centerRay.origin + centerRay.direction * depth;
+                Vector3 worldPos = ray.origin + ray.direction * depth;
 
-                float thickness = Mathf.Clamp(
-                    depth * config.depthThicknessFraction,
-                    config.minBoundsThickness,
-                    config.maxBoundsThickness
-                );
+                float thickness = Mathf.Clamp(depth * config.depthThicknessFraction,
+                    config.minBoundsThickness, config.maxBoundsThickness);
 
-                Bounds bounds = BuildBoundsFrom8PointsFixed(
-                    x1, y_min, x2, y_max,
-                    depth, thickness,
-                    intrinsics, currentCameraPose
-                );
+                float pw = x2 - x1;
+                float ph = yMax - yMin;
+                float ww = (pw * depth) / intrinsics.FocalLength.x;
+                float wh = (ph * depth) / intrinsics.FocalLength.y;
 
-                float pixelWidth = x2 - x1;
-                float pixelHeight = y_max - y_min;
+                Bounds bounds = new Bounds(worldPos, new Vector3(ww, wh, thickness));
 
-                float worldWidth = (pixelWidth * depth) / intrinsics.FocalLength.x;
-                float worldHeight = (pixelHeight * depth) / intrinsics.FocalLength.y;
-
-                Detection3D det3D = new Detection3D
+                result.Add(new Detection3D
                 {
-                    detection = detection,
-                    worldPosition = worldPosition,
-                    worldSize = new Vector3(worldWidth, worldHeight, thickness),
+                    detection = det,
+                    worldPosition = worldPos,
+                    worldSize = new Vector3(ww, wh, thickness),
                     worldBounds = bounds,
                     depth = depth,
-                    centerRay = centerRay,
-                    centerPixel = centerPixel,
-                    bbox2D = new Rect(x1, y_min, x2 - x1, pixelHeight),
-                    cameraPose = currentCameraPose
-                };
-
-                detections3D.Add(det3D);
+                    centerRay = ray,
+                    centerPixel = center,
+                    bbox2D = new Rect(x1, yMin, pw, ph),
+                    cameraPose = camPose
+                });
             }
 
-            return detections3D;
+            return result;
         }
 
-        /// <summary>
-        /// Build AABB from 8 corner points (FIXED coordinate transform)
-        /// </summary>
-        private Bounds BuildBoundsFrom8PointsFixed(
-            float x1, float y1, float x2, float y2,
-            float centerDepth, float thickness,
-            PassthroughCameraIntrinsics intrinsics,
-            Pose cameraPose)
+        private void LogMetricsSummary()
         {
-            float nearDepth = Mathf.Max(0.1f, centerDepth - thickness * 0.5f);
-            float farDepth = centerDepth + thickness * 0.5f;
-
-            Vector2Int topLeft = new Vector2Int(Mathf.RoundToInt(x1), Mathf.RoundToInt(y2));
-            Vector2Int topRight = new Vector2Int(Mathf.RoundToInt(x2), Mathf.RoundToInt(y2));
-            Vector2Int bottomLeft = new Vector2Int(Mathf.RoundToInt(x1), Mathf.RoundToInt(y1));
-            Vector2Int bottomRight = new Vector2Int(Mathf.RoundToInt(x2), Mathf.RoundToInt(y1));
-
-            Ray rayTL = PixelToWorldRay(topLeft, intrinsics, cameraPose);
-            Ray rayTR = PixelToWorldRay(topRight, intrinsics, cameraPose);
-            Ray rayBL = PixelToWorldRay(bottomLeft, intrinsics, cameraPose);
-            Ray rayBR = PixelToWorldRay(bottomRight, intrinsics, cameraPose);
-
-            Vector3[] points = new Vector3[8]
-            {
-                rayTL.GetPoint(nearDepth),
-                rayTR.GetPoint(nearDepth),
-                rayBL.GetPoint(nearDepth),
-                rayBR.GetPoint(nearDepth),
-                rayTL.GetPoint(farDepth),
-                rayTR.GetPoint(farDepth),
-                rayBL.GetPoint(farDepth),
-                rayBR.GetPoint(farDepth)
-            };
-
-            Bounds bounds = new Bounds(points[0], Vector3.zero);
-            for (int i = 1; i < points.Length; i++)
-            {
-                bounds.Encapsulate(points[i]);
-            }
-
-            return bounds;
+            Debug.Log($"[ObjectTracker] === METRICS SUMMARY ===");
+            Debug.Log($"  Tracks: {ActiveTrackCount} active, {LostTrackCount} lost (retained), {TotalTrackCount} total");
+            Debug.Log($"  Revivals: mainMatch={reviveCountMainMatch}, secondPass={reviveCountSecondPass}");
+            Debug.Log($"  NewWhileLostExists: {newTrackCreatedWhileRecentLostExists} (should be ~0)");
+            Debug.Log($"  LostPruned: {lostPrunedCount}");
         }
 
-        /// <summary>
-        /// Convert 3D world point back to 2D pixel coordinates (inverse transform)
-        /// Used for motion compensation
-        /// </summary>
-        private Vector2Int WorldPointToPixel(Vector3 worldPos, Pose cameraPose)
+        public void ResetMetrics()
         {
-            if (!cameraIntrinsics.HasValue) return Vector2Int.zero;
+            reviveCountMainMatch = 0;
+            reviveCountSecondPass = 0;
+            newTrackCreatedWhileRecentLostExists = 0;
+            blockedBy2DGateCount = 0;
+            lostPrunedCount = 0;
+        }
 
-            var intrinsics = cameraIntrinsics.Value;
+        private void OnGUI()
+        {
+            if (!config.showRevivalMetrics) return;
 
-            Vector3 localPos = Quaternion.Inverse(cameraPose.rotation) * (worldPos - cameraPose.position);
-
-            if (Mathf.Abs(localPos.z) < 0.01f)
-            {
-                Debug.LogWarning($"[WorldToPixel] Point behind camera: {worldPos}");
-                return Vector2Int.zero;
-            }
-
-            float x_norm = localPos.x / localPos.z;
-            float y_norm = localPos.y / localPos.z;
-
-            float x_pixel = x_norm * intrinsics.FocalLength.x + intrinsics.PrincipalPoint.x;
-            float y_pixel = y_norm * intrinsics.FocalLength.y + intrinsics.PrincipalPoint.y;
-
-            Vector2Int pixel = new Vector2Int(Mathf.RoundToInt(x_pixel), Mathf.RoundToInt(y_pixel));
-
-            if (config.enableDebugLogs)
-            {
-                Debug.Log($"[WorldToPixel] {worldPos} → Local:{localPos} → Norm:({x_norm:F3},{y_norm:F3}) → Pixel:{pixel}");
-            }
-
-            return pixel;
+            GUILayout.BeginArea(new Rect(10, 130, 450, 140));
+            GUILayout.Label("=== 3D-FIRST TRACKER METRICS ===");
+            GUILayout.Label($"Active: {ActiveTrackCount} | Lost (retained): {LostTrackCount} | Total: {TotalTrackCount}");
+            GUILayout.Label($"Confirmed: {ConfirmedTrackCount}");
+            GUILayout.Label($"Revivals: main={reviveCountMainMatch} + secondPass={reviveCountSecondPass}");
+            GUILayout.Label($"NewWhileLostExists: {newTrackCreatedWhileRecentLostExists} (should be ~0)");
+            GUILayout.Label($"LostPruned: {lostPrunedCount}");
+            GUILayout.EndArea();
         }
     }
 
-    /// <summary>
-    /// Detection with 3D information and bounds
-    /// </summary>
     public class Detection3D
     {
         public Detection detection;

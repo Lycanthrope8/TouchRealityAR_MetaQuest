@@ -883,7 +883,7 @@ MonoBehaviour:
   visualizer: {fileID: 638982208}
   visualizer3D: {fileID: 691523316}
   tracker: {fileID: 670715294}
-  depthAnchorSystem: {fileID: 0}
+  depthAnchorSystem: {fileID: 670715295}
   enable3DBoundingBoxes: 0
   enableDepthAnchors: 1
   OnDetectionReceived:
