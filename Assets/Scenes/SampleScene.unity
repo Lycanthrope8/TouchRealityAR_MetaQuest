@@ -973,7 +973,7 @@ MonoBehaviour:
   lockCooldown: 0.5
   smoothingAlpha: 0.5
   movementThreshold: 0.005
-  onlyConfirmedTracks: 0
+  onlyConfirmedTracks: 1
   minimumConfidence: 0.3
   anchorScale: 0.1
   scaleWithDistance: 0
@@ -981,6 +981,11 @@ MonoBehaviour:
   tentativeColor: {r: 1, g: 0.85, b: 0.2, a: 0.9}
   lockedColor: {r: 0, g: 0.8, b: 1, a: 1}
   selectedColor: {r: 1, g: 0.5, b: 0, a: 1}
+  orphanedColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.7}
+  reassociationRadiusMeters: 0.45
+  dedupRadiusMeters: 0.25
+  orphanCleanupEnabled: 1
+  orphanTTLSeconds: 120
   enableDebugLogs: 1
   drawDebugRays: 1
   OnAnchorSelected:

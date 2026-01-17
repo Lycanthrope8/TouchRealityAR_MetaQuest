@@ -20684,7 +20684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateVertexColorsU3Ed__10
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 111916
+// Method Definition Index: 111942
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* WebCamTextureManager_get_WebCamTexture_m4C964E06941EEA90515B8D550504D909DF099E73_inline (WebCamTextureManager_tE20615C91777D8897C883309CDD5867DC613EC4B* __this, const RuntimeMethod* method) 
 {
 	{
