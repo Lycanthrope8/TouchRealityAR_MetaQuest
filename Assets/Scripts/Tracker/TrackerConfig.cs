@@ -2,50 +2,63 @@ using UnityEngine;
 
 namespace ARObjectDetection
 {
+          /// <summary>
+          /// Configuration for ObjectTracker - OPTIMIZED FOR LONG-TERM MR UX
+          /// 
+          /// Design Philosophy:
+          /// - Objects don't "disappear" in the real world, they get occluded
+          /// - Track IDs should be nearly permanent during a session
+          /// - Lost tracks are retained for long periods and can always be revived
+          /// - Minimal ID switching = stable anchors/overlays
+          /// </summary>
           [CreateAssetMenu(fileName = "TrackerConfig", menuName = "AR Detection/Tracker Config")]
           public class TrackerConfig : ScriptableObject
           {
-                    [Header("=== 3D-FIRST ASSOCIATION (MR Best Practice) ===")]
+                    [Header("=== 3D-FIRST ASSOCIATION ===")]
                     [Tooltip("Primary 3D distance gate for normal matching (meters)")]
                     public float max3DDistance = 1.5f;
 
-                    [Tooltip("Minimum 3D IoU - used as cost factor, NOT hard gate")]
+                    [Tooltip("3D IoU threshold - used as cost factor, NOT hard gate")]
                     [Range(0.0f, 0.5f)]
                     public float iou3DThreshold = 0.05f;
 
-                    [Tooltip("Minimum 2D IoU - used as cost factor, NOT hard gate")]
+                    [Tooltip("2D IoU threshold - used as cost factor only")]
                     [Range(0.0f, 0.9f)]
                     public float iou2DThreshold = 0.15f;
 
-                    [Tooltip("Maximum center distance in pixels - used as cost factor, NOT hard gate")]
+                    [Tooltip("2D center distance - used as cost factor only, NOT hard gate")]
                     public float maxCenterDistance = 300f;
 
-                    [Header("=== REACQUISITION / REVIVAL (Critical for MR) ===")]
-                    [Tooltip("Max 3D distance for reviving Lost tracks (meters) - MUST be >= max3DDistance because 3D estimates are noisier after occlusion")]
-                    public float reacquireMax3DDistance = 2.0f;
+                    [Header("=== REACQUISITION / REVIVAL ===")]
+                    [Tooltip("Max 3D distance for reviving Lost tracks - relaxed because estimates are noisier after occlusion")]
+                    public float reacquireMax3DDistance = 2.5f;
 
-                    [Tooltip("Time window (seconds) during which Lost tracks can be revived")]
-                    [Range(1.0f, 15f)]
-                    public float reacquireWindowSec = 5.0f;
+                    [Tooltip("Time window during which Lost tracks can be revived via matching (seconds)")]
+                    [Range(5f, 120f)]
+                    public float reacquireWindowSec = 60f;
 
-                    [Header("=== LIFECYCLE THRESHOLDS ===")]
-                    [Tooltip("How long CONFIRMED tracks tolerate no updates before going Lost")]
-                    [Range(1.0f, 10f)]
-                    public float confirmedMaxMissTimeSec = 4.0f;
+                    [Header("=== TRACK LIFECYCLE (Long-Term MR) ===")]
+                    [Tooltip("How long CONFIRMED tracks tolerate no detections before going Lost")]
+                    [Range(2f, 30f)]
+                    public float confirmedMaxMissTimeSec = 10f;
 
-                    [Tooltip("How long TENTATIVE tracks tolerate no updates before going Lost")]
-                    [Range(0.5f, 5f)]
-                    public float tentativeMaxMissTimeSec = 1.5f;
+                    [Tooltip("How long TENTATIVE tracks tolerate no detections before going Lost")]
+                    [Range(1f, 10f)]
+                    public float tentativeMaxMissTimeSec = 3f;
 
-                    [Tooltip("How long Lost tracks are RETAINED for revival (seconds) - critical for MR!")]
-                    [Range(2.0f, 20f)]
-                    public float lostRetentionTimeSec = 8.0f;
+                    [Tooltip("How long Lost tracks are RETAINED before permanent deletion (seconds) - SET HIGH for long-term MR")]
+                    [Range(10f, 300f)]
+                    public float lostRetentionTimeSec = 120f;
 
-                    [Tooltip("(LEGACY) - kept for backward compat, use confirmedMaxMissTimeSec instead")]
-                    [Range(0.5f, 10f)]
+                    [Tooltip("(LEGACY) Kept for backward compat")]
                     public float maxMissTimeSec = 2.5f;
 
-                    [Header("3D Bounds Estimation")]
+                    [Header("=== TRACK CONFIRMATION ===")]
+                    [Tooltip("Minimum successful matches to become Confirmed")]
+                    [Range(1, 10)]
+                    public int minHits = 3;
+
+                    [Header("=== 3D BOUNDS ESTIMATION ===")]
                     [Tooltip("Depth thickness as fraction of center depth")]
                     [Range(0.05f, 0.5f)]
                     public float depthThicknessFraction = 0.15f;
@@ -56,61 +69,72 @@ namespace ARObjectDetection
                     [Tooltip("Maximum bounds thickness in meters")]
                     public float maxBoundsThickness = 0.80f;
 
-                    [Header("Track Confirmation")]
-                    [Tooltip("Minimum successful matches to become Confirmed")]
-                    [Range(1, 10)]
-                    public int minHits = 3;
-
-                    [Header("Smoothing")]
-                    [Tooltip("Position smoothing (lower = smoother)")]
+                    [Header("=== SMOOTHING ===")]
+                    [Tooltip("Position smoothing (lower = smoother, higher = more responsive)")]
                     [Range(0.05f, 1f)]
-                    public float smoothingAlphaPosition = 0.6f;
+                    public float smoothingAlphaPosition = 0.4f;
 
                     [Tooltip("Size smoothing")]
                     [Range(0.05f, 1f)]
-                    public float smoothingAlphaSize = 0.25f;
+                    public float smoothingAlphaSize = 0.2f;
 
                     [Tooltip("Velocity smoothing")]
                     [Range(0.05f, 1f)]
-                    public float smoothingAlphaVelocity = 0.8f;
+                    public float smoothingAlphaVelocity = 0.6f;
 
-                    [Header("Motion Compensation")]
-                    [Tooltip("Enable camera motion compensation")]
+                    [Header("=== MOTION COMPENSATION ===")]
+                    [Tooltip("Enable camera motion compensation for active tracks")]
                     public bool enableMotionCompensation = true;
 
-                    [Tooltip("CRITICAL: Also motion-compensate Lost tracks during reacquire window")]
+                    [Tooltip("Motion-compensate Lost tracks during reacquire window (keeps 2D state fresh)")]
                     public bool motionCompensateLostTracks = true;
 
-                    [Tooltip("Maximum expected object velocity (m/s)")]
-                    public float maxObjectVelocity = 10.0f;
+                    [Tooltip("Continue velocity prediction for Lost tracks (keeps worldPosition moving)")]
+                    public bool predictLostTrackMotion = false;
 
-                    [Header("Debug")]
-                    [Tooltip("Show debug logs")]
+                    [Tooltip("Maximum expected object velocity (m/s)")]
+                    public float maxObjectVelocity = 5.0f;
+
+                    [Header("=== DUPLICATE PREVENTION ===")]
+                    [Tooltip("Minimum distance between tracks of same class (meters)")]
+                    public float minTrackSeparation = 0.25f;
+
+                    [Tooltip("When merging duplicates, prefer the older track")]
+                    public bool preferOlderTrackOnMerge = true;
+
+                    [Header("=== DEBUG ===")]
+                    [Tooltip("Enable debug logs")]
                     public bool enableDebugLogs = true;
 
-                    [Tooltip("Show track IDs in 3D")]
+                    [Tooltip("Show track IDs in 3D visualizations")]
                     public bool showTrackIDs = true;
 
-                    [Tooltip("Show revival metrics in OnGUI")]
+                    [Tooltip("Show revival/lifecycle metrics in OnGUI")]
                     public bool showRevivalMetrics = true;
 
-                    [Tooltip("Log summary every N seconds (0 = disabled)")]
-                    public float metricsSummaryIntervalSec = 2.0f;
+                    [Tooltip("Log metrics summary every N seconds (0 = disabled)")]
+                    public float metricsSummaryIntervalSec = 5.0f;
 
                     private void OnValidate()
                     {
-                              // Ensure reacquire distance is >= normal distance (relaxed, not stricter)
+                              // Ensure reacquire distance >= normal distance
                               if (reacquireMax3DDistance < max3DDistance)
                               {
-                                        Debug.LogWarning($"[TrackerConfig] reacquireMax3DDistance ({reacquireMax3DDistance}m) should be >= max3DDistance ({max3DDistance}m). " +
-                                                       "Revival needs relaxed thresholds because 3D estimates are noisier after occlusion. Auto-correcting.");
-                                        reacquireMax3DDistance = max3DDistance;
+                                        Debug.LogWarning($"[TrackerConfig] reacquireMax3DDistance should be >= max3DDistance. Auto-correcting.");
+                                        reacquireMax3DDistance = max3DDistance * 1.5f;
                               }
 
                               // Ensure retention > reacquire window
                               if (lostRetentionTimeSec < reacquireWindowSec)
                               {
-                                        Debug.LogWarning($"[TrackerConfig] lostRetentionTimeSec ({lostRetentionTimeSec}s) should be >= reacquireWindowSec ({reacquireWindowSec}s)");
+                                        Debug.LogWarning($"[TrackerConfig] lostRetentionTimeSec should be >= reacquireWindowSec. Auto-correcting.");
+                                        lostRetentionTimeSec = reacquireWindowSec * 1.5f;
+                              }
+
+                              // Warn if retention is short for long-term MR
+                              if (lostRetentionTimeSec < 30f)
+                              {
+                                        Debug.LogWarning($"[TrackerConfig] lostRetentionTimeSec={lostRetentionTimeSec}s is short for long-term MR. Consider 60-120s.");
                               }
                     }
           }

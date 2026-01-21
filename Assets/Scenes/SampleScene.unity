@@ -926,7 +926,7 @@ MonoBehaviour:
   defaultDepth: 2
   raycastLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   maxRaycastDistance: 10
   manualYOffsetPixels: -160
   autoCorrectYOffset: 1
@@ -963,16 +963,45 @@ MonoBehaviour:
   rayNoHitColor: {r: 1, g: 0, b: 1, a: 1}
   rayHitColor: {r: 0, g: 1, b: 1, a: 1}
   cameraEye: 0
+  defaultFollowMode: 1
+  portableClasses:
+  - mouse
+  - cell phone
+  - cup
+  - bottle
+  - remote
+  - book
+  - keyboard
+  - handbag
+  - backpack
+  staticClasses:
+  - couch
+  - chair
+  - bed
+  - dining table
+  - tv
+  - refrigerator
+  - oven
+  - sink
+  - toilet
+  - potted plant
+  - laptop
+  maxFreshnessForUpdate: 0.35
+  smoothFreshUpdates: 1
+  freshUpdateSmoothingAlpha: 0.5
+  minPositionChangeForUpdate: 0.005
+  displaySmoothTime: 0.08
+  maxDisplaySpeed: 8
   placementPoint: 3
   verticalOffset: -0.02
   fallbackDepth: 2
   maxRaycastDistance: 50
   customYPercent: 0
   minConfidenceToLock: 0.5
-  updateDistanceThreshold: 0.15
   lockCooldown: 0.5
-  smoothingAlpha: 0.5
-  movementThreshold: 0.005
+  keepAnchorsWhenLost: 1
+  lostAnchorVisibilityTime: 0
+  fadeLostAnchors: 1
   onlyConfirmedTracks: 1
   minimumConfidence: 0.3
   anchorScale: 0.1
@@ -981,13 +1010,11 @@ MonoBehaviour:
   tentativeColor: {r: 1, g: 0.85, b: 0.2, a: 0.9}
   lockedColor: {r: 0, g: 0.8, b: 1, a: 1}
   selectedColor: {r: 1, g: 0.5, b: 0, a: 1}
-  orphanedColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.7}
-  reassociationRadiusMeters: 0.45
-  dedupRadiusMeters: 0.25
-  orphanCleanupEnabled: 1
-  orphanTTLSeconds: 120
+  lostColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  staleColor: {r: 0.7, g: 0.7, b: 0.5, a: 0.9}
   enableDebugLogs: 1
   drawDebugRays: 1
+  showDataFreshnessInLabel: 0
   OnAnchorSelected:
     m_PersistentCalls:
       m_Calls: []
