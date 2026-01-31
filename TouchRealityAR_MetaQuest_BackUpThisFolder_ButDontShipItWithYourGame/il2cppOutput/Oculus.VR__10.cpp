@@ -4369,7 +4369,7 @@ IL2CPP_EXTERN_C void Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63_marsha
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_get_IsValid_m7E752AE6850685E77AB0B0C49EDB8190E989DD65 (Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:155>
 		int32_t L_0 = __this->___type;
 		return (bool)((!(((uint32_t)L_0) <= ((uint32_t)0)))? 1 : 0);
 	}
@@ -4387,19 +4387,19 @@ IL2CPP_EXTERN_C  bool Enumerator_get_IsValid_m7E752AE6850685E77AB0B0C49EDB8190E9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_m7597480358339825ECD65BB29DDF0B9C8BD0AB84 (Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63* __this, Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109 ___0_aArrayEnum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:158>
 		__this->___type = 1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:159>
 		Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D* L_0 = (Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D*)(&__this->___m_Object);
 		il2cpp_codegen_initobj(L_0, sizeof(Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:160>
 		Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109 L_1 = ___0_aArrayEnum;
 		__this->___m_Array = L_1;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_Array))->____list), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_Array))->____current), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:161>
 		return;
 	}
 }
@@ -4414,9 +4414,9 @@ IL2CPP_EXTERN_C  void Enumerator__ctor_m7597480358339825ECD65BB29DDF0B9C8BD0AB84
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_m2BCC73570599693BFFD5F6E7266B7E410F3D95F3 (Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63* __this, Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D ___0_aDictEnum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:164>
 		__this->___type = 2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:165>
 		Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D L_0 = ___0_aDictEnum;
 		__this->___m_Object = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_Object))->____dictionary), (void*)NULL);
@@ -4426,10 +4426,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_m2BCC73570599693BFFD5F6
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Object))->____current))->___value), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:166>
 		Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109* L_1 = (Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109*)(&__this->___m_Array);
 		il2cpp_codegen_initobj(L_1, sizeof(Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:167>
 		return;
 	}
 }
@@ -4452,7 +4452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyValuePair_2_tC86602D5307A611B8935C881185C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:172>
 		int32_t L_0 = __this->___type;
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
@@ -4460,7 +4460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyValuePair_2_tC86602D5307A611B8935C881185C3
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:173>
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109* L_2 = (Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109*)(&__this->___m_Array);
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_3;
@@ -4473,7 +4473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyValuePair_2_tC86602D5307A611B8935C881185C3
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:174>
 		int32_t L_5 = __this->___type;
 		if ((!(((uint32_t)L_5) == ((uint32_t)2))))
 		{
@@ -4481,7 +4481,7 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:175>
 		Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D* L_6 = (Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D*)(&__this->___m_Object);
 		KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF L_7;
 		L_7 = Enumerator_get_Current_m68A2783505391DB76A727CCFF1832820CDD8D265_inline(L_6, Enumerator_get_Current_m68A2783505391DB76A727CCFF1832820CDD8D265_RuntimeMethod_var);
@@ -4490,7 +4490,7 @@ IL_001f:
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:176>
 		String_t* L_8 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF L_9;
 		memset((&L_9), 0, sizeof(L_9));
@@ -4518,7 +4518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m075C5248E5B9B9D918F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:181>
 		int32_t L_0 = __this->___type;
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
@@ -4526,7 +4526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m075C5248E5B9B9D918F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:182>
 		Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109* L_1 = (Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109*)(&__this->___m_Array);
 		bool L_2;
 		L_2 = Enumerator_MoveNext_m9733D397B37E186264BD57DED688D26CC1B14719(L_1, Enumerator_MoveNext_m9733D397B37E186264BD57DED688D26CC1B14719_RuntimeMethod_var);
@@ -4535,7 +4535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m075C5248E5B9B9D918F
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:183>
 		int32_t L_3 = __this->___type;
 		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
 		{
@@ -4543,7 +4543,7 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:184>
 		Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D* L_4 = (Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D*)(&__this->___m_Object);
 		bool L_5;
 		L_5 = Enumerator_MoveNext_m3A10F5ADF2A6208AB3BBA490866DFECF5A76D86C(L_4, Enumerator_MoveNext_m3A10F5ADF2A6208AB3BBA490866DFECF5A76D86C_RuntimeMethod_var);
@@ -4552,7 +4552,7 @@ IL_0015:
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:185>
 		return (bool)0;
 	}
 }
@@ -4643,13 +4643,13 @@ IL2CPP_EXTERN_C void ValueEnumerator_t9F0C84FDF4BE39BEC2978A6B7FA2017850D252B8_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueEnumerator__ctor_m44B0B581D638A61D5D5BDC8F2AF62EFC9BDD46CA (ValueEnumerator_t9F0C84FDF4BE39BEC2978A6B7FA2017850D252B8* __this, Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109 ___0_aArrayEnum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:191>
 		Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109 L_0 = ___0_aArrayEnum;
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Enumerator__ctor_m7597480358339825ECD65BB29DDF0B9C8BD0AB84((&L_1), L_0, NULL);
 		ValueEnumerator__ctor_m9D00CFAD339F952F35B438A78C767412FA2FA164_inline(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:191>
 		return;
 	}
 }
@@ -4664,13 +4664,13 @@ IL2CPP_EXTERN_C  void ValueEnumerator__ctor_m44B0B581D638A61D5D5BDC8F2AF62EFC9BD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueEnumerator__ctor_m843727139C8BB92E45161BC72E9339D19EB5E888 (ValueEnumerator_t9F0C84FDF4BE39BEC2978A6B7FA2017850D252B8* __this, Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D ___0_aDictEnum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:192>
 		Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D L_0 = ___0_aDictEnum;
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Enumerator__ctor_m2BCC73570599693BFFD5F6E7266B7E410F3D95F3((&L_1), L_0, NULL);
 		ValueEnumerator__ctor_m9D00CFAD339F952F35B438A78C767412FA2FA164_inline(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:192>
 		return;
 	}
 }
@@ -4685,7 +4685,7 @@ IL2CPP_EXTERN_C  void ValueEnumerator__ctor_m843727139C8BB92E45161BC72E9339D19EB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueEnumerator__ctor_m9D00CFAD339F952F35B438A78C767412FA2FA164 (ValueEnumerator_t9F0C84FDF4BE39BEC2978A6B7FA2017850D252B8* __this, Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 ___0_aEnumerator, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:193>
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_0 = ___0_aEnumerator;
 		__this->___m_Enumerator = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Enumerator))->___m_Object))->____dictionary), (void*)NULL);
@@ -4701,7 +4701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueEnumerator__ctor_m9D00CFAD339F952F3
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Enumerator))->___m_Array))->____current), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:193>
 		return;
 	}
 }
@@ -4724,7 +4724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 	KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:194>
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63* L_0 = (Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63*)(&__this->___m_Enumerator);
 		KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF L_1;
 		L_1 = Enumerator_get_Current_m74EB093DB23D2E87D2BC71D31C11F8971CF66AFD(L_0, NULL);
@@ -4747,7 +4747,7 @@ IL2CPP_EXTERN_C  JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* ValueEnumer
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueEnumerator_MoveNext_mB9237E4E75BAC923046761CE41A0B2FE03FFE0B0 (ValueEnumerator_t9F0C84FDF4BE39BEC2978A6B7FA2017850D252B8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:195>
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63* L_0 = (Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63*)(&__this->___m_Enumerator);
 		bool L_1;
 		L_1 = Enumerator_MoveNext_m075C5248E5B9B9D918F0F5579596B27081834116(L_0, NULL);
@@ -4767,7 +4767,7 @@ IL2CPP_EXTERN_C  bool ValueEnumerator_MoveNext_mB9237E4E75BAC923046761CE41A0B2FE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueEnumerator_t9F0C84FDF4BE39BEC2978A6B7FA2017850D252B8 ValueEnumerator_GetEnumerator_mD5F0DE990EB0D697905F26525633AA5387B258B2 (ValueEnumerator_t9F0C84FDF4BE39BEC2978A6B7FA2017850D252B8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:196>
 		ValueEnumerator_t9F0C84FDF4BE39BEC2978A6B7FA2017850D252B8 L_0 = (*(ValueEnumerator_t9F0C84FDF4BE39BEC2978A6B7FA2017850D252B8*)__this);
 		return L_0;
 	}
@@ -4851,13 +4851,13 @@ IL2CPP_EXTERN_C void KeyEnumerator_t8AAB03BDEDB27A875E11BA67439D4556F45EE4AC_mar
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeyEnumerator__ctor_m98DEA2C544A6E32CDCD408A5BA7558A1EDA8CDE1 (KeyEnumerator_t8AAB03BDEDB27A875E11BA67439D4556F45EE4AC* __this, Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109 ___0_aArrayEnum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:201>
 		Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109 L_0 = ___0_aArrayEnum;
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Enumerator__ctor_m7597480358339825ECD65BB29DDF0B9C8BD0AB84((&L_1), L_0, NULL);
 		KeyEnumerator__ctor_m1C45B10B82FC1086CAF857948662A4BFFC80D22A_inline(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:201>
 		return;
 	}
 }
@@ -4872,13 +4872,13 @@ IL2CPP_EXTERN_C  void KeyEnumerator__ctor_m98DEA2C544A6E32CDCD408A5BA7558A1EDA8C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeyEnumerator__ctor_mC615C1CEBF804C52139CACD361C73A08BDC82C27 (KeyEnumerator_t8AAB03BDEDB27A875E11BA67439D4556F45EE4AC* __this, Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D ___0_aDictEnum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:202>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:202>
 		Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D L_0 = ___0_aDictEnum;
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Enumerator__ctor_m2BCC73570599693BFFD5F6E7266B7E410F3D95F3((&L_1), L_0, NULL);
 		KeyEnumerator__ctor_m1C45B10B82FC1086CAF857948662A4BFFC80D22A_inline(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:202>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:202>
 		return;
 	}
 }
@@ -4893,7 +4893,7 @@ IL2CPP_EXTERN_C  void KeyEnumerator__ctor_mC615C1CEBF804C52139CACD361C73A08BDC82
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeyEnumerator__ctor_m1C45B10B82FC1086CAF857948662A4BFFC80D22A (KeyEnumerator_t8AAB03BDEDB27A875E11BA67439D4556F45EE4AC* __this, Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 ___0_aEnumerator, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:203>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:203>
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_0 = ___0_aEnumerator;
 		__this->___m_Enumerator = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Enumerator))->___m_Object))->____dictionary), (void*)NULL);
@@ -4909,7 +4909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeyEnumerator__ctor_m1C45B10B82FC1086CAF
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Enumerator))->___m_Array))->____current), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:203>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:203>
 		return;
 	}
 }
@@ -4932,7 +4932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* KeyEnumerator_get_Current_m55DAF35C
 	KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:204>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:204>
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63* L_0 = (Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63*)(&__this->___m_Enumerator);
 		KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF L_1;
 		L_1 = Enumerator_get_Current_m74EB093DB23D2E87D2BC71D31C11F8971CF66AFD(L_0, NULL);
@@ -4955,7 +4955,7 @@ IL2CPP_EXTERN_C  String_t* KeyEnumerator_get_Current_m55DAF35CF16995B99E62425BA9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool KeyEnumerator_MoveNext_mAB04A0782511DC0D5B1DD89C9483F086AD40ED2B (KeyEnumerator_t8AAB03BDEDB27A875E11BA67439D4556F45EE4AC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:205>
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63* L_0 = (Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63*)(&__this->___m_Enumerator);
 		bool L_1;
 		L_1 = Enumerator_MoveNext_m075C5248E5B9B9D918F0F5579596B27081834116(L_0, NULL);
@@ -4975,7 +4975,7 @@ IL2CPP_EXTERN_C  bool KeyEnumerator_MoveNext_mAB04A0782511DC0D5B1DD89C9483F086AD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyEnumerator_t8AAB03BDEDB27A875E11BA67439D4556F45EE4AC KeyEnumerator_GetEnumerator_mC1CC679AB8D821B4702A0CFCC687C8279864076B (KeyEnumerator_t8AAB03BDEDB27A875E11BA67439D4556F45EE4AC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:206>
 		KeyEnumerator_t8AAB03BDEDB27A875E11BA67439D4556F45EE4AC L_0 = (*(KeyEnumerator_t8AAB03BDEDB27A875E11BA67439D4556F45EE4AC*)__this);
 		return L_0;
 	}
@@ -5007,13 +5007,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinqEnumerator__ctor_m93C5F6B1F9A951FA78
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:213>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:213>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:215>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:215>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_0 = ___0_aNode;
 		__this->___m_Node = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Node), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:216>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:216>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_1 = __this->___m_Node;
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -5024,7 +5024,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinqEnumerator__ctor_m93C5F6B1F9A951FA78
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:217>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_3 = __this->___m_Node;
 		NullCheck(L_3);
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_4;
@@ -5047,7 +5047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinqEnumerator__ctor_m93C5F6B1F9A951FA78
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:218>
 		return;
 	}
 }
@@ -5055,7 +5055,7 @@ IL_002c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF LinqEnumerator_get_Current_m75A4C23DFA72DAEDE7203B60FBC9A2231CAFF593 (LinqEnumerator_tE7A2B6B8E33093E2069BCD0DDF273E7AE7AC11F2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:219>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:219>
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63* L_0 = (Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63*)(&__this->___m_Enumerator);
 		KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF L_1;
 		L_1 = Enumerator_get_Current_m74EB093DB23D2E87D2BC71D31C11F8971CF66AFD(L_0, NULL);
@@ -5072,7 +5072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LinqEnumerator_System_Collecti
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:220>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:220>
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63* L_0 = (Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63*)(&__this->___m_Enumerator);
 		KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF L_1;
 		L_1 = Enumerator_get_Current_m74EB093DB23D2E87D2BC71D31C11F8971CF66AFD(L_0, NULL);
@@ -5085,7 +5085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LinqEnumerator_System_Collecti
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LinqEnumerator_MoveNext_m0C25E1977362BD1DDB71E11AF7DFE01D0DB0FCB2 (LinqEnumerator_tE7A2B6B8E33093E2069BCD0DDF273E7AE7AC11F2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:221>
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63* L_0 = (Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63*)(&__this->___m_Enumerator);
 		bool L_1;
 		L_1 = Enumerator_MoveNext_m075C5248E5B9B9D918F0F5579596B27081834116(L_0, NULL);
@@ -5096,13 +5096,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LinqEnumerator_MoveNext_m0C25E1977362BD1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinqEnumerator_Dispose_m793F6336647F161C71C5FAEAEAA8AEFFD5614C7A (LinqEnumerator_tE7A2B6B8E33093E2069BCD0DDF273E7AE7AC11F2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:225>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:225>
 		__this->___m_Node = (JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Node), (void*)(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:226>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:226>
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63* L_0 = (Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63*)(&__this->___m_Enumerator);
 		il2cpp_codegen_initobj(L_0, sizeof(Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:227>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:227>
 		return;
 	}
 }
@@ -5116,7 +5116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LinqEnumerator_GetEnumerator_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:231>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:231>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_0 = __this->___m_Node;
 		LinqEnumerator_tE7A2B6B8E33093E2069BCD0DDF273E7AE7AC11F2* L_1 = (LinqEnumerator_tE7A2B6B8E33093E2069BCD0DDF273E7AE7AC11F2*)il2cpp_codegen_object_new(LinqEnumerator_tE7A2B6B8E33093E2069BCD0DDF273E7AE7AC11F2_il2cpp_TypeInfo_var);
 		LinqEnumerator__ctor_m93C5F6B1F9A951FA78D07B3ADD03494550EC35D9(L_1, L_0, NULL);
@@ -5133,7 +5133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinqEnumerator_Reset_m3F52B961FF6B7CA931
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:236>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:236>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_0 = __this->___m_Node;
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5144,7 +5144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinqEnumerator_Reset_m3F52B961FF6B7CA931
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:237>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_2 = __this->___m_Node;
 		NullCheck(L_2);
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_3;
@@ -5167,7 +5167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinqEnumerator_Reset_m3F52B961FF6B7CA931
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:238>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:238>
 		return;
 	}
 }
@@ -5181,7 +5181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LinqEnumerator_System_Collecti
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:242>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:242>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_0 = __this->___m_Node;
 		LinqEnumerator_tE7A2B6B8E33093E2069BCD0DDF273E7AE7AC11F2* L_1 = (LinqEnumerator_tE7A2B6B8E33093E2069BCD0DDF273E7AE7AC11F2*)il2cpp_codegen_object_new(LinqEnumerator_tE7A2B6B8E33093E2069BCD0DDF273E7AE7AC11F2_il2cpp_TypeInfo_var);
 		LinqEnumerator__ctor_m93C5F6B1F9A951FA78D07B3ADD03494550EC35D9(L_1, L_0, NULL);
@@ -5236,7 +5236,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3Cget_ChildrenU3Ed__43_MoveNext_m43A490
 IL_000c:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:306>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:306>
 		return (bool)0;
 	}
 }
@@ -5482,7 +5482,7 @@ FAULT_00c5:
 IL_001c_1:
 			{
 				__this->___U3CU3E1__state = (-1);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:314>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:314>
 				JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_4 = V_2;
 				NullCheck(L_4);
 				RuntimeObject* L_5;
@@ -5498,13 +5498,13 @@ IL_001c_1:
 
 IL_003e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:314>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:314>
 				RuntimeObject* L_7 = __this->___U3CU3E7__wrap1;
 				NullCheck(L_7);
 				JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_8;
 				L_8 = InterfaceFuncInvoker0< JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* >::Invoke(0, IEnumerator_1_t808345EB8A434E7E3832D5090E3685DFD533DF8F_il2cpp_TypeInfo_var, L_7);
 				V_3 = L_8;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:315>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:315>
 				JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_9 = V_3;
 				NullCheck(L_9);
 				RuntimeObject* L_10;
@@ -5520,13 +5520,13 @@ IL_003e_1:
 
 IL_0065_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:315>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:315>
 				RuntimeObject* L_12 = __this->___U3CU3E7__wrap2;
 				NullCheck(L_12);
 				JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_13;
 				L_13 = InterfaceFuncInvoker0< JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* >::Invoke(0, IEnumerator_1_t808345EB8A434E7E3832D5090E3685DFD533DF8F_il2cpp_TypeInfo_var, L_12);
 				V_4 = L_13;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:316>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:316>
 				JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_14 = V_4;
 				__this->___U3CU3E2__current = L_14;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_14);
@@ -5542,7 +5542,7 @@ IL_0085_1:
 
 IL_008d_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:315>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:315>
 				RuntimeObject* L_15 = __this->___U3CU3E7__wrap2;
 				NullCheck(L_15);
 				bool L_16;
@@ -5560,7 +5560,7 @@ IL_008d_1:
 
 IL_00a7_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:314>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:314>
 				RuntimeObject* L_17 = __this->___U3CU3E7__wrap1;
 				NullCheck(L_17);
 				bool L_18;
@@ -5574,7 +5574,7 @@ IL_00a7_1:
 				U3Cget_DeepChildrenU3Ed__45_U3CU3Em__Finally1_m8F487E194A4750FBA76E8CA53154F1C5B29E625C(__this, NULL);
 				__this->___U3CU3E7__wrap1 = (RuntimeObject*)NULL;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E7__wrap1), (void*)(RuntimeObject*)NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:317>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:317>
 				V_0 = (bool)0;
 				goto IL_00cc;
 			}
@@ -5743,7 +5743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_DeepChildrenU3Ed__45_Sy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONArray_get_Inline_m2B487E7ECAA94FC76C767410F70EE8FF34CB3215 (JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:810>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:810>
 		bool L_0 = __this->___inline;
 		return L_0;
 	}
@@ -5752,10 +5752,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONArray_get_Inline_m2B487E7ECAA94FC76C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_set_Inline_m96D75315D1503DC32F8622D3CDA54F0F16E99EEA (JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:811>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:811>
 		bool L_0 = ___0_value;
 		__this->___inline = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:811>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:811>
 		return;
 	}
 }
@@ -5763,7 +5763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_set_Inline_m96D75315D1503DC32F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONArray_get_Tag_mFB71A7D089960CA108D61C518AD8C36618D415D1 (JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:814>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:814>
 		return (int32_t)(1);
 	}
 }
@@ -5771,7 +5771,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONArray_get_Tag_mFB71A7D089960CA108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONArray_get_IsArray_m6AC7676CB2FB54C8E816AB13AB55FBE8CBFFB0E6 (JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:815>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:815>
 		return (bool)1;
 	}
 }
@@ -5785,7 +5785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:816>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:816>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_0 = __this->___m_List;
 		NullCheck(L_0);
 		Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109 L_1;
@@ -5808,7 +5808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:822>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:822>
 		int32_t L_0 = ___0_aIndex;
 		if ((((int32_t)L_0) < ((int32_t)0)))
 		{
@@ -5829,7 +5829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:823>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:823>
 		JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3* L_4 = (JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3*)il2cpp_codegen_object_new(JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3_il2cpp_TypeInfo_var);
 		JSONLazyCreator__ctor_m18AB070D8863A65BDDF76538241046C56B678337(L_4, __this, NULL);
 		return L_4;
@@ -5837,7 +5837,7 @@ IL_0012:
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:824>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:824>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_5 = __this->___m_List;
 		int32_t L_6 = ___0_aIndex;
 		NullCheck(L_5);
@@ -5860,7 +5860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_set_Item_mFF155324F6C949D04CDB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:828>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:828>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_0 = ___1_value;
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5871,7 +5871,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_set_Item_mFF155324F6C949D04CDB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:829>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:829>
 		il2cpp_codegen_runtime_class_init_inline(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var);
 		JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* L_2;
 		L_2 = JSONNull_CreateOrGet_m63BB6A8AD53643B800540BF8B2C3F1061ACD0381(NULL);
@@ -5880,7 +5880,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_set_Item_mFF155324F6C949D04CDB
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:830>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:830>
 		int32_t L_3 = ___0_aIndex;
 		if ((((int32_t)L_3) < ((int32_t)0)))
 		{
@@ -5901,7 +5901,7 @@ IL_0010:
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:831>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:831>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_7 = __this->___m_List;
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_8 = ___1_value;
 		NullCheck(L_7);
@@ -5911,13 +5911,13 @@ IL_0022:
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:833>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:833>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_9 = __this->___m_List;
 		int32_t L_10 = ___0_aIndex;
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_11 = ___1_value;
 		NullCheck(L_9);
 		List_1_set_Item_mD58493CF0333C780B7A3CBA204FA4A8C06E9CE49(L_9, L_10, L_11, List_1_set_Item_mD58493CF0333C780B7A3CBA204FA4A8C06E9CE49_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:834>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:834>
 		return;
 	}
 }
@@ -5931,7 +5931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:839>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:839>
 		JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3* L_0 = (JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3*)il2cpp_codegen_object_new(JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3_il2cpp_TypeInfo_var);
 		JSONLazyCreator__ctor_m18AB070D8863A65BDDF76538241046C56B678337(L_0, __this, NULL);
 		return L_0;
@@ -5949,7 +5949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_set_Item_m3B1FA17A3DADE7661E70
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:842>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:842>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_0 = ___1_value;
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5960,7 +5960,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_set_Item_m3B1FA17A3DADE7661E70
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:843>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:843>
 		il2cpp_codegen_runtime_class_init_inline(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var);
 		JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* L_2;
 		L_2 = JSONNull_CreateOrGet_m63BB6A8AD53643B800540BF8B2C3F1061ACD0381(NULL);
@@ -5969,12 +5969,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_set_Item_m3B1FA17A3DADE7661E70
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:844>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:844>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_3 = __this->___m_List;
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_4 = ___1_value;
 		NullCheck(L_3);
 		List_1_Add_m5C64B1FD07059760D89D71D194DF0A97C36CEFA4_inline(L_3, L_4, List_1_Add_m5C64B1FD07059760D89D71D194DF0A97C36CEFA4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:845>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:845>
 		return;
 	}
 }
@@ -5988,7 +5988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONArray_get_Count_mB8A1FB5F4C26882D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:850>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:850>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_0 = __this->___m_List;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -6008,7 +6008,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_Add_m3C0A07AAA510E7061ED469EDC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:855>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:855>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_0 = ___1_aItem;
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -6019,7 +6019,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_Add_m3C0A07AAA510E7061ED469EDC
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:856>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:856>
 		il2cpp_codegen_runtime_class_init_inline(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var);
 		JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* L_2;
 		L_2 = JSONNull_CreateOrGet_m63BB6A8AD53643B800540BF8B2C3F1061ACD0381(NULL);
@@ -6028,12 +6028,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_Add_m3C0A07AAA510E7061ED469EDC
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:857>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:857>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_3 = __this->___m_List;
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_4 = ___1_aItem;
 		NullCheck(L_3);
 		List_1_Add_m5C64B1FD07059760D89D71D194DF0A97C36CEFA4_inline(L_3, L_4, List_1_Add_m5C64B1FD07059760D89D71D194DF0A97C36CEFA4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:858>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:858>
 		return;
 	}
 }
@@ -6049,7 +6049,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:862>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:862>
 		int32_t L_0 = ___0_aIndex;
 		if ((((int32_t)L_0) < ((int32_t)0)))
 		{
@@ -6070,24 +6070,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:863>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:863>
 		return (JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6*)NULL;
 	}
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:864>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:864>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_4 = __this->___m_List;
 		int32_t L_5 = ___0_aIndex;
 		NullCheck(L_4);
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_6;
 		L_6 = List_1_get_Item_mC8B66E602D4439A531CF9096F7A213C9937792A2(L_4, L_5, List_1_get_Item_mC8B66E602D4439A531CF9096F7A213C9937792A2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:865>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:865>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_7 = __this->___m_List;
 		int32_t L_8 = ___0_aIndex;
 		NullCheck(L_7);
 		List_1_RemoveAt_m96ADA5AB13BFA03B909D39FFAAD8AB490691D0E2(L_7, L_8, List_1_RemoveAt_m96ADA5AB13BFA03B909D39FFAAD8AB490691D0E2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:866>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:866>
 		return L_6;
 	}
 }
@@ -6101,13 +6101,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:871>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:871>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_0 = __this->___m_List;
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_1 = ___0_aNode;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = List_1_Remove_m62BBE56DD025A8999291BEAC31DE7239873C893C(L_0, L_1, List_1_Remove_m62BBE56DD025A8999291BEAC31DE7239873C893C_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:872>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:872>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_3 = ___0_aNode;
 		return L_3;
 	}
@@ -6122,11 +6122,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_Clear_mB3B95F76FDF85A4E8863E23
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:877>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:877>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_0 = __this->___m_List;
 		NullCheck(L_0);
 		List_1_Clear_mBEEC0E5A4A70386D5A24B08D8D8F2FD702EE219D_inline(L_0, List_1_Clear_mBEEC0E5A4A70386D5A24B08D8D8F2FD702EE219D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:878>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:878>
 		return;
 	}
 }
@@ -6151,11 +6151,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 	memset((&V_1), 0, sizeof(V_1));
 	JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:882>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:882>
 		JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* L_0 = (JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D*)il2cpp_codegen_object_new(JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D_il2cpp_TypeInfo_var);
 		JSONArray__ctor_m45DD6787202E7D27A843536F7D3ED346D10A8916(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:883>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:883>
 		JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* L_1 = V_0;
 		NullCheck(L_1);
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_2 = L_1->___m_List;
@@ -6165,7 +6165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		L_4 = List_1_get_Capacity_mAF8DBF9D29AA2965FC2A006502AEE1FCBABC8BC2(L_3, List_1_get_Capacity_mAF8DBF9D29AA2965FC2A006502AEE1FCBABC8BC2_RuntimeMethod_var);
 		NullCheck(L_2);
 		List_1_set_Capacity_mED209CF525066D9510D74544C25C8FD506E33565(L_2, L_4, List_1_set_Capacity_mED209CF525066D9510D74544C25C8FD506E33565_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:884>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:884>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_5 = __this->___m_List;
 		NullCheck(L_5);
 		Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109 L_6;
@@ -6190,11 +6190,11 @@ FINALLY_005b:
 
 IL_002a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:884>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:884>
 				JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_7;
 				L_7 = Enumerator_get_Current_mCBB455EC8F42329A09461A983FC038A88426C3FF_inline((&V_1), Enumerator_get_Current_mCBB455EC8F42329A09461A983FC038A88426C3FF_RuntimeMethod_var);
 				V_2 = L_7;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:886>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:886>
 				JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_8 = V_2;
 				il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 				bool L_9;
@@ -6205,7 +6205,7 @@ IL_002a_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:887>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:887>
 				JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* L_10 = V_0;
 				JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_11 = V_2;
 				NullCheck(L_11);
@@ -6218,7 +6218,7 @@ IL_002a_1:
 
 IL_0049_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:889>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:889>
 				JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* L_13 = V_0;
 				NullCheck(L_13);
 				VirtualActionInvoker1< JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* >::Invoke(21, L_13, (JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6*)NULL);
@@ -6226,7 +6226,7 @@ IL_0049_1:
 
 IL_0050_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:884>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:884>
 				bool L_14;
 				L_14 = Enumerator_MoveNext_m9733D397B37E186264BD57DED688D26CC1B14719((&V_1), Enumerator_MoveNext_m9733D397B37E186264BD57DED688D26CC1B14719_RuntimeMethod_var);
 				if (L_14)
@@ -6246,7 +6246,7 @@ IL_0050_1:
 
 IL_0069:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:891>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:891>
 		JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* L_15 = V_0;
 		return L_15;
 	}
@@ -6283,18 +6283,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_WriteToStringBuilder_m5E3D0527
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:906>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:906>
 		StringBuilder_t* L_0 = ___0_aSB;
 		NullCheck(L_0);
 		StringBuilder_t* L_1;
 		L_1 = StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1(L_0, ((int32_t)91), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:907>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:907>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_2 = __this->___m_List;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = List_1_get_Count_m98572B8E902C76E806DB9F4EF52E6D96DCDAA929_inline(L_2, List_1_get_Count_m98572B8E902C76E806DB9F4EF52E6D96DCDAA929_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:908>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:908>
 		bool L_4 = __this->___inline;
 		if (!L_4)
 		{
@@ -6302,20 +6302,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_WriteToStringBuilder_m5E3D0527
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:909>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:909>
 		___3_aMode = 0;
 	}
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:910>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:910>
 		V_1 = 0;
 		goto IL_006a;
 	}
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:912>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:912>
 		int32_t L_5 = V_1;
 		if ((((int32_t)L_5) <= ((int32_t)0)))
 		{
@@ -6323,7 +6323,7 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:913>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:913>
 		StringBuilder_t* L_6 = ___0_aSB;
 		NullCheck(L_6);
 		StringBuilder_t* L_7;
@@ -6332,7 +6332,7 @@ IL_0024:
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:914>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:914>
 		int32_t L_8 = ___3_aMode;
 		if ((!(((uint32_t)L_8) == ((uint32_t)1))))
 		{
@@ -6340,7 +6340,7 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:915>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:915>
 		StringBuilder_t* L_9 = ___0_aSB;
 		NullCheck(L_9);
 		StringBuilder_t* L_10;
@@ -6349,7 +6349,7 @@ IL_0031:
 
 IL_003d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:917>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:917>
 		int32_t L_11 = ___3_aMode;
 		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
 		{
@@ -6357,7 +6357,7 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:918>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:918>
 		StringBuilder_t* L_12 = ___0_aSB;
 		int32_t L_13 = ___1_aIndent;
 		int32_t L_14 = ___2_aIndentInc;
@@ -6368,7 +6368,7 @@ IL_003d:
 
 IL_004e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:919>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:919>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_16 = __this->___m_List;
 		int32_t L_17 = V_1;
 		NullCheck(L_16);
@@ -6381,14 +6381,14 @@ IL_004e:
 		int32_t L_23 = ___3_aMode;
 		NullCheck(L_18);
 		VirtualActionInvoker4< StringBuilder_t*, int32_t, int32_t, int32_t >::Invoke(31, L_18, L_19, ((int32_t)il2cpp_codegen_add(L_20, L_21)), L_22, L_23);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:910>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:910>
 		int32_t L_24 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 	}
 
 IL_006a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:910>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:910>
 		int32_t L_25 = V_1;
 		int32_t L_26 = V_0;
 		if ((((int32_t)L_25) < ((int32_t)L_26)))
@@ -6397,7 +6397,7 @@ IL_006a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:921>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:921>
 		int32_t L_27 = ___3_aMode;
 		if ((!(((uint32_t)L_27) == ((uint32_t)1))))
 		{
@@ -6405,7 +6405,7 @@ IL_006a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:922>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:922>
 		StringBuilder_t* L_28 = ___0_aSB;
 		NullCheck(L_28);
 		StringBuilder_t* L_29;
@@ -6418,12 +6418,12 @@ IL_006a:
 
 IL_0082:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:923>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:923>
 		StringBuilder_t* L_32 = ___0_aSB;
 		NullCheck(L_32);
 		StringBuilder_t* L_33;
 		L_33 = StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1(L_32, ((int32_t)93), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:924>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:924>
 		return;
 	}
 }
@@ -6439,7 +6439,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray__ctor_m45DD6787202E7D27A843536
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:806>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:806>
 		List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_0 = (List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80*)il2cpp_codegen_object_new(List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80_il2cpp_TypeInfo_var);
 		List_1__ctor_mADE60ABE04580BC63D1FC979036623F9910DE3B6(L_0, List_1__ctor_mADE60ABE04580BC63D1FC979036623F9910DE3B6_RuntimeMethod_var);
 		__this->___m_List = L_0;
@@ -6572,7 +6572,7 @@ FAULT_0084:
 IL_0019_1:
 			{
 				__this->___U3CU3E1__state = (-1);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:898>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:898>
 				JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* L_4 = V_2;
 				NullCheck(L_4);
 				List_1_t79088B486A8568CE52C04FFE5C5A7CFE76331E80* L_5 = L_4->___m_List;
@@ -6590,12 +6590,12 @@ IL_0019_1:
 
 IL_003b_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:898>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:898>
 				Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109* L_7 = (Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109*)(&__this->___U3CU3E7__wrap1);
 				JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_8;
 				L_8 = Enumerator_get_Current_mCBB455EC8F42329A09461A983FC038A88426C3FF_inline(L_7, Enumerator_get_Current_mCBB455EC8F42329A09461A983FC038A88426C3FF_RuntimeMethod_var);
 				V_3 = L_8;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:899>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:899>
 				JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_9 = V_3;
 				__this->___U3CU3E2__current = L_9;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_9);
@@ -6611,7 +6611,7 @@ IL_0059_1:
 
 IL_0061_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:898>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:898>
 				Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109* L_10 = (Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109*)(&__this->___U3CU3E7__wrap1);
 				bool L_11;
 				L_11 = Enumerator_MoveNext_m9733D397B37E186264BD57DED688D26CC1B14719(L_10, Enumerator_MoveNext_m9733D397B37E186264BD57DED688D26CC1B14719_RuntimeMethod_var);
@@ -6624,7 +6624,7 @@ IL_0061_1:
 				U3Cget_ChildrenU3Ed__24_U3CU3Em__Finally1_m8B66AAC3C49113248256242CDDB9ABE4E101C37B(__this, NULL);
 				Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109* L_12 = (Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109*)(&__this->___U3CU3E7__wrap1);
 				il2cpp_codegen_initobj(L_12, sizeof(Enumerator_t0C52A6D0DB109DF239C883D1C65BF615A5F42109));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:900>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:900>
 				V_0 = (bool)0;
 				goto IL_008b;
 			}
@@ -6753,7 +6753,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_ChildrenU3Ed__24_System
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_get_Inline_mD0320F3CE5DE31C65A6CE332F8889A8E360F8787 (JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:935>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:935>
 		bool L_0 = __this->___inline;
 		return L_0;
 	}
@@ -6762,10 +6762,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_get_Inline_mD0320F3CE5DE31C65
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_set_Inline_mF65359887480590B9BE3D0CBB5FEF56DCC956F4B (JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:936>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:936>
 		bool L_0 = ___0_value;
 		__this->___inline = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:936>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:936>
 		return;
 	}
 }
@@ -6773,7 +6773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_set_Inline_mF65359887480590B9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONObject_get_Tag_m53815F4EC00534D99AE015E6E2BC58C5B9CCC3E9 (JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:939>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:939>
 		return (int32_t)(2);
 	}
 }
@@ -6781,7 +6781,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONObject_get_Tag_m53815F4EC00534D99
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_get_IsObject_m5FB8CD0B5442C0FF874512C3CF68AD97C33AB6A8 (JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:940>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:940>
 		return (bool)1;
 	}
 }
@@ -6795,7 +6795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:942>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:942>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_0 = __this->___m_Dict;
 		NullCheck(L_0);
 		Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D L_1;
@@ -6818,7 +6818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:949>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:949>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_0 = __this->___m_Dict;
 		String_t* L_1 = ___0_aKey;
 		NullCheck(L_0);
@@ -6830,7 +6830,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:950>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:950>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_3 = __this->___m_Dict;
 		String_t* L_4 = ___0_aKey;
 		NullCheck(L_3);
@@ -6841,7 +6841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:952>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:952>
 		String_t* L_6 = ___0_aKey;
 		JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3* L_7 = (JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3*)il2cpp_codegen_object_new(JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3_il2cpp_TypeInfo_var);
 		JSONLazyCreator__ctor_mAC9732665BD5BA00873627C39C626D2ACE1D7102(L_7, __this, L_6, NULL);
@@ -6862,7 +6862,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_set_Item_m5F398B2BFF32EF52260
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:956>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:956>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_0 = ___1_value;
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -6873,7 +6873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_set_Item_m5F398B2BFF32EF52260
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:957>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:957>
 		il2cpp_codegen_runtime_class_init_inline(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var);
 		JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* L_2;
 		L_2 = JSONNull_CreateOrGet_m63BB6A8AD53643B800540BF8B2C3F1061ACD0381(NULL);
@@ -6882,7 +6882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_set_Item_m5F398B2BFF32EF52260
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:958>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:958>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_3 = __this->___m_Dict;
 		String_t* L_4 = ___0_aKey;
 		NullCheck(L_3);
@@ -6894,7 +6894,7 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:959>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:959>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_6 = __this->___m_Dict;
 		String_t* L_7 = ___0_aKey;
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_8 = ___1_value;
@@ -6905,13 +6905,13 @@ IL_0010:
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:961>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:961>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_9 = __this->___m_Dict;
 		String_t* L_10 = ___0_aKey;
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_11 = ___1_value;
 		NullCheck(L_9);
 		Dictionary_2_Add_mB85B402BF1A8D7CE2221D0930E99A6A9AF7364A7(L_9, L_10, L_11, Dictionary_2_Add_mB85B402BF1A8D7CE2221D0930E99A6A9AF7364A7_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:962>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:962>
 		return;
 	}
 }
@@ -6929,7 +6929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 	KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:969>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:969>
 		int32_t L_0 = ___0_aIndex;
 		if ((((int32_t)L_0) < ((int32_t)0)))
 		{
@@ -6950,13 +6950,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:970>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:970>
 		return (JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6*)NULL;
 	}
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:971>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:971>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_4 = __this->___m_Dict;
 		int32_t L_5 = ___0_aIndex;
 		KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF L_6;
@@ -6985,7 +6985,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_set_Item_m8D44D5A2A7956DE82BF
 	KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:975>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:975>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_0 = ___1_value;
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -6996,7 +6996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_set_Item_m8D44D5A2A7956DE82BF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:976>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:976>
 		il2cpp_codegen_runtime_class_init_inline(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var);
 		JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* L_2;
 		L_2 = JSONNull_CreateOrGet_m63BB6A8AD53643B800540BF8B2C3F1061ACD0381(NULL);
@@ -7005,7 +7005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_set_Item_m8D44D5A2A7956DE82BF
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:977>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:977>
 		int32_t L_3 = ___0_aIndex;
 		if ((((int32_t)L_3) < ((int32_t)0)))
 		{
@@ -7026,13 +7026,13 @@ IL_0010:
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:978>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:978>
 		return;
 	}
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:979>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:979>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_7 = __this->___m_Dict;
 		int32_t L_8 = ___0_aIndex;
 		KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF L_9;
@@ -7041,13 +7041,13 @@ IL_0023:
 		String_t* L_10;
 		L_10 = KeyValuePair_2_get_Key_mED36161918C5327000685090A198A77B3FEEDE1B_inline((&V_1), KeyValuePair_2_get_Key_mED36161918C5327000685090A198A77B3FEEDE1B_RuntimeMethod_var);
 		V_0 = L_10;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:980>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:980>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_11 = __this->___m_Dict;
 		String_t* L_12 = V_0;
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_13 = ___1_value;
 		NullCheck(L_11);
 		Dictionary_2_set_Item_m0BF41F63C43F48D773AD43C104D7E39439E019F5(L_11, L_12, L_13, Dictionary_2_set_Item_m0BF41F63C43F48D773AD43C104D7E39439E019F5_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:981>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:981>
 		return;
 	}
 }
@@ -7061,7 +7061,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONObject_get_Count_mC3F78A2F0E9E499
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:986>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:986>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_0 = __this->___m_Dict;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -7085,7 +7085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Add_mB0CABBC200384EBE7E6CB9E3
 	Guid_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:991>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:991>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_0 = ___1_aItem;
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7096,7 +7096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Add_mB0CABBC200384EBE7E6CB9E3
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:992>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:992>
 		il2cpp_codegen_runtime_class_init_inline(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var);
 		JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* L_2;
 		L_2 = JSONNull_CreateOrGet_m63BB6A8AD53643B800540BF8B2C3F1061ACD0381(NULL);
@@ -7105,7 +7105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Add_mB0CABBC200384EBE7E6CB9E3
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:994>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:994>
 		String_t* L_3 = ___0_aKey;
 		bool L_4;
 		L_4 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_3, NULL);
@@ -7115,7 +7115,7 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:996>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:996>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_5 = __this->___m_Dict;
 		String_t* L_6 = ___0_aKey;
 		NullCheck(L_5);
@@ -7127,7 +7127,7 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:997>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:997>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_8 = __this->___m_Dict;
 		String_t* L_9 = ___0_aKey;
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_10 = ___1_aItem;
@@ -7138,7 +7138,7 @@ IL_0010:
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:999>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:999>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_11 = __this->___m_Dict;
 		String_t* L_12 = ___0_aKey;
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_13 = ___1_aItem;
@@ -7149,7 +7149,7 @@ IL_0034:
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1002>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1002>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_14 = __this->___m_Dict;
 		Guid_t L_15;
 		L_15 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
@@ -7159,7 +7159,7 @@ IL_0042:
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_17 = ___1_aItem;
 		NullCheck(L_14);
 		Dictionary_2_Add_mB85B402BF1A8D7CE2221D0930E99A6A9AF7364A7(L_14, L_16, L_17, Dictionary_2_Add_mB85B402BF1A8D7CE2221D0930E99A6A9AF7364A7_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1003>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1003>
 		return;
 	}
 }
@@ -7175,7 +7175,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1007>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_0 = __this->___m_Dict;
 		String_t* L_1 = ___0_aKey;
 		NullCheck(L_0);
@@ -7187,25 +7187,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1008>
 		return (JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6*)NULL;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1009>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1009>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_3 = __this->___m_Dict;
 		String_t* L_4 = ___0_aKey;
 		NullCheck(L_3);
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_5;
 		L_5 = Dictionary_2_get_Item_m9947BDB5BC6814DE9A23E4534F9DABC7B88DA6E8(L_3, L_4, Dictionary_2_get_Item_m9947BDB5BC6814DE9A23E4534F9DABC7B88DA6E8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1010>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1010>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_6 = __this->___m_Dict;
 		String_t* L_7 = ___0_aKey;
 		NullCheck(L_6);
 		bool L_8;
 		L_8 = Dictionary_2_Remove_mB2EB63FDF9478F82087EB5FDC4F39687EDB96629(L_6, L_7, Dictionary_2_Remove_mB2EB63FDF9478F82087EB5FDC4F39687EDB96629_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1011>
 		return L_5;
 	}
 }
@@ -7225,7 +7225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 	KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1016>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1016>
 		int32_t L_0 = ___0_aIndex;
 		if ((((int32_t)L_0) < ((int32_t)0)))
 		{
@@ -7246,26 +7246,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1017>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1017>
 		return (JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6*)NULL;
 	}
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1018>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1018>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_4 = __this->___m_Dict;
 		int32_t L_5 = ___0_aIndex;
 		KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF L_6;
 		L_6 = Enumerable_ElementAt_TisKeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF_m0576D00946579AC9BB4AE86E2EE381B550ACCEF1(L_4, L_5, Enumerable_ElementAt_TisKeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF_m0576D00946579AC9BB4AE86E2EE381B550ACCEF1_RuntimeMethod_var);
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1019>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1019>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_7 = __this->___m_Dict;
 		String_t* L_8;
 		L_8 = KeyValuePair_2_get_Key_mED36161918C5327000685090A198A77B3FEEDE1B_inline((&V_0), KeyValuePair_2_get_Key_mED36161918C5327000685090A198A77B3FEEDE1B_RuntimeMethod_var);
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = Dictionary_2_Remove_mB2EB63FDF9478F82087EB5FDC4F39687EDB96629(L_7, L_8, Dictionary_2_Remove_mB2EB63FDF9478F82087EB5FDC4F39687EDB96629_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1020>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1020>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_10;
 		L_10 = KeyValuePair_2_get_Value_m9D1D8A560DAA51AAD6DBF4FCF2A565C55ED2150C_inline((&V_0), KeyValuePair_2_get_Value_m9D1D8A560DAA51AAD6DBF4FCF2A565C55ED2150C_RuntimeMethod_var);
 		return L_10;
@@ -7303,7 +7303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1027>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1027>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_3 = __this->___m_Dict;
 		U3CU3Ec__DisplayClass21_0_t485E11BB8ED3653E226C322C87F0B9C59F2882F9* L_4 = V_0;
 		Func_2_t0BEEE4A0C5E2543D40582C71C97DD139FC85A94D* L_5 = (Func_2_t0BEEE4A0C5E2543D40582C71C97DD139FC85A94D*)il2cpp_codegen_object_new(Func_2_t0BEEE4A0C5E2543D40582C71C97DD139FC85A94D_il2cpp_TypeInfo_var);
@@ -7313,14 +7313,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF L_7;
 		L_7 = Enumerable_First_TisKeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF_mF67904CCC06009AA9F4EE8B9D0F418F6EA409501(L_6, Enumerable_First_TisKeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF_mF67904CCC06009AA9F4EE8B9D0F418F6EA409501_RuntimeMethod_var);
 		V_1 = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1028>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1028>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_8 = __this->___m_Dict;
 		String_t* L_9;
 		L_9 = KeyValuePair_2_get_Key_mED36161918C5327000685090A198A77B3FEEDE1B_inline((&V_1), KeyValuePair_2_get_Key_mED36161918C5327000685090A198A77B3FEEDE1B_RuntimeMethod_var);
 		NullCheck(L_8);
 		bool L_10;
 		L_10 = Dictionary_2_Remove_mB2EB63FDF9478F82087EB5FDC4F39687EDB96629(L_8, L_9, Dictionary_2_Remove_mB2EB63FDF9478F82087EB5FDC4F39687EDB96629_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1029>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1029>
 		U3CU3Ec__DisplayClass21_0_t485E11BB8ED3653E226C322C87F0B9C59F2882F9* L_11 = V_0;
 		NullCheck(L_11);
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_12 = L_11->___aNode;
@@ -7340,8 +7340,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 CATCH_0046:
 	{
 		RuntimeObject* L_13 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1031>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1033>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1031>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1033>
 		V_2 = (JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6*)NULL;
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_004b;
@@ -7349,7 +7349,7 @@ CATCH_0046:
 
 IL_004b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1035>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1035>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_14 = V_2;
 		return L_14;
 	}
@@ -7364,11 +7364,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Clear_mEF4F6A2F11C5417586681E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1039>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1039>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_0 = __this->___m_Dict;
 		NullCheck(L_0);
 		Dictionary_2_Clear_mA9838F2614D881571A1DAC8315E32E290AECC8C0(L_0, Dictionary_2_Clear_mA9838F2614D881571A1DAC8315E32E290AECC8C0_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1040>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1040>
 		return;
 	}
 }
@@ -7393,11 +7393,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 	KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1044>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1044>
 		JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* L_0 = (JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430*)il2cpp_codegen_object_new(JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430_il2cpp_TypeInfo_var);
 		JSONObject__ctor_m6B6A4B99142AB058889B2ABDC4B2DBA7F99B0599(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1045>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1045>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_1 = __this->___m_Dict;
 		NullCheck(L_1);
 		Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D L_2;
@@ -7422,11 +7422,11 @@ FINALLY_0040:
 
 IL_0014_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1045>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1045>
 				KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF L_3;
 				L_3 = Enumerator_get_Current_m68A2783505391DB76A727CCFF1832820CDD8D265_inline((&V_1), Enumerator_get_Current_m68A2783505391DB76A727CCFF1832820CDD8D265_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1047>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1047>
 				JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* L_4 = V_0;
 				String_t* L_5;
 				L_5 = KeyValuePair_2_get_Key_mED36161918C5327000685090A198A77B3FEEDE1B_inline((&V_2), KeyValuePair_2_get_Key_mED36161918C5327000685090A198A77B3FEEDE1B_RuntimeMethod_var);
@@ -7441,7 +7441,7 @@ IL_0014_1:
 
 IL_0035_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1045>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1045>
 				bool L_8;
 				L_8 = Enumerator_MoveNext_m3A10F5ADF2A6208AB3BBA490866DFECF5A76D86C((&V_1), Enumerator_MoveNext_m3A10F5ADF2A6208AB3BBA490866DFECF5A76D86C_RuntimeMethod_var);
 				if (L_8)
@@ -7461,7 +7461,7 @@ IL_0035_1:
 
 IL_004e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1049>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1049>
 		JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* L_9 = V_0;
 		return L_9;
 	}
@@ -7476,7 +7476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_HasKey_m59E5E52625863EE61E410
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1054>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1054>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_0 = __this->___m_Dict;
 		String_t* L_1 = ___0_aKey;
 		NullCheck(L_0);
@@ -7496,7 +7496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 	}
 	JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1060>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1060>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_0 = __this->___m_Dict;
 		String_t* L_1 = ___0_aKey;
 		NullCheck(L_0);
@@ -7508,14 +7508,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1061>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1061>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_3 = V_0;
 		return L_3;
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1062>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1062>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_4 = ___1_aDefault;
 		return L_4;
 	}
@@ -7561,14 +7561,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_WriteToStringBuilder_mA16D0EE
 	KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1076>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1076>
 		StringBuilder_t* L_0 = ___0_aSB;
 		NullCheck(L_0);
 		StringBuilder_t* L_1;
 		L_1 = StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1(L_0, ((int32_t)123), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1077>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1077>
 		V_0 = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1078>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1078>
 		bool L_2 = __this->___inline;
 		if (!L_2)
 		{
@@ -7576,13 +7576,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_WriteToStringBuilder_mA16D0EE
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1079>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1079>
 		___3_aMode = 0;
 	}
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1080>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1080>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_3 = __this->___m_Dict;
 		NullCheck(L_3);
 		Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D L_4;
@@ -7607,11 +7607,11 @@ FINALLY_00b7:
 
 IL_0027_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1080>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1080>
 				KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF L_5;
 				L_5 = Enumerator_get_Current_m68A2783505391DB76A727CCFF1832820CDD8D265_inline((&V_1), Enumerator_get_Current_m68A2783505391DB76A727CCFF1832820CDD8D265_RuntimeMethod_var);
 				V_2 = L_5;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1082>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1082>
 				bool L_6 = V_0;
 				if (L_6)
 				{
@@ -7619,7 +7619,7 @@ IL_0027_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1083>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1083>
 				StringBuilder_t* L_7 = ___0_aSB;
 				NullCheck(L_7);
 				StringBuilder_t* L_8;
@@ -7628,9 +7628,9 @@ IL_0027_1:
 
 IL_003b_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1084>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1084>
 				V_0 = (bool)0;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1085>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1085>
 				int32_t L_9 = ___3_aMode;
 				if ((!(((uint32_t)L_9) == ((uint32_t)1))))
 				{
@@ -7638,7 +7638,7 @@ IL_003b_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1086>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1086>
 				StringBuilder_t* L_10 = ___0_aSB;
 				NullCheck(L_10);
 				StringBuilder_t* L_11;
@@ -7647,7 +7647,7 @@ IL_003b_1:
 
 IL_0049_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1087>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1087>
 				int32_t L_12 = ___3_aMode;
 				if ((!(((uint32_t)L_12) == ((uint32_t)1))))
 				{
@@ -7655,7 +7655,7 @@ IL_0049_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1088>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1088>
 				StringBuilder_t* L_13 = ___0_aSB;
 				int32_t L_14 = ___1_aIndent;
 				int32_t L_15 = ___2_aIndentInc;
@@ -7666,7 +7666,7 @@ IL_0049_1:
 
 IL_005a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1089>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1089>
 				StringBuilder_t* L_17 = ___0_aSB;
 				NullCheck(L_17);
 				StringBuilder_t* L_18;
@@ -7682,7 +7682,7 @@ IL_005a_1:
 				NullCheck(L_21);
 				StringBuilder_t* L_22;
 				L_22 = StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1(L_21, ((int32_t)34), NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1090>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1090>
 				int32_t L_23 = ___3_aMode;
 				if (L_23)
 				{
@@ -7690,7 +7690,7 @@ IL_005a_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1091>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1091>
 				StringBuilder_t* L_24 = ___0_aSB;
 				NullCheck(L_24);
 				StringBuilder_t* L_25;
@@ -7700,7 +7700,7 @@ IL_005a_1:
 
 IL_008a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1093>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1093>
 				StringBuilder_t* L_26 = ___0_aSB;
 				NullCheck(L_26);
 				StringBuilder_t* L_27;
@@ -7709,7 +7709,7 @@ IL_008a_1:
 
 IL_0096_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1094>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1094>
 				JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_28;
 				L_28 = KeyValuePair_2_get_Value_m9D1D8A560DAA51AAD6DBF4FCF2A565C55ED2150C_inline((&V_2), KeyValuePair_2_get_Value_m9D1D8A560DAA51AAD6DBF4FCF2A565C55ED2150C_RuntimeMethod_var);
 				StringBuilder_t* L_29 = ___0_aSB;
@@ -7723,7 +7723,7 @@ IL_0096_1:
 
 IL_00a9_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1080>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1080>
 				bool L_34;
 				L_34 = Enumerator_MoveNext_m3A10F5ADF2A6208AB3BBA490866DFECF5A76D86C((&V_1), Enumerator_MoveNext_m3A10F5ADF2A6208AB3BBA490866DFECF5A76D86C_RuntimeMethod_var);
 				if (L_34)
@@ -7743,7 +7743,7 @@ IL_00a9_1:
 
 IL_00c5:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1096>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1096>
 		int32_t L_35 = ___3_aMode;
 		if ((!(((uint32_t)L_35) == ((uint32_t)1))))
 		{
@@ -7751,7 +7751,7 @@ IL_00c5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1097>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1097>
 		StringBuilder_t* L_36 = ___0_aSB;
 		NullCheck(L_36);
 		StringBuilder_t* L_37;
@@ -7764,12 +7764,12 @@ IL_00c5:
 
 IL_00d9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1098>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1098>
 		StringBuilder_t* L_40 = ___0_aSB;
 		NullCheck(L_40);
 		StringBuilder_t* L_41;
 		L_41 = StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1(L_40, ((int32_t)125), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1099>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1099>
 		return;
 	}
 }
@@ -7785,7 +7785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject__ctor_m6B6A4B99142AB058889B2A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:930>
 		Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_0 = (Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348*)il2cpp_codegen_object_new(Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mC177851617B6ABDB48D8103AB429EEE987A870D5(L_0, Dictionary_2__ctor_mC177851617B6ABDB48D8103AB429EEE987A870D5_RuntimeMethod_var);
 		__this->___m_Dict = L_0;
@@ -7822,7 +7822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass21_0_U3CRemoveU3Eb_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1027>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1027>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_0;
 		L_0 = KeyValuePair_2_get_Value_m9D1D8A560DAA51AAD6DBF4FCF2A565C55ED2150C_inline((&___0_k), KeyValuePair_2_get_Value_m9D1D8A560DAA51AAD6DBF4FCF2A565C55ED2150C_RuntimeMethod_var);
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_1 = __this->___aNode;
@@ -7957,7 +7957,7 @@ FAULT_008a:
 IL_0019_1:
 			{
 				__this->___U3CU3E1__state = (-1);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1069>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1069>
 				JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* L_4 = V_2;
 				NullCheck(L_4);
 				Dictionary_2_tB18B7D2DF248968973DD36692A4049966CA9F348* L_5 = L_4->___m_Dict;
@@ -7978,12 +7978,12 @@ IL_0019_1:
 
 IL_003b_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1069>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1069>
 				Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D* L_7 = (Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D*)(&__this->___U3CU3E7__wrap1);
 				KeyValuePair_2_tC86602D5307A611B8935C881185C39812E7D59DF L_8;
 				L_8 = Enumerator_get_Current_m68A2783505391DB76A727CCFF1832820CDD8D265_inline(L_7, Enumerator_get_Current_m68A2783505391DB76A727CCFF1832820CDD8D265_RuntimeMethod_var);
 				V_3 = L_8;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1070>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1070>
 				JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_9;
 				L_9 = KeyValuePair_2_get_Value_m9D1D8A560DAA51AAD6DBF4FCF2A565C55ED2150C_inline((&V_3), KeyValuePair_2_get_Value_m9D1D8A560DAA51AAD6DBF4FCF2A565C55ED2150C_RuntimeMethod_var);
 				__this->___U3CU3E2__current = L_9;
@@ -8000,7 +8000,7 @@ IL_005f_1:
 
 IL_0067_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1069>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1069>
 				Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D* L_10 = (Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D*)(&__this->___U3CU3E7__wrap1);
 				bool L_11;
 				L_11 = Enumerator_MoveNext_m3A10F5ADF2A6208AB3BBA490866DFECF5A76D86C(L_10, Enumerator_MoveNext_m3A10F5ADF2A6208AB3BBA490866DFECF5A76D86C_RuntimeMethod_var);
@@ -8013,7 +8013,7 @@ IL_0067_1:
 				U3Cget_ChildrenU3Ed__27_U3CU3Em__Finally1_mF8EC7530C8EA50FFC8D2D8768A06DB8E59820820(__this, NULL);
 				Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D* L_12 = (Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D*)(&__this->___U3CU3E7__wrap1);
 				il2cpp_codegen_initobj(L_12, sizeof(Enumerator_t0F33943C6A5996966DA110C79285AF0AE2479E2D));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1071>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1071>
 				V_0 = (bool)0;
 				goto IL_0091;
 			}
@@ -8142,7 +8142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_ChildrenU3Ed__27_System
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONString_get_Tag_m7BB211D940249E2C460F34EC2F610671CF2A391A (JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1108>
 		return (int32_t)(3);
 	}
 }
@@ -8150,7 +8150,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONString_get_Tag_m7BB211D940249E2C4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONString_get_IsString_m1B16AD88C7361E7D9635E34ACD6ED23A90DDA4BE (JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1109>
 		return (bool)1;
 	}
 }
@@ -8160,7 +8160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3
 	Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1111>
 		il2cpp_codegen_initobj((&V_0), sizeof(Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63));
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_0 = V_0;
 		return L_0;
@@ -8170,7 +8170,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONString_get_Value_m92DC9E376F723E59FB93530A23ED5D60BCAB9F0A (JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1116>
 		String_t* L_0 = __this->___m_Data;
 		return L_0;
 	}
@@ -8179,11 +8179,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONString_get_Value_m92DC9E376F723
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONString_set_Value_mE4B381AB3CB76AD1A0E8555AA4056079DBDCC70A (JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1119>
 		String_t* L_0 = ___0_value;
 		__this->___m_Data = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Data), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1120>
 		return;
 	}
 }
@@ -8197,14 +8197,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONString__ctor_mF37815B74566B5E7971722
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1123>
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		JSONNode__ctor_mB2996DF66E9952CB79A65BB1177661640A16E534(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1125>
 		String_t* L_0 = ___0_aData;
 		__this->___m_Data = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Data), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1126>
 		return;
 	}
 }
@@ -8218,7 +8218,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1129>
 		String_t* L_0 = __this->___m_Data;
 		JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB* L_1 = (JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB*)il2cpp_codegen_object_new(JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB_il2cpp_TypeInfo_var);
 		JSONString__ctor_mF37815B74566B5E79717222282D3B85AC3090B26(L_1, L_0, NULL);
@@ -8235,7 +8235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONString_WriteToStringBuilder_mE185EF3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1134>
 		StringBuilder_t* L_0 = ___0_aSB;
 		NullCheck(L_0);
 		StringBuilder_t* L_1;
@@ -8250,7 +8250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONString_WriteToStringBuilder_mE185EF3
 		NullCheck(L_4);
 		StringBuilder_t* L_5;
 		L_5 = StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1(L_4, ((int32_t)34), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1135>
 		return;
 	}
 }
@@ -8267,7 +8267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONString_Equals_mE0DD0EC4726E5722E2D1D
 	String_t* V_0 = NULL;
 	JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1138>
 		RuntimeObject* L_0 = ___0_obj;
 		bool L_1;
 		L_1 = JSONNode_Equals_m73DB667CBE776B8AA3B7E6C015084FE509D69D8D(__this, L_0, NULL);
@@ -8277,16 +8277,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONString_Equals_mE0DD0EC4726E5722E2D1D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1139>
 		return (bool)1;
 	}
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1140>
 		RuntimeObject* L_2 = ___0_obj;
 		V_0 = ((String_t*)IsInstSealed((RuntimeObject*)L_2, il2cpp_defaults.string_class));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1141>
 		String_t* L_3 = V_0;
 		if (!L_3)
 		{
@@ -8294,7 +8294,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1142>
 		String_t* L_4 = __this->___m_Data;
 		String_t* L_5 = V_0;
 		bool L_6;
@@ -8304,10 +8304,10 @@ IL_000b:
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1143>
 		RuntimeObject* L_7 = ___0_obj;
 		V_1 = ((JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB*)IsInstClass((RuntimeObject*)L_7, JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1144>
 		JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB* L_8 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -8318,7 +8318,7 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1145>
 		String_t* L_10 = __this->___m_Data;
 		JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB* L_11 = V_1;
 		NullCheck(L_11);
@@ -8330,7 +8330,7 @@ IL_0022:
 
 IL_0044:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1146>
 		return (bool)0;
 	}
 }
@@ -8338,7 +8338,7 @@ IL_0044:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONString_GetHashCode_mD599DBC505F9FA3993C1DD75176E478FC9DC7AC5 (JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1150>
 		String_t* L_0 = __this->___m_Data;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -8356,10 +8356,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONString_Clear_m81B8F2CFA089179A8379E3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1154>
 		__this->___m_Data = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Data), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1155>
 		return;
 	}
 }
@@ -8375,7 +8375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONString_Clear_m81B8F2CFA089179A8379E3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONNumber_get_Tag_m93C668B7637013D35D48B8940CD6B4752C4472C2 (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1163>
 		return (int32_t)(4);
 	}
 }
@@ -8383,7 +8383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONNumber_get_Tag_m93C668B7637013D35
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONNumber_get_IsNumber_mE74B7400EBC5B5BE952E09F373B3A5008B79C61C (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1164>
 		return (bool)1;
 	}
 }
@@ -8393,7 +8393,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3
 	Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1165>
 		il2cpp_codegen_initobj((&V_0), sizeof(Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63));
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_0 = V_0;
 		return L_0;
@@ -8409,7 +8409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONNumber_get_Value_m2D33BB6B4E1DD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1169>
 		double* L_0 = (double*)(&__this->___m_Data);
 		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
 		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_1;
@@ -8430,7 +8430,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNumber_set_Value_m63A5D57D63FA67F95B
 	}
 	double V_0 = 0.0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1173>
 		String_t* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
 		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_1;
@@ -8443,14 +8443,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNumber_set_Value_m63A5D57D63FA67F95B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1174>
 		double L_3 = V_0;
 		__this->___m_Data = L_3;
 	}
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1175>
 		return;
 	}
 }
@@ -8458,7 +8458,7 @@ IL_001b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double JSONNumber_get_AsDouble_mFDD7A761CE99DCAE80DF04236024BD2A7C06C851 (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1180>
 		double L_0 = __this->___m_Data;
 		return L_0;
 	}
@@ -8467,10 +8467,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double JSONNumber_get_AsDouble_mFDD7A761CE99D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNumber_set_AsDouble_mE6E513495448236BBAB5F46F462F9489D46D01F9 (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1181>
 		double L_0 = ___0_value;
 		__this->___m_Data = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1181>
 		return;
 	}
 }
@@ -8478,7 +8478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNumber_set_AsDouble_mE6E513495448236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t JSONNumber_get_AsLong_m7272BE1FD2B9480C3C6DAB21FE59828B89BC70E8 (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1185>
 		double L_0 = __this->___m_Data;
 		return il2cpp_codegen_cast_double_to_int<int64_t>(L_0);
 	}
@@ -8487,10 +8487,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t JSONNumber_get_AsLong_m7272BE1FD2B948
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNumber_set_AsLong_m80B8EE09205F4A0428800890B04181B453926EA3 (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1186>
 		int64_t L_0 = ___0_value;
 		__this->___m_Data = ((double)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1186>
 		return;
 	}
 }
@@ -8498,7 +8498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNumber_set_AsLong_m80B8EE09205F4A042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t JSONNumber_get_AsULong_m8009B08175B23352C5565491F8BCFA766DF039ED (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1190>
 		double L_0 = __this->___m_Data;
 		return il2cpp_codegen_cast_floating_point<uint64_t, int64_t, double>(L_0);
 	}
@@ -8507,10 +8507,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t JSONNumber_get_AsULong_m8009B08175B2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNumber_set_AsULong_m8741F76DF334CF65569C88CDF38BA9B2418DC192 (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1191>
 		uint64_t L_0 = ___0_value;
 		__this->___m_Data = ((double)((double)(uint64_t)L_0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1191>
 		return;
 	}
 }
@@ -8524,13 +8524,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNumber__ctor_m6C78D2661535623F0D763F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1194>
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		JSONNode__ctor_mB2996DF66E9952CB79A65BB1177661640A16E534(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1196>
 		double L_0 = ___0_aData;
 		__this->___m_Data = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1197>
 		return;
 	}
 }
@@ -8544,13 +8544,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNumber__ctor_mFECBFDEEAB2024BF43E720
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1199>
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		JSONNode__ctor_mB2996DF66E9952CB79A65BB1177661640A16E534(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1201>
 		String_t* L_0 = ___0_aData;
 		VirtualActionInvoker1< String_t* >::Invoke(10, __this, L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1202>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1202>
 		return;
 	}
 }
@@ -8564,7 +8564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1206>
 		double L_0 = __this->___m_Data;
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_1 = (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3*)il2cpp_codegen_object_new(JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_il2cpp_TypeInfo_var);
 		JSONNumber__ctor_m6C78D2661535623F0D763FDBA0A16E1726686CEC(L_1, L_0, NULL);
@@ -8581,7 +8581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNumber_WriteToStringBuilder_mF81892B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1211>
 		StringBuilder_t* L_0 = ___0_aSB;
 		String_t* L_1;
 		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(9, __this);
@@ -8594,7 +8594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNumber_WriteToStringBuilder_mF81892B
 		NullCheck(L_0);
 		StringBuilder_t* L_4;
 		L_4 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_0, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1212>
 		return;
 	}
 }
@@ -8608,12 +8608,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONNumber_IsNumeric_m9788D25C146F246FC8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1215>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1216>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1217>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1218>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1219>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1220>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1215>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1216>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1219>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1220>
 		RuntimeObject* L_0 = ___0_value;
 		if (((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, il2cpp_defaults.int32_class)))
 		{
@@ -8706,7 +8706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONNumber_Equals_mD47B48F876BD8A7632FE3
 	}
 	JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1224>
 		RuntimeObject* L_0 = ___0_obj;
 		if (L_0)
 		{
@@ -8714,13 +8714,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONNumber_Equals_mD47B48F876BD8A7632FE3
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1225>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1225>
 		return (bool)0;
 	}
 
 IL_0005:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1226>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1226>
 		RuntimeObject* L_1 = ___0_obj;
 		bool L_2;
 		L_2 = JSONNode_Equals_m73DB667CBE776B8AA3B7E6C015084FE509D69D8D(__this, L_1, NULL);
@@ -8730,16 +8730,16 @@ IL_0005:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1227>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1227>
 		return (bool)1;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1228>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1228>
 		RuntimeObject* L_3 = ___0_obj;
 		V_0 = ((JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3*)IsInstClass((RuntimeObject*)L_3, JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1229>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1229>
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -8750,7 +8750,7 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1230>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1230>
 		double L_6 = __this->___m_Data;
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_7 = V_0;
 		NullCheck(L_7);
@@ -8760,7 +8760,7 @@ IL_0010:
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1231>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1231>
 		RuntimeObject* L_9 = ___0_obj;
 		bool L_10;
 		L_10 = JSONNumber_IsNumeric_m9788D25C146F246FC82E051C7B2BE975E70B6327(L_9, NULL);
@@ -8770,7 +8770,7 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1232>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1232>
 		RuntimeObject* L_11 = ___0_obj;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		double L_12;
@@ -8781,7 +8781,7 @@ IL_002f:
 
 IL_0046:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1233>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1233>
 		return (bool)0;
 	}
 }
@@ -8789,7 +8789,7 @@ IL_0046:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONNumber_GetHashCode_m6E8B80749AF6952FABCC6E884BEF9A0B744DE1F7 (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1237>
 		double* L_0 = (double*)(&__this->___m_Data);
 		int32_t L_1;
 		L_1 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline(L_0, NULL);
@@ -8800,9 +8800,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONNumber_GetHashCode_m6E8B80749AF69
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNumber_Clear_m6B91C22C724A0E0E53DF8114622310CDC8A41FB6 (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1241>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1241>
 		__this->___m_Data = (0.0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1242>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1242>
 		return;
 	}
 }
@@ -8818,7 +8818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNumber_Clear_m6B91C22C724A0E0E53DF81
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONBool_get_Tag_mC6F3FACEB29841387FC5D0E37950965D399CE2F8 (JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1250>
 		return (int32_t)(6);
 	}
 }
@@ -8826,7 +8826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONBool_get_Tag_mC6F3FACEB29841387FC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONBool_get_IsBoolean_m761C793E0E114F68713B8E71C542A4AD58C2278C (JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1251>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1251>
 		return (bool)1;
 	}
 }
@@ -8836,7 +8836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3
 	Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1252>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1252>
 		il2cpp_codegen_initobj((&V_0), sizeof(Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63));
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_0 = V_0;
 		return L_0;
@@ -8846,7 +8846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONBool_get_Value_mECB272FCBAB415E224ACF7D074952C7EE820FBFA (JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1256>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1256>
 		bool* L_0 = (bool*)(&__this->___m_Data);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.boolean_class);
 		String_t* L_1;
@@ -8859,7 +8859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONBool_set_Value_mE119751A46B567433B21
 {
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1260>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1260>
 		String_t* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.boolean_class);
 		bool L_1;
@@ -8870,14 +8870,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONBool_set_Value_mE119751A46B567433B21
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1261>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1261>
 		bool L_2 = V_0;
 		__this->___m_Data = L_2;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1262>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1262>
 		return;
 	}
 }
@@ -8885,7 +8885,7 @@ IL_0011:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONBool_get_AsBool_mD876B2039BED059A6F92839CEA9A3A518B207AFB (JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1266>
 		bool L_0 = __this->___m_Data;
 		return L_0;
 	}
@@ -8894,10 +8894,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONBool_get_AsBool_mD876B2039BED059A6F9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONBool_set_AsBool_mE5486E571E78441AA0875B416DAF7547FDB1C1FB (JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1267>
 		bool L_0 = ___0_value;
 		__this->___m_Data = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1267>
 		return;
 	}
 }
@@ -8911,13 +8911,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONBool__ctor_m3C11ACF6F8A044716D2EF78E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1270>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1270>
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		JSONNode__ctor_mB2996DF66E9952CB79A65BB1177661640A16E534(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1272>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1272>
 		bool L_0 = ___0_aData;
 		__this->___m_Data = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1273>
 		return;
 	}
 }
@@ -8931,13 +8931,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONBool__ctor_mB85DDECDC20BD9F23A4B76A3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1275>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1275>
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		JSONNode__ctor_mB2996DF66E9952CB79A65BB1177661640A16E534(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1277>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1277>
 		String_t* L_0 = ___0_aData;
 		VirtualActionInvoker1< String_t* >::Invoke(10, __this, L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1278>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1278>
 		return;
 	}
 }
@@ -8951,7 +8951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1282>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1282>
 		bool L_0 = __this->___m_Data;
 		JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4* L_1 = (JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4*)il2cpp_codegen_object_new(JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4_il2cpp_TypeInfo_var);
 		JSONBool__ctor_m3C11ACF6F8A044716D2EF78EF5408B05B457C8B6(L_1, L_0, NULL);
@@ -8973,7 +8973,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONBool_WriteToStringBuilder_mAEC264C9E
 	String_t* G_B3_0 = NULL;
 	StringBuilder_t* G_B3_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1287>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1287>
 		StringBuilder_t* L_0 = ___0_aSB;
 		bool L_1 = __this->___m_Data;
 		if (L_1)
@@ -9000,7 +9000,7 @@ IL_0015:
 		NullCheck(G_B3_1);
 		StringBuilder_t* L_2;
 		L_2 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(G_B3_1, G_B3_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1288>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1288>
 		return;
 	}
 }
@@ -9008,7 +9008,7 @@ IL_0015:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONBool_Equals_mB0484D4B16D15BDE770AEE59BEDC2AAD311CB799 (JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1291>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1291>
 		RuntimeObject* L_0 = ___0_obj;
 		if (L_0)
 		{
@@ -9016,13 +9016,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONBool_Equals_mB0484D4B16D15BDE770AEE5
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1292>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1292>
 		return (bool)0;
 	}
 
 IL_0005:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1293>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1293>
 		RuntimeObject* L_1 = ___0_obj;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_1, il2cpp_defaults.boolean_class)))
 		{
@@ -9030,7 +9030,7 @@ IL_0005:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1294>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1294>
 		bool L_2 = __this->___m_Data;
 		RuntimeObject* L_3 = ___0_obj;
 		return (bool)((((int32_t)L_2) == ((int32_t)((*(bool*)UnBox(L_3, il2cpp_defaults.boolean_class)))))? 1 : 0);
@@ -9038,7 +9038,7 @@ IL_0005:
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1295>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1295>
 		return (bool)0;
 	}
 }
@@ -9046,7 +9046,7 @@ IL_001c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONBool_GetHashCode_mA52751E2D1158CA83D7C09826DF9328D90579E3F (JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1299>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1299>
 		bool* L_0 = (bool*)(&__this->___m_Data);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.boolean_class);
 		int32_t L_1;
@@ -9058,9 +9058,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONBool_GetHashCode_mA52751E2D1158CA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONBool_Clear_mBBBF878AB311AAE10721AC904E2A5695B8EFD047 (JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1303>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1303>
 		__this->___m_Data = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1304>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1304>
 		return;
 	}
 }
@@ -9082,7 +9082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB32
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1314>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1314>
 		il2cpp_codegen_runtime_class_init_inline(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var);
 		bool L_0 = ((JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_StaticFields*)il2cpp_codegen_static_fields_for(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var))->___reuseSameInstance;
 		if (!L_0)
@@ -9091,7 +9091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB32
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1315>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1315>
 		il2cpp_codegen_runtime_class_init_inline(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var);
 		JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* L_1 = ((JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_StaticFields*)il2cpp_codegen_static_fields_for(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var))->___m_StaticInstance;
 		return L_1;
@@ -9099,7 +9099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB32
 
 IL_000d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1316>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1316>
 		JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* L_2 = (JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9*)il2cpp_codegen_object_new(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var);
 		JSONNull__ctor_m0D2EBC018B306B414F8C5E082846088954B1E8A5(L_2, NULL);
 		return L_2;
@@ -9115,10 +9115,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNull__ctor_m0D2EBC018B306B414F8C5E08
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1318>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1318>
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		JSONNode__ctor_mB2996DF66E9952CB79A65BB1177661640A16E534(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1318>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1318>
 		return;
 	}
 }
@@ -9126,7 +9126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNull__ctor_m0D2EBC018B306B414F8C5E08
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONNull_get_Tag_m6883C4D5932A84C6BB2D424063C129DD3317A884 (JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1320>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1320>
 		return (int32_t)(5);
 	}
 }
@@ -9134,7 +9134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONNull_get_Tag_m6883C4D5932A84C6BB2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONNull_get_IsNull_m5F762020E3B15C98424D1083A54234C32DCCF9A1 (JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1321>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1321>
 		return (bool)1;
 	}
 }
@@ -9144,7 +9144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3
 	Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1322>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1322>
 		il2cpp_codegen_initobj((&V_0), sizeof(Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63));
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_0 = V_0;
 		return L_0;
@@ -9160,7 +9160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONNull_get_Value_m00F29663EC5975F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1326>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1326>
 		return _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174;
 	}
 }
@@ -9168,7 +9168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONNull_get_Value_m00F29663EC5975F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNull_set_Value_mCF980FA41230E61D7681C2357348EA3954FE9DAB (JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1327>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1327>
 		return;
 	}
 }
@@ -9176,7 +9176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNull_set_Value_mCF980FA41230E61D7681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONNull_get_AsBool_m5E1E67D61B3BD09C769917C91352B69F1B7C33EB (JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1331>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1331>
 		return (bool)0;
 	}
 }
@@ -9184,7 +9184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONNull_get_AsBool_m5E1E67D61B3BD09C769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNull_set_AsBool_m579D57BDBF1D87D0E11A5902FE44B4B4B96004BE (JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1332>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1332>
 		return;
 	}
 }
@@ -9198,7 +9198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1337>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1337>
 		il2cpp_codegen_runtime_class_init_inline(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var);
 		JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* L_0;
 		L_0 = JSONNull_CreateOrGet_m63BB6A8AD53643B800540BF8B2C3F1061ACD0381(NULL);
@@ -9215,7 +9215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONNull_Equals_mDE3BB64891B07E1940A11D3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1342>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1342>
 		RuntimeObject* L_0 = ___0_obj;
 		if ((!(((RuntimeObject*)(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9*)__this) == ((RuntimeObject*)(RuntimeObject*)L_0))))
 		{
@@ -9223,13 +9223,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONNull_Equals_mDE3BB64891B07E1940A11D3
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1343>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1343>
 		return (bool)1;
 	}
 
 IL_0006:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1344>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1344>
 		RuntimeObject* L_1 = ___0_obj;
 		return (bool)((!(((RuntimeObject*)(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9*)((JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9*)IsInstClass((RuntimeObject*)L_1, JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
@@ -9238,7 +9238,7 @@ IL_0006:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONNull_GetHashCode_mDAE3F1800F1BEB39879A4FCC0C484E977088973F (JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1348>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1348>
 		return 0;
 	}
 }
@@ -9252,12 +9252,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNull_WriteToStringBuilder_mEAA5BA6B2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1353>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1353>
 		StringBuilder_t* L_0 = ___0_aSB;
 		NullCheck(L_0);
 		StringBuilder_t* L_1;
 		L_1 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_0, _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1354>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1354>
 		return;
 	}
 }
@@ -9271,12 +9271,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNull__cctor_mF62030AB2A27801802CEF6D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1310>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1310>
 		JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9* L_0 = (JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9*)il2cpp_codegen_object_new(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var);
 		JSONNull__ctor_m0D2EBC018B306B414F8C5E082846088954B1E8A5(L_0, NULL);
 		((JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_StaticFields*)il2cpp_codegen_static_fields_for(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var))->___m_StaticInstance = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_StaticFields*)il2cpp_codegen_static_fields_for(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var))->___m_StaticInstance), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1311>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1311>
 		((JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_StaticFields*)il2cpp_codegen_static_fields_for(JSONNull_t4096A8DC28E6E48CD5626607C9700E6CB325A2D9_il2cpp_TypeInfo_var))->___reuseSameInstance = (bool)1;
 		return;
 	}
@@ -9293,7 +9293,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONNull__cctor_mF62030AB2A27801802CEF6D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONLazyCreator_get_Tag_m7D853E8C5F4243069CEB8D8762FECE70BEBAF647 (JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1362>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1362>
 		return (int32_t)(7);
 	}
 }
@@ -9303,7 +9303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3
 	Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1363>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1363>
 		il2cpp_codegen_initobj((&V_0), sizeof(Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63));
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_0 = V_0;
 		return L_0;
@@ -9319,17 +9319,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator__ctor_m18AB070D8863A65BD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1365>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1365>
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		JSONNode__ctor_mB2996DF66E9952CB79A65BB1177661640A16E534(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1367>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1367>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_0 = ___0_aNode;
 		__this->___m_Node = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Node), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1368>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1368>
 		__this->___m_Key = (String_t*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Key), (void*)(String_t*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1369>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1369>
 		return;
 	}
 }
@@ -9343,18 +9343,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator__ctor_mAC9732665BD5BA008
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1371>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1371>
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		JSONNode__ctor_mB2996DF66E9952CB79A65BB1177661640A16E534(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1373>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1373>
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_0 = ___0_aNode;
 		__this->___m_Node = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Node), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1374>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1374>
 		String_t* L_1 = ___1_aKey;
 		__this->___m_Key = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Key), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1375>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1375>
 		return;
 	}
 }
@@ -9368,7 +9368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1389>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1389>
 		JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3* L_0 = (JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3*)il2cpp_codegen_object_new(JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3_il2cpp_TypeInfo_var);
 		JSONLazyCreator__ctor_m18AB070D8863A65BDDF76538241046C56B678337(L_0, __this, NULL);
 		return L_0;
@@ -9385,7 +9385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_Item_m84135418BEE0E4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1390>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1390>
 		JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* L_0 = (JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D*)il2cpp_codegen_object_new(JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D_il2cpp_TypeInfo_var);
 		JSONArray__ctor_m45DD6787202E7D27A843536F7D3ED346D10A8916(L_0, NULL);
 		JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* L_1;
@@ -9393,7 +9393,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_Item_m84135418BEE0E4
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_2 = ___1_value;
 		NullCheck(L_1);
 		VirtualActionInvoker1< JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* >::Invoke(21, L_1, L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1390>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1390>
 		return;
 	}
 }
@@ -9407,7 +9407,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1395>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1395>
 		String_t* L_0 = ___0_aKey;
 		JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3* L_1 = (JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3*)il2cpp_codegen_object_new(JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3_il2cpp_TypeInfo_var);
 		JSONLazyCreator__ctor_mAC9732665BD5BA00873627C39C626D2ACE1D7102(L_1, __this, L_0, NULL);
@@ -9425,7 +9425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_Item_m933137175CA28C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1396>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1396>
 		JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* L_0 = (JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430*)il2cpp_codegen_object_new(JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430_il2cpp_TypeInfo_var);
 		JSONObject__ctor_m6B6A4B99142AB058889B2ABDC4B2DBA7F99B0599(L_0, NULL);
 		JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* L_1;
@@ -9434,7 +9434,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_Item_m933137175CA28C
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_3 = ___1_value;
 		NullCheck(L_1);
 		VirtualActionInvoker2< String_t*, JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* >::Invoke(20, L_1, L_2, L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1396>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1396>
 		return;
 	}
 }
@@ -9449,7 +9449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_Add_mA6BC9DEB3490C598129
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1401>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1401>
 		JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* L_0 = (JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D*)il2cpp_codegen_object_new(JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D_il2cpp_TypeInfo_var);
 		JSONArray__ctor_m45DD6787202E7D27A843536F7D3ED346D10A8916(L_0, NULL);
 		JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* L_1;
@@ -9457,7 +9457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_Add_mA6BC9DEB3490C598129
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_2 = ___0_aItem;
 		NullCheck(L_1);
 		VirtualActionInvoker1< JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* >::Invoke(21, L_1, L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1402>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1402>
 		return;
 	}
 }
@@ -9472,7 +9472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_Add_m2AD0766DE1507F592CC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1406>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1406>
 		JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* L_0 = (JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430*)il2cpp_codegen_object_new(JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430_il2cpp_TypeInfo_var);
 		JSONObject__ctor_m6B6A4B99142AB058889B2ABDC4B2DBA7F99B0599(L_0, NULL);
 		JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* L_1;
@@ -9481,7 +9481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_Add_m2AD0766DE1507F592CC
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_3 = ___1_aItem;
 		NullCheck(L_1);
 		VirtualActionInvoker2< String_t*, JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* >::Invoke(20, L_1, L_2, L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1407>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1407>
 		return;
 	}
 }
@@ -9489,7 +9489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_Add_m2AD0766DE1507F592CC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONLazyCreator_op_Equality_m56B7B7B7C3F96CC78BB7EA36C0BD101762E1E01C (JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3* ___0_a, RuntimeObject* ___1_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1411>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1411>
 		RuntimeObject* L_0 = ___1_b;
 		if (L_0)
 		{
@@ -9497,13 +9497,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONLazyCreator_op_Equality_m56B7B7B7C3F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1412>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1412>
 		return (bool)1;
 	}
 
 IL_0005:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1413>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1413>
 		JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3* L_1 = ___0_a;
 		RuntimeObject* L_2 = ___1_b;
 		return (bool)((((RuntimeObject*)(JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3*)L_1) == ((RuntimeObject*)(RuntimeObject*)L_2))? 1 : 0);
@@ -9513,7 +9513,7 @@ IL_0005:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONLazyCreator_op_Inequality_m62E2E99791231D5D2DD84CE936D5B281106728F6 (JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3* ___0_a, RuntimeObject* ___1_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1418>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1418>
 		JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3* L_0 = ___0_a;
 		RuntimeObject* L_1 = ___1_b;
 		bool L_2;
@@ -9525,7 +9525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONLazyCreator_op_Inequality_m62E2E9979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONLazyCreator_Equals_m7FCC23BCC388C50C696E18361FFBDFA82DC03C17 (JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1423>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1423>
 		RuntimeObject* L_0 = ___0_obj;
 		if (L_0)
 		{
@@ -9533,13 +9533,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONLazyCreator_Equals_m7FCC23BCC388C50C
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1424>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1424>
 		return (bool)1;
 	}
 
 IL_0005:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1425>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1425>
 		RuntimeObject* L_1 = ___0_obj;
 		return (bool)((((RuntimeObject*)(JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3*)__this) == ((RuntimeObject*)(RuntimeObject*)L_1))? 1 : 0);
 	}
@@ -9548,7 +9548,7 @@ IL_0005:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONLazyCreator_GetHashCode_m1C051B3C4933B8B77A52FC88A813CD633D0E5B60 (JSONLazyCreator_t11C72E887FA7DDEFAA7F653267AA176A76DE58D3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1430>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1430>
 		return 0;
 	}
 }
@@ -9563,12 +9563,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONLazyCreator_get_AsInt_m7E8E5E5286
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1435>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1435>
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_0 = (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3*)il2cpp_codegen_object_new(JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_il2cpp_TypeInfo_var);
 		JSONNumber__ctor_m6C78D2661535623F0D763FDBA0A16E1726686CEC(L_0, (0.0), NULL);
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_1;
 		L_1 = JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB(__this, L_0, JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1435>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1435>
 		return 0;
 	}
 }
@@ -9583,13 +9583,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_AsInt_m546253EEA8569
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1436>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1436>
 		int32_t L_0 = ___0_value;
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_1 = (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3*)il2cpp_codegen_object_new(JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_il2cpp_TypeInfo_var);
 		JSONNumber__ctor_m6C78D2661535623F0D763FDBA0A16E1726686CEC(L_1, ((double)L_0), NULL);
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_2;
 		L_2 = JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB(__this, L_1, JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1436>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1436>
 		return;
 	}
 }
@@ -9604,12 +9604,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float JSONLazyCreator_get_AsFloat_mAEEB2E6312
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1441>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1441>
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_0 = (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3*)il2cpp_codegen_object_new(JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_il2cpp_TypeInfo_var);
 		JSONNumber__ctor_m6C78D2661535623F0D763FDBA0A16E1726686CEC(L_0, (0.0), NULL);
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_1;
 		L_1 = JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB(__this, L_0, JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1441>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1441>
 		return (0.0f);
 	}
 }
@@ -9624,13 +9624,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_AsFloat_m6A46D35F352
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1442>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1442>
 		float L_0 = ___0_value;
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_1 = (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3*)il2cpp_codegen_object_new(JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_il2cpp_TypeInfo_var);
 		JSONNumber__ctor_m6C78D2661535623F0D763FDBA0A16E1726686CEC(L_1, ((double)L_0), NULL);
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_2;
 		L_2 = JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB(__this, L_1, JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1442>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1442>
 		return;
 	}
 }
@@ -9645,12 +9645,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double JSONLazyCreator_get_AsDouble_m3B66A685
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1447>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1447>
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_0 = (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3*)il2cpp_codegen_object_new(JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_il2cpp_TypeInfo_var);
 		JSONNumber__ctor_m6C78D2661535623F0D763FDBA0A16E1726686CEC(L_0, (0.0), NULL);
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_1;
 		L_1 = JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB(__this, L_0, JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1447>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1447>
 		return (0.0);
 	}
 }
@@ -9665,13 +9665,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_AsDouble_mBEF42768B8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1448>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1448>
 		double L_0 = ___0_value;
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_1 = (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3*)il2cpp_codegen_object_new(JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_il2cpp_TypeInfo_var);
 		JSONNumber__ctor_m6C78D2661535623F0D763FDBA0A16E1726686CEC(L_1, L_0, NULL);
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_2;
 		L_2 = JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB(__this, L_1, JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1448>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1448>
 		return;
 	}
 }
@@ -9690,7 +9690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t JSONLazyCreator_get_AsLong_mD8336F7F1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1455>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1455>
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_0 = ((JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_StaticFields*)il2cpp_codegen_static_fields_for(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var))->___longAsString;
 		if (!L_0)
@@ -9699,7 +9699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t JSONLazyCreator_get_AsLong_mD8336F7F1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1456>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1456>
 		JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB* L_1 = (JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB*)il2cpp_codegen_object_new(JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB_il2cpp_TypeInfo_var);
 		JSONString__ctor_mF37815B74566B5E79717222282D3B85AC3090B26(L_1, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
 		JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB* L_2;
@@ -9709,7 +9709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t JSONLazyCreator_get_AsLong_mD8336F7F1
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1458>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1458>
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_3 = (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3*)il2cpp_codegen_object_new(JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_il2cpp_TypeInfo_var);
 		JSONNumber__ctor_m6C78D2661535623F0D763FDBA0A16E1726686CEC(L_3, (0.0), NULL);
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_4;
@@ -9718,7 +9718,7 @@ IL_001a:
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1459>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1459>
 		return ((int64_t)0);
 	}
 }
@@ -9737,7 +9737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_AsLong_m0C53BAEF6316
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1463>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1463>
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_0 = ((JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_StaticFields*)il2cpp_codegen_static_fields_for(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var))->___longAsString;
 		if (!L_0)
@@ -9746,7 +9746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_AsLong_m0C53BAEF6316
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1464>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1464>
 		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
 		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_1;
 		L_1 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
@@ -9761,13 +9761,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_AsLong_m0C53BAEF6316
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1466>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1466>
 		int64_t L_5 = ___0_value;
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_6 = (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3*)il2cpp_codegen_object_new(JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_il2cpp_TypeInfo_var);
 		JSONNumber__ctor_m6C78D2661535623F0D763FDBA0A16E1726686CEC(L_6, ((double)L_5), NULL);
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_7;
 		L_7 = JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB(__this, L_6, JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1467>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1467>
 		return;
 	}
 }
@@ -9786,7 +9786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t JSONLazyCreator_get_AsULong_m61855CA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1474>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1474>
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_0 = ((JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_StaticFields*)il2cpp_codegen_static_fields_for(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var))->___longAsString;
 		if (!L_0)
@@ -9795,7 +9795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t JSONLazyCreator_get_AsULong_m61855CA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1475>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1475>
 		JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB* L_1 = (JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB*)il2cpp_codegen_object_new(JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB_il2cpp_TypeInfo_var);
 		JSONString__ctor_mF37815B74566B5E79717222282D3B85AC3090B26(L_1, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
 		JSONString_tECE018E530ACAF87A1DAFB9A8DBC7BDB349BC5AB* L_2;
@@ -9805,7 +9805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t JSONLazyCreator_get_AsULong_m61855CA
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1477>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1477>
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_3 = (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3*)il2cpp_codegen_object_new(JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_il2cpp_TypeInfo_var);
 		JSONNumber__ctor_m6C78D2661535623F0D763FDBA0A16E1726686CEC(L_3, (0.0), NULL);
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_4;
@@ -9814,7 +9814,7 @@ IL_001a:
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1478>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1478>
 		return ((int64_t)0);
 	}
 }
@@ -9833,7 +9833,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_AsULong_mA5283D8AE0C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1482>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1482>
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		bool L_0 = ((JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_StaticFields*)il2cpp_codegen_static_fields_for(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var))->___longAsString;
 		if (!L_0)
@@ -9842,7 +9842,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_AsULong_mA5283D8AE0C
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1483>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1483>
 		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
 		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_1;
 		L_1 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
@@ -9857,13 +9857,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_AsULong_mA5283D8AE0C
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1485>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1485>
 		uint64_t L_5 = ___0_value;
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_6 = (JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3*)il2cpp_codegen_object_new(JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_il2cpp_TypeInfo_var);
 		JSONNumber__ctor_m6C78D2661535623F0D763FDBA0A16E1726686CEC(L_6, ((double)((double)(uint64_t)L_5)), NULL);
 		JSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3* L_7;
 		L_7 = JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB(__this, L_6, JSONLazyCreator_Set_TisJSONNumber_tCA35573A0F7DEC375486FA9DDAF4E6520CAB8AB3_mA873110784323A6DD772E6B0538917376BB225EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1486>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1486>
 		return;
 	}
 }
@@ -9878,12 +9878,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONLazyCreator_get_AsBool_mD6CD5D850DBF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1491>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1491>
 		JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4* L_0 = (JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4*)il2cpp_codegen_object_new(JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4_il2cpp_TypeInfo_var);
 		JSONBool__ctor_m3C11ACF6F8A044716D2EF78EF5408B05B457C8B6(L_0, (bool)0, NULL);
 		JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4* L_1;
 		L_1 = JSONLazyCreator_Set_TisJSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4_m001FB167B0E4ECE95169FDF0F6974856DFA9F275(__this, L_0, JSONLazyCreator_Set_TisJSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4_m001FB167B0E4ECE95169FDF0F6974856DFA9F275_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1491>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1491>
 		return (bool)0;
 	}
 }
@@ -9898,13 +9898,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_set_AsBool_m1D71F2F56130
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1492>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1492>
 		bool L_0 = ___0_value;
 		JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4* L_1 = (JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4*)il2cpp_codegen_object_new(JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4_il2cpp_TypeInfo_var);
 		JSONBool__ctor_m3C11ACF6F8A044716D2EF78EF5408B05B457C8B6(L_1, L_0, NULL);
 		JSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4* L_2;
 		L_2 = JSONLazyCreator_Set_TisJSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4_m001FB167B0E4ECE95169FDF0F6974856DFA9F275(__this, L_1, JSONLazyCreator_Set_TisJSONBool_t1D3A15185DC9038F14F7427328232A3C050322F4_m001FB167B0E4ECE95169FDF0F6974856DFA9F275_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1492>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1492>
 		return;
 	}
 }
@@ -9919,7 +9919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONArray_t2723AAA56DEBFB4C313C87FD877FCA5198
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1497>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1497>
 		JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* L_0 = (JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D*)il2cpp_codegen_object_new(JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D_il2cpp_TypeInfo_var);
 		JSONArray__ctor_m45DD6787202E7D27A843536F7D3ED346D10A8916(L_0, NULL);
 		JSONArray_t2723AAA56DEBFB4C313C87FD877FCA519818602D* L_1;
@@ -9938,7 +9938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1502>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1502>
 		JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* L_0 = (JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430*)il2cpp_codegen_object_new(JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430_il2cpp_TypeInfo_var);
 		JSONObject__ctor_m6B6A4B99142AB058889B2ABDC4B2DBA7F99B0599(L_0, NULL);
 		JSONObject_t1E72A794170EEA46FB821EF0BFEAF7AD480A5430* L_1;
@@ -9956,12 +9956,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONLazyCreator_WriteToStringBuilder_mB8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1506>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1506>
 		StringBuilder_t* L_0 = ___0_aSB;
 		NullCheck(L_0);
 		StringBuilder_t* L_1;
 		L_1 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_0, _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1507>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1507>
 		return;
 	}
 }
@@ -9983,7 +9983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONNode_t09FA149506F31AC2019A0E463804342305F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:1515>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:1515>
 		String_t* L_0 = ___0_aJSON;
 		il2cpp_codegen_runtime_class_init_inline(JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6_il2cpp_TypeInfo_var);
 		JSONNode_t09FA149506F31AC2019A0E463804342305FA71A6* L_1;
@@ -33911,7 +33911,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetOverlayTexture_EndInvoke_mE6CDF6E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValueEnumerator__ctor_m9D00CFAD339F952F35B438A78C767412FA2FA164_inline (ValueEnumerator_t9F0C84FDF4BE39BEC2978A6B7FA2017850D252B8* __this, Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 ___0_aEnumerator, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:193>
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_0 = ___0_aEnumerator;
 		__this->___m_Enumerator = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Enumerator))->___m_Object))->____dictionary), (void*)NULL);
@@ -33927,7 +33927,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValueEnumerator__ctor_m9D00C
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Enumerator))->___m_Array))->____current), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:193>
 		return;
 	}
 }
@@ -33935,7 +33935,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValueEnumerator__ctor_m9D00C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KeyEnumerator__ctor_m1C45B10B82FC1086CAF857948662A4BFFC80D22A_inline (KeyEnumerator_t8AAB03BDEDB27A875E11BA67439D4556F45EE4AC* __this, Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 ___0_aEnumerator, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:203>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:203>
 		Enumerator_t096B8EE1BCCF3F5C13983F76868C274C3FA83D63 L_0 = ___0_aEnumerator;
 		__this->___m_Enumerator = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Enumerator))->___m_Object))->____dictionary), (void*)NULL);
@@ -33951,7 +33951,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KeyEnumerator__ctor_m1C45B10
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Enumerator))->___m_Array))->____current), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/ThirdParty/SimpleJSON.cs:203>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/ThirdParty/SimpleJSON.cs:203>
 		return;
 	}
 }

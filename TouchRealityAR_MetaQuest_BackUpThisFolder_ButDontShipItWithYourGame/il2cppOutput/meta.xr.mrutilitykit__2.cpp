@@ -7016,7 +7016,7 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL dlclose(intptr_t);
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B MRUKSettings_get_TrackerConfiguration_m3CB1836B284E9351C5742F745C2F55F5ECE773E9 (MRUKSettings_t5CFF093D740BD5360482D04501380A54D3A72CAA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:134>
 		TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B L_0 = __this->___U3CTrackerConfigurationU3Ek__BackingField;
 		return L_0;
 	}
@@ -7025,7 +7025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackerConfiguration_t96B5658FA3B00414B7CBA6B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKSettings_set_TrackerConfiguration_mDA6DC36FA911C3F74997CBC97885CD93B298EE19 (MRUKSettings_t5CFF093D740BD5360482D04501380A54D3A72CAA* __this, TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:134>
 		TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B L_0 = ___0_value;
 		__this->___U3CTrackerConfigurationU3Ek__BackingField = L_0;
 		return;
@@ -7035,7 +7035,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKSettings_set_TrackerConfiguration_mD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31* MRUKSettings_get_TrackableAdded_m27BFC720E835518701D9E3C0341F72DDE4A6A686 (MRUKSettings_t5CFF093D740BD5360482D04501380A54D3A72CAA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:161>
 		UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31* L_0 = __this->___U3CTrackableAddedU3Ek__BackingField;
 		return L_0;
 	}
@@ -7044,7 +7044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKSettings_set_TrackableAdded_mB0318270189435A5A1B49460EBF2EE47A84AC704 (MRUKSettings_t5CFF093D740BD5360482D04501380A54D3A72CAA* __this, UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:161>
 		UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31* L_0 = ___0_value;
 		__this->___U3CTrackableAddedU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrackableAddedU3Ek__BackingField), (void*)L_0);
@@ -7055,7 +7055,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKSettings_set_TrackableAdded_mB031827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31* MRUKSettings_get_TrackableRemoved_m48FC65A84DA5CCD4C7127384F928F0278E49BEA4 (MRUKSettings_t5CFF093D740BD5360482D04501380A54D3A72CAA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:173>
 		UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31* L_0 = __this->___U3CTrackableRemovedU3Ek__BackingField;
 		return L_0;
 	}
@@ -7064,7 +7064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKSettings_set_TrackableRemoved_m1A436FD17C2D0D20D858EF74A44DA136DAEF8356 (MRUKSettings_t5CFF093D740BD5360482D04501380A54D3A72CAA* __this, UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:173>
 		UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31* L_0 = ___0_value;
 		__this->___U3CTrackableRemovedU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrackableRemovedU3Ek__BackingField), (void*)L_0);
@@ -7082,18 +7082,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKSettings__ctor_m0AC1284BC6B7F52373A9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:478>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:478>
 		__this->___RoomIndex = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:504>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:504>
 		__this->___LoadSceneOnStartup = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:522>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:522>
 		__this->___SeatWidth = (0.600000024f);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:161>
 		UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31* L_0 = (UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31*)il2cpp_codegen_object_new(UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31_il2cpp_TypeInfo_var);
 		UnityEvent_1__ctor_m8A4C96407DDC5310B7AA82BDC860743B12EC2EF2(L_0, UnityEvent_1__ctor_m8A4C96407DDC5310B7AA82BDC860743B12EC2EF2_RuntimeMethod_var);
 		__this->___U3CTrackableAddedU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrackableAddedU3Ek__BackingField), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:173>
 		UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31* L_1 = (UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31*)il2cpp_codegen_object_new(UnityEvent_1_tF97C17CF7BBB752C0658C25DDC458A8EB66C1D31_il2cpp_TypeInfo_var);
 		UnityEvent_1__ctor_m8A4C96407DDC5310B7AA82BDC860743B12EC2EF2(L_1, UnityEvent_1__ctor_m8A4C96407DDC5310B7AA82BDC860743B12EC2EF2_RuntimeMethod_var);
 		__this->___U3CTrackableRemovedU3Ek__BackingField = L_1;
@@ -7176,13 +7176,13 @@ IL2CPP_EXTERN_C void SharedRoomsData_t239BDC3567CDFEEE214360EFFEBBEF34246588AC_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableKey__ctor_m4543B85A4A18FC1CCDD8F03DACE2FB35D29771A6 (TrackableKey_tEAA9D929302B912B7A6BE46B816640884ED4A1F5* __this, uint64_t ___0_space, uint64_t ___1_entityId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:55>
 		uint64_t L_0 = ___0_space;
 		__this->____space = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:56>
 		uint64_t L_1 = ___1_entityId;
 		__this->____entityId = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:57>
 		return;
 	}
 }
@@ -7197,7 +7197,7 @@ IL2CPP_EXTERN_C  void TrackableKey__ctor_m4543B85A4A18FC1CCDD8F03DACE2FB35D29771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableKey_Equals_m76405A2E39C819EEE121398D3C8E4D6A96D1A15A (TrackableKey_tEAA9D929302B912B7A6BE46B816640884ED4A1F5* __this, TrackableKey_tEAA9D929302B912B7A6BE46B816640884ED4A1F5 ___0_other, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:66>
 		uint64_t L_0 = __this->____space;
 		TrackableKey_tEAA9D929302B912B7A6BE46B816640884ED4A1F5 L_1 = ___0_other;
 		uint64_t L_2 = L_1.____space;
@@ -7239,7 +7239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableKey_Equals_m953C19728D05524DB16
 	TrackableKey_tEAA9D929302B912B7A6BE46B816640884ED4A1F5 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:76>
 		RuntimeObject* L_0 = ___0_obj;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, TrackableKey_tEAA9D929302B912B7A6BE46B816640884ED4A1F5_il2cpp_TypeInfo_var)))
 		{
@@ -7280,7 +7280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackableKey_GetHashCode_m8A4E8FDD0FB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:85>
 		uint64_t L_0 = __this->____space;
 		uint64_t L_1 = __this->____entityId;
 		il2cpp_codegen_runtime_class_init_inline(HashCode_t9CF0E862CF73DB9FE67D8DBBD1F4C46330F88AE3_il2cpp_TypeInfo_var);
@@ -7302,7 +7302,7 @@ IL2CPP_EXTERN_C  int32_t TrackableKey_GetHashCode_m8A4E8FDD0FB9D4549D32162A591DF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableKey_op_Equality_m4D2DDCF9DEE2098788B121414A226E0B57FAD964 (TrackableKey_tEAA9D929302B912B7A6BE46B816640884ED4A1F5 ___0_left, TrackableKey_tEAA9D929302B912B7A6BE46B816640884ED4A1F5 ___1_right, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:96>
 		TrackableKey_tEAA9D929302B912B7A6BE46B816640884ED4A1F5 L_0 = ___1_right;
 		bool L_1;
 		L_1 = TrackableKey_Equals_m76405A2E39C819EEE121398D3C8E4D6A96D1A15A((&___0_left), L_0, NULL);
@@ -7313,7 +7313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableKey_op_Equality_m4D2DDCF9DEE209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableKey_op_Inequality_mEFD808F1CD56A93D98116D6D98547E1508B0EADA (TrackableKey_tEAA9D929302B912B7A6BE46B816640884ED4A1F5 ___0_left, TrackableKey_tEAA9D929302B912B7A6BE46B816640884ED4A1F5 ___1_right, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:107>
 		TrackableKey_tEAA9D929302B912B7A6BE46B816640884ED4A1F5 L_0 = ___1_right;
 		bool L_1;
 		L_1 = TrackableKey_Equals_m76405A2E39C819EEE121398D3C8E4D6A96D1A15A((&___0_left), L_0, NULL);
@@ -7330,7 +7330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TrackableKey_ToString_m5514BDAC855A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:119>
 		uint64_t L_0 = __this->____space;
 		uint64_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(il2cpp_defaults.uint64_class, &L_1);
@@ -7419,9 +7419,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConfigureTrackerAndLogResultU3Ed__150
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:277>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:277>
 			V_2 = 0;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:278>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:278>
 			TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B* L_3 = (TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B*)(&__this->___config);
 			bool L_4;
 			L_4 = TrackerConfiguration_get_KeyboardTrackingEnabled_m1951995A6C2B4D13DD742FD93F00DB46B7C4A948_inline(L_3, NULL);
@@ -7431,14 +7431,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConfigureTrackerAndLogResultU3Ed__150
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:280>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:280>
 			uint32_t L_5 = V_2;
 			V_2 = ((int32_t)((int32_t)L_5|1));
 		}
 
 IL_0027_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:283>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:283>
 			TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B* L_6 = (TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B*)(&__this->___config);
 			bool L_7;
 			L_7 = TrackerConfiguration_get_QRCodeTrackingEnabled_m349A12221756B20566E8B21F80E5E24A97974314_inline(L_6, NULL);
@@ -7448,14 +7448,14 @@ IL_0027_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:285>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:285>
 			uint32_t L_8 = V_2;
 			V_2 = ((int32_t)((int32_t)L_8|2));
 		}
 
 IL_0038_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:288>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:288>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_9 = V_1;
 			Guid_t L_10;
 			L_10 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
@@ -7466,12 +7466,12 @@ IL_0038_1:
 			Nullable_1__ctor_m4479FCC5FD25F92F1C09D927645CA57BCA7DFD70((&L_12), L_11, Nullable_1__ctor_m4479FCC5FD25F92F1C09D927645CA57BCA7DFD70_RuntimeMethod_var);
 			NullCheck(L_9);
 			L_9->____configureTrackersTask = L_12;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:289>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:289>
 			ConfigureTrackersDelegate_t96D2A9717A1A950E6E529DFA291855DFBB4FF6CD* L_13 = ((MRUKNativeFuncs_t8952D6DE369E77ED6EED930333B2BE760EE76C66_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNativeFuncs_t8952D6DE369E77ED6EED930333B2BE760EE76C66_il2cpp_TypeInfo_var))->___ConfigureTrackers;
 			uint32_t L_14 = V_2;
 			NullCheck(L_13);
 			ConfigureTrackersDelegate_Invoke_m843B4EB981537FB66A2183F22C631C999D04FED5_inline(L_13, L_14, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:291>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:291>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_15 = V_1;
 			NullCheck(L_15);
 			Nullable_1_t5CBAF3C3AB2F0DD1F56E97A874A74C77E35227E2* L_16 = (Nullable_1_t5CBAF3C3AB2F0DD1F56E97A874A74C77E35227E2*)(&L_15->____configureTrackersTask);
@@ -7516,7 +7516,7 @@ IL_00b8_1:
 			int32_t L_26;
 			L_26 = Awaiter_GetResult_m6566D78509CB5FCC10E85060F3A1FC9315F1C5D1((&V_4), Awaiter_GetResult_m6566D78509CB5FCC10E85060F3A1FC9315F1C5D1_RuntimeMethod_var);
 			V_3 = L_26;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:293>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:293>
 			TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B* L_27 = (TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B*)(&__this->___config);
 			bool L_28;
 			L_28 = TrackerConfiguration_get_QRCodeTrackingEnabled_m349A12221756B20566E8B21F80E5E24A97974314_inline(L_27, NULL);
@@ -7526,9 +7526,9 @@ IL_00b8_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:295>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:296>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:297>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:295>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:296>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:297>
 			il2cpp_codegen_runtime_class_init_inline(OVRTelemetry_t36C645AF5532E1587040672CE3E7D2AD72934CEF_il2cpp_TypeInfo_var);
 			OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 L_29;
 			L_29 = OVRTelemetry_Start_m0765E36E678288373B46C76411AEB6A403E20D8C(((int32_t)651896615), 0, ((int64_t)(-1)), NULL);
@@ -7564,7 +7564,7 @@ IL_00e5_1:
 
 IL_00f4_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:300>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:300>
 			TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B* L_33 = (TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B*)(&__this->___config);
 			bool L_34;
 			L_34 = TrackerConfiguration_get_KeyboardTrackingEnabled_m1951995A6C2B4D13DD742FD93F00DB46B7C4A948_inline(L_33, NULL);
@@ -7574,9 +7574,9 @@ IL_00f4_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:302>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:303>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:304>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:302>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:303>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:304>
 			il2cpp_codegen_runtime_class_init_inline(OVRTelemetry_t36C645AF5532E1587040672CE3E7D2AD72934CEF_il2cpp_TypeInfo_var);
 			OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 L_35;
 			L_35 = OVRTelemetry_Start_m0765E36E678288373B46C76411AEB6A403E20D8C(((int32_t)651896297), 0, ((int64_t)(-1)), NULL);
@@ -7612,7 +7612,7 @@ IL_0119_1:
 
 IL_0128_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:307>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:307>
 			int32_t L_39 = V_3;
 			if (L_39)
 			{
@@ -7620,7 +7620,7 @@ IL_0128_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:309>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:309>
 			TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B L_40 = __this->___config;
 			TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B L_41 = L_40;
 			RuntimeObject* L_42 = Box(TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B_il2cpp_TypeInfo_var, &L_41);
@@ -7633,7 +7633,7 @@ IL_0128_1:
 
 IL_0147_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:313>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:313>
 			int32_t L_44 = V_3;
 			int32_t L_45 = L_44;
 			RuntimeObject* L_46 = Box(MrukResult_t839B8CBC2450FAD7865895D42D02D992BBA3A89D_il2cpp_TypeInfo_var, &L_45);
@@ -7648,7 +7648,7 @@ IL_0147_1:
 
 IL_0167_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:316>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:316>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_51 = V_1;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_52;
@@ -7659,12 +7659,12 @@ IL_0167_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:318>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:318>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_53 = V_1;
 			NullCheck(L_53);
 			Nullable_1_t5CBAF3C3AB2F0DD1F56E97A874A74C77E35227E2* L_54 = (Nullable_1_t5CBAF3C3AB2F0DD1F56E97A874A74C77E35227E2*)(&L_53->____configureTrackersTask);
 			il2cpp_codegen_initobj(L_54, sizeof(Nullable_1_t5CBAF3C3AB2F0DD1F56E97A874A74C77E35227E2));
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:319>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:319>
 			int32_t L_55 = V_3;
 			if (L_55)
 			{
@@ -7672,7 +7672,7 @@ IL_0167_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:321>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:321>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_56 = V_1;
 			TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B L_57 = __this->___config;
 			NullCheck(L_56);
@@ -7708,7 +7708,7 @@ CATCH_018c:
 
 IL_01a5:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:324>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:324>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_61 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_61, NULL);
@@ -7807,15 +7807,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHasSceneModelU3Ed__45_MoveNext_mF213A
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:443>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:443>
 			List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310* L_3 = (List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310*)il2cpp_codegen_object_new(List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310_il2cpp_TypeInfo_var);
 			List_1__ctor_m4A61440123C46936553ADFB6F0C1DB13D979F34F(L_3, List_1__ctor_m4A61440123C46936553ADFB6F0C1DB13D979F34F_RuntimeMethod_var);
 			__this->___U3CroomsU3E5__2 = L_3;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CroomsU3E5__2), (void*)L_3);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:444>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:445>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:446>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:447>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:444>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:445>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:446>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:447>
 			List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310* L_4 = __this->___U3CroomsU3E5__2;
 			il2cpp_codegen_initobj((&V_4), sizeof(FetchOptions_t646663333C393CDAC727C010F048EA638ADD598B));
 			RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (OVRRoomLayout_t32E9A702E1B316D6282656ECFAB9FE2034FD521B_0_0_0_var) };
@@ -7868,7 +7868,7 @@ IL_0095_1:
 			OVRResult_2_tE368B721B1E19A0AC8DF0E70D330733463E0DCED L_17;
 			L_17 = Awaiter_GetResult_mD218D155CFD364E80145C8DA28C36905BAA52E8D((&V_3), Awaiter_GetResult_mD218D155CFD364E80145C8DA28C36905BAA52E8D_RuntimeMethod_var);
 			V_2 = L_17;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:448>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:448>
 			bool L_18;
 			L_18 = OVRResult_2_get_Success_m28229E04E5415F264C2830EFA395C43C187E0C07((&V_2), OVRResult_2_get_Success_m28229E04E5415F264C2830EFA395C43C187E0C07_RuntimeMethod_var);
 			if (!L_18)
@@ -7889,10 +7889,10 @@ IL_0095_1:
 
 IL_00b3_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:450>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:451>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:452>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:453>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:450>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:451>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:452>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:453>
 			List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310* L_21 = __this->___U3CroomsU3E5__2;
 			il2cpp_codegen_initobj((&V_4), sizeof(FetchOptions_t646663333C393CDAC727C010F048EA638ADD598B));
 			RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_22 = { reinterpret_cast<intptr_t> (OVRRoomMesh_t2D0E0F12F6AC47072084FD218A3F2AC4D641E6C2_0_0_0_var) };
@@ -7949,7 +7949,7 @@ IL_0129_1:
 
 IL_0131_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:455>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:455>
 			bool L_35;
 			L_35 = OVRResult_2_get_Success_m28229E04E5415F264C2830EFA395C43C187E0C07((&V_2), OVRResult_2_get_Success_m28229E04E5415F264C2830EFA395C43C187E0C07_RuntimeMethod_var);
 			if (!L_35)
@@ -8004,7 +8004,7 @@ CATCH_014e:
 
 IL_016e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:456>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:456>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CroomsU3E5__2 = (List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CroomsU3E5__2), (void*)(List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310*)NULL);
@@ -8104,7 +8104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneU3Ed__63_MoveNext_mB5059543D
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:754>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:754>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_3 = V_1;
 			NullCheck(L_3);
 			L_3->____loadSceneCalled = (bool)1;
@@ -8138,9 +8138,9 @@ IL_0019_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:757>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:758>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:759>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:757>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:758>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:759>
 				int32_t L_5 = __this->___dataSource;
 				if (!L_5)
 				{
@@ -8164,9 +8164,9 @@ IL_0019_1:
 
 IL_004a_2:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:761>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:761>
 				V_2 = 0;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:762>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:762>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_8 = V_1;
 				NullCheck(L_8);
 				MRUKSettings_t5CFF093D740BD5360482D04501380A54D3A72CAA* L_9 = L_8->___SceneSettings;
@@ -8178,13 +8178,13 @@ IL_004a_2:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:764>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:764>
 				V_2 = 2;
 			}
 
 IL_005b_2:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:766>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:766>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_11 = V_1;
 				int32_t L_12 = V_2;
 				NullCheck(L_11);
@@ -8233,8 +8233,8 @@ IL_00b2_2:
 
 IL_00ba_2:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:769>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:770>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:769>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:770>
 				int32_t L_23 = __this->___dataSource;
 				if ((((int32_t)L_23) == ((int32_t)1)))
 				{
@@ -8264,7 +8264,7 @@ IL_00ba_2:
 
 IL_00df_2:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:772>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:772>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_28 = V_1;
 				NullCheck(L_28);
 				MRUKSettings_t5CFF093D740BD5360482D04501380A54D3A72CAA* L_29 = L_28->___SceneSettings;
@@ -8277,16 +8277,16 @@ IL_00df_2:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:774>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:774>
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralEA989EF6E88F10EC7117D6B1739D3437EAE6EEA6, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:775>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:775>
 				goto IL_031c;
 			}
 
 IL_00fc_2:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:780>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:780>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_31 = V_1;
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_32 = V_1;
 				NullCheck(L_32);
@@ -8294,7 +8294,7 @@ IL_00fc_2:
 				L_33 = MRUK_GetRoomIndex_mDB772DD67DB2515B2A8BBB321889995E59A68337(L_32, (bool)1, NULL);
 				NullCheck(L_31);
 				L_31->___currentRoomLoadedIndex = L_33;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:782>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:782>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_34 = V_1;
 				NullCheck(L_34);
 				int32_t L_35 = L_34->___currentRoomLoadedIndex;
@@ -8304,7 +8304,7 @@ IL_00fc_2:
 				L_38 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralDEEEF8AC604C2DE0B0828516CB4D64A06E80DC9E, L_37, NULL);
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 				Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_38, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:784>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:784>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_39 = V_1;
 				NullCheck(L_39);
 				MRUKSettings_t5CFF093D740BD5360482D04501380A54D3A72CAA* L_40 = L_39->___SceneSettings;
@@ -8317,7 +8317,7 @@ IL_00fc_2:
 				int32_t L_44 = L_43;
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_45 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_44));
 				V_4 = L_45;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:785>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:785>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_46 = V_1;
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_47 = V_4;
 				NullCheck(L_46);
@@ -8366,8 +8366,8 @@ IL_018e_2:
 
 IL_0196_2:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:788>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:789>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:788>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:789>
 				int32_t L_58 = __this->___dataSource;
 				if ((((int32_t)L_58) == ((int32_t)3)))
 				{
@@ -8397,7 +8397,7 @@ IL_0196_2:
 
 IL_01bb_2:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:791>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:791>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_63 = V_1;
 				NullCheck(L_63);
 				MRUKSettings_t5CFF093D740BD5360482D04501380A54D3A72CAA* L_64 = L_63->___SceneSettings;
@@ -8410,7 +8410,7 @@ IL_01bb_2:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:793>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:793>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_66 = V_1;
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_67 = V_1;
 				NullCheck(L_67);
@@ -8418,7 +8418,7 @@ IL_01bb_2:
 				L_68 = MRUK_GetRoomIndex_mDB772DD67DB2515B2A8BBB321889995E59A68337(L_67, (bool)0, NULL);
 				NullCheck(L_66);
 				L_66->___currentRoomLoadedIndex = L_68;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:795>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:795>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_69 = V_1;
 				NullCheck(L_69);
 				int32_t L_70 = L_69->___currentRoomLoadedIndex;
@@ -8428,7 +8428,7 @@ IL_01bb_2:
 				L_73 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralE524EC6A5D010F42AFB45BFFC99687178E1F62A2, L_72, NULL);
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 				Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_73, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:797>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:797>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_74 = V_1;
 				NullCheck(L_74);
 				MRUKSettings_t5CFF093D740BD5360482D04501380A54D3A72CAA* L_75 = L_74->___SceneSettings;
@@ -8441,7 +8441,7 @@ IL_01bb_2:
 				int32_t L_79 = L_78;
 				TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* L_80 = (L_76)->GetAt(static_cast<il2cpp_array_size_t>(L_79));
 				V_5 = L_80;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:798>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:798>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_81 = V_1;
 				TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* L_82 = V_5;
 				NullCheck(L_82);
@@ -8494,7 +8494,7 @@ IL_0263_2:
 
 IL_0270_2:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:801>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:801>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_94 = V_1;
 				NullCheck(L_94);
 				MRUKSettings_t5CFF093D740BD5360482D04501380A54D3A72CAA* L_95 = L_94->___SceneSettings;
@@ -8508,7 +8508,7 @@ IL_0270_2:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:805>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:805>
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_98 = V_1;
 				MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_99 = V_1;
 				NullCheck(L_99);
@@ -8562,14 +8562,14 @@ IL_02e4_2:
 
 IL_02ee_2:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:810>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:810>
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralBFD72B51DAC930CFA7C48C17A238B7A01BF5A721, NULL);
 			}
 
 IL_02f8_2:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:813>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:813>
 				goto IL_0301_1;
 			}
 		}
@@ -8586,10 +8586,10 @@ IL_02f8_2:
 CATCH_02fa_1:
 		{
 			Exception_t* L_112 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:816>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:816>
 			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_112, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:817>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:817>
 			IL2CPP_RETHROW_MANAGED_EXCEPTION(IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*));
 		}
 
@@ -8623,7 +8623,7 @@ CATCH_0303:
 
 IL_031c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:819>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:819>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_116 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -8713,7 +8713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromDeviceU3Ed__71_MoveNext_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1025>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1025>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_3 = V_1;
 			bool L_4 = __this->___requestSceneCaptureIfNoDataFound;
 			bool L_5 = __this->___removeMissingRooms;
@@ -8891,7 +8891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromDeviceInternalU3Ed__72_M
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1031>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1031>
 			int32_t L_3 = __this->___sceneModel;
 			if ((((int32_t)L_3) == ((int32_t)1)))
 			{
@@ -8908,7 +8908,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromDeviceInternalU3Ed__72_M
 
 IL_0023_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1033>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1033>
 			il2cpp_codegen_runtime_class_init_inline(OVRTelemetry_t36C645AF5532E1587040672CE3E7D2AD72934CEF_il2cpp_TypeInfo_var);
 			OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 L_5;
 			L_5 = OVRTelemetry_Start_m0765E36E678288373B46C76411AEB6A403E20D8C(((int32_t)651888532), 0, ((int64_t)(-1)), NULL);
@@ -8919,7 +8919,7 @@ IL_0023_1:
 
 IL_003a_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1035>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1035>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_7 = V_1;
 			bool L_8 = __this->___requestSceneCaptureIfNoDataFound;
 			bool L_9 = __this->___removeMissingRooms;
@@ -8968,10 +8968,10 @@ IL_00a9_1:
 			int32_t L_21;
 			L_21 = TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93((&V_5), TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93_RuntimeMethod_var);
 			V_3 = L_21;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1036>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1037>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1038>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1039>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1036>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1037>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1038>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1039>
 			il2cpp_codegen_runtime_class_init_inline(OVRTelemetry_t36C645AF5532E1587040672CE3E7D2AD72934CEF_il2cpp_TypeInfo_var);
 			OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 L_22;
 			L_22 = OVRTelemetry_Start_m0765E36E678288373B46C76411AEB6A403E20D8C(((int32_t)651892966), 0, ((int64_t)(-1)), NULL);
@@ -9016,7 +9016,7 @@ IL_00eb_1:
 			V_4 = L_29;
 			OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 L_30;
 			L_30 = OVRTelemetryMarker_Send_m05F44C2B74D93BAE0CB20205CBEBBE2DEEBB4C77((&V_4), NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1040>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1040>
 			int32_t L_31 = V_3;
 			V_2 = L_31;
 			goto IL_0117;
@@ -9047,7 +9047,7 @@ CATCH_00fe:
 
 IL_0117:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1041>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1041>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51* L_35 = (AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51*)(&__this->___U3CU3Et__builder);
 		int32_t L_36 = V_2;
@@ -9190,7 +9190,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromDeviceSharedLibU3Ed__88_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:191>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:191>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_3 = V_1;
 			NullCheck(L_3);
 			Nullable_1_t0620D8083A6B5DADDED9B810A7850EB9F9693DE2* L_4 = (Nullable_1_t0620D8083A6B5DADDED9B810A7850EB9F9693DE2*)(&L_3->____loadSceneTask);
@@ -9202,14 +9202,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromDeviceSharedLibU3Ed__88_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:193>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:193>
 			V_2 = 3;
 			goto IL_0316;
 		}
 
 IL_0034_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:196>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:196>
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			bool L_6;
 			L_6 = MRUK_get_IsOpenXRAvailable_m891558DC229474BADA734419784DEB88B504F2D6(NULL);
@@ -9219,14 +9219,14 @@ IL_0034_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:198>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:198>
 			V_2 = ((int32_t)-1002);
 			goto IL_0316;
 		}
 
 IL_0046_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:201>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:201>
 			V_3 = 1;
 			int32_t L_7 = __this->___sceneModel;
 			V_6 = L_7;
@@ -9253,29 +9253,29 @@ IL_0046_1:
 
 IL_0065_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:205>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:205>
 			V_3 = 1;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:206>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:206>
 			goto IL_006f_1;
 		}
 
 IL_0069_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:208>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:208>
 			V_3 = 2;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:209>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:209>
 			goto IL_006f_1;
 		}
 
 IL_006d_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:211>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:211>
 			V_3 = 0;
 		}
 
 IL_006f_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:215>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:215>
 			Nullable_1_tB5B4E07F46EFA933BDD8704E8DACCA705966EA0C* L_9 = (Nullable_1_tB5B4E07F46EFA933BDD8704E8DACCA705966EA0C*)(&__this->___sharedRoomsData);
 			bool L_10;
 			L_10 = Nullable_1_get_HasValue_m3EBD905935C74B527A299E9DC68FAB844F0E809B_inline(L_9, Nullable_1_get_HasValue_m3EBD905935C74B527A299E9DC68FAB844F0E809B_RuntimeMethod_var);
@@ -9289,7 +9289,7 @@ IL_006f_1:
 			SharedRoomsData_t239BDC3567CDFEEE214360EFFEBBEF34246588AC L_12;
 			L_12 = Nullable_1_GetValueOrDefault_m90759FEB62CB6E912581483DA9E122C024A4A1D7_inline(L_11, Nullable_1_GetValueOrDefault_m90759FEB62CB6E912581483DA9E122C024A4A1D7_RuntimeMethod_var);
 			V_5 = L_12;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:219>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:219>
 			SharedRoomsData_t239BDC3567CDFEEE214360EFFEBBEF34246588AC L_13 = V_5;
 			RuntimeObject* L_14 = L_13.___roomUuids;
 			RuntimeObject* L_15 = L_14;
@@ -9344,12 +9344,12 @@ IL_014c_1:
 			try
 			{
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:220>
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:221>
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:222>
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:223>
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:224>
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:225>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:220>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:221>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:222>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:223>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:224>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:225>
 					il2cpp_codegen_initobj((&V_10), sizeof(MrukSharedRoomsData_t225CD08684DD44A2E0E36902E952313F172D1B57));
 					SharedRoomsData_t239BDC3567CDFEEE214360EFFEBBEF34246588AC L_19 = V_5;
 					Guid_t L_20 = L_19.___groupUuid;
@@ -9362,7 +9362,7 @@ IL_014c_1:
 					(&V_10)->___numRoomUuids = L_22;
 					MrukSharedRoomsData_t225CD08684DD44A2E0E36902E952313F172D1B57 L_23 = V_10;
 					V_8 = L_23;
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:227>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:227>
 					Nullable_1_t70BAAE72916D188B5A13E2D2E42D10E64F5ECFBE* L_24 = (Nullable_1_t70BAAE72916D188B5A13E2D2E42D10E64F5ECFBE*)(&(&V_5)->___alignmentData);
 					bool L_25;
 					L_25 = Nullable_1_get_HasValue_m8295AE41EE3D1EE8152E3B0F9B9AA0545B455977_inline(L_24, Nullable_1_get_HasValue_m8295AE41EE3D1EE8152E3B0F9B9AA0545B455977_RuntimeMethod_var);
@@ -9372,13 +9372,13 @@ IL_014c_1:
 					}
 				}
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:229>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:229>
 					Nullable_1_t70BAAE72916D188B5A13E2D2E42D10E64F5ECFBE* L_26 = (Nullable_1_t70BAAE72916D188B5A13E2D2E42D10E64F5ECFBE*)(&(&V_5)->___alignmentData);
 					ValueTuple_2_t31360BEFD7F1E86390934533B8D530A8B0D204FE L_27;
 					L_27 = Nullable_1_get_Value_mA7DA4C05106C334C64F398C6AD1DED3F587E4FB3(L_26, Nullable_1_get_Value_mA7DA4C05106C334C64F398C6AD1DED3F587E4FB3_RuntimeMethod_var);
 					Guid_t L_28 = L_27.___Item1;
 					(&V_8)->___alignmentRoomUuid = L_28;
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:230>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:230>
 					Nullable_1_t70BAAE72916D188B5A13E2D2E42D10E64F5ECFBE* L_29 = (Nullable_1_t70BAAE72916D188B5A13E2D2E42D10E64F5ECFBE*)(&(&V_5)->___alignmentData);
 					ValueTuple_2_t31360BEFD7F1E86390934533B8D530A8B0D204FE L_30;
 					L_30 = Nullable_1_get_Value_mA7DA4C05106C334C64F398C6AD1DED3F587E4FB3(L_29, Nullable_1_get_Value_mA7DA4C05106C334C64F398C6AD1DED3F587E4FB3_RuntimeMethod_var);
@@ -9391,7 +9391,7 @@ IL_014c_1:
 
 IL_0124_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:233>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:233>
 					StartQueryByLocalGroupDelegate_tFAFCBF7D7F73990EE625393527827CECB726F880* L_33 = ((MRUKNativeFuncs_t8952D6DE369E77ED6EED930333B2BE760EE76C66_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNativeFuncs_t8952D6DE369E77ED6EED930333B2BE760EE76C66_il2cpp_TypeInfo_var))->___StartQueryByLocalGroup;
 					MrukSharedRoomsData_t225CD08684DD44A2E0E36902E952313F172D1B57 L_34 = V_8;
 					bool L_35 = __this->___removeMissingRooms;
@@ -9411,7 +9411,7 @@ IL_0124_2:
 
 IL_014d_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:238>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:238>
 			StartDiscoveryDelegate_t4D4B4531F3D4BD4E42243251E7F792E1C7EC272D* L_38 = ((MRUKNativeFuncs_t8952D6DE369E77ED6EED930333B2BE760EE76C66_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNativeFuncs_t8952D6DE369E77ED6EED930333B2BE760EE76C66_il2cpp_TypeInfo_var))->___StartDiscovery;
 			bool L_39 = __this->___removeMissingRooms;
 			int32_t L_40 = V_3;
@@ -9423,7 +9423,7 @@ IL_014d_1:
 
 IL_0160_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:240>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:240>
 			int32_t L_42 = V_4;
 			if (!L_42)
 			{
@@ -9431,7 +9431,7 @@ IL_0160_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:242>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:242>
 			int32_t L_43 = V_4;
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			int32_t L_44;
@@ -9442,7 +9442,7 @@ IL_0160_1:
 
 IL_0171_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:245>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:245>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_45 = V_1;
 			NullCheck(L_45);
 			Task_1_t564DE19C5B26B28C320482E2C8B13D8BD2E187DA* L_46;
@@ -9489,7 +9489,7 @@ IL_01c8_1:
 			V_11 = L_55;
 			int32_t L_56 = V_11;
 			__this->___U3CresultU3E5__2 = L_56;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:247>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:247>
 			int32_t L_57 = __this->___U3CresultU3E5__2;
 			if ((!(((uint32_t)L_57) == ((uint32_t)2))))
 			{
@@ -9497,7 +9497,7 @@ IL_01c8_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:252>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:252>
 			bool L_58;
 			L_58 = Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B(_stringLiteral9FC59D8986B846D2BF95AF308D4A1BDF1803347C, NULL);
 			if (L_58)
@@ -9506,17 +9506,17 @@ IL_01c8_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:254>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:254>
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral159216A879A72D0A0C3ED1384C846376E5CAD8F8, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:255>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:255>
 			V_2 = 1;
 			goto IL_0316;
 		}
 
 IL_0202_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:268>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:268>
 			bool L_59 = __this->___requestSceneCaptureIfNoDataFound;
 			V_13 = L_59;
 			bool L_60 = V_13;
@@ -9579,7 +9579,7 @@ IL_0271_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:272>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:272>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_72 = V_1;
 			bool L_73 = __this->___removeMissingRooms;
 			int32_t L_74 = __this->___sceneModel;
@@ -9632,7 +9632,7 @@ IL_02dc_1:
 
 IL_02e6_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:276>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:276>
 			int32_t L_86 = __this->___U3CresultU3E5__2;
 			if (L_86)
 			{
@@ -9640,7 +9640,7 @@ IL_02e6_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:278>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:278>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_87 = V_1;
 			NullCheck(L_87);
 			MRUK_InitializeScene_m6EFFE3C53AA3D62C127F5C3FA5311FBCB1DD77D8(L_87, NULL);
@@ -9648,7 +9648,7 @@ IL_02e6_1:
 
 IL_02f4_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:281>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:281>
 			int32_t L_88 = __this->___U3CresultU3E5__2;
 			V_2 = L_88;
 			goto IL_0316;
@@ -9679,7 +9679,7 @@ CATCH_02fd:
 
 IL_0316:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:282>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:282>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51* L_92 = (AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51*)(&__this->___U3CU3Et__builder);
 		int32_t L_93 = V_2;
@@ -9775,7 +9775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromJsonSharedLibU3Ed__89_Mo
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:286>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:286>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_3 = V_1;
 			NullCheck(L_3);
 			Nullable_1_t0620D8083A6B5DADDED9B810A7850EB9F9693DE2* L_4 = (Nullable_1_t0620D8083A6B5DADDED9B810A7850EB9F9693DE2*)(&L_3->____loadSceneTask);
@@ -9787,14 +9787,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromJsonSharedLibU3Ed__89_Mo
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:288>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:288>
 			V_2 = 3;
 			goto IL_00cc;
 		}
 
 IL_0025_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:291>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:291>
 			LoadSceneFromJsonDelegate_tEB22FE9B2A60FA815E74FCE4F60302ED72E5B32C* L_6 = ((MRUKNativeFuncs_t8952D6DE369E77ED6EED930333B2BE760EE76C66_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNativeFuncs_t8952D6DE369E77ED6EED930333B2BE760EE76C66_il2cpp_TypeInfo_var))->___LoadSceneFromJson;
 			String_t* L_7 = __this->___jsonString;
 			bool L_8 = __this->___removeMissingRooms;
@@ -9802,7 +9802,7 @@ IL_0025_1:
 			int32_t L_9;
 			L_9 = LoadSceneFromJsonDelegate_Invoke_m19D9706E1C834E96D7383E3C01F608074DA206BD_inline(L_6, L_7, L_8, 0, NULL);
 			V_3 = L_9;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:292>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:292>
 			int32_t L_10 = V_3;
 			if (!L_10)
 			{
@@ -9810,7 +9810,7 @@ IL_0025_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:294>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:294>
 			int32_t L_11 = V_3;
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			int32_t L_12;
@@ -9821,7 +9821,7 @@ IL_0025_1:
 
 IL_004c_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:297>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:297>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_13 = V_1;
 			NullCheck(L_13);
 			Task_1_t564DE19C5B26B28C320482E2C8B13D8BD2E187DA* L_14;
@@ -9865,7 +9865,7 @@ IL_00a0_1:
 		{
 			int32_t L_23;
 			L_23 = TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93((&V_4), TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:299>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:299>
 			int32_t L_24 = L_23;
 			if (L_24)
 			{
@@ -9875,7 +9875,7 @@ IL_00a0_1:
 			G_B10_0 = L_24;
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:301>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:301>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_25 = V_1;
 			NullCheck(L_25);
 			MRUK_InitializeScene_m6EFFE3C53AA3D62C127F5C3FA5311FBCB1DD77D8(L_25, NULL);
@@ -9884,7 +9884,7 @@ IL_00a0_1:
 
 IL_00b0_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:304>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:304>
 			V_2 = G_B11_0;
 			goto IL_00cc;
 		}
@@ -9914,7 +9914,7 @@ CATCH_00b3:
 
 IL_00cc:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:305>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:305>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51* L_29 = (AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51*)(&__this->___U3CU3Et__builder);
 		int32_t L_30 = V_2;
@@ -10015,7 +10015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromJsonStringU3Ed__77_MoveN
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1123>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1123>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_3 = V_1;
 			String_t* L_4 = __this->___jsonString;
 			bool L_5 = __this->___removeMissingRooms;
@@ -10062,10 +10062,10 @@ IL_0074_1:
 			int32_t L_15;
 			L_15 = TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93((&V_4), TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93_RuntimeMethod_var);
 			V_3 = L_15;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1124>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1125>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1126>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1127>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1124>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1125>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1126>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1127>
 			il2cpp_codegen_runtime_class_init_inline(OVRTelemetry_t36C645AF5532E1587040672CE3E7D2AD72934CEF_il2cpp_TypeInfo_var);
 			OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 L_16;
 			L_16 = OVRTelemetry_Start_m0765E36E678288373B46C76411AEB6A403E20D8C(((int32_t)651895197), 0, ((int64_t)(-1)), NULL);
@@ -10110,7 +10110,7 @@ IL_00b6_1:
 			V_5 = L_23;
 			OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 L_24;
 			L_24 = OVRTelemetryMarker_Send_m05F44C2B74D93BAE0CB20205CBEBBE2DEEBB4C77((&V_5), NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1128>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1128>
 			int32_t L_25 = V_3;
 			V_2 = L_25;
 			goto IL_00e2;
@@ -10141,7 +10141,7 @@ CATCH_00c9:
 
 IL_00e2:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1129>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1129>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51* L_29 = (AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51*)(&__this->___U3CU3Et__builder);
 		int32_t L_30 = V_2;
@@ -10243,7 +10243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromPrefabU3Ed__74_MoveNext_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1073>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1073>
 			bool L_3 = __this->___clearSceneFirst;
 			if (!L_3)
 			{
@@ -10251,7 +10251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromPrefabU3Ed__74_MoveNext_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1075>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1075>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_4 = V_1;
 			NullCheck(L_4);
 			MRUK_ClearScene_m565A827B3D6BCDEEA106A40F0146B68335088550(L_4, NULL);
@@ -10259,7 +10259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromPrefabU3Ed__74_MoveNext_
 
 IL_001f_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1078>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1078>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_5 = V_1;
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___scenePrefab;
 			NullCheck(L_5);
@@ -10305,11 +10305,11 @@ IL_007c_1:
 			int32_t L_16;
 			L_16 = TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93((&V_4), TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93_RuntimeMethod_var);
 			V_3 = L_16;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1079>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1080>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1081>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1082>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1083>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1079>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1080>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1081>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1082>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1083>
 			il2cpp_codegen_runtime_class_init_inline(OVRTelemetry_t36C645AF5532E1587040672CE3E7D2AD72934CEF_il2cpp_TypeInfo_var);
 			OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 L_17;
 			L_17 = OVRTelemetry_Start_m0765E36E678288373B46C76411AEB6A403E20D8C(((int32_t)651889651), 0, ((int64_t)(-1)), NULL);
@@ -10361,7 +10361,7 @@ IL_00d7_1:
 			V_5 = L_27;
 			OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 L_28;
 			L_28 = OVRTelemetryMarker_Send_m05F44C2B74D93BAE0CB20205CBEBBE2DEEBB4C77((&V_5), NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1084>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1084>
 			int32_t L_29 = V_3;
 			V_2 = L_29;
 			goto IL_0103;
@@ -10392,7 +10392,7 @@ CATCH_00ea:
 
 IL_0103:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:1085>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:1085>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51* L_33 = (AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51*)(&__this->___U3CU3Et__builder);
 		int32_t L_34 = V_2;
@@ -10674,7 +10674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromPrefabSharedLibU3Ed__91_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:326>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:326>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_3 = V_1;
 			NullCheck(L_3);
 			Nullable_1_t0620D8083A6B5DADDED9B810A7850EB9F9693DE2* L_4 = (Nullable_1_t0620D8083A6B5DADDED9B810A7850EB9F9693DE2*)(&L_3->____loadSceneTask);
@@ -10686,18 +10686,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromPrefabSharedLibU3Ed__91_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:328>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:328>
 			V_2 = 3;
 			goto IL_0cd7;
 		}
 
 IL_0028_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:331>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:331>
 			List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_6 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 			List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_6, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 			V_3 = L_6;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:334>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:334>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___scenePrefab;
 			NullCheck(L_7);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -10727,7 +10727,7 @@ IL_0028_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:336>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:336>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___scenePrefab;
 			NullCheck(L_14);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -10779,13 +10779,13 @@ IL_00ac_1:
 
 IL_006e_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:336>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:336>
 					RuntimeObject* L_21 = V_8;
 					NullCheck(L_21);
 					RuntimeObject* L_22;
 					L_22 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_21);
 					V_9 = ((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_22, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var));
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:338>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:338>
 					List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_23 = V_3;
 					Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24 = V_9;
 					NullCheck(L_24);
@@ -10797,7 +10797,7 @@ IL_006e_2:
 
 IL_0089_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:336>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:336>
 					RuntimeObject* L_26 = V_8;
 					NullCheck(L_26);
 					bool L_27;
@@ -10819,7 +10819,7 @@ IL_0089_2:
 
 IL_00ad_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:343>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:343>
 			List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_28 = V_3;
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = __this->___scenePrefab;
 			NullCheck(L_28);
@@ -10828,15 +10828,15 @@ IL_00ad_1:
 
 IL_00b9_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:346>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:346>
 			List_1_t34E986F9D41EE38ECC370BA1965C88237C7137F5* L_30 = (List_1_t34E986F9D41EE38ECC370BA1965C88237C7137F5*)il2cpp_codegen_object_new(List_1_t34E986F9D41EE38ECC370BA1965C88237C7137F5_il2cpp_TypeInfo_var);
 			List_1__ctor_mCBD1CF27BA3A37706D4EF4CD849821799D68328E(L_30, List_1__ctor_mCBD1CF27BA3A37706D4EF4CD849821799D68328E_RuntimeMethod_var);
 			V_4 = L_30;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:347>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:347>
 			List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_31 = (List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596*)il2cpp_codegen_object_new(List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596_il2cpp_TypeInfo_var);
 			List_1__ctor_m9FC3D48660B45700B77339A43D58E61FC3FAFDB0(L_31, List_1__ctor_m9FC3D48660B45700B77339A43D58E61FC3FAFDB0_RuntimeMethod_var);
 			V_5 = L_31;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:348>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:348>
 			List_1_t6DFF7E452DA21747426C50B4A26C17B6F59534D9* L_32 = (List_1_t6DFF7E452DA21747426C50B4A26C17B6F59534D9*)il2cpp_codegen_object_new(List_1_t6DFF7E452DA21747426C50B4A26C17B6F59534D9_il2cpp_TypeInfo_var);
 			List_1__ctor_m49F3CE823B045866BFB7F9D3997240EAB7D1197C(L_32, List_1__ctor_m49F3CE823B045866BFB7F9D3997240EAB7D1197C_RuntimeMethod_var);
 			V_6 = L_32;
@@ -10855,7 +10855,7 @@ FINALLY_0c09_1:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:593>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:593>
 						List_1_t6DFF7E452DA21747426C50B4A26C17B6F59534D9* L_34 = V_6;
 						NullCheck(L_34);
 						Enumerator_t4956E8A75B95E2086DECD4051425FA36B1316E29 L_35;
@@ -10893,17 +10893,17 @@ IL_0c44_1:
 
 IL_0c18_2:
 							{
-								//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:593>
+								//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:593>
 								GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_37;
 								L_37 = Enumerator_get_Current_m717A41786EC4CBCA21A48AC90748F5727FB4D5DE_inline((&V_88), Enumerator_get_Current_m717A41786EC4CBCA21A48AC90748F5727FB4D5DE_RuntimeMethod_var);
 								V_89 = L_37;
-								//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:595>
+								//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:595>
 								GCHandle_Free_m1320A260E487EB1EA6D95F9E54BFFCB5A4EF83A3((&V_89), NULL);
 							}
 
 IL_0c28_2:
 							{
-								//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:593>
+								//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:593>
 								bool L_38;
 								L_38 = Enumerator_MoveNext_m3C7BD5DA85D1410355FB55317670C9D5188E8699((&V_88), Enumerator_MoveNext_m3C7BD5DA85D1410355FB55317670C9D5188E8699_RuntimeMethod_var);
 								if (L_38)
@@ -10930,7 +10930,7 @@ IL_0c45_1:
 			try
 			{
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:352>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:352>
 					List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_39 = V_3;
 					NullCheck(L_39);
 					Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_40;
@@ -10968,20 +10968,20 @@ IL_0a58_2:
 
 IL_00db_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:352>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:352>
 							GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_42;
 							L_42 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_11), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
 							V_12 = L_42;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:354>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:354>
 							MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_43 = V_1;
 							GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_44 = V_12;
 							NullCheck(L_43);
 							MRUK_FindAllObjects_mFAA490EDF8C290E27534412E89E588BE9A44222D(L_43, L_44, (&V_13), (&V_14), (&V_15), NULL);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:356>
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:357>
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:358>
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:359>
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:360>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:356>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:357>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:358>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:359>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:360>
 							il2cpp_codegen_initobj((&V_31), sizeof(MrukRoomAnchor_tA39102260C07DA5A1D94B5D721557EC7C7F5681F));
 							Guid_t L_45;
 							L_45 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
@@ -10992,28 +10992,28 @@ IL_00db_3:
 							(&V_31)->___pose = L_46;
 							MrukRoomAnchor_tA39102260C07DA5A1D94B5D721557EC7C7F5681F L_47 = V_31;
 							V_16 = L_47;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:363>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:363>
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_48 = (List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596*)il2cpp_codegen_object_new(List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596_il2cpp_TypeInfo_var);
 							List_1__ctor_m9FC3D48660B45700B77339A43D58E61FC3FAFDB0(L_48, List_1__ctor_m9FC3D48660B45700B77339A43D58E61FC3FAFDB0_RuntimeMethod_var);
 							V_17 = L_48;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:365>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:365>
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_49 = (List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596*)il2cpp_codegen_object_new(List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596_il2cpp_TypeInfo_var);
 							List_1__ctor_m9FC3D48660B45700B77339A43D58E61FC3FAFDB0(L_49, List_1__ctor_m9FC3D48660B45700B77339A43D58E61FC3FAFDB0_RuntimeMethod_var);
 							V_18 = L_49;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:366>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:366>
 							List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_50 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 							List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_50, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 							V_19 = L_50;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:368>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:368>
 							V_20 = (0.0f);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:370>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:370>
 							V_32 = 0;
 							goto IL_01f2_3;
 						}
 
 IL_013a_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:372>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:372>
 							int32_t L_51 = V_32;
 							if (L_51)
 							{
@@ -11021,7 +11021,7 @@ IL_013a_3:
 							}
 						}
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:374>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:374>
 							List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_52 = V_13;
 							int32_t L_53 = V_32;
 							NullCheck(L_52);
@@ -11039,8 +11039,8 @@ IL_013a_3:
 
 IL_0158_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:377>
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:378>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:377>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:378>
 							MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_58 = V_1;
 							List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_59 = V_13;
 							int32_t L_60 = V_32;
@@ -11088,11 +11088,11 @@ IL_0158_3:
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_79;
 							L_79 = MRUK_CreateMrukSceneAnchor_m3810425BC6664CB5E60DD0CD589634EF8D2E15EF(L_58, L_62, L_63, L_68, L_73, L_78, 1, NULL);
 							V_33 = L_79;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:379>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:379>
 							MrukRoomAnchor_tA39102260C07DA5A1D94B5D721557EC7C7F5681F L_80 = V_16;
 							Guid_t L_81 = L_80.___uuid;
 							(&V_33)->___roomUuid = L_81;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:380>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:380>
 							Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_82 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&(&V_33)->___pose);
 							Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_83 = (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(&L_82->___rotation);
 							Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_84 = L_83;
@@ -11104,19 +11104,19 @@ IL_0158_3:
 							Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_88;
 							L_88 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_85, L_87, NULL);
 							*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_84 = L_88;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:382>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:382>
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_89 = V_18;
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_90 = V_33;
 							NullCheck(L_89);
 							List_1_Add_m0FBACC1B076EF286B14FC1E99C42562F8B10E5D8_inline(L_89, L_90, List_1_Add_m0FBACC1B076EF286B14FC1E99C42562F8B10E5D8_RuntimeMethod_var);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:370>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:370>
 							int32_t L_91 = V_32;
 							V_32 = ((int32_t)il2cpp_codegen_add(L_91, 1));
 						}
 
 IL_01f2_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:370>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:370>
 							int32_t L_92 = V_32;
 							List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_93 = V_13;
 							NullCheck(L_93);
@@ -11128,32 +11128,32 @@ IL_01f2_3:
 							}
 						}
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:388>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:388>
 							V_21 = 0;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:389>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:389>
 							V_34 = 0;
 							goto IL_0279_3;
 						}
 
 IL_0208_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:391>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:391>
 							MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_95 = V_1;
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_96 = V_18;
 							NullCheck(L_95);
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_97;
 							L_97 = MRUK_GetAdjacentMrukSceneWall_m74A60D475879B5E5AFEBF017ADA7CB82CC1724F3(L_95, (&V_21), L_96, NULL);
 							V_35 = L_97;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:392>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:392>
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_98 = V_17;
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_99 = V_35;
 							NullCheck(L_98);
 							List_1_Add_m0FBACC1B076EF286B14FC1E99C42562F8B10E5D8_inline(L_98, L_99, List_1_Add_m0FBACC1B076EF286B14FC1E99C42562F8B10E5D8_RuntimeMethod_var);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:394>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:394>
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_100 = V_35;
 							MrukPlane_t196DC9E4352EC26EF684192E7469D13F776F52FA L_101 = L_100.___plane;
 							V_36 = L_101;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:395>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:395>
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_102 = V_35;
 							Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_103 = L_102.___pose;
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_104 = L_103.___position;
@@ -11174,19 +11174,19 @@ IL_0208_3:
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_116;
 							L_116 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_104, L_115, NULL);
 							V_37 = L_116;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:396>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:396>
 							List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_117 = V_19;
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_118 = V_37;
 							NullCheck(L_117);
 							List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_117, L_118, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:389>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:389>
 							int32_t L_119 = V_34;
 							V_34 = ((int32_t)il2cpp_codegen_add(L_119, 1));
 						}
 
 IL_0279_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:389>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:389>
 							int32_t L_120 = V_34;
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_121 = V_18;
 							NullCheck(L_121);
@@ -11198,14 +11198,14 @@ IL_0279_3:
 							}
 						}
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:399>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:399>
 							V_38 = 0;
 							goto IL_047e_3;
 						}
 
 IL_028c_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:401>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:401>
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_123 = V_17;
 							int32_t L_124 = V_38;
 							NullCheck(L_123);
@@ -11213,14 +11213,14 @@ IL_028c_3:
 							L_125 = List_1_get_Item_m6B0D4939661906902F8C12188E6509986616C7A1(L_123, L_124, List_1_get_Item_m6B0D4939661906902F8C12188E6509986616C7A1_RuntimeMethod_var);
 							MrukPlane_t196DC9E4352EC26EF684192E7469D13F776F52FA L_126 = L_125.___plane;
 							V_39 = L_126;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:402>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:402>
 							List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_127 = V_19;
 							int32_t L_128 = V_38;
 							NullCheck(L_127);
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_129;
 							L_129 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_127, L_128, List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
 							V_40 = L_129;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:403>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:403>
 							int32_t L_130 = V_38;
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_131 = V_17;
 							NullCheck(L_131);
@@ -11245,41 +11245,41 @@ IL_02ba_3:
 IL_02bb_3:
 						{
 							V_41 = G_B31_0;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:404>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:404>
 							List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_134 = V_19;
 							int32_t L_135 = V_41;
 							NullCheck(L_134);
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_136;
 							L_136 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_134, L_135, List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
 							V_42 = L_136;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:406>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:406>
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_137 = V_40;
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_138 = V_42;
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_139;
 							L_139 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_137, L_138, NULL);
 							V_43 = L_139;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:407>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:407>
 							(&V_43)->___y = (0.0f);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:408>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:408>
 							float L_140;
 							L_140 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_43), NULL);
 							V_44 = L_140;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:409>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:409>
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_141 = V_43;
 							float L_142 = V_44;
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_143;
 							L_143 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_141, L_142, NULL);
 							V_43 = L_143;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:410>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:410>
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_144;
 							L_144 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 							V_45 = L_144;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:411>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:411>
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_145 = V_43;
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_146 = V_45;
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_147;
 							L_147 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_145, L_146, NULL);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:412>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:412>
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_148 = V_40;
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_149 = V_42;
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_150;
@@ -11295,12 +11295,12 @@ IL_02bb_3:
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_156;
 							L_156 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_151, L_155, NULL);
 							V_46 = L_156;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:413>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:413>
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_157 = V_45;
 							Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_158;
 							L_158 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307(L_147, L_157, NULL);
 							V_47 = L_158;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:414>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:414>
 							il2cpp_codegen_initobj((&V_50), sizeof(MrukPlane_t196DC9E4352EC26EF684192E7469D13F776F52FA));
 							float L_159 = V_44;
 							(&V_50)->___x = ((float)il2cpp_codegen_multiply((-0.5f), L_159));
@@ -11314,25 +11314,25 @@ IL_02bb_3:
 							(&V_50)->___height = L_164;
 							MrukPlane_t196DC9E4352EC26EF684192E7469D13F776F52FA L_165 = V_50;
 							V_48 = L_165;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:416>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:416>
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_166 = V_17;
 							int32_t L_167 = V_38;
 							NullCheck(L_166);
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_168;
 							L_168 = List_1_get_Item_m6B0D4939661906902F8C12188E6509986616C7A1(L_166, L_167, List_1_get_Item_m6B0D4939661906902F8C12188E6509986616C7A1_RuntimeMethod_var);
 							V_49 = L_168;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:417>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:417>
 							Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_169 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&(&V_49)->___pose);
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_170 = V_46;
 							L_169->___position = L_170;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:418>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:418>
 							Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_171 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&(&V_49)->___pose);
 							Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_172 = V_47;
 							L_171->___rotation = L_172;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:419>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:419>
 							MrukPlane_t196DC9E4352EC26EF684192E7469D13F776F52FA L_173 = V_48;
 							(&V_49)->___plane = L_173;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:422>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:422>
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_174 = V_49;
 							Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_175 = L_174.___planeBoundary;
 							MrukPlane_t196DC9E4352EC26EF684192E7469D13F776F52FA L_176 = V_48;
@@ -11343,7 +11343,7 @@ IL_02bb_3:
 							memset((&L_180), 0, sizeof(L_180));
 							Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_180), L_177, L_179, NULL);
 							*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)L_175 = L_180;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:423>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:423>
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_181 = V_49;
 							Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_182 = L_181.___planeBoundary;
 							uint32_t L_183 = sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7);
@@ -11357,7 +11357,7 @@ IL_02bb_3:
 							memset((&L_190), 0, sizeof(L_190));
 							Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_190), ((float)il2cpp_codegen_add(L_185, L_187)), L_189, NULL);
 							*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)il2cpp_codegen_add((intptr_t)L_182, (int32_t)L_183)) = L_190;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:424>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:424>
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_191 = V_49;
 							Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_192 = L_191.___planeBoundary;
 							uint32_t L_193 = sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7);
@@ -11373,7 +11373,7 @@ IL_02bb_3:
 							memset((&L_202), 0, sizeof(L_202));
 							Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_202), ((float)il2cpp_codegen_add(L_195, L_197)), ((float)il2cpp_codegen_add(L_199, L_201)), NULL);
 							*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)il2cpp_codegen_add((intptr_t)L_192, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_193)))) = L_202;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:425>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:425>
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_203 = V_49;
 							Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_204 = L_203.___planeBoundary;
 							uint32_t L_205 = sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7);
@@ -11387,25 +11387,25 @@ IL_02bb_3:
 							memset((&L_212), 0, sizeof(L_212));
 							Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_212), L_207, ((float)il2cpp_codegen_add(L_209, L_211)), NULL);
 							*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)il2cpp_codegen_add((intptr_t)L_204, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_205)))) = L_212;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:428>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:428>
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_213 = V_17;
 							int32_t L_214 = V_38;
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_215 = V_49;
 							NullCheck(L_213);
 							List_1_set_Item_m6561B281175689FC5EE8355AC97587D0017A1D89(L_213, L_214, L_215, List_1_set_Item_m6561B281175689FC5EE8355AC97587D0017A1D89_RuntimeMethod_var);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:429>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:429>
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_216 = V_5;
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_217 = V_49;
 							NullCheck(L_216);
 							List_1_Add_m0FBACC1B076EF286B14FC1E99C42562F8B10E5D8_inline(L_216, L_217, List_1_Add_m0FBACC1B076EF286B14FC1E99C42562F8B10E5D8_RuntimeMethod_var);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:399>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:399>
 							int32_t L_218 = V_38;
 							V_38 = ((int32_t)il2cpp_codegen_add(L_218, 1));
 						}
 
 IL_047e_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:399>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:399>
 							int32_t L_219 = V_38;
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_220 = V_17;
 							NullCheck(L_220);
@@ -11417,11 +11417,11 @@ IL_047e_3:
 							}
 						}
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:432>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:432>
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_222 = V_5;
 							NullCheck(L_222);
 							List_1_Reverse_mB7CB4A866C5F23AB330FFDFC0EDF67DFD6DB38E9(L_222, List_1_Reverse_mB7CB4A866C5F23AB330FFDFC0EDF67DFD6DB38E9_RuntimeMethod_var);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:434>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:434>
 							List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_223 = V_14;
 							NullCheck(L_223);
 							Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_224;
@@ -11459,11 +11459,11 @@ IL_064e_3:
 
 IL_04a1_4:
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:434>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:434>
 									GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_226;
 									L_226 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_51), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
 									V_52 = L_226;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:436>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:436>
 									GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_227 = V_52;
 									NullCheck(L_227);
 									Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_228;
@@ -11489,12 +11489,12 @@ IL_04a1_4:
 									L_237 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_236, NULL);
 									float L_238 = L_237.___y;
 									Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_53), L_230, L_234, L_238, NULL);
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:437>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:437>
 									V_54 = 2;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:439>
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:440>
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:441>
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:442>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:439>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:440>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:441>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:442>
 									GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_239 = V_52;
 									NullCheck(L_239);
 									Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_240;
@@ -11573,14 +11573,14 @@ IL_04a1_4:
 
 IL_057c_4:
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:444>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:444>
 									int32_t L_263 = V_54;
 									V_54 = ((int32_t)((int32_t)L_263|1));
 								}
 
 IL_0582_4:
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:447>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:447>
 									MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_264 = V_1;
 									GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_265 = V_52;
 									NullCheck(L_265);
@@ -11607,11 +11607,11 @@ IL_0582_4:
 									MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_276;
 									L_276 = MRUK_CreateMrukSceneAnchor_m3810425BC6664CB5E60DD0CD589634EF8D2E15EF(L_264, L_266, L_267, L_270, L_273, L_274, L_275, NULL);
 									V_55 = L_276;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:448>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:448>
 									MrukRoomAnchor_tA39102260C07DA5A1D94B5D721557EC7C7F5681F L_277 = V_16;
 									Guid_t L_278 = L_277.___uuid;
 									(&V_55)->___roomUuid = L_278;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:453>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:453>
 									MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_279 = V_55;
 									int32_t L_280 = L_279.___semanticLabel;
 									if ((((int32_t)L_280) == ((int32_t)((int32_t)16))))
@@ -11620,7 +11620,7 @@ IL_0582_4:
 									}
 								}
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:455>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:455>
 									Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_281 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&(&V_55)->___pose);
 									Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_282 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_281->___position);
 									Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_283 = L_282;
@@ -11638,7 +11638,7 @@ IL_0582_4:
 
 IL_05fb_4:
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:458>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:458>
 									Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_290 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&(&V_55)->___pose);
 									Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_291 = (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(&L_290->___rotation);
 									Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_292 = L_291;
@@ -11650,7 +11650,7 @@ IL_05fb_4:
 									Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_296;
 									L_296 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_293, L_295, NULL);
 									*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_292 = L_296;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:459>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:459>
 									List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_297 = V_5;
 									MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_298 = V_55;
 									NullCheck(L_297);
@@ -11659,7 +11659,7 @@ IL_05fb_4:
 
 IL_062f_4:
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:434>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:434>
 									bool L_299;
 									L_299 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_51), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 									if (L_299)
@@ -11679,7 +11679,7 @@ IL_062f_4:
 
 IL_064f_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:462>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:462>
 							List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_300 = V_15;
 							NullCheck(L_300);
 							Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_301;
@@ -11717,11 +11717,11 @@ IL_06fd_3:
 
 IL_065d_4:
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:462>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:462>
 									GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_303;
 									L_303 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_51), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
 									V_57 = L_303;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:464>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:464>
 									MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_304 = V_1;
 									GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_305 = V_57;
 									NullCheck(L_305);
@@ -11753,11 +11753,11 @@ IL_065d_4:
 									MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_317;
 									L_317 = MRUK_CreateMrukSceneAnchor_m3810425BC6664CB5E60DD0CD589634EF8D2E15EF(L_304, L_306, L_307, L_310, L_313, L_316, 1, NULL);
 									V_58 = L_317;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:465>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:465>
 									MrukRoomAnchor_tA39102260C07DA5A1D94B5D721557EC7C7F5681F L_318 = V_16;
 									Guid_t L_319 = L_318.___uuid;
 									(&V_58)->___roomUuid = L_319;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:469>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:469>
 									Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_320 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&(&V_58)->___pose);
 									Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_321 = (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(&L_320->___rotation);
 									Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_322 = L_321;
@@ -11769,7 +11769,7 @@ IL_065d_4:
 									Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_326;
 									L_326 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_323, L_325, NULL);
 									*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_322 = L_326;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:470>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:470>
 									List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_327 = V_5;
 									MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_328 = V_58;
 									NullCheck(L_327);
@@ -11778,7 +11778,7 @@ IL_065d_4:
 
 IL_06de_4:
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:462>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:462>
 									bool L_329;
 									L_329 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_51), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 									if (L_329)
@@ -11798,11 +11798,11 @@ IL_06de_4:
 
 IL_06fe_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:474>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:474>
 							il2cpp_codegen_initobj((&V_22), sizeof(MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E));
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:475>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:475>
 							V_23 = (0.0f);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:476>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:476>
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_330 = V_17;
 							NullCheck(L_330);
 							Enumerator_tDBA5E488018B2E087F34481E5E457062E8045FEC L_331;
@@ -11840,16 +11840,16 @@ IL_0759_3:
 
 IL_0718_4:
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:476>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:476>
 									MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_333;
 									L_333 = Enumerator_get_Current_mE620C5D190E30D0D6069975ADCB42256DE7D184F_inline((&V_59), Enumerator_get_Current_mE620C5D190E30D0D6069975ADCB42256DE7D184F_RuntimeMethod_var);
 									V_60 = L_333;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:478>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:478>
 									MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_334 = V_60;
 									MrukPlane_t196DC9E4352EC26EF684192E7469D13F776F52FA L_335 = L_334.___plane;
 									float L_336 = L_335.___width;
 									V_61 = L_336;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:479>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:479>
 									float L_337 = V_61;
 									float L_338 = V_23;
 									if ((!(((float)L_337) > ((float)L_338))))
@@ -11858,17 +11858,17 @@ IL_0718_4:
 									}
 								}
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:481>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:481>
 									float L_339 = V_61;
 									V_23 = L_339;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:482>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:482>
 									MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_340 = V_60;
 									V_22 = L_340;
 								}
 
 IL_073d_4:
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:476>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:476>
 									bool L_341;
 									L_341 = Enumerator_MoveNext_m81453638A1897E226740BEB5FCC2E617D271DCAF((&V_59), Enumerator_MoveNext_m81453638A1897E226740BEB5FCC2E617D271DCAF_RuntimeMethod_var);
 									if (L_341)
@@ -11888,29 +11888,29 @@ IL_073d_4:
 
 IL_075a_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:487>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:487>
 							V_24 = (0.0f);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:488>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:488>
 							V_25 = (0.0f);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:489>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:489>
 							V_26 = (0.0f);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:490>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:490>
 							V_27 = (0.0f);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:492>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:492>
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_342 = V_22;
 							Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_343 = L_342.___pose;
 							Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_344 = L_343.___rotation;
 							Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_345;
 							L_345 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_344, NULL);
 							V_62 = L_345;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:493>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:493>
 							V_63 = 0;
 							goto IL_082e_3;
 						}
 
 IL_0791_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:495>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:495>
 							Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_346 = V_62;
 							List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_347 = V_19;
 							int32_t L_348 = V_63;
@@ -11925,7 +11925,7 @@ IL_0791_3:
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_354;
 							L_354 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_346, L_353, NULL);
 							V_64 = L_354;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:497>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:497>
 							int32_t L_355 = V_63;
 							if (!L_355)
 							{
@@ -11952,7 +11952,7 @@ IL_07c8_3:
 IL_07cf_3:
 						{
 							V_24 = G_B69_0;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:498>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:498>
 							int32_t L_362 = V_63;
 							if (!L_362)
 							{
@@ -11979,7 +11979,7 @@ IL_07e5_3:
 IL_07ec_3:
 						{
 							V_25 = G_B72_0;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:499>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:499>
 							int32_t L_369 = V_63;
 							if (!L_369)
 							{
@@ -12006,7 +12006,7 @@ IL_0802_3:
 IL_0809_3:
 						{
 							V_26 = G_B75_0;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:500>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:500>
 							int32_t L_376 = V_63;
 							if (!L_376)
 							{
@@ -12033,14 +12033,14 @@ IL_081f_3:
 IL_0826_3:
 						{
 							V_27 = G_B78_0;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:493>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:493>
 							int32_t L_383 = V_63;
 							V_63 = ((int32_t)il2cpp_codegen_add(L_383, 1));
 						}
 
 IL_082e_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:493>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:493>
 							int32_t L_384 = V_63;
 							List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_385 = V_19;
 							NullCheck(L_385);
@@ -12052,13 +12052,13 @@ IL_082e_3:
 							}
 						}
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:504>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:504>
 							float L_387 = V_26;
 							float L_388 = V_27;
 							float L_389 = V_24;
 							float L_390 = V_25;
 							Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_28), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_387, L_388)), (0.5f))), (0.0f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_389, L_390)), (0.5f))), NULL);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:505>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:505>
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_391 = V_22;
 							Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_392 = L_391.___pose;
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_393 = L_392.___position;
@@ -12071,7 +12071,7 @@ IL_082e_3:
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_399;
 							L_399 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_393, L_398, NULL);
 							V_29 = L_399;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:506>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:506>
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_400 = V_29;
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_401;
 							L_401 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
@@ -12083,20 +12083,20 @@ IL_082e_3:
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_405;
 							L_405 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_400, L_404, NULL);
 							V_29 = L_405;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:507>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:507>
 							float L_406 = V_25;
 							float L_407 = V_24;
 							float L_408 = V_27;
 							float L_409 = V_26;
 							Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_30), ((float)il2cpp_codegen_subtract(L_406, L_407)), ((float)il2cpp_codegen_subtract(L_408, L_409)), (1.0f), NULL);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:509>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:509>
 							V_65 = 0;
 							goto IL_0a28_3;
 						}
 
 IL_08c1_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:511>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:511>
 							int32_t L_410 = V_65;
 							if (!L_410)
 							{
@@ -12116,7 +12116,7 @@ IL_08cc_3:
 IL_08d1_3:
 						{
 							V_66 = G_B84_0;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:513>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:513>
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_411 = V_29;
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_412;
 							L_412 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
@@ -12129,7 +12129,7 @@ IL_08d1_3:
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_417;
 							L_417 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_411, L_416, NULL);
 							V_67 = L_417;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:514>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:514>
 							int32_t L_418 = V_65;
 							if (!L_418)
 							{
@@ -12149,7 +12149,7 @@ IL_08f7_3:
 IL_08f8_3:
 						{
 							V_68 = ((float)G_B87_0);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:515>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:515>
 							Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_419 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&(&V_22)->___pose);
 							il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
 							Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_420;
@@ -12163,7 +12163,7 @@ IL_08f8_3:
 							Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_425;
 							L_425 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307(L_422, L_424, NULL);
 							V_69 = L_425;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:516>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:516>
 							MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_426 = V_1;
 							String_t* L_427 = V_66;
 							List_1_t6DFF7E452DA21747426C50B4A26C17B6F59534D9* L_428 = V_6;
@@ -12174,27 +12174,27 @@ IL_08f8_3:
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_432;
 							L_432 = MRUK_CreateMrukSceneAnchor_m3810425BC6664CB5E60DD0CD589634EF8D2E15EF(L_426, L_427, L_428, L_429, L_430, L_431, 1, NULL);
 							V_70 = L_432;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:517>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:517>
 							MrukRoomAnchor_tA39102260C07DA5A1D94B5D721557EC7C7F5681F L_433 = V_16;
 							Guid_t L_434 = L_433.___uuid;
 							(&V_70)->___roomUuid = L_434;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:519>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:519>
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_435 = V_70;
 							Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_436 = L_435.___pose;
 							Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_437 = L_436.___rotation;
 							Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_438;
 							L_438 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_437, NULL);
 							V_71 = L_438;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:520>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:520>
 							List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_439 = V_19;
 							NullCheck(L_439);
 							int32_t L_440;
 							L_440 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_439, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 							Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_441 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)L_440);
 							V_72 = L_441;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:521>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:521>
 							V_73 = 0;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:522>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:522>
 							List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_442 = V_19;
 							NullCheck(L_442);
 							Enumerator_t609488A9291E792D6A59707FF2BF03FBB727E047 L_443;
@@ -12232,11 +12232,11 @@ IL_09d3_3:
 
 IL_0971_4:
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:522>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:522>
 									Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_445;
 									L_445 = Enumerator_get_Current_m098C9AE095DEFD00B1B0314A772330F537805EE2_inline((&V_75), Enumerator_get_Current_m098C9AE095DEFD00B1B0314A772330F537805EE2_RuntimeMethod_var);
 									V_76 = L_445;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:524>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:524>
 									Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_446 = V_71;
 									Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_447 = V_76;
 									MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_448 = V_70;
@@ -12247,7 +12247,7 @@ IL_0971_4:
 									Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_452;
 									L_452 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_446, L_451, NULL);
 									V_77 = L_452;
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:525>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:525>
 									Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_453 = V_72;
 									int32_t L_454 = V_73;
 									int32_t L_455 = L_454;
@@ -12265,7 +12265,7 @@ IL_0971_4:
 
 IL_09b7_4:
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:522>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:522>
 									bool L_461;
 									L_461 = Enumerator_MoveNext_m9C3D158CB944A2244D518FA7989D8312ACCD7C8A((&V_75), Enumerator_MoveNext_m9C3D158CB944A2244D518FA7989D8312ACCD7C8A_RuntimeMethod_var);
 									if (L_461)
@@ -12285,7 +12285,7 @@ IL_09b7_4:
 
 IL_09d4_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:528>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:528>
 							int32_t L_462 = V_65;
 							if ((!(((uint32_t)L_462) == ((uint32_t)1))))
 							{
@@ -12293,48 +12293,48 @@ IL_09d4_3:
 							}
 						}
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:530>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:530>
 							Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_463 = V_72;
 							Array_Reverse_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_mAF372E37E80B81DCCC88ED59A1B9B53AEA2C6CCE(L_463, Array_Reverse_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_mAF372E37E80B81DCCC88ED59A1B9B53AEA2C6CCE_RuntimeMethod_var);
 						}
 
 IL_09e0_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:533>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:533>
 							Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_464 = V_72;
 							GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_465;
 							L_465 = GCHandle_Alloc_m3BFD398427352FC756FFE078F01A504B681352EC((RuntimeObject*)L_464, 3, NULL);
 							V_74 = L_465;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:534>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:534>
 							List_1_t6DFF7E452DA21747426C50B4A26C17B6F59534D9* L_466 = V_6;
 							GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_467 = V_74;
 							NullCheck(L_466);
 							List_1_Add_mB96AB0E3B5341C1621A08EE6A6B21A55CCBA92C8_inline(L_466, L_467, List_1_Add_mB96AB0E3B5341C1621A08EE6A6B21A55CCBA92C8_RuntimeMethod_var);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:537>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:537>
 							intptr_t L_468;
 							L_468 = GCHandle_AddrOfPinnedObject_m9C047E154D6F0FE66BE003AB99F0B67A2CA953A6((&V_74), NULL);
 							void* L_469;
 							L_469 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_468, NULL);
 							(&V_70)->___planeBoundary = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)L_469;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:540>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:540>
 							Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_470 = V_72;
 							NullCheck(L_470);
 							(&V_70)->___planeBoundaryCount = ((int32_t)(((RuntimeArray*)L_470)->max_length));
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:541>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:541>
 							(&V_70)->___hasPlane = (bool)1;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:543>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:543>
 							List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_471 = V_5;
 							MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_472 = V_70;
 							NullCheck(L_471);
 							List_1_Add_m0FBACC1B076EF286B14FC1E99C42562F8B10E5D8_inline(L_471, L_472, List_1_Add_m0FBACC1B076EF286B14FC1E99C42562F8B10E5D8_RuntimeMethod_var);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:509>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:509>
 							int32_t L_473 = V_65;
 							V_65 = ((int32_t)il2cpp_codegen_add(L_473, 1));
 						}
 
 IL_0a28_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:509>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:509>
 							int32_t L_474 = V_65;
 							if ((((int32_t)L_474) < ((int32_t)2)))
 							{
@@ -12342,7 +12342,7 @@ IL_0a28_3:
 							}
 						}
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:546>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:546>
 							List_1_t34E986F9D41EE38ECC370BA1965C88237C7137F5* L_475 = V_4;
 							MrukRoomAnchor_tA39102260C07DA5A1D94B5D721557EC7C7F5681F L_476 = V_16;
 							NullCheck(L_475);
@@ -12351,7 +12351,7 @@ IL_0a28_3:
 
 IL_0a39_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:352>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:352>
 							bool L_477;
 							L_477 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_11), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 							if (L_477)
@@ -12371,42 +12371,42 @@ IL_0a39_3:
 
 IL_0a59_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:550>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:550>
 					V_78 = 0;
 					goto IL_0b7f_2;
 				}
 
 IL_0a61_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:552>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:552>
 					List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_478 = V_5;
 					int32_t L_479 = V_78;
 					NullCheck(L_478);
 					MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_480;
 					L_480 = List_1_get_Item_m6B0D4939661906902F8C12188E6509986616C7A1(L_478, L_479, List_1_get_Item_m6B0D4939661906902F8C12188E6509986616C7A1_RuntimeMethod_var);
 					V_79 = L_480;
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:553>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:553>
 					MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_481 = V_79;
 					Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_482 = L_481.___pose;
 					il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 					Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_483;
 					L_483 = MRUK_FlipZRotateY180_mC93951776E046E9DD72452ABC08596D4FE466282(L_482, NULL);
 					(&V_79)->___pose = L_483;
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:554>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:554>
 					MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_484 = V_79;
 					MrukVolume_t3BDC2817C4CF7E4DC910A59CB86AB47EF210F6AC L_485 = L_484.___volume;
 					MrukVolume_t3BDC2817C4CF7E4DC910A59CB86AB47EF210F6AC L_486;
 					L_486 = MRUK_ConvertVolume_mBCC6AB8FEAB18027E0457D059B52B3D3227F71FB(L_485, NULL);
 					(&V_79)->___volume = L_486;
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:555>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:555>
 					MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_487 = V_79;
 					MrukPlane_t196DC9E4352EC26EF684192E7469D13F776F52FA L_488 = L_487.___plane;
 					MrukPlane_t196DC9E4352EC26EF684192E7469D13F776F52FA L_489;
 					L_489 = MRUK_ConvertPlane_mF6F71077ADAE9CE1A818440212370B4304D20B46(L_488, NULL);
 					(&V_79)->___plane = L_489;
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:558>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:558>
 					V_80 = 0;
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:559>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:559>
 					MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_490 = V_79;
 					uint32_t L_491 = L_490.___planeBoundaryCount;
 					V_81 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_491, 1));
@@ -12415,21 +12415,21 @@ IL_0a61_2:
 
 IL_0ab5_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:563>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:563>
 					MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_492 = V_79;
 					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_493 = L_492.___planeBoundary;
 					int32_t L_494 = V_80;
 					uint32_t L_495 = sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7);
 					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_496 = (*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)il2cpp_codegen_add((intptr_t)L_493, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_494), (int32_t)L_495)))));
 					V_82 = L_496;
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:564>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:564>
 					MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_497 = V_79;
 					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_498 = L_497.___planeBoundary;
 					int32_t L_499 = V_81;
 					uint32_t L_500 = sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7);
 					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_501 = (*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)il2cpp_codegen_add((intptr_t)L_498, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_499), (int32_t)L_500)))));
 					V_83 = L_501;
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:565>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:565>
 					MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_502 = V_79;
 					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_503 = L_502.___planeBoundary;
 					int32_t L_504 = V_80;
@@ -12439,7 +12439,7 @@ IL_0ab5_2:
 					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_507;
 					L_507 = MRUK_FlipX_mCAB3FF2553F803C061168FC857956E31A929F778(L_506, NULL);
 					*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)il2cpp_codegen_add((intptr_t)L_503, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_504), (int32_t)L_505)))) = L_507;
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:566>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:566>
 					MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_508 = V_79;
 					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_509 = L_508.___planeBoundary;
 					int32_t L_510 = V_81;
@@ -12448,17 +12448,17 @@ IL_0ab5_2:
 					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_513;
 					L_513 = MRUK_FlipX_mCAB3FF2553F803C061168FC857956E31A929F778(L_512, NULL);
 					*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)il2cpp_codegen_add((intptr_t)L_509, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_510), (int32_t)L_511)))) = L_513;
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:567>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:567>
 					int32_t L_514 = V_80;
 					V_80 = ((int32_t)il2cpp_codegen_add(L_514, 1));
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:568>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:568>
 					int32_t L_515 = V_81;
 					V_81 = ((int32_t)il2cpp_codegen_subtract(L_515, 1));
 				}
 
 IL_0b2f_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:560>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:560>
 					int32_t L_516 = V_80;
 					int32_t L_517 = V_81;
 					if ((((int32_t)L_516) < ((int32_t)L_517)))
@@ -12467,7 +12467,7 @@ IL_0b2f_2:
 					}
 				}
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:572>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:572>
 					int32_t L_518 = V_80;
 					int32_t L_519 = V_81;
 					if ((!(((uint32_t)L_518) == ((uint32_t)L_519))))
@@ -12476,7 +12476,7 @@ IL_0b2f_2:
 					}
 				}
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:574>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:574>
 					MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_520 = V_79;
 					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_521 = L_520.___planeBoundary;
 					int32_t L_522 = V_80;
@@ -12494,20 +12494,20 @@ IL_0b2f_2:
 
 IL_0b6e_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:578>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:578>
 					List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_530 = V_5;
 					int32_t L_531 = V_78;
 					MrukSceneAnchor_t0DF75DCE8911E7F8359632C25FE63F1828FBFA8E L_532 = V_79;
 					NullCheck(L_530);
 					List_1_set_Item_m6561B281175689FC5EE8355AC97587D0017A1D89(L_530, L_531, L_532, List_1_set_Item_m6561B281175689FC5EE8355AC97587D0017A1D89_RuntimeMethod_var);
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:550>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:550>
 					int32_t L_533 = V_78;
 					V_78 = ((int32_t)il2cpp_codegen_add(L_533, 1));
 				}
 
 IL_0b7f_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:550>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:550>
 					int32_t L_534 = V_78;
 					List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_535 = V_5;
 					NullCheck(L_535);
@@ -12546,7 +12546,7 @@ IL_0c06_2:
 					try
 					{
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:583>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:583>
 							List_1_t34E986F9D41EE38ECC370BA1965C88237C7137F5* L_538 = V_4;
 							NullCheck(L_538);
 							MrukRoomAnchorU5BU5D_t310424005EC9D0D1C073388C808FE8405DDEE6EB* L_539;
@@ -12609,7 +12609,7 @@ IL_0bfc_3:
 							try
 							{
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:584>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:584>
 									List_1_tBD8E815408C2DFCFD5F555B164B8B609163BC596* L_544 = V_5;
 									NullCheck(L_544);
 									MrukSceneAnchorU5BU5D_t6E399FE54C27DF6545CB1D122409459A2B798151* L_545;
@@ -12645,7 +12645,7 @@ IL_0bca_4:
 
 IL_0bd5_4:
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:586>
+									//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:586>
 									LoadSceneFromPrefabDelegate_t0AFD63CCE7E4AD787D156A19C39CCA1A3C036574* L_549 = ((MRUKNativeFuncs_t8952D6DE369E77ED6EED930333B2BE760EE76C66_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNativeFuncs_t8952D6DE369E77ED6EED930333B2BE760EE76C66_il2cpp_TypeInfo_var))->___LoadSceneFromPrefab;
 									MrukRoomAnchor_tA39102260C07DA5A1D94B5D721557EC7C7F5681F* L_550 = V_84;
 									List_1_t34E986F9D41EE38ECC370BA1965C88237C7137F5* L_551 = V_4;
@@ -12683,7 +12683,7 @@ IL_0bfd_3:
 
 IL_0c07_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:590>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:590>
 					goto IL_0c46_1;
 				}
 			}
@@ -12695,7 +12695,7 @@ IL_0c07_2:
 
 IL_0c46_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:599>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:599>
 			int32_t L_557 = V_7;
 			if (!L_557)
 			{
@@ -12703,7 +12703,7 @@ IL_0c46_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:601>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:601>
 			int32_t L_558 = V_7;
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			int32_t L_559;
@@ -12714,7 +12714,7 @@ IL_0c46_1:
 
 IL_0c57_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:604>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:604>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_560 = V_1;
 			NullCheck(L_560);
 			Task_1_t564DE19C5B26B28C320482E2C8B13D8BD2E187DA* L_561;
@@ -12758,7 +12758,7 @@ IL_0cab_1:
 		{
 			int32_t L_570;
 			L_570 = TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93((&V_90), TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:606>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:606>
 			int32_t L_571 = L_570;
 			if (L_571)
 			{
@@ -12768,7 +12768,7 @@ IL_0cab_1:
 			G_B148_0 = L_571;
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:608>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:608>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_572 = V_1;
 			NullCheck(L_572);
 			MRUK_InitializeScene_m6EFFE3C53AA3D62C127F5C3FA5311FBCB1DD77D8(L_572, NULL);
@@ -12777,7 +12777,7 @@ IL_0cab_1:
 
 IL_0cbb_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:611>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:611>
 			V_2 = G_B149_0;
 			goto IL_0cd7;
 		}
@@ -12807,7 +12807,7 @@ CATCH_0cbe:
 
 IL_0cd7:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:612>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:612>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51* L_576 = (AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51*)(&__this->___U3CU3Et__builder);
 		int32_t L_577 = V_2;
@@ -12917,7 +12917,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromSharedRoomsU3Ed__67_Move
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:903>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:903>
 			Guid_t L_3 = __this->___groupUuid;
 			Guid_t L_4 = ((Guid_t_StaticFields*)il2cpp_codegen_static_fields_for(Guid_t_il2cpp_TypeInfo_var))->___Empty;
 			bool L_5;
@@ -12928,7 +12928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromSharedRoomsU3Ed__67_Move
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:905>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:905>
 			ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_6 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 			ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5A3BF463E701423814FBCDBA9FCAAEA862896B12)), NULL);
 			IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadSceneFromSharedRoomsU3Ed__67_MoveNext_m6DA3FC7713217A268C1E0158F52E3A253833C220_RuntimeMethod_var)));
@@ -12936,7 +12936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneFromSharedRoomsU3Ed__67_Move
 
 IL_0031_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:908>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:908>
 			Nullable_1_t70BAAE72916D188B5A13E2D2E42D10E64F5ECFBE* L_7 = (Nullable_1_t70BAAE72916D188B5A13E2D2E42D10E64F5ECFBE*)(&__this->___alignmentData);
 			Nullable_1_t70BAAE72916D188B5A13E2D2E42D10E64F5ECFBE* L_8 = L_7;
 			bool L_9;
@@ -13015,7 +13015,7 @@ IL_0089_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:910>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:910>
 			ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_20 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 			ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_20, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral03AE870EB52F5D2D1EAC3D3019311477F1F80E89)), NULL);
 			IL2CPP_RAISE_MANAGED_EXCEPTION(L_20, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadSceneFromSharedRoomsU3Ed__67_MoveNext_m6DA3FC7713217A268C1E0158F52E3A253833C220_RuntimeMethod_var)));
@@ -13023,7 +13023,7 @@ IL_0089_1:
 
 IL_0096_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:913>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:913>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_21 = V_1;
 			bool L_22 = __this->___removeMissingRooms;
 			il2cpp_codegen_initobj((&V_7), sizeof(SharedRoomsData_t239BDC3567CDFEEE214360EFFEBBEF34246588AC));
@@ -13109,7 +13109,7 @@ CATCH_0132:
 
 IL_014b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:914>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:914>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51* L_41 = (AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51*)(&__this->___U3CU3Et__builder);
 		int32_t L_42 = V_2;
@@ -13237,7 +13237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareRoomsAsyncU3Ed__70_MoveNext_mA47
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:962>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:962>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_3 = V_1;
 			NullCheck(L_3);
 			MRUKSettings_t5CFF093D740BD5360482D04501380A54D3A72CAA* L_4 = L_3->___SceneSettings;
@@ -13249,14 +13249,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareRoomsAsyncU3Ed__70_MoveNext_mA47
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:964>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:964>
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral628A3022002C2273C54C0118F48336FC2013F418, NULL);
 		}
 
 IL_0029_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:967>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:967>
 			RuntimeObject* L_6 = __this->___rooms;
 			if (L_6)
 			{
@@ -13264,7 +13264,7 @@ IL_0029_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:969>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:969>
 			ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_7 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
 			ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_7, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral478035D48A3CD921BA2139999226098031AD1829)), NULL);
 			IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CShareRoomsAsyncU3Ed__70_MoveNext_mA47C6A1A03599FDC2ED1E3CEC29029C06DCFAAAB_RuntimeMethod_var)));
@@ -13272,7 +13272,7 @@ IL_0029_1:
 
 IL_003c_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:972>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:972>
 			Guid_t L_8 = __this->___groupUuid;
 			Guid_t L_9 = ((Guid_t_StaticFields*)il2cpp_codegen_static_fields_for(Guid_t_il2cpp_TypeInfo_var))->___Empty;
 			bool L_10;
@@ -13283,7 +13283,7 @@ IL_003c_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:974>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:974>
 			ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_11 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 			ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_11, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5A3BF463E701423814FBCDBA9FCAAEA862896B12)), NULL);
 			IL2CPP_RAISE_MANAGED_EXCEPTION(L_11, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CShareRoomsAsyncU3Ed__70_MoveNext_mA47C6A1A03599FDC2ED1E3CEC29029C06DCFAAAB_RuntimeMethod_var)));
@@ -13291,7 +13291,7 @@ IL_003c_1:
 
 IL_0059_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:977>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:977>
 			List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310** L_12 = (List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310**)(&__this->___U3CroomAnchorsU3E5__2);
 			ListScope_1_t36F14838A4D4B88E04B719566785E5A5FC8C5C56 L_13;
 			memset((&L_13), 0, sizeof(L_13));
@@ -13344,11 +13344,11 @@ IL_01f6_1:
 					}
 				}
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:979>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:979>
 					List_1_t7D0C2B83CF548701A27AE4DB708CDA852886409A* L_18 = (List_1_t7D0C2B83CF548701A27AE4DB708CDA852886409A*)il2cpp_codegen_object_new(List_1_t7D0C2B83CF548701A27AE4DB708CDA852886409A_il2cpp_TypeInfo_var);
 					List_1__ctor_m26C1161925416E7238AE32249FADC37340F898CC(L_18, List_1__ctor_m26C1161925416E7238AE32249FADC37340F898CC_RuntimeMethod_var);
 					V_3 = L_18;
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:981>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:981>
 					RuntimeObject* L_19 = __this->___rooms;
 					NullCheck(L_19);
 					RuntimeObject* L_20;
@@ -13395,13 +13395,13 @@ IL_0110_2:
 
 IL_008d_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:981>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:981>
 							RuntimeObject* L_24 = V_4;
 							NullCheck(L_24);
 							MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_25;
 							L_25 = InterfaceFuncInvoker0< MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* >::Invoke(0, IEnumerator_1_t819213AC205B20EE6B1B6FA32982D9F1755FE01F_il2cpp_TypeInfo_var, L_24);
 							V_5 = L_25;
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:983>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:983>
 							MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_26 = V_5;
 							NullCheck(L_26);
 							bool L_27;
@@ -13412,10 +13412,10 @@ IL_008d_3:
 							}
 						}
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:985>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:985>
 							il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 							Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralC3901A247D5F89A0E0548784B470B4776052EB77, NULL);
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:986>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:986>
 							OVRResult_1_tE6BBB1049D1315EA6F35DA9728C0D01262F252B6 L_28;
 							L_28 = OVRResult_1_FromFailure_mD269031029868AE5D85662373FC70DD5D91B1663(((int32_t)-1006), OVRResult_1_FromFailure_mD269031029868AE5D85662373FC70DD5D91B1663_RuntimeMethod_var);
 							V_2 = L_28;
@@ -13424,7 +13424,7 @@ IL_008d_3:
 
 IL_00b9_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:988>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:988>
 							MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_29 = V_5;
 							NullCheck(L_29);
 							OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_30;
@@ -13439,7 +13439,7 @@ IL_00b9_3:
 							}
 						}
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:990>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:990>
 							List_1_t7D0C2B83CF548701A27AE4DB708CDA852886409A* L_32 = V_3;
 							il2cpp_codegen_runtime_class_init_inline(OVRSharable_t2D2CE2E56126A35AB31B449381CBF3328C51A216_il2cpp_TypeInfo_var);
 							OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9 L_33;
@@ -13450,7 +13450,7 @@ IL_00b9_3:
 
 IL_00e4_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:992>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:992>
 							List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310* L_34 = __this->___U3CroomAnchorsU3E5__2;
 							MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_35 = V_5;
 							NullCheck(L_35);
@@ -13462,7 +13462,7 @@ IL_00e4_3:
 
 IL_00f6_3:
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:981>
+							//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:981>
 							RuntimeObject* L_37 = V_4;
 							NullCheck(L_37);
 							bool L_38;
@@ -13484,7 +13484,7 @@ IL_00f6_3:
 
 IL_0111_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:995>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:995>
 					List_1_t7D0C2B83CF548701A27AE4DB708CDA852886409A* L_39 = V_3;
 					OVRTask_1_tCE375317D949DFFD1B2856C44D7DB6B4E90B4C2C L_40;
 					L_40 = OVRTask_WhenAll_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mBE672925E2027F93A64C8EC83E7D667EDF078E63(L_39, OVRTask_WhenAll_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mBE672925E2027F93A64C8EC83E7D667EDF078E63_RuntimeMethod_var);
@@ -13526,7 +13526,7 @@ IL_016c_2:
 				{
 					BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_49;
 					L_49 = Awaiter_GetResult_m8D0482F16D437E574F6C201A248A3F7FDD26354C((&V_8), Awaiter_GetResult_m8D0482F16D437E574F6C201A248A3F7FDD26354C_RuntimeMethod_var);
-					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:996>
+					//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:996>
 					List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310* L_50 = __this->___U3CroomAnchorsU3E5__2;
 					Guid_t L_51 = __this->___groupUuid;
 					il2cpp_codegen_runtime_class_init_inline(OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061_il2cpp_TypeInfo_var);
@@ -13604,7 +13604,7 @@ CATCH_01f7:
 
 IL_0210:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:998>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:998>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		OVRTaskBuilder_1_t5DDF193D02B124CE5149323DDC1CB755B3AF1618* L_65 = (OVRTaskBuilder_1_t5DDF193D02B124CE5149323DDC1CB755B3AF1618*)(&__this->___U3CU3Et__builder);
 		OVRResult_1_tE6BBB1049D1315EA6F35DA9728C0D01262F252B6 L_66 = V_2;
@@ -13697,7 +13697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForDiscoveryFinishedU3Ed__131_Mov
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:1266>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:1266>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_3 = V_1;
 			Guid_t L_4;
 			L_4 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
@@ -13708,7 +13708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForDiscoveryFinishedU3Ed__131_Mov
 			Nullable_1__ctor_m066E412712B88A33757681573B677006D463236F((&L_6), L_5, Nullable_1__ctor_m066E412712B88A33757681573B677006D463236F_RuntimeMethod_var);
 			NullCheck(L_3);
 			L_3->____loadSceneTask = L_6;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:1267>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:1267>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_7 = V_1;
 			NullCheck(L_7);
 			Nullable_1_t0620D8083A6B5DADDED9B810A7850EB9F9693DE2* L_8 = (Nullable_1_t0620D8083A6B5DADDED9B810A7850EB9F9693DE2*)(&L_7->____loadSceneTask);
@@ -13753,12 +13753,12 @@ IL_0080_1:
 		{
 			int32_t L_18;
 			L_18 = Awaiter_GetResult_m28BE93C80B0D52F5D0939BC552C23F7C79E269B2((&V_3), Awaiter_GetResult_m28BE93C80B0D52F5D0939BC552C23F7C79E269B2_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:1268>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:1268>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_19 = V_1;
 			NullCheck(L_19);
 			Nullable_1_t0620D8083A6B5DADDED9B810A7850EB9F9693DE2* L_20 = (Nullable_1_t0620D8083A6B5DADDED9B810A7850EB9F9693DE2*)(&L_19->____loadSceneTask);
 			il2cpp_codegen_initobj(L_20, sizeof(Nullable_1_t0620D8083A6B5DADDED9B810A7850EB9F9693DE2));
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:1269>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:1269>
 			V_2 = L_18;
 			goto IL_00af;
 		}
@@ -13788,7 +13788,7 @@ CATCH_0096:
 
 IL_00af:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Shared.cs:1270>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Shared.cs:1270>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51* L_24 = (AsyncTaskMethodBuilder_1_tD36ECC16CF77AAAF7890CC5863CB309D9C309D51*)(&__this->___U3CU3Et__builder);
 		int32_t L_25 = V_2;
@@ -13851,7 +13851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:93>
 		int32_t L_0;
 		L_0 = MRUKAnchor_get_Label_m92F9590F060E08E9BA0AD2C435DBD0AFC555E27B_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Utilities_t999441993FD2FC7BA0F667E02B5F06025DF0AE79_il2cpp_TypeInfo_var);
@@ -13864,7 +13864,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MRUKAnchor_get_Label_m92F9590F060E08E9BA0AD2C435DBD0AFC555E27B (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:113>
 		int32_t L_0 = __this->___U3CLabelU3Ek__BackingField;
 		return L_0;
 	}
@@ -13873,7 +13873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MRUKAnchor_get_Label_m92F9590F060E08E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_Label_mE1616921A632C6D89C144D6DB96F2A4551772657 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:113>
 		int32_t L_0 = ___0_value;
 		__this->___U3CLabelU3Ek__BackingField = L_0;
 		return;
@@ -13883,7 +13883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_Label_mE1616921A632C6D89C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 MRUKAnchor_get_PlaneRect_m0C358A525D83E4B51869D5247570EE9C2E5054D6 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:119>
 		Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_0 = __this->___U3CPlaneRectU3Ek__BackingField;
 		return L_0;
 	}
@@ -13892,7 +13892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t13F9968C978BAF968F02BA5B41ABB4813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_PlaneRect_m8E544BF2D3993F55651BE4C681D7CC6B67E9D566 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:119>
 		Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_0 = ___0_value;
 		__this->___U3CPlaneRectU3Ek__BackingField = L_0;
 		return;
@@ -13902,7 +13902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_PlaneRect_m8E544BF2D3993F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F MRUKAnchor_get_VolumeBounds_m35178817BA00531165C12E135DCE64B108026352 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:125>
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_0 = __this->___U3CVolumeBoundsU3Ek__BackingField;
 		return L_0;
 	}
@@ -13911,7 +13911,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_VolumeBounds_m635B634AC3CB529A2ADEAC1ACE1C01CB69EF4551 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:125>
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_0 = ___0_value;
 		__this->___U3CVolumeBoundsU3Ek__BackingField = L_0;
 		return;
@@ -13921,7 +13921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_VolumeBounds_m635B634AC3C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* MRUKAnchor_get_PlaneBoundary2D_m0DD57BA32E7689CB5D5BE1153B5087095633746C (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:132>
 		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_0 = __this->___U3CPlaneBoundary2DU3Ek__BackingField;
 		return L_0;
 	}
@@ -13930,7 +13930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_PlaneBoundary2D_mB7ACA4EACB90952262DAC8FE3FA1550A21005D08 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:132>
 		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_0 = ___0_value;
 		__this->___U3CPlaneBoundary2DU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CPlaneBoundary2DU3Ek__BackingField), (void*)L_0);
@@ -13941,7 +13941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_PlaneBoundary2D_mB7ACA4EA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 MRUKAnchor_get_Anchor_m2F20E1F4CB1A5F7D5462163038E2AC770887400C (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:138>
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_0 = __this->___U3CAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -13950,7 +13950,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_Anchor_m231190454F2087828CA3FCFDD594951C9D85985F (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:138>
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_0 = ___0_value;
 		__this->___U3CAnchorU3Ek__BackingField = L_0;
 		return;
@@ -13960,7 +13960,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_Anchor_m231190454F2087828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* MRUKAnchor_get_Room_m06523F8EAA2B43B971C53CBFEB81B42FA512CCD4 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:145>
 		MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_0 = __this->___U3CRoomU3Ek__BackingField;
 		return L_0;
 	}
@@ -13969,7 +13969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_Room_mF8CB5BEF066AF4716873B0FBBD10B28AB11AE7AA (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:145>
 		MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_0 = ___0_value;
 		__this->___U3CRoomU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRoomU3Ek__BackingField), (void*)L_0);
@@ -13980,7 +13980,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_Room_mF8CB5BEF066AF471687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* MRUKAnchor_get_ParentAnchor_mBDF951A7E20F7B98D8DD664665E66BA72ABAF0AA (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:156>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = __this->___U3CParentAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -13989,7 +13989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_ParentAnchor_mC06BFCA618E9656AFA8029F6670DEC5218680854 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:156>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = ___0_value;
 		__this->___U3CParentAnchorU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CParentAnchorU3Ek__BackingField), (void*)L_0);
@@ -14000,7 +14000,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_ParentAnchor_mC06BFCA618E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* MRUKAnchor_get_ChildAnchors_m5CAF5AB3F1A09C7ABB57B17D91978D868E71379A (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:163>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0 = __this->___U3CChildAnchorsU3Ek__BackingField;
 		return L_0;
 	}
@@ -14009,7 +14009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F64
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_ChildAnchors_mAB34A6E99F6E535A40D57EC7BF79BC2F0D5E9660 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:163>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0 = ___0_value;
 		__this->___U3CChildAnchorsU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CChildAnchorsU3Ek__BackingField), (void*)L_0);
@@ -14028,7 +14028,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_get_HasPlane_mC8622D1049E4163
 	Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:167>
 		Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_0;
 		L_0 = MRUKAnchor_get_PlaneRect_m0C358A525D83E4B51869D5247570EE9C2E5054D6_inline(__this, NULL);
 		V_0 = L_0;
@@ -14049,7 +14049,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_get_HasVolume_mEA45308F6B17E3
 	Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:170>
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_0;
 		L_0 = MRUKAnchor_get_VolumeBounds_m35178817BA00531165C12E135DCE64B108026352_inline(__this, NULL);
 		V_0 = L_0;
@@ -14062,7 +14062,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_get_HasVolume_mEA45308F6B17E3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_get_IsLocal_m743250897DE8D53D0928049BEFB053EB2F91F4A1 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:173>
 		bool L_0;
 		L_0 = MRUKAnchor_get_HasValidHandle_mAA713F3011911867CCCDC84884C5848E53B9C87E(__this, NULL);
 		return L_0;
@@ -14080,7 +14080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_get_HasValidHandle_mAA713F301
 	OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:181>
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_0;
 		L_0 = MRUKAnchor_get_Anchor_m2F20E1F4CB1A5F7D5462163038E2AC770887400C_inline(__this, NULL);
 		V_0 = L_0;
@@ -14094,7 +14094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_get_HasValidHandle_mAA713F301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* MRUKAnchor_get_Mesh_m77E08F89F7DE7EF0900066725FF5F637A810D4B9 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:187>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0;
 		L_0 = MRUKAnchor_get_GlobalMesh_m7CFF697A90F94F94E5918F325961ECFD8EF24E3A(__this, NULL);
 		return L_0;
@@ -14104,7 +14104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_Mesh_m64770110180FCCB6D44FB8B0CF5080996360A37D (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:189>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = ___0_value;
 		__this->____mesh = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____mesh), (void*)L_0);
@@ -14121,7 +14121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:213>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:213>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = __this->____mesh;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14132,7 +14132,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:215>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:215>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2;
 		L_2 = MRUKAnchor_LoadGlobalMeshTriangles_m1E9340665A290713D677B31F0B54E7BBD3A175B5(__this, NULL);
 		__this->____mesh = L_2;
@@ -14141,7 +14141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:218>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:218>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_3 = __this->____mesh;
 		return L_3;
 	}
@@ -14150,7 +14150,7 @@ IL_0019:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_set_GlobalMesh_mADBE4A72F44AE600BFDBA11DC31B8E9B7D8690C8 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:220>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:220>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = ___0_value;
 		__this->____mesh = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____mesh), (void*)L_0);
@@ -14175,7 +14175,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_Raycast_mBC428884684584120E6F
 	int32_t G_B3_0 = 0;
 	int32_t G_B6_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:264>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -14184,7 +14184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_Raycast_mBC428884684584120E6F
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:265>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:265>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
@@ -14193,15 +14193,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_Raycast_mBC428884684584120E6F
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Transform_InverseTransformDirection_m69C077B881A98B08C7F231EFC49429C906FBC575(L_3, L_4, NULL);
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:266>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_1;
 		Ray__ctor_mE298992FD10A3894C38373198385F345C58BD64C_inline((&V_2), L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:267>
 		il2cpp_codegen_initobj((&V_3), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:268>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:268>
 		il2cpp_codegen_initobj((&V_4), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:269>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:269>
 		int32_t L_8 = ___3_componentTypes;
 		if (!((int32_t)((int32_t)L_8&1)))
 		{
@@ -14225,7 +14225,7 @@ IL_0051:
 IL_0052:
 	{
 		V_5 = (bool)G_B3_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:270>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:270>
 		int32_t L_12 = ___3_componentTypes;
 		if (!((int32_t)((int32_t)L_12&2)))
 		{
@@ -14249,7 +14249,7 @@ IL_0066:
 IL_0067:
 	{
 		V_6 = (bool)G_B6_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:271>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:271>
 		bool L_16 = V_5;
 		bool L_17 = V_6;
 		if (!((int32_t)((int32_t)L_16&(int32_t)L_17)))
@@ -14258,7 +14258,7 @@ IL_0067:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:274>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:274>
 		float L_18;
 		L_18 = RaycastHit_get_distance_m035194B0E9BB6229259CFC43B095A9C8E5011C78((&V_3), NULL);
 		float L_19;
@@ -14269,27 +14269,27 @@ IL_0067:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:276>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:276>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_20 = ___2_hitInfo;
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_21 = V_3;
 		*(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)L_20 = L_21;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:277>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:277>
 		return (bool)1;
 	}
 
 IL_0089:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:281>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:281>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_22 = ___2_hitInfo;
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_23 = V_4;
 		*(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)L_22 = L_23;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:282>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:282>
 		return (bool)1;
 	}
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:286>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:286>
 		bool L_24 = V_5;
 		if (!L_24)
 		{
@@ -14297,17 +14297,17 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:288>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:288>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_25 = ___2_hitInfo;
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_26 = V_3;
 		*(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)L_25 = L_26;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:289>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:289>
 		return (bool)1;
 	}
 
 IL_00a0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:292>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:292>
 		bool L_27 = V_6;
 		if (!L_27)
 		{
@@ -14315,20 +14315,20 @@ IL_00a0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:294>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:294>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_28 = ___2_hitInfo;
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_29 = V_4;
 		*(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)L_28 = L_29;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:295>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:295>
 		return (bool)1;
 	}
 
 IL_00ae:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:298>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:298>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_30 = ___2_hitInfo;
 		il2cpp_codegen_initobj(L_30, sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:299>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:299>
 		return (bool)0;
 	}
 }
@@ -14343,7 +14343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_IsPositionInBoundary_m3CFD4AF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:309>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:309>
 		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_0;
 		L_0 = MRUKAnchor_get_PlaneBoundary2D_m0DD57BA32E7689CB5D5BE1153B5087095633746C_inline(__this, NULL);
 		if (!L_0)
@@ -14365,13 +14365,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_IsPositionInBoundary_m3CFD4AF
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:311>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:311>
 		return (bool)0;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:314>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:314>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___0_position;
 		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_4;
 		L_4 = MRUKAnchor_get_PlaneBoundary2D_m0DD57BA32E7689CB5D5BE1153B5087095633746C_inline(__this, NULL);
@@ -14392,7 +14392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_AddChildReference_mC4EC4CF00A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:323>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:323>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = ___0_childObj;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14403,7 +14403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_AddChildReference_mC4EC4CF00A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:325>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:325>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_2;
 		L_2 = MRUKAnchor_get_ChildAnchors_m5CAF5AB3F1A09C7ABB57B17D91978D868E71379A_inline(__this, NULL);
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_3 = ___0_childObj;
@@ -14413,7 +14413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_AddChildReference_mC4EC4CF00A
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:327>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:327>
 		return;
 	}
 }
@@ -14427,12 +14427,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor_ClearChildReferences_m807008B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:334>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:334>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0;
 		L_0 = MRUKAnchor_get_ChildAnchors_m5CAF5AB3F1A09C7ABB57B17D91978D868E71379A_inline(__this, NULL);
 		NullCheck(L_0);
 		List_1_Clear_m38272153796846BB7FE550A4CFF5D0D7A753F7CD_inline(L_0, List_1_Clear_m38272153796846BB7FE550A4CFF5D0D7A753F7CD_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:335>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:335>
 		return;
 	}
 }
@@ -14444,7 +14444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MRUKAnchor_GetDistanceToSurface_m80EE95
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:344>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:344>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_position;
 		int32_t L_1 = ___1_componentTypes;
 		float L_2;
@@ -14458,7 +14458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MRUKAnchor_GetClosestSurfacePosition_m6
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:354>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:354>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_testPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1 = ___1_closestPosition;
 		int32_t L_2 = ___2_componentTypes;
@@ -14506,19 +14506,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MRUKAnchor_GetClosestSurfacePosition_m6
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_16;
 	memset((&V_16), 0, sizeof(V_16));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:367>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:367>
 		V_0 = (std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:368>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:368>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___1_closestPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:369>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:369>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2 = ___2_normal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:371>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:371>
 		int32_t L_4 = ___3_componentTypes;
 		if (!((int32_t)((int32_t)L_4&2)))
 		{
@@ -14537,14 +14537,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MRUKAnchor_GetClosestSurfacePosition_m6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:373>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:373>
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_7;
 		L_7 = MRUKAnchor_get_VolumeBounds_m35178817BA00531165C12E135DCE64B108026352_inline(__this, NULL);
 		V_1 = L_7;
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_8;
 		L_8 = Nullable_1_get_Value_mC79E0A8A7D9E70CC7ABA0073EF626DE21DFADADB((&V_1), Nullable_1_get_Value_mC79E0A8A7D9E70CC7ABA0073EF626DE21DFADADB_RuntimeMethod_var);
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:374>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:374>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___0_testPosition;
@@ -14552,7 +14552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MRUKAnchor_GetClosestSurfacePosition_m6
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_9, L_10, NULL);
 		V_3 = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:375>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:375>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_3;
 		bool L_13;
 		L_13 = Bounds_Contains_m584E9DE0CF9D90C3C4F928BA8F5AD328393F3555((&V_2), L_12, NULL);
@@ -14562,25 +14562,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MRUKAnchor_GetClosestSurfacePosition_m6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:378>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:378>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
 		L_15 = Bounds_get_center_m5B05F81CB835EB6DD8628FDA24B638F477984DC3_inline((&V_2), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
 		L_16 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_14, L_15, NULL);
 		V_3 = L_16;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:379>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:379>
 		V_4 = ((std::numeric_limits<float>::max)());
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:380>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:380>
 		V_5 = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:381>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:381>
 		V_8 = 0;
 		goto IL_00b5;
 	}
 
 IL_007e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:383>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:383>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = Bounds_get_extents_mFE6DC407FCE2341BE2C750CB554055D211281D25_inline((&V_2), NULL);
 		V_10 = L_17;
@@ -14593,7 +14593,7 @@ IL_007e:
 		float L_22;
 		L_22 = fabsf(L_21);
 		V_9 = ((float)il2cpp_codegen_subtract(L_19, L_22));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:384>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:384>
 		float L_23 = V_9;
 		float L_24 = V_4;
 		if ((!(((float)L_23) < ((float)L_24))))
@@ -14602,24 +14602,24 @@ IL_007e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:386>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:386>
 		float L_25 = V_9;
 		V_4 = L_25;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:387>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:387>
 		int32_t L_26 = V_8;
 		V_5 = L_26;
 	}
 
 IL_00af:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:381>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:381>
 		int32_t L_27 = V_8;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_00b5:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:381>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:381>
 		int32_t L_28 = V_8;
 		if ((((int32_t)L_28) < ((int32_t)3)))
 		{
@@ -14627,14 +14627,14 @@ IL_00b5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:391>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:391>
 		int32_t L_29 = V_5;
 		float L_30;
 		L_30 = Vector3_get_Item_m163510BFC2F7BFAD1B601DC9F3606B799CF199F2_inline((&V_3), L_29, NULL);
 		float L_31;
 		L_31 = Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline(L_30, NULL);
 		V_6 = L_31;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:392>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:392>
 		V_11 = (&V_3);
 		int32_t L_32 = V_5;
 		V_12 = L_32;
@@ -14647,13 +14647,13 @@ IL_00b5:
 		float L_38 = V_4;
 		float L_39 = V_6;
 		Vector3_set_Item_m79136861DEC5862CE7EC20AB3B0EF10A3957CEC3_inline(L_33, L_34, ((float)il2cpp_codegen_add(L_37, ((float)il2cpp_codegen_multiply(L_38, L_39)))), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:393>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:393>
 		float L_40 = V_4;
 		V_0 = ((-L_40));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:394>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:395>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:396>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:397>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:394>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:395>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:396>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:397>
 		il2cpp_codegen_initobj((&V_10), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		int32_t L_41 = V_5;
 		V_12 = L_41;
@@ -14662,7 +14662,7 @@ IL_00b5:
 		Vector3_set_Item_m79136861DEC5862CE7EC20AB3B0EF10A3957CEC3_inline((&V_10), L_42, L_43, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = V_10;
 		V_7 = L_44;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:398>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:398>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_45 = ___2_normal;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46;
 		L_46 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -14671,7 +14671,7 @@ IL_00b5:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48;
 		L_48 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_46, L_47, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_45 = L_48;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:399>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:399>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_49 = ___1_closestPosition;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_50;
 		L_50 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -14689,20 +14689,20 @@ IL_00b5:
 
 IL_013f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:403>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:403>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_55 = ___1_closestPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57;
 		L_57 = Bounds_ClosestPoint_m5BEB0BAC00387C354CF3C4D013442384122F24FC((&V_2), L_56, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_55 = L_57;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:404>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:404>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_59 = ___1_closestPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_59);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61;
 		L_61 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_58, L_60, NULL);
 		V_13 = L_61;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:405>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:405>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_62 = V_13;
 		float L_63 = L_62.___x;
 		float L_64;
@@ -14731,7 +14731,7 @@ IL_013f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:407>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:407>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_74 = ___2_normal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_75 = V_13;
 		float L_76 = L_75.___x;
@@ -14746,7 +14746,7 @@ IL_013f:
 
 IL_01b2:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:409>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:409>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_79 = V_13;
 		float L_80 = L_79.___y;
 		float L_81;
@@ -14761,7 +14761,7 @@ IL_01b2:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:411>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:411>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_85 = ___2_normal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_86 = V_13;
 		float L_87 = L_86.___y;
@@ -14776,7 +14776,7 @@ IL_01b2:
 
 IL_01ef:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:415>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:415>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_90 = ___2_normal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91 = V_13;
 		float L_92 = L_91.___z;
@@ -14790,7 +14790,7 @@ IL_01ef:
 
 IL_0210:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:417>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:417>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_95 = ___1_closestPosition;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_96;
 		L_96 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -14800,7 +14800,7 @@ IL_0210:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_99;
 		L_99 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_96, L_98, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_95 = L_99;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:418>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:418>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_100 = ___2_normal;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_101;
 		L_101 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -14810,7 +14810,7 @@ IL_0210:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_104;
 		L_104 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_101, L_103, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_100 = L_104;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:419>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:419>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_105 = ___1_closestPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_106 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_105);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_107 = ___0_testPosition;
@@ -14822,7 +14822,7 @@ IL_0210:
 
 IL_0250:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:422>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:422>
 		int32_t L_109 = ___3_componentTypes;
 		if (!((int32_t)((int32_t)L_109&1)))
 		{
@@ -14841,14 +14841,14 @@ IL_0250:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:424>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:424>
 		Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_112;
 		L_112 = MRUKAnchor_get_PlaneRect_m0C358A525D83E4B51869D5247570EE9C2E5054D6_inline(__this, NULL);
 		V_14 = L_112;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_113;
 		L_113 = Nullable_1_get_Value_mE4455CB97E86AE0EFA3BFFA21F9CAB714EFE554D((&V_14), Nullable_1_get_Value_mE4455CB97E86AE0EFA3BFFA21F9CAB714EFE554D_RuntimeMethod_var);
 		V_15 = L_113;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:425>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:425>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_114;
 		L_114 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_115 = ___0_testPosition;
@@ -14856,9 +14856,9 @@ IL_0250:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_116;
 		L_116 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_114, L_115, NULL);
 		V_16 = L_116;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:426>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:426>
 		(&V_16)->___z = (0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:428>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:428>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_117 = V_16;
 		float L_118 = L_117.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_119;
@@ -14870,7 +14870,7 @@ IL_0250:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:430>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:430>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_121;
 		L_121 = Rect_get_max_m60149158D9A01113214BB417AA48CEF774899167_inline((&V_15), NULL);
 		float L_122 = L_121.___x;
@@ -14880,7 +14880,7 @@ IL_0250:
 
 IL_02c2:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:432>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:432>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_123 = V_16;
 		float L_124 = L_123.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_125;
@@ -14892,7 +14892,7 @@ IL_02c2:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:434>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:434>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_127;
 		L_127 = Rect_get_min_mD0D1BABF9C955D2D9CCA86E257B0783ACDEE69AC_inline((&V_15), NULL);
 		float L_128 = L_127.___x;
@@ -14901,7 +14901,7 @@ IL_02c2:
 
 IL_02ea:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:437>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:437>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_129 = V_16;
 		float L_130 = L_129.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_131;
@@ -14913,7 +14913,7 @@ IL_02ea:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:439>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:439>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_133;
 		L_133 = Rect_get_max_m60149158D9A01113214BB417AA48CEF774899167_inline((&V_15), NULL);
 		float L_134 = L_133.___y;
@@ -14923,7 +14923,7 @@ IL_02ea:
 
 IL_0314:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:441>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:441>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_135 = V_16;
 		float L_136 = L_135.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_137;
@@ -14935,7 +14935,7 @@ IL_0314:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:443>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:443>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_139;
 		L_139 = Rect_get_min_mD0D1BABF9C955D2D9CCA86E257B0783ACDEE69AC_inline((&V_15), NULL);
 		float L_140 = L_139.___y;
@@ -14944,7 +14944,7 @@ IL_0314:
 
 IL_033c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:446>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:446>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_141 = ___1_closestPosition;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_142;
 		L_142 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -14953,14 +14953,14 @@ IL_033c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_144;
 		L_144 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_142, L_143, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_141 = L_144;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:447>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:447>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_145 = ___1_closestPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_146 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_145);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_147 = ___0_testPosition;
 		float L_148;
 		L_148 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_146, L_147, NULL);
 		V_0 = L_148;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:448>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:448>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_149 = ___2_normal;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_150;
 		L_150 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -14972,7 +14972,7 @@ IL_033c:
 
 IL_036d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:451>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:451>
 		float L_152 = V_0;
 		return L_152;
 	}
@@ -14992,7 +14992,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:460>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:460>
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_0;
 		L_0 = MRUKAnchor_get_VolumeBounds_m35178817BA00531165C12E135DCE64B108026352_inline(__this, NULL);
 		V_0 = L_0;
@@ -15004,7 +15004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:462>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:462>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_3;
@@ -15023,7 +15023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:465>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:465>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
 		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_7);
@@ -15053,11 +15053,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:476>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:476>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:478>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:478>
 		bool L_1;
 		L_1 = MRUKAnchor_get_HasPlane_mC8622D1049E4163231B3454E070DC53ECDDF98BF(__this, NULL);
 		if (!L_1)
@@ -15066,7 +15066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:480>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:480>
 		Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_2;
 		L_2 = MRUKAnchor_get_PlaneRect_m0C358A525D83E4B51869D5247570EE9C2E5054D6_inline(__this, NULL);
 		V_1 = L_2;
@@ -15090,7 +15090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:484>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:484>
 		bool L_10;
 		L_10 = MRUKAnchor_get_HasVolume_mEA45308F6B17E3AB33C3B9C523C2FF4696E8A2C1(__this, NULL);
 		if (!L_10)
@@ -15099,7 +15099,7 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:486>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:486>
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_11;
 		L_11 = MRUKAnchor_get_VolumeBounds_m35178817BA00531165C12E135DCE64B108026352_inline(__this, NULL);
 		V_3 = L_11;
@@ -15113,7 +15113,7 @@ IL_0050:
 
 IL_0070:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:489>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:489>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_0;
 		return L_14;
 	}
@@ -15135,10 +15135,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_RaycastPlane_m88F8271EB485C90
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:494>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:494>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_0 = ___2_hitInfo;
 		il2cpp_codegen_initobj(L_0, sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:496>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:496>
 		Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_1;
 		L_1 = MRUKAnchor_get_PlaneRect_m0C358A525D83E4B51869D5247570EE9C2E5054D6_inline(__this, NULL);
 		V_2 = L_1;
@@ -15150,13 +15150,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_RaycastPlane_m88F8271EB485C90
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:498>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:498>
 		return (bool)0;
 	}
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:502>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:502>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Ray_get_direction_m21C2D22D3BD4A683BD4DC191AB22DD05F5EC2086_inline((&___0_localRay), NULL);
 		float L_4 = L_3.___z;
@@ -15166,17 +15166,17 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:504>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:504>
 		return (bool)0;
 	}
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:507>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:507>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
 		Plane__ctor_mACA7F957A13DD97953808B8E0CF95EAD7D39463E_inline((&V_0), L_5, (0.0f), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:508>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:508>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_6 = ___0_localRay;
 		bool L_7;
 		L_7 = Plane_Raycast_mC6D25A732413A2694A75CB0F2F9E75DEDDA117F0_inline((&V_0), L_6, (&V_1), NULL);
@@ -15194,12 +15194,12 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:511>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:511>
 		float L_10 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Ray_GetPoint_mAF4E1D38026156E6434EF2BED2420ED5236392AF((&___0_localRay), L_10, NULL);
 		V_3 = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:512>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:512>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_3;
 		float L_13 = L_12.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_3;
@@ -15215,7 +15215,7 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:516>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:516>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_18 = ___2_hitInfo;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
 		L_19 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -15224,7 +15224,7 @@ IL_002e:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
 		L_21 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_19, L_20, NULL);
 		RaycastHit_set_point_m3B63BEB25A82BFCF9FBB300022D0362BC2CF9E11(L_18, L_21, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:517>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:517>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_22 = ___2_hitInfo;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
 		L_23 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -15232,17 +15232,17 @@ IL_002e:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
 		L_24 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_23, NULL);
 		RaycastHit_set_normal_m97DDF1CBE8ADF1F72AA30BC83870615ABB38C88B(L_22, L_24, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:518>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:518>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_25 = ___2_hitInfo;
 		float L_26 = V_1;
 		RaycastHit_set_distance_mD5C9C6A5F7EDFFAC302DA4981F3483AA9981A9DC(L_25, L_26, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:519>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:519>
 		return (bool)1;
 	}
 
 IL_009d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:523>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:523>
 		return (bool)0;
 	}
 }
@@ -15282,10 +15282,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_RaycastVolume_m5EF30D48E1546D
 	int32_t G_B21_1 = 0;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B21_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:530>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:530>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_0 = ___2_hitInfo;
 		il2cpp_codegen_initobj(L_0, sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:531>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:531>
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_1;
 		L_1 = MRUKAnchor_get_VolumeBounds_m35178817BA00531165C12E135DCE64B108026352_inline(__this, NULL);
 		V_4 = L_1;
@@ -15297,33 +15297,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_RaycastVolume_m5EF30D48E1546D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:533>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:533>
 		return (bool)0;
 	}
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:536>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:536>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:537>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:537>
 		V_1 = (std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:538>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:538>
 		V_2 = (-std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:539>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:539>
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_3;
 		L_3 = MRUKAnchor_get_VolumeBounds_m35178817BA00531165C12E135DCE64B108026352_inline(__this, NULL);
 		V_4 = L_3;
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_4;
 		L_4 = Nullable_1_get_Value_mC79E0A8A7D9E70CC7ABA0073EF626DE21DFADADB((&V_4), Nullable_1_get_Value_mC79E0A8A7D9E70CC7ABA0073EF626DE21DFADADB_RuntimeMethod_var);
 		V_3 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:540>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:540>
 		V_5 = 0;
 		goto IL_0156;
 	}
 
 IL_0040:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:542>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:542>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Ray_get_direction_m21C2D22D3BD4A683BD4DC191AB22DD05F5EC2086_inline((&___0_localRay), NULL);
 		V_6 = L_5;
@@ -15339,7 +15339,7 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:544>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:544>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Bounds_get_min_m465AC9BBE1DE5D8E8AD95AC19B9899068FEEBB13_inline((&V_3), NULL);
 		V_6 = L_10;
@@ -15359,7 +15359,7 @@ IL_0040:
 		float L_18;
 		L_18 = Vector3_get_Item_m163510BFC2F7BFAD1B601DC9F3606B799CF199F2_inline((&V_6), L_17, NULL);
 		V_7 = ((float)(((float)il2cpp_codegen_subtract(L_12, L_15))/L_18));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:545>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:545>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
 		L_19 = Bounds_get_max_m6446F2AB97C1E57CA89467B9DE52D4EB61F1CB09_inline((&V_3), NULL);
 		V_6 = L_19;
@@ -15379,7 +15379,7 @@ IL_0040:
 		float L_27;
 		L_27 = Vector3_get_Item_m163510BFC2F7BFAD1B601DC9F3606B799CF199F2_inline((&V_6), L_26, NULL);
 		V_8 = ((float)(((float)il2cpp_codegen_subtract(L_21, L_24))/L_27));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:546>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:546>
 		float L_28 = V_7;
 		float L_29 = V_8;
 		if ((!(((float)L_28) > ((float)L_29))))
@@ -15388,7 +15388,7 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:549>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:549>
 		float L_30 = V_8;
 		float L_31 = V_7;
 		V_9 = L_31;
@@ -15399,7 +15399,7 @@ IL_0040:
 
 IL_00e7:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:552>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:552>
 		float L_33 = V_7;
 		float L_34 = V_2;
 		if ((!(((float)L_33) > ((float)L_34))))
@@ -15408,17 +15408,17 @@ IL_00e7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:554>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:554>
 		float L_35 = V_7;
 		V_2 = L_35;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:555>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:555>
 		int32_t L_36 = V_5;
 		V_0 = L_36;
 	}
 
 IL_00f2:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:558>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:558>
 		float L_37 = V_8;
 		float L_38 = V_1;
 		if ((!(((float)L_37) < ((float)L_38))))
@@ -15427,7 +15427,7 @@ IL_00f2:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:560>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:560>
 		float L_39 = V_8;
 		V_1 = L_39;
 		goto IL_0150;
@@ -15435,7 +15435,7 @@ IL_00f2:
 
 IL_00fc:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:566>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:566>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
 		L_40 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline((&___0_localRay), NULL);
 		V_6 = L_40;
@@ -15474,22 +15474,22 @@ IL_00fc:
 
 IL_0148:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:569>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:569>
 		V_2 = (std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:570>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:570>
 		goto IL_015e;
 	}
 
 IL_0150:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:540>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:540>
 		int32_t L_52 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_52, 1));
 	}
 
 IL_0156:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:540>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:540>
 		int32_t L_53 = V_5;
 		if ((((int32_t)L_53) < ((int32_t)3)))
 		{
@@ -15499,7 +15499,7 @@ IL_0156:
 
 IL_015e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:575>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:575>
 		float L_54 = V_2;
 		if ((!(((float)L_54) >= ((float)(0.0f)))))
 		{
@@ -15523,16 +15523,16 @@ IL_015e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:577>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:577>
 		float L_59 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60;
 		L_60 = Ray_GetPoint_mAF4E1D38026156E6434EF2BED2420ED5236392AF((&___0_localRay), L_59, NULL);
 		V_10 = L_60;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:578>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:578>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61;
 		L_61 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_11 = L_61;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:579>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:579>
 		int32_t L_62 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63;
 		L_63 = Ray_get_direction_m21C2D22D3BD4A683BD4DC191AB22DD05F5EC2086_inline((&___0_localRay), NULL);
@@ -15566,7 +15566,7 @@ IL_019d:
 IL_019e:
 	{
 		Vector3_set_Item_m79136861DEC5862CE7EC20AB3B0EF10A3957CEC3_inline(G_B21_2, G_B21_1, ((float)G_B21_0), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:583>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:583>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_66 = ___2_hitInfo;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_67;
 		L_67 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -15575,7 +15575,7 @@ IL_019e:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69;
 		L_69 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_67, L_68, NULL);
 		RaycastHit_set_point_m3B63BEB25A82BFCF9FBB300022D0362BC2CF9E11(L_66, L_69, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:584>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:584>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_70 = ___2_hitInfo;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_71;
 		L_71 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -15584,17 +15584,17 @@ IL_019e:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_73;
 		L_73 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_71, L_72, NULL);
 		RaycastHit_set_normal_m97DDF1CBE8ADF1F72AA30BC83870615ABB38C88B(L_70, L_73, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:585>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:585>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_74 = ___2_hitInfo;
 		float L_75 = V_2;
 		RaycastHit_set_distance_mD5C9C6A5F7EDFFAC302DA4981F3483AA9981A9DC(L_74, L_75, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:586>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:586>
 		return (bool)1;
 	}
 
 IL_01d3:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:589>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:589>
 		return (bool)0;
 	}
 }
@@ -15621,7 +15621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 	Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:598>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:598>
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_0;
 		L_0 = MRUKAnchor_get_VolumeBounds_m35178817BA00531165C12E135DCE64B108026352_inline(__this, NULL);
 		V_0 = L_0;
@@ -15633,9 +15633,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:600>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:600>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)6);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:601>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:601>
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_3;
 		L_3 = MRUKAnchor_get_VolumeBounds_m35178817BA00531165C12E135DCE64B108026352_inline(__this, NULL);
 		V_0 = L_3;
@@ -15645,7 +15645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Bounds_get_size_m0699A53A55A78B3201D7270D6F338DFA91B6FAD4_inline((&V_3), NULL);
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:603>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:603>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_6);
@@ -15665,7 +15665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_7, L_13, NULL);
 		V_2 = L_14;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:605>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:605>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_15 = L_2;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
 		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -15674,7 +15674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 		L_17 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_16, NULL);
 		NullCheck(L_15);
 		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_17);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:606>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:606>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_18 = L_15;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_2;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
@@ -15692,7 +15692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 		L_26 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_19, L_25, NULL);
 		NullCheck(L_18);
 		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_26);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:607>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:607>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_27 = L_18;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_2;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29;
@@ -15710,7 +15710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 		L_35 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_28, L_34, NULL);
 		NullCheck(L_27);
 		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(2), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_35);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:608>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:608>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_36 = L_27;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = V_2;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38;
@@ -15728,7 +15728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 		L_44 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_37, L_43, NULL);
 		NullCheck(L_36);
 		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(3), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_44);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:609>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:609>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_45 = L_36;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = V_2;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_47;
@@ -15746,7 +15746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 		L_53 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_46, L_52, NULL);
 		NullCheck(L_45);
 		(L_45)->SetAt(static_cast<il2cpp_array_size_t>(4), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_53);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:610>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:610>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_54 = L_45;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55 = V_2;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_56;
@@ -15764,13 +15764,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 		L_62 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_55, L_61, NULL);
 		NullCheck(L_54);
 		(L_54)->SetAt(static_cast<il2cpp_array_size_t>(5), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_62);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:611>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:611>
 		return L_54;
 	}
 
 IL_0155:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:614>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:614>
 		Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_63;
 		L_63 = MRUKAnchor_get_PlaneRect_m0C358A525D83E4B51869D5247570EE9C2E5054D6_inline(__this, NULL);
 		V_4 = L_63;
@@ -15782,9 +15782,9 @@ IL_0155:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:616>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:616>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_65 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)1);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:617>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:617>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_66 = L_65;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_67;
 		L_67 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -15793,13 +15793,13 @@ IL_0155:
 		L_68 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_67, NULL);
 		NullCheck(L_66);
 		(L_66)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_68);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:618>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:618>
 		return L_66;
 	}
 
 IL_017f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:621>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:621>
 		return (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)NULL;
 	}
 }
@@ -15820,7 +15820,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_IsPositionInVolume_mD54A6AB50
 	Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:633>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:633>
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_0;
 		L_0 = MRUKAnchor_get_VolumeBounds_m35178817BA00531165C12E135DCE64B108026352_inline(__this, NULL);
 		V_2 = L_0;
@@ -15832,13 +15832,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_IsPositionInVolume_mD54A6AB50
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:635>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:635>
 		return (bool)0;
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:638>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:638>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_worldPosition;
@@ -15846,17 +15846,17 @@ IL_0012:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_2, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:639>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:639>
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_5;
 		L_5 = MRUKAnchor_get_VolumeBounds_m35178817BA00531165C12E135DCE64B108026352_inline(__this, NULL);
 		V_2 = L_5;
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_6;
 		L_6 = Nullable_1_get_Value_mC79E0A8A7D9E70CC7ABA0073EF626DE21DFADADB((&V_2), Nullable_1_get_Value_mC79E0A8A7D9E70CC7ABA0073EF626DE21DFADADB_RuntimeMethod_var);
 		V_1 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:640>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:640>
 		float L_7 = ___2_distanceBuffer;
 		Bounds_Expand_m49340CC585463AB7DEFD672E523ADD5443AFFEA3((&V_1), L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:641>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:641>
 		bool L_8 = ___1_testVerticalBounds;
 		if (!L_8)
 		{
@@ -15864,7 +15864,7 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:643>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:643>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
 		bool L_10;
 		L_10 = Bounds_Contains_m584E9DE0CF9D90C3C4F928BA8F5AD328393F3555((&V_1), L_9, NULL);
@@ -15873,8 +15873,8 @@ IL_0012:
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:647>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:648>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:647>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:648>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
 		float L_12 = L_11.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
@@ -15933,7 +15933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* G_B4_0 = NULL;
 	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:658>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:658>
 		bool L_0;
 		L_0 = MRUKAnchor_HasAnyLabel_m3197A9293A40CCAA44218E2226DD44259693CCD6(__this, ((int32_t)16384), NULL);
 		if (L_0)
@@ -15942,13 +15942,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:660>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:660>
 		return (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:663>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:663>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_1;
 		L_1 = MRUKAnchor_LoadObjectMeshTriangles_mCEA26937D71A8A9F87F1E6748FEA6C5B1E16D844(__this, NULL);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = L_1;
@@ -16008,14 +16008,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* G_B5_1 = NULL;
 	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* G_B5_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:672>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:672>
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_0;
 		L_0 = MRUKAnchor_get_Anchor_m2F20E1F4CB1A5F7D5462163038E2AC770887400C_inline(__this, NULL);
 		V_6 = L_0;
 		il2cpp_codegen_runtime_class_init_inline(OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = OVRAnchor_TryGetComponent_TisOVRTriangleMesh_t7910803FBB7BFF9C52A87059453ECCD75DFA4EBC_m4726AE3DA3707F4ABCEDADBF17B710CF16CBFC11((&V_6), (&V_0), OVRAnchor_TryGetComponent_TisOVRTriangleMesh_t7910803FBB7BFF9C52A87059453ECCD75DFA4EBC_m4726AE3DA3707F4ABCEDADBF17B710CF16CBFC11_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:674>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:674>
 		il2cpp_codegen_runtime_class_init_inline(OVRTriangleMesh_t7910803FBB7BFF9C52A87059453ECCD75DFA4EBC_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = OVRTriangleMesh_TryGetCounts_m90D5DB26F13B47538FAF0800B1C1F210C80EACFC((&V_0), (&V_1), (&V_2), NULL);
@@ -16025,16 +16025,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:676>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:676>
 		return (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
 	}
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:679>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:680>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:681>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:682>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:679>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:680>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:681>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:682>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_3 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_3, NULL);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4 = L_3;
@@ -16067,7 +16067,7 @@ IL_0033:
 		NullCheck(G_B5_1);
 		Mesh_set_indexFormat_mCCC7837A0916FA7A272159DA6AF984B0022488F4(G_B5_1, G_B5_0, NULL);
 		V_3 = G_B5_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:684>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:684>
 		int32_t L_6 = V_1;
 		NativeArray_1__ctor_mD6D2D9E805E66DA9D5A8766ADB32AE63A4D306D0((&V_4), L_6, 2, 1, NativeArray_1__ctor_mD6D2D9E805E66DA9D5A8766ADB32AE63A4D306D0_RuntimeMethod_var);
 	}
@@ -16084,7 +16084,7 @@ FINALLY_0088:
 		try
 		{
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:685>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:685>
 				int32_t L_7 = V_2;
 				NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_8;
 				memset((&L_8), 0, sizeof(L_8));
@@ -16104,7 +16104,7 @@ FINALLY_007a_1:
 				try
 				{
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:687>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:687>
 						NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD L_9 = V_4;
 						NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_10 = V_5;
 						il2cpp_codegen_runtime_class_init_inline(OVRTriangleMesh_t7910803FBB7BFF9C52A87059453ECCD75DFA4EBC_il2cpp_TypeInfo_var);
@@ -16116,7 +16116,7 @@ FINALLY_007a_1:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:689>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:689>
 						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_12 = V_3;
 						V_7 = L_12;
 						goto IL_0096;
@@ -16124,17 +16124,17 @@ FINALLY_007a_1:
 
 IL_0061_2:
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:692>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:692>
 						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_13 = V_3;
 						NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD L_14 = V_4;
 						NullCheck(L_13);
 						Mesh_SetVertices_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m4093A0032C664F67704ED7DB7EB393D5D97D5080(L_13, L_14, Mesh_SetVertices_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m4093A0032C664F67704ED7DB7EB393D5D97D5080_RuntimeMethod_var);
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:693>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:693>
 						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_15 = V_3;
 						NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_16 = V_5;
 						NullCheck(L_15);
 						Mesh_SetIndices_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mF30D0C5A4B107BD6CA2A84B0724E5087B91509F4(L_15, L_16, 0, 0, (bool)1, 0, Mesh_SetIndices_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mF30D0C5A4B107BD6CA2A84B0724E5087B91509F4_RuntimeMethod_var);
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:694>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:694>
 						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_17 = V_3;
 						V_7 = L_17;
 						goto IL_0096;
@@ -16154,7 +16154,7 @@ IL_0061_2:
 
 IL_0096:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:695>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:695>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_18 = V_7;
 		return L_18;
 	}
@@ -16169,7 +16169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_HasLabel_m41292B978A65E21B7A8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:704>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:704>
 		String_t* L_0 = ___0_label;
 		il2cpp_codegen_runtime_class_init_inline(Utilities_t999441993FD2FC7BA0F667E02B5F06025DF0AE79_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -16189,7 +16189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_HasAnyLabel_mA90E1A35A2C74E2A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:713>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:713>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___0_labels;
 		il2cpp_codegen_runtime_class_init_inline(Utilities_t999441993FD2FC7BA0F667E02B5F06025DF0AE79_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -16203,7 +16203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_HasAnyLabel_mA90E1A35A2C74E2A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_HasAnyLabel_m3197A9293A40CCAA44218E2226DD44259693CCD6 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, int32_t ___0_labelFlags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:720>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:720>
 		int32_t L_0;
 		L_0 = MRUKAnchor_get_Label_m92F9590F060E08E9BA0AD2C435DBD0AFC555E27B_inline(__this, NULL);
 		int32_t L_1 = ___0_labelFlags;
@@ -16214,7 +16214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKAnchor_HasAnyLabel_m3197A9293A40CCAA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MRUKAnchor_GetLabelsAsEnum_m6B135F5B1D3477DD25E80FBC75239723A9AA9AC0 (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:729>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:729>
 		int32_t L_0;
 		L_0 = MRUKAnchor_get_Label_m92F9590F060E08E9BA0AD2C435DBD0AFC555E27B_inline(__this, NULL);
 		return L_0;
@@ -16234,16 +16234,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKAnchor__ctor_m200683123F328519A36823
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:132>
 		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_0 = (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B*)il2cpp_codegen_object_new(List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B_il2cpp_TypeInfo_var);
 		List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F(L_0, List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F_RuntimeMethod_var);
 		__this->___U3CPlaneBoundary2DU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CPlaneBoundary2DU3Ek__BackingField), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:138>
 		il2cpp_codegen_runtime_class_init_inline(OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061_il2cpp_TypeInfo_var);
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_1 = ((OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061_StaticFields*)il2cpp_codegen_static_fields_for(OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061_il2cpp_TypeInfo_var))->___Null;
 		__this->___U3CAnchorU3Ek__BackingField = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:163>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_2 = (List_1_tE869D4668F953424E56CA19D4543224CE2F642A9*)il2cpp_codegen_object_new(List_1_tE869D4668F953424E56CA19D4543224CE2F642A9_il2cpp_TypeInfo_var);
 		List_1__ctor_m697368A3E31C34982AFB70B8CA2447C29BF33911(L_2, List_1__ctor_m697368A3E31C34982AFB70B8CA2447C29BF33911_RuntimeMethod_var);
 		__this->___U3CChildAnchorsU3Ek__BackingField = L_2;
@@ -16358,7 +16358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MRUKNative_dlclose_m4665C52AE81E5C511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MRUKNative_GetDllHandle_mCBF8BC8B6E9D2C3DA659CBA10CE569CCF5120067 (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:79>
 		String_t* L_0 = ___0_path;
 		intptr_t L_1;
 		L_1 = MRUKNative_dlopen_m15E8E9F26D06620644F0D9858699FD601ED2C4A4(L_0, 2, NULL);
@@ -16369,7 +16369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MRUKNative_GetDllHandle_mCBF8BC8B6E9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MRUKNative_GetDllExport_m73AACA72187EF49712CFF11C15395260F18CE3D4 (intptr_t ___0_dllHandle, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:96>
 		intptr_t L_0 = ___0_dllHandle;
 		String_t* L_1 = ___1_name;
 		intptr_t L_2;
@@ -16381,7 +16381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MRUKNative_GetDllExport_m73AACA72187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKNative_FreeDllHandle_mFD502966799989DDA448AF35528BE16CA48E75F0 (intptr_t ___0_dllHandle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:112>
 		intptr_t L_0 = ___0_dllHandle;
 		int32_t L_1;
 		L_1 = MRUKNative_dlclose_m4665C52AE81E5C511684D840F9DC5CCC6CE60914(L_0, NULL);
@@ -16403,7 +16403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKNative_LoadMRUKSharedLibrary_m3B9CE9
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:129>
 		intptr_t L_0 = ((MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_il2cpp_TypeInfo_var))->____nativeLibraryPtr;
 		bool L_1;
 		L_1 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_0, 0, NULL);
@@ -16413,23 +16413,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKNative_LoadMRUKSharedLibrary_m3B9CE9
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:131>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:134>
 		String_t* L_2 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:146>
 		V_0 = _stringLiteral240C5D01126C477276205EBE84D87DBDC5EA2977;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:151>
 		String_t* L_3 = V_0;
 		intptr_t L_4;
 		L_4 = MRUKNative_GetDllHandle_mCBF8BC8B6E9D2C3DA659CBA10CE569CCF5120067(L_3, NULL);
 		((MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_il2cpp_TypeInfo_var))->____nativeLibraryPtr = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:153>
 		intptr_t L_5 = ((MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_il2cpp_TypeInfo_var))->____nativeLibraryPtr;
 		bool L_6;
 		L_6 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_5, 0, NULL);
@@ -16439,7 +16439,7 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:155>
 		String_t* L_7 = V_0;
 		String_t* L_8;
 		L_8 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral1284DCD4674F0B020B5C23B4561D537D6C5F7A17, L_7, _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D, NULL);
@@ -16450,9 +16450,9 @@ IL_0012:
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:159>
 		MRUKNativeFuncs_LoadNativeFunctions_mA2955766955099D15ED899073E9D0BF923AEDEAD(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:161>
 		return;
 	}
 }
@@ -16468,9 +16468,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKNative_FreeMRUKSharedLibrary_m31DD09
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:174>
 		MRUKNativeFuncs_UnloadNativeFunctions_mC34D8CA32006C50558E1E33FEF3A4E04E200CCA1(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:176>
 		intptr_t L_0 = ((MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_il2cpp_TypeInfo_var))->____nativeLibraryPtr;
 		bool L_1;
 		L_1 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_0, 0, NULL);
@@ -16480,13 +16480,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKNative_FreeMRUKSharedLibrary_m31DD09
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:178>
 		return;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:181>
 		intptr_t L_2 = ((MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_il2cpp_TypeInfo_var))->____nativeLibraryPtr;
 		bool L_3;
 		L_3 = MRUKNative_FreeDllHandle_mFD502966799989DDA448AF35528BE16CA48E75F0(L_2, NULL);
@@ -16496,16 +16496,16 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:183>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral9D8FF12CB4869258310A3A657F28202456E11040, NULL);
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:186>
 		((MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_il2cpp_TypeInfo_var))->____nativeLibraryPtr = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKNative.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:187>
 		return;
 	}
 }
@@ -16521,7 +16521,7 @@ IL_002d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 MRUKRoom_get_Anchor_m268BBFC01E2CD37279BF9ED0D9447D177FAE5B10 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:104>
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_0 = __this->___U3CAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -16530,7 +16530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_set_Anchor_mA2C1B98CBB8BD3C1E4FF1BE10616C85923D34EC9 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:104>
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_0 = ___0_value;
 		__this->___U3CAnchorU3Ek__BackingField = L_0;
 		return;
@@ -16548,7 +16548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_get_IsLocal_mE14F7E898ADBB5C79B
 	OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:110>
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_0;
 		L_0 = MRUKRoom_get_Anchor_m268BBFC01E2CD37279BF9ED0D9447D177FAE5B10_inline(__this, NULL);
 		V_0 = L_0;
@@ -16562,7 +16562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_get_IsLocal_mE14F7E898ADBB5C79B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:141>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0 = __this->___U3CAnchorsU3Ek__BackingField;
 		return L_0;
 	}
@@ -16571,7 +16571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F64
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* MRUKRoom_get_WallAnchors_mFC85B7AE976E9BA8E912A64788AB1CC298538B45 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:149>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0 = __this->___U3CWallAnchorsU3Ek__BackingField;
 		return L_0;
 	}
@@ -16587,7 +16587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:157>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0;
 		L_0 = MRUKRoom_get_FloorAnchors_m6A53415ACB6DEA4EAB7805A780B7D07B344EC05C_inline(__this, NULL);
 		NullCheck(L_0);
@@ -16616,7 +16616,7 @@ IL_001a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* MRUKRoom_get_FloorAnchors_m6A53415ACB6DEA4EAB7805A780B7D07B344EC05C (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:164>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0 = __this->___U3CFloorAnchorsU3Ek__BackingField;
 		return L_0;
 	}
@@ -16632,7 +16632,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:172>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0;
 		L_0 = MRUKRoom_get_CeilingAnchors_mD0B2654E592D51902092DDF234323B71509C22E1_inline(__this, NULL);
 		NullCheck(L_0);
@@ -16661,7 +16661,7 @@ IL_001a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* MRUKRoom_get_CeilingAnchors_mD0B2654E592D51902092DDF234323B71509C22E1 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:179>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0 = __this->___U3CCeilingAnchorsU3Ek__BackingField;
 		return L_0;
 	}
@@ -16670,7 +16670,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F64
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* MRUKRoom_get_GlobalMeshAnchor_m0DD0478E1BA99D5B4E768F5F9A52B3D79860955F (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:185>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = __this->___U3CGlobalMeshAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -16679,7 +16679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_set_GlobalMeshAnchor_m47C8D047BA0E8F81571415A598488421869CEC0C (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:185>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = ___0_value;
 		__this->___U3CGlobalMeshAnchorU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CGlobalMeshAnchorU3Ek__BackingField), (void*)L_0);
@@ -16690,7 +16690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_set_GlobalMeshAnchor_m47C8D047B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t09BB3A5BA3A042C6AAB990740D52F74937F6EA30 MRUKRoom_get_RoomMeshData_mD15F629C05A9FAFF40C771726939B38D404047F9 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:192>
 		Nullable_1_t09BB3A5BA3A042C6AAB990740D52F74937F6EA30 L_0 = __this->___U3CRoomMeshDataU3Ek__BackingField;
 		return L_0;
 	}
@@ -16699,7 +16699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t09BB3A5BA3A042C6AAB990740D52F7493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_set_RoomMeshData_mC9D84AA0401B217429A4157F81F566FC99FB0869 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, Nullable_1_t09BB3A5BA3A042C6AAB990740D52F74937F6EA30 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:192>
 		Nullable_1_t09BB3A5BA3A042C6AAB990740D52F74937F6EA30 L_0 = ___0_value;
 		__this->___U3CRoomMeshDataU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___U3CRoomMeshDataU3Ek__BackingField))->___value))->___Vertices), (void*)NULL);
@@ -16713,7 +16713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_set_RoomMeshData_mC9D84AA0401B2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:219>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:219>
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_0 = __this->___U3CSeatPosesU3Ek__BackingField;
 		return L_0;
 	}
@@ -16722,7 +16722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* MRUKRoom_get_AnchorCreatedEvent_m6012A15AB4E3DF30E9B7FCB0A9AB1854F424F280 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:242>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:242>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0 = __this->___U3CAnchorCreatedEventU3Ek__BackingField;
 		return L_0;
 	}
@@ -16731,7 +16731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_set_AnchorCreatedEvent_m992D6FF2532E033F4C20DA210F421AD7E2ECF5E2 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:242>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:242>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0 = ___0_value;
 		__this->___U3CAnchorCreatedEventU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAnchorCreatedEventU3Ek__BackingField), (void*)L_0);
@@ -16742,7 +16742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_set_AnchorCreatedEvent_m992D6FF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* MRUKRoom_get_AnchorUpdatedEvent_m3E714A46C401313B72AD4F199BDDFF17DDD84253 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:248>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0 = __this->___U3CAnchorUpdatedEventU3Ek__BackingField;
 		return L_0;
 	}
@@ -16751,7 +16751,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_set_AnchorUpdatedEvent_mA4254B870E7A890D926131130C2F153F6FE17EA7 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:248>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0 = ___0_value;
 		__this->___U3CAnchorUpdatedEventU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAnchorUpdatedEventU3Ek__BackingField), (void*)L_0);
@@ -16762,7 +16762,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_set_AnchorUpdatedEvent_mA4254B8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* MRUKRoom_get_AnchorRemovedEvent_mD286DC9E1198AF9B8A00301B0CADA92E0EE40140 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:253>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0 = __this->___U3CAnchorRemovedEventU3Ek__BackingField;
 		return L_0;
 	}
@@ -16771,7 +16771,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_set_AnchorRemovedEvent_m206B863781CEE4BA71DEEE06083DA11B4F82BAB8 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:253>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0 = ___0_value;
 		__this->___U3CAnchorRemovedEventU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAnchorRemovedEventU3Ek__BackingField), (void*)L_0);
@@ -16788,13 +16788,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_RegisterAnchorCreatedCallback_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:266>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0;
 		L_0 = MRUKRoom_get_AnchorCreatedEvent_m6012A15AB4E3DF30E9B7FCB0A9AB1854F424F280_inline(__this, NULL);
 		UnityAction_1_t8530A31DC89D8F159B566F6094ECA421AAA07873* L_1 = ___0_callback;
 		NullCheck(L_0);
 		UnityEvent_1_AddListener_m2041A2CE5C93CE93A32CD9B422A4D1BE3B9BA970(L_0, L_1, UnityEvent_1_AddListener_m2041A2CE5C93CE93A32CD9B422A4D1BE3B9BA970_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:267>
 		return;
 	}
 }
@@ -16808,13 +16808,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_RegisterAnchorUpdatedCallback_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:279>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:279>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0;
 		L_0 = MRUKRoom_get_AnchorUpdatedEvent_m3E714A46C401313B72AD4F199BDDFF17DDD84253_inline(__this, NULL);
 		UnityAction_1_t8530A31DC89D8F159B566F6094ECA421AAA07873* L_1 = ___0_callback;
 		NullCheck(L_0);
 		UnityEvent_1_AddListener_m2041A2CE5C93CE93A32CD9B422A4D1BE3B9BA970(L_0, L_1, UnityEvent_1_AddListener_m2041A2CE5C93CE93A32CD9B422A4D1BE3B9BA970_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:280>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:280>
 		return;
 	}
 }
@@ -16828,13 +16828,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_RegisterAnchorRemovedCallback_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:292>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:292>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0;
 		L_0 = MRUKRoom_get_AnchorRemovedEvent_mD286DC9E1198AF9B8A00301B0CADA92E0EE40140_inline(__this, NULL);
 		UnityAction_1_t8530A31DC89D8F159B566F6094ECA421AAA07873* L_1 = ___0_callback;
 		NullCheck(L_0);
 		UnityEvent_1_AddListener_m2041A2CE5C93CE93A32CD9B422A4D1BE3B9BA970(L_0, L_1, UnityEvent_1_AddListener_m2041A2CE5C93CE93A32CD9B422A4D1BE3B9BA970_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:293>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:293>
 		return;
 	}
 }
@@ -16848,13 +16848,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_UnRegisterAnchorCreatedCallback
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:305>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:305>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0;
 		L_0 = MRUKRoom_get_AnchorCreatedEvent_m6012A15AB4E3DF30E9B7FCB0A9AB1854F424F280_inline(__this, NULL);
 		UnityAction_1_t8530A31DC89D8F159B566F6094ECA421AAA07873* L_1 = ___0_callback;
 		NullCheck(L_0);
 		UnityEvent_1_RemoveListener_m3BAEF84BF419C4BC7CE0F621C9A9D1FF02730F80(L_0, L_1, UnityEvent_1_RemoveListener_m3BAEF84BF419C4BC7CE0F621C9A9D1FF02730F80_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:306>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:306>
 		return;
 	}
 }
@@ -16868,13 +16868,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_UnRegisterAnchorUpdatedCallback
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:318>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:318>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0;
 		L_0 = MRUKRoom_get_AnchorUpdatedEvent_m3E714A46C401313B72AD4F199BDDFF17DDD84253_inline(__this, NULL);
 		UnityAction_1_t8530A31DC89D8F159B566F6094ECA421AAA07873* L_1 = ___0_callback;
 		NullCheck(L_0);
 		UnityEvent_1_RemoveListener_m3BAEF84BF419C4BC7CE0F621C9A9D1FF02730F80(L_0, L_1, UnityEvent_1_RemoveListener_m3BAEF84BF419C4BC7CE0F621C9A9D1FF02730F80_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:319>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:319>
 		return;
 	}
 }
@@ -16888,13 +16888,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_UnRegisterAnchorRemovedCallback
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:331>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:331>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0;
 		L_0 = MRUKRoom_get_AnchorRemovedEvent_mD286DC9E1198AF9B8A00301B0CADA92E0EE40140_inline(__this, NULL);
 		UnityAction_1_t8530A31DC89D8F159B566F6094ECA421AAA07873* L_1 = ___0_callback;
 		NullCheck(L_0);
 		UnityEvent_1_RemoveListener_m3BAEF84BF419C4BC7CE0F621C9A9D1FF02730F80(L_0, L_1, UnityEvent_1_RemoveListener_m3BAEF84BF419C4BC7CE0F621C9A9D1FF02730F80_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:332>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:332>
 		return;
 	}
 }
@@ -16949,7 +16949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309
 	memset((&V_2), 0, sizeof(V_2));
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:379>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:379>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0;
 		L_0 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		NullCheck(L_0);
@@ -16975,11 +16975,11 @@ FINALLY_003b:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:379>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:379>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_2;
 				L_2 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_0), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:381>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:381>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_3 = V_1;
 				NullCheck(L_3);
 				OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_4;
@@ -16997,7 +16997,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:383>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:383>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_8 = V_1;
 				V_3 = L_8;
 				goto IL_004b;
@@ -17005,7 +17005,7 @@ IL_000e_1:
 
 IL_0030_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:379>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:379>
 				bool L_9;
 				L_9 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_0), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_9)
@@ -17025,13 +17025,13 @@ IL_0030_1:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:387>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:387>
 		return (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A*)NULL;
 	}
 
 IL_004b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:388>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:388>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_10 = V_3;
 		return L_10;
 	}
@@ -17052,7 +17052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_ComputeRoomInfo_m298B91DEB3A0A1
 	memset((&V_0), 0, sizeof(V_0));
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:398>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:398>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0;
 		L_0 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		NullCheck(L_0);
@@ -17078,11 +17078,11 @@ FINALLY_0037:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:398>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:398>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_2;
 				L_2 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_0), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:400>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:400>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_3 = V_1;
 				NullCheck(L_3);
 				bool L_4;
@@ -17093,16 +17093,16 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:402>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:402>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_5 = V_1;
 				MRUKRoom_set_GlobalMeshAnchor_m47C8D047BA0E8F81571415A598488421869CEC0C_inline(__this, L_5, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:403>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:403>
 				goto IL_0045;
 			}
 
 IL_002c_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:398>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:398>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_0), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_6)
@@ -17122,11 +17122,11 @@ IL_002c_1:
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:407>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:407>
 		MRUKRoom_CalculateSeatPoses_mCCC9C6E150D68ADEE9074D7B90DBF96A3B192F37(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:408>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:408>
 		MRUKRoom_UpdateHierarchyReferences_mC04F782ECB3231DA924593D6918F41BB2212AA92(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:409>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:409>
 		return;
 	}
 }
@@ -17134,7 +17134,7 @@ IL_0045:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* MRUKRoom_GetRoomAnchors_mC99C9D95866C01FCD5CDF4D9D7DEE10E415EB0CC (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:419>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:419>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0;
 		L_0 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		return L_0;
@@ -17151,39 +17151,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_RemoveAndDestroyAnchor_mEEF4B19
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:428>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:428>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0;
 		L_0 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_1 = ___0_anchor;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = List_1_Remove_m2C81B3C1CBA042CA08E67FE72BC7E08D339199E2(L_0, L_1, List_1_Remove_m2C81B3C1CBA042CA08E67FE72BC7E08D339199E2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:429>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:429>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_3;
 		L_3 = MRUKRoom_get_WallAnchors_mFC85B7AE976E9BA8E912A64788AB1CC298538B45_inline(__this, NULL);
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_4 = ___0_anchor;
 		NullCheck(L_3);
 		bool L_5;
 		L_5 = List_1_Remove_m2C81B3C1CBA042CA08E67FE72BC7E08D339199E2(L_3, L_4, List_1_Remove_m2C81B3C1CBA042CA08E67FE72BC7E08D339199E2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:430>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:430>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_6;
 		L_6 = MRUKRoom_get_CeilingAnchors_mD0B2654E592D51902092DDF234323B71509C22E1_inline(__this, NULL);
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_7 = ___0_anchor;
 		NullCheck(L_6);
 		bool L_8;
 		L_8 = List_1_Remove_m2C81B3C1CBA042CA08E67FE72BC7E08D339199E2(L_6, L_7, List_1_Remove_m2C81B3C1CBA042CA08E67FE72BC7E08D339199E2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:431>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:431>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_9;
 		L_9 = MRUKRoom_get_FloorAnchors_m6A53415ACB6DEA4EAB7805A780B7D07B344EC05C_inline(__this, NULL);
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_10 = ___0_anchor;
 		NullCheck(L_9);
 		bool L_11;
 		L_11 = List_1_Remove_m2C81B3C1CBA042CA08E67FE72BC7E08D339199E2(L_9, L_10, List_1_Remove_m2C81B3C1CBA042CA08E67FE72BC7E08D339199E2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:432>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:432>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_12 = ___0_anchor;
 		il2cpp_codegen_runtime_class_init_inline(Utilities_t999441993FD2FC7BA0F667E02B5F06025DF0AE79_il2cpp_TypeInfo_var);
 		Utilities_DestroyGameObjectAndChildren_mFF38C43ED12E357B1977A2CF39E7738953E669AB(L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:433>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:433>
 		return;
 	}
 }
@@ -17191,7 +17191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_RemoveAndDestroyAnchor_mEEF4B19
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* MRUKRoom_GetFloorAnchor_m39F81A1CBD2E4BB27E4E75FB0A18EB91FB75BAC2 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:442>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:442>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0;
 		L_0 = MRUKRoom_get_FloorAnchor_m58555B5DEA2AB4456046755E5E217155565DFB5D(__this, NULL);
 		return L_0;
@@ -17201,7 +17201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* MRUKRoom_GetCeilingAnchor_m32A29B1CCCB1658AF6AE49219CD95FCD82FB1C44 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:452>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:452>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0;
 		L_0 = MRUKRoom_get_CeilingAnchor_mE4395818E0DF46C8D574B9D3065EB7F264A297C9(__this, NULL);
 		return L_0;
@@ -17211,7 +17211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* MRUKRoom_GetGlobalMeshAnchor_mDB15C4E9944B3A239A44846AD9AE5EAFE39043E9 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:461>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:461>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0;
 		L_0 = MRUKRoom_get_GlobalMeshAnchor_m0DD0478E1BA99D5B4E768F5F9A52B3D79860955F_inline(__this, NULL);
 		return L_0;
@@ -17221,7 +17221,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* MRUKRoom_GetWallAnchors_m60914529904A526AD5542C76976A5844A1ED982B (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:471>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:471>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0;
 		L_0 = MRUKRoom_get_WallAnchors_mFC85B7AE976E9BA8E912A64788AB1CC298538B45_inline(__this, NULL);
 		return L_0;
@@ -17290,12 +17290,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_CalculateSeatPoses_mCCC9C6E150D
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B16_0;
 	memset((&G_B16_0), 0, sizeof(G_B16_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:480>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:480>
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_0;
 		L_0 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
 		NullCheck(L_0);
 		List_1_Clear_m350CDA7E078187C031B1EA07F3677C4884119BD4_inline(L_0, List_1_Clear_m350CDA7E078187C031B1EA07F3677C4884119BD4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:481>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:481>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_1;
 		L_1 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -17304,7 +17304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_CalculateSeatPoses_mCCC9C6E150D
 		NullCheck(L_2);
 		float L_3 = L_2->___SeatWidth;
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:483>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:483>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_4;
 		L_4 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		NullCheck(L_4);
@@ -17330,11 +17330,11 @@ FINALLY_025d:
 
 IL_002c_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:483>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:483>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_6;
 				L_6 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_1), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 				V_2 = L_6;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:485>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:485>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_7 = V_2;
 				NullCheck(L_7);
 				bool L_8;
@@ -17345,11 +17345,11 @@ IL_002c_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:487>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:488>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:489>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:490>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:491>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:487>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:488>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:489>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:490>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:491>
 				il2cpp_codegen_initobj((&V_9), sizeof(CouchSeat_t0954FB0459F10F25153D073DC0920F9881C1278C));
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_9 = V_2;
 				CouchSeat_set_couchAnchor_m380C2D21C1546A1115C19DDFEACA39745A1F3045_inline((&V_9), L_9, NULL);
@@ -17358,7 +17358,7 @@ IL_002c_1:
 				CouchSeat_set_couchPoses_m3C024844F3CD44F7FD3C49453262D0C24DF77343_inline((&V_9), L_10, NULL);
 				CouchSeat_t0954FB0459F10F25153D073DC0920F9881C1278C L_11 = V_9;
 				V_3 = L_11;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:493>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:493>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_12 = V_2;
 				NullCheck(L_12);
 				Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_13;
@@ -17394,24 +17394,24 @@ IL_007a_1:
 IL_0088_1:
 			{
 				V_4 = G_B6_0;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:494>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:494>
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = V_4;
 				float L_20 = L_19.___x;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21 = V_4;
 				float L_22 = L_21.___y;
 				V_5 = ((float)(L_20/L_22));
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:495>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:495>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_23 = V_2;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
 				L_24 = MRUKRoom_GetFacingDirection_m283A9FF20A1D772050B527A6C3F0B4117CC795BC(__this, L_23, NULL);
 				V_6 = L_24;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:496>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:496>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
 				L_25 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 				V_7 = L_25;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:497>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:497>
 				Vector3_OrthoNormalize_m4450C7BEB70DBFA60E3AAC08C98CDAE831A54158((&V_6), (&V_7), NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:498>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:498>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_26 = V_2;
 				NullCheck(L_26);
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
@@ -17422,7 +17422,7 @@ IL_0088_1:
 				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_29;
 				L_29 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_28, NULL);
 				V_8 = L_29;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:499>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:499>
 				float L_30 = V_5;
 				if ((!(((float)L_30) < ((float)(2.0f)))))
 				{
@@ -17437,7 +17437,7 @@ IL_0088_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:502>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:502>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
 				L_32 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_33 = V_8;
@@ -17449,13 +17449,13 @@ IL_0088_1:
 				L_37 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_33, L_36, NULL);
 				il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
 				Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&V_12), L_32, L_37, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:503>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:503>
 				List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* L_38;
 				L_38 = CouchSeat_get_couchPoses_mDFFD83529610FE6790219508B9C0E2114179A0DA_inline((&V_3), NULL);
 				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_39 = V_12;
 				NullCheck(L_38);
 				List_1_Add_m1AB3815922EAB4210EC4D8F2053BEE86A700CE89_inline(L_38, L_39, List_1_Add_m1AB3815922EAB4210EC4D8F2053BEE86A700CE89_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:505>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:505>
 				List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_40;
 				L_40 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
 				CouchSeat_t0954FB0459F10F25153D073DC0920F9881C1278C L_41 = V_3;
@@ -17466,13 +17466,13 @@ IL_0088_1:
 
 IL_0113_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:509>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:509>
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_42 = V_4;
 				float L_43 = L_42.___x;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_44 = V_4;
 				float L_45 = L_44.___y;
 				V_13 = (bool)((((float)L_43) > ((float)L_45))? 1 : 0);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:511>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:511>
 				bool L_46 = V_13;
 				if (L_46)
 				{
@@ -17496,26 +17496,26 @@ IL_0132_1:
 IL_0139_1:
 			{
 				V_14 = G_B12_0;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:512>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:512>
 				float L_51 = V_14;
 				float L_52 = V_0;
 				float L_53;
 				L_53 = floorf(((float)(L_51/L_52)));
 				V_15 = L_53;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:513>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:513>
 				float L_54 = V_14;
 				float L_55 = V_15;
 				float L_56 = V_0;
 				float L_57 = V_15;
 				V_16 = ((float)(((float)il2cpp_codegen_subtract(L_54, ((float)il2cpp_codegen_multiply(L_55, L_56))))/L_57));
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:514>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:514>
 				V_17 = 0;
 				goto IL_0245_1;
 			}
 
 IL_015a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:516>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:516>
 				bool L_58 = V_13;
 				if (L_58)
 				{
@@ -17549,11 +17549,11 @@ IL_016b_1:
 IL_0176_1:
 			{
 				V_18 = G_B16_0;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:517>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:517>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65;
 				L_65 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 				V_19 = L_65;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:519>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:519>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_66 = V_19;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_67 = V_18;
 				float L_68 = V_14;
@@ -17564,7 +17564,7 @@ IL_0176_1:
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71;
 				L_71 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_66, L_70, NULL);
 				V_19 = L_71;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:520>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:520>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_72 = V_19;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_73 = V_18;
 				float L_74 = V_16;
@@ -17575,7 +17575,7 @@ IL_0176_1:
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77;
 				L_77 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_72, L_76, NULL);
 				V_19 = L_77;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:522>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:522>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_78 = V_19;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_79 = V_18;
 				float L_80 = V_0;
@@ -17586,7 +17586,7 @@ IL_0176_1:
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_83;
 				L_83 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_78, L_82, NULL);
 				V_19 = L_83;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:524>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:524>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_84 = V_19;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_85 = V_18;
 				float L_86 = V_0;
@@ -17598,7 +17598,7 @@ IL_0176_1:
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_90;
 				L_90 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_84, L_89, NULL);
 				V_19 = L_90;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:525>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:525>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91 = V_19;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92 = V_18;
 				float L_93 = V_16;
@@ -17610,7 +17610,7 @@ IL_0176_1:
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_97;
 				L_97 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_91, L_96, NULL);
 				V_19 = L_97;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:527>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:527>
 				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_98 = V_8;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_99 = V_19;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_100;
@@ -17624,26 +17624,26 @@ IL_0176_1:
 				L_105 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_101, L_104, NULL);
 				il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
 				Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&V_20), L_100, L_105, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:528>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:528>
 				List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* L_106;
 				L_106 = CouchSeat_get_couchPoses_mDFFD83529610FE6790219508B9C0E2114179A0DA_inline((&V_3), NULL);
 				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_107 = V_20;
 				NullCheck(L_106);
 				List_1_Add_m1AB3815922EAB4210EC4D8F2053BEE86A700CE89_inline(L_106, L_107, List_1_Add_m1AB3815922EAB4210EC4D8F2053BEE86A700CE89_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:529>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:529>
 				List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_108;
 				L_108 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
 				CouchSeat_t0954FB0459F10F25153D073DC0920F9881C1278C L_109 = V_3;
 				NullCheck(L_108);
 				List_1_Add_mFEA0B6AAD9CB7F8A9D02B56A71F1B4C3CB412FBB_inline(L_108, L_109, List_1_Add_mFEA0B6AAD9CB7F8A9D02B56A71F1B4C3CB412FBB_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:514>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:514>
 				int32_t L_110 = V_17;
 				V_17 = ((int32_t)il2cpp_codegen_add(L_110, 1));
 			}
 
 IL_0245_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:514>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:514>
 				int32_t L_111 = V_17;
 				float L_112 = V_15;
 				if ((((float)((float)L_111)) < ((float)L_112)))
@@ -17654,7 +17654,7 @@ IL_0245_1:
 
 IL_024f_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:483>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:483>
 				bool L_113;
 				L_113 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_1), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_113)
@@ -17674,7 +17674,7 @@ IL_024f_1:
 
 IL_026b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:534>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:534>
 		return;
 	}
 }
@@ -17682,9 +17682,9 @@ IL_026b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* MRUKRoom_GetRoomOutline_mC71A1C0BA945D1C246922E6065446CE682F4DA8F (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:543>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:543>
 		MRUKRoom_CalculateRoomOutlineAndBounds_m78B8159406D1F48DF136A2CFAF18D15F5D75FE7D(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:544>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:544>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_0 = __this->____corners;
 		return L_0;
 	}
@@ -17714,27 +17714,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_7;
 	memset((&V_7), 0, sizeof(V_7));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:557>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:557>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_0 = ___0_wallScale;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
 		L_2 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_1, NULL);
 		*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)L_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:561>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:561>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_3;
 		L_3 = MRUKRoom_get_WallAnchors_mFC85B7AE976E9BA8E912A64788AB1CC298538B45_inline(__this, NULL);
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_4 = (List_1_tE869D4668F953424E56CA19D4543224CE2F642A9*)il2cpp_codegen_object_new(List_1_tE869D4668F953424E56CA19D4543224CE2F642A9_il2cpp_TypeInfo_var);
 		List_1__ctor_m3F8E93E80DFB320B4998020684004E1E89B7618F(L_4, L_3, List_1__ctor_m3F8E93E80DFB320B4998020684004E1E89B7618F_RuntimeMethod_var);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:562>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:562>
 		V_1 = (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A*)NULL;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:563>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:563>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_5 = V_0;
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_6;
 		L_6 = MRUKRoom_SortWallsByWidth_m640C5CCBC9B6656C3BED3D947C81764F705039D5(L_5, NULL);
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:567>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:567>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_7 = V_0;
 		NullCheck(L_7);
 		int32_t L_8;
@@ -17745,16 +17745,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:569>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:569>
 		V_3 = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:572>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:572>
 		V_4 = 0;
 		goto IL_00b2;
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:574>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:574>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_9 = V_0;
 		int32_t L_10 = V_4;
 		NullCheck(L_9);
@@ -17780,7 +17780,7 @@ IL_003a:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
 		L_19 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_13, L_18, NULL);
 		V_5 = L_19;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:578>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:578>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_5;
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_21 = V_0;
 		int32_t L_22 = V_2;
@@ -17799,7 +17799,7 @@ IL_003a:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
 		L_28 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_20, L_27, NULL);
 		V_5 = L_28;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:580>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:580>
 		bool L_29 = V_3;
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_30 = V_0;
 		int32_t L_31 = V_2;
@@ -17816,7 +17816,7 @@ IL_003a:
 		float L_36;
 		L_36 = Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline(L_34, L_35, NULL);
 		V_3 = (bool)((int32_t)((int32_t)L_29&((((int32_t)((!(((float)L_36) >= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0)));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:583>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:583>
 		bool L_37 = V_3;
 		if (!L_37)
 		{
@@ -17824,14 +17824,14 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:572>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:572>
 		int32_t L_38 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_38, 1));
 	}
 
 IL_00b2:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:572>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:572>
 		int32_t L_39 = V_4;
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_40 = V_0;
 		NullCheck(L_40);
@@ -17845,7 +17845,7 @@ IL_00b2:
 
 IL_00bf:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:590>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:590>
 		bool L_42 = V_3;
 		if (!L_42)
 		{
@@ -17853,7 +17853,7 @@ IL_00bf:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:592>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:592>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_43 = ___0_wallScale;
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_44 = V_0;
 		int32_t L_45 = V_2;
@@ -17870,27 +17870,27 @@ IL_00bf:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_49;
 		L_49 = Rect_get_size_mFB990FFC0FE0152179C8C74A59E4AC258CB44267_inline((&V_7), NULL);
 		*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)L_43 = L_49;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:593>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:593>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_50 = V_0;
 		int32_t L_51 = V_2;
 		NullCheck(L_50);
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_52;
 		L_52 = List_1_get_Item_m0025991EFA771765D9550906BAB6EC31F7A60CE9(L_50, L_51, List_1_get_Item_m0025991EFA771765D9550906BAB6EC31F7A60CE9_RuntimeMethod_var);
 		V_1 = L_52;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:594>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:594>
 		goto IL_00fb;
 	}
 
 IL_00f0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:567>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:567>
 		int32_t L_53 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_53, 1));
 	}
 
 IL_00f4:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:567>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:567>
 		int32_t L_54 = V_2;
 		if ((((int32_t)L_54) >= ((int32_t)0)))
 		{
@@ -17900,7 +17900,7 @@ IL_00f4:
 
 IL_00fb:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:598>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:598>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_55 = V_1;
 		return L_55;
 	}
@@ -17934,18 +17934,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F64
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* V_9 = NULL;
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* V_10 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:610>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:610>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0 = (List_1_tE869D4668F953424E56CA19D4543224CE2F642A9*)il2cpp_codegen_object_new(List_1_tE869D4668F953424E56CA19D4543224CE2F642A9_il2cpp_TypeInfo_var);
 		List_1__ctor_m697368A3E31C34982AFB70B8CA2447C29BF33911(L_0, List_1__ctor_m697368A3E31C34982AFB70B8CA2447C29BF33911_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:611>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:611>
 		V_1 = 0;
 		goto IL_00a6;
 	}
 
 IL_000d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:613>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:613>
 		int32_t L_1 = V_1;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_1, 1));
 		goto IL_0096;
@@ -17953,7 +17953,7 @@ IL_000d:
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:615>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:615>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_2 = ___0_walls;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
@@ -17990,7 +17990,7 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:617>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:617>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_16 = ___0_walls;
 		int32_t L_17 = V_1;
 		V_5 = L_17;
@@ -18027,14 +18027,14 @@ IL_0016:
 
 IL_0092:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:613>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:613>
 		int32_t L_33 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_33, 1));
 	}
 
 IL_0096:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:613>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:613>
 		int32_t L_34 = V_2;
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_35 = ___0_walls;
 		NullCheck(L_35);
@@ -18046,14 +18046,14 @@ IL_0096:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:611>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:611>
 		int32_t L_37 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
 	}
 
 IL_00a6:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:611>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:611>
 		int32_t L_38 = V_1;
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_39 = ___0_walls;
 		NullCheck(L_39);
@@ -18065,12 +18065,12 @@ IL_00a6:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:622>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:622>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_41 = V_0;
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_42 = ___0_walls;
 		NullCheck(L_41);
 		List_1_AddRange_m2EA3E633D64F542DA4E60443AE9D2E2894D961FA(L_41, L_42, List_1_AddRange_m2EA3E633D64F542DA4E60443AE9D2E2894D961FA_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:623>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:623>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_43 = V_0;
 		return L_43;
 	}
@@ -18118,15 +18118,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_RaycastAll_m3D40327ECEDDDD87FE9
 	memset((&G_B6_3), 0, sizeof(G_B6_3));
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* G_B6_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:639>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:639>
 		List_1_t616BC508412283D06A62FEEDA7C4D4C3E75D63D9* L_0 = ___3_raycastHits;
 		NullCheck(L_0);
 		List_1_Clear_mBB1C1097E6EAB4F19E432E94B29D294EC9313A1F_inline(L_0, List_1_Clear_mBB1C1097E6EAB4F19E432E94B29D294EC9313A1F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:640>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:640>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_1 = ___4_anchorList;
 		NullCheck(L_1);
 		List_1_Clear_m38272153796846BB7FE550A4CFF5D0D7A753F7CD_inline(L_1, List_1_Clear_m38272153796846BB7FE550A4CFF5D0D7A753F7CD_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:641>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:641>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_2;
 		L_2 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		NullCheck(L_2);
@@ -18152,11 +18152,11 @@ FINALLY_0074:
 
 IL_001c_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:641>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:641>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_4;
 				L_4 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_1), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 				V_2 = L_4;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:643>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:643>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_5 = V_2;
 				NullCheck(L_5);
 				int32_t L_6;
@@ -18221,12 +18221,12 @@ IL_0052_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:645>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:645>
 				List_1_t616BC508412283D06A62FEEDA7C4D4C3E75D63D9* L_16 = ___3_raycastHits;
 				RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_17 = V_0;
 				NullCheck(L_16);
 				List_1_Add_m20263C594A01149776C2D378AB9C1151F4C597AD_inline(L_16, L_17, List_1_Add_m20263C594A01149776C2D378AB9C1151F4C597AD_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:646>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:646>
 				List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_18 = ___4_anchorList;
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_19 = V_2;
 				NullCheck(L_18);
@@ -18235,7 +18235,7 @@ IL_0052_1:
 
 IL_0069_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:641>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:641>
 				bool L_20;
 				L_20 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_1), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_20)
@@ -18255,7 +18255,7 @@ IL_0069_1:
 
 IL_0082:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:650>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:650>
 		List_1_t616BC508412283D06A62FEEDA7C4D4C3E75D63D9* L_21 = ___3_raycastHits;
 		NullCheck(L_21);
 		int32_t L_22;
@@ -18303,19 +18303,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_Raycast_m03890258DC5322019E2711
 	memset((&G_B6_3), 0, sizeof(G_B6_3));
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* G_B6_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:665>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:665>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_0 = ___3_hit;
 		il2cpp_codegen_initobj(L_0, sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:666>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:666>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_1 = ___4_outAnchor;
 		*((RuntimeObject**)L_1) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_1, (void*)(RuntimeObject*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:667>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:667>
 		V_0 = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:668>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:668>
 		float L_2 = ___1_maxDist;
 		V_1 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:670>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:670>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_3;
 		L_3 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		NullCheck(L_3);
@@ -18341,11 +18341,11 @@ FINALLY_007e:
 
 IL_001e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:670>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:670>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_5;
 				L_5 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_2), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 				V_3 = L_5;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:672>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:672>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_6 = V_3;
 				NullCheck(L_6);
 				int32_t L_7;
@@ -18410,26 +18410,26 @@ IL_0055_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:674>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:674>
 				float L_17;
 				L_17 = RaycastHit_get_distance_m035194B0E9BB6229259CFC43B095A9C8E5011C78((&V_4), NULL);
 				V_1 = L_17;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:675>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:675>
 				RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_18 = ___3_hit;
 				RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_19 = V_4;
 				*(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)L_18 = L_19;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:676>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:676>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_20 = ___4_outAnchor;
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_21 = V_3;
 				*((RuntimeObject**)L_20) = (RuntimeObject*)L_21;
 				Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_20, (void*)(RuntimeObject*)L_21);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:677>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:677>
 				V_0 = (bool)1;
 			}
 
 IL_0073_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:670>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:670>
 				bool L_22;
 				L_22 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_2), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_22)
@@ -18449,7 +18449,7 @@ IL_0073_1:
 
 IL_008c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:681>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:681>
 		bool L_23 = V_0;
 		return L_23;
 	}
@@ -18460,7 +18460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_Raycast_m2CE3D8B7F38EA4E00DBB0F
 	LabelFilter_t0E8D323334454C39A14E40263B796E6A83AAAF96 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:695>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:695>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_0 = ___0_ray;
 		float L_1 = ___1_maxDist;
 		il2cpp_codegen_initobj((&V_0), sizeof(LabelFilter_t0E8D323334454C39A14E40263B796E6A83AAAF96));
@@ -18477,7 +18477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_Raycast_m321C72BE8B879F4FA60816
 {
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:709>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:709>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_0 = ___0_ray;
 		float L_1 = ___1_maxDist;
 		LabelFilter_t0E8D323334454C39A14E40263B796E6A83AAAF96 L_2 = ___2_labelFilter;
@@ -18494,7 +18494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_Raycast_m4575C283DF1FAD1EE4CE95
 	LabelFilter_t0E8D323334454C39A14E40263B796E6A83AAAF96 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:722>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:722>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_0 = ___0_ray;
 		float L_1 = ___1_maxDist;
 		il2cpp_codegen_initobj((&V_1), sizeof(LabelFilter_t0E8D323334454C39A14E40263B796E6A83AAAF96));
@@ -18557,18 +18557,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 	int32_t G_B12_1 = 0;
 	float G_B15_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:752>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:752>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_0 = ___3_sceneAnchor;
 		*((RuntimeObject**)L_0) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:753>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:753>
 		il2cpp_codegen_initobj((&V_0), sizeof(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:754>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:754>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1 = ___4_surfaceNormal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_1 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:756>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:756>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_3 = ___0_ray;
 		float L_4 = ___1_maxDist;
 		LabelFilter_t0E8D323334454C39A14E40263B796E6A83AAAF96 L_5 = ___2_labelFilter;
@@ -18581,24 +18581,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:758>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:758>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_1), NULL);
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:759>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:759>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_9 = ___4_surfaceNormal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_1), NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:760>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:760>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		V_3 = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:763>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:763>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_1), NULL);
 		V_4 = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:765>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:765>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_1), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
@@ -18625,7 +18625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:769>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:769>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
 		L_20 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline((&___0_ray), NULL);
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_21 = ___3_sceneAnchor;
@@ -18639,7 +18639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
 		L_25 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_20, L_24, NULL);
 		V_6 = L_25;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:770>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:770>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_26 = ___3_sceneAnchor;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_27 = *((MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A**)L_26);
 		NullCheck(L_27);
@@ -18687,7 +18687,7 @@ IL_00ca:
 IL_00d7:
 	{
 		V_7 = G_B6_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:771>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:771>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_41 = ___3_sceneAnchor;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_42 = *((MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A**)L_41);
 		NullCheck(L_42);
@@ -18735,7 +18735,7 @@ IL_0108:
 IL_0115:
 	{
 		V_8 = G_B9_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:772>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:772>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_56 = ___3_sceneAnchor;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_57 = *((MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A**)L_56);
 		NullCheck(L_57);
@@ -18745,7 +18745,7 @@ IL_0115:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59;
 		L_59 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_58, NULL);
 		V_9 = L_59;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:774>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:774>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_60 = ___3_sceneAnchor;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_61 = *((MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A**)L_60);
 		NullCheck(L_61);
@@ -18760,7 +18760,7 @@ IL_0115:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_65;
 		L_65 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_64, NULL);
 		V_10 = L_65;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:775>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:775>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_66 = ___3_sceneAnchor;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_67 = *((MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A**)L_66);
 		NullCheck(L_67);
@@ -18788,9 +18788,9 @@ IL_0115:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_81;
 		L_81 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_75, L_80, NULL);
 		V_11 = L_81;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:776>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:776>
 		Vector3_OrthoNormalize_m4450C7BEB70DBFA60E3AAC08C98CDAE831A54158((&V_9), (&V_6), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:777>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:777>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82 = V_11;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_83 = ___3_sceneAnchor;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_84 = *((MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A**)L_83);
@@ -18803,7 +18803,7 @@ IL_0115:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_87;
 		L_87 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_82, L_86, NULL);
 		V_11 = L_87;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:778>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:778>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_88 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89 = V_7;
 		float L_90;
@@ -18812,7 +18812,7 @@ IL_0115:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92 = V_7;
 		float L_93;
 		L_93 = Vector3_Angle_mB16906B482814C140FE5BA9D041D2DC11E42A68D_inline(L_91, L_92, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:779>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:779>
 		int32_t L_94 = ((((float)L_90) > ((float)L_93))? 1 : 0);
 		if (L_94)
 		{
@@ -18838,7 +18838,7 @@ IL_01ca:
 IL_01cc:
 	{
 		V_4 = G_B12_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:780>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:780>
 		if (G_B12_1)
 		{
 			goto IL_01d9;
@@ -18884,7 +18884,7 @@ IL_01e0:
 
 IL_01fa:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:784>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:784>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_102 = ___3_sceneAnchor;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_103 = *((MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A**)L_102);
 		NullCheck(L_103);
@@ -18894,13 +18894,13 @@ IL_01fa:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_105;
 		L_105 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_104, NULL);
 		V_2 = L_105;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:785>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:785>
 		goto IL_0299;
 	}
 
 IL_020d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:787>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:787>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_106 = ___3_sceneAnchor;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_107 = *((MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A**)L_106);
 		NullCheck(L_107);
@@ -18918,13 +18918,13 @@ IL_020d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_114;
 		L_114 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_109, L_113, NULL);
 		V_2 = L_114;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:788>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:788>
 		goto IL_0299;
 	}
 
 IL_0235:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:793>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:793>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_115;
 		L_115 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_1), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_116;
@@ -18939,7 +18939,7 @@ IL_0235:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:796>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:796>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_119;
 		L_119 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline((&___0_ray), NULL);
 		float L_120 = L_119.___x;
@@ -18963,10 +18963,10 @@ IL_0235:
 
 IL_0299:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:799>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:799>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_129 = V_2;
 		(&V_0)->___position = L_129;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:800>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:800>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_130 = V_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_131 = V_3;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_132;
@@ -18977,14 +18977,14 @@ IL_0299:
 
 IL_02b2:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:804>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:804>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral8FDA7A6C7C9D1C34D81DDE1BA42B4FBC5A5BAFD4, NULL);
 	}
 
 IL_02bc:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:807>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:807>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_133 = V_0;
 		return L_133;
 	}
@@ -18995,7 +18995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:822>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:822>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_0 = ___0_ray;
 		float L_1 = ___1_maxDist;
 		LabelFilter_t0E8D323334454C39A14E40263B796E6A83AAAF96 L_2 = ___2_labelFilter;
@@ -19003,7 +19003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		int32_t L_4 = ___4_positioningMethod;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_5;
 		L_5 = MRUKRoom_GetBestPoseFromRaycast_m452B947FB8C19F346FAD17F3F2801F9E5E8AA7F5(__this, L_0, L_1, L_2, L_3, (&V_0), L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:823>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:823>
 		return L_5;
 	}
 }
@@ -19021,7 +19021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_IsPositionInRoom_m0699731E99392
 	OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:836>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:836>
 		IsPositionInRoomDelegate_tDE72D07C1911FDDC10ADEB7C4ECD5291BFF58B10* L_0 = ((MRUKNativeFuncs_t8952D6DE369E77ED6EED930333B2BE760EE76C66_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNativeFuncs_t8952D6DE369E77ED6EED930333B2BE760EE76C66_il2cpp_TypeInfo_var))->___IsPositionInRoom;
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_1;
 		L_1 = MRUKRoom_get_Anchor_m268BBFC01E2CD37279BF9ED0D9447D177FAE5B10_inline(__this, NULL);
@@ -19044,9 +19044,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_IsPositionInRoom_m0699731E99392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 MRUKRoom_GetRoomBounds_m8A744792EA05D2BD4080E6260E6A4DECE5AA337A (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:845>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:845>
 		MRUKRoom_CalculateRoomOutlineAndBounds_m78B8159406D1F48DF136A2CFAF18D15F5D75FE7D(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:847>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:847>
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_0 = __this->____roomBounds;
 		return L_0;
 	}
@@ -19100,7 +19100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_CalculateRoomOutlineAndBounds_m
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_15;
 	memset((&V_15), 0, sizeof(V_15));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:851>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:851>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0;
 		L_0 = MRUKRoom_get_FloorAnchors_m6A53415ACB6DEA4EAB7805A780B7D07B344EC05C_inline(__this, NULL);
 		NullCheck(L_0);
@@ -19125,16 +19125,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_CalculateRoomOutlineAndBounds_m
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:853>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:853>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral999F73FA982AEE0823FF7FC9AF4A9EC68A552120, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:854>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:854>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:857>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:857>
 		Nullable_1_t97902630E9301109122CC1E45C3E7F9A16FFACB5 L_4 = __this->____prevRoomPose;
 		V_7 = L_4;
 		bool L_5;
@@ -19178,13 +19178,13 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:860>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:860>
 		return;
 	}
 
 IL_006f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:863>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:863>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
 		L_17 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_17);
@@ -19202,23 +19202,23 @@ IL_006f:
 		memset((&L_22), 0, sizeof(L_22));
 		Nullable_1__ctor_m21008A2CC7092016A8EF62E72E764FA00A902A3D((&L_22), L_21, Nullable_1__ctor_m21008A2CC7092016A8EF62E72E764FA00A902A3D_RuntimeMethod_var);
 		__this->____prevRoomPose = L_22;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:865>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:865>
 		V_1 = (std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:866>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:866>
 		V_2 = (-std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:867>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:867>
 		V_3 = (std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:868>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:868>
 		V_4 = (-std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:869>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:869>
 		V_5 = (std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:870>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:870>
 		V_6 = (-std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:872>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:872>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_23 = __this->____corners;
 		NullCheck(L_23);
 		List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_inline(L_23, List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:873>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:873>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_24;
 		L_24 = MRUKRoom_get_FloorAnchors_m6A53415ACB6DEA4EAB7805A780B7D07B344EC05C_inline(__this, NULL);
 		NullCheck(L_24);
@@ -19244,11 +19244,11 @@ FINALLY_01c3:
 
 IL_00d9_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:873>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:873>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_26;
 				L_26 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_8), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 				V_9 = L_26;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:875>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:875>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_27 = V_9;
 				NullCheck(L_27);
 				List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_28;
@@ -19276,11 +19276,11 @@ FINALLY_01a7_1:
 
 IL_00f5_2:
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:875>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:875>
 						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_30;
 						L_30 = Enumerator_get_Current_m03DDB9D6C95434581544F1F2FF0D1A36EEAB09AF_inline((&V_10), Enumerator_get_Current_m03DDB9D6C95434581544F1F2FF0D1A36EEAB09AF_RuntimeMethod_var);
 						V_11 = L_30;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:877>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:877>
 						MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_31 = V_9;
 						NullCheck(L_31);
 						Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
@@ -19296,49 +19296,49 @@ IL_00f5_2:
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
 						L_38 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_32, L_37, NULL);
 						V_12 = L_38;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:879>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:879>
 						float L_39 = V_1;
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_12;
 						float L_41 = L_40.___x;
 						float L_42;
 						L_42 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_39, L_41, NULL);
 						V_1 = L_42;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:880>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:880>
 						float L_43 = V_2;
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = V_12;
 						float L_45 = L_44.___x;
 						float L_46;
 						L_46 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_43, L_45, NULL);
 						V_2 = L_46;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:881>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:881>
 						float L_47 = V_3;
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = V_12;
 						float L_49 = L_48.___y;
 						float L_50;
 						L_50 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_47, L_49, NULL);
 						V_3 = L_50;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:882>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:882>
 						float L_51 = V_4;
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = V_12;
 						float L_53 = L_52.___y;
 						float L_54;
 						L_54 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_51, L_53, NULL);
 						V_4 = L_54;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:883>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:883>
 						float L_55 = V_5;
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56 = V_12;
 						float L_57 = L_56.___z;
 						float L_58;
 						L_58 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_55, L_57, NULL);
 						V_5 = L_58;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:884>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:884>
 						float L_59 = V_6;
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60 = V_12;
 						float L_61 = L_60.___z;
 						float L_62;
 						L_62 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_59, L_61, NULL);
 						V_6 = L_62;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:886>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:886>
 						List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_63;
 						L_63 = MRUKRoom_get_FloorAnchors_m6A53415ACB6DEA4EAB7805A780B7D07B344EC05C_inline(__this, NULL);
 						NullCheck(L_63);
@@ -19350,7 +19350,7 @@ IL_00f5_2:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:890>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:890>
 						List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_65 = __this->____corners;
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_66 = V_12;
 						NullCheck(L_65);
@@ -19359,7 +19359,7 @@ IL_00f5_2:
 
 IL_0199_2:
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:875>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:875>
 						bool L_67;
 						L_67 = Enumerator_MoveNext_m5DDD3E697A492E99DDE91E6AB7B2390C491F89AA((&V_10), Enumerator_MoveNext_m5DDD3E697A492E99DDE91E6AB7B2390C491F89AA_RuntimeMethod_var);
 						if (L_67)
@@ -19379,7 +19379,7 @@ IL_0199_2:
 
 IL_01b5_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:873>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:873>
 				bool L_68;
 				L_68 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_8), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_68)
@@ -19399,7 +19399,7 @@ IL_01b5_1:
 
 IL_01d1:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:894>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:894>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_69;
 		L_69 = MRUKRoom_get_CeilingAnchors_mD0B2654E592D51902092DDF234323B71509C22E1_inline(__this, NULL);
 		NullCheck(L_69);
@@ -19425,11 +19425,11 @@ FINALLY_02b2:
 
 IL_01e3_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:894>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:894>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_71;
 				L_71 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_8), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 				V_13 = L_71;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:896>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:896>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_72 = V_13;
 				NullCheck(L_72);
 				List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_73;
@@ -19457,11 +19457,11 @@ FINALLY_0296_1:
 
 IL_01ff_2:
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:896>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:896>
 						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_75;
 						L_75 = Enumerator_get_Current_m03DDB9D6C95434581544F1F2FF0D1A36EEAB09AF_inline((&V_10), Enumerator_get_Current_m03DDB9D6C95434581544F1F2FF0D1A36EEAB09AF_RuntimeMethod_var);
 						V_14 = L_75;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:898>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:898>
 						MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_76 = V_13;
 						NullCheck(L_76);
 						Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_77;
@@ -19477,42 +19477,42 @@ IL_01ff_2:
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_83;
 						L_83 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_77, L_82, NULL);
 						V_15 = L_83;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:900>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:900>
 						float L_84 = V_1;
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_85 = V_15;
 						float L_86 = L_85.___x;
 						float L_87;
 						L_87 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_84, L_86, NULL);
 						V_1 = L_87;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:901>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:901>
 						float L_88 = V_2;
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89 = V_15;
 						float L_90 = L_89.___x;
 						float L_91;
 						L_91 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_88, L_90, NULL);
 						V_2 = L_91;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:902>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:902>
 						float L_92 = V_3;
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_93 = V_15;
 						float L_94 = L_93.___y;
 						float L_95;
 						L_95 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_92, L_94, NULL);
 						V_3 = L_95;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:903>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:903>
 						float L_96 = V_4;
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_97 = V_15;
 						float L_98 = L_97.___y;
 						float L_99;
 						L_99 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_96, L_98, NULL);
 						V_4 = L_99;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:904>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:904>
 						float L_100 = V_5;
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_101 = V_15;
 						float L_102 = L_101.___z;
 						float L_103;
 						L_103 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_100, L_102, NULL);
 						V_5 = L_103;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:905>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:905>
 						float L_104 = V_6;
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_105 = V_15;
 						float L_106 = L_105.___z;
@@ -19523,7 +19523,7 @@ IL_01ff_2:
 
 IL_0288_2:
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:896>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:896>
 						bool L_108;
 						L_108 = Enumerator_MoveNext_m5DDD3E697A492E99DDE91E6AB7B2390C491F89AA((&V_10), Enumerator_MoveNext_m5DDD3E697A492E99DDE91E6AB7B2390C491F89AA_RuntimeMethod_var);
 						if (L_108)
@@ -19543,7 +19543,7 @@ IL_0288_2:
 
 IL_02a4_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:894>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:894>
 				bool L_109;
 				L_109 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_8), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_109)
@@ -19563,7 +19563,7 @@ IL_02a4_1:
 
 IL_02c0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:909>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:909>
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* L_110 = (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3*)(&__this->____roomBounds);
 		float L_111 = V_2;
 		float L_112 = V_1;
@@ -19575,7 +19575,7 @@ IL_02c0:
 		memset((&L_117), 0, sizeof(L_117));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_117), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_111, L_112)), (0.5f))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_113, L_114)), (0.5f))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_115, L_116)), (0.5f))), NULL);
 		Bounds_set_center_m891869DD5B1BEEE2D17907BBFB7EB79AAE44884B_inline(L_110, L_117, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:910>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:910>
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* L_118 = (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3*)(&__this->____roomBounds);
 		float L_119 = V_2;
 		float L_120 = V_1;
@@ -19587,7 +19587,7 @@ IL_02c0:
 		memset((&L_125), 0, sizeof(L_125));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_125), ((float)il2cpp_codegen_subtract(L_119, L_120)), ((float)il2cpp_codegen_subtract(L_121, L_122)), ((float)il2cpp_codegen_subtract(L_123, L_124)), NULL);
 		Bounds_set_size_m950CFB68CDD1BF409E770509A38B958E1AE68128_inline(L_118, L_125, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:911>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:911>
 		return;
 	}
 }
@@ -19608,13 +19608,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_IsPositionInSceneVolume_m551AE8
 	memset((&V_1), 0, sizeof(V_1));
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:925>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:925>
 		V_0 = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:926>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:926>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_0 = ___1_sceneObject;
 		*((RuntimeObject**)L_0) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:927>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:927>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_1;
 		L_1 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		NullCheck(L_1);
@@ -19640,11 +19640,11 @@ FINALLY_0039:
 
 IL_0013_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:927>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:927>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_3;
 				L_3 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_1), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:929>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:929>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_4 = V_2;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___0_worldPosition;
 				bool L_6 = ___2_testVerticalBounds;
@@ -19658,20 +19658,20 @@ IL_0013_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:931>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:931>
 				V_0 = (bool)1;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:932>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:932>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_9 = ___1_sceneObject;
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_10 = V_2;
 				*((RuntimeObject**)L_9) = (RuntimeObject*)L_10;
 				Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_9, (void*)(RuntimeObject*)L_10);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:933>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:933>
 				goto IL_0047;
 			}
 
 IL_002e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:927>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:927>
 				bool L_11;
 				L_11 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_1), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_11)
@@ -19691,7 +19691,7 @@ IL_002e_1:
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:937>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:937>
 		bool L_12 = V_0;
 		return L_12;
 	}
@@ -19709,7 +19709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	memset((&V_0), 0, sizeof(V_0));
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:951>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:951>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = ___0_anchor;
 		NullCheck(L_0);
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_1;
@@ -19723,7 +19723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:953>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:953>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_3 = ___0_anchor;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -19736,7 +19736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:956>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:956>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_6 = ___0_anchor;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = MRUKRoom_GetDirectionAwayFromClosestWall_mB02233E049F0088A2852A13D6CA818BCBFD88C0E(__this, L_6, (&V_1), (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)NULL, NULL);
@@ -19767,9 +19767,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:961>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:961>
 		V_0 = (std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:964>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:964>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = ___0_anchor;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -19778,17 +19778,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2(L_1, NULL);
 		V_1 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:965>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:965>
 		int32_t* L_3 = ___1_cardinalAxisIndex;
 		*((int32_t*)L_3) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:966>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:966>
 		V_2 = 0;
 		goto IL_00b9;
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:968>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:968>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_4 = ___2_excludedAxes;
 		if (!L_4)
 		{
@@ -19809,7 +19809,7 @@ IL_001c:
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:974>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:974>
 		int32_t L_8 = V_2;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
 		L_9 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), ((float)il2cpp_codegen_multiply((90.0f), ((float)L_8))), (0.0f), NULL);
@@ -19825,7 +19825,7 @@ IL_002b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_9, L_13, NULL);
 		V_3 = L_14;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:976>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:976>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_15;
 		L_15 = MRUKRoom_get_WallAnchors_mFC85B7AE976E9BA8E912A64788AB1CC298538B45_inline(__this, NULL);
 		NullCheck(L_15);
@@ -19851,10 +19851,10 @@ FINALLY_00a7:
 
 IL_0067_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:976>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:976>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_17;
 				L_17 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_4), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:978>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:978>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_18 = ___0_anchor;
 				NullCheck(L_18);
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
@@ -19876,15 +19876,15 @@ IL_0067_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:980>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:980>
 				float L_25;
 				L_25 = RaycastHit_get_distance_m035194B0E9BB6229259CFC43B095A9C8E5011C78((&V_5), NULL);
 				V_0 = L_25;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:982>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:982>
 				int32_t* L_26 = ___1_cardinalAxisIndex;
 				int32_t L_27 = V_2;
 				*((int32_t*)L_26) = (int32_t)L_27;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:983>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:983>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_3;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
 				L_29 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_28, NULL);
@@ -19893,7 +19893,7 @@ IL_0067_1:
 
 IL_009c_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:976>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:976>
 				bool L_30;
 				L_30 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_4), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_30)
@@ -19913,14 +19913,14 @@ IL_009c_1:
 
 IL_00b5:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:966>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:966>
 		int32_t L_31 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_31, 1));
 	}
 
 IL_00b9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:966>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:966>
 		int32_t L_32 = V_2;
 		if ((((int32_t)L_32) < ((int32_t)4)))
 		{
@@ -19928,7 +19928,7 @@ IL_00b9:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:988>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:988>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_1;
 		return L_33;
 	}
@@ -19938,12 +19938,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_IsPositionInSceneVolume_mC4C6F3
 {
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1001>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1001>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_worldPosition;
 		float L_1 = ___1_distanceBuffer;
 		bool L_2;
 		L_2 = MRUKRoom_IsPositionInSceneVolume_m551AE8E80AA77DFDA619142A2EBF1539DF0152C3(__this, L_0, (&V_0), (bool)1, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1002>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1002>
 		return L_2;
 	}
 }
@@ -19952,13 +19952,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_IsPositionInSceneVolume_m1FFB92
 {
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1016>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1016>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_worldPosition;
 		bool L_1 = ___1_testVerticalBounds;
 		float L_2 = ___2_distanceBuffer;
 		bool L_3;
 		L_3 = MRUKRoom_IsPositionInSceneVolume_m551AE8E80AA77DFDA619142A2EBF1539DF0152C3(__this, L_0, (&V_0), L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1017>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1017>
 		return L_3;
 	}
 }
@@ -19993,22 +19993,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_TryGetClosestSeatPose_mA7CA4FB4
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_10;
 	memset((&V_10), 0, sizeof(V_10));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1029>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1029>
 		il2cpp_codegen_initobj((&V_0), sizeof(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1030>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1030>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_0 = ___2_couch;
 		*((RuntimeObject**)L_0) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1032>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1032>
 		V_1 = (-1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1033>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1033>
 		V_2 = 0;
 		goto IL_013b;
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1035>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1035>
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_1;
 		L_1 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
 		int32_t L_2 = V_2;
@@ -20025,7 +20025,7 @@ IL_0018:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6;
 		L_6 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_5, NULL);
 		V_3 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1036>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1036>
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_7;
 		L_7 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
 		int32_t L_8 = V_2;
@@ -20042,14 +20042,14 @@ IL_0018:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_11, NULL);
 		V_4 = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1037>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1037>
 		V_6 = 0;
 		goto IL_0116;
 	}
 
 IL_0061:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1039>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1039>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_4;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = V_3;
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_15;
@@ -20071,7 +20071,7 @@ IL_0061:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
 		L_23 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_13, L_22, NULL);
 		V_7 = L_23;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1040>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1040>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_7;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
 		L_25 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline((&___0_ray), NULL);
@@ -20081,14 +20081,14 @@ IL_0061:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
 		L_27 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_10), NULL);
 		V_8 = L_27;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1041>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1041>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
 		L_28 = Ray_get_direction_m21C2D22D3BD4A683BD4DC191AB22DD05F5EC2086_inline((&___0_ray), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29 = V_8;
 		float L_30;
 		L_30 = Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline(L_28, L_29, NULL);
 		V_9 = L_30;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1042>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1042>
 		float L_31 = V_9;
 		float L_32 = V_1;
 		if ((!(((float)L_31) > ((float)L_32))))
@@ -20097,13 +20097,13 @@ IL_0061:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1044>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1044>
 		float L_33 = V_9;
 		V_1 = L_33;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1045>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1045>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = V_7;
 		(&V_0)->___position = L_34;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1046>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1046>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_35 = V_3;
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_36;
 		L_36 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
@@ -20122,7 +20122,7 @@ IL_0061:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_43;
 		L_43 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_35, L_42, NULL);
 		(&V_0)->___rotation = L_43;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1047>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1047>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_44 = ___2_couch;
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_45;
 		L_45 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
@@ -20139,14 +20139,14 @@ IL_0061:
 
 IL_0110:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1037>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1037>
 		int32_t L_49 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_49, 1));
 	}
 
 IL_0116:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1037>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1037>
 		int32_t L_50 = V_6;
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_51;
 		L_51 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
@@ -20166,14 +20166,14 @@ IL_0116:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1033>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1033>
 		int32_t L_56 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_56, 1));
 	}
 
 IL_013b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1033>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1033>
 		int32_t L_57 = V_2;
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_58;
 		L_58 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
@@ -20186,17 +20186,17 @@ IL_013b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1052>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1052>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_60 = ___1_seatPose;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_61 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_62 = L_61.___position;
 		L_60->___position = L_62;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1053>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1053>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_63 = ___1_seatPose;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_64 = V_0;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_65 = L_64.___rotation;
 		L_63->___rotation = L_65;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1055>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1055>
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_66;
 		L_66 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
 		NullCheck(L_66);
@@ -20234,18 +20234,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1064>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1064>
 		List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* L_0 = (List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2*)il2cpp_codegen_object_new(List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2_il2cpp_TypeInfo_var);
 		List_1__ctor_m6C9BC48FF099B7CF07ADD778D1DDD6B7D42ED791(L_0, List_1__ctor_m6C9BC48FF099B7CF07ADD778D1DDD6B7D42ED791_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1065>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1065>
 		V_1 = 0;
 		goto IL_00e0;
 	}
 
 IL_000d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1067>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1067>
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_1;
 		L_1 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
 		int32_t L_2 = V_1;
@@ -20262,7 +20262,7 @@ IL_000d:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6;
 		L_6 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_5, NULL);
 		V_2 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1068>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1068>
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_7;
 		L_7 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
 		int32_t L_8 = V_1;
@@ -20279,14 +20279,14 @@ IL_000d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_11, NULL);
 		V_3 = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1069>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1069>
 		V_5 = 0;
 		goto IL_00bb;
 	}
 
 IL_0052:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1071>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1071>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_3;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = V_2;
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_15;
@@ -20326,19 +20326,19 @@ IL_0052:
 		L_32 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_24, L_31, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
 		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&V_6), L_23, L_32, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1072>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1072>
 		List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* L_33 = V_0;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_34 = V_6;
 		NullCheck(L_33);
 		List_1_Add_m1AB3815922EAB4210EC4D8F2053BEE86A700CE89_inline(L_33, L_34, List_1_Add_m1AB3815922EAB4210EC4D8F2053BEE86A700CE89_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1069>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1069>
 		int32_t L_35 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_00bb:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1069>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1069>
 		int32_t L_36 = V_5;
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_37;
 		L_37 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
@@ -20358,14 +20358,14 @@ IL_00bb:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1065>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1065>
 		int32_t L_42 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_42, 1));
 	}
 
 IL_00e0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1065>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1065>
 		int32_t L_43 = V_1;
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_44;
 		L_44 = MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline(__this, NULL);
@@ -20378,7 +20378,7 @@ IL_00e0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1076>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1076>
 		List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* L_46 = V_0;
 		NullCheck(L_46);
 		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_47;
@@ -20396,7 +20396,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_TryGetAnchorParent_m723462209B4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1089>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1089>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_0 = ___1_parentAnchor;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_1 = ___0_queryAnchor;
 		NullCheck(L_1);
@@ -20404,7 +20404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_TryGetAnchorParent_m723462209B4
 		L_2 = MRUKAnchor_get_ParentAnchor_mBDF951A7E20F7B98D8DD664665E66BA72ABAF0AA_inline(L_1, NULL);
 		*((RuntimeObject**)L_0) = (RuntimeObject*)L_2;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1090>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_3 = ___1_parentAnchor;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_4 = *((MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A**)L_3);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -20429,7 +20429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_TryGetAnchorChildren_mEB9EA5ABC
 	MRUKAnchorU5BU5D_tB6741CD1492A3B7AB5E593E8354AB8140CA967AB* G_B3_0 = NULL;
 	MRUKAnchorU5BU5D_tB6741CD1492A3B7AB5E593E8354AB8140CA967AB** G_B3_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1103>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1103>
 		MRUKAnchorU5BU5D_tB6741CD1492A3B7AB5E593E8354AB8140CA967AB** L_0 = ___1_childAnchors;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_1 = ___0_queryAnchor;
 		NullCheck(L_1);
@@ -20464,7 +20464,7 @@ IL_0013:
 	{
 		*((RuntimeObject**)G_B3_1) = (RuntimeObject*)G_B3_0;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)G_B3_1, (void*)(RuntimeObject*)G_B3_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1104>
 		MRUKAnchorU5BU5D_tB6741CD1492A3B7AB5E593E8354AB8140CA967AB** L_5 = ___1_childAnchors;
 		MRUKAnchorU5BU5D_tB6741CD1492A3B7AB5E593E8354AB8140CA967AB* L_6 = *((MRUKAnchorU5BU5D_tB6741CD1492A3B7AB5E593E8354AB8140CA967AB**)L_5);
 		if (!L_6)
@@ -20502,7 +20502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_UpdateHierarchyReferences_mC04F
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* G_B10_0 = NULL;
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* G_B9_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1112>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1112>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0;
 		L_0 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		NullCheck(L_0);
@@ -20528,17 +20528,17 @@ FINALLY_0025:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1112>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1112>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_2;
 				L_2 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_0), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1114>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1114>
 				NullCheck(L_2);
 				MRUKAnchor_ClearChildReferences_m807008B36740B650225F2063FAB596BFC714596B(L_2, NULL);
 			}
 
 IL_001a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1112>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1112>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_0), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_3)
@@ -20558,7 +20558,7 @@ IL_001a_1:
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1116>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1116>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_4;
 		L_4 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		NullCheck(L_4);
@@ -20584,11 +20584,11 @@ FINALLY_0066:
 
 IL_0041_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1116>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1116>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_6;
 				L_6 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_0), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 				V_1 = L_6;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1118>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1118>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_7 = V_1;
 				NullCheck(L_7);
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_8;
@@ -20614,7 +20614,7 @@ IL_0055_1:
 
 IL_005b_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1116>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1116>
 				bool L_11;
 				L_11 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_0), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_11)
@@ -20634,7 +20634,7 @@ IL_005b_1:
 
 IL_0074:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1120>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1120>
 		return;
 	}
 }
@@ -20648,7 +20648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_DoesRoomHave_m0006AF87AB9FBBFE3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1130>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1130>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___0_labels;
 		il2cpp_codegen_runtime_class_init_inline(Utilities_t999441993FD2FC7BA0F667E02B5F06025DF0AE79_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -20675,7 +20675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_HasAllLabels_m58F34F5AC3A36A86B
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* V_1 = NULL;
 	bool V_2 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1139>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1139>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0;
 		L_0 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		NullCheck(L_0);
@@ -20701,18 +20701,18 @@ FINALLY_0033:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1139>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1139>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_2;
 				L_2 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_0), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1141>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1141>
 				int32_t L_3 = ___0_labelFlags;
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_4 = V_1;
 				NullCheck(L_4);
 				int32_t L_5;
 				L_5 = MRUKAnchor_get_Label_m92F9590F060E08E9BA0AD2C435DBD0AFC555E27B_inline(L_4, NULL);
 				___0_labelFlags = ((int32_t)((int32_t)L_3&((~((int32_t)L_5)))));
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1142>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1142>
 				int32_t L_6 = ___0_labelFlags;
 				if (L_6)
 				{
@@ -20720,14 +20720,14 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1144>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1144>
 				V_2 = (bool)1;
 				goto IL_0043;
 			}
 
 IL_0028_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1139>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1139>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_0), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_7)
@@ -20747,13 +20747,13 @@ IL_0028_1:
 
 IL_0041:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1148>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1148>
 		return (bool)0;
 	}
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1149>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1149>
 		bool L_8 = V_2;
 		return L_8;
 	}
@@ -20764,7 +20764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MRUKRoom_TryGetClosestSurfacePosition_m
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1160>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1160>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_worldPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1 = ___1_surfacePosition;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_2 = ___2_closestAnchor;
@@ -20817,23 +20817,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MRUKRoom_TryGetClosestSurfacePosition_m
 	memset((&G_B6_3), 0, sizeof(G_B6_3));
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* G_B6_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1173>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1173>
 		V_0 = (std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1174>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1174>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___1_surfacePosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1175>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1175>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_2 = ___2_closestAnchor;
 		*((RuntimeObject**)L_2) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_2, (void*)(RuntimeObject*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1176>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1176>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3 = ___3_normal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1178>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1178>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_5;
 		L_5 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		NullCheck(L_5);
@@ -20859,11 +20859,11 @@ FINALLY_0097:
 
 IL_002e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1178>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1178>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_7;
 				L_7 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_1), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 				V_2 = L_7;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1180>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1180>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_8 = V_2;
 				NullCheck(L_8);
 				int32_t L_9;
@@ -20876,7 +20876,7 @@ IL_002e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1185>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1185>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_11 = V_2;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = ___0_worldPosition;
 				LabelFilter_t0E8D323334454C39A14E40263B796E6A83AAAF96 L_13 = ___4_labelFilter;
@@ -20923,7 +20923,7 @@ IL_0067_1:
 				float L_17;
 				L_17 = MRUKAnchor_GetClosestSurfacePosition_m657393FEC4A7EE3E7DEC192297F22DA0A59FA07F(G_B6_4, G_B6_3, G_B6_2, G_B6_1, G_B6_0, NULL);
 				V_3 = L_17;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1186>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1186>
 				float L_18 = V_3;
 				float L_19 = V_0;
 				if ((!(((float)L_18) < ((float)L_19))))
@@ -20932,18 +20932,18 @@ IL_0067_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1188>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1188>
 				float L_20 = V_3;
 				V_0 = L_20;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1189>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1189>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_21 = ___1_surfacePosition;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_4;
 				*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_21 = L_22;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1190>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1190>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_23 = ___3_normal;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_5;
 				*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_23 = L_24;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1191>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1191>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A** L_25 = ___2_closestAnchor;
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_26 = V_2;
 				NullCheck(L_26);
@@ -20955,7 +20955,7 @@ IL_0067_1:
 
 IL_008c_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1178>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1178>
 				bool L_28;
 				L_28 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_1), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_28)
@@ -20975,7 +20975,7 @@ IL_008c_1:
 
 IL_00a5:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1195>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1195>
 		float L_29 = V_0;
 		return L_29;
 	}
@@ -20990,7 +20990,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1205>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1205>
 		String_t* L_0 = ___0_anchorLabel;
 		il2cpp_codegen_runtime_class_init_inline(Utilities_t999441993FD2FC7BA0F667E02B5F06025DF0AE79_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -21035,11 +21035,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 V_10;
 	memset((&V_10), 0, sizeof(V_10));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1215>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1215>
 		V_0 = (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A*)NULL;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1216>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1216>
 		V_1 = (0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1217>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1217>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0;
 		L_0 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		NullCheck(L_0);
@@ -21065,11 +21065,11 @@ FINALLY_00c6:
 
 IL_0019_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1217>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1217>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_2;
 				L_2 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_2), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 				V_3 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1219>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1219>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_3 = V_3;
 				int32_t L_4 = ___0_labelFlags;
 				NullCheck(L_3);
@@ -21081,9 +21081,9 @@ IL_0019_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1224>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1224>
 				V_4 = (0.0f);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1226>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1226>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_6 = V_3;
 				NullCheck(L_6);
 				Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_7;
@@ -21097,7 +21097,7 @@ IL_0019_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1228>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1228>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_9 = V_3;
 				NullCheck(L_9);
 				Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_10;
@@ -21109,7 +21109,7 @@ IL_0019_1:
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
 				L_12 = Rect_get_size_mFB990FFC0FE0152179C8C74A59E4AC258CB44267_inline((&V_7), NULL);
 				V_6 = L_12;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1229>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1229>
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = V_6;
 				float L_14 = L_13.___x;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = V_6;
@@ -21120,7 +21120,7 @@ IL_0019_1:
 
 IL_0072_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1231>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1231>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_17 = V_3;
 				NullCheck(L_17);
 				Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_18;
@@ -21134,7 +21134,7 @@ IL_0072_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1233>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1233>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_20 = V_3;
 				NullCheck(L_20);
 				Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_21;
@@ -21146,7 +21146,7 @@ IL_0072_1:
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
 				L_23 = Bounds_get_size_m0699A53A55A78B3201D7270D6F338DFA91B6FAD4_inline((&V_10), NULL);
 				V_9 = L_23;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1234>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1234>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_9;
 				float L_25 = L_24.___x;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_9;
@@ -21156,7 +21156,7 @@ IL_0072_1:
 
 IL_00ae_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1237>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1237>
 				float L_28 = V_4;
 				float L_29 = V_1;
 				if ((!(((float)L_28) > ((float)L_29))))
@@ -21165,17 +21165,17 @@ IL_00ae_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1239>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1239>
 				float L_30 = V_4;
 				V_1 = L_30;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1240>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1240>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_31 = V_3;
 				V_0 = L_31;
 			}
 
 IL_00b8_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1217>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1217>
 				bool L_32;
 				L_32 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_2), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_32)
@@ -21195,7 +21195,7 @@ IL_00b8_1:
 
 IL_00d4:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1244>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1244>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_33 = V_0;
 		return L_33;
 	}
@@ -21229,14 +21229,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A
 	memset((&V_8), 0, sizeof(V_8));
 	MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* V_9 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1263>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1263>
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_0;
 		L_0 = MRUKRoom_GetRoomBounds_m8A744792EA05D2BD4080E6260E6A4DECE5AA337A(__this, NULL);
 		V_2 = L_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Bounds_get_extents_mFE6DC407FCE2341BE2C750CB554055D211281D25_inline((&V_2), NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1264>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1264>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)3);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3 = L_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = V_0;
@@ -21256,7 +21256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A
 		float L_12;
 		L_12 = Mathf_Min_mCE17F4139B7DF5BB96192C88AF390D3C99F11858_inline(L_9, NULL);
 		V_1 = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1265>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1265>
 		float L_13 = ___0_minDistanceToSurface;
 		float L_14 = V_1;
 		if ((!(((float)L_13) > ((float)L_14))))
@@ -21265,7 +21265,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1269>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1269>
 		il2cpp_codegen_initobj((&V_3), sizeof(Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE));
 		Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE L_15 = V_3;
 		return L_15;
@@ -21273,18 +21273,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A
 
 IL_0044:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1275>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1275>
 		V_4 = 0;
 		goto IL_011d;
 	}
 
 IL_004c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1277>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1278>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1279>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1280>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1281>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1277>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1278>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1279>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1280>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1281>
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* L_16 = (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3*)(&__this->____roomBounds);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = Bounds_get_min_m465AC9BBE1DE5D8E8AD95AC19B9899068FEEBB13_inline(L_16, NULL);
@@ -21322,7 +21322,7 @@ IL_004c:
 		float L_42;
 		L_42 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(((float)il2cpp_codegen_add(L_36, L_37)), ((float)il2cpp_codegen_subtract(L_40, L_41)), NULL);
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_5), L_24, L_33, L_42, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1282>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1282>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_5;
 		bool L_44;
 		L_44 = MRUKRoom_IsPositionInRoom_m0699731E99392849D7FB51A8EE8AE1EF6B584134(__this, L_43, (bool)1, NULL);
@@ -21332,19 +21332,19 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1288>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1288>
 		Nullable_1_t1E2A7745A22A55997F3B3F4757E694AEF68A8D21 L_45;
 		memset((&L_45), 0, sizeof(L_45));
 		Nullable_1__ctor_mCD9EE2F2469F04947911A4E654952B89CBD009BA((&L_45), 4, Nullable_1__ctor_mCD9EE2F2469F04947911A4E654952B89CBD009BA_RuntimeMethod_var);
 		il2cpp_codegen_initobj((&V_7), sizeof(Nullable_1_t111FC8E5BD9AAC4FB63ABFAAF03EFE8925F9B17F));
 		Nullable_1_t111FC8E5BD9AAC4FB63ABFAAF03EFE8925F9B17F L_46 = V_7;
 		LabelFilter__ctor_m9F39930F5F5B626A2BBC3E7E9FF3238B1F48064F((&V_6), L_45, L_46, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1289>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1289>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = V_5;
 		LabelFilter_t0E8D323334454C39A14E40263B796E6A83AAAF96 L_48 = V_6;
 		float L_49;
 		L_49 = MRUKRoom_TryGetClosestSurfacePosition_m6A771C0A6F81140C009C05966C8E43143A7513AA(__this, L_47, (&V_8), (&V_9), L_48, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1290>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1290>
 		float L_50 = ___0_minDistanceToSurface;
 		if ((((float)L_49) <= ((float)L_50)))
 		{
@@ -21352,7 +21352,7 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1296>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1296>
 		bool L_51 = ___1_avoidVolumes;
 		if (!L_51)
 		{
@@ -21372,7 +21372,7 @@ IL_004c:
 
 IL_010f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1302>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1302>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55 = V_5;
 		Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE L_56;
 		memset((&L_56), 0, sizeof(L_56));
@@ -21382,14 +21382,14 @@ IL_010f:
 
 IL_0117:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1275>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1275>
 		int32_t L_57 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_57, 1));
 	}
 
 IL_011d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1275>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1275>
 		int32_t L_58 = V_4;
 		if ((((int32_t)L_58) < ((int32_t)((int32_t)1000))))
 		{
@@ -21397,7 +21397,7 @@ IL_011d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1305>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1305>
 		il2cpp_codegen_initobj((&V_3), sizeof(Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE));
 		Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE L_59 = V_3;
 		return L_59;
@@ -21463,26 +21463,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKRoom_GenerateRandomPositionOnSurface
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_23;
 	memset((&V_23), 0, sizeof(V_23));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1334>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1334>
 		List_1_t26F143BC2F4B46C5F3C7D02D62C26CA1A54A4F46* L_0 = (List_1_t26F143BC2F4B46C5F3C7D02D62C26CA1A54A4F46*)il2cpp_codegen_object_new(List_1_t26F143BC2F4B46C5F3C7D02D62C26CA1A54A4F46_il2cpp_TypeInfo_var);
 		List_1__ctor_mE67B02C833F34E8B9D954AD1ED0383EA415A8547(L_0, List_1__ctor_mE67B02C833F34E8B9D954AD1ED0383EA415A8547_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1335>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1335>
 		V_1 = (0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1336>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1336>
 		float L_1 = ___1_minDistanceToEdge;
 		V_2 = ((float)il2cpp_codegen_multiply((2.0f), L_1));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1339>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1339>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2 = ___3_position;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1340>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1340>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_4 = ___4_normal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_4 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1342>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1342>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_6;
 		L_6 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(__this, NULL);
 		NullCheck(L_6);
@@ -21508,11 +21508,11 @@ FINALLY_080e:
 
 IL_003d_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1342>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1342>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_8;
 				L_8 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_3), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 				V_4 = L_8;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1344>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1344>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_9 = V_4;
 				NullCheck(L_9);
 				int32_t L_10;
@@ -21525,7 +21525,7 @@ IL_003d_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1349>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1349>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_12 = V_4;
 				NullCheck(L_12);
 				Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_13;
@@ -21539,9 +21539,9 @@ IL_003d_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1351>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1351>
 				V_6 = (bool)0;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1352>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1352>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_15 = V_4;
 				NullCheck(L_15);
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
@@ -21558,7 +21558,7 @@ IL_003d_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1354>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1354>
 				int32_t L_20 = ___0_surfaceTypes;
 				if (((int32_t)((int32_t)L_20&1)))
 				{
@@ -21566,14 +21566,14 @@ IL_003d_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1356>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1356>
 				V_6 = (bool)1;
 				goto IL_00be_1;
 			}
 
 IL_0093_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1359>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1359>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_21 = V_4;
 				NullCheck(L_21);
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
@@ -21590,7 +21590,7 @@ IL_0093_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1361>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1361>
 				int32_t L_26 = ___0_surfaceTypes;
 				if (((int32_t)((int32_t)L_26&2)))
 				{
@@ -21598,14 +21598,14 @@ IL_0093_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1363>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1363>
 				V_6 = (bool)1;
 				goto IL_00be_1;
 			}
 
 IL_00b6_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1366>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1366>
 				int32_t L_27 = ___0_surfaceTypes;
 				if (((int32_t)((int32_t)L_27&4)))
 				{
@@ -21613,13 +21613,13 @@ IL_00b6_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1368>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1368>
 				V_6 = (bool)1;
 			}
 
 IL_00be_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1371>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1371>
 				bool L_28 = V_6;
 				if (L_28)
 				{
@@ -21627,7 +21627,7 @@ IL_00be_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1373>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1373>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_29 = V_4;
 				NullCheck(L_29);
 				Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_30;
@@ -21639,7 +21639,7 @@ IL_00be_1:
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32;
 				L_32 = Rect_get_size_mFB990FFC0FE0152179C8C74A59E4AC258CB44267_inline((&V_8), NULL);
 				V_7 = L_32;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1374>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1374>
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33 = V_7;
 				float L_34 = L_33.___x;
 				float L_35 = V_2;
@@ -21658,7 +21658,7 @@ IL_00be_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1376>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1376>
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_39 = V_7;
 				float L_40 = L_39.___x;
 				float L_41 = V_2;
@@ -21666,18 +21666,18 @@ IL_00be_1:
 				float L_43 = L_42.___y;
 				float L_44 = V_2;
 				V_9 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_40, L_41)), ((float)il2cpp_codegen_subtract(L_43, L_44))));
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1377>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1377>
 				float L_45 = V_1;
 				float L_46 = V_9;
 				V_1 = ((float)il2cpp_codegen_add(L_45, L_46));
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1378>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1379>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1380>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1381>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1382>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1383>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1384>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1385>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1378>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1379>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1380>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1381>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1382>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1383>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1384>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1385>
 				List_1_t26F143BC2F4B46C5F3C7D02D62C26CA1A54A4F46* L_47 = V_0;
 				il2cpp_codegen_initobj((&V_10), sizeof(Surface_tFBCE328C54B1D054C6F226B75568029E94CFA78E));
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_48 = V_4;
@@ -21709,7 +21709,7 @@ IL_00be_1:
 
 IL_0162_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1390>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1390>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_57 = V_4;
 				NullCheck(L_57);
 				Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_58;
@@ -21723,14 +21723,14 @@ IL_0162_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1392>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1392>
 				V_12 = 0;
 				goto IL_07f8_1;
 			}
 
 IL_017f_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1396>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1396>
 				int32_t L_60 = V_12;
 				if (L_60)
 				{
@@ -21738,7 +21738,7 @@ IL_017f_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1398>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1398>
 				int32_t L_61 = ___0_surfaceTypes;
 				if (((int32_t)((int32_t)L_61&1)))
 				{
@@ -21746,13 +21746,13 @@ IL_017f_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1400>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1400>
 				goto IL_07f2_1;
 			}
 
 IL_018d_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1403>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1403>
 				int32_t L_62 = V_12;
 				if ((!(((uint32_t)L_62) == ((uint32_t)1))))
 				{
@@ -21760,7 +21760,7 @@ IL_018d_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1405>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1405>
 				int32_t L_63 = ___0_surfaceTypes;
 				if (((int32_t)((int32_t)L_63&2)))
 				{
@@ -21768,13 +21768,13 @@ IL_018d_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1407>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1407>
 				goto IL_07f2_1;
 			}
 
 IL_019c_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1410>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1410>
 				int32_t L_64 = ___0_surfaceTypes;
 				if (!((int32_t)((int32_t)L_64&4)))
 				{
@@ -21819,13 +21819,13 @@ IL_01a4_1:
 
 IL_01c8_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1419>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1420>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1421>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1422>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1423>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1424>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1425>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1419>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1420>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1421>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1422>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1423>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1424>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1425>
 				il2cpp_codegen_initobj((&V_8), sizeof(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D));
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_66 = V_4;
 				NullCheck(L_66);
@@ -21877,7 +21877,7 @@ IL_01c8_1:
 				Rect_set_yMax_mCF452040E0068A4B3CB15994C0B4B6AD4D78E04B_inline((&V_8), L_85, NULL);
 				Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_86 = V_8;
 				V_13 = L_86;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1426>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1426>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_87 = V_4;
 				NullCheck(L_87);
 				Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_88;
@@ -21899,19 +21899,19 @@ IL_01c8_1:
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_95;
 				L_95 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_92, L_93, L_94, NULL);
 				V_14 = L_95;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1427>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1427>
 				goto IL_076e_1;
 			}
 
 IL_02ab_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1430>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1431>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1432>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1433>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1434>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1435>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1436>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1430>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1431>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1432>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1433>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1434>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1435>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1436>
 				il2cpp_codegen_initobj((&V_8), sizeof(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D));
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_96 = V_4;
 				NullCheck(L_96);
@@ -21963,7 +21963,7 @@ IL_02ab_1:
 				Rect_set_yMax_mCF452040E0068A4B3CB15994C0B4B6AD4D78E04B_inline((&V_8), L_115, NULL);
 				Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_116 = V_8;
 				V_13 = L_116;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1437>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1437>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_117 = V_4;
 				NullCheck(L_117);
 				Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_118;
@@ -21985,19 +21985,19 @@ IL_02ab_1:
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_125;
 				L_125 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_122, L_123, L_124, NULL);
 				V_14 = L_125;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1438>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1438>
 				goto IL_076e_1;
 			}
 
 IL_039f_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1441>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1442>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1443>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1444>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1445>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1446>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1447>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1441>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1442>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1443>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1444>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1445>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1446>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1447>
 				il2cpp_codegen_initobj((&V_8), sizeof(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D));
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_126 = V_4;
 				NullCheck(L_126);
@@ -22049,7 +22049,7 @@ IL_039f_1:
 				Rect_set_yMax_mCF452040E0068A4B3CB15994C0B4B6AD4D78E04B_inline((&V_8), L_145, NULL);
 				Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_146 = V_8;
 				V_13 = L_146;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1448>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1448>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_147 = V_4;
 				NullCheck(L_147);
 				Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_148;
@@ -22071,19 +22071,19 @@ IL_039f_1:
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_155;
 				L_155 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_152, L_153, L_154, NULL);
 				V_14 = L_155;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1449>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1449>
 				goto IL_076e_1;
 			}
 
 IL_0493_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1452>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1453>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1454>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1455>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1456>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1457>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1458>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1452>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1453>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1454>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1455>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1456>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1457>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1458>
 				il2cpp_codegen_initobj((&V_8), sizeof(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D));
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_156 = V_4;
 				NullCheck(L_156);
@@ -22135,7 +22135,7 @@ IL_0493_1:
 				Rect_set_yMax_mCF452040E0068A4B3CB15994C0B4B6AD4D78E04B_inline((&V_8), L_175, NULL);
 				Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_176 = V_8;
 				V_13 = L_176;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1459>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1459>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_177 = V_4;
 				NullCheck(L_177);
 				Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_178;
@@ -22157,19 +22157,19 @@ IL_0493_1:
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_185;
 				L_185 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_182, L_183, L_184, NULL);
 				V_14 = L_185;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1460>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1460>
 				goto IL_076e_1;
 			}
 
 IL_0585_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1463>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1464>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1465>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1466>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1467>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1468>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1469>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1463>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1464>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1465>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1466>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1467>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1468>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1469>
 				il2cpp_codegen_initobj((&V_8), sizeof(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D));
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_186 = V_4;
 				NullCheck(L_186);
@@ -22221,7 +22221,7 @@ IL_0585_1:
 				Rect_set_yMax_mCF452040E0068A4B3CB15994C0B4B6AD4D78E04B_inline((&V_8), ((-L_205)), NULL);
 				Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_206 = V_8;
 				V_13 = L_206;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1470>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1470>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_207 = V_4;
 				NullCheck(L_207);
 				Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_208;
@@ -22243,19 +22243,19 @@ IL_0585_1:
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_215;
 				L_215 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_212, L_213, L_214, NULL);
 				V_14 = L_215;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1471>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1471>
 				goto IL_076e_1;
 			}
 
 IL_0679_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1474>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1475>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1476>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1477>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1478>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1479>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1480>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1474>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1475>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1476>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1477>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1478>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1479>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1480>
 				il2cpp_codegen_initobj((&V_8), sizeof(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D));
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_216 = V_4;
 				NullCheck(L_216);
@@ -22307,7 +22307,7 @@ IL_0679_1:
 				Rect_set_yMax_mCF452040E0068A4B3CB15994C0B4B6AD4D78E04B_inline((&V_8), L_235, NULL);
 				Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_236 = V_8;
 				V_13 = L_236;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1481>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1481>
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_237 = V_4;
 				NullCheck(L_237);
 				Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_238;
@@ -22329,13 +22329,13 @@ IL_0679_1:
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_245;
 				L_245 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_242, L_243, L_244, NULL);
 				V_14 = L_245;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1482>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1482>
 				goto IL_076e_1;
 			}
 
 IL_0768_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1484>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1484>
 				SwitchExpressionException_tB2F9F9AF79B47CFE82EC3F703A03757CE54C4EC0* L_246 = (SwitchExpressionException_tB2F9F9AF79B47CFE82EC3F703A03757CE54C4EC0*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SwitchExpressionException_tB2F9F9AF79B47CFE82EC3F703A03757CE54C4EC0_il2cpp_TypeInfo_var)));
 				SwitchExpressionException__ctor_m9120BC29A995A777C2C09F178FF953F6CECFAC88(L_246, NULL);
 				IL2CPP_RAISE_MANAGED_EXCEPTION(L_246, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MRUKRoom_GenerateRandomPositionOnSurface_mF83EB467CE72799CF4ED3F8217A11254C70B95E8_RuntimeMethod_var)));
@@ -22343,11 +22343,11 @@ IL_0768_1:
 
 IL_076e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1487>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1487>
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_247;
 				L_247 = Rect_get_size_mFB990FFC0FE0152179C8C74A59E4AC258CB44267_inline((&V_13), NULL);
 				V_15 = L_247;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1488>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1488>
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_248 = V_15;
 				float L_249 = L_248.___x;
 				float L_250 = V_2;
@@ -22366,7 +22366,7 @@ IL_076e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1490>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1490>
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_254 = V_15;
 				float L_255 = L_254.___x;
 				float L_256 = V_2;
@@ -22374,18 +22374,18 @@ IL_076e_1:
 				float L_258 = L_257.___y;
 				float L_259 = V_2;
 				V_17 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_255, L_256)), ((float)il2cpp_codegen_subtract(L_258, L_259))));
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1491>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1491>
 				float L_260 = V_1;
 				float L_261 = V_17;
 				V_1 = ((float)il2cpp_codegen_add(L_260, L_261));
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1492>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1493>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1494>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1495>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1496>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1497>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1498>
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1499>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1492>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1493>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1494>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1495>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1496>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1497>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1498>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1499>
 				List_1_t26F143BC2F4B46C5F3C7D02D62C26CA1A54A4F46* L_262 = V_0;
 				il2cpp_codegen_initobj((&V_10), sizeof(Surface_tFBCE328C54B1D054C6F226B75568029E94CFA78E));
 				MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_263 = V_4;
@@ -22414,14 +22414,14 @@ IL_076e_1:
 
 IL_07f2_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1392>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1392>
 				int32_t L_272 = V_12;
 				V_12 = ((int32_t)il2cpp_codegen_add(L_272, 1));
 			}
 
 IL_07f8_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1392>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1392>
 				int32_t L_273 = V_12;
 				if ((((int32_t)L_273) < ((int32_t)6)))
 				{
@@ -22431,7 +22431,7 @@ IL_07f8_1:
 
 IL_0800_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1342>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1342>
 				bool L_274;
 				L_274 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_3), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 				if (L_274)
@@ -22451,7 +22451,7 @@ IL_0800_1:
 
 IL_081c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1505>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1505>
 		List_1_t26F143BC2F4B46C5F3C7D02D62C26CA1A54A4F46* L_275 = V_0;
 		NullCheck(L_275);
 		int32_t L_276;
@@ -22462,32 +22462,32 @@ IL_081c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1507>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1507>
 		return (bool)0;
 	}
 
 IL_0826:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1511>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1511>
 		V_18 = 0;
 		goto IL_0919;
 	}
 
 IL_082e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1515>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1515>
 		float L_277 = V_1;
 		float L_278;
 		L_278 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.0f), L_277, NULL);
 		V_19 = L_278;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1516>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1516>
 		V_20 = 0;
 		goto IL_0861;
 	}
 
 IL_0840:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1519>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1519>
 		float L_279 = V_19;
 		List_1_t26F143BC2F4B46C5F3C7D02D62C26CA1A54A4F46* L_280 = V_0;
 		int32_t L_281 = V_20;
@@ -22496,7 +22496,7 @@ IL_0840:
 		L_282 = List_1_get_Item_m827B5E94B2987A394B564A826DA6DBB993490F69(L_280, L_281, List_1_get_Item_m827B5E94B2987A394B564A826DA6DBB993490F69_RuntimeMethod_var);
 		float L_283 = L_282.___UsableArea;
 		V_19 = ((float)il2cpp_codegen_subtract(L_279, L_283));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1520>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1520>
 		float L_284 = V_19;
 		if ((((float)L_284) <= ((float)(0.0f))))
 		{
@@ -22504,14 +22504,14 @@ IL_0840:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1517>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1517>
 		int32_t L_285 = V_20;
 		V_20 = ((int32_t)il2cpp_codegen_add(L_285, 1));
 	}
 
 IL_0861:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1517>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1517>
 		int32_t L_286 = V_20;
 		List_1_t26F143BC2F4B46C5F3C7D02D62C26CA1A54A4F46* L_287 = V_0;
 		NullCheck(L_287);
@@ -22525,21 +22525,21 @@ IL_0861:
 
 IL_086d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1526>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1526>
 		List_1_t26F143BC2F4B46C5F3C7D02D62C26CA1A54A4F46* L_289 = V_0;
 		int32_t L_290 = V_20;
 		NullCheck(L_289);
 		Surface_tFBCE328C54B1D054C6F226B75568029E94CFA78E L_291;
 		L_291 = List_1_get_Item_m827B5E94B2987A394B564A826DA6DBB993490F69(L_289, L_290, List_1_get_Item_m827B5E94B2987A394B564A826DA6DBB993490F69_RuntimeMethod_var);
 		V_21 = L_291;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1527>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1527>
 		Surface_tFBCE328C54B1D054C6F226B75568029E94CFA78E L_292 = V_21;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_293 = L_292.___Bounds;
 		V_22 = L_293;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1528>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1529>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1530>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1531>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1528>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1529>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1530>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1531>
 		float L_294;
 		L_294 = Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline((&V_22), NULL);
 		float L_295 = ___1_minDistanceToEdge;
@@ -22557,7 +22557,7 @@ IL_086d:
 		float L_303;
 		L_303 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(((float)il2cpp_codegen_add(L_299, L_300)), ((float)il2cpp_codegen_subtract(L_301, L_302)), NULL);
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_23), L_298, L_303, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1533>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1533>
 		Surface_tFBCE328C54B1D054C6F226B75568029E94CFA78E L_304 = V_21;
 		bool L_305 = L_304.___IsPlane;
 		if (!L_305)
@@ -22580,7 +22580,7 @@ IL_086d:
 
 IL_08ce:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1538>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1538>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_310 = ___3_position;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_311 = (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)(&(&V_21)->___Transform);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_312 = V_23;
@@ -22593,7 +22593,7 @@ IL_08ce:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_317;
 		L_317 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_311, L_316, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_310 = L_317;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1539>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1539>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_318 = ___4_normal;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_319 = (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)(&(&V_21)->___Transform);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_320;
@@ -22601,20 +22601,20 @@ IL_08ce:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_321;
 		L_321 = Matrix4x4_MultiplyVector_mFD12F86A473E90BBB0002149ABA3917B2A518937(L_319, L_320, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_318 = L_321;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1540>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1540>
 		return (bool)1;
 	}
 
 IL_0913:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1511>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1511>
 		int32_t L_322 = V_18;
 		V_18 = ((int32_t)il2cpp_codegen_add(L_322, 1));
 	}
 
 IL_0919:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1511>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1511>
 		int32_t L_323 = V_18;
 		if ((((int32_t)L_323) < ((int32_t)((int32_t)1000))))
 		{
@@ -22622,7 +22622,7 @@ IL_0919:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1543>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1543>
 		return (bool)0;
 	}
 }
@@ -22630,22 +22630,22 @@ IL_0919:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom_OnDestroy_m8F5A9FF5AC8BBB928718CF91380D9CF0433B71C9 (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1548>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1548>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0;
 		L_0 = MRUKRoom_get_AnchorCreatedEvent_m6012A15AB4E3DF30E9B7FCB0A9AB1854F424F280_inline(__this, NULL);
 		NullCheck(L_0);
 		UnityEventBase_RemoveAllListeners_m6E68297189537543B0C72FE38804646CA204D076(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1549>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1549>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_1;
 		L_1 = MRUKRoom_get_AnchorRemovedEvent_mD286DC9E1198AF9B8A00301B0CADA92E0EE40140_inline(__this, NULL);
 		NullCheck(L_1);
 		UnityEventBase_RemoveAllListeners_m6E68297189537543B0C72FE38804646CA204D076(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1550>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1550>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_2;
 		L_2 = MRUKRoom_get_AnchorUpdatedEvent_m3E714A46C401313B72AD4F199BDDFF17DDD84253_inline(__this, NULL);
 		NullCheck(L_2);
 		UnityEventBase_RemoveAllListeners_m6E68297189537543B0C72FE38804646CA204D076(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:1551>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:1551>
 		return;
 	}
 }
@@ -22667,51 +22667,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKRoom__ctor_m154B5F8D84A94CF4CC9CD633
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:104>
 		il2cpp_codegen_runtime_class_init_inline(OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061_il2cpp_TypeInfo_var);
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_0 = ((OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061_StaticFields*)il2cpp_codegen_static_fields_for(OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061_il2cpp_TypeInfo_var))->___Null;
 		__this->___U3CAnchorU3Ek__BackingField = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:142>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_1 = (List_1_tE869D4668F953424E56CA19D4543224CE2F642A9*)il2cpp_codegen_object_new(List_1_tE869D4668F953424E56CA19D4543224CE2F642A9_il2cpp_TypeInfo_var);
 		List_1__ctor_m697368A3E31C34982AFB70B8CA2447C29BF33911(L_1, List_1__ctor_m697368A3E31C34982AFB70B8CA2447C29BF33911_RuntimeMethod_var);
 		__this->___U3CAnchorsU3Ek__BackingField = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAnchorsU3Ek__BackingField), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:150>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_2 = (List_1_tE869D4668F953424E56CA19D4543224CE2F642A9*)il2cpp_codegen_object_new(List_1_tE869D4668F953424E56CA19D4543224CE2F642A9_il2cpp_TypeInfo_var);
 		List_1__ctor_m697368A3E31C34982AFB70B8CA2447C29BF33911(L_2, List_1__ctor_m697368A3E31C34982AFB70B8CA2447C29BF33911_RuntimeMethod_var);
 		__this->___U3CWallAnchorsU3Ek__BackingField = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CWallAnchorsU3Ek__BackingField), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:165>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_3 = (List_1_tE869D4668F953424E56CA19D4543224CE2F642A9*)il2cpp_codegen_object_new(List_1_tE869D4668F953424E56CA19D4543224CE2F642A9_il2cpp_TypeInfo_var);
 		List_1__ctor_m697368A3E31C34982AFB70B8CA2447C29BF33911(L_3, List_1__ctor_m697368A3E31C34982AFB70B8CA2447C29BF33911_RuntimeMethod_var);
 		__this->___U3CFloorAnchorsU3Ek__BackingField = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CFloorAnchorsU3Ek__BackingField), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:180>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_4 = (List_1_tE869D4668F953424E56CA19D4543224CE2F642A9*)il2cpp_codegen_object_new(List_1_tE869D4668F953424E56CA19D4543224CE2F642A9_il2cpp_TypeInfo_var);
 		List_1__ctor_m697368A3E31C34982AFB70B8CA2447C29BF33911(L_4, List_1__ctor_m697368A3E31C34982AFB70B8CA2447C29BF33911_RuntimeMethod_var);
 		__this->___U3CCeilingAnchorsU3Ek__BackingField = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCeilingAnchorsU3Ek__BackingField), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:220>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:220>
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_5 = (List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A*)il2cpp_codegen_object_new(List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A_il2cpp_TypeInfo_var);
 		List_1__ctor_m8B505C68B718915B865F587EB70D15B9C659F39E(L_5, List_1__ctor_m8B505C68B718915B865F587EB70D15B9C659F39E_RuntimeMethod_var);
 		__this->___U3CSeatPosesU3Ek__BackingField = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSeatPosesU3Ek__BackingField), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:234>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:234>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_6 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_6, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		__this->____corners = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____corners), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:242>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:242>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_7 = (UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246*)il2cpp_codegen_object_new(UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246_il2cpp_TypeInfo_var);
 		UnityEvent_1__ctor_mC5A3E50D48636366F028162715351860C8D38E02(L_7, UnityEvent_1__ctor_mC5A3E50D48636366F028162715351860C8D38E02_RuntimeMethod_var);
 		__this->___U3CAnchorCreatedEventU3Ek__BackingField = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAnchorCreatedEventU3Ek__BackingField), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:248>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_8 = (UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246*)il2cpp_codegen_object_new(UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246_il2cpp_TypeInfo_var);
 		UnityEvent_1__ctor_mC5A3E50D48636366F028162715351860C8D38E02(L_8, UnityEvent_1__ctor_mC5A3E50D48636366F028162715351860C8D38E02_RuntimeMethod_var);
 		__this->___U3CAnchorUpdatedEventU3Ek__BackingField = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAnchorUpdatedEventU3Ek__BackingField), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:253>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_9 = (UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246*)il2cpp_codegen_object_new(UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246_il2cpp_TypeInfo_var);
 		UnityEvent_1__ctor_mC5A3E50D48636366F028162715351860C8D38E02(L_9, UnityEvent_1__ctor_mC5A3E50D48636366F028162715351860C8D38E02_RuntimeMethod_var);
 		__this->___U3CAnchorRemovedEventU3Ek__BackingField = L_9;
@@ -22910,7 +22910,7 @@ IL2CPP_EXTERN_C void CouchSeat_t0954FB0459F10F25153D073DC0920F9881C1278C_marshal
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* CouchSeat_get_couchAnchor_m3325EEDE75C2FFBBC00FC90BE165709106042CB2 (CouchSeat_t0954FB0459F10F25153D073DC0920F9881C1278C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:206>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = __this->___U3CcouchAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -22928,7 +22928,7 @@ IL2CPP_EXTERN_C  MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* CouchSeat
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CouchSeat_set_couchAnchor_m380C2D21C1546A1115C19DDFEACA39745A1F3045 (CouchSeat_t0954FB0459F10F25153D073DC0920F9881C1278C* __this, MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:206>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = ___0_value;
 		__this->___U3CcouchAnchorU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcouchAnchorU3Ek__BackingField), (void*)L_0);
@@ -22946,7 +22946,7 @@ IL2CPP_EXTERN_C  void CouchSeat_set_couchAnchor_m380C2D21C1546A1115C19DDFEACA397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* CouchSeat_get_couchPoses_mDFFD83529610FE6790219508B9C0E2114179A0DA (CouchSeat_t0954FB0459F10F25153D073DC0920F9881C1278C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:210>
 		List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* L_0 = __this->___U3CcouchPosesU3Ek__BackingField;
 		return L_0;
 	}
@@ -22964,7 +22964,7 @@ IL2CPP_EXTERN_C  List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* CouchSeat_get
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CouchSeat_set_couchPoses_m3C024844F3CD44F7FD3C49453262D0C24DF77343 (CouchSeat_t0954FB0459F10F25153D073DC0920F9881C1278C* __this, List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:210>
 		List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* L_0 = ___0_value;
 		__this->___U3CcouchPosesU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcouchPosesU3Ek__BackingField), (void*)L_0);
@@ -23116,7 +23116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareRoomAsyncU3Ed__58_MoveNext_m1103
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:356>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:356>
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_4;
 			L_4 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -23130,10 +23130,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareRoomAsyncU3Ed__58_MoveNext_m1103
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:358>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:358>
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral628A3022002C2273C54C0118F48336FC2013F418, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:359>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:359>
 			OVRResult_1_tE6BBB1049D1315EA6F35DA9728C0D01262F252B6 L_7;
 			L_7 = OVRResult_1_FromFailure_mD269031029868AE5D85662373FC70DD5D91B1663(((int32_t)-1004), OVRResult_1_FromFailure_mD269031029868AE5D85662373FC70DD5D91B1663_RuntimeMethod_var);
 			V_2 = L_7;
@@ -23142,7 +23142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareRoomAsyncU3Ed__58_MoveNext_m1103
 
 IL_0046_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:361>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:361>
 			MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_8 = V_1;
 			NullCheck(L_8);
 			OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_9;
@@ -23157,7 +23157,7 @@ IL_0046_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:363>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:363>
 			InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_12 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 			InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_12, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral676EA419BD61A883D4C8480B1CAF3483FA766A0C)), NULL);
 			IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CShareRoomAsyncU3Ed__58_MoveNext_m110363D1C3FE7F3F09157EE5FF818E1AFAC46025_RuntimeMethod_var)));
@@ -23165,7 +23165,7 @@ IL_0046_1:
 
 IL_0063_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:366>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:366>
 			Guid_t L_13 = ((Guid_t_StaticFields*)il2cpp_codegen_static_fields_for(Guid_t_il2cpp_TypeInfo_var))->___Empty;
 			Guid_t L_14 = __this->___groupUuid;
 			bool L_15;
@@ -23176,7 +23176,7 @@ IL_0063_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:368>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:368>
 			ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_16 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 			ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_16, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5A3BF463E701423814FBCDBA9FCAAEA862896B12)), NULL);
 			IL2CPP_RAISE_MANAGED_EXCEPTION(L_16, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CShareRoomAsyncU3Ed__58_MoveNext_m110363D1C3FE7F3F09157EE5FF818E1AFAC46025_RuntimeMethod_var)));
@@ -23184,7 +23184,7 @@ IL_0063_1:
 
 IL_0080_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:370>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:370>
 			MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_17 = V_1;
 			NullCheck(L_17);
 			OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_18;
@@ -23199,7 +23199,7 @@ IL_0080_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:372>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:372>
 			il2cpp_codegen_runtime_class_init_inline(OVRSharable_t2D2CE2E56126A35AB31B449381CBF3328C51A216_il2cpp_TypeInfo_var);
 			OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9 L_20;
 			L_20 = OVRSharable_SetEnabledAsync_m72427C45659017AD93BE3A9A049171044BD24AB8((&V_3), (bool)1, (0.0), NULL);
@@ -23245,7 +23245,7 @@ IL_00f9_1:
 
 IL_0101_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:374>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:374>
 			MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_30 = V_1;
 			NullCheck(L_30);
 			OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_31;
@@ -23321,7 +23321,7 @@ CATCH_0172:
 
 IL_018b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:375>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:375>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		OVRTaskBuilder_1_t5DDF193D02B124CE5149323DDC1CB755B3AF1618* L_46 = (OVRTaskBuilder_1_t5DDF193D02B124CE5149323DDC1CB755B3AF1618*)(&__this->___U3CU3Et__builder);
 		OVRResult_1_tE6BBB1049D1315EA6F35DA9728C0D01262F252B6 L_47 = V_2;
@@ -23390,7 +23390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKStart_Start_mE709890D637985C7B8941D5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:59>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_0;
 		L_0 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -23403,16 +23403,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKStart_Start_mE709890D637985C7B8941D5
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:61>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral5E10CDC6F8E0094B812BBC93A4A3B70D0C0C0E29, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:62>
 		return;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:65>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_2;
 		L_2 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -23420,28 +23420,28 @@ IL_0017:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_3, __this, (intptr_t)((void*)MRUKStart_U3CStartU3Eb__4_0_m4C433BB9D856697BF09DCBBCDEC3B8F3971291FE_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		MRUK_RegisterSceneLoadedCallback_m8C622EB080C1B7D96989D8F5AB2B73A864B92348(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:66>
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_4;
 		L_4 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
 		UnityAction_1_t66AB21F58C3083F69F9863996D35ECD138A955A8* L_5 = (UnityAction_1_t66AB21F58C3083F69F9863996D35ECD138A955A8*)il2cpp_codegen_object_new(UnityAction_1_t66AB21F58C3083F69F9863996D35ECD138A955A8_il2cpp_TypeInfo_var);
 		UnityAction_1__ctor_m0CD225E0746815DD62383F52D2A32285C737BA67(L_5, __this, (intptr_t)((void*)MRUKStart_U3CStartU3Eb__4_1_m4112E3683E6C7A01F1FB266F1CFFE167D2AF4F26_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		MRUK_RegisterRoomCreatedCallback_mEF6B1D4AB33B24B4353A6B32C477E220F4B54754(L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:67>
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_6;
 		L_6 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
 		UnityAction_1_t66AB21F58C3083F69F9863996D35ECD138A955A8* L_7 = (UnityAction_1_t66AB21F58C3083F69F9863996D35ECD138A955A8*)il2cpp_codegen_object_new(UnityAction_1_t66AB21F58C3083F69F9863996D35ECD138A955A8_il2cpp_TypeInfo_var);
 		UnityAction_1__ctor_m0CD225E0746815DD62383F52D2A32285C737BA67(L_7, __this, (intptr_t)((void*)MRUKStart_U3CStartU3Eb__4_2_mFDE1EBD79CE2FD78AAC21F62A74DE2ABDC2BE376_RuntimeMethod_var), NULL);
 		NullCheck(L_6);
 		MRUK_RegisterRoomRemovedCallback_m374C1E355355083E2E9C9F8E4C640424768FF1D8(L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:68>
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_8;
 		L_8 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
 		UnityAction_1_t66AB21F58C3083F69F9863996D35ECD138A955A8* L_9 = (UnityAction_1_t66AB21F58C3083F69F9863996D35ECD138A955A8*)il2cpp_codegen_object_new(UnityAction_1_t66AB21F58C3083F69F9863996D35ECD138A955A8_il2cpp_TypeInfo_var);
 		UnityAction_1__ctor_m0CD225E0746815DD62383F52D2A32285C737BA67(L_9, __this, (intptr_t)((void*)MRUKStart_U3CStartU3Eb__4_3_mE36130ECD940AC1D275E26EB4D05871934C13200_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
 		MRUK_RegisterRoomUpdatedCallback_m8F9EDE67BC59E52C233CFA209C745E0C02098084(L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:69>
 		return;
 	}
 }
@@ -23457,22 +23457,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKStart__ctor_m45E27519E648AB1FA4F511C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:40>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_0, NULL);
 		__this->___sceneLoadedEvent = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___sceneLoadedEvent), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:45>
 		UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* L_1 = (UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4*)il2cpp_codegen_object_new(UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4_il2cpp_TypeInfo_var);
 		UnityEvent_1__ctor_m30DC3BFE3AD5E385D943B0990DA0240F37A87C1E(L_1, UnityEvent_1__ctor_m30DC3BFE3AD5E385D943B0990DA0240F37A87C1E_RuntimeMethod_var);
 		__this->___roomCreatedEvent = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___roomCreatedEvent), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:50>
 		UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* L_2 = (UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4*)il2cpp_codegen_object_new(UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4_il2cpp_TypeInfo_var);
 		UnityEvent_1__ctor_m30DC3BFE3AD5E385D943B0990DA0240F37A87C1E(L_2, UnityEvent_1__ctor_m30DC3BFE3AD5E385D943B0990DA0240F37A87C1E_RuntimeMethod_var);
 		__this->___roomUpdatedEvent = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___roomUpdatedEvent), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:55>
 		UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* L_3 = (UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4*)il2cpp_codegen_object_new(UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4_il2cpp_TypeInfo_var);
 		UnityEvent_1__ctor_m30DC3BFE3AD5E385D943B0990DA0240F37A87C1E(L_3, UnityEvent_1__ctor_m30DC3BFE3AD5E385D943B0990DA0240F37A87C1E_RuntimeMethod_var);
 		__this->___roomRemovedEvent = L_3;
@@ -23487,7 +23487,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKStart_U3CStartU3Eb__4_0_m4C433BB9D85
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B2_0 = NULL;
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:65>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___sceneLoadedEvent;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = L_0;
 		if (L_1)
@@ -23520,7 +23520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKStart_U3CStartU3Eb__4_1_m4112E3683E6
 	UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* G_B2_0 = NULL;
 	UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:66>
 		UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* L_0 = __this->___roomCreatedEvent;
 		UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* L_1 = L_0;
 		if (L_1)
@@ -23554,7 +23554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKStart_U3CStartU3Eb__4_2_mFDE1EBD79CE
 	UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* G_B2_0 = NULL;
 	UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:67>
 		UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* L_0 = __this->___roomRemovedEvent;
 		UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* L_1 = L_0;
 		if (L_1)
@@ -23588,7 +23588,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKStart_U3CStartU3Eb__4_3_mE36130ECD94
 	UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* G_B2_0 = NULL;
 	UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKStart.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKStart.cs:68>
 		UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* L_0 = __this->___roomUpdatedEvent;
 		UnityEvent_1_tB8DFF02BE8D2D3E891EB4D5E46F97D08C89EFCF4* L_1 = L_0;
 		if (L_1)
@@ -23622,7 +23622,7 @@ IL_000b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MRUKTrackable_get_TrackableType_mE4CD26CC337DA7113B7B30657A5E532FE3DFE87C (MRUKTrackable_tE2859BB7E9C202C7D89F5CE426F6AB7FCF0F037A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKTrackable.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKTrackable.cs:41>
 		int32_t L_0 = __this->___U3CTrackableTypeU3Ek__BackingField;
 		return L_0;
 	}
@@ -23631,7 +23631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MRUKTrackable_get_TrackableType_mE4CD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKTrackable_set_TrackableType_m39FD6D84CBE74247E19271A424F9829A10ED6672 (MRUKTrackable_tE2859BB7E9C202C7D89F5CE426F6AB7FCF0F037A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKTrackable.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKTrackable.cs:41>
 		int32_t L_0 = ___0_value;
 		__this->___U3CTrackableTypeU3Ek__BackingField = L_0;
 		return;
@@ -23641,7 +23641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKTrackable_set_TrackableType_m39FD6D8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKTrackable_get_IsTracked_mBA40782C643F669E195B28EFF9D82DB73E3C157D (MRUKTrackable_tE2859BB7E9C202C7D89F5CE426F6AB7FCF0F037A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKTrackable.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKTrackable.cs:50>
 		bool L_0 = __this->___U3CIsTrackedU3Ek__BackingField;
 		return L_0;
 	}
@@ -23650,7 +23650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MRUKTrackable_get_IsTracked_mBA40782C643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKTrackable_set_IsTracked_m5468EBF48F903A4FDE81A5E066F0409F858943BC (MRUKTrackable_tE2859BB7E9C202C7D89F5CE426F6AB7FCF0F037A* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKTrackable.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKTrackable.cs:50>
 		bool L_0 = ___0_value;
 		__this->___U3CIsTrackedU3Ek__BackingField = L_0;
 		return;
@@ -23660,7 +23660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKTrackable_set_IsTracked_m5468EBF48F9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MRUKTrackable_get_MarkerPayloadString_m3261BF1E7EED1EFDBCFF54A41CF72487A1B6FF64 (MRUKTrackable_tE2859BB7E9C202C7D89F5CE426F6AB7FCF0F037A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKTrackable.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKTrackable.cs:62>
 		String_t* L_0 = __this->___U3CMarkerPayloadStringU3Ek__BackingField;
 		return L_0;
 	}
@@ -23669,7 +23669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MRUKTrackable_get_MarkerPayloadStri
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKTrackable_set_MarkerPayloadString_mD1407AF2E34C5B2A713D9211A462560EE04986F9 (MRUKTrackable_tE2859BB7E9C202C7D89F5CE426F6AB7FCF0F037A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKTrackable.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKTrackable.cs:62>
 		String_t* L_0 = ___0_value;
 		__this->___U3CMarkerPayloadStringU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMarkerPayloadStringU3Ek__BackingField), (void*)L_0);
@@ -23680,7 +23680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKTrackable_set_MarkerPayloadString_mD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MRUKTrackable_get_MarkerPayloadBytes_mC2CD3E3EE12C6C3409D205070756AA22F05C20DB (MRUKTrackable_tE2859BB7E9C202C7D89F5CE426F6AB7FCF0F037A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKTrackable.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKTrackable.cs:73>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___U3CMarkerPayloadBytesU3Ek__BackingField;
 		return L_0;
 	}
@@ -23689,7 +23689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKTrackable_set_MarkerPayloadBytes_m4BD079B055C4E95D4BD366C7D3A6275DD9E53623 (MRUKTrackable_tE2859BB7E9C202C7D89F5CE426F6AB7FCF0F037A* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKTrackable.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKTrackable.cs:73>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_value;
 		__this->___U3CMarkerPayloadBytesU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMarkerPayloadBytesU3Ek__BackingField), (void*)L_0);
@@ -23725,17 +23725,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomGuardian_Start_m4A08A57CEB34B541D447
 	OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:54>
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
 		OVRPlugin_set_eyeFovPremultipliedAlphaModeEnabled_mB0D53565317E5A7A5922B447F2B71D2A3DDA331C((bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:55>
 		il2cpp_codegen_runtime_class_init_inline(OVRTelemetry_t36C645AF5532E1587040672CE3E7D2AD72934CEF_il2cpp_TypeInfo_var);
 		OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 L_0;
 		L_0 = OVRTelemetry_Start_m0765E36E678288373B46C76411AEB6A403E20D8C(((int32_t)651901100), 0, ((int64_t)(-1)), NULL);
 		V_0 = L_0;
 		OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 L_1;
 		L_1 = OVRTelemetryMarker_Send_m05F44C2B74D93BAE0CB20205CBEBBE2DEEBB4C77((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:56>
 		return;
 	}
 }
@@ -23775,7 +23775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomGuardian_Update_m5F9632860E7C5B24E60
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B13_0;
 	memset((&G_B13_0), 0, sizeof(G_B13_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:60>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___GuardianMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -23786,13 +23786,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomGuardian_Update_m5F9632860E7C5B24E60
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:62>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:67>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_2;
 		L_2 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -23820,7 +23820,7 @@ IL_001b:
 IL_0020:
 	{
 		V_0 = G_B5_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:68>
 		MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_5 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -23831,13 +23831,13 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:70>
 		return;
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:73>
 		MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_7 = V_0;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8;
 		L_8 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
@@ -23850,7 +23850,7 @@ IL_002a:
 		NullCheck(L_7);
 		bool L_11;
 		L_11 = MRUKRoom_IsPositionInRoom_m0699731E99392849D7FB51A8EE8AE1EF6B584134(L_7, L_10, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:77>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12;
 		L_12 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		NullCheck(L_12);
@@ -23870,8 +23870,8 @@ IL_002a:
 		L_18 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_17, NULL);
 		float L_19 = L_18.___z;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_1), L_15, (0.200000003f), L_19, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:79>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:80>
 		MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_20 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_1;
 		Nullable_1_t1E2A7745A22A55997F3B3F4757E694AEF68A8D21 L_22;
@@ -23886,14 +23886,14 @@ IL_002a:
 		float L_25;
 		L_25 = MRUKRoom_TryGetClosestSurfacePosition_m6A771C0A6F81140C009C05966C8E43143A7513AA(L_20, L_21, (&V_3), (&V_7), L_24, NULL);
 		V_2 = L_25;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:82>
 		MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_26 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = V_1;
 		NullCheck(L_26);
 		bool L_28;
 		L_28 = MRUKRoom_IsPositionInSceneVolume_mC4C6F303AC2FDEBF3E06C60336469CDBFC83154E(L_26, L_27, (0.0f), NULL);
 		V_4 = (bool)((((int32_t)L_28) == ((int32_t)0))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:84>
 		bool L_29 = L_11;
 		bool L_30 = V_4;
 		if (((int32_t)((int32_t)L_29&(int32_t)L_30)))
@@ -23922,12 +23922,12 @@ IL_00b4:
 IL_00c7:
 	{
 		V_5 = G_B10_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:85>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_34 = __this->___GuardianMaterial;
 		float L_35 = V_5;
 		NullCheck(L_34);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_34, _stringLiteralFF9BB269264567988C813A65B5C1C07985475547, L_35, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:87>
 		if (G_B10_1)
 		{
 			goto IL_00e4;
@@ -23950,13 +23950,13 @@ IL_00e4:
 IL_00e9:
 	{
 		V_6 = G_B13_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:88>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = V_3;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_40 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_DrawLine_m873C7065638CFE611C48F429742690508044B75A(L_38, L_39, L_40, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:89>
 		return;
 	}
 }
@@ -23964,7 +23964,7 @@ IL_00e9:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomGuardian__ctor_mD925959AB5B86039404589296176954D2CE568DB (RoomGuardian_tF76FA72B20F624A4F4302A3CEB6BE93ECC6BC37D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/RoomGuardian.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/RoomGuardian.cs:49>
 		__this->___GuardianDistance = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -23989,7 +23989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SceneDebugger_get__roomHasChanged_m5C605
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:105>
 		MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_0 = __this->____currentRoom;
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_1;
@@ -24006,13 +24006,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SceneDebugger_get__roomHasChanged_m5C605
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:107>
 		return (bool)0;
 	}
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:110>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_4;
 		L_4 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -24021,14 +24021,14 @@ IL_0019:
 		L_5 = MRUK_GetCurrentRoom_m4D3EB9413A757198D1371FF680AA7C3B16EFD729(L_4, NULL);
 		__this->____currentRoom = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentRoom), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:111>
 		MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_6 = __this->____currentRoom;
 		NullCheck(L_6);
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_7;
 		L_7 = MRUKRoom_get_GlobalMeshAnchor_m0DD0478E1BA99D5B4E768F5F9A52B3D79860955F_inline(L_6, NULL);
 		__this->____globalMeshAnchor = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____globalMeshAnchor), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:112>
 		return (bool)1;
 	}
 }
@@ -24044,18 +24044,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_Awake_mE7E793F2C4009927B44
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:139>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_0;
 		L_0 = Object_FindAnyObjectByType_TisOVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9_mD4393AD67D78D4AC9EC9F5DE0618C870A9FC8AF4(Object_FindAnyObjectByType_TisOVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9_mD4393AD67D78D4AC9EC9F5DE0618C870A9FC8AF4_RuntimeMethod_var);
 		__this->____cameraRig = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cameraRig), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:140>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_1;
 		L_1 = Component_GetComponentInChildren_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m287ADF5F07E86A6244D9ECA16D1D0E5D6EE8EC18(__this, Component_GetComponentInChildren_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m287ADF5F07E86A6244D9ECA16D1D0E5D6EE8EC18_RuntimeMethod_var);
 		__this->____canvas = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____canvas), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:141>
 		bool L_2 = __this->___SetupInteractions;
 		if (!L_2)
 		{
@@ -24063,13 +24063,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_Awake_mE7E793F2C4009927B44
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:143>
 		SceneDebugger_SetupInteractionDependencies_mFAA2C8856827D61A9ECBE7F0218624C35ADADDC1(__this, NULL);
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:145>
 		return;
 	}
 }
@@ -24102,7 +24102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_Start_m08A458CFE70AEECC7E0
 	MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* G_B6_0 = NULL;
 	SceneDebugger_tB71C1DCD77BBC50D29A1A241B79DC065B9DDCC56* G_B6_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:149>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_0;
 		L_0 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -24128,14 +24128,14 @@ IL_000b:
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:150>
 		il2cpp_codegen_runtime_class_init_inline(OVRTelemetry_t36C645AF5532E1587040672CE3E7D2AD72934CEF_il2cpp_TypeInfo_var);
 		OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 L_3;
 		L_3 = OVRTelemetry_Start_m0765E36E678288373B46C76411AEB6A403E20D8C(((int32_t)651897568), 0, ((int64_t)(-1)), NULL);
 		V_1 = L_3;
 		OVRTelemetryMarker_t9BCBB9BBB77B5411E3F71019A5F880C1A16E60F9 L_4;
 		L_4 = OVRTelemetryMarker_Send_m05F44C2B74D93BAE0CB20205CBEBBE2DEEBB4C77((&V_1), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:151>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_5;
 		L_5 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -24169,12 +24169,12 @@ IL_0044:
 		NullCheck(G_B6_1);
 		G_B6_1->____currentRoom = G_B6_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B6_1->____currentRoom), (void*)G_B6_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:152>
 		SpaceMapGPU_t8186CEF2B6DDACF5E664EBF8A39A830F72422E52* L_8;
 		L_8 = SceneDebugger_GetSpaceMapGPU_mE873AA6C5FD1C182AE809C96565D8F4CCFF63DB3(__this, NULL);
 		__this->____spaceMapGPU = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____spaceMapGPU), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:153>
 		bool L_9 = __this->___MoveCanvasInFrontOfCamera;
 		if (!L_9)
 		{
@@ -24182,7 +24182,7 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:155>
 		RuntimeObject* L_10;
 		L_10 = SceneDebugger_SnapCanvasInFrontOfCamera_mBCEE863D4A8752E7EFBE0925272AFFD1EEDC1F03(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
@@ -24191,7 +24191,7 @@ IL_0044:
 
 IL_006a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:158>
 		SpaceMapGPU_t8186CEF2B6DDACF5E664EBF8A39A830F72422E52* L_12 = __this->____spaceMapGPU;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -24202,7 +24202,7 @@ IL_006a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:160>
 		List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35* L_14 = __this->___Menus;
 		NullCheck(L_14);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_15;
@@ -24212,7 +24212,7 @@ IL_006a:
 		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_15, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
 		L_17 = OVRExtensions_FindChildRecursive_m5633F7F37E170C66A576F57D0FF34E99BFC2E9A1(L_16, _stringLiteral7EA9131370D08A1AA8D21CDF4FD6CFF2A8ADC897, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:161>
 		NullCheck(L_17);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
 		L_18 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_17, NULL);
@@ -24222,14 +24222,14 @@ IL_006a:
 
 IL_009e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:163>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_19;
 		L_19 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(_stringLiteral9CCE3A7F8600DDEEEE33F64B8BA4D63DCDA5A0E0, NULL);
 		V_0 = L_19;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:164>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:165>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:166>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:167>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_20 = V_0;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_21, L_20, NULL);
@@ -24240,10 +24240,10 @@ IL_009e:
 		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_22, L_23, NULL);
 		__this->____debugMaterial = L_22;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugMaterial), (void*)L_22);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:168>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:169>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:170>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:171>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_24 = V_0;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_25, L_24, NULL);
@@ -24254,12 +24254,12 @@ IL_009e:
 		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_26, L_27, NULL);
 		__this->____navMeshMaterial = L_26;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____navMeshMaterial), (void*)L_26);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:172>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_28 = V_0;
 		SceneDebugger_SetupCheckerMeshMaterial_mEE77607E785107D1A558AA1F8027144714D57152(__this, L_28, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:173>
 		SceneDebugger_CreateDebugPrimitives_m97905A8F82EF838AC48AEBFB77345B12BAB6C36A(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:174>
 		return;
 	}
 }
@@ -24298,7 +24298,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_Update_mC15A68A86B87C81766
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:179>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->____debugAction;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = L_0;
 		if (L_1)
@@ -24320,7 +24320,7 @@ IL_000c:
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:182>
 		bool L_2 = __this->___ShowDebugAnchors;
 		bool L_3 = __this->____previousShowDebugAnchors;
 		if ((((int32_t)L_2) == ((int32_t)L_3)))
@@ -24329,7 +24329,7 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:184>
 		bool L_4 = __this->___ShowDebugAnchors;
 		if (!L_4)
 		{
@@ -24337,7 +24337,7 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:186>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_5;
 		L_5 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -24367,10 +24367,10 @@ FINALLY_0090:
 
 IL_003c_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:186>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:186>
 				MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_8;
 				L_8 = Enumerator_get_Current_mC4FA53DE97DE0DC8B3DB02EFE6821A3DA4D2F2F2_inline((&V_0), Enumerator_get_Current_mC4FA53DE97DE0DC8B3DB02EFE6821A3DA4D2F2F2_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:188>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:188>
 				NullCheck(L_8);
 				List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_9;
 				L_9 = MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline(L_8, NULL);
@@ -24397,16 +24397,16 @@ FINALLY_0077_1:
 
 IL_0050_2:
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:188>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:188>
 						MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_11;
 						L_11 = Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_inline((&V_1), Enumerator_get_Current_mE22FD01DB8109A9187C974464CC029390E05B698_RuntimeMethod_var);
 						V_2 = L_11;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:190>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:190>
 						MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_12 = V_2;
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
 						L_13 = SceneDebugger_GenerateDebugAnchor_m0DA65D93B4022A271025E909D4D697000B8E9CAC(__this, L_12, NULL);
 						V_3 = L_13;
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:191>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:191>
 						List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_14 = __this->____debugAnchors;
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_3;
 						NullCheck(L_14);
@@ -24415,7 +24415,7 @@ IL_0050_2:
 
 IL_006c_2:
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:188>
+						//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:188>
 						bool L_16;
 						L_16 = Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B((&V_1), Enumerator_MoveNext_mEBF0048F836A945D7BC1A2DDA0BBB90F170CCB5B_RuntimeMethod_var);
 						if (L_16)
@@ -24435,7 +24435,7 @@ IL_006c_2:
 
 IL_0085_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:186>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:186>
 				bool L_17;
 				L_17 = Enumerator_MoveNext_mDF5DAA8EB5DA9E05AF8ACCC9D448D87E7E6DD291((&V_0), Enumerator_MoveNext_mDF5DAA8EB5DA9E05AF8ACCC9D448D87E7E6DD291_RuntimeMethod_var);
 				if (L_17)
@@ -24455,7 +24455,7 @@ IL_0085_1:
 
 IL_009e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:197>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_18 = __this->____debugAnchors;
 		NullCheck(L_18);
 		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_19;
@@ -24480,10 +24480,10 @@ FINALLY_00c9:
 
 IL_00ad_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:197>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:197>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
 				L_20 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_4), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:199>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:199>
 				NullCheck(L_20);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
 				L_21 = GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC(L_20, NULL);
@@ -24493,7 +24493,7 @@ IL_00ad_1:
 
 IL_00be_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:197>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:197>
 				bool L_22;
 				L_22 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_4), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 				if (L_22)
@@ -24513,14 +24513,14 @@ IL_00be_1:
 
 IL_00d7:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:202>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:202>
 		bool L_23 = __this->___ShowDebugAnchors;
 		__this->____previousShowDebugAnchors = L_23;
 	}
 
 IL_00e3:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:206>
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		bool L_24;
 		L_24 = OVRInput_GetDown_mEF663E99B6E5FABB41B86716C6D04C788C979139(((int32_t)1048576), ((int32_t)-2147483648LL), NULL);
@@ -24530,7 +24530,7 @@ IL_00e3:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:208>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:208>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_25 = __this->____canvas;
 		NullCheck(L_25);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26;
@@ -24543,9 +24543,9 @@ IL_00e3:
 
 IL_010d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:211>
 		SceneDebugger_Billboard_m4DF04DDE731CAD7F94C06A3C85188C89990048D5(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:212>
 		return;
 	}
 }
@@ -24553,10 +24553,10 @@ IL_010d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_OnDisable_m332B07749D76B3590396764BAEC47568B316004B (SceneDebugger_tB71C1DCD77BBC50D29A1A241B79DC065B9DDCC56* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:216>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:216>
 		__this->____debugAction = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugAction), (void*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:217>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:217>
 		return;
 	}
 }
@@ -24571,7 +24571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_OnSceneLoaded_m22EDA4A87B6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:221>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_0;
 		L_0 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -24609,7 +24609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_OnSceneLoaded_m22EDA4A87B6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:223>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:223>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_7;
 		L_7 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -24625,7 +24625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_OnSceneLoaded_m22EDA4A87B6
 
 IL_003f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:225>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:225>
 		return;
 	}
 }
@@ -24647,7 +24647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_SetupInteractionDependenci
 	OVRHandU5BU5D_tF90935AD4A2EDB5D90711E5FEA8D5DD77029C839* V_2 = NULL;
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:229>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:229>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_0 = __this->____cameraRig;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -24658,13 +24658,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_SetupInteractionDependenci
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:231>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:231>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:234>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:234>
 		OVRGazePointer_t3D6087809DD512FF79D2003C9DCF27C897CF9DC9* L_2 = __this->___GazePointer;
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_3 = __this->____cameraRig;
 		NullCheck(L_3);
@@ -24673,7 +24673,7 @@ IL_000e:
 		NullCheck(L_2);
 		L_2->___rayTransform = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___rayTransform), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:235>
 		OVRInputModule_tA57D6FB43C84C28A9A6300E1B97F01703A87FD8A* L_5 = __this->___InputModule;
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_6 = __this->____cameraRig;
 		NullCheck(L_6);
@@ -24682,7 +24682,7 @@ IL_000e:
 		NullCheck(L_5);
 		L_5->___rayTransform = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&L_5->___rayTransform), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:236>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:236>
 		OVRRaycaster_t7F1DE085FFCC5957E5F9D6DDA71FA9670EFDE182* L_8 = __this->___Raycaster;
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_9 = __this->____cameraRig;
 		NullCheck(L_9);
@@ -24694,7 +24694,7 @@ IL_000e:
 		NullCheck(L_8);
 		L_8->___pointer = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&L_8->___pointer), (void*)L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:237>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:237>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_12 = __this->____cameraRig;
 		NullCheck(L_12);
 		OVRRayHelperU5BU5D_tBF03FF7818D32106E904BDC2B61A9E608154EF18* L_13;
@@ -24706,14 +24706,14 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:239>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:239>
 		return;
 	}
 
 IL_0065:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:242>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:243>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:242>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:243>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_14 = __this->____cameraRig;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -24722,7 +24722,7 @@ IL_0065:
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_16;
 		L_16 = Component_GetComponentInChildren_TisOVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F_m32E6E368B9EBE0A750443F6553909AC8F5606CFF(L_15, Component_GetComponentInChildren_TisOVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F_m32E6E368B9EBE0A750443F6553909AC8F5606CFF_RuntimeMethod_var);
 		V_0 = L_16;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:244>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:244>
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_17 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -24733,8 +24733,8 @@ IL_0065:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:246>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:247>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:246>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:247>
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_19 = V_0;
 		OVRRayHelper_t903AF1BD1115C535E5DACAFBA9C8347F73B5C4E0* L_20 = __this->___RayHelper;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
@@ -24751,7 +24751,7 @@ IL_0065:
 		NullCheck(L_19);
 		L_19->___RayHelper = L_25;
 		Il2CppCodeGenWriteBarrier((void**)(&L_19->___RayHelper), (void*)L_25);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:248>
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_26 = V_0;
 		NullCheck(L_26);
 		OVRRayHelper_t903AF1BD1115C535E5DACAFBA9C8347F73B5C4E0* L_27 = L_26->___RayHelper;
@@ -24764,8 +24764,8 @@ IL_0065:
 
 IL_00b0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:251>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:252>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:251>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:252>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_29 = __this->____cameraRig;
 		NullCheck(L_29);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
@@ -24774,7 +24774,7 @@ IL_00b0:
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_31;
 		L_31 = Component_GetComponentInChildren_TisOVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F_m32E6E368B9EBE0A750443F6553909AC8F5606CFF(L_30, Component_GetComponentInChildren_TisOVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F_m32E6E368B9EBE0A750443F6553909AC8F5606CFF_RuntimeMethod_var);
 		V_1 = L_31;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:253>
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_32 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_33;
@@ -24785,8 +24785,8 @@ IL_00b0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:255>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:256>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:255>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:256>
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_34 = V_1;
 		OVRRayHelper_t903AF1BD1115C535E5DACAFBA9C8347F73B5C4E0* L_35 = __this->___RayHelper;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
@@ -24803,7 +24803,7 @@ IL_00b0:
 		NullCheck(L_34);
 		L_34->___RayHelper = L_40;
 		Il2CppCodeGenWriteBarrier((void**)(&L_34->___RayHelper), (void*)L_40);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:257>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:257>
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_41 = V_1;
 		NullCheck(L_41);
 		OVRRayHelper_t903AF1BD1115C535E5DACAFBA9C8347F73B5C4E0* L_42 = L_41->___RayHelper;
@@ -24816,12 +24816,12 @@ IL_00b0:
 
 IL_00fb:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:260>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:260>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_44 = __this->____cameraRig;
 		NullCheck(L_44);
 		OVRHandU5BU5D_tF90935AD4A2EDB5D90711E5FEA8D5DD77029C839* L_45;
 		L_45 = Component_GetComponentsInChildren_TisOVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509_m11E0E06B81209B89311D83002975775160EDDEC4(L_44, Component_GetComponentsInChildren_TisOVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509_m11E0E06B81209B89311D83002975775160EDDEC4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:261>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:261>
 		V_2 = L_45;
 		V_3 = 0;
 		goto IL_0148;
@@ -24829,14 +24829,14 @@ IL_00fb:
 
 IL_010b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:261>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:261>
 		OVRHandU5BU5D_tF90935AD4A2EDB5D90711E5FEA8D5DD77029C839* L_46 = V_2;
 		int32_t L_47 = V_3;
 		NullCheck(L_46);
 		int32_t L_48 = L_47;
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_49 = (L_46)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:263>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:263>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:264>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_50 = L_49;
 		OVRRayHelper_t903AF1BD1115C535E5DACAFBA9C8347F73B5C4E0* L_51 = __this->___RayHelper;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52;
@@ -24853,7 +24853,7 @@ IL_010b:
 		NullCheck(L_50);
 		L_50->___RayHelper = L_56;
 		Il2CppCodeGenWriteBarrier((void**)(&L_50->___RayHelper), (void*)L_56);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:265>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:265>
 		NullCheck(L_50);
 		OVRRayHelper_t903AF1BD1115C535E5DACAFBA9C8347F73B5C4E0* L_57 = L_50->___RayHelper;
 		NullCheck(L_57);
@@ -24867,7 +24867,7 @@ IL_010b:
 
 IL_0148:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:261>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:261>
 		int32_t L_60 = V_3;
 		OVRHandU5BU5D_tF90935AD4A2EDB5D90711E5FEA8D5DD77029C839* L_61 = V_2;
 		NullCheck(L_61);
@@ -24877,7 +24877,7 @@ IL_0148:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:267>
 		return;
 	}
 }
@@ -24898,8 +24898,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00
 	memset((&V_1), 0, sizeof(V_1));
 	OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:273>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:274>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:273>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:274>
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var))->___activeControllerType;
 		if ((((int32_t)L_0) == ((int32_t)3)))
@@ -24918,7 +24918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:276>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:276>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_2 = __this->____cameraRig;
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
@@ -24927,7 +24927,7 @@ IL_0010:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:277>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:277>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_5 = __this->____cameraRig;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -24941,7 +24941,7 @@ IL_0010:
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:279>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:279>
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		int32_t L_8 = ((OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_StaticFields*)il2cpp_codegen_static_fields_for(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var))->___activeControllerType;
 		if ((!(((uint32_t)L_8) == ((uint32_t)1))))
@@ -24950,7 +24950,7 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:281>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:281>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_9 = __this->____cameraRig;
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
@@ -24959,7 +24959,7 @@ IL_0037:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_10, NULL);
 		V_0 = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:282>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:282>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_12 = __this->____cameraRig;
 		NullCheck(L_12);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
@@ -24973,7 +24973,7 @@ IL_0037:
 
 IL_0063:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:286>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:286>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_15 = __this->____cameraRig;
 		NullCheck(L_15);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
@@ -24982,7 +24982,7 @@ IL_0063:
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_17;
 		L_17 = Component_GetComponentInChildren_TisOVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509_m16A1294FFF41F17EBCF904515B554E89737D1D22(L_16, Component_GetComponentInChildren_TisOVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509_m16A1294FFF41F17EBCF904515B554E89737D1D22_RuntimeMethod_var);
 		V_2 = L_17;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:288>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:288>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_18 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_19;
@@ -24993,7 +24993,7 @@ IL_0063:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:290>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:290>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_20 = V_2;
 		NullCheck(L_20);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -25002,7 +25002,7 @@ IL_0063:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
 		L_22 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_21, NULL);
 		V_0 = L_22;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:291>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:291>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_23 = V_2;
 		NullCheck(L_23);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
@@ -25016,7 +25016,7 @@ IL_0063:
 
 IL_0097:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:295>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:295>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_26 = __this->____cameraRig;
 		NullCheck(L_26);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
@@ -25025,7 +25025,7 @@ IL_0097:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
 		L_28 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_27, NULL);
 		V_0 = L_28;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:296>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:296>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_29 = __this->____cameraRig;
 		NullCheck(L_29);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
@@ -25038,7 +25038,7 @@ IL_0097:
 
 IL_00b9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:300>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:300>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_1;
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_34;
@@ -25062,7 +25062,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ShowRoomDetailsDebugger_mB
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:311>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:311>
 			bool L_0 = ___0_isOn;
 			if (!L_0)
 			{
@@ -25070,7 +25070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ShowRoomDetailsDebugger_mB
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:313>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:313>
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = __this->____debugAction;
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 			Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_2, __this, (intptr_t)((void*)SceneDebugger_ShowRoomDetails_m1254611806E3721238BDC7FD69D1A3F2907A3176_RuntimeMethod_var), NULL);
@@ -25083,7 +25083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ShowRoomDetailsDebugger_mB
 
 IL_0027_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:317>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:317>
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = __this->____debugAction;
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 			Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_5, __this, (intptr_t)((void*)SceneDebugger_ShowRoomDetails_m1254611806E3721238BDC7FD69D1A3F2907A3176_RuntimeMethod_var), NULL);
@@ -25095,7 +25095,7 @@ IL_0027_1:
 
 IL_0049_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:319>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:319>
 			goto IL_0079;
 		}
 	}
@@ -25112,12 +25112,12 @@ IL_0049_1:
 CATCH_004b:
 	{
 		Exception_t* L_7 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:320>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:320>
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:322>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:323>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:324>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:325>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:322>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:323>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:324>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:325>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_8;
 		NullCheck(L_9);
@@ -25140,14 +25140,14 @@ CATCH_004b:
 		ArrayElementTypeCheck (L_13, L_15);
 		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_15);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8992F3CBA8F2078B41761C21CAA4AB9DE6F0E5B8)), L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:326>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:326>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0079;
 	}
 
 IL_0079:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:327>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:327>
 		return;
 	}
 }
@@ -25178,7 +25178,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetKeyWallDebugger_mD0ABEA
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:337>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:337>
 			bool L_0 = ___0_isOn;
 			if (!L_0)
 			{
@@ -25186,11 +25186,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetKeyWallDebugger_mD0ABEA
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:339>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:339>
 			Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 			L_1 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 			V_0 = L_1;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:340>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:340>
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_2;
 			L_2 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -25236,7 +25236,7 @@ IL_0024_1:
 IL_0030_1:
 		{
 			V_1 = G_B6_0;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:341>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:341>
 			MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_7 = V_1;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_8;
@@ -25257,7 +25257,7 @@ IL_0030_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:343>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:343>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->____debugCube;
 			NullCheck(L_11);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
@@ -25271,7 +25271,7 @@ IL_0030_1:
 			Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_17), L_14, L_16, (0.0500000007f), NULL);
 			NullCheck(L_12);
 			Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_12, L_17, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:344>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:344>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->____debugCube;
 			NullCheck(L_18);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
@@ -25285,7 +25285,7 @@ IL_0030_1:
 			L_22 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_21, NULL);
 			NullCheck(L_19);
 			Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_19, L_22, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:345>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:345>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->____debugCube;
 			NullCheck(L_23);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
@@ -25303,10 +25303,10 @@ IL_0030_1:
 
 IL_00a4_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:348>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:349>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:350>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:351>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:348>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:349>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:350>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:351>
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_28 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_29 = L_28;
 			NullCheck(L_29);
@@ -25324,7 +25324,7 @@ IL_00a4_1:
 
 IL_00c6_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:354>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:354>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = __this->____debugCube;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_35;
@@ -25335,7 +25335,7 @@ IL_00c6_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:356>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:356>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = __this->____debugCube;
 			bool L_37 = ___0_isOn;
 			NullCheck(L_36);
@@ -25344,7 +25344,7 @@ IL_00c6_1:
 
 IL_00e0_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:358>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:358>
 			goto IL_0110;
 		}
 	}
@@ -25361,12 +25361,12 @@ IL_00e0_1:
 CATCH_00e2:
 	{
 		Exception_t* L_38 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:359>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:359>
 		V_2 = L_38;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:361>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:362>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:363>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:364>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:361>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:362>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:363>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:364>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_39 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_40 = L_39;
 		NullCheck(L_40);
@@ -25389,14 +25389,14 @@ CATCH_00e2:
 		ArrayElementTypeCheck (L_44, L_46);
 		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_46);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8992F3CBA8F2078B41761C21CAA4AB9DE6F0E5B8)), L_44, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:365>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:365>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0110;
 	}
 
 IL_0110:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:366>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:366>
 		return;
 	}
 }
@@ -25448,7 +25448,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetLargestSurfaceDebugger_
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:376>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:376>
 			bool L_0 = ___0_isOn;
 			if (!L_0)
 			{
@@ -25456,9 +25456,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetLargestSurfaceDebugger_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:378>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:378>
 			V_0 = 8;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:379>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:379>
 			TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_1 = __this->___surfaceTypeDropdown;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_2;
@@ -25469,7 +25469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetLargestSurfaceDebugger_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:381>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:381>
 			TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_3 = __this->___surfaceTypeDropdown;
 			NullCheck(L_3);
 			List_1_tCADFA900711C24701A9C70EE674B91FC45D42A52* L_4;
@@ -25495,7 +25495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetLargestSurfaceDebugger_
 
 IL_0040_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:384>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:384>
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_11;
 			L_11 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -25542,7 +25542,7 @@ IL_0058_1:
 IL_005e_1:
 		{
 			V_1 = G_B8_0;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:385>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:385>
 			MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_17 = V_1;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_18;
@@ -25553,7 +25553,7 @@ IL_005e_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:387>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:387>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->____debugCube;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_20;
@@ -25564,8 +25564,8 @@ IL_005e_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:389>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:390>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:389>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:390>
 			MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_21 = V_1;
 			NullCheck(L_21);
 			Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_22;
@@ -25624,7 +25624,7 @@ IL_00a6_1:
 IL_00de_1:
 		{
 			V_2 = G_B13_0;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:391>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:391>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = __this->____debugCube;
 			NullCheck(L_37);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38;
@@ -25637,8 +25637,8 @@ IL_00de_1:
 			L_41 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_39, L_40, NULL);
 			NullCheck(L_38);
 			Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_38, L_41, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:392>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:393>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:392>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:393>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_42 = __this->____debugCube;
 			NullCheck(L_42);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43;
@@ -25697,7 +25697,7 @@ IL_0154_1:
 		{
 			NullCheck(G_B16_1);
 			Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(G_B16_1, G_B16_0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:394>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:394>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_57 = __this->____debugCube;
 			NullCheck(L_57);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_58;
@@ -25716,10 +25716,10 @@ IL_0154_1:
 
 IL_0176_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:400>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:401>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:402>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:403>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:400>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:401>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:402>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:403>
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_62 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_63 = L_62;
 			NullCheck(L_63);
@@ -25733,24 +25733,24 @@ IL_0176_1:
 			ArrayElementTypeCheck (L_64, L_67);
 			(L_64)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_67);
 			SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, _stringLiteral88B18754ADE5C6ED6DDFB7403924FD2D9E3C3A22, L_64, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:404>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:404>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_68 = __this->____debugCube;
 			NullCheck(L_68);
 			GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_68, (bool)0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:405>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:405>
 			goto IL_01fa;
 		}
 
 IL_01a6_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:410>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:410>
 			__this->____debugAction = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->____debugAction), (void*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL);
 		}
 
 IL_01ad_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:413>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:413>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_69 = __this->____debugCube;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_70;
@@ -25761,7 +25761,7 @@ IL_01ad_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:415>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:415>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_71 = __this->____debugCube;
 			bool L_72 = ___0_isOn;
 			NullCheck(L_71);
@@ -25770,7 +25770,7 @@ IL_01ad_1:
 
 IL_01c7_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:417>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:417>
 			goto IL_01fa;
 		}
 	}
@@ -25787,13 +25787,13 @@ IL_01c7_1:
 CATCH_01c9:
 	{
 		Exception_t* L_73 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:418>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:418>
 		V_7 = L_73;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:420>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:421>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:422>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:423>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:424>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:420>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:421>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:422>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:423>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:424>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_74 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_75 = L_74;
 		NullCheck(L_75);
@@ -25816,14 +25816,14 @@ CATCH_01c9:
 		ArrayElementTypeCheck (L_79, L_81);
 		(L_79)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_81);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8992F3CBA8F2078B41761C21CAA4AB9DE6F0E5B8)), L_79, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:425>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:425>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_01fa;
 	}
 
 IL_01fa:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:426>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:426>
 		return;
 	}
 }
@@ -25843,7 +25843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetClosestSeatPoseDebugger
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:436>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:436>
 			bool L_0 = ___0_isOn;
 			if (!L_0)
 			{
@@ -25851,35 +25851,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetClosestSeatPoseDebugger
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:438>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:439>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:440>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:441>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:442>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:443>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:444>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:445>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:446>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:447>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:448>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:449>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:450>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:451>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:452>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:453>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:454>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:455>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:456>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:457>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:458>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:459>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:460>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:461>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:462>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:463>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:464>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:465>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:466>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:438>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:439>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:440>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:441>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:442>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:443>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:444>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:445>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:446>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:447>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:448>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:449>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:450>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:451>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:452>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:453>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:454>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:455>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:456>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:457>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:458>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:459>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:460>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:461>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:462>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:463>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:464>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:465>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:466>
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 			Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)SceneDebugger_U3CGetClosestSeatPoseDebuggerU3Eb__56_0_m348A83A5C6001A2CACD2D29F08589A6DA87434B9_RuntimeMethod_var), NULL);
 			__this->____debugAction = L_1;
@@ -25889,14 +25889,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetClosestSeatPoseDebugger
 
 IL_0017_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:470>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:470>
 			__this->____debugAction = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->____debugAction), (void*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL);
 		}
 
 IL_001e_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:473>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:473>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____debugCube;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_3;
@@ -25907,7 +25907,7 @@ IL_001e_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:475>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:475>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->____debugCube;
 			bool L_5 = ___0_isOn;
 			NullCheck(L_4);
@@ -25916,7 +25916,7 @@ IL_001e_1:
 
 IL_0038_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:477>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:477>
 			goto IL_0068;
 		}
 	}
@@ -25933,12 +25933,12 @@ IL_0038_1:
 CATCH_003a:
 	{
 		Exception_t* L_6 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:478>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:478>
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:480>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:481>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:482>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:483>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:480>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:481>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:482>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:483>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_7;
 		NullCheck(L_8);
@@ -25961,14 +25961,14 @@ CATCH_003a:
 		ArrayElementTypeCheck (L_12, L_14);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_14);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8992F3CBA8F2078B41761C21CAA4AB9DE6F0E5B8)), L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:484>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:484>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0068;
 	}
 
 IL_0068:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:485>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:485>
 		return;
 	}
 }
@@ -25988,7 +25988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetClosestSurfacePositionD
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:495>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:495>
 			bool L_0 = ___0_isOn;
 			if (!L_0)
 			{
@@ -25996,26 +25996,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetClosestSurfacePositionD
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:497>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:498>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:499>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:500>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:501>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:502>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:503>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:504>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:505>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:506>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:507>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:508>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:509>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:510>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:511>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:512>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:513>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:514>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:515>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:516>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:497>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:498>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:499>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:500>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:501>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:502>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:503>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:504>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:505>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:506>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:507>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:508>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:509>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:510>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:511>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:512>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:513>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:514>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:515>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:516>
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 			Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)SceneDebugger_U3CGetClosestSurfacePositionDebuggerU3Eb__57_0_m486C133B07EB2F1B2AAC7D8D90D0C4A1AE92E9DA_RuntimeMethod_var), NULL);
 			__this->____debugAction = L_1;
@@ -26025,14 +26025,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetClosestSurfacePositionD
 
 IL_0017_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:520>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:520>
 			__this->____debugAction = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->____debugAction), (void*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL);
 		}
 
 IL_001e_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:523>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:523>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____debugNormal;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_3;
@@ -26043,7 +26043,7 @@ IL_001e_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:525>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:525>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->____debugNormal;
 			bool L_5 = ___0_isOn;
 			NullCheck(L_4);
@@ -26052,7 +26052,7 @@ IL_001e_1:
 
 IL_0038_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:527>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:527>
 			goto IL_0068;
 		}
 	}
@@ -26069,12 +26069,12 @@ IL_0038_1:
 CATCH_003a:
 	{
 		Exception_t* L_6 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:528>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:528>
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:530>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:531>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:532>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:533>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:530>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:531>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:532>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:533>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_7;
 		NullCheck(L_8);
@@ -26097,14 +26097,14 @@ CATCH_003a:
 		ArrayElementTypeCheck (L_12, L_14);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_14);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8992F3CBA8F2078B41761C21CAA4AB9DE6F0E5B8)), L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:534>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:534>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0068;
 	}
 
 IL_0068:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:535>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:535>
 		return;
 	}
 }
@@ -26124,7 +26124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetBestPoseFromRaycastDebu
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:545>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:545>
 			bool L_0 = ___0_isOn;
 			if (!L_0)
 			{
@@ -26132,31 +26132,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetBestPoseFromRaycastDebu
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:547>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:548>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:549>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:550>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:551>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:552>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:553>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:554>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:555>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:556>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:557>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:558>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:559>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:560>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:561>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:562>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:563>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:564>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:565>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:566>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:567>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:568>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:569>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:570>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:571>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:547>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:548>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:549>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:550>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:551>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:552>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:553>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:554>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:555>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:556>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:557>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:558>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:559>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:560>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:561>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:562>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:563>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:564>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:565>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:566>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:567>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:568>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:569>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:570>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:571>
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 			Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)SceneDebugger_U3CGetBestPoseFromRaycastDebuggerU3Eb__58_0_mBF40E8440DC018D92DBDCC72258CC06E02089B63_RuntimeMethod_var), NULL);
 			__this->____debugAction = L_1;
@@ -26166,14 +26166,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_GetBestPoseFromRaycastDebu
 
 IL_0017_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:575>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:575>
 			__this->____debugAction = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->____debugAction), (void*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL);
 		}
 
 IL_001e_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:578>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:578>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____debugCube;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_3;
@@ -26184,7 +26184,7 @@ IL_001e_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:580>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:580>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->____debugCube;
 			bool L_5 = ___0_isOn;
 			NullCheck(L_4);
@@ -26193,7 +26193,7 @@ IL_001e_1:
 
 IL_0038_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:582>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:582>
 			goto IL_0068;
 		}
 	}
@@ -26210,12 +26210,12 @@ IL_0038_1:
 CATCH_003a:
 	{
 		Exception_t* L_6 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:584>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:584>
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:586>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:587>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:588>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:589>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:586>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:587>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:588>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:589>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_7;
 		NullCheck(L_8);
@@ -26238,14 +26238,14 @@ CATCH_003a:
 		ArrayElementTypeCheck (L_12, L_14);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_14);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8992F3CBA8F2078B41761C21CAA4AB9DE6F0E5B8)), L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:590>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:590>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0068;
 	}
 
 IL_0068:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:591>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:591>
 		return;
 	}
 }
@@ -26265,7 +26265,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_RayCastDebugger_mADAFC2279
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:601>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:601>
 			bool L_0 = ___0_isOn;
 			if (!L_0)
 			{
@@ -26273,23 +26273,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_RayCastDebugger_mADAFC2279
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:603>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:604>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:605>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:606>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:607>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:608>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:609>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:610>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:611>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:612>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:613>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:614>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:615>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:616>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:617>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:618>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:619>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:603>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:604>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:605>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:606>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:607>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:608>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:609>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:610>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:611>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:612>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:613>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:614>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:615>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:616>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:617>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:618>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:619>
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 			Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)SceneDebugger_U3CRayCastDebuggerU3Eb__59_0_mAFF59EE8FA5EE64714FF27C9C39C9B982AE1FFA4_RuntimeMethod_var), NULL);
 			__this->____debugAction = L_1;
@@ -26299,14 +26299,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_RayCastDebugger_mADAFC2279
 
 IL_0017_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:623>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:623>
 			__this->____debugAction = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->____debugAction), (void*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL);
 		}
 
 IL_001e_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:626>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:626>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____debugNormal;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_3;
@@ -26317,7 +26317,7 @@ IL_001e_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:628>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:628>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->____debugNormal;
 			bool L_5 = ___0_isOn;
 			NullCheck(L_4);
@@ -26326,7 +26326,7 @@ IL_001e_1:
 
 IL_0038_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:630>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:630>
 			goto IL_0068;
 		}
 	}
@@ -26343,13 +26343,13 @@ IL_0038_1:
 CATCH_003a:
 	{
 		Exception_t* L_6 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:631>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:631>
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:633>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:634>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:635>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:636>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:637>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:633>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:634>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:635>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:636>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:637>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_7;
 		NullCheck(L_8);
@@ -26372,14 +26372,14 @@ CATCH_003a:
 		ArrayElementTypeCheck (L_12, L_14);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_14);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8992F3CBA8F2078B41761C21CAA4AB9DE6F0E5B8)), L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:638>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:638>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0068;
 	}
 
 IL_0068:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:639>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:639>
 		return;
 	}
 }
@@ -26399,7 +26399,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_IsPositionInRoomDebugger_m
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:650>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:650>
 			bool L_0 = ___0_isOn;
 			if (!L_0)
 			{
@@ -26407,23 +26407,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_IsPositionInRoomDebugger_m
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:652>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:653>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:654>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:655>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:656>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:657>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:658>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:659>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:660>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:661>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:662>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:663>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:664>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:665>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:666>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:667>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:668>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:652>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:653>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:654>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:655>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:656>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:657>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:658>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:659>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:660>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:661>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:662>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:663>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:664>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:665>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:666>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:667>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:668>
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 			Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)SceneDebugger_U3CIsPositionInRoomDebuggerU3Eb__60_0_mA5114E89D0959C5A04461D68539490FA02EBBCE0_RuntimeMethod_var), NULL);
 			__this->____debugAction = L_1;
@@ -26432,7 +26432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_IsPositionInRoomDebugger_m
 
 IL_0015_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:671>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:671>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____debugSphere;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_3;
@@ -26443,7 +26443,7 @@ IL_0015_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:673>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:673>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->____debugSphere;
 			bool L_5 = ___0_isOn;
 			NullCheck(L_4);
@@ -26452,7 +26452,7 @@ IL_0015_1:
 
 IL_002f_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:675>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:675>
 			goto IL_005f;
 		}
 	}
@@ -26469,12 +26469,12 @@ IL_002f_1:
 CATCH_0031:
 	{
 		Exception_t* L_6 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:676>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:676>
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:678>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:679>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:680>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:681>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:678>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:679>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:680>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:681>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_7;
 		NullCheck(L_8);
@@ -26497,14 +26497,14 @@ CATCH_0031:
 		ArrayElementTypeCheck (L_12, L_14);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_14);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8992F3CBA8F2078B41761C21CAA4AB9DE6F0E5B8)), L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:682>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:682>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_005f;
 	}
 
 IL_005f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:683>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:683>
 		return;
 	}
 }
@@ -26524,7 +26524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ShowDebugAnchorsDebugger_m
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:693>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:693>
 			bool L_0 = ___0_isOn;
 			if (!L_0)
 			{
@@ -26532,26 +26532,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ShowDebugAnchorsDebugger_m
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:695>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:696>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:697>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:698>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:699>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:700>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:701>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:702>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:703>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:704>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:705>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:706>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:707>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:708>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:709>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:710>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:711>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:712>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:713>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:714>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:695>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:696>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:697>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:698>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:699>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:700>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:701>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:702>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:703>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:704>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:705>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:706>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:707>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:708>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:709>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:710>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:711>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:712>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:713>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:714>
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 			Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)SceneDebugger_U3CShowDebugAnchorsDebuggerU3Eb__61_0_mCFC51835B5323933321710380821F377C1E79DC1_RuntimeMethod_var), NULL);
 			__this->____debugAction = L_1;
@@ -26561,21 +26561,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ShowDebugAnchorsDebugger_m
 
 IL_0017_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:718>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:718>
 			__this->____debugAction = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->____debugAction), (void*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:719>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:719>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____debugAnchor;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:720>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:720>
 			__this->____debugAnchor = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->____debugAnchor), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
 		}
 
 IL_0030_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:723>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:723>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->____debugNormal;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_4;
@@ -26586,7 +26586,7 @@ IL_0030_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:725>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:725>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->____debugNormal;
 			bool L_6 = ___0_isOn;
 			NullCheck(L_5);
@@ -26595,7 +26595,7 @@ IL_0030_1:
 
 IL_004a_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:727>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:727>
 			goto IL_007a;
 		}
 	}
@@ -26612,12 +26612,12 @@ IL_004a_1:
 CATCH_004c:
 	{
 		Exception_t* L_7 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:728>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:728>
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:730>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:731>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:732>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:733>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:730>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:731>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:732>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:733>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_8;
 		NullCheck(L_9);
@@ -26640,14 +26640,14 @@ CATCH_004c:
 		ArrayElementTypeCheck (L_13, L_15);
 		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_15);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8992F3CBA8F2078B41761C21CAA4AB9DE6F0E5B8)), L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:734>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:734>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_007a;
 	}
 
 IL_007a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:735>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:735>
 		return;
 	}
 }
@@ -26671,7 +26671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_DisplayGlobalMesh_mFC68733
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:745>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:745>
 			MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = __this->____globalMeshAnchor;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_1;
@@ -26682,22 +26682,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_DisplayGlobalMesh_mFC68733
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:747>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:748>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:749>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:747>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:748>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:749>
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = L_2;
 			NullCheck(L_3);
 			ArrayElementTypeCheck (L_3, _stringLiteralC7D6EC3F2C4B1E434FDAEFB940A024A39BB36097);
 			(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteralC7D6EC3F2C4B1E434FDAEFB940A024A39BB36097);
 			SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, _stringLiteralB5181E621ADD5872F3BD1C2ACC0B02F5762FD60C, L_3, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:750>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:750>
 			goto IL_00d0;
 		}
 
 IL_002b_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:753>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:753>
 			bool L_4 = ___0_isOn;
 			if (!L_4)
 			{
@@ -26705,7 +26705,7 @@ IL_002b_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:755>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:755>
 			bool L_5;
 			L_5 = SceneDebugger_get__roomHasChanged_m5C605E0485FAE324ACAE83E672BC1F214A4CD787(__this, NULL);
 			if (L_5)
@@ -26726,7 +26726,7 @@ IL_002b_1:
 
 IL_0043_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:757>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:757>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->____globalMeshGO;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_9;
@@ -26737,7 +26737,7 @@ IL_0043_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:759>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:759>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->____globalMeshGO;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_10, NULL);
@@ -26745,11 +26745,11 @@ IL_0043_1:
 
 IL_005b_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:762>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:763>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:764>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:765>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:766>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:762>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:763>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:764>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:765>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:766>
 			Action_2_t7FEC3B3B185F5ACDDD32FDD3F41DBFA218CC1800* L_11 = (Action_2_t7FEC3B3B185F5ACDDD32FDD3F41DBFA218CC1800*)il2cpp_codegen_object_new(Action_2_t7FEC3B3B185F5ACDDD32FDD3F41DBFA218CC1800_il2cpp_TypeInfo_var);
 			Action_2__ctor_mCF6A1999B5709A80C917E3504BB9ECAD6EBC64E3(L_11, __this, (intptr_t)((void*)SceneDebugger_U3CDisplayGlobalMeshU3Eb__62_0_m36739D8A1F14F5FE90392B8DBD411551DBDF1DCF_RuntimeMethod_var), NULL);
 			SceneDebugger_InstantiateGlobalMesh_mEA3251CEBAD861529711DD7CF1DDCE79253F6B2E(__this, L_11, NULL);
@@ -26758,7 +26758,7 @@ IL_005b_1:
 
 IL_006f_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:771>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:771>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->____globalMeshGO;
 			NullCheck(L_12);
 			MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_13;
@@ -26770,7 +26770,7 @@ IL_006f_1:
 
 IL_0082_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:777>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:777>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->____globalMeshGO;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_15;
@@ -26781,7 +26781,7 @@ IL_0082_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:779>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:779>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->____globalMeshGO;
 			NullCheck(L_16);
 			MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_17;
@@ -26792,7 +26792,7 @@ IL_0082_1:
 
 IL_00a0_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:782>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:782>
 			goto IL_00d0;
 		}
 	}
@@ -26809,13 +26809,13 @@ IL_00a0_1:
 CATCH_00a2:
 	{
 		Exception_t* L_18 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:783>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:783>
 		V_0 = L_18;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:785>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:786>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:787>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:788>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:789>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:785>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:786>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:787>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:788>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:789>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_19 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20 = L_19;
 		NullCheck(L_20);
@@ -26838,14 +26838,14 @@ CATCH_00a2:
 		ArrayElementTypeCheck (L_24, L_26);
 		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_26);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8992F3CBA8F2078B41761C21CAA4AB9DE6F0E5B8)), L_24, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:790>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:790>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00d0;
 	}
 
 IL_00d0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:791>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:791>
 		return;
 	}
 }
@@ -26870,7 +26870,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ToggleGlobalMeshCollisions
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:801>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:801>
 			MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = __this->____globalMeshAnchor;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_1;
@@ -26881,22 +26881,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ToggleGlobalMeshCollisions
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:803>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:804>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:805>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:803>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:804>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:805>
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = L_2;
 			NullCheck(L_3);
 			ArrayElementTypeCheck (L_3, _stringLiteral1D042811E054C794897D96ED924792B75B03D23D);
 			(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral1D042811E054C794897D96ED924792B75B03D23D);
 			SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, _stringLiteralB5181E621ADD5872F3BD1C2ACC0B02F5762FD60C, L_3, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:806>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:806>
 			goto IL_00d3;
 		}
 
 IL_002b_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:809>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:809>
 			bool L_4 = ___0_isOn;
 			if (!L_4)
 			{
@@ -26904,7 +26904,7 @@ IL_002b_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:811>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:811>
 			bool L_5;
 			L_5 = SceneDebugger_get__roomHasChanged_m5C605E0485FAE324ACAE83E672BC1F214A4CD787(__this, NULL);
 			if (L_5)
@@ -26925,12 +26925,12 @@ IL_002b_1:
 
 IL_0043_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:813>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:814>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:813>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:814>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 			GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_8, _stringLiteralA4DDD44D82F2066B2167CE56326B9E20DBA4E214, NULL);
 			V_0 = L_8;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:815>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:815>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = V_0;
 			NullCheck(L_9);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
@@ -26941,14 +26941,14 @@ IL_0043_1:
 			L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_11, NULL);
 			NullCheck(L_10);
 			Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_10, L_12, (bool)0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:816>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:816>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = V_0;
 			NullCheck(L_13);
 			MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_14;
 			L_14 = GameObject_AddComponent_TisMeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455_mFE0E36B3C1670C308B04C39EDC76838DD59826B7(L_13, GameObject_AddComponent_TisMeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455_mFE0E36B3C1670C308B04C39EDC76838DD59826B7_RuntimeMethod_var);
 			__this->____globalMeshCollider = L_14;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->____globalMeshCollider), (void*)L_14);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:817>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:817>
 			MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_15 = __this->____globalMeshCollider;
 			MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_16 = __this->____globalMeshAnchor;
 			NullCheck(L_16);
@@ -26961,7 +26961,7 @@ IL_0043_1:
 
 IL_0089_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:822>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:822>
 			MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_18 = __this->____globalMeshCollider;
 			NullCheck(L_18);
 			Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_18, (bool)1, NULL);
@@ -26970,7 +26970,7 @@ IL_0089_1:
 
 IL_0097_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:827>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:827>
 			MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_19 = __this->____globalMeshCollider;
 			NullCheck(L_19);
 			Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_19, (bool)0, NULL);
@@ -26978,7 +26978,7 @@ IL_0097_1:
 
 IL_00a3_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:830>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:830>
 			goto IL_00d3;
 		}
 	}
@@ -26995,13 +26995,13 @@ IL_00a3_1:
 CATCH_00a5:
 	{
 		Exception_t* L_20 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:831>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:831>
 		V_1 = L_20;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:833>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:834>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:835>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:836>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:837>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:833>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:834>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:835>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:836>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:837>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_21 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_22 = L_21;
 		NullCheck(L_22);
@@ -27024,14 +27024,14 @@ CATCH_00a5:
 		ArrayElementTypeCheck (L_26, L_28);
 		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_28);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8992F3CBA8F2078B41761C21CAA4AB9DE6F0E5B8)), L_26, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:838>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:838>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00d3;
 	}
 
 IL_00d3:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:839>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:839>
 		return;
 	}
 }
@@ -27050,7 +27050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_InstantiateGlobalMesh_mEA3
 	}
 	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:843>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:843>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = __this->____globalMeshAnchor;
 		NullCheck(L_0);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_1;
@@ -27059,13 +27059,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_InstantiateGlobalMesh_mEA3
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2;
 		L_2 = Utilities_AddBarycentricCoordinatesToMesh_mA5C93D3AB5C774410EADB4D379263CE2381D3711(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:845>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:845>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_3, _stringLiteralF13D1487D0DEEF1881DD76AC3E68AAD93D302A93, NULL);
 		__this->____globalMeshGO = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____globalMeshGO), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:846>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:847>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:846>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:847>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->____globalMeshGO;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -27084,16 +27084,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_InstantiateGlobalMesh_mEA3
 		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_8, NULL);
 		NullCheck(L_5);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_5, L_9, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:848>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:848>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->____globalMeshGO;
 		NullCheck(L_10);
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_11;
 		L_11 = GameObject_AddComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mEAB8177A64DF1A50BB7996ACEEEADCD65358AC94(L_10, GameObject_AddComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mEAB8177A64DF1A50BB7996ACEEEADCD65358AC94_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:849>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:849>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_12 = V_0;
 		NullCheck(L_11);
 		MeshFilter_set_mesh_mD2988E2D835205FD6B6CD35A61E1592844D971F8(L_11, L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:850>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:850>
 		Action_2_t7FEC3B3B185F5ACDDD32FDD3F41DBFA218CC1800* L_13 = ___0_onMeshSegmentInstantiated;
 		if (!L_13)
 		{
@@ -27110,7 +27110,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_InstantiateGlobalMesh_mEA3
 
 IL_0067:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:851>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:851>
 		return;
 	}
 }
@@ -27145,7 +27145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ExportJSON_mCA72EE8107D595
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:861>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:861>
 			bool L_0 = ___0_isOn;
 			if (!L_0)
 			{
@@ -27153,9 +27153,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ExportJSON_mCA72EE8107D595
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:863>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:863>
 			V_0 = (bool)1;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:864>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:864>
 			TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_1 = __this->___exportGlobalMeshJSONDropdown;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_2;
@@ -27166,7 +27166,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ExportJSON_mCA72EE8107D595
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:866>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:866>
 			TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_3 = __this->___exportGlobalMeshJSONDropdown;
 			NullCheck(L_3);
 			List_1_tCADFA900711C24701A9C70EE674B91FC45D42A52* L_4;
@@ -27191,9 +27191,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ExportJSON_mCA72EE8107D595
 
 IL_0045_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:868>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:869>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:870>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:868>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:869>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:870>
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_11;
 			L_11 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -27202,7 +27202,7 @@ IL_0045_1:
 			String_t* L_13;
 			L_13 = MRUK_SaveSceneToJsonString_mB9A3FB4D2D641A5946878DF579383EE143D8A1B8(L_11, L_12, (List_1_t234AB46D9CD0B2BE2DDF8B47584C253E88D20B93*)NULL, NULL);
 			V_1 = L_13;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:871>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:871>
 			il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 			DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_14;
 			L_14 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
@@ -27212,7 +27212,7 @@ IL_0045_1:
 			String_t* L_16;
 			L_16 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral74321AF70531A2481F8FD60EF83E41D6ECF1A2B6, L_15, _stringLiteral0CF6E760F4429CA66FCDDB0BC125023158962742, NULL);
 			V_2 = L_16;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:872>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:872>
 			il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 			String_t* L_17;
 			L_17 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
@@ -27221,11 +27221,11 @@ IL_0045_1:
 			String_t* L_19;
 			L_19 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_17, L_18, NULL);
 			V_3 = L_19;
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:873>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:873>
 			String_t* L_20 = V_3;
 			String_t* L_21 = V_1;
 			File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1(L_20, L_21, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:874>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:874>
 			String_t* L_22 = V_3;
 			String_t* L_23;
 			L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFE69B8C45F0414C58DD5A26EDD29EA69514F83A6, L_22, NULL);
@@ -27235,7 +27235,7 @@ IL_0045_1:
 
 IL_0098_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:876>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:876>
 			goto IL_00cb;
 		}
 	}
@@ -27252,13 +27252,13 @@ IL_0098_1:
 CATCH_009a:
 	{
 		Exception_t* L_24 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:877>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:877>
 		V_5 = L_24;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:879>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:880>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:881>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:882>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:883>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:879>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:880>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:881>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:882>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:883>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_25 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_26 = L_25;
 		NullCheck(L_26);
@@ -27281,14 +27281,14 @@ CATCH_009a:
 		ArrayElementTypeCheck (L_30, L_32);
 		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_32);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8992F3CBA8F2078B41761C21CAA4AB9DE6F0E5B8)), L_30, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:884>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:884>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00cb;
 	}
 
 IL_00cb:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:885>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:885>
 		return;
 	}
 }
@@ -27302,7 +27302,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_DebugDestructibleMeshCompo
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:893>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:893>
 		DestructibleMeshComponent_tB6211678E36005F972BCFCB4C8639368E157B83D* L_0 = ___0_destructibleMeshComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -27313,7 +27313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_DebugDestructibleMeshCompo
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:895>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:895>
 		Exception_t* L_2 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6BB7DE737F8C48501294369D136C3A0EDFCC2935)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SceneDebugger_DebugDestructibleMeshComponent_m04E960C74FB6D26E5081D26D3F95C2F5DD1AECF7_RuntimeMethod_var)));
@@ -27321,11 +27321,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_DebugDestructibleMeshCompo
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:898>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:898>
 		DestructibleMeshComponent_tB6211678E36005F972BCFCB4C8639368E157B83D* L_3 = ___0_destructibleMeshComponent;
 		NullCheck(L_3);
 		DestructibleMeshComponent_DebugDestructibleMeshComponent_m2BBB0985DFF69120FBC8031555D42EAD621B7579(L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:899>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:899>
 		return;
 	}
 }
@@ -27333,7 +27333,7 @@ IL_0014:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_DisplaySpaceMap_mD99498C1C6469ABF42F586B4F017085461DDFB9B (SceneDebugger_tB71C1DCD77BBC50D29A1A241B79DC065B9DDCC56* __this, bool ___0_isOn, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:908>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:908>
 		return;
 	}
 }
@@ -27353,7 +27353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_DisplayNavMesh_m9FC593E550
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:918>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:918>
 			bool L_0 = ___0_isOn;
 			if (!L_0)
 			{
@@ -27361,41 +27361,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_DisplayNavMesh_m9FC593E550
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:920>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:921>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:922>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:923>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:924>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:925>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:926>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:927>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:928>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:929>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:930>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:931>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:932>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:933>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:934>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:935>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:936>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:937>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:938>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:939>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:940>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:941>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:942>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:943>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:944>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:945>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:946>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:947>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:948>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:949>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:950>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:951>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:952>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:953>
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:954>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:920>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:921>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:922>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:923>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:924>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:925>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:926>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:927>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:928>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:929>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:930>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:931>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:932>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:933>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:934>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:935>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:936>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:937>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:938>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:939>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:940>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:941>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:942>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:943>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:944>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:945>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:946>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:947>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:948>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:949>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:950>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:951>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:952>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:953>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:954>
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 			Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)SceneDebugger_U3CDisplayNavMeshU3Eb__68_0_mD23D37E78E0A50569B1B69DC04A202CAA319405C_RuntimeMethod_var), NULL);
 			__this->____debugAction = L_1;
@@ -27405,18 +27405,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_DisplayNavMesh_m9FC593E550
 
 IL_0017_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:958>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:958>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____navMeshViz;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:959>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:959>
 			__this->____debugAction = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->____debugAction), (void*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL);
 		}
 
 IL_0029_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:961>
+			//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:961>
 			goto IL_0059;
 		}
 	}
@@ -27433,13 +27433,13 @@ IL_0029_1:
 CATCH_002b:
 	{
 		Exception_t* L_3 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:962>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:962>
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:964>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:965>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:966>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:967>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:968>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:964>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:965>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:966>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:967>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:968>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		NullCheck(L_5);
@@ -27462,14 +27462,14 @@ CATCH_002b:
 		ArrayElementTypeCheck (L_9, L_11);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_11);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8992F3CBA8F2078B41761C21CAA4AB9DE6F0E5B8)), L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:969>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:969>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0059;
 	}
 
 IL_0059:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:970>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:970>
 		return;
 	}
 }
@@ -27485,12 +27485,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpaceMapGPU_t8186CEF2B6DDACF5E664EBF8A39A830F
 	}
 	SpaceMapGPUU5BU5D_t271E9E806A8E726E12DA9F2767F5AEC0FB2DDB3D* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:974>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:974>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		SpaceMapGPUU5BU5D_t271E9E806A8E726E12DA9F2767F5AEC0FB2DDB3D* L_0;
 		L_0 = Object_FindObjectsByType_TisSpaceMapGPU_t8186CEF2B6DDACF5E664EBF8A39A830F72422E52_m6E4FC3435DA8749D0974BC1D3BE15076434EAA89(0, Object_FindObjectsByType_TisSpaceMapGPU_t8186CEF2B6DDACF5E664EBF8A39A830F72422E52_m6E4FC3435DA8749D0974BC1D3BE15076434EAA89_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:975>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:975>
 		SpaceMapGPUU5BU5D_t271E9E806A8E726E12DA9F2767F5AEC0FB2DDB3D* L_1 = V_0;
 		NullCheck(L_1);
 		if ((((RuntimeArray*)L_1)->max_length))
@@ -27537,7 +27537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ShowRoomDetails_m125461180
 	MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* G_B8_0 = NULL;
 	int32_t G_B10_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:980>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:980>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_0;
 		L_0 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -27597,7 +27597,7 @@ IL_001d:
 IL_0026:
 	{
 		V_0 = G_B7_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:981>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:981>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_6;
 		L_6 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -27628,8 +27628,8 @@ IL_0033:
 IL_003d:
 	{
 		V_1 = G_B10_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:982>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:983>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:982>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:983>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_10 = __this->___RoomDetails;
 		int32_t L_11 = V_1;
 		int32_t L_12 = L_11;
@@ -27639,7 +27639,7 @@ IL_003d:
 		L_15 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralD9D4172B92766670D95451A4BA6737B5D3DA2113, _stringLiteral8F5068B2D335E8255CA55B887B66F621DC8A2EA1, L_13, L_14, NULL);
 		NullCheck(L_10);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_10, L_15);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:984>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:984>
 		return;
 	}
 }
@@ -27672,7 +27672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_7;
 	memset((&V_7), 0, sizeof(V_7));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:993>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:993>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = ___0_anchor;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -27681,7 +27681,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
 		V_1 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:994>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:994>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_3 = ___0_anchor;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -27690,7 +27690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
 		L_5 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_4, NULL);
 		V_2 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:995>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:995>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_6 = ___0_anchor;
 		NullCheck(L_6);
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_7;
@@ -27704,10 +27704,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:998>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:998>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_9 = ___0_anchor;
 		SceneDebugger_CreateDebugPrefabSource_mCD5FCFD5A52DDD8F9E88E6804E1766BD294D7197(__this, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:999>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:999>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_10 = ___0_anchor;
 		NullCheck(L_10);
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_11;
@@ -27716,11 +27716,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_12;
 		L_12 = Nullable_1_get_Value_mC79E0A8A7D9E70CC7ABA0073EF626DE21DFADADB((&V_3), Nullable_1_get_Value_mC79E0A8A7D9E70CC7ABA0073EF626DE21DFADADB_RuntimeMethod_var);
 		V_4 = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1000>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1000>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = Bounds_get_size_m0699A53A55A78B3201D7270D6F338DFA91B6FAD4_inline((&V_4), NULL);
 		V_0 = L_13;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1001>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1001>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_1;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
@@ -27735,14 +27735,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 
 IL_005d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1006>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1006>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_19 = ___0_anchor;
 		SceneDebugger_CreateDebugPrefabSource_mCD5FCFD5A52DDD8F9E88E6804E1766BD294D7197(__this, L_19, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1007>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
 		L_20 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_0 = L_20;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1008>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_21 = ___0_anchor;
 		NullCheck(L_21);
 		Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_22;
@@ -27756,7 +27756,7 @@ IL_005d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1010>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1010>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_24 = ___0_anchor;
 		NullCheck(L_24);
 		Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_25;
@@ -27768,7 +27768,7 @@ IL_005d:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27;
 		L_27 = Rect_get_size_mFB990FFC0FE0152179C8C74A59E4AC258CB44267_inline((&V_7), NULL);
 		V_6 = L_27;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1011>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28 = V_6;
 		float L_29 = L_28.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_30 = V_6;
@@ -27778,7 +27778,7 @@ IL_005d:
 
 IL_00af:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1015>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1015>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = __this->____debugAnchor;
 		NullCheck(L_32);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33;
@@ -27786,7 +27786,7 @@ IL_00af:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = V_1;
 		NullCheck(L_33);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_33, L_34, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1016>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1016>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->____debugAnchor;
 		NullCheck(L_35);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36;
@@ -27794,25 +27794,25 @@ IL_00af:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_37 = V_2;
 		NullCheck(L_36);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_36, L_37, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1017>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1017>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = __this->____debugAnchor;
 		NullCheck(L_38);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_39;
 		L_39 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_38, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_0;
 		SceneDebugger_ScaleChildren_m3BF007DF4E16A327DB588EF14CDF2E4B967791F4(__this, L_39, L_40, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1018>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1018>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = __this->____debugAnchor;
 		NullCheck(L_41);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
 		L_42 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_41, NULL);
 		NullCheck(L_42);
 		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_42, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1019>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1019>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43 = __this->____debugAnchor;
 		NullCheck(L_43);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_43, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1020>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1020>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_44 = __this->____debugAnchor;
 		return L_44;
 	}
@@ -27831,7 +27831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ScaleChildren_m3BF007DF4E1
 	RuntimeObject* V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1025>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1025>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_parent;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -27873,12 +27873,12 @@ IL_0034:
 
 IL_0009_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1025>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1025>
 				RuntimeObject* L_5 = V_0;
 				NullCheck(L_5);
 				RuntimeObject* L_6;
 				L_6 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_5);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1027>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1027>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___1_localScale;
 				NullCheck(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_6, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)));
 				Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_6, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), L_7, NULL);
@@ -27886,7 +27886,7 @@ IL_0009_1:
 
 IL_001a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1025>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1025>
 				RuntimeObject* L_8 = V_0;
 				NullCheck(L_8);
 				bool L_9;
@@ -27908,7 +27908,7 @@ IL_001a_1:
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1029>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1029>
 		return;
 	}
 }
@@ -27932,7 +27932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateDebugPrefabSource_mC
 	memset((&V_2), 0, sizeof(V_2));
 	String_t* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1036>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1036>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = ___0_anchor;
 		NullCheck(L_0);
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_1;
@@ -27940,7 +27940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateDebugPrefabSource_mC
 		V_2 = L_1;
 		bool L_2;
 		L_2 = Nullable_1_get_HasValue_m6578702C98214F7F52425ADD0766109D2BE9953B_inline((&V_2), Nullable_1_get_HasValue_m6578702C98214F7F52425ADD0766109D2BE9953B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1037>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1037>
 		if (((((int32_t)L_2) == ((int32_t)0))? 1 : 0))
 		{
 			goto IL_001a;
@@ -27959,16 +27959,16 @@ IL_001a:
 IL_001f:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1038>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1038>
 		String_t* L_3 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_4, L_3, NULL);
 		__this->____debugAnchor = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugAnchor), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1039>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1039>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_5, _stringLiteralCDC5CD4F74DEB71567F5F455D2621541D2EBD31D, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1040>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1040>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = L_5;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -27979,14 +27979,14 @@ IL_001f:
 		L_9 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_8, NULL);
 		NullCheck(L_7);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_7, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1041>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1041>
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1042>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1042>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_10, _stringLiteralF8851D9BD6F74890B3B8707221A22FD5C9A3A894, NULL);
 		V_1 = L_10;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1043>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1043>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_1;
 		NullCheck(L_11);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
@@ -27997,7 +27997,7 @@ IL_001f:
 		L_14 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_13, NULL);
 		NullCheck(L_12);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_12, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1044>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1044>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_15 = ___0_anchor;
 		NullCheck(L_15);
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_16;
@@ -28011,7 +28011,7 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1046>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1046>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = V_1;
 		NullCheck(L_18);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
@@ -28022,7 +28022,7 @@ IL_001f:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_21;
 		L_21 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		SceneDebugger_CreateGridPattern_m0FB524F291067D9888C8DE92139A270E7883D8F0(__this, L_19, L_20, L_21, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1047>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1047>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = V_1;
 		NullCheck(L_22);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
@@ -28033,7 +28033,7 @@ IL_001f:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_25;
 		L_25 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((180.0f), (0.0f), (0.0f), NULL);
 		SceneDebugger_CreateGridPattern_m0FB524F291067D9888C8DE92139A270E7883D8F0(__this, L_23, L_24, L_25, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1048>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1048>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = V_1;
 		NullCheck(L_26);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
@@ -28044,7 +28044,7 @@ IL_001f:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_29;
 		L_29 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((-90.0f), (0.0f), (0.0f), NULL);
 		SceneDebugger_CreateGridPattern_m0FB524F291067D9888C8DE92139A270E7883D8F0(__this, L_27, L_28, L_29, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1049>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1049>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = V_1;
 		NullCheck(L_30);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
@@ -28055,7 +28055,7 @@ IL_001f:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_33;
 		L_33 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((90.0f), (0.0f), (0.0f), NULL);
 		SceneDebugger_CreateGridPattern_m0FB524F291067D9888C8DE92139A270E7883D8F0(__this, L_31, L_32, L_33, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1050>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1050>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = V_1;
 		NullCheck(L_34);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35;
@@ -28066,7 +28066,7 @@ IL_001f:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_37;
 		L_37 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), (-90.0f), (90.0f), NULL);
 		SceneDebugger_CreateGridPattern_m0FB524F291067D9888C8DE92139A270E7883D8F0(__this, L_35, L_36, L_37, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1051>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1051>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = V_1;
 		NullCheck(L_38);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_39;
@@ -28082,7 +28082,7 @@ IL_001f:
 
 IL_01b0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1055>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1055>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_42 = V_1;
 		NullCheck(L_42);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43;
@@ -28092,7 +28092,7 @@ IL_01b0:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_45;
 		L_45 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		SceneDebugger_CreateGridPattern_m0FB524F291067D9888C8DE92139A270E7883D8F0(__this, L_43, L_44, L_45, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1057>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1057>
 		return;
 	}
 }
@@ -28138,15 +28138,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateGridPattern_m0FB524F
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_19;
 	memset((&V_19), 0, sizeof(V_19));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1062>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1062>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = GameObject_CreatePrimitive_m13C0A691E679A83DD595913200A1DD9A906EB47B(5, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1063>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1063>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = V_0;
 		NullCheck(L_1);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_1, _stringLiteralA33DD090A43B1AA2762ADF62BDBFCF2C79FD7915, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1064>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1064>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = V_0;
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
@@ -28154,7 +28154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateGridPattern_m0FB524F
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___0_parentTransform;
 		NullCheck(L_3);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_3, L_4, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1065>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1065>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = V_0;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -28162,7 +28162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateGridPattern_m0FB524F
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___1_localOffset;
 		NullCheck(L_6);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1066>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1066>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_0;
 		NullCheck(L_8);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
@@ -28170,7 +28170,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateGridPattern_m0FB524F
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___2_localRotation;
 		NullCheck(L_9);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1067>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1067>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_0;
 		NullCheck(L_11);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
@@ -28179,14 +28179,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateGridPattern_m0FB524F
 		L_13 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		NullCheck(L_12);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_12, L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1068>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1068>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_0;
 		NullCheck(L_14);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_15;
 		L_15 = GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597(L_14, GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1070>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1070>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_16 = __this->____debugCheckerMesh;
 		bool L_17;
 		L_17 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_16, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -28196,69 +28196,69 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateGridPattern_m0FB524F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1072>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1072>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_18 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_18, NULL);
 		__this->____debugCheckerMesh = L_18;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugCheckerMesh), (void*)L_18);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1074>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1074>
 		V_1 = (0.100000001f);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1075>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1075>
 		V_2 = (-0.5f);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1076>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1076>
 		V_3 = (-0.5f);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1077>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1078>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1077>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1078>
 		int32_t L_19 = ((int32_t)50);
 		V_4 = ((int32_t)il2cpp_codegen_multiply(L_19, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1079>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1080>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1079>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1080>
 		int32_t L_20 = V_4;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_21 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_20);
 		V_5 = L_21;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1081>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1081>
 		int32_t L_22 = V_4;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_23 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)L_22);
 		V_6 = L_23;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1082>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1082>
 		int32_t L_24 = V_4;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_25 = (Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259*)(Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259*)SZArrayNew(Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259_il2cpp_TypeInfo_var, (uint32_t)L_24);
 		V_7 = L_25;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1083>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1083>
 		int32_t L_26 = V_4;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_27 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_26);
 		V_8 = L_27;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1084>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1084>
 		int32_t L_28 = V_4;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_29 = (Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD*)(Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD*)SZArrayNew(Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD_il2cpp_TypeInfo_var, (uint32_t)L_28);
 		V_9 = L_29;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1085>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1085>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_30 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_19, 6)));
 		V_10 = L_30;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1086>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1086>
 		V_11 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1087>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1087>
 		V_12 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1088>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1088>
 		V_13 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1089>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1089>
 		V_14 = 0;
 		goto IL_0243;
 	}
 
 IL_00ce:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1091>
 		int32_t L_31 = V_14;
 		V_15 = (bool)((((int32_t)((int32_t)(L_31%2))) == ((int32_t)0))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1092>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1092>
 		V_16 = 0;
 		goto IL_0234;
 	}
 
 IL_00df:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1094>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1094>
 		bool L_32 = V_15;
 		if (!L_32)
 		{
@@ -28266,15 +28266,15 @@ IL_00df:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1096>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1096>
 		V_18 = 0;
 		goto IL_01c3;
 	}
 
 IL_00ee:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1098>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1099>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1098>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1099>
 		float L_33 = V_2;
 		int32_t L_34 = V_14;
 		float L_35 = V_1;
@@ -28305,7 +28305,7 @@ IL_00ee:
 
 IL_011f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1103>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1103>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_19;
 		float L_41 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
@@ -28314,13 +28314,13 @@ IL_011f:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
 		L_43 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_40, L_42, NULL);
 		V_19 = L_43;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1104>
 		goto IL_016a;
 	}
 
 IL_013a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1106>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1106>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = V_19;
 		float L_45 = V_1;
 		float L_46 = V_1;
@@ -28330,13 +28330,13 @@ IL_013a:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48;
 		L_48 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_44, L_47, NULL);
 		V_19 = L_48;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1107>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1107>
 		goto IL_016a;
 	}
 
 IL_0151:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1109>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1109>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49 = V_19;
 		float L_50 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
@@ -28349,20 +28349,20 @@ IL_0151:
 
 IL_016a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1113>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1113>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_53 = V_5;
 		int32_t L_54 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55 = V_19;
 		NullCheck(L_53);
 		(L_53)->SetAt(static_cast<il2cpp_array_size_t>(L_54), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_55);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1114>
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_56 = V_6;
 		int32_t L_57 = V_11;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_58;
 		L_58 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_56);
 		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(L_57), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_58);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1115>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1115>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_59 = V_7;
 		int32_t L_60 = V_11;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_61;
@@ -28371,14 +28371,14 @@ IL_016a:
 		L_62 = Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline(L_61, NULL);
 		NullCheck(L_59);
 		(L_59)->SetAt(static_cast<il2cpp_array_size_t>(L_60), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_62);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1116>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1116>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_63 = V_8;
 		int32_t L_64 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65;
 		L_65 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
 		NullCheck(L_63);
 		(L_63)->SetAt(static_cast<il2cpp_array_size_t>(L_64), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_65);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1117>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1117>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_66 = V_9;
 		int32_t L_67 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_68;
@@ -28387,17 +28387,17 @@ IL_016a:
 		L_69 = Vector4_op_Implicit_m2ECA73F345A7AD84144133E9E51657204002B12D_inline(L_68, NULL);
 		NullCheck(L_66);
 		(L_66)->SetAt(static_cast<il2cpp_array_size_t>(L_67), (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3)L_69);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1118>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1118>
 		int32_t L_70 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_70, 1));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1096>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1096>
 		int32_t L_71 = V_18;
 		V_18 = ((int32_t)il2cpp_codegen_add(L_71, 1));
 	}
 
 IL_01c3:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1096>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1096>
 		int32_t L_72 = V_18;
 		if ((((int32_t)L_72) < ((int32_t)4)))
 		{
@@ -28405,10 +28405,10 @@ IL_01c3:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1121>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1121>
 		int32_t L_73 = V_13;
 		V_17 = ((int32_t)il2cpp_codegen_multiply(L_73, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1122>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1122>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_74 = V_10;
 		int32_t L_75 = V_12;
 		int32_t L_76 = L_75;
@@ -28416,7 +28416,7 @@ IL_01c3:
 		int32_t L_77 = V_17;
 		NullCheck(L_74);
 		(L_74)->SetAt(static_cast<il2cpp_array_size_t>(L_76), (int32_t)L_77);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1123>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1123>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_78 = V_10;
 		int32_t L_79 = V_12;
 		int32_t L_80 = L_79;
@@ -28424,7 +28424,7 @@ IL_01c3:
 		int32_t L_81 = V_17;
 		NullCheck(L_78);
 		(L_78)->SetAt(static_cast<il2cpp_array_size_t>(L_80), (int32_t)((int32_t)il2cpp_codegen_add(L_81, 2)));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1124>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1124>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_82 = V_10;
 		int32_t L_83 = V_12;
 		int32_t L_84 = L_83;
@@ -28432,7 +28432,7 @@ IL_01c3:
 		int32_t L_85 = V_17;
 		NullCheck(L_82);
 		(L_82)->SetAt(static_cast<il2cpp_array_size_t>(L_84), (int32_t)((int32_t)il2cpp_codegen_add(L_85, 1)));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1125>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1125>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_86 = V_10;
 		int32_t L_87 = V_12;
 		int32_t L_88 = L_87;
@@ -28440,7 +28440,7 @@ IL_01c3:
 		int32_t L_89 = V_17;
 		NullCheck(L_86);
 		(L_86)->SetAt(static_cast<il2cpp_array_size_t>(L_88), (int32_t)L_89);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1126>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1126>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_90 = V_10;
 		int32_t L_91 = V_12;
 		int32_t L_92 = L_91;
@@ -28448,7 +28448,7 @@ IL_01c3:
 		int32_t L_93 = V_17;
 		NullCheck(L_90);
 		(L_90)->SetAt(static_cast<il2cpp_array_size_t>(L_92), (int32_t)((int32_t)il2cpp_codegen_add(L_93, 3)));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1127>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1127>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_94 = V_10;
 		int32_t L_95 = V_12;
 		int32_t L_96 = L_95;
@@ -28456,24 +28456,24 @@ IL_01c3:
 		int32_t L_97 = V_17;
 		NullCheck(L_94);
 		(L_94)->SetAt(static_cast<il2cpp_array_size_t>(L_96), (int32_t)((int32_t)il2cpp_codegen_add(L_97, 2)));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1128>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1128>
 		int32_t L_98 = V_13;
 		V_13 = ((int32_t)il2cpp_codegen_add(L_98, 1));
 	}
 
 IL_0227:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1131>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1131>
 		bool L_99 = V_15;
 		V_15 = (bool)((((int32_t)L_99) == ((int32_t)0))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1092>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1092>
 		int32_t L_100 = V_16;
 		V_16 = ((int32_t)il2cpp_codegen_add(L_100, 1));
 	}
 
 IL_0234:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1092>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1092>
 		int32_t L_101 = V_16;
 		if ((((int32_t)L_101) < ((int32_t)((int32_t)10))))
 		{
@@ -28481,14 +28481,14 @@ IL_0234:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1089>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1089>
 		int32_t L_102 = V_14;
 		V_14 = ((int32_t)il2cpp_codegen_add(L_102, 1));
 	}
 
 IL_0243:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1089>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1089>
 		int32_t L_103 = V_14;
 		if ((((int32_t)L_103) < ((int32_t)((int32_t)10))))
 		{
@@ -28496,49 +28496,49 @@ IL_0243:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1135>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1135>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_104 = __this->____debugCheckerMesh;
 		NullCheck(L_104);
 		Mesh_Clear_m0F95397EA143D31AD0B4D332E8C6FA25A7957BC0(L_104, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1136>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1136>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_105 = __this->____debugCheckerMesh;
 		NullCheck(L_105);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_105, _stringLiteralE57AE5E5FD6A383298D3AD1EE8BF44D211D9C1B3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1137>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1137>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_106 = __this->____debugCheckerMesh;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_107 = V_5;
 		NullCheck(L_106);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_106, L_107, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1138>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1138>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_108 = __this->____debugCheckerMesh;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_109 = V_6;
 		NullCheck(L_108);
 		Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617(L_108, L_109, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1139>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1139>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_110 = __this->____debugCheckerMesh;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_111 = V_7;
 		NullCheck(L_110);
 		Mesh_set_colors32_m0E4462B7A1D613E6FB15DD7584BCE5491C17820F(L_110, L_111, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1140>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1140>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_112 = __this->____debugCheckerMesh;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_113 = V_10;
 		NullCheck(L_112);
 		Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B(L_112, L_113, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1141>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1141>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_114 = __this->____debugCheckerMesh;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_115 = V_8;
 		NullCheck(L_114);
 		Mesh_set_normals_m85D73193C49211BE9FA135FF72D5749B16A4760B(L_114, L_115, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1142>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1142>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_116 = __this->____debugCheckerMesh;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_117 = V_9;
 		NullCheck(L_116);
 		Mesh_set_tangents_mF547B7E4F9C70FB7CD6168139180A70AD306169B(L_116, L_117, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1143>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1143>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_118 = __this->____debugCheckerMesh;
 		NullCheck(L_118);
 		Mesh_RecalculateNormals_m3AA2788914611444E030CA310E03E3CFE683902B(L_118, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1144>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1144>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_119 = __this->____debugCheckerMesh;
 		NullCheck(L_119);
 		Mesh_RecalculateTangents_m92AC413FAF889C5E811D86DCE0C25ED4625825EC(L_119, NULL);
@@ -28546,7 +28546,7 @@ IL_0243:
 
 IL_02cb:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1147>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1147>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_120 = V_0;
 		NullCheck(L_120);
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_121;
@@ -28554,7 +28554,7 @@ IL_02cb:
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_122 = __this->____debugCheckerMesh;
 		NullCheck(L_121);
 		MeshFilter_set_mesh_mD2988E2D835205FD6B6CD35A61E1592844D971F8(L_121, L_122, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1148>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1148>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_123 = V_0;
 		NullCheck(L_123);
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_124;
@@ -28562,7 +28562,7 @@ IL_02cb:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_125 = __this->____checkerMeshMaterial;
 		NullCheck(L_124);
 		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(L_124, L_125, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1149>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1149>
 		return;
 	}
 }
@@ -28580,16 +28580,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateDebugPrimitives_m979
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1156>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1156>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = GameObject_CreatePrimitive_m13C0A691E679A83DD595913200A1DD9A906EB47B(3, NULL);
 		__this->____debugCube = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugCube), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1157>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1157>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->____debugCube;
 		NullCheck(L_1);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_1, _stringLiteralACE7829E16349F203A8192AC14857C772F656B65, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1158>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1158>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____debugCube;
 		NullCheck(L_2);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_3;
@@ -28597,7 +28597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateDebugPrimitives_m979
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = __this->____debugMaterial;
 		NullCheck(L_3);
 		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1159>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1159>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->____debugCube;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -28607,27 +28607,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateDebugPrimitives_m979
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_7), (0.100000001f), (0.100000001f), (0.100000001f), NULL);
 		NullCheck(L_6);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1160>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1160>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->____debugCube;
 		NullCheck(L_8);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_9;
 		L_9 = GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597(L_8, GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597_RuntimeMethod_var);
 		NullCheck(L_9);
 		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_9, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1161>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1161>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->____debugCube;
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1163>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1163>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = GameObject_CreatePrimitive_m13C0A691E679A83DD595913200A1DD9A906EB47B(0, NULL);
 		__this->____debugSphere = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugSphere), (void*)L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1164>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1164>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->____debugSphere;
 		NullCheck(L_12);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_12, _stringLiteral1FD1C48A57A783BEAA3A44B92054BCCF59865CE8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1165>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1165>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->____debugSphere;
 		NullCheck(L_13);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_14;
@@ -28635,7 +28635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateDebugPrimitives_m979
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_15 = __this->____debugMaterial;
 		NullCheck(L_14);
 		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(L_14, L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1166>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1166>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->____debugSphere;
 		NullCheck(L_16);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
@@ -28645,27 +28645,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateDebugPrimitives_m979
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_18), (0.100000001f), (0.100000001f), (0.100000001f), NULL);
 		NullCheck(L_17);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_17, L_18, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1167>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1167>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->____debugSphere;
 		NullCheck(L_19);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_20;
 		L_20 = GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597(L_19, GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597_RuntimeMethod_var);
 		NullCheck(L_20);
 		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_20, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1168>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1168>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->____debugSphere;
 		NullCheck(L_21);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1170>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1170>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
 		L_22 = GameObject_CreatePrimitive_m13C0A691E679A83DD595913200A1DD9A906EB47B(2, NULL);
 		__this->____debugNormal = L_22;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugNormal), (void*)L_22);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1171>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1171>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->____debugNormal;
 		NullCheck(L_23);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_23, _stringLiteral7A4D24BFDC4CD2ECBBD8DF5FA28B5A07E1E9E652, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1172>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1172>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->____debugNormal;
 		NullCheck(L_24);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_25;
@@ -28673,7 +28673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateDebugPrimitives_m979
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_26 = __this->____debugMaterial;
 		NullCheck(L_25);
 		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(L_25, L_26, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1173>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1173>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = __this->____debugNormal;
 		NullCheck(L_27);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
@@ -28683,18 +28683,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_CreateDebugPrimitives_m979
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_29), (0.0199999996f), (0.100000001f), (0.0199999996f), NULL);
 		NullCheck(L_28);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_28, L_29, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1174>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1174>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = __this->____debugNormal;
 		NullCheck(L_30);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_31;
 		L_31 = GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597(L_30, GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597_RuntimeMethod_var);
 		NullCheck(L_31);
 		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_31, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1175>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1175>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = __this->____debugNormal;
 		NullCheck(L_32);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_32, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1176>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1176>
 		return;
 	}
 }
@@ -28713,53 +28713,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_SetupCheckerMeshMaterial_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1180>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1180>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0 = ___0_debugShader;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_1, L_0, NULL);
 		__this->____checkerMeshMaterial = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____checkerMeshMaterial), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1181>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1181>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->____checkerMeshMaterial;
 		NullCheck(L_2);
 		Material_SetOverrideTag_mD68833CD28EBAF71CB6AF127B38075629B74FE08(L_2, _stringLiteralCCE1912E091B2153DFAE28F4F55D34CD3C4EF3D4, _stringLiteralF318A9CBF6133558944579D6309707D3FF4760E1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1182>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1182>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = __this->____checkerMeshMaterial;
 		int32_t L_4 = __this->____srcBlend;
 		NullCheck(L_3);
 		Material_SetInt_m9C05C9D7C152CFCC48F8572710F89DDAC9277E39(L_3, L_4, 5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1183>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1183>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->____checkerMeshMaterial;
 		int32_t L_6 = __this->____dstBlend;
 		NullCheck(L_5);
 		Material_SetInt_m9C05C9D7C152CFCC48F8572710F89DDAC9277E39(L_5, L_6, 1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1184>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1184>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = __this->____checkerMeshMaterial;
 		int32_t L_8 = __this->____zWrite;
 		NullCheck(L_7);
 		Material_SetInt_m9C05C9D7C152CFCC48F8572710F89DDAC9277E39(L_7, L_8, 0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1185>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1185>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = __this->____checkerMeshMaterial;
 		int32_t L_10 = __this->____cull;
 		NullCheck(L_9);
 		Material_SetInt_m9C05C9D7C152CFCC48F8572710F89DDAC9277E39(L_9, L_10, 2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1186>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1186>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11 = __this->____checkerMeshMaterial;
 		NullCheck(L_11);
 		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_11, _stringLiteralCBCD3D866AF896F9B010A0FEE7F961DBC91A08C5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1187>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1187>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_12 = __this->____checkerMeshMaterial;
 		NullCheck(L_12);
 		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_12, _stringLiteral52CBE4A5A42509939BB9DB58A4B9A2C9BBA81C1C, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1188>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1188>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13 = __this->____checkerMeshMaterial;
 		NullCheck(L_13);
 		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_13, _stringLiteral61304A4D1A7F7C3C856F975F251F1F79885933C8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1189>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1189>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = __this->____checkerMeshMaterial;
 		NullCheck(L_14);
 		Material_set_renderQueue_mFBB72A781DCCF0D4B85670B597788EC2D02D1C14(L_14, ((int32_t)3000), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1190>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1190>
 		return;
 	}
 }
@@ -28773,7 +28773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ShowHitNormal_m654D89697C1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1199>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1199>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____debugNormal;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -28806,11 +28806,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ShowHitNormal_m654D89697C1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1201>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1201>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->____debugNormal;
 		NullCheck(L_8);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1202>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1202>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->____debugNormal;
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
@@ -28824,8 +28824,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ShowHitNormal_m654D89697C1
 		L_14 = Quaternion_FromToRotation_mCB3100F93637E72455388B901C36EF8A25DFDB9A(L_12, L_13, NULL);
 		NullCheck(L_10);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_10, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1203>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1204>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1203>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1204>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->____debugNormal;
 		NullCheck(L_15);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
@@ -28859,11 +28859,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ShowHitNormal_m654D89697C1
 
 IL_009d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1208>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1208>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = __this->____debugNormal;
 		NullCheck(L_28);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_28, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1210>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1210>
 		return;
 	}
 }
@@ -28877,7 +28877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_SetLogsText_mE8FD7C8B38FD4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1214>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1214>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___logs;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -28888,7 +28888,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_SetLogsText_mE8FD7C8B38FD4
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1216>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1216>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___logs;
 		String_t* L_3 = ___0_logsText;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = ___1_args;
@@ -28900,7 +28900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_SetLogsText_mE8FD7C8B38FD4
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1218>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1218>
 		return;
 	}
 }
@@ -28919,7 +28919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ActivateTab_mA2FECEF0F0CE0
 	Enumerator_t15AF13FA75565F9629796CC258747D11849767F6 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1226>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1226>
 		List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* L_0 = __this->___Tabs;
 		NullCheck(L_0);
 		Enumerator_t15AF13FA75565F9629796CC258747D11849767F6 L_1;
@@ -28944,10 +28944,10 @@ FINALLY_002b:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1226>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1226>
 				Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2;
 				L_2 = Enumerator_get_Current_mC846CF3F39E06E087C213979336CCD0B7CEC2912_inline((&V_0), Enumerator_get_Current_mC846CF3F39E06E087C213979336CCD0B7CEC2912_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1228>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1228>
 				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = __this->____backgroundColor;
 				NullCheck(L_2);
 				VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_2, L_3);
@@ -28955,7 +28955,7 @@ IL_000e_1:
 
 IL_0020_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1226>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1226>
 				bool L_4;
 				L_4 = Enumerator_MoveNext_mEBF1AD15094FDCFB5E08A44EA323DA7A924C782C((&V_0), Enumerator_MoveNext_mEBF1AD15094FDCFB5E08A44EA323DA7A924C782C_RuntimeMethod_var);
 				if (L_4)
@@ -28975,12 +28975,12 @@ IL_0020_1:
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1231>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1231>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = ___0_selectedTab;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = __this->____foregroundColor;
 		NullCheck(L_5);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_5, L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1232>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1232>
 		return;
 	}
 }
@@ -29000,7 +29000,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ActivateMenu_m480629113D3A
 	memset((&V_0), 0, sizeof(V_0));
 	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1240>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1240>
 		List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35* L_0 = __this->___Menus;
 		NullCheck(L_0);
 		Enumerator_tDF323F6BC6F0BD666DA068DB0CFAAA8D97E64C65 L_1;
@@ -29025,18 +29025,18 @@ FINALLY_0029:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1240>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1240>
 				CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_2;
 				L_2 = Enumerator_get_Current_m3BF6AE69DCAB3B535E339F45C79758B33FA37769_inline((&V_0), Enumerator_get_Current_m3BF6AE69DCAB3B535E339F45C79758B33FA37769_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1242>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1242>
 				CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_3 = V_1;
 				SceneDebugger_ToggleCanvasGroup_m62C5712424915E048EE06B16F0F84E0391A7E370(__this, L_3, (bool)0, NULL);
 			}
 
 IL_001e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1240>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1240>
 				bool L_4;
 				L_4 = Enumerator_MoveNext_mAC97891BBEDBE14C62BD90E80D0F8A5C811424F3((&V_0), Enumerator_MoveNext_mAC97891BBEDBE14C62BD90E80D0F8A5C811424F3_RuntimeMethod_var);
 				if (L_4)
@@ -29056,10 +29056,10 @@ IL_001e_1:
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1245>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1245>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_5 = ___0_menuToActivate;
 		SceneDebugger_ToggleCanvasGroup_m62C5712424915E048EE06B16F0F84E0391A7E370(__this, L_5, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1246>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1246>
 		return;
 	}
 }
@@ -29071,12 +29071,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ToggleCanvasGroup_m62C5712
 	float G_B3_0 = 0.0f;
 	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* G_B3_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1251>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1251>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = ___0_canvasGroup;
 		bool L_1 = ___1_shouldShow;
 		NullCheck(L_0);
 		CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1252>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1252>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_2 = ___0_canvasGroup;
 		bool L_3 = ___1_shouldShow;
 		if (L_3)
@@ -29102,12 +29102,12 @@ IL_0017:
 	{
 		NullCheck(G_B3_1);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(G_B3_1, G_B3_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1253>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1253>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_4 = ___0_canvasGroup;
 		bool L_5 = ___1_shouldShow;
 		NullCheck(L_4);
 		CanvasGroup_set_blocksRaycasts_m6C17F35782D16AE3FC42FCD1A4D68E1C4A4776E0(L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1254>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1254>
 		return;
 	}
 }
@@ -29125,7 +29125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_Billboard_m4DF04DDE731CAD7
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1258>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1258>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_0 = __this->____canvas;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -29136,13 +29136,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_Billboard_m4DF04DDE731CAD7
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1260>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1260>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1263>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1263>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_2 = __this->____canvas;
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
@@ -29163,7 +29163,7 @@ IL_000e:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_4, L_8, NULL);
 		V_0 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1264>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1264>
 		float L_10;
 		L_10 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_0), NULL);
 		if ((!(((float)L_10) > ((float)(0.00999999978f)))))
@@ -29172,12 +29172,12 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1266>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1266>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12;
 		L_12 = Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7(L_11, NULL);
 		V_1 = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1267>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1267>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_13 = __this->____canvas;
 		NullCheck(L_13);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
@@ -29189,7 +29189,7 @@ IL_000e:
 
 IL_005f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1269>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1269>
 		return;
 	}
 }
@@ -29203,7 +29203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ToggleMenu_m0D370C0B82DFB0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1273>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1273>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_0 = __this->____canvas;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -29214,13 +29214,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_ToggleMenu_m0D370C0B82DFB0
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1275>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1275>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1278>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1278>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_2 = __this->____canvas;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
@@ -29228,12 +29228,12 @@ IL_000e:
 		bool L_4 = ___0_active;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1279>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1279>
 		RuntimeObject* L_5;
 		L_5 = SceneDebugger_SnapCanvasInFrontOfCamera_mBCEE863D4A8752E7EFBE0925272AFFD1EEDC1F03(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
 		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1280>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1280>
 		return;
 	}
 }
@@ -29276,49 +29276,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger__ctor_m7B0E13FB00669549642
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:50>
 		__this->___MoveCanvasInFrontOfCamera = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:71>
 		List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* L_0 = (List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19*)il2cpp_codegen_object_new(List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19_il2cpp_TypeInfo_var);
 		List_1__ctor_mA5D3E81247285DDDD6E376A91AA3E796BB0BB36D(L_0, List_1__ctor_mA5D3E81247285DDDD6E376A91AA3E796BB0BB36D_RuntimeMethod_var);
 		__this->___Tabs = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Tabs), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:74>
 		List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35* L_1 = (List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35*)il2cpp_codegen_object_new(List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35_il2cpp_TypeInfo_var);
 		List_1__ctor_mD6D6614AA543DB0820DB39921F6B46305B99A15D(L_1, List_1__ctor_mD6D6614AA543DB0820DB39921F6B46305B99A15D_RuntimeMethod_var);
 		__this->___Menus = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Menus), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:88>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_2), (0.203899994f), (0.254900008f), (0.294099987f), (1.0f), NULL);
 		__this->____foregroundColor = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:89>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_3), (0.111759998f), (0.156800002f), (0.184300005f), (1.0f), NULL);
 		__this->____backgroundColor = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:90>
 		int32_t L_4;
 		L_4 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral3708CDBCC9F390AB99D52FE7DEE4724401B69B9F, NULL);
 		__this->____srcBlend = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:91>
 		int32_t L_5;
 		L_5 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral73B13DE9817379145386BC6ECC87E983FC8ED41A, NULL);
 		__this->____dstBlend = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:92>
 		int32_t L_6;
 		L_6 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteralB25CF1C6B74339FBFCE846454A70688CE58C094C, NULL);
 		__this->____zWrite = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:93>
 		int32_t L_7;
 		L_7 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral181BB4565C7AA61CC8716A421960A53BA01AEE22, NULL);
 		__this->____cull = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:94>
 		int32_t L_8;
 		L_8 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral47A3FAF17D89549FD0F0ECA7370B81F7C80DFCDE, NULL);
 		__this->____color = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:95>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_9 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_9, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->____debugAnchors = L_9;
@@ -29354,15 +29354,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_U3CGetClosestSeatPoseDebug
 	MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* G_B4_0 = NULL;
 	MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:440>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:440>
 		V_0 = (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A*)NULL;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:441>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:441>
 		il2cpp_codegen_initobj((&V_1), sizeof(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:442>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:442>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_0;
 		L_0 = SceneDebugger_GetControllerRay_m043998A0C7A9463D456FE84EBE0B99C27E8428C8(__this, NULL);
 		V_2 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:443>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:443>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_1;
 		L_1 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -29405,7 +29405,7 @@ IL_0027:
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:444>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:444>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -29416,7 +29416,7 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:446>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:446>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->____debugCube;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -29427,7 +29427,7 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:448>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:448>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->____debugCube;
 		NullCheck(L_11);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
@@ -29441,7 +29441,7 @@ IL_0032:
 		L_15 = Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77(L_14, NULL);
 		NullCheck(L_12);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_12, L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:449>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:449>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->____debugCube;
 		NullCheck(L_16);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
@@ -29450,7 +29450,7 @@ IL_0032:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = L_18.___position;
 		NullCheck(L_17);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_17, L_19, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:450>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:450>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->____debugCube;
 		NullCheck(L_20);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -29464,12 +29464,12 @@ IL_0032:
 
 IL_00a0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:453>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:454>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:455>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:456>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:457>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:458>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:453>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:454>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:455>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:456>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:457>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:458>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24 = L_23;
 		NullCheck(L_24);
@@ -29510,16 +29510,16 @@ IL_00a0:
 
 IL_00f3:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:462>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:463>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:464>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:462>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:463>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:464>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_39 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_40 = L_39;
 		NullCheck(L_40);
 		ArrayElementTypeCheck (L_40, _stringLiteral4EC6B45BDAC4A74D92BB0817668B39E00C04C608);
 		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral4EC6B45BDAC4A74D92BB0817668B39E00C04C608);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, _stringLiteral9212E2B5DDEE5CB33A303BD95F742E8396B74D07, L_40, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:466>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:466>
 		return;
 	}
 }
@@ -29555,25 +29555,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_U3CGetClosestSurfacePositi
 	MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* G_B4_0 = NULL;
 	MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:499>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:499>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_0;
 		L_0 = SceneDebugger_GetControllerRay_m043998A0C7A9463D456FE84EBE0B99C27E8428C8(__this, NULL);
 		V_4 = L_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline((&V_4), NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:500>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:500>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_1 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:501>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:501>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		V_2 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:502>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:502>
 		V_3 = (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A*)NULL;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:503>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:504>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:503>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:504>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_4;
 		L_4 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -29618,11 +29618,11 @@ IL_0034:
 
 IL_004b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:505>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:505>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_2;
 		SceneDebugger_ShowHitNormal_m654D89697C1935335B0B563EA558E51887090715(__this, L_11, L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:507>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:507>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_13 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -29633,12 +29633,12 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:509>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:510>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:511>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:512>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:513>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:514>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:509>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:510>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:511>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:512>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:513>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:514>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_15 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = L_15;
 		NullCheck(L_16);
@@ -29675,7 +29675,7 @@ IL_004b:
 
 IL_009f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:516>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:516>
 		return;
 	}
 }
@@ -29714,15 +29714,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_U3CGetBestPoseFromRaycastD
 	MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* G_B6_0 = NULL;
 	MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* G_B5_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:549>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:549>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_0;
 		L_0 = SceneDebugger_GetControllerRay_m043998A0C7A9463D456FE84EBE0B99C27E8428C8(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:550>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:550>
 		V_1 = (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A*)NULL;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:551>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:551>
 		V_2 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:552>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:552>
 		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_1 = __this->___positioningMethodDropdown;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -29733,7 +29733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_U3CGetBestPoseFromRaycastD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:554>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:554>
 		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_3 = __this->___positioningMethodDropdown;
 		NullCheck(L_3);
 		int32_t L_4;
@@ -29743,8 +29743,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_U3CGetBestPoseFromRaycastD
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:557>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:558>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:557>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:558>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_5;
 		L_5 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -29801,7 +29801,7 @@ IL_004e:
 IL_006b:
 	{
 		V_3 = G_B7_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:559>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:559>
 		bool L_16;
 		L_16 = Nullable_1_get_HasValue_mD480509FA4424A445023A14A65AB02D9DD7D3EA6_inline((&V_3), Nullable_1_get_HasValue_mD480509FA4424A445023A14A65AB02D9DD7D3EA6_RuntimeMethod_var);
 		if (!L_16)
@@ -29830,7 +29830,7 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:561>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:561>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->____debugCube;
 		NullCheck(L_21);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
@@ -29840,7 +29840,7 @@ IL_006b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = L_23.___position;
 		NullCheck(L_22);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_22, L_24, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:562>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:562>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->____debugCube;
 		NullCheck(L_25);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
@@ -29850,7 +29850,7 @@ IL_006b:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28 = L_27.___rotation;
 		NullCheck(L_26);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_26, L_28, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:563>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:563>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = __this->____debugCube;
 		NullCheck(L_29);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
@@ -29860,12 +29860,12 @@ IL_006b:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_31), (0.100000001f), (0.100000001f), (0.100000001f), NULL);
 		NullCheck(L_30);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_30, L_31, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:564>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:565>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:566>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:567>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:568>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:569>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:564>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:565>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:566>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:567>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:568>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:569>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_32 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_33 = L_32;
 		NullCheck(L_33);
@@ -29902,7 +29902,7 @@ IL_006b:
 
 IL_0139:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:571>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:571>
 		return;
 	}
 }
@@ -29930,15 +29930,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_U3CRayCastDebuggerU3Eb__59
 	MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* G_B4_0 = NULL;
 	MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:605>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:605>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_0;
 		L_0 = SceneDebugger_GetControllerRay_m043998A0C7A9463D456FE84EBE0B99C27E8428C8(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:606>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:606>
 		il2cpp_codegen_initobj((&V_1), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:607>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:607>
 		V_2 = (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A*)NULL;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:608>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:608>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_1;
 		L_1 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -29981,13 +29981,13 @@ IL_0027:
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:609>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:609>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_1), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_1), NULL);
 		SceneDebugger_ShowHitNormal_m654D89697C1935335B0B563EA558E51887090715(__this, L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:610>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:610>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_9 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -29998,12 +29998,12 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:612>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:613>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:614>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:615>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:616>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:617>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:612>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:613>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:614>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:615>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:616>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:617>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = L_11;
 		NullCheck(L_12);
@@ -30038,7 +30038,7 @@ IL_0037:
 
 IL_0094:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:619>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:619>
 		return;
 	}
 }
@@ -30080,11 +30080,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_U3CIsPositionInRoomDebugge
 	memset((&G_B10_0), 0, sizeof(G_B10_0));
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B10_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:654>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:654>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_0;
 		L_0 = SceneDebugger_GetControllerRay_m043998A0C7A9463D456FE84EBE0B99C27E8428C8(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:655>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:655>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->____debugSphere;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -30095,8 +30095,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_U3CIsPositionInRoomDebugge
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:657>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:658>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:657>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:658>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_3;
 		L_3 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -30156,7 +30156,7 @@ IL_0040:
 IL_005b:
 	{
 		V_1 = G_B6_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:659>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:659>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->____debugSphere;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -30165,8 +30165,8 @@ IL_005b:
 		L_16 = Ray_GetPoint_mAF4E1D38026156E6434EF2BED2420ED5236392AF((&V_0), (0.200000003f), NULL);
 		NullCheck(L_15);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_15, L_16, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:660>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:661>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:660>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:661>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->____debugSphere;
 		NullCheck(L_17);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_18;
@@ -30215,11 +30215,11 @@ IL_00a6:
 	{
 		NullCheck(G_B10_1);
 		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(G_B10_1, G_B10_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:662>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:663>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:664>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:665>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:666>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:662>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:663>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:664>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:665>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:666>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_25 = L_24;
 		NullCheck(L_25);
@@ -30250,7 +30250,7 @@ IL_00a6:
 
 IL_00e5:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:668>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:668>
 		return;
 	}
 }
@@ -30278,15 +30278,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_U3CShowDebugAnchorsDebugge
 	MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* G_B4_0 = NULL;
 	MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:697>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:697>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_0;
 		L_0 = SceneDebugger_GetControllerRay_m043998A0C7A9463D456FE84EBE0B99C27E8428C8(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:698>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:698>
 		il2cpp_codegen_initobj((&V_1), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:699>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:699>
 		V_2 = (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A*)NULL;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:700>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:700>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_1;
 		L_1 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -30329,7 +30329,7 @@ IL_0027:
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:701>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:701>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_7 = __this->____previousShownDebugAnchor;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_8 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -30351,17 +30351,17 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:703>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:703>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->____debugAnchor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:704>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:704>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_13 = V_2;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = SceneDebugger_GenerateDebugAnchor_m0DA65D93B4022A271025E909D4D697000B8E9CAC(__this, L_13, NULL);
 		__this->____debugAnchor = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugAnchor), (void*)L_14);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:705>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:705>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_15 = V_2;
 		__this->____previousShownDebugAnchor = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____previousShownDebugAnchor), (void*)L_15);
@@ -30369,17 +30369,17 @@ IL_0037:
 
 IL_006d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:708>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:708>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
 		L_16 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_1), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_1), NULL);
 		SceneDebugger_ShowHitNormal_m654D89697C1935335B0B563EA558E51887090715(__this, L_16, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:709>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:710>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:711>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:712>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:713>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:709>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:710>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:711>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:712>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:713>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_19 = L_18;
 		NullCheck(L_19);
@@ -30402,7 +30402,7 @@ IL_006d:
 		ArrayElementTypeCheck (L_24, L_27);
 		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_27);
 		SceneDebugger_SetLogsText_mE8FD7C8B38FD43FA047BDF089124731AA3B9BAF4(__this, _stringLiteralE6F315C73B335933AD701F6BCB124234B8C26BF7, L_24, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:714>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:714>
 		return;
 	}
 }
@@ -30416,16 +30416,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_U3CDisplayGlobalMeshU3Eb__
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:764>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:764>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_globalMeshSegmentGO;
 		NullCheck(L_0);
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_1;
 		L_1 = GameObject_AddComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_mCDD3E77673305199F52C772AE8C7952F3864740D(L_0, GameObject_AddComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_mCDD3E77673305199F52C772AE8C7952F3864740D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:765>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:765>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___visualHelperMaterial;
 		NullCheck(L_1);
 		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:766>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:766>
 		return;
 	}
 }
@@ -30459,11 +30459,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_U3CDisplayNavMeshU3Eb__68_
 	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* G_B9_1 = NULL;
 	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* G_B9_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:922>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:922>
 		NavMeshTriangulation_t2687D3B50F20D219D7574FBA101193EF5A2945DB L_0;
 		L_0 = NavMesh_CalculateTriangulation_mC26182DC4A36B2AE0817515601C9CC451EE1C8D4(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:923>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:923>
 		NavMeshTriangulation_t2687D3B50F20D219D7574FBA101193EF5A2945DB L_1 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = L_1.___areas;
 		NullCheck(L_2);
@@ -30486,13 +30486,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneDebugger_U3CDisplayNavMeshU3Eb__68_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:925>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:925>
 		return;
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:930>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:930>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->____navMeshViz;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -30503,18 +30503,18 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:932>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:932>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_11, _stringLiteral641FAE63F958AEC259211A60724502008BBF2CD0, NULL);
 		__this->____navMeshViz = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____navMeshViz), (void*)L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:933>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:933>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->____navMeshViz;
 		NullCheck(L_12);
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_13;
 		L_13 = GameObject_AddComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_mCDD3E77673305199F52C772AE8C7952F3864740D(L_12, GameObject_AddComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_mCDD3E77673305199F52C772AE8C7952F3864740D_RuntimeMethod_var);
 		V_1 = L_13;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:934>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:934>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->____navMeshViz;
 		NullCheck(L_14);
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_15;
@@ -30525,26 +30525,26 @@ IL_0029:
 
 IL_0060:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:938>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:938>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->____navMeshViz;
 		NullCheck(L_16);
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_17;
 		L_17 = GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D(L_16, GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D_RuntimeMethod_var);
 		V_1 = L_17;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:939>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:939>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->____navMeshViz;
 		NullCheck(L_18);
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_19;
 		L_19 = GameObject_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mDF6525BCE37B444313BE0AA2305BDF4EB8B92FE8(L_18, GameObject_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mDF6525BCE37B444313BE0AA2305BDF4EB8B92FE8_RuntimeMethod_var);
 		V_2 = L_19;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:940>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:940>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_20 = V_2;
 		NullCheck(L_20);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_21;
 		L_21 = MeshFilter_get_mesh_m13172D7EF6682861971817D0A47EE2BE49FBCB1C(L_20, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_21, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:941>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:941>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_22 = V_2;
 		NullCheck(L_22);
 		MeshFilter_set_mesh_mD2988E2D835205FD6B6CD35A61E1592844D971F8(L_22, (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL, NULL);
@@ -30552,10 +30552,10 @@ IL_0060:
 
 IL_008a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:944>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:945>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:946>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:947>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:944>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:945>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:946>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:947>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_23 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_23, NULL);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_24 = L_23;
@@ -30590,29 +30590,29 @@ IL_00a3:
 		NullCheck(G_B9_1);
 		Mesh_set_indexFormat_mCCC7837A0916FA7A272159DA6AF984B0022488F4(G_B9_1, G_B9_0, NULL);
 		V_3 = G_B9_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:949>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:949>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_27 = V_3;
 		NavMeshTriangulation_t2687D3B50F20D219D7574FBA101193EF5A2945DB L_28 = V_0;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_29 = L_28.___vertices;
 		NullCheck(L_27);
 		Mesh_SetVertices_m881F2A14D298007BFCCFA5FE03825BCCD0B19D12(L_27, L_29, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:950>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:950>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_30 = V_3;
 		NavMeshTriangulation_t2687D3B50F20D219D7574FBA101193EF5A2945DB L_31 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_32 = L_31.___indices;
 		NullCheck(L_30);
 		Mesh_SetIndices_m2AE7ED76A6C77D218C37C011DDB948589FD45B97(L_30, L_32, 0, 0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:951>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:951>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_33 = V_1;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_34 = __this->____navMeshMaterial;
 		NullCheck(L_33);
 		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(L_33, L_34, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:952>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:952>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_35 = V_2;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_36 = V_3;
 		NullCheck(L_35);
 		MeshFilter_set_mesh_mD2988E2D835205FD6B6CD35A61E1592844D971F8(L_35, L_36, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:953>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:953>
 		NavMeshTriangulation_t2687D3B50F20D219D7574FBA101193EF5A2945DB L_37 = V_0;
 		__this->____navMeshTriangulation = L_37;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____navMeshTriangulation))->___vertices), (void*)NULL);
@@ -30622,7 +30622,7 @@ IL_00a3:
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____navMeshTriangulation))->___areas), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:954>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:954>
 		return;
 	}
 }
@@ -30636,7 +30636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SceneDebugger_U3CSnapCanvasInFrontOfCame
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/SceneDebugger.cs:1285>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDebugger.cs:1285>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_0 = __this->____cameraRig;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -30676,7 +30676,7 @@ IL_002d:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackerConfiguration_get_KeyboardTrackingEnabled_m1951995A6C2B4D13DD742FD93F00DB46B7C4A948_inline (TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRAnchor/OVRAnchor.Tracker.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRAnchor/OVRAnchor.Tracker.cs:56>
 		bool L_0 = __this->___U3CKeyboardTrackingEnabledU3Ek__BackingField;
 		return L_0;
 	}
@@ -30685,7 +30685,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackerConfiguration_get_Key
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackerConfiguration_get_QRCodeTrackingEnabled_m349A12221756B20566E8B21F80E5E24A97974314_inline (TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRAnchor/OVRAnchor.Tracker.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRAnchor/OVRAnchor.Tracker.cs:93>
 		bool L_0 = __this->___U3CQRCodeTrackingEnabledU3Ek__BackingField;
 		return L_0;
 	}
@@ -30700,7 +30700,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConfigureTrackersDelegate_In
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MRUK_set_TrackerConfiguration_m52CED75C38099E936F90F9D89094B49C2232F4D7_inline (MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* __this, TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.Trackers.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.Trackers.cs:184>
 		TrackerConfiguration_t96B5658FA3B00414B7CBA6B615E8F6FD9D589F2B L_0 = ___0_value;
 		__this->___U3CTrackerConfigurationU3Ek__BackingField = L_0;
 		return;
@@ -30710,7 +30710,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MRUK_set_TrackerConfiguratio
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t234AB46D9CD0B2BE2DDF8B47584C253E88D20B93* MRUK_get_Rooms_m9565682E9C7778016A5FDF2154ACD9D22624C814_inline (MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:540>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:540>
 		List_1_t234AB46D9CD0B2BE2DDF8B47584C253E88D20B93* L_0 = __this->___U3CRoomsU3Ek__BackingField;
 		return L_0;
 	}
@@ -31189,7 +31189,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LoadSceneFromPrefabDelega
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 MRUKRoom_get_Anchor_m268BBFC01E2CD37279BF9ED0D9447D177FAE5B10_inline (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:104>
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_0 = __this->___U3CAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -31198,7 +31198,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRAnchor_tC6603E0C1628ACAA50D8CC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MRUKAnchor_get_Label_m92F9590F060E08E9BA0AD2C435DBD0AFC555E27B_inline (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:113>
 		int32_t L_0 = __this->___U3CLabelU3Ek__BackingField;
 		return L_0;
 	}
@@ -31207,7 +31207,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MRUKAnchor_get_Label_m92F
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 MRUKAnchor_get_PlaneRect_m0C358A525D83E4B51869D5247570EE9C2E5054D6_inline (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:119>
 		Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 L_0 = __this->___U3CPlaneRectU3Ek__BackingField;
 		return L_0;
 	}
@@ -31216,7 +31216,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t13F9968C978BAF968F02B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F MRUKAnchor_get_VolumeBounds_m35178817BA00531165C12E135DCE64B108026352_inline (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:125>
 		Nullable_1_t02CE5E70DFA26EDBAB3AB261067AE257C96B822F L_0 = __this->___U3CVolumeBoundsU3Ek__BackingField;
 		return L_0;
 	}
@@ -31225,7 +31225,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t02CE5E70DFA26EDBAB3AB
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 MRUKAnchor_get_Anchor_m2F20E1F4CB1A5F7D5462163038E2AC770887400C_inline (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:138>
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_0 = __this->___U3CAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -31234,7 +31234,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRAnchor_tC6603E0C1628ACAA50D8CC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t OVRAnchor_get_Handle_m0AB024A709BAD2087D8F4C899ECDA9F6909B25CB_inline (OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRAnchor/OVRAnchor.cs:1163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRAnchor/OVRAnchor.cs:1163>
 		uint64_t L_0 = __this->___U3CHandleU3Ek__BackingField;
 		return L_0;
 	}
@@ -31289,7 +31289,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ray__ctor_mE298992FD10A3894C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* MRUKAnchor_get_PlaneBoundary2D_m0DD57BA32E7689CB5D5BE1153B5087095633746C_inline (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:132>
 		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_0 = __this->___U3CPlaneBoundary2DU3Ek__BackingField;
 		return L_0;
 	}
@@ -31298,7 +31298,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t8F3790B7F8C471B3A1336522C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* MRUKAnchor_get_ChildAnchors_m5CAF5AB3F1A09C7ABB57B17D91978D868E71379A_inline (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:163>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0 = __this->___U3CChildAnchorsU3Ek__BackingField;
 		return L_0;
 	}
@@ -31839,7 +31839,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* MRUKRoom_get_FloorAnchors_m6A53415ACB6DEA4EAB7805A780B7D07B344EC05C_inline (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:164>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0 = __this->___U3CFloorAnchorsU3Ek__BackingField;
 		return L_0;
 	}
@@ -31848,7 +31848,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* MRUKRoom_get_CeilingAnchors_mD0B2654E592D51902092DDF234323B71509C22E1_inline (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:179>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0 = __this->___U3CCeilingAnchorsU3Ek__BackingField;
 		return L_0;
 	}
@@ -31857,7 +31857,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* MRUKRoom_get_AnchorCreatedEvent_m6012A15AB4E3DF30E9B7FCB0A9AB1854F424F280_inline (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:242>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:242>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0 = __this->___U3CAnchorCreatedEventU3Ek__BackingField;
 		return L_0;
 	}
@@ -31866,7 +31866,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnityEvent_1_t1D3C02D04EE23266606
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* MRUKRoom_get_AnchorUpdatedEvent_m3E714A46C401313B72AD4F199BDDFF17DDD84253_inline (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:248>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0 = __this->___U3CAnchorUpdatedEventU3Ek__BackingField;
 		return L_0;
 	}
@@ -31875,7 +31875,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnityEvent_1_t1D3C02D04EE23266606
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* MRUKRoom_get_AnchorRemovedEvent_mD286DC9E1198AF9B8A00301B0CADA92E0EE40140_inline (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:253>
 		UnityEvent_1_t1D3C02D04EE232666061F94B4CE357A178555246* L_0 = __this->___U3CAnchorRemovedEventU3Ek__BackingField;
 		return L_0;
 	}
@@ -31884,7 +31884,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnityEvent_1_t1D3C02D04EE23266606
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* MRUKRoom_get_Anchors_m6ACE8EDEBA291042564F5044413ACCD6D1119EE8_inline (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:141>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0 = __this->___U3CAnchorsU3Ek__BackingField;
 		return L_0;
 	}
@@ -31893,7 +31893,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Guid_t OVRAnchor_get_Uuid_mB4A38F13C1AA2C5F8DC98BFED64D55DE34F4059D_inline (OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRAnchor/OVRAnchor.cs:1171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRAnchor/OVRAnchor.cs:1171>
 		Guid_t L_0 = __this->___U3CUuidU3Ek__BackingField;
 		return L_0;
 	}
@@ -31902,7 +31902,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Guid_t OVRAnchor_get_Uuid_mB4A38F
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MRUKRoom_set_GlobalMeshAnchor_m47C8D047BA0E8F81571415A598488421869CEC0C_inline (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:185>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = ___0_value;
 		__this->___U3CGlobalMeshAnchorU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CGlobalMeshAnchorU3Ek__BackingField), (void*)L_0);
@@ -31913,7 +31913,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MRUKRoom_set_GlobalMeshAncho
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* MRUKRoom_get_WallAnchors_mFC85B7AE976E9BA8E912A64788AB1CC298538B45_inline (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:149>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0 = __this->___U3CWallAnchorsU3Ek__BackingField;
 		return L_0;
 	}
@@ -31922,7 +31922,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* MRUKRoom_get_GlobalMeshAnchor_m0DD0478E1BA99D5B4E768F5F9A52B3D79860955F_inline (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:185>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = __this->___U3CGlobalMeshAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -31931,7 +31931,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B88662
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* MRUKRoom_get_SeatPoses_m5CB178682E84413383AAB6D7A0237C378F38E268_inline (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:219>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:219>
 		List_1_t0DE8C21A883B7B2AF36C8BD99983C700B4973A0A* L_0 = __this->___U3CSeatPosesU3Ek__BackingField;
 		return L_0;
 	}
@@ -31946,7 +31946,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MRUK_tD09615374DB9F7EFEEE6BA25E2F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:549>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:549>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_0 = ((MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_StaticFields*)il2cpp_codegen_static_fields_for(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
 		return L_0;
@@ -31956,7 +31956,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MRUK_tD09615374DB9F7EFEEE6BA25E2F
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CouchSeat_set_couchAnchor_m380C2D21C1546A1115C19DDFEACA39745A1F3045_inline (CouchSeat_t0954FB0459F10F25153D073DC0920F9881C1278C* __this, MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:206>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = ___0_value;
 		__this->___U3CcouchAnchorU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcouchAnchorU3Ek__BackingField), (void*)L_0);
@@ -31967,7 +31967,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CouchSeat_set_couchAnchor_m3
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CouchSeat_set_couchPoses_m3C024844F3CD44F7FD3C49453262D0C24DF77343_inline (CouchSeat_t0954FB0459F10F25153D073DC0920F9881C1278C* __this, List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:210>
 		List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* L_0 = ___0_value;
 		__this->___U3CcouchPosesU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcouchPosesU3Ek__BackingField), (void*)L_0);
@@ -32001,7 +32001,7 @@ IL_0009:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* CouchSeat_get_couchPoses_mDFFD83529610FE6790219508B9C0E2114179A0DA_inline (CouchSeat_t0954FB0459F10F25153D073DC0920F9881C1278C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:210>
 		List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* L_0 = __this->___U3CcouchPosesU3Ek__BackingField;
 		return L_0;
 	}
@@ -32278,7 +32278,7 @@ IL_001b:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* CouchSeat_get_couchAnchor_m3325EEDE75C2FFBBC00FC90BE165709106042CB2_inline (CouchSeat_t0954FB0459F10F25153D073DC0920F9881C1278C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:206>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = __this->___U3CcouchAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -32287,7 +32287,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B88662
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* MRUKAnchor_get_ParentAnchor_mBDF951A7E20F7B98D8DD664665E66BA72ABAF0AA_inline (MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKAnchor.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKAnchor.cs:156>
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_0 = __this->___U3CParentAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -32612,7 +32612,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_centerEyeAnchor_mAD81013ECF2681FB19E07FFF32861CD7F4BA2357_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRCameraRig.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRCameraRig.cs:75>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___U3CcenterEyeAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -32621,7 +32621,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_rightControllerAnchor_mF14AEB62D422D3570CCAE0F62F0C955C12AD7594_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRCameraRig.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRCameraRig.cs:130>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___U3CrightControllerAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -32630,7 +32630,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_leftControllerAnchor_m0757202E2FCE3F39E1E8E8A1CFABFB1645596538_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRCameraRig.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRCameraRig.cs:125>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___U3CleftControllerAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -32639,7 +32639,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_trackingSpace_m76339871C7804C1BD14283FBF3D91268D4D87550_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRCameraRig.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRCameraRig.cs:65>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___U3CtrackingSpaceU3Ek__BackingField;
 		return L_0;
 	}
@@ -32648,7 +32648,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_rightHandOnControllerAnchor_m2222FB11DDA9B18E2C06E7DC3A0589692CC6D1F3_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRCameraRig.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRCameraRig.cs:120>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___U3CrightHandOnControllerAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -32657,7 +32657,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_leftHandOnControllerAnchor_m5233B47113CB6C6877691B0683419BD9980F54E3_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRCameraRig.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRCameraRig.cs:110>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___U3CleftHandOnControllerAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -32666,7 +32666,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_rightHandAnchor_mF2D328A04338A8119F3BE6EE09FE66965258A26D_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRCameraRig.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRCameraRig.cs:90>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___U3CrightHandAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -32921,7 +32921,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SharedRoomsData_t239BDC3567CDFEEE
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OVRNativeList_1_get_Count_m30BC7208D95503C51AA5B85F1F23D43F23649859_gshared_inline (OVRNativeList_1_tFB854861E5387BA6465D188E19757C833D86A364* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRNativeList.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRNativeList.cs:40>
 		int32_t L_0 = __this->___U3CCountU3Ek__BackingField;
 		return L_0;
 	}

@@ -8819,10 +8819,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableCompletionSource_1__ctor_mB84E0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m6F06468E4927623C5D57E825A3CBDCA7E449C609_gshared (AwaitableSource_t72E6E7336971B4FDCADFC54FF8DFB40ABFBC032B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1007>
 		NullCheck((AwaitableCompletionSource_1_t405AF2C844556DFF60F861443E3842669C2CBB62*)__this);
 		AwaitableCompletionSource_1_Reset_mB8F62E29651293E48FD618666C926BBD12294F0A((AwaitableCompletionSource_1_t405AF2C844556DFF60F861443E3842669C2CBB62*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1008>
 		return;
 	}
 }
@@ -8830,7 +8830,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m6F06468E4927623C5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnReturn_mE375CD49570D78A161734762EADC8305E893F1F8_gshared (AwaitableSource_t72E6E7336971B4FDCADFC54FF8DFB40ABFBC032B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1011>
 		return;
 	}
 }
@@ -8843,19 +8843,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_SetResultAndReturnToPool
 
 FINALLY_0009:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1021>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1021>
 				OVRObjectPool_Return_TisAwaitableSource_t72E6E7336971B4FDCADFC54FF8DFB40ABFBC032B_m4D40F8BA81F92938FFA73D7CECE877193A84CFB0(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1022>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1022>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1017>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1017>
 			OVRResult_1_t031FA996F4006B1D5E4CCDB3FFAE638C4F8C706E* L_0 = ___0_result;
 			NullCheck((AwaitableCompletionSource_1_t405AF2C844556DFF60F861443E3842669C2CBB62*)__this);
 			AwaitableCompletionSource_1_SetResult_m6659F656A0B13115F797BF9C3602DCB109496D75((AwaitableCompletionSource_1_t405AF2C844556DFF60F861443E3842669C2CBB62*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1018>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1018>
 			goto IL_0010;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -8866,7 +8866,7 @@ FINALLY_0009:
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1023>
 		return;
 	}
 }
@@ -8890,10 +8890,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource__ctor_mD27827319FB18C4A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_mB1191DF358D0B55A34706A17D2A8397AF3A2BCCE_gshared (AwaitableSource_t5BB0993511BB73C297D77D83E775DB61B29D8108* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1007>
 		NullCheck((AwaitableCompletionSource_1_t30F159D4DCF6E7A42EDF2226A1C976D08B60A8F6*)__this);
 		AwaitableCompletionSource_1_Reset_m6324BF51BE01F2A804013C14E608A1917AF36962((AwaitableCompletionSource_1_t30F159D4DCF6E7A42EDF2226A1C976D08B60A8F6*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1008>
 		return;
 	}
 }
@@ -8901,7 +8901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_mB1191DF358D0B55A3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnReturn_mEA77BB9F2E5E8E8152544F29C5889B147456242F_gshared (AwaitableSource_t5BB0993511BB73C297D77D83E775DB61B29D8108* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1011>
 		return;
 	}
 }
@@ -8914,19 +8914,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_SetResultAndReturnToPool
 
 FINALLY_0009:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1021>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1021>
 				OVRObjectPool_Return_TisAwaitableSource_t5BB0993511BB73C297D77D83E775DB61B29D8108_mF7AC93D7410E40687036F9CC03A1880FBEE72F1B(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1022>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1022>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1017>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1017>
 			OVRResult_2_t382B4FF2553AAAAEC35A420C742685395BE3C050* L_0 = ___0_result;
 			NullCheck((AwaitableCompletionSource_1_t30F159D4DCF6E7A42EDF2226A1C976D08B60A8F6*)__this);
 			AwaitableCompletionSource_1_SetResult_m01BCCE4735F5EF9E678CE826AA957A013A1F7601((AwaitableCompletionSource_1_t30F159D4DCF6E7A42EDF2226A1C976D08B60A8F6*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1018>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1018>
 			goto IL_0010;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -8937,7 +8937,7 @@ FINALLY_0009:
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1023>
 		return;
 	}
 }
@@ -8961,10 +8961,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource__ctor_mFC1CBCB102DAF6B0C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m39A663C8F28AA7FBF92F494E0569E5935278DDD6_gshared (AwaitableSource_t6EF258C72270A1362B0F15FCA63CAF9560471022* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1007>
 		NullCheck((AwaitableCompletionSource_1_tECA2144B1AAFD7C450A5AE7F5D535F8BA2ADD383*)__this);
 		AwaitableCompletionSource_1_Reset_mCDC4BF18E5364D3DFDE4D6805AA133F026D868B1((AwaitableCompletionSource_1_tECA2144B1AAFD7C450A5AE7F5D535F8BA2ADD383*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1008>
 		return;
 	}
 }
@@ -8972,7 +8972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m39A663C8F28AA7FBF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnReturn_mA4E42B78E9B426BD7EB7CC58CB4E14F397BDA923_gshared (AwaitableSource_t6EF258C72270A1362B0F15FCA63CAF9560471022* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1011>
 		return;
 	}
 }
@@ -8985,19 +8985,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_SetResultAndReturnToPool
 
 FINALLY_0009:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1021>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1021>
 				OVRObjectPool_Return_TisAwaitableSource_t6EF258C72270A1362B0F15FCA63CAF9560471022_m5E7939D5845D90BE2BBBB18947E791EF63BF2960(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1022>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1022>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1017>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1017>
 			OVRResult_2_tEE309DA87971E4B023EDEF7A804AF736830DF0C7* L_0 = ___0_result;
 			NullCheck((AwaitableCompletionSource_1_tECA2144B1AAFD7C450A5AE7F5D535F8BA2ADD383*)__this);
 			AwaitableCompletionSource_1_SetResult_m57524860826CDFFBB5D697D42088777EC880859E((AwaitableCompletionSource_1_tECA2144B1AAFD7C450A5AE7F5D535F8BA2ADD383*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1018>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1018>
 			goto IL_0010;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -9008,7 +9008,7 @@ FINALLY_0009:
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1023>
 		return;
 	}
 }
@@ -9032,10 +9032,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource__ctor_m54738D8CA45BF48AA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m48F237E7349098A96E5CA13C89FDF5FA56E03774_gshared (AwaitableSource_t2EF2C721B9206B598C8B1742ACF8ECC1D2103499* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1007>
 		NullCheck((AwaitableCompletionSource_1_t2979DBE1532E699922CF99C6FB46C7C00D6F3FF8*)__this);
 		AwaitableCompletionSource_1_Reset_m414A7AEEC32C11610D8C85F6273EA95F52BDCD56((AwaitableCompletionSource_1_t2979DBE1532E699922CF99C6FB46C7C00D6F3FF8*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1008>
 		return;
 	}
 }
@@ -9043,7 +9043,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m48F237E7349098A96
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnReturn_m0F1C2BB98D14D0FFDAED71FC68CC183E0072931E_gshared (AwaitableSource_t2EF2C721B9206B598C8B1742ACF8ECC1D2103499* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1011>
 		return;
 	}
 }
@@ -9056,19 +9056,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_SetResultAndReturnToPool
 
 FINALLY_0009:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1021>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1021>
 				OVRObjectPool_Return_TisAwaitableSource_t2EF2C721B9206B598C8B1742ACF8ECC1D2103499_m62D07A3D3BA49D2F09B87C1115C2887927FCCAFE(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1022>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1022>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1017>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1017>
 			OVRResult_2_t50B61EC2E3DFD5F81560F4ACE6984EF563BDD05E* L_0 = ___0_result;
 			NullCheck((AwaitableCompletionSource_1_t2979DBE1532E699922CF99C6FB46C7C00D6F3FF8*)__this);
 			AwaitableCompletionSource_1_SetResult_m6FE7C48F8E4A9CABDD82AADE620CE3E1B966F31A((AwaitableCompletionSource_1_t2979DBE1532E699922CF99C6FB46C7C00D6F3FF8*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1018>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1018>
 			goto IL_0010;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -9079,7 +9079,7 @@ FINALLY_0009:
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1023>
 		return;
 	}
 }
@@ -9103,10 +9103,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource__ctor_mD16FB934774A821CC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_mB0D5562E7F7459C9B8D33653B2039CB3C9841143_gshared (AwaitableSource_tD9B1D4B8F2B77C80FF618D153701273D913E8383* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1007>
 		NullCheck((AwaitableCompletionSource_1_t181A92B3A91AB639760E5A274F687FFECB56C99E*)__this);
 		AwaitableCompletionSource_1_Reset_m7DCD641ACF7CC78CA71B691D53B1C83C6DAC7233((AwaitableCompletionSource_1_t181A92B3A91AB639760E5A274F687FFECB56C99E*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1008>
 		return;
 	}
 }
@@ -9114,7 +9114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_mB0D5562E7F7459C9B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnReturn_m860A95CE3C0400501258D758C03B3B4EE1BB6938_gshared (AwaitableSource_tD9B1D4B8F2B77C80FF618D153701273D913E8383* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1011>
 		return;
 	}
 }
@@ -9127,19 +9127,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_SetResultAndReturnToPool
 
 FINALLY_0009:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1021>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1021>
 				OVRObjectPool_Return_TisAwaitableSource_tD9B1D4B8F2B77C80FF618D153701273D913E8383_m83EFB3931E0F73C5EF3EA26D3C4C334962D3D527(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1022>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1022>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1017>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1017>
 			ValueTuple_2_tC290D1473EEF2960484F075957B2A1F638CD9119* L_0 = ___0_result;
 			NullCheck((AwaitableCompletionSource_1_t181A92B3A91AB639760E5A274F687FFECB56C99E*)__this);
 			AwaitableCompletionSource_1_SetResult_m85E1A6D39A3AA4026177A16BBDADA93E01027DA2((AwaitableCompletionSource_1_t181A92B3A91AB639760E5A274F687FFECB56C99E*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1018>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1018>
 			goto IL_0010;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -9150,7 +9150,7 @@ FINALLY_0009:
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1023>
 		return;
 	}
 }
@@ -9174,10 +9174,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource__ctor_m20D22DE3ECA3CF4CE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_mCCA1348826C4D1C6A1DC3965DEC7A7DEBA0A609A_gshared (AwaitableSource_t77FDC50499BC226C152CBC0DEBD276E1E2BE7C3C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1007>
 		NullCheck((AwaitableCompletionSource_1_tEBAC4F9119B166D29DA46299AD40AB0E8C797BDF*)__this);
 		AwaitableCompletionSource_1_Reset_m59B5EBE720336DA12866A24275BA4B13E72B8F48((AwaitableCompletionSource_1_tEBAC4F9119B166D29DA46299AD40AB0E8C797BDF*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1008>
 		return;
 	}
 }
@@ -9185,7 +9185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_mCCA1348826C4D1C6A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnReturn_m9CFEBA20ACA3779B8ED27007B050697969578D8F_gshared (AwaitableSource_t77FDC50499BC226C152CBC0DEBD276E1E2BE7C3C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1011>
 		return;
 	}
 }
@@ -9198,19 +9198,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_SetResultAndReturnToPool
 
 FINALLY_0009:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1021>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1021>
 				OVRObjectPool_Return_TisAwaitableSource_t77FDC50499BC226C152CBC0DEBD276E1E2BE7C3C_mBBEC9E146D6EFFD4F3201F4C7E567BAB98F37559(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1022>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1022>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1017>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1017>
 			bool* L_0 = ___0_result;
 			NullCheck((AwaitableCompletionSource_1_tEBAC4F9119B166D29DA46299AD40AB0E8C797BDF*)__this);
 			AwaitableCompletionSource_1_SetResult_mD50154B01024578B2E4164799660E76A39DD4850((AwaitableCompletionSource_1_tEBAC4F9119B166D29DA46299AD40AB0E8C797BDF*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1018>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1018>
 			goto IL_0010;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -9221,7 +9221,7 @@ FINALLY_0009:
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1023>
 		return;
 	}
 }
@@ -9245,10 +9245,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource__ctor_m43496E592F4801FD5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m0AABB69CEE18088C3069196DD18F68F88721FBD1_gshared (AwaitableSource_t0592DED747B7DE09A5B04E41DDE543C6432E8198* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1007>
 		NullCheck((AwaitableCompletionSource_1_t6630D74FBA2C3A62A89E8F47D9F2B863EE44CA37*)__this);
 		AwaitableCompletionSource_1_Reset_m3149726745BC018A88B2AEA0B44D64F89CB06E29((AwaitableCompletionSource_1_t6630D74FBA2C3A62A89E8F47D9F2B863EE44CA37*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1008>
 		return;
 	}
 }
@@ -9256,7 +9256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m0AABB69CEE18088C3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnReturn_mCCCAEF1117505B3E7137E7AB7EF735709BA8A530_gshared (AwaitableSource_t0592DED747B7DE09A5B04E41DDE543C6432E8198* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1011>
 		return;
 	}
 }
@@ -9269,19 +9269,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_SetResultAndReturnToPool
 
 FINALLY_0009:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1021>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1021>
 				OVRObjectPool_Return_TisAwaitableSource_t0592DED747B7DE09A5B04E41DDE543C6432E8198_m0605B2A03311C539884863F4E2BDB141674920EA(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1022>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1022>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1017>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1017>
 			int32_t* L_0 = ___0_result;
 			NullCheck((AwaitableCompletionSource_1_t6630D74FBA2C3A62A89E8F47D9F2B863EE44CA37*)__this);
 			AwaitableCompletionSource_1_SetResult_mF44CE7101C0978E3534CFE2347314D6C27FFA068((AwaitableCompletionSource_1_t6630D74FBA2C3A62A89E8F47D9F2B863EE44CA37*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1018>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1018>
 			goto IL_0010;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -9292,7 +9292,7 @@ FINALLY_0009:
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1023>
 		return;
 	}
 }
@@ -9316,10 +9316,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource__ctor_mF7564648037907BF1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_mFEE082B37A680F98B6ADC8321E24861D3C7384A2_gshared (AwaitableSource_tE668214077252750665928C58B84332ACB0A76F5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1007>
 		NullCheck((AwaitableCompletionSource_1_t1E0C02D6E0EC315BA7E1A2B7C8D878C5EE1A7E08*)__this);
 		AwaitableCompletionSource_1_Reset_mE52CE7BA843DD7805A8DA585FB33DA09866A803E((AwaitableCompletionSource_1_t1E0C02D6E0EC315BA7E1A2B7C8D878C5EE1A7E08*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1008>
 		return;
 	}
 }
@@ -9327,7 +9327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_mFEE082B37A680F98B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnReturn_mBF4FF20935B315444D3DAF5506AD0E9519B542FC_gshared (AwaitableSource_tE668214077252750665928C58B84332ACB0A76F5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1011>
 		return;
 	}
 }
@@ -9340,19 +9340,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_SetResultAndReturnToPool
 
 FINALLY_0009:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1021>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1021>
 				OVRObjectPool_Return_TisAwaitableSource_tE668214077252750665928C58B84332ACB0A76F5_mBD87B5377E0AAB28E0DBEB74755FC44BC11CF8E5(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1022>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1022>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1017>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1017>
 			OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061* L_0 = ___0_result;
 			NullCheck((AwaitableCompletionSource_1_t1E0C02D6E0EC315BA7E1A2B7C8D878C5EE1A7E08*)__this);
 			AwaitableCompletionSource_1_SetResult_m210F0C7995E13C9566CEA350CF429D256C9BF2AA((AwaitableCompletionSource_1_t1E0C02D6E0EC315BA7E1A2B7C8D878C5EE1A7E08*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1018>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1018>
 			goto IL_0010;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -9363,7 +9363,7 @@ FINALLY_0009:
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1023>
 		return;
 	}
 }
@@ -9387,10 +9387,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource__ctor_mA489ED67B9B1D2A86
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m1E5179E22A51793614F596DF5A33F13C9ED99290_gshared (AwaitableSource_t0D2A666AA3B6374A52DC8ABEB840C47DE7A7C07E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1007>
 		NullCheck((AwaitableCompletionSource_1_t9E4E79B06DE20B0612BE7529A86DC9C0DFAAF2EF*)__this);
 		AwaitableCompletionSource_1_Reset_m751BE5CB2A364385712BB7B453EE3BF3E0EB1D73((AwaitableCompletionSource_1_t9E4E79B06DE20B0612BE7529A86DC9C0DFAAF2EF*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1008>
 		return;
 	}
 }
@@ -9398,7 +9398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m1E5179E22A5179361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnReturn_mBF6004C7A95BA318EA9DC8DEA21FCE63233F250C_gshared (AwaitableSource_t0D2A666AA3B6374A52DC8ABEB840C47DE7A7C07E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1011>
 		return;
 	}
 }
@@ -9411,19 +9411,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_SetResultAndReturnToPool
 
 FINALLY_0009:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1021>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1021>
 				OVRObjectPool_Return_TisAwaitableSource_t0D2A666AA3B6374A52DC8ABEB840C47DE7A7C07E_mE37948EC26CE60E156D604B24EF2BF369254B14D(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1022>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1022>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1017>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1017>
 			RuntimeObject** L_0 = ___0_result;
 			NullCheck((AwaitableCompletionSource_1_t9E4E79B06DE20B0612BE7529A86DC9C0DFAAF2EF*)__this);
 			AwaitableCompletionSource_1_SetResult_mEA586A80B391623559A431ACA7E3BAEE6D4B197A((AwaitableCompletionSource_1_t9E4E79B06DE20B0612BE7529A86DC9C0DFAAF2EF*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1018>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1018>
 			goto IL_0010;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -9434,7 +9434,7 @@ FINALLY_0009:
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1023>
 		return;
 	}
 }
@@ -9458,10 +9458,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource__ctor_m48CE9FDBA85264806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_mD47A1D110711BC262CAE8F6FD41E064F30F61A25_gshared (AwaitableSource_tC841EBA4ED1AAD8DC1DB0A0FF16A763B8112CDFE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1007>
 		NullCheck((AwaitableCompletionSource_1_t13046545B390F657C439285B31F050D2914038F9*)__this);
 		((  void (*) (AwaitableCompletionSource_1_t13046545B390F657C439285B31F050D2914038F9*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))((AwaitableCompletionSource_1_t13046545B390F657C439285B31F050D2914038F9*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1008>
 		return;
 	}
 }
@@ -9469,7 +9469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_mD47A1D110711BC262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnReturn_m74890BA55C2B199F06ED1AC7851EA200C3D7AB98_gshared (AwaitableSource_tC841EBA4ED1AAD8DC1DB0A0FF16A763B8112CDFE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1011>
 		return;
 	}
 }
@@ -9482,19 +9482,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_SetResultAndReturnToPool
 
 FINALLY_0009:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1021>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1021>
 				((  void (*) (AwaitableSource_tC841EBA4ED1AAD8DC1DB0A0FF16A763B8112CDFE*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1022>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1022>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1017>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1017>
 			Il2CppFullySharedGenericAny* L_0 = ___0_result;
 			NullCheck((AwaitableCompletionSource_1_t13046545B390F657C439285B31F050D2914038F9*)__this);
 			((  void (*) (AwaitableCompletionSource_1_t13046545B390F657C439285B31F050D2914038F9*, Il2CppFullySharedGenericAny*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))((AwaitableCompletionSource_1_t13046545B390F657C439285B31F050D2914038F9*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1018>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1018>
 			goto IL_0010;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -9505,7 +9505,7 @@ FINALLY_0009:
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1023>
 		return;
 	}
 }
@@ -9529,10 +9529,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource__ctor_m253303701E960D45A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m0BF8A800568197E8FFB0E6C6FC661DF90E4E159B_gshared (AwaitableSource_tD724B6DB52A39C2C7E1C28EB7B580826E7C901F1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1007>
 		NullCheck((AwaitableCompletionSource_1_tF08D2896DD891A3E968A1BAAE4637B580B4DE50F*)__this);
 		AwaitableCompletionSource_1_Reset_mD660B48CAC5EBD594233D66798DC9C074946DB20((AwaitableCompletionSource_1_tF08D2896DD891A3E968A1BAAE4637B580B4DE50F*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1008>
 		return;
 	}
 }
@@ -9540,7 +9540,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m0BF8A800568197E8F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnReturn_m7793C8A20116B53831A58DFBC1BAD62BB3C20DBB_gshared (AwaitableSource_tD724B6DB52A39C2C7E1C28EB7B580826E7C901F1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1011>
 		return;
 	}
 }
@@ -9553,19 +9553,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_SetResultAndReturnToPool
 
 FINALLY_0009:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1021>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1021>
 				OVRObjectPool_Return_TisAwaitableSource_tD724B6DB52A39C2C7E1C28EB7B580826E7C901F1_m413A99857382C5BD2AD4995D93A782B6352B86D7(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1022>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1022>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1017>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1017>
 			Metrics_t865BF0741490865117A79705F58784742D6F02B8* L_0 = ___0_result;
 			NullCheck((AwaitableCompletionSource_1_tF08D2896DD891A3E968A1BAAE4637B580B4DE50F*)__this);
 			AwaitableCompletionSource_1_SetResult_m93F23217EC2572A2FBDBCDBCBAFB38CA9CFC7C08((AwaitableCompletionSource_1_tF08D2896DD891A3E968A1BAAE4637B580B4DE50F*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1018>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1018>
 			goto IL_0010;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -9576,7 +9576,7 @@ FINALLY_0009:
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1023>
 		return;
 	}
 }
@@ -9600,10 +9600,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource__ctor_mEF0AC49E8FF9A37E2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m860B176537001FE3F80139E8EF3CFECF63606C89_gshared (AwaitableSource_tBF92106FFE95B38CAFF8899958B376CCCA41EEC5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1007>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1007>
 		NullCheck((AwaitableCompletionSource_1_t2C03EF3B723C2777B935A71BDB639F98E03575E8*)__this);
 		AwaitableCompletionSource_1_Reset_m077F158B3AD7B8181CD91B26C315882F6C9EF8B0((AwaitableCompletionSource_1_t2C03EF3B723C2777B935A71BDB639F98E03575E8*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1008>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1008>
 		return;
 	}
 }
@@ -9611,7 +9611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnGet_m860B176537001FE3F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_OnReturn_mB4EB50858C2171BFB8B838E38A7F4152537A2315_gshared (AwaitableSource_tBF92106FFE95B38CAFF8899958B376CCCA41EEC5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1011>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1011>
 		return;
 	}
 }
@@ -9624,19 +9624,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwaitableSource_SetResultAndReturnToPool
 
 FINALLY_0009:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1021>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1021>
 				OVRObjectPool_Return_TisAwaitableSource_tBF92106FFE95B38CAFF8899958B376CCCA41EEC5_m48B10892BAE2DE5516690A857BF28B29D68B912C(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1022>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1022>
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1017>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1017>
 			AsyncLock_t4C2B2F5A918FB982D90F2689A8BC5DEC785DE52B* L_0 = ___0_result;
 			NullCheck((AwaitableCompletionSource_1_t2C03EF3B723C2777B935A71BDB639F98E03575E8*)__this);
 			AwaitableCompletionSource_1_SetResult_m009122C1360C2AAFA0910C6AABD1263D9877F3CF((AwaitableCompletionSource_1_t2C03EF3B723C2777B935A71BDB639F98E03575E8*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1018>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1018>
 			goto IL_0010;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -9647,7 +9647,7 @@ FINALLY_0009:
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1023>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1023>
 		return;
 	}
 }
@@ -10827,10 +10827,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaitable_1__cctor_mAB802F64AE146F111609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter__ctor_m08362E80E2B00CF2BFC341C9D43F07263307C012_gshared (Awaiter_tB95F510B3069ED9CEB4A826BC1336FC542046D22* __this, OVRTask_1_t0886E5D46C79EB24804DFE785921AC9A00FED515 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t0886E5D46C79EB24804DFE785921AC9A00FED515 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -10845,7 +10845,7 @@ IL2CPP_EXTERN_C  void Awaiter__ctor_m08362E80E2B00CF2BFC341C9D43F07263307C012_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Awaiter_get_IsCompleted_m2625D6D74CD45668B061384AB0ECFEEEA425F763_gshared (Awaiter_tB95F510B3069ED9CEB4A826BC1336FC542046D22* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1104>
 		OVRTask_1_t0886E5D46C79EB24804DFE785921AC9A00FED515* L_0 = (OVRTask_1_t0886E5D46C79EB24804DFE785921AC9A00FED515*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		bool L_1;
@@ -10866,7 +10866,7 @@ IL2CPP_EXTERN_C  bool Awaiter_get_IsCompleted_m2625D6D74CD45668B061384AB0ECFEEEA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_mC55FEB8766B67441CF94BDF3520A9ACC6A07475A_gshared (Awaiter_tB95F510B3069ED9CEB4A826BC1336FC542046D22* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1114>
 		OVRTask_1_t0886E5D46C79EB24804DFE785921AC9A00FED515* L_0 = (OVRTask_1_t0886E5D46C79EB24804DFE785921AC9A00FED515*)(&__this->____task);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___0_continuation;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -10885,7 +10885,7 @@ IL2CPP_EXTERN_C  void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRResult_1_t031FA996F4006B1D5E4CCDB3FFAE638C4F8C706E Awaiter_GetResult_m5B515EE051EA25463ADB41CABDE0E1087459238D_gshared (Awaiter_tB95F510B3069ED9CEB4A826BC1336FC542046D22* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1124>
 		OVRTask_1_t0886E5D46C79EB24804DFE785921AC9A00FED515* L_0 = (OVRTask_1_t0886E5D46C79EB24804DFE785921AC9A00FED515*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		OVRResult_1_t031FA996F4006B1D5E4CCDB3FFAE638C4F8C706E L_1;
@@ -10914,10 +10914,10 @@ IL2CPP_EXTERN_C  OVRResult_1_t031FA996F4006B1D5E4CCDB3FFAE638C4F8C706E Awaiter_G
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter__ctor_m45B5015EA7E16196C19C78EFB3B2963640B758D7_gshared (Awaiter_tAAF3C04BCC785560EE2929479A1D0CD470D1BFEF* __this, OVRTask_1_t8C3C5F77E97AFB41B92EC69C24882DEE92A86E9F ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t8C3C5F77E97AFB41B92EC69C24882DEE92A86E9F L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -10932,7 +10932,7 @@ IL2CPP_EXTERN_C  void Awaiter__ctor_m45B5015EA7E16196C19C78EFB3B2963640B758D7_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Awaiter_get_IsCompleted_mCCF1072DC19FB4E7B00B5FAC226B0A377AC542C8_gshared (Awaiter_tAAF3C04BCC785560EE2929479A1D0CD470D1BFEF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1104>
 		OVRTask_1_t8C3C5F77E97AFB41B92EC69C24882DEE92A86E9F* L_0 = (OVRTask_1_t8C3C5F77E97AFB41B92EC69C24882DEE92A86E9F*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		bool L_1;
@@ -10953,7 +10953,7 @@ IL2CPP_EXTERN_C  bool Awaiter_get_IsCompleted_mCCF1072DC19FB4E7B00B5FAC226B0A377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_m75AC3F75290EA2D4D9E5704E03CFAC7900019F81_gshared (Awaiter_tAAF3C04BCC785560EE2929479A1D0CD470D1BFEF* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1114>
 		OVRTask_1_t8C3C5F77E97AFB41B92EC69C24882DEE92A86E9F* L_0 = (OVRTask_1_t8C3C5F77E97AFB41B92EC69C24882DEE92A86E9F*)(&__this->____task);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___0_continuation;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -10972,7 +10972,7 @@ IL2CPP_EXTERN_C  void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRResult_2_t382B4FF2553AAAAEC35A420C742685395BE3C050 Awaiter_GetResult_m9486116C861B9550A28126954C5D1FDA7E7B7CA2_gshared (Awaiter_tAAF3C04BCC785560EE2929479A1D0CD470D1BFEF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1124>
 		OVRTask_1_t8C3C5F77E97AFB41B92EC69C24882DEE92A86E9F* L_0 = (OVRTask_1_t8C3C5F77E97AFB41B92EC69C24882DEE92A86E9F*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		OVRResult_2_t382B4FF2553AAAAEC35A420C742685395BE3C050 L_1;
@@ -11001,10 +11001,10 @@ IL2CPP_EXTERN_C  OVRResult_2_t382B4FF2553AAAAEC35A420C742685395BE3C050 Awaiter_G
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter__ctor_mBC32DD8A83873C9D99FB3691D92FC08672D556CC_gshared (Awaiter_t07B4AEDF74C3E2C7912FFFF123178B4D81726562* __this, OVRTask_1_t1EDA6C082F76BEE1245BA20E8F6B2C4F5DB80D31 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t1EDA6C082F76BEE1245BA20E8F6B2C4F5DB80D31 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -11019,7 +11019,7 @@ IL2CPP_EXTERN_C  void Awaiter__ctor_mBC32DD8A83873C9D99FB3691D92FC08672D556CC_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Awaiter_get_IsCompleted_m36E15353BF9C49F0BC9CA885CFF2B4602936B321_gshared (Awaiter_t07B4AEDF74C3E2C7912FFFF123178B4D81726562* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1104>
 		OVRTask_1_t1EDA6C082F76BEE1245BA20E8F6B2C4F5DB80D31* L_0 = (OVRTask_1_t1EDA6C082F76BEE1245BA20E8F6B2C4F5DB80D31*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		bool L_1;
@@ -11040,7 +11040,7 @@ IL2CPP_EXTERN_C  bool Awaiter_get_IsCompleted_m36E15353BF9C49F0BC9CA885CFF2B4602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_mC37BCA1333DE6064AE8DAB6BCCCED17F4A72D97A_gshared (Awaiter_t07B4AEDF74C3E2C7912FFFF123178B4D81726562* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1114>
 		OVRTask_1_t1EDA6C082F76BEE1245BA20E8F6B2C4F5DB80D31* L_0 = (OVRTask_1_t1EDA6C082F76BEE1245BA20E8F6B2C4F5DB80D31*)(&__this->____task);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___0_continuation;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -11059,7 +11059,7 @@ IL2CPP_EXTERN_C  void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRResult_2_tEE309DA87971E4B023EDEF7A804AF736830DF0C7 Awaiter_GetResult_mBE7DB5AF9E39EC14741C77856878E45E46CACC9C_gshared (Awaiter_t07B4AEDF74C3E2C7912FFFF123178B4D81726562* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1124>
 		OVRTask_1_t1EDA6C082F76BEE1245BA20E8F6B2C4F5DB80D31* L_0 = (OVRTask_1_t1EDA6C082F76BEE1245BA20E8F6B2C4F5DB80D31*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		OVRResult_2_tEE309DA87971E4B023EDEF7A804AF736830DF0C7 L_1;
@@ -11088,10 +11088,10 @@ IL2CPP_EXTERN_C  OVRResult_2_tEE309DA87971E4B023EDEF7A804AF736830DF0C7 Awaiter_G
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter__ctor_m18A589397EC0A6310156A544DDCCDBA21515F667_gshared (Awaiter_tF9DBC944F551778A846B9C49FC121510EE67DBF6* __this, OVRTask_1_t08EE7157BE5FD0F302BF6E26958D70B790D6238B ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t08EE7157BE5FD0F302BF6E26958D70B790D6238B L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -11106,7 +11106,7 @@ IL2CPP_EXTERN_C  void Awaiter__ctor_m18A589397EC0A6310156A544DDCCDBA21515F667_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Awaiter_get_IsCompleted_m73BDDB189881B8730A035FAF1E2BFD330754E7F2_gshared (Awaiter_tF9DBC944F551778A846B9C49FC121510EE67DBF6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1104>
 		OVRTask_1_t08EE7157BE5FD0F302BF6E26958D70B790D6238B* L_0 = (OVRTask_1_t08EE7157BE5FD0F302BF6E26958D70B790D6238B*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		bool L_1;
@@ -11127,7 +11127,7 @@ IL2CPP_EXTERN_C  bool Awaiter_get_IsCompleted_m73BDDB189881B8730A035FAF1E2BFD330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_mDF3461FFF4C54B9857F3A49C09A81B7824197746_gshared (Awaiter_tF9DBC944F551778A846B9C49FC121510EE67DBF6* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1114>
 		OVRTask_1_t08EE7157BE5FD0F302BF6E26958D70B790D6238B* L_0 = (OVRTask_1_t08EE7157BE5FD0F302BF6E26958D70B790D6238B*)(&__this->____task);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___0_continuation;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -11146,7 +11146,7 @@ IL2CPP_EXTERN_C  void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRResult_2_t50B61EC2E3DFD5F81560F4ACE6984EF563BDD05E Awaiter_GetResult_m399F81B341C1DA4C29DD927699F9BA5BC068D1B8_gshared (Awaiter_tF9DBC944F551778A846B9C49FC121510EE67DBF6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1124>
 		OVRTask_1_t08EE7157BE5FD0F302BF6E26958D70B790D6238B* L_0 = (OVRTask_1_t08EE7157BE5FD0F302BF6E26958D70B790D6238B*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		OVRResult_2_t50B61EC2E3DFD5F81560F4ACE6984EF563BDD05E L_1;
@@ -11175,10 +11175,10 @@ IL2CPP_EXTERN_C  OVRResult_2_t50B61EC2E3DFD5F81560F4ACE6984EF563BDD05E Awaiter_G
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter__ctor_m08D6BCE17327F38E4D4BA70FE8FCD29C1D6BB0CC_gshared (Awaiter_t99D1B85195DFD6A105CC0C95FF38F44CAD6A2D94* __this, OVRTask_1_tC3C8FFB8BFF6F7B87C37F1EA01927656DC1623DB ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_tC3C8FFB8BFF6F7B87C37F1EA01927656DC1623DB L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -11193,7 +11193,7 @@ IL2CPP_EXTERN_C  void Awaiter__ctor_m08D6BCE17327F38E4D4BA70FE8FCD29C1D6BB0CC_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Awaiter_get_IsCompleted_m951319448306C6CD8ABFDC2654C22239510EBDDE_gshared (Awaiter_t99D1B85195DFD6A105CC0C95FF38F44CAD6A2D94* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1104>
 		OVRTask_1_tC3C8FFB8BFF6F7B87C37F1EA01927656DC1623DB* L_0 = (OVRTask_1_tC3C8FFB8BFF6F7B87C37F1EA01927656DC1623DB*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		bool L_1;
@@ -11214,7 +11214,7 @@ IL2CPP_EXTERN_C  bool Awaiter_get_IsCompleted_m951319448306C6CD8ABFDC2654C222395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_m634EF53BFAF3B444AF7903D3A8F22FFD173FE29F_gshared (Awaiter_t99D1B85195DFD6A105CC0C95FF38F44CAD6A2D94* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1114>
 		OVRTask_1_tC3C8FFB8BFF6F7B87C37F1EA01927656DC1623DB* L_0 = (OVRTask_1_tC3C8FFB8BFF6F7B87C37F1EA01927656DC1623DB*)(&__this->____task);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___0_continuation;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -11233,7 +11233,7 @@ IL2CPP_EXTERN_C  void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tC290D1473EEF2960484F075957B2A1F638CD9119 Awaiter_GetResult_mCB404E13D6D7D45C87C1DE6D6DD1D34CBF9DF360_gshared (Awaiter_t99D1B85195DFD6A105CC0C95FF38F44CAD6A2D94* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1124>
 		OVRTask_1_tC3C8FFB8BFF6F7B87C37F1EA01927656DC1623DB* L_0 = (OVRTask_1_tC3C8FFB8BFF6F7B87C37F1EA01927656DC1623DB*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		ValueTuple_2_tC290D1473EEF2960484F075957B2A1F638CD9119 L_1;
@@ -11262,10 +11262,10 @@ IL2CPP_EXTERN_C  ValueTuple_2_tC290D1473EEF2960484F075957B2A1F638CD9119 Awaiter_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter__ctor_m7E085CAB622E1E2166E14A735C0E6F6864E46F71_gshared (Awaiter_t7F3E240CA65EFEDE53E57BF1B95161D1F195F6F9* __this, OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -11280,7 +11280,7 @@ IL2CPP_EXTERN_C  void Awaiter__ctor_m7E085CAB622E1E2166E14A735C0E6F6864E46F71_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Awaiter_get_IsCompleted_m82BF9277FA922C8E42C204B9EF5F3DDD7A0A2035_gshared (Awaiter_t7F3E240CA65EFEDE53E57BF1B95161D1F195F6F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1104>
 		OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9* L_0 = (OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		bool L_1;
@@ -11301,7 +11301,7 @@ IL2CPP_EXTERN_C  bool Awaiter_get_IsCompleted_m82BF9277FA922C8E42C204B9EF5F3DDD7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_m3CBF53E5A8F5366F0797DD3316C90DFB115BA79C_gshared (Awaiter_t7F3E240CA65EFEDE53E57BF1B95161D1F195F6F9* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1114>
 		OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9* L_0 = (OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9*)(&__this->____task);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___0_continuation;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -11320,7 +11320,7 @@ IL2CPP_EXTERN_C  void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Awaiter_GetResult_mA4EB500F41AE37EF36F6A61A4F3ABD18A6F85852_gshared (Awaiter_t7F3E240CA65EFEDE53E57BF1B95161D1F195F6F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1124>
 		OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9* L_0 = (OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		bool L_1;
@@ -11349,10 +11349,10 @@ IL2CPP_EXTERN_C  bool Awaiter_GetResult_mA4EB500F41AE37EF36F6A61A4F3ABD18A6F8585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter__ctor_mFAC8FBC64F235E3C86FF68CF90DAECAB6537A7CD_gshared (Awaiter_t97D0BFFAB2FB0A1405E519D4FBF5E2B68D16F80B* __this, OVRTask_1_t7D6DD029D05718977D4569BA1CCC7E341B848C29 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t7D6DD029D05718977D4569BA1CCC7E341B848C29 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -11367,7 +11367,7 @@ IL2CPP_EXTERN_C  void Awaiter__ctor_mFAC8FBC64F235E3C86FF68CF90DAECAB6537A7CD_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Awaiter_get_IsCompleted_mB1F189B19B76F1449A4D971D2F98884428E3DAC9_gshared (Awaiter_t97D0BFFAB2FB0A1405E519D4FBF5E2B68D16F80B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1104>
 		OVRTask_1_t7D6DD029D05718977D4569BA1CCC7E341B848C29* L_0 = (OVRTask_1_t7D6DD029D05718977D4569BA1CCC7E341B848C29*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		bool L_1;
@@ -11388,7 +11388,7 @@ IL2CPP_EXTERN_C  bool Awaiter_get_IsCompleted_mB1F189B19B76F1449A4D971D2F9888442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_mFB231074D5B94CECF5E110F0EA402576AB598C2F_gshared (Awaiter_t97D0BFFAB2FB0A1405E519D4FBF5E2B68D16F80B* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1114>
 		OVRTask_1_t7D6DD029D05718977D4569BA1CCC7E341B848C29* L_0 = (OVRTask_1_t7D6DD029D05718977D4569BA1CCC7E341B848C29*)(&__this->____task);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___0_continuation;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -11407,7 +11407,7 @@ IL2CPP_EXTERN_C  void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Awaiter_GetResult_mCA2C2FAA670CF7F6F37A9973DD6EE3E0AEC952B5_gshared (Awaiter_t97D0BFFAB2FB0A1405E519D4FBF5E2B68D16F80B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1124>
 		OVRTask_1_t7D6DD029D05718977D4569BA1CCC7E341B848C29* L_0 = (OVRTask_1_t7D6DD029D05718977D4569BA1CCC7E341B848C29*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		int32_t L_1;
@@ -11436,10 +11436,10 @@ IL2CPP_EXTERN_C  int32_t Awaiter_GetResult_mCA2C2FAA670CF7F6F37A9973DD6EE3E0AEC9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter__ctor_m159C16EF5B924A5664E8003340101A2534E0DA11_gshared (Awaiter_t696AA1518A5019FAFAFF5A95CA8C74A0A4E4527B* __this, OVRTask_1_tD95805799307F688305061F3B1C7C000D165A02F ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_tD95805799307F688305061F3B1C7C000D165A02F L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -11454,7 +11454,7 @@ IL2CPP_EXTERN_C  void Awaiter__ctor_m159C16EF5B924A5664E8003340101A2534E0DA11_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Awaiter_get_IsCompleted_mDF61E17F0DE661A0D9F16C6B30110DB57B817F76_gshared (Awaiter_t696AA1518A5019FAFAFF5A95CA8C74A0A4E4527B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1104>
 		OVRTask_1_tD95805799307F688305061F3B1C7C000D165A02F* L_0 = (OVRTask_1_tD95805799307F688305061F3B1C7C000D165A02F*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		bool L_1;
@@ -11475,7 +11475,7 @@ IL2CPP_EXTERN_C  bool Awaiter_get_IsCompleted_mDF61E17F0DE661A0D9F16C6B30110DB57
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_mE2A36DB8049F015BDB283637BB535553F9A7E795_gshared (Awaiter_t696AA1518A5019FAFAFF5A95CA8C74A0A4E4527B* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1114>
 		OVRTask_1_tD95805799307F688305061F3B1C7C000D165A02F* L_0 = (OVRTask_1_tD95805799307F688305061F3B1C7C000D165A02F*)(&__this->____task);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___0_continuation;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -11494,7 +11494,7 @@ IL2CPP_EXTERN_C  void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 Awaiter_GetResult_mA0E4695A2915C44312BB5F5FB2704E87BAD82569_gshared (Awaiter_t696AA1518A5019FAFAFF5A95CA8C74A0A4E4527B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1124>
 		OVRTask_1_tD95805799307F688305061F3B1C7C000D165A02F* L_0 = (OVRTask_1_tD95805799307F688305061F3B1C7C000D165A02F*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_1;
@@ -11523,10 +11523,10 @@ IL2CPP_EXTERN_C  OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 Awaiter_Get
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter__ctor_mE8C222AB2AEC9F8BF08E67A279CF63DB7C15B2AE_gshared (Awaiter_tF06E1F569D4D3C1136C619FF55B789501A277F7E* __this, OVRTask_1_t003E5D0FEDE751D213594F21DBEB8E3169305FE9 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t003E5D0FEDE751D213594F21DBEB8E3169305FE9 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -11541,7 +11541,7 @@ IL2CPP_EXTERN_C  void Awaiter__ctor_mE8C222AB2AEC9F8BF08E67A279CF63DB7C15B2AE_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Awaiter_get_IsCompleted_m927F9A3EA0800FE4522B21983C92FE7BFAFD5075_gshared (Awaiter_tF06E1F569D4D3C1136C619FF55B789501A277F7E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1104>
 		OVRTask_1_t003E5D0FEDE751D213594F21DBEB8E3169305FE9* L_0 = (OVRTask_1_t003E5D0FEDE751D213594F21DBEB8E3169305FE9*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		bool L_1;
@@ -11562,7 +11562,7 @@ IL2CPP_EXTERN_C  bool Awaiter_get_IsCompleted_m927F9A3EA0800FE4522B21983C92FE7BF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_mCD8F58C48741766E48F53C8EC7D95C2188757114_gshared (Awaiter_tF06E1F569D4D3C1136C619FF55B789501A277F7E* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1114>
 		OVRTask_1_t003E5D0FEDE751D213594F21DBEB8E3169305FE9* L_0 = (OVRTask_1_t003E5D0FEDE751D213594F21DBEB8E3169305FE9*)(&__this->____task);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___0_continuation;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -11581,7 +11581,7 @@ IL2CPP_EXTERN_C  void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Awaiter_GetResult_m0132AFF59E12CF2DFE43DD75AA03DAF268E1122E_gshared (Awaiter_tF06E1F569D4D3C1136C619FF55B789501A277F7E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1124>
 		OVRTask_1_t003E5D0FEDE751D213594F21DBEB8E3169305FE9* L_0 = (OVRTask_1_t003E5D0FEDE751D213594F21DBEB8E3169305FE9*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		RuntimeObject* L_1;
@@ -11610,10 +11610,10 @@ IL2CPP_EXTERN_C  RuntimeObject* Awaiter_GetResult_m0132AFF59E12CF2DFE43DD75AA03D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter__ctor_m2AD3C20804A1FB12717751DF6CCBD4D4372A79B3_gshared (Awaiter_t1311F449C3B6624948ACFA8AC1D313BB68A335D7* __this, OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -11628,7 +11628,7 @@ IL2CPP_EXTERN_C  void Awaiter__ctor_m2AD3C20804A1FB12717751DF6CCBD4D4372A79B3_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Awaiter_get_IsCompleted_m379E1B0EC6BC191B9C5AEAD54C3EF0AF687B5CF4_gshared (Awaiter_t1311F449C3B6624948ACFA8AC1D313BB68A335D7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1104>
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9* L_0 = (OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		bool L_1;
@@ -11649,7 +11649,7 @@ IL2CPP_EXTERN_C  bool Awaiter_get_IsCompleted_m379E1B0EC6BC191B9C5AEAD54C3EF0AF6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_m38A9D1D919528E3E2064B9BF77047E47107AB3A5_gshared (Awaiter_t1311F449C3B6624948ACFA8AC1D313BB68A335D7* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1114>
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9* L_0 = (OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9*)(&__this->____task);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___0_continuation;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -11670,7 +11670,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter_GetResult_m58CD00BDFDC05048D28E4
 	const uint32_t SizeOf_TResult_t3827C2F7F729153CF949A790989B2D63CD34B6A7 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 	const Il2CppFullySharedGenericAny L_1 = alloca(SizeOf_TResult_t3827C2F7F729153CF949A790989B2D63CD34B6A7);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1124>
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9* L_0 = (OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		InvokerActionInvoker1< Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5), L_0, (Il2CppFullySharedGenericAny*)L_1);
@@ -11698,10 +11698,10 @@ IL2CPP_EXTERN_C  void Awaiter_GetResult_m58CD00BDFDC05048D28E4196720AE78AC95363F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter__ctor_mB84C34521808D32CF5FBAC747808EC54CD1BF65D_gshared (Awaiter_t8E8D0E024F3163607B3D7F1152F0C8A56568EBF6* __this, OVRTask_1_t3D3407ACB2498675C0BA86EA95A0555717E8569B ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t3D3407ACB2498675C0BA86EA95A0555717E8569B L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -11716,7 +11716,7 @@ IL2CPP_EXTERN_C  void Awaiter__ctor_mB84C34521808D32CF5FBAC747808EC54CD1BF65D_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Awaiter_get_IsCompleted_m253AD0E9AFF2F0E0938F47220172823141623A01_gshared (Awaiter_t8E8D0E024F3163607B3D7F1152F0C8A56568EBF6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1104>
 		OVRTask_1_t3D3407ACB2498675C0BA86EA95A0555717E8569B* L_0 = (OVRTask_1_t3D3407ACB2498675C0BA86EA95A0555717E8569B*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		bool L_1;
@@ -11737,7 +11737,7 @@ IL2CPP_EXTERN_C  bool Awaiter_get_IsCompleted_m253AD0E9AFF2F0E0938F4722017282314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_m1B3D431438E7C0AA5E08D6C4EDF343E3E0EB6EB0_gshared (Awaiter_t8E8D0E024F3163607B3D7F1152F0C8A56568EBF6* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1114>
 		OVRTask_1_t3D3407ACB2498675C0BA86EA95A0555717E8569B* L_0 = (OVRTask_1_t3D3407ACB2498675C0BA86EA95A0555717E8569B*)(&__this->____task);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___0_continuation;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -11756,7 +11756,7 @@ IL2CPP_EXTERN_C  void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Metrics_t865BF0741490865117A79705F58784742D6F02B8 Awaiter_GetResult_m888D1D144D69ECF5CF6647FD12DACD1DBD137D21_gshared (Awaiter_t8E8D0E024F3163607B3D7F1152F0C8A56568EBF6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1124>
 		OVRTask_1_t3D3407ACB2498675C0BA86EA95A0555717E8569B* L_0 = (OVRTask_1_t3D3407ACB2498675C0BA86EA95A0555717E8569B*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		Metrics_t865BF0741490865117A79705F58784742D6F02B8 L_1;
@@ -11785,10 +11785,10 @@ IL2CPP_EXTERN_C  Metrics_t865BF0741490865117A79705F58784742D6F02B8 Awaiter_GetRe
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter__ctor_m9A7989715509D817434DEDFE4A63B500B2FFE62E_gshared (Awaiter_t0EA48891319A7B9AC2FCD0CBC23899316E6A09FB* __this, OVRTask_1_tE5E511D9B31D4731BA35B4BBAA7646CB5EB10C64 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_tE5E511D9B31D4731BA35B4BBAA7646CB5EB10C64 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -11803,7 +11803,7 @@ IL2CPP_EXTERN_C  void Awaiter__ctor_m9A7989715509D817434DEDFE4A63B500B2FFE62E_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Awaiter_get_IsCompleted_m673669F532FA3F227A972E33F63F09FD2F9491D1_gshared (Awaiter_t0EA48891319A7B9AC2FCD0CBC23899316E6A09FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1104>
 		OVRTask_1_tE5E511D9B31D4731BA35B4BBAA7646CB5EB10C64* L_0 = (OVRTask_1_tE5E511D9B31D4731BA35B4BBAA7646CB5EB10C64*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		bool L_1;
@@ -11824,7 +11824,7 @@ IL2CPP_EXTERN_C  bool Awaiter_get_IsCompleted_m673669F532FA3F227A972E33F63F09FD2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_OnCompleted_m44B0CBE051E9186D1EC969065A81D0AFAF9F5129_gshared (Awaiter_t0EA48891319A7B9AC2FCD0CBC23899316E6A09FB* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1114>
 		OVRTask_1_tE5E511D9B31D4731BA35B4BBAA7646CB5EB10C64* L_0 = (OVRTask_1_tE5E511D9B31D4731BA35B4BBAA7646CB5EB10C64*)(&__this->____task);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___0_continuation;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -11843,7 +11843,7 @@ IL2CPP_EXTERN_C  void Awaiter_System_Runtime_CompilerServices_INotifyCompletion_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncLock_t4C2B2F5A918FB982D90F2689A8BC5DEC785DE52B Awaiter_GetResult_m014AF36DBB82E876B94F3C2406B8130471E125E8_gshared (Awaiter_t0EA48891319A7B9AC2FCD0CBC23899316E6A09FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1124>
 		OVRTask_1_tE5E511D9B31D4731BA35B4BBAA7646CB5EB10C64* L_0 = (OVRTask_1_tE5E511D9B31D4731BA35B4BBAA7646CB5EB10C64*)(&__this->____task);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		AsyncLock_t4C2B2F5A918FB982D90F2689A8BC5DEC785DE52B L_1;
@@ -29375,10 +29375,10 @@ IL_00a2:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m08362E80E2B00CF2BFC341C9D43F07263307C012_gshared_inline (Awaiter_tB95F510B3069ED9CEB4A826BC1336FC542046D22* __this, OVRTask_1_t0886E5D46C79EB24804DFE785921AC9A00FED515 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t0886E5D46C79EB24804DFE785921AC9A00FED515 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -29386,10 +29386,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m08362E80E2B00
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m45B5015EA7E16196C19C78EFB3B2963640B758D7_gshared_inline (Awaiter_tAAF3C04BCC785560EE2929479A1D0CD470D1BFEF* __this, OVRTask_1_t8C3C5F77E97AFB41B92EC69C24882DEE92A86E9F ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t8C3C5F77E97AFB41B92EC69C24882DEE92A86E9F L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -29397,10 +29397,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m45B5015EA7E16
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_mBC32DD8A83873C9D99FB3691D92FC08672D556CC_gshared_inline (Awaiter_t07B4AEDF74C3E2C7912FFFF123178B4D81726562* __this, OVRTask_1_t1EDA6C082F76BEE1245BA20E8F6B2C4F5DB80D31 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t1EDA6C082F76BEE1245BA20E8F6B2C4F5DB80D31 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -29408,10 +29408,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_mBC32DD8A83873
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m18A589397EC0A6310156A544DDCCDBA21515F667_gshared_inline (Awaiter_tF9DBC944F551778A846B9C49FC121510EE67DBF6* __this, OVRTask_1_t08EE7157BE5FD0F302BF6E26958D70B790D6238B ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t08EE7157BE5FD0F302BF6E26958D70B790D6238B L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -29419,10 +29419,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m18A589397EC0A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m08D6BCE17327F38E4D4BA70FE8FCD29C1D6BB0CC_gshared_inline (Awaiter_t99D1B85195DFD6A105CC0C95FF38F44CAD6A2D94* __this, OVRTask_1_tC3C8FFB8BFF6F7B87C37F1EA01927656DC1623DB ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_tC3C8FFB8BFF6F7B87C37F1EA01927656DC1623DB L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -29430,10 +29430,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m08D6BCE17327F
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m7E085CAB622E1E2166E14A735C0E6F6864E46F71_gshared_inline (Awaiter_t7F3E240CA65EFEDE53E57BF1B95161D1F195F6F9* __this, OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -29441,10 +29441,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m7E085CAB622E1
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_mFAC8FBC64F235E3C86FF68CF90DAECAB6537A7CD_gshared_inline (Awaiter_t97D0BFFAB2FB0A1405E519D4FBF5E2B68D16F80B* __this, OVRTask_1_t7D6DD029D05718977D4569BA1CCC7E341B848C29 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t7D6DD029D05718977D4569BA1CCC7E341B848C29 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -29452,10 +29452,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_mFAC8FBC64F235
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m159C16EF5B924A5664E8003340101A2534E0DA11_gshared_inline (Awaiter_t696AA1518A5019FAFAFF5A95CA8C74A0A4E4527B* __this, OVRTask_1_tD95805799307F688305061F3B1C7C000D165A02F ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_tD95805799307F688305061F3B1C7C000D165A02F L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -29463,10 +29463,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m159C16EF5B924
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_mE8C222AB2AEC9F8BF08E67A279CF63DB7C15B2AE_gshared_inline (Awaiter_tF06E1F569D4D3C1136C619FF55B789501A277F7E* __this, OVRTask_1_t003E5D0FEDE751D213594F21DBEB8E3169305FE9 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t003E5D0FEDE751D213594F21DBEB8E3169305FE9 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -29474,10 +29474,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_mE8C222AB2AEC9
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m2AD3C20804A1FB12717751DF6CCBD4D4372A79B3_gshared_inline (Awaiter_t1311F449C3B6624948ACFA8AC1D313BB68A335D7* __this, OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t94B6938A40625ACBF60BCC7DCC0FD4A87D1F33A9 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -29485,10 +29485,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m2AD3C20804A1F
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_mB84C34521808D32CF5FBAC747808EC54CD1BF65D_gshared_inline (Awaiter_t8E8D0E024F3163607B3D7F1152F0C8A56568EBF6* __this, OVRTask_1_t3D3407ACB2498675C0BA86EA95A0555717E8569B ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_t3D3407ACB2498675C0BA86EA95A0555717E8569B L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }
@@ -29496,10 +29496,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_mB84C34521808D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter__ctor_m9A7989715509D817434DEDFE4A63B500B2FFE62E_gshared_inline (Awaiter_t0EA48891319A7B9AC2FCD0CBC23899316E6A09FB* __this, OVRTask_1_tE5E511D9B31D4731BA35B4BBAA7646CB5EB10C64 ___0_task, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1090>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1090>
 		OVRTask_1_tE5E511D9B31D4731BA35B4BBAA7646CB5EB10C64 L_0 = ___0_task;
 		__this->____task = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/Async/OVRTask.cs:1091>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/Async/OVRTask.cs:1091>
 		return;
 	}
 }

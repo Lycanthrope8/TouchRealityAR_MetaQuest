@@ -557,7 +557,7 @@ IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_
 IL2CPP_EXTERN_C RuntimeField* NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0____ovrCameraRig_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A____OculusUser_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t74BB0FABE4621F43D99A3876861B160A2E0C801A____27E9BD694F1DA45EC4EF107BD57585276326EE7A448DDC12BDFC85B7F7EC0307_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t74BB0FABE4621F43D99A3876861B160A2E0C801A____D67972596A20EA3104E0A63B923A0BD71CE623F5C82F6B22586E7DF908349CBA_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t74BB0FABE4621F43D99A3876861B160A2E0C801A____9346FBF305239444C62950A5CC0CA551D4D1209384CD6911C2F405A7883E3983_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD;
 IL2CPP_EXTERN_C String_t* _stringLiteral01CBE6E0C9D3BB12957AAF0016452F9D348BF6ED;
 IL2CPP_EXTERN_C String_t* _stringLiteral0870B2C25AE1924654198704634D581BE494E61F;
@@ -3122,7 +3122,7 @@ struct List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0_StaticFields
 struct U3CPrivateImplementationDetailsU3E_t74BB0FABE4621F43D99A3876861B160A2E0C801A_StaticFields
 {
 	__StaticArrayInitTypeSizeU3D2193_tD22805D4E1EA4EAC7F3D4181ECD716BBA288DA15 ___27E9BD694F1DA45EC4EF107BD57585276326EE7A448DDC12BDFC85B7F7EC0307;
-	__StaticArrayInitTypeSizeU3D4124_t68C4E2C8DBD64A1992A81221F374661DE1F7A8D6 ___D67972596A20EA3104E0A63B923A0BD71CE623F5C82F6B22586E7DF908349CBA;
+	__StaticArrayInitTypeSizeU3D4124_t68C4E2C8DBD64A1992A81221F374661DE1F7A8D6 ___9346FBF305239444C62950A5CC0CA551D4D1209384CD6911C2F405A7883E3983;
 };
 struct AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461_StaticFields
 {
@@ -5316,7 +5316,7 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115405
+// Method Definition Index: 115481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t94256BE3E62E0D8F7063BEE872B4AD88957B189F UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m4C19D877784A2AD4BEE9F0F5FBE380B421166454 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5324,7 +5324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t94256BE3E62E0D8F7063BEE872B4A
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t74BB0FABE4621F43D99A3876861B160A2E0C801A____27E9BD694F1DA45EC4EF107BD57585276326EE7A448DDC12BDFC85B7F7EC0307_FieldInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t74BB0FABE4621F43D99A3876861B160A2E0C801A____D67972596A20EA3104E0A63B923A0BD71CE623F5C82F6B22586E7DF908349CBA_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t74BB0FABE4621F43D99A3876861B160A2E0C801A____9346FBF305239444C62950A5CC0CA551D4D1209384CD6911C2F405A7883E3983_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t94256BE3E62E0D8F7063BEE872B4AD88957B189F V_0;
@@ -5333,7 +5333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t94256BE3E62E0D8F7063BEE872B4A
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t94256BE3E62E0D8F7063BEE872B4AD88957B189F));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)4124));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t74BB0FABE4621F43D99A3876861B160A2E0C801A____D67972596A20EA3104E0A63B923A0BD71CE623F5C82F6B22586E7DF908349CBA_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t74BB0FABE4621F43D99A3876861B160A2E0C801A____9346FBF305239444C62950A5CC0CA551D4D1209384CD6911C2F405A7883E3983_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
@@ -5350,7 +5350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t94256BE3E62E0D8F7063BEE872B4A
 		return L_6;
 	}
 }
-// Method Definition Index: 115406
+// Method Definition Index: 115482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mD8410921C6C1CE69A04FA1EB99B10A2F3AB1FDDA (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t92F6C14276242F448D0764A2D732FF5755A613CD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5436,7 +5436,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t94256BE3E62E0D8F7063BEE872B4AD88957B189F_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115407
+// Method Definition Index: 115483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationConstants__cctor_m7F1777FB99F7AEE596070C69239031DA0A760834 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5447,7 +5447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationConstants__cctor_m7F1777FB99F7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationConstants.cs:27>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationConstants.cs:27>
 		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0;
 		L_0 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
@@ -5463,11 +5463,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationConstants__cctor_m7F1777FB99F7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115408
+// Method Definition Index: 115484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationDebuggingOptions__ctor_mCEA922354C667ED188E1E0DB69817F80A8DB302E (ColocationDebuggingOptions_t2DCF9664C37C22BA1FF67002FCB9A6A994C0B9E2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:41>
 		__this->___visualizeAlignmentAnchor = (bool)1;
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -5481,11 +5481,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationDebuggingOptions__ctor_mCEA922
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115409
+// Method Definition Index: 115485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationController_Awake_m7B4962DDD9DF9ABB3473C0C5227B74309E3D182F (ColocationController_tF1697E79768714F097AA1CE639CB13EEB7A9D7E7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:68>
 		ColocationDebuggingOptions_t2DCF9664C37C22BA1FF67002FCB9A6A994C0B9E2* L_0 = __this->___DebuggingOptions;
 		NullCheck(L_0);
 		bool L_1 = L_0->___enableVerboseLogging;
@@ -5495,24 +5495,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationController_Awake_m7B4962DDD9DF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:70>
 		Logger_SetAllLogsVisibility_m6347AC30FC41D495C5E2AAAF72F319884CEC45D3((bool)1, NULL);
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:75>
 		Logger_SetAllLogsVisibility_m6347AC30FC41D495C5E2AAAF72F319884CEC45D3((bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:76>
 		Logger_SetLogLevelVisibility_m871424AE1F8623E22E6FB6DA49683AB0E280B039(3, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:77>
 		Logger_SetLogLevelVisibility_m871424AE1F8623E22E6FB6DA49683AB0E280B039(4, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 115410
+// Method Definition Index: 115486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationController__ctor_mAD2D2A93E350292466805446F71714359767F01B (ColocationController_tF1697E79768714F097AA1CE639CB13EEB7A9D7E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5528,7 +5528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationController__ctor_mAD2D2A93E350
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115411
+// Method Definition Index: 115487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_Awake_m6402DFD3A9E97C71F9A1D7AAC26C813AD03F454B (ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5543,18 +5543,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_Awake_m640
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:69>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		ColocationController_tF1697E79768714F097AA1CE639CB13EEB7A9D7E7* L_0;
 		L_0 = Object_FindObjectOfType_TisColocationController_tF1697E79768714F097AA1CE639CB13EEB7A9D7E7_m18D734C3FA47DC539072AFF6075AB35696D7B900(Object_FindObjectOfType_TisColocationController_tF1697E79768714F097AA1CE639CB13EEB7A9D7E7_m18D734C3FA47DC539072AFF6075AB35696D7B900_RuntimeMethod_var);
 		__this->____colocationController = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____colocationController), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:70>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_1;
 		L_1 = Object_FindObjectOfType_TisOVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9_m1564DCD77DA806C8E84BE6808F00823EBCA88234(Object_FindObjectOfType_TisOVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9_m1564DCD77DA806C8E84BE6808F00823EBCA88234_RuntimeMethod_var);
 		__this->____cameraRig = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cameraRig), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:73>
 		int32_t L_2 = __this->___basis;
 		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
 		{
@@ -5562,7 +5562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_Awake_m640
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:75>
 		Func_1_t8F7DCA7C26E80651AA3D06600FE90C8D68416310* L_3 = (Func_1_t8F7DCA7C26E80651AA3D06600FE90C8D68416310*)il2cpp_codegen_object_new(Func_1_t8F7DCA7C26E80651AA3D06600FE90C8D68416310_il2cpp_TypeInfo_var);
 		Func_1__ctor_mB2625418064182F1F73C76045B5A4AAF07EE3BFA(L_3, __this, (intptr_t)((void*)ColocationSessionEventHandler_SpaceSharingBeforeHostStart_mDE5F22139074B3086C5528294D3197AFAD96897E_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
@@ -5572,11 +5572,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_Awake_m640
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:78>
 		return;
 	}
 }
-// Method Definition Index: 115412
+// Method Definition Index: 115488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_Start_m87C9D6AB280C2AE2BE2FAECCBF7C7124B81F4B49 (ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5600,7 +5600,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_Start_m87C
 	SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:82>
 		int32_t L_0 = __this->___basis;
 		V_1 = L_0;
 		int32_t L_1 = V_1;
@@ -5622,12 +5622,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_Start_m87C
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:86>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_3;
 		L_3 = Object_FindObjectOfType_TisSharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96_m9953CCCA18692F7E8AA95700EFCBEC08F1FECC4D(Object_FindObjectOfType_TisSharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96_m9953CCCA18692F7E8AA95700EFCBEC08F1FECC4D_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:88>
 		SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_4 = V_0;
 		bool L_5;
 		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -5637,8 +5637,8 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:90>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:91>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_6 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAD420A5DAAD2C7959F4F09727F3DC8EE3E7BD3B5)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ColocationSessionEventHandler_Start_m87C9D6AB280C2AE2BE2FAECCBF7C7124B81F4B49_RuntimeMethod_var)));
@@ -5646,13 +5646,13 @@ IL_0013:
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:93>
 		SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_7 = V_0;
 		SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_8 = (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28*)il2cpp_codegen_object_new(SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28_il2cpp_TypeInfo_var);
 		SharedAnchorManager__ctor_m5BFC50681B12A667AB7161135965D918EAFC50E6(L_8, L_7, NULL);
 		__this->____sharedAnchorManager = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____sharedAnchorManager), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:94>
 		ColocationController_tF1697E79768714F097AA1CE639CB13EEB7A9D7E7* L_9 = __this->____colocationController;
 		NullCheck(L_9);
 		ColocationDebuggingOptions_t2DCF9664C37C22BA1FF67002FCB9A6A994C0B9E2* L_10 = L_9->___DebuggingOptions;
@@ -5664,7 +5664,7 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:96>
 		SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_12 = __this->____sharedAnchorManager;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___AnchorPrefab;
 		NullCheck(L_12);
@@ -5673,45 +5673,45 @@ IL_002d:
 
 IL_005c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:98>
 		il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 		UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_14 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateSucceeded;
 		UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983* L_15 = (UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983*)il2cpp_codegen_object_new(UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983_il2cpp_TypeInfo_var);
 		UnityAction_1__ctor_mB97E39D47094A17E94AB4D9ACC877B1BCBE9DEB6(L_15, __this, (intptr_t)((void*)ColocationSessionEventHandler_OnSessionCreatedWithSpatialAnchor_mAF3C62543BC033F62173D0C8E28725BE8E584984_RuntimeMethod_var), NULL);
 		NullCheck(L_14);
 		UnityEvent_1_AddListener_mC086846FC1351D0EB6859723DAED1E8ED9433C0E(L_14, L_15, UnityEvent_1_AddListener_mC086846FC1351D0EB6859723DAED1E8ED9433C0E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:99>
 		UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_16 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionDiscoverSucceeded;
 		UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983* L_17 = (UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983*)il2cpp_codegen_object_new(UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983_il2cpp_TypeInfo_var);
 		UnityAction_1__ctor_mB97E39D47094A17E94AB4D9ACC877B1BCBE9DEB6(L_17, __this, (intptr_t)((void*)ColocationSessionEventHandler_OnSessionDiscoveredWithSpatialAnchor_mC8C8544056E0A2A1AD35694AA70A0D9F0A8BE4AC_RuntimeMethod_var), NULL);
 		NullCheck(L_16);
 		UnityEvent_1_AddListener_mC086846FC1351D0EB6859723DAED1E8ED9433C0E(L_16, L_17, UnityEvent_1_AddListener_mC086846FC1351D0EB6859723DAED1E8ED9433C0E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:100>
 		goto IL_00be;
 	}
 
 IL_008a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:103>
 		il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 		UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_18 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateSucceeded;
 		UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983* L_19 = (UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983*)il2cpp_codegen_object_new(UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983_il2cpp_TypeInfo_var);
 		UnityAction_1__ctor_mB97E39D47094A17E94AB4D9ACC877B1BCBE9DEB6(L_19, __this, (intptr_t)((void*)ColocationSessionEventHandler_OnSessionCreatedWithSpaceSharing_mB8E506EEA256FB4244536ECA0F0FA7CF818D31B5_RuntimeMethod_var), NULL);
 		NullCheck(L_18);
 		UnityEvent_1_AddListener_mC086846FC1351D0EB6859723DAED1E8ED9433C0E(L_18, L_19, UnityEvent_1_AddListener_mC086846FC1351D0EB6859723DAED1E8ED9433C0E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:104>
 		UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_20 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionDiscoverSucceeded;
 		UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983* L_21 = (UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983*)il2cpp_codegen_object_new(UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983_il2cpp_TypeInfo_var);
 		UnityAction_1__ctor_mB97E39D47094A17E94AB4D9ACC877B1BCBE9DEB6(L_21, __this, (intptr_t)((void*)ColocationSessionEventHandler_OnSessionDiscoveredWithSpaceSharing_mEAEB551D154AD7FA346EF75B703981EEA578FE65_RuntimeMethod_var), NULL);
 		NullCheck(L_20);
 		UnityEvent_1_AddListener_mC086846FC1351D0EB6859723DAED1E8ED9433C0E(L_20, L_21, UnityEvent_1_AddListener_mC086846FC1351D0EB6859723DAED1E8ED9433C0E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:106>
 		goto IL_00be;
 	}
 
 IL_00b8:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:108>
 		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_22 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
 		ArgumentOutOfRangeException__ctor_mB596C51BFA864B65C2CED275458FAE90F7CD29C9(L_22, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_22, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ColocationSessionEventHandler_Start_m87C9D6AB280C2AE2BE2FAECCBF7C7124B81F4B49_RuntimeMethod_var)));
@@ -5719,18 +5719,18 @@ IL_00b8:
 
 IL_00be:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:110>
 		il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 		UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_23 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateFailed;
 		UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* L_24 = (UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*)il2cpp_codegen_object_new(UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B_il2cpp_TypeInfo_var);
 		UnityAction_1__ctor_mE6251CCFD943EB114960F556A546E2777B18AC71(L_24, NULL, (intptr_t)((void*)Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2_RuntimeMethod_var), NULL);
 		NullCheck(L_23);
 		UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F(L_23, L_24, UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:111>
 		return;
 	}
 }
-// Method Definition Index: 115413
+// Method Definition Index: 115489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_OnSessionCreatedWithSpatialAnchor_mAF3C62543BC033F62173D0C8E28725BE8E584984 (ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* __this, Guid_t ___0_groupUuid, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5765,7 +5765,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_OnSessionC
 		return;
 	}
 }
-// Method Definition Index: 115414
+// Method Definition Index: 115490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_OnSessionDiscoveredWithSpatialAnchor_mC8C8544056E0A2A1AD35694AA70A0D9F0A8BE4AC (ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* __this, Guid_t ___0_groupUuid, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5800,7 +5800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_OnSessionD
 		return;
 	}
 }
-// Method Definition Index: 115415
+// Method Definition Index: 115491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ColocationSessionEventHandler_SpaceSharingBeforeHostStart_mDE5F22139074B3086C5528294D3197AFAD96897E (ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5837,7 +5837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 		return L_3;
 	}
 }
-// Method Definition Index: 115416
+// Method Definition Index: 115492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ColocationSessionEventHandler_RequestScenePermissionIfNeeded_mC6315FB84318A38DC5102159B1449BB15B6A1E79 (ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5872,7 +5872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 		return L_3;
 	}
 }
-// Method Definition Index: 115417
+// Method Definition Index: 115493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ColocationSessionEventHandler_LoadScene_mFFE55934E028CE828660C0ECE83CB7B50E721A37 (ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5907,7 +5907,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 		return L_3;
 	}
 }
-// Method Definition Index: 115418
+// Method Definition Index: 115494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_OnSessionCreatedWithSpaceSharing_mB8E506EEA256FB4244536ECA0F0FA7CF818D31B5 (ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* __this, Guid_t ___0_groupUuid, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5942,7 +5942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_OnSessionC
 		return;
 	}
 }
-// Method Definition Index: 115419
+// Method Definition Index: 115495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_OnSessionDiscoveredWithSpaceSharing_mEAEB551D154AD7FA346EF75B703981EEA578FE65 (ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* __this, Guid_t ___0_groupUuid, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5977,7 +5977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_OnSessionD
 		return;
 	}
 }
-// Method Definition Index: 115420
+// Method Definition Index: 115496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_OnDestroy_m57A80118E77D2414902D0DFC63A7735A0820A677 (ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5994,7 +5994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_OnDestroy_
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:269>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:269>
 		int32_t L_0 = __this->___basis;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
@@ -6016,54 +6016,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler_OnDestroy_
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:272>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:272>
 		il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 		UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_3 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateSucceeded;
 		UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983* L_4 = (UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983*)il2cpp_codegen_object_new(UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983_il2cpp_TypeInfo_var);
 		UnityAction_1__ctor_mB97E39D47094A17E94AB4D9ACC877B1BCBE9DEB6(L_4, __this, (intptr_t)((void*)ColocationSessionEventHandler_OnSessionCreatedWithSpatialAnchor_mAF3C62543BC033F62173D0C8E28725BE8E584984_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		UnityEvent_1_RemoveListener_m2ECEE4D7C6D5FA71CED49870C43D9B1ED6142762(L_3, L_4, UnityEvent_1_RemoveListener_m2ECEE4D7C6D5FA71CED49870C43D9B1ED6142762_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:273>
 		UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_5 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionDiscoverSucceeded;
 		UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983* L_6 = (UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983*)il2cpp_codegen_object_new(UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983_il2cpp_TypeInfo_var);
 		UnityAction_1__ctor_mB97E39D47094A17E94AB4D9ACC877B1BCBE9DEB6(L_6, __this, (intptr_t)((void*)ColocationSessionEventHandler_OnSessionDiscoveredWithSpatialAnchor_mC8C8544056E0A2A1AD35694AA70A0D9F0A8BE4AC_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		UnityEvent_1_RemoveListener_m2ECEE4D7C6D5FA71CED49870C43D9B1ED6142762(L_5, L_6, UnityEvent_1_RemoveListener_m2ECEE4D7C6D5FA71CED49870C43D9B1ED6142762_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:274>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:274>
 		return;
 	}
 
 IL_003d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:277>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:277>
 		il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 		UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_7 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateSucceeded;
 		UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983* L_8 = (UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983*)il2cpp_codegen_object_new(UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983_il2cpp_TypeInfo_var);
 		UnityAction_1__ctor_mB97E39D47094A17E94AB4D9ACC877B1BCBE9DEB6(L_8, __this, (intptr_t)((void*)ColocationSessionEventHandler_OnSessionCreatedWithSpaceSharing_mB8E506EEA256FB4244536ECA0F0FA7CF818D31B5_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		UnityEvent_1_RemoveListener_m2ECEE4D7C6D5FA71CED49870C43D9B1ED6142762(L_7, L_8, UnityEvent_1_RemoveListener_m2ECEE4D7C6D5FA71CED49870C43D9B1ED6142762_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:278>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:278>
 		UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_9 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionDiscoverSucceeded;
 		UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983* L_10 = (UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983*)il2cpp_codegen_object_new(UnityAction_1_tC73A8FAC3D47C98F509757F26A5E7F437DE8F983_il2cpp_TypeInfo_var);
 		UnityAction_1__ctor_mB97E39D47094A17E94AB4D9ACC877B1BCBE9DEB6(L_10, __this, (intptr_t)((void*)ColocationSessionEventHandler_OnSessionDiscoveredWithSpaceSharing_mEAEB551D154AD7FA346EF75B703981EEA578FE65_RuntimeMethod_var), NULL);
 		NullCheck(L_9);
 		UnityEvent_1_RemoveListener_m2ECEE4D7C6D5FA71CED49870C43D9B1ED6142762(L_9, L_10, UnityEvent_1_RemoveListener_m2ECEE4D7C6D5FA71CED49870C43D9B1ED6142762_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:279>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:279>
 		((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___BeforeStartHost = (Func_1_t8F7DCA7C26E80651AA3D06600FE90C8D68416310*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___BeforeStartHost), (void*)(Func_1_t8F7DCA7C26E80651AA3D06600FE90C8D68416310*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:281>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:281>
 		return;
 	}
 
 IL_0070:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:283>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:283>
 		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_11 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
 		ArgumentOutOfRangeException__ctor_mB596C51BFA864B65C2CED275458FAE90F7CD29C9(L_11, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ColocationSessionEventHandler_OnDestroy_m57A80118E77D2414902D0DFC63A7735A0820A677_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 115421
+// Method Definition Index: 115497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler__ctor_m8AF4DC59EAABB57BED2FA9AA3C09169E0045A966 (ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6095,7 +6095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColocationSessionEventHandler__ctor_m8AF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115422
+// Method Definition Index: 115498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mC41E0560681F129F7B16C261C651B4B25B11C72B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6112,7 +6112,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mC41E0560681F129F7B16C261
 		return;
 	}
 }
-// Method Definition Index: 115423
+// Method Definition Index: 115499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mCAA752C33BA8B8B53AC7F56FB7EB02804EE57E00 (U3CU3Ec_t6878F9ABA2894A83B31D9F2553D72B8F89AEB7AD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6120,7 +6120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mCAA752C33BA8B8B53AC7F56FB
 		return;
 	}
 }
-// Method Definition Index: 115424
+// Method Definition Index: 115500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CLoadSceneU3Eb__14_0_mB328321A46981ADEC83421FBCEABCDD780F2B816 (U3CU3Ec_t6878F9ABA2894A83B31D9F2553D72B8F89AEB7AD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6140,7 +6140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CLoadSceneU3Eb__14_0_mB328321A
 	OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:189>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_0;
 		L_0 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -6148,7 +6148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CLoadSceneU3Eb__14_0_mB328321A
 		MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_1;
 		L_1 = MRUK_GetCurrentRoom_m4D3EB9413A757198D1371FF680AA7C3B16EFD729(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:190>
 		MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_2 = V_0;
 		NullCheck(L_2);
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_3;
@@ -6160,11 +6160,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CLoadSceneU3Eb__14_0_mB328321A
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_4, NULL);
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:191>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:192>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:193>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:194>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:195>
 		il2cpp_codegen_initobj((&V_2), sizeof(SpaceSharingInfo_t8859D951A4E8EDABABD21B97822F283E66EF9AE7));
 		MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* L_6 = V_0;
 		NullCheck(L_6);
@@ -6188,13 +6188,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CLoadSceneU3Eb__14_0_mB328321A
 		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_13), L_10, L_12, NULL);
 		(&V_2)->___FloorAnchor = L_13;
 		SpaceSharingInfo_t8859D951A4E8EDABABD21B97822F283E66EF9AE7 L_14 = V_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:196>
 		String_t* L_15;
 		L_15 = SerializationUtils_SerializeToString_TisSpaceSharingInfo_t8859D951A4E8EDABABD21B97822F283E66EF9AE7_m85B73A6FCF2A79F03D4DA43AB1609B69E642A41D(L_14, SerializationUtils_SerializeToString_TisSpaceSharingInfo_t8859D951A4E8EDABABD21B97822F283E66EF9AE7_m85B73A6FCF2A79F03D4DA43AB1609B69E642A41D_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 		((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___ExtraData = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___ExtraData), (void*)L_15);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:197>
 		return;
 	}
 }
@@ -6206,7 +6206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CLoadSceneU3Eb__14_0_mB328321A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115425
+// Method Definition Index: 115501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0__ctor_m2D27F33CCC158E286851EA75A5DB6046F6D7E462 (U3CU3Ec__DisplayClass13_0_t448563E30F78CD0D5CAD4335D26FFB603738CB1C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6214,7 +6214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0__ctor_m2D27F33
 		return;
 	}
 }
-// Method Definition Index: 115426
+// Method Definition Index: 115502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CRequestScenePermissionIfNeededU3Eb__0_m4D46882750B2F4A7499B0EB2FAF91B555F50FC58 (U3CU3Ec__DisplayClass13_0_t448563E30F78CD0D5CAD4335D26FFB603738CB1C* __this, String_t* ___0__, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6225,17 +6225,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CRequestScen
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:165>
 		Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteral1180F2CB13B66D151D1EFBDFBCE2782A3B8ACB0A, 3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:166>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_0 = __this->___taskCompletion;
 		NullCheck(L_0);
 		TaskCompletionSource_1_SetResult_mA4C94A8605B8E4A2646C0C2B08A3D373E1174448(L_0, (bool)0, TaskCompletionSource_1_SetResult_mA4C94A8605B8E4A2646C0C2B08A3D373E1174448_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:167>
 		return;
 	}
 }
-// Method Definition Index: 115427
+// Method Definition Index: 115503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CRequestScenePermissionIfNeededU3Eb__1_m43EECCBD38B322461CB578B4D633B44D0A52D74B (U3CU3Ec__DisplayClass13_0_t448563E30F78CD0D5CAD4335D26FFB603738CB1C* __this, String_t* ___0__, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6245,11 +6245,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CRequestScen
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:170>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_0 = __this->___taskCompletion;
 		NullCheck(L_0);
 		TaskCompletionSource_1_SetResult_mA4C94A8605B8E4A2646C0C2B08A3D373E1174448(L_0, (bool)1, TaskCompletionSource_1_SetResult_mA4C94A8605B8E4A2646C0C2B08A3D373E1174448_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:171>
 		return;
 	}
 }
@@ -6261,7 +6261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CRequestScen
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115428
+// Method Definition Index: 115504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneU3Ed__14_MoveNext_m6449D07A7C0D24C2BCB27CF9423DE70586F20C07 (U3CLoadSceneU3Ed__14_tFDC6FF0DBD4343B75E9EC99DD55AEF912D6BE93D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6306,17 +6306,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneU3Ed__14_MoveNext_m6449D07A7
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:187>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:188>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:189>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:190>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:191>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:192>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:193>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:194>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:195>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:196>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:197>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:187>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:188>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:189>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:190>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:191>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:192>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:193>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:194>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:195>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:196>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:197>
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_2;
 			L_2 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -6348,7 +6348,7 @@ IL_002e_1:
 		{
 			NullCheck(G_B4_1);
 			MRUK_RegisterSceneLoadedCallback_m8C622EB080C1B7D96989D8F5AB2B73A864B92348(G_B4_1, G_B4_0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:198>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:198>
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_8;
 			L_8 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -6361,7 +6361,7 @@ IL_002e_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:200>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:200>
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_10;
 			L_10 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -6408,7 +6408,7 @@ IL_0097_1:
 			int32_t L_20;
 			L_20 = TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93((&V_3), TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93_RuntimeMethod_var);
 			V_2 = L_20;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:201>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:201>
 			int32_t L_21 = V_2;
 			if (!L_21)
 			{
@@ -6416,21 +6416,21 @@ IL_0097_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:203>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:203>
 			int32_t L_22 = V_2;
 			int32_t L_23 = L_22;
 			RuntimeObject* L_24 = Box(LoadDeviceResult_t21D2C0103AFA987AA9748471F44A75A6345EEF34_il2cpp_TypeInfo_var, &L_23);
 			String_t* L_25;
 			L_25 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral01CBE6E0C9D3BB12957AAF0016452F9D348BF6ED, L_24, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_25, 3, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:204>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:204>
 			V_1 = (bool)0;
 			goto IL_00d9;
 		}
 
 IL_00bc_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:207>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:207>
 			V_1 = (bool)1;
 			goto IL_00d9;
 		}
@@ -6460,7 +6460,7 @@ CATCH_00c0:
 
 IL_00d9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:208>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:208>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_29 = (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*)(&__this->___U3CU3Et__builder);
 		bool L_30 = V_1;
@@ -6480,7 +6480,7 @@ IL2CPP_EXTERN_C  void U3CLoadSceneU3Ed__14_MoveNext_m6449D07A7C0D24C2BCB27CF9423
 	_thisAdjusted = reinterpret_cast<U3CLoadSceneU3Ed__14_tFDC6FF0DBD4343B75E9EC99DD55AEF912D6BE93D*>(__this + _offset);
 	U3CLoadSceneU3Ed__14_MoveNext_m6449D07A7C0D24C2BCB27CF9423DE70586F20C07(_thisAdjusted, method);
 }
-// Method Definition Index: 115429
+// Method Definition Index: 115505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneU3Ed__14_SetStateMachine_m1009B29406715FA8F8547861B83ABB7C3700EBB4 (U3CLoadSceneU3Ed__14_tFDC6FF0DBD4343B75E9EC99DD55AEF912D6BE93D* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6513,7 +6513,7 @@ IL2CPP_EXTERN_C  void U3CLoadSceneU3Ed__14_SetStateMachine_m1009B29406715FA8F854
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115430
+// Method Definition Index: 115506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionCreatedWithSpaceSharingU3Ed__15_MoveNext_m97DFD690C92BAD523281A3C9D52165A8BA092892 (U3COnSessionCreatedWithSpaceSharingU3Ed__15_t715C5A3F8614974681F95EB80CA7CE0BE97352E1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6563,7 +6563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionCreatedWithSpaceSharingU3Ed_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:212>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:212>
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_3;
 			L_3 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -6572,10 +6572,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionCreatedWithSpaceSharingU3Ed_
 			L_4 = MRUK_GetCurrentRoom_m4D3EB9413A757198D1371FF680AA7C3B16EFD729(L_3, NULL);
 			__this->___U3CcurrentRoomU3E5__2 = L_4;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcurrentRoomU3E5__2), (void*)L_4);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:213>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:214>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:215>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:216>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:213>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:214>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:215>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:216>
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_5;
 			L_5 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
 			MRUKRoomU5BU5D_t4879D204180B7627E011F8DE4D32E0698AC34880* L_6 = (MRUKRoomU5BU5D_t4879D204180B7627E011F8DE4D32E0698AC34880*)(MRUKRoomU5BU5D_t4879D204180B7627E011F8DE4D32E0698AC34880*)SZArrayNew(MRUKRoomU5BU5D_t4879D204180B7627E011F8DE4D32E0698AC34880_il2cpp_TypeInfo_var, (uint32_t)1);
@@ -6627,7 +6627,7 @@ IL_0092_1:
 			OVRResult_1_tE6BBB1049D1315EA6F35DA9728C0D01262F252B6 L_19;
 			L_19 = Awaiter_GetResult_m1113A93BC82680D8173CDDBA546B30E6BCBF7CFA((&V_3), Awaiter_GetResult_m1113A93BC82680D8173CDDBA546B30E6BCBF7CFA_RuntimeMethod_var);
 			V_2 = L_19;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:217>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:217>
 			bool L_20;
 			L_20 = OVRResult_1_get_Success_mD19F47579CAE585E2AA7073D153730E9D419AD32((&V_2), OVRResult_1_get_Success_mD19F47579CAE585E2AA7073D153730E9D419AD32_RuntimeMethod_var);
 			if (L_20)
@@ -6636,7 +6636,7 @@ IL_0092_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:219>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:219>
 			Guid_t L_21 = __this->___groupUuid;
 			Guid_t L_22 = L_21;
 			RuntimeObject* L_23 = Box(Guid_t_il2cpp_TypeInfo_var, &L_22);
@@ -6652,7 +6652,7 @@ IL_0092_1:
 
 IL_00cc_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:223>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:223>
 			ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* L_28 = V_1;
 			NullCheck(L_28);
 			ColocationController_tF1697E79768714F097AA1CE639CB13EEB7A9D7E7* L_29 = L_28->____colocationController;
@@ -6666,7 +6666,7 @@ IL_00cc_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:225>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:225>
 			ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* L_32 = V_1;
 			NullCheck(L_32);
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = L_32->___AnchorPrefab;
@@ -6687,7 +6687,7 @@ IL_00cc_1:
 
 IL_0100_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:227>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:227>
 			Guid_t L_39 = __this->___groupUuid;
 			Guid_t L_40 = L_39;
 			RuntimeObject* L_41 = Box(Guid_t_il2cpp_TypeInfo_var, &L_40);
@@ -6727,7 +6727,7 @@ CATCH_011d:
 
 IL_013d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:229>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:229>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CcurrentRoomU3E5__2 = (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcurrentRoomU3E5__2), (void*)(MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3*)NULL);
@@ -6747,7 +6747,7 @@ IL2CPP_EXTERN_C  void U3COnSessionCreatedWithSpaceSharingU3Ed__15_MoveNext_m97DF
 	_thisAdjusted = reinterpret_cast<U3COnSessionCreatedWithSpaceSharingU3Ed__15_t715C5A3F8614974681F95EB80CA7CE0BE97352E1*>(__this + _offset);
 	U3COnSessionCreatedWithSpaceSharingU3Ed__15_MoveNext_m97DFD690C92BAD523281A3C9D52165A8BA092892(_thisAdjusted, method);
 }
-// Method Definition Index: 115431
+// Method Definition Index: 115507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionCreatedWithSpaceSharingU3Ed__15_SetStateMachine_m1E0F2F8D45F138B0619A2DA78D529D33BE6D0C3F (U3COnSessionCreatedWithSpaceSharingU3Ed__15_t715C5A3F8614974681F95EB80CA7CE0BE97352E1* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -6772,7 +6772,7 @@ IL2CPP_EXTERN_C  void U3COnSessionCreatedWithSpaceSharingU3Ed__15_SetStateMachin
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115432
+// Method Definition Index: 115508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionCreatedWithSpatialAnchorU3Ed__10_MoveNext_m01384373157EE9FFF7DDF747832C980E6BC8593C (U3COnSessionCreatedWithSpatialAnchorU3Ed__10_t94C87C21740183BFAF9ACDD51F784EC74DD4F1AD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6822,7 +6822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionCreatedWithSpatialAnchorU3Ed
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:117>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:117>
 			ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* L_4 = V_1;
 			NullCheck(L_4);
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_5 = L_4->____sharedAnchorManager;
@@ -6867,7 +6867,7 @@ IL_0071_1:
 		{
 			OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_15;
 			L_15 = TaskAwaiter_1_GetResult_m5CDE6B1F0D1C589C91CDAEEB526DF168BF63CD92((&V_2), TaskAwaiter_1_GetResult_m5CDE6B1F0D1C589C91CDAEEB526DF168BF63CD92_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:118>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:118>
 			ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* L_16 = V_1;
 			NullCheck(L_16);
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_17 = L_16->____sharedAnchorManager;
@@ -6919,7 +6919,7 @@ IL_00d5_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:120>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:120>
 			ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* L_29 = V_1;
 			NullCheck(L_29);
 			ColocationController_tF1697E79768714F097AA1CE639CB13EEB7A9D7E7* L_30 = L_29->____colocationController;
@@ -6945,8 +6945,8 @@ IL_00ef_1:
 
 IL_00f4_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:121>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:122>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:121>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:122>
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteralE9AB52A611ECAC7831DC16AC36A58FA74C678621, 1, NULL);
 		}
 
@@ -6979,7 +6979,7 @@ CATCH_0101:
 
 IL_011a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:124>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_36 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_36, NULL);
@@ -6997,7 +6997,7 @@ IL2CPP_EXTERN_C  void U3COnSessionCreatedWithSpatialAnchorU3Ed__10_MoveNext_m013
 	_thisAdjusted = reinterpret_cast<U3COnSessionCreatedWithSpatialAnchorU3Ed__10_t94C87C21740183BFAF9ACDD51F784EC74DD4F1AD*>(__this + _offset);
 	U3COnSessionCreatedWithSpatialAnchorU3Ed__10_MoveNext_m01384373157EE9FFF7DDF747832C980E6BC8593C(_thisAdjusted, method);
 }
-// Method Definition Index: 115433
+// Method Definition Index: 115509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionCreatedWithSpatialAnchorU3Ed__10_SetStateMachine_m7514C37604028A0C330817EFACF941C5AA863398 (U3COnSessionCreatedWithSpatialAnchorU3Ed__10_t94C87C21740183BFAF9ACDD51F784EC74DD4F1AD* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -7022,7 +7022,7 @@ IL2CPP_EXTERN_C  void U3COnSessionCreatedWithSpatialAnchorU3Ed__10_SetStateMachi
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115434
+// Method Definition Index: 115510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionDiscoveredWithSpaceSharingU3Ed__16_MoveNext_m1EABA9663AD17D3342C0232085E2524C1BE51394 (U3COnSessionDiscoveredWithSpaceSharingU3Ed__16_tEA7399896A2A9077E6496044FF072A42C18DFFA6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7073,7 +7073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionDiscoveredWithSpaceSharingU3
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:233>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:233>
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			String_t* L_3 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___ExtraData;
 			bool L_4;
@@ -7084,9 +7084,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionDiscoveredWithSpaceSharingU3
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:235>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:235>
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteralE2B2F473746ACA104E374DEA77A025FD628F53CB, 3, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:236>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:236>
 			goto IL_0168;
 		}
 
@@ -7095,13 +7095,13 @@ IL_0030_1:
 		}
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:241>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:241>
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			String_t* L_5 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___ExtraData;
 			SpaceSharingInfo_t8859D951A4E8EDABABD21B97822F283E66EF9AE7 L_6;
 			L_6 = SerializationUtils_DeserializeFromString_TisSpaceSharingInfo_t8859D951A4E8EDABABD21B97822F283E66EF9AE7_m733F2E61C24FE7FFF48402809872BB05C499E01D(L_5, SerializationUtils_DeserializeFromString_TisSpaceSharingInfo_t8859D951A4E8EDABABD21B97822F283E66EF9AE7_m733F2E61C24FE7FFF48402809872BB05C499E01D_RuntimeMethod_var);
 			V_2 = L_6;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:242>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:242>
 			goto IL_005c_1;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -7117,26 +7117,26 @@ IL_0030_1:
 CATCH_003e_1:
 		{
 			Exception_t* L_7 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:243>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:243>
 			V_4 = L_7;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:245>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:245>
 			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var)));
 			String_t* L_8 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))))->___ExtraData;
 			Exception_t* L_9 = V_4;
 			String_t* L_10;
 			L_10 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0870B2C25AE1924654198704634D581BE494E61F)), L_8, L_9, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_10, 3, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:246>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:246>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_0168;
 		}
 
 IL_005c_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:248>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:249>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:250>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:251>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:248>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:249>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:250>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:251>
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_11;
 			L_11 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -7199,7 +7199,7 @@ IL_00e7_1:
 			int32_t L_32;
 			L_32 = TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93((&V_5), TaskAwaiter_1_GetResult_m46A6D7CC4DC24DCC2F3659EF835F72AF11A46F93_RuntimeMethod_var);
 			V_3 = L_32;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:252>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:252>
 			int32_t L_33 = V_3;
 			if (!L_33)
 			{
@@ -7207,7 +7207,7 @@ IL_00e7_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:254>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:254>
 			int32_t L_34 = V_3;
 			int32_t L_35 = L_34;
 			RuntimeObject* L_36 = Box(LoadDeviceResult_t21D2C0103AFA987AA9748471F44A75A6345EEF34_il2cpp_TypeInfo_var, &L_35);
@@ -7219,9 +7219,9 @@ IL_00e7_1:
 
 IL_010a_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:258>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:258>
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteralE03E6677DC0E1D3F5BE85FCF9A03D5ACC59D8AE2, 1, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:259>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:259>
 			ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* L_38 = V_1;
 			NullCheck(L_38);
 			ColocationController_tF1697E79768714F097AA1CE639CB13EEB7A9D7E7* L_39 = L_38->____colocationController;
@@ -7235,7 +7235,7 @@ IL_010a_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:261>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:261>
 			ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* L_42 = V_1;
 			NullCheck(L_42);
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43 = L_42->___AnchorPrefab;
@@ -7288,7 +7288,7 @@ CATCH_014f:
 
 IL_0168:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:264>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_53 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_53, NULL);
@@ -7306,7 +7306,7 @@ IL2CPP_EXTERN_C  void U3COnSessionDiscoveredWithSpaceSharingU3Ed__16_MoveNext_m1
 	_thisAdjusted = reinterpret_cast<U3COnSessionDiscoveredWithSpaceSharingU3Ed__16_tEA7399896A2A9077E6496044FF072A42C18DFFA6*>(__this + _offset);
 	U3COnSessionDiscoveredWithSpaceSharingU3Ed__16_MoveNext_m1EABA9663AD17D3342C0232085E2524C1BE51394(_thisAdjusted, method);
 }
-// Method Definition Index: 115435
+// Method Definition Index: 115511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionDiscoveredWithSpaceSharingU3Ed__16_SetStateMachine_m89D2A14ED23F1BE9EC449B5784F7E403A49ECFC3 (U3COnSessionDiscoveredWithSpaceSharingU3Ed__16_tEA7399896A2A9077E6496044FF072A42C18DFFA6* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -7331,7 +7331,7 @@ IL2CPP_EXTERN_C  void U3COnSessionDiscoveredWithSpaceSharingU3Ed__16_SetStateMac
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115436
+// Method Definition Index: 115512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionDiscoveredWithSpatialAnchorU3Ed__11_MoveNext_m7EFCC243A540368A4790EBA2DB02938DD5701FDE (U3COnSessionDiscoveredWithSpatialAnchorU3Ed__11_tA23683DC36F0E3570B71D5C047E8ADFD27D365F5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7370,7 +7370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionDiscoveredWithSpatialAnchorU
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:129>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:129>
 			ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* L_3 = V_1;
 			NullCheck(L_3);
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_4 = L_3->____sharedAnchorManager;
@@ -7417,7 +7417,7 @@ IL_006d_1:
 			RuntimeObject* L_15;
 			L_15 = TaskAwaiter_1_GetResult_m1342A36A9F31D6A62F8861AB30AD47EA1BAA1C24((&V_3), TaskAwaiter_1_GetResult_m1342A36A9F31D6A62F8861AB30AD47EA1BAA1C24_RuntimeMethod_var);
 			V_2 = L_15;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:130>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:130>
 			RuntimeObject* L_16 = V_2;
 			NullCheck(L_16);
 			int32_t L_17;
@@ -7428,7 +7428,7 @@ IL_006d_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:133>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:133>
 			il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 			MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_18;
 			L_18 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -7471,7 +7471,7 @@ CATCH_0095:
 
 IL_00ae:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:144>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_25 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_25, NULL);
@@ -7489,7 +7489,7 @@ IL2CPP_EXTERN_C  void U3COnSessionDiscoveredWithSpatialAnchorU3Ed__11_MoveNext_m
 	_thisAdjusted = reinterpret_cast<U3COnSessionDiscoveredWithSpatialAnchorU3Ed__11_tA23683DC36F0E3570B71D5C047E8ADFD27D365F5*>(__this + _offset);
 	U3COnSessionDiscoveredWithSpatialAnchorU3Ed__11_MoveNext_m7EFCC243A540368A4790EBA2DB02938DD5701FDE(_thisAdjusted, method);
 }
-// Method Definition Index: 115437
+// Method Definition Index: 115513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnSessionDiscoveredWithSpatialAnchorU3Ed__11_SetStateMachine_m5A8C1B0570FA0C6A5B4F82ED5EC3A04F4E42D403 (U3COnSessionDiscoveredWithSpatialAnchorU3Ed__11_tA23683DC36F0E3570B71D5C047E8ADFD27D365F5* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -7514,7 +7514,7 @@ IL2CPP_EXTERN_C  void U3COnSessionDiscoveredWithSpatialAnchorU3Ed__11_SetStateMa
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115438
+// Method Definition Index: 115514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRequestScenePermissionIfNeededU3Ed__13_MoveNext_m444D66ACE8F6DEBFB4E65241C3C496C75DCE07C8 (U3CRequestScenePermissionIfNeededU3Ed__13_t0583ACA3E20CA44C467D7993A26869FC2DAE1548* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7559,7 +7559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRequestScenePermissionIfNeededU3Ed__1
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:159>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:159>
 			bool L_2;
 			L_2 = OVRPermissionsRequester_IsPermissionGranted_m0F333D018C92051B8846EE686B5418BA728CF3D0(3, NULL);
 			if (L_2)
@@ -7572,42 +7572,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRequestScenePermissionIfNeededU3Ed__1
 			U3CU3Ec__DisplayClass13_0__ctor_m2D27F33CCC158E286851EA75A5DB6046F6D7E462(L_3, NULL);
 			__this->___U3CU3E8__1 = L_3;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)L_3);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:161>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:161>
 			U3CU3Ec__DisplayClass13_0_t448563E30F78CD0D5CAD4335D26FFB603738CB1C* L_4 = __this->___U3CU3E8__1;
 			TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_5 = (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*)il2cpp_codegen_object_new(TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14_il2cpp_TypeInfo_var);
 			TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646(L_5, TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646_RuntimeMethod_var);
 			NullCheck(L_4);
 			L_4->___taskCompletion = L_5;
 			Il2CppCodeGenWriteBarrier((void**)(&L_4->___taskCompletion), (void*)L_5);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:162>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:162>
 			PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_6 = (PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F*)il2cpp_codegen_object_new(PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F_il2cpp_TypeInfo_var);
 			PermissionCallbacks__ctor_m91B14BBBC8913C131E400BA0D13576822AAE7A75(L_6, NULL);
 			V_2 = L_6;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:163>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:164>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:165>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:166>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:167>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:163>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:164>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:165>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:166>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:167>
 			PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_7 = V_2;
 			U3CU3Ec__DisplayClass13_0_t448563E30F78CD0D5CAD4335D26FFB603738CB1C* L_8 = __this->___U3CU3E8__1;
 			Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_9 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)il2cpp_codegen_object_new(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var);
 			Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C(L_9, L_8, (intptr_t)((void*)U3CU3Ec__DisplayClass13_0_U3CRequestScenePermissionIfNeededU3Eb__0_m4D46882750B2F4A7499B0EB2FAF91B555F50FC58_RuntimeMethod_var), NULL);
 			NullCheck(L_7);
 			PermissionCallbacks_add_PermissionDenied_mE0B2826463785B050C999C70F443FCC3822563D0(L_7, L_9, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:168>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:169>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:170>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:171>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:168>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:169>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:170>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:171>
 			PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_10 = V_2;
 			U3CU3Ec__DisplayClass13_0_t448563E30F78CD0D5CAD4335D26FFB603738CB1C* L_11 = __this->___U3CU3E8__1;
 			Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_12 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)il2cpp_codegen_object_new(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var);
 			Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C(L_12, L_11, (intptr_t)((void*)U3CU3Ec__DisplayClass13_0_U3CRequestScenePermissionIfNeededU3Eb__1_m43EECCBD38B322461CB578B4D633B44D0A52D74B_RuntimeMethod_var), NULL);
 			NullCheck(L_10);
 			PermissionCallbacks_add_PermissionGranted_m74335D4200D9B1A7C80AB9C133F95C61FCDCDF89(L_10, L_12, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:172>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:173>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:174>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:175>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:172>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:173>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:174>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:175>
 			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
 			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = L_13;
 			String_t* L_15;
@@ -7616,7 +7616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRequestScenePermissionIfNeededU3Ed__1
 			(L_14)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_15);
 			PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_16 = V_2;
 			Permission_RequestUserPermissions_m09FE74BF5829C8B48A0E6C9B7F7846FEE763D2DA(L_14, L_16, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:176>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:176>
 			U3CU3Ec__DisplayClass13_0_t448563E30F78CD0D5CAD4335D26FFB603738CB1C* L_17 = __this->___U3CU3E8__1;
 			NullCheck(L_17);
 			TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_18 = L_17->___taskCompletion;
@@ -7662,7 +7662,7 @@ IL_00d7_1:
 		{
 			bool L_28;
 			L_28 = TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B((&V_3), TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:177>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:177>
 			U3CU3Ec__DisplayClass13_0_t448563E30F78CD0D5CAD4335D26FFB603738CB1C* L_29 = __this->___U3CU3E8__1;
 			NullCheck(L_29);
 			TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_30 = L_29->___taskCompletion;
@@ -7678,21 +7678,21 @@ IL_00d7_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:179>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:179>
 			V_1 = (bool)0;
 			goto IL_011e;
 		}
 
 IL_00fa_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:181>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:181>
 			__this->___U3CU3E8__1 = (U3CU3Ec__DisplayClass13_0_t448563E30F78CD0D5CAD4335D26FFB603738CB1C*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)(U3CU3Ec__DisplayClass13_0_t448563E30F78CD0D5CAD4335D26FFB603738CB1C*)NULL);
 		}
 
 IL_0101_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:182>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:182>
 			V_1 = (bool)1;
 			goto IL_011e;
 		}
@@ -7722,7 +7722,7 @@ CATCH_0105:
 
 IL_011e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:183>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_36 = (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*)(&__this->___U3CU3Et__builder);
 		bool L_37 = V_1;
@@ -7742,7 +7742,7 @@ IL2CPP_EXTERN_C  void U3CRequestScenePermissionIfNeededU3Ed__13_MoveNext_m444D66
 	_thisAdjusted = reinterpret_cast<U3CRequestScenePermissionIfNeededU3Ed__13_t0583ACA3E20CA44C467D7993A26869FC2DAE1548*>(__this + _offset);
 	U3CRequestScenePermissionIfNeededU3Ed__13_MoveNext_m444D66ACE8F6DEBFB4E65241C3C496C75DCE07C8(_thisAdjusted, method);
 }
-// Method Definition Index: 115439
+// Method Definition Index: 115515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRequestScenePermissionIfNeededU3Ed__13_SetStateMachine_m506C7EB6F7C66A37D195F2BD5B45960A2D6F319A (U3CRequestScenePermissionIfNeededU3Ed__13_t0583ACA3E20CA44C467D7993A26869FC2DAE1548* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7775,7 +7775,7 @@ IL2CPP_EXTERN_C  void U3CRequestScenePermissionIfNeededU3Ed__13_SetStateMachine_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115440
+// Method Definition Index: 115516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpaceSharingBeforeHostStartU3Ed__12_MoveNext_m9CD759B404F1148B2CFF535CD2E5557BBB2BA7F4 (U3CSpaceSharingBeforeHostStartU3Ed__12_tE8A47CB4285EEBBA471FC6C887CBC7DECF3A1DF5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7819,7 +7819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpaceSharingBeforeHostStartU3Ed__12_M
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:152>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:152>
 			ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* L_4 = V_1;
 			NullCheck(L_4);
 			Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_5;
@@ -7869,14 +7869,14 @@ IL_006c_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:153>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:153>
 			V_2 = (bool)0;
 			goto IL_00ed;
 		}
 
 IL_0079_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:155>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:155>
 			ColocationSessionEventHandler_t091A75EEE4EB421B70D72C27D5DD5BE3CFE3D79C* L_15 = V_1;
 			NullCheck(L_15);
 			Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_16;
@@ -7949,7 +7949,7 @@ CATCH_00d4:
 
 IL_00ed:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationSessionEventHandler.cs:156>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_29 = (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*)(&__this->___U3CU3Et__builder);
 		bool L_30 = V_2;
@@ -7969,7 +7969,7 @@ IL2CPP_EXTERN_C  void U3CSpaceSharingBeforeHostStartU3Ed__12_MoveNext_m9CD759B40
 	_thisAdjusted = reinterpret_cast<U3CSpaceSharingBeforeHostStartU3Ed__12_tE8A47CB4285EEBBA471FC6C887CBC7DECF3A1DF5*>(__this + _offset);
 	U3CSpaceSharingBeforeHostStartU3Ed__12_MoveNext_m9CD759B404F1148B2CFF535CD2E5557BBB2BA7F4(_thisAdjusted, method);
 }
-// Method Definition Index: 115441
+// Method Definition Index: 115517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpaceSharingBeforeHostStartU3Ed__12_SetStateMachine_mFE6436205E87862F2E75AD05855936133813D2E7 (U3CSpaceSharingBeforeHostStartU3Ed__12_tE8A47CB4285EEBBA471FC6C887CBC7DECF3A1DF5* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8064,18 +8064,18 @@ IL2CPP_EXTERN_C void NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115442
+// Method Definition Index: 115518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkBootstrapperUtils_SetEntitlementIds_m2580EB216EA55203BD080400D7A12BACE449EB66 (PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A ___0_info, NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0* ___1_param, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:46>
 		NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0* L_0 = ___1_param;
 		PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A L_1 = ___0_info;
 		User_t63181B96DDD1EF4D5FDBE2E12C0A1510AF51F6F4* L_2 = L_1.___OculusUser;
 		NullCheck(L_2);
 		uint64_t L_3 = L_2->___ID;
 		L_0->___myOculusId = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:50>
 		NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0* L_4 = ___1_param;
 		String_t* L_5;
 		L_5 = SystemInfo_get_deviceUniqueIdentifier_m61BA4CB77ADA09730B8B575700D85027EFDB4EFC(NULL);
@@ -8083,11 +8083,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkBootstrapperUtils_SetEntitlementI
 		int32_t L_6;
 		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(2, L_5);
 		L_4->___myPlayerId = ((int64_t)L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 115443
+// Method Definition Index: 115519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkBootstrapperUtils_SetUpAndStartAutomaticColocation_mB68CA913F20D0F88676A9FE7DE3226BC015A2E13 (NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0* ___0_param, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_anchorPrefab, RuntimeObject* ___2_networkData, RuntimeObject* ___3_networkMessenger, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8111,18 +8111,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkBootstrapperUtils_SetUpAndStartAu
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* G_B5_0 = NULL;
 	SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* G_B5_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:57>
 		RuntimeObject* L_0 = ___3_networkMessenger;
 		NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0* L_1 = ___0_param;
 		uint64_t L_2 = L_1->___myPlayerId;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< uint64_t >::Invoke(6, INetworkMessenger_t38EFEE596283B1D68A0B60AC67D6BEA7247A8A62_il2cpp_TypeInfo_var, L_0, L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:60>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_3;
 		L_3 = Object_FindObjectOfType_TisSharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96_m9953CCCA18692F7E8AA95700EFCBEC08F1FECC4D(Object_FindObjectOfType_TisSharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96_m9953CCCA18692F7E8AA95700EFCBEC08F1FECC4D_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:62>
 		SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_4 = V_0;
 		bool L_5;
 		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -8132,23 +8132,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkBootstrapperUtils_SetUpAndStartAu
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:64>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralAD420A5DAAD2C7959F4F09727F3DC8EE3E7BD3B5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:65>
 		return;
 	}
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:67>
 		NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0* L_6 = ___0_param;
 		SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_7 = V_0;
 		SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_8 = (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28*)il2cpp_codegen_object_new(SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28_il2cpp_TypeInfo_var);
 		SharedAnchorManager__ctor_m5BFC50681B12A667AB7161135965D918EAFC50E6(L_8, L_7, NULL);
 		L_6->___sharedAnchorManager = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->___sharedAnchorManager), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:69>
 		NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0* L_9 = ___0_param;
 		ColocationController_tF1697E79768714F097AA1CE639CB13EEB7A9D7E7* L_10 = L_9->___colocationController;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -8172,7 +8172,7 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:71>
 		NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0* L_16 = ___0_param;
 		SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_17 = L_16->___sharedAnchorManager;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = ___1_anchorPrefab;
@@ -8201,24 +8201,24 @@ IL_0062:
 
 IL_0067:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:74>
 		RuntimeObject* L_21 = ___2_networkData;
 		RuntimeObject* L_22 = ___3_networkMessenger;
 		NetworkAdapter_SetConfig_m609B1A3B5C2A7CC9A65769F58B9C298D3B717BDE(L_21, L_22, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:75>
 		NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0* L_23 = ___0_param;
 		AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_24 = (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461*)il2cpp_codegen_object_new(AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461_il2cpp_TypeInfo_var);
 		AutomaticColocationLauncher__ctor_mCBF9A55F44556CE6086ECFA9605A10F4D0F61A34(L_24, NULL);
 		L_23->___colocationLauncher = L_24;
 		Il2CppCodeGenWriteBarrier((void**)(&L_23->___colocationLauncher), (void*)L_24);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:76>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:77>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:78>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:79>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:80>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:81>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:82>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:83>
 		NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0* L_25 = ___0_param;
 		AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_26 = L_25->___colocationLauncher;
 		RuntimeObject* L_27;
@@ -8238,28 +8238,28 @@ IL_0067:
 		uint64_t L_37 = L_36->___myOculusId;
 		NullCheck(L_26);
 		AutomaticColocationLauncher_Init_mB4237FC6002C12C385FD63FFFEEE138D1E82234C(L_26, L_27, L_28, L_30, L_33, L_35, L_37, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:85>
 		NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0* L_38 = ___0_param;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_39 = L_38->___setupColocationReadyEvents;
 		NullCheck(L_39);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_39, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:86>
 		NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0* L_40 = ___0_param;
 		AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_41 = L_40->___colocationLauncher;
 		Action_1_t5679F6495F60938D362DF8F8F23B4A4DB11F9387* L_42 = (Action_1_t5679F6495F60938D362DF8F8F23B4A4DB11F9387*)il2cpp_codegen_object_new(Action_1_t5679F6495F60938D362DF8F8F23B4A4DB11F9387_il2cpp_TypeInfo_var);
 		Action_1__ctor_m14CB7517CD4449B4B38165DA99F7EB8FAA8D88F0(L_42, NULL, (intptr_t)((void*)NetworkBootstrapperUtils_OnColocationFailed_mD82CFB436A8FB2951E56803754960CFA04B7455F_RuntimeMethod_var), NULL);
 		NullCheck(L_41);
 		AutomaticColocationLauncher_add_ColocationFailed_mC8671C0C2449F79F66D3B82E55CFF25A077D8A9B(L_41, L_42, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:87>
 		NetworkBootstrapperParams_tB34B2DF57B4BA1657DEBAEE88982774AA09025F0* L_43 = ___0_param;
 		AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_44 = L_43->___colocationLauncher;
 		NullCheck(L_44);
 		AutomaticColocationLauncher_ColocateAutomatically_mDB905AB092532C75143B11926235FD8784DF022B(L_44, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 115444
+// Method Definition Index: 115520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkBootstrapperUtils_OnColocationFailed_mD82CFB436A8FB2951E56803754960CFA04B7455F (int32_t ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8270,14 +8270,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkBootstrapperUtils_OnColocationFai
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:92>
 		int32_t L_0 = ___0_e;
 		int32_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(ColocationFailedReason_t6F98E6888A8204A8C0170700CC09C64CACCD8AA7_il2cpp_TypeInfo_var, &L_1);
 		String_t* L_3;
 		L_3 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral8B92A129B7AC6B74E77BEE5E941956C7DD4E1201, L_2, NULL);
 		Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_3, 3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs:93>
 		return;
 	}
 }
@@ -8289,84 +8289,84 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkBootstrapperUtils_OnColocationFai
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115445
+// Method Definition Index: 115521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CustomMatchmaking_get_LobbyName_mC212392E843B115ACADBE3F2BF1E805362D8ABDC (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:185>
 		String_t* L_0 = __this->___lobbyName;
 		return L_0;
 	}
 }
-// Method Definition Index: 115446
+// Method Definition Index: 115522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomMatchmaking_set_LobbyName_m5ADC1FE1F5CB220F390A5FC206F2D08E3124E9DE (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:186>
 		String_t* L_0 = ___0_value;
 		__this->___lobbyName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___lobbyName), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 115447
+// Method Definition Index: 115523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CustomMatchmaking_get_IsPrivate_mAD89F794F41DD131CC3C212526000DCDAE93F6A8 (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:198>
 		bool L_0 = __this->___isPrivate;
 		return L_0;
 	}
 }
-// Method Definition Index: 115448
+// Method Definition Index: 115524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomMatchmaking_set_IsPrivate_m537B0A7641A8A439516C4C2F5C76E51A9F2D0785 (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:199>
 		bool L_0 = ___0_value;
 		__this->___isPrivate = L_0;
 		return;
 	}
 }
-// Method Definition Index: 115449
+// Method Definition Index: 115525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CustomMatchmaking_get_MaxPlayersPerRoom_mF570DEDA953550B5CF08C8C36127279E05E32164 (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:210>
 		int32_t L_0 = __this->___maxPlayersPerRoom;
 		return L_0;
 	}
 }
-// Method Definition Index: 115450
+// Method Definition Index: 115526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomMatchmaking_set_MaxPlayersPerRoom_mEA0B88E29C8B993C358354865FBF1A7D247DB757 (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:211>
 		int32_t L_0 = ___0_value;
 		__this->___maxPlayersPerRoom = L_0;
 		return;
 	}
 }
-// Method Definition Index: 115451
+// Method Definition Index: 115527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CustomMatchmaking_get_IsPasswordProtected_m9A32483398D052911A365C22329438E64D1A3158 (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:222>
 		bool L_0 = __this->___isPasswordProtected;
 		return L_0;
 	}
 }
-// Method Definition Index: 115452
+// Method Definition Index: 115528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomMatchmaking_set_IsPasswordProtected_mEA22358EF8F62C244AE8E9DA1814DFE42D2D364B (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:223>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:223>
 		bool L_0 = ___0_value;
 		__this->___isPasswordProtected = L_0;
 		return;
 	}
 }
-// Method Definition Index: 115453
+// Method Definition Index: 115529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomMatchmaking_OnEnable_mAE732EE8DA349542E8F8A3502553EA775F9DF4CF (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8377,12 +8377,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomMatchmaking_OnEnable_mAE732EE8DA34
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:232>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:232>
 		RuntimeObject* L_0;
 		L_0 = RunTimeUtils_GetInterfaceComponent_TisICustomMatchmakingBehaviour_tD9F0E01F841ECC368866350E581EC08559127A2B_mF6018A885FFCA3D5BD17051E0734BF76BF5A2310(__this, RunTimeUtils_GetInterfaceComponent_TisICustomMatchmakingBehaviour_tD9F0E01F841ECC368866350E581EC08559127A2B_mF6018A885FFCA3D5BD17051E0734BF76BF5A2310_RuntimeMethod_var);
 		__this->___MatchmakingBehaviour = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___MatchmakingBehaviour), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:233>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:233>
 		RuntimeObject* L_1 = __this->___MatchmakingBehaviour;
 		if (L_1)
 		{
@@ -8399,8 +8399,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomMatchmaking_OnEnable_mAE732EE8DA34
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:235>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:236>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:236>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_3 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8B598494F1E0413ABEE88526A64469EA00E1CFD5)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CustomMatchmaking_OnEnable_mAE732EE8DA349542E8F8A3502553EA775F9DF4CF_RuntimeMethod_var)));
@@ -8408,11 +8408,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomMatchmaking_OnEnable_mAE732EE8DA34
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:238>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:238>
 		return;
 	}
 }
-// Method Definition Index: 115454
+// Method Definition Index: 115530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t92DC697C604B55B2CF267A3C201073DD63B7D49D* CustomMatchmaking_CreateRoom_m7C28A6B0C48E88752BDAAC07FE86DD513BEBF53E (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8449,7 +8449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t92DC697C604B55B2CF267A3C201073DD63B7D
 		return L_3;
 	}
 }
-// Method Definition Index: 115455
+// Method Definition Index: 115531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t92DC697C604B55B2CF267A3C201073DD63B7D49D* CustomMatchmaking_CreateRoom_m8F676C1ADFF8218080DB630B4155B47AF2C54E8D (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, RoomCreationOptions_tAE6E1A8C343B7ACE32AC3274744EAF4052E7A92C ___0_options, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8492,7 +8492,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t92DC697C604B55B2CF267A3C201073DD63B7D
 		return L_4;
 	}
 }
-// Method Definition Index: 115456
+// Method Definition Index: 115532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t92DC697C604B55B2CF267A3C201073DD63B7D49D* CustomMatchmaking_JoinRoom_m6D17F2BE2E52B8D7B931F8D620EF94147981FA8B (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, String_t* ___0_roomToken, String_t* ___1_roomPassword, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8535,7 +8535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t92DC697C604B55B2CF267A3C201073DD63B7D
 		return L_5;
 	}
 }
-// Method Definition Index: 115457
+// Method Definition Index: 115533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t92DC697C604B55B2CF267A3C201073DD63B7D49D* CustomMatchmaking_JoinOpenRoom_m2E0BFD1ABB63418617BE4BFC702E22B163613A38 (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, String_t* ___0_roomLobby, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8575,7 +8575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t92DC697C604B55B2CF267A3C201073DD63B7D
 		return L_4;
 	}
 }
-// Method Definition Index: 115458
+// Method Definition Index: 115534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomMatchmaking_LeaveRoom_mFF97D606CF4A8ACD43A296434E28C462B7660059 (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8587,11 +8587,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomMatchmaking_LeaveRoom_mFF97D606CF4
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B2_0 = NULL;
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:320>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:320>
 		RuntimeObject* L_0 = __this->___MatchmakingBehaviour;
 		NullCheck(L_0);
 		InterfaceActionInvoker0::Invoke(3, ICustomMatchmakingBehaviour_tD9F0E01F841ECC368866350E581EC08559127A2B_il2cpp_TypeInfo_var, L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:321>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:321>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = __this->___onRoomLeaveFinished;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_2 = L_1;
 		if (L_2)
@@ -8609,11 +8609,11 @@ IL_0016:
 	{
 		NullCheck(G_B2_0);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B2_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:322>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:322>
 		return;
 	}
 }
-// Method Definition Index: 115459
+// Method Definition Index: 115535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CustomMatchmaking_get_IsConnected_mC4DAC046F7B41FD5ED5C0C515114F597FA613BD1 (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8624,7 +8624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CustomMatchmaking_get_IsConnected_mC4DAC
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:328>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:328>
 		RuntimeObject* L_0 = __this->___MatchmakingBehaviour;
 		V_0 = L_0;
 		RuntimeObject* L_1 = V_0;
@@ -8646,7 +8646,7 @@ IL_0011:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 115460
+// Method Definition Index: 115536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CustomMatchmaking_get_ConnectedRoomToken_m6C5D1565017BC549E6AA0B5329416EA8641C2C36 (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8661,7 +8661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CustomMatchmaking_get_ConnectedRoom
 	String_t* G_B5_0 = NULL;
 	String_t* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:334>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:334>
 		RuntimeObject* L_0 = __this->___MatchmakingBehaviour;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -8704,17 +8704,17 @@ IL_001b:
 		return G_B5_0;
 	}
 }
-// Method Definition Index: 115461
+// Method Definition Index: 115537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CustomMatchmaking_GenerateRoomPassword_m08F73507BE8D684D9DFE5CF918AB559CD51134A3 (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:342>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:342>
 		String_t* L_0;
 		L_0 = RunTimeUtils_GenerateRandomString_mCFDD779F2B4244B4027872780147224AD12C0E0A(((int32_t)16), (bool)1, (bool)1, (bool)1, (bool)0, NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 115462
+// Method Definition Index: 115538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CustomMatchmaking_get_SupportsRoomPassword_mF21A453A205F365B10B119A196D584B559680251 (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8725,7 +8725,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CustomMatchmaking_get_SupportsRoomPasswo
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:348>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:348>
 		RuntimeObject* L_0 = __this->___MatchmakingBehaviour;
 		V_0 = L_0;
 		RuntimeObject* L_1 = V_0;
@@ -8747,7 +8747,7 @@ IL_0011:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 115463
+// Method Definition Index: 115539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomMatchmaking__ctor_mF19C67408A970532D3AB692E4C757D68125636CB (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8757,10 +8757,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomMatchmaking__ctor_mF19C67408A97053
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:182>
 		__this->___lobbyName = _stringLiteralCA9F76BDAF9C3DA5D3162CC3C8DA27CBC8C20940;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___lobbyName), (void*)_stringLiteralCA9F76BDAF9C3DA5D3162CC3C8DA27CBC8C20940);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:206>
 		__this->___maxPlayersPerRoom = 4;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -8884,11 +8884,11 @@ IL2CPP_EXTERN_C void RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E19
 	il2cpp_codegen_marshal_free_bstring(marshaled.___RoomPassword);
 	marshaled.___RoomPassword = NULL;
 }
-// Method Definition Index: 115471
+// Method Definition Index: 115547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RoomOperationResult_get_IsSuccess_mDBDEBE65BFDD0122C8BB095A5BBB11B34D48BFBF (RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:139>
 		String_t* L_0 = __this->___ErrorMessage;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -8912,7 +8912,7 @@ IL2CPP_EXTERN_C  bool RoomOperationResult_get_IsSuccess_mDBDEBE65BFDD0122C8BB095
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115472
+// Method Definition Index: 115548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateRoomU3Ed__25_MoveNext_mD8A9FBC9C2483A812BBFC4C96FE818406B135305 (U3CCreateRoomU3Ed__25_tC8B91BF6667791AE7BEA550864604C93006EAA7B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8961,13 +8961,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateRoomU3Ed__25_MoveNext_mD8A9FBC9
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:247>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:248>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:249>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:250>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:251>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:252>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:253>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:247>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:248>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:249>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:250>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:251>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:252>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:253>
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_3 = V_1;
 			il2cpp_codegen_initobj((&V_4), sizeof(RoomCreationOptions_tAE6E1A8C343B7ACE32AC3274744EAF4052E7A92C));
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_4 = V_1;
@@ -9109,7 +9109,7 @@ CATCH_00c0:
 
 IL_00d9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:254>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:254>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t36D397AB4EA4948AAFD11F087A428FBD5B64A04D* L_30 = (AsyncTaskMethodBuilder_1_t36D397AB4EA4948AAFD11F087A428FBD5B64A04D*)(&__this->___U3CU3Et__builder);
 		RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_31 = V_2;
@@ -9129,7 +9129,7 @@ IL2CPP_EXTERN_C  void U3CCreateRoomU3Ed__25_MoveNext_mD8A9FBC9C2483A812BBFC4C96F
 	_thisAdjusted = reinterpret_cast<U3CCreateRoomU3Ed__25_tC8B91BF6667791AE7BEA550864604C93006EAA7B*>(__this + _offset);
 	U3CCreateRoomU3Ed__25_MoveNext_mD8A9FBC9C2483A812BBFC4C96FE818406B135305(_thisAdjusted, method);
 }
-// Method Definition Index: 115473
+// Method Definition Index: 115549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateRoomU3Ed__25_SetStateMachine_mC77FF1AB8625AA204C7CEE2FB15574B0BCF3537E (U3CCreateRoomU3Ed__25_tC8B91BF6667791AE7BEA550864604C93006EAA7B* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9162,7 +9162,7 @@ IL2CPP_EXTERN_C  void U3CCreateRoomU3Ed__25_SetStateMachine_mC77FF1AB8625AA204C7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115474
+// Method Definition Index: 115550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateRoomU3Ed__26_MoveNext_mE758D0D8292083AAC616ED854546447FED555B9C (U3CCreateRoomU3Ed__26_tCBF159D7540EF9DA202854BFDE718697031D58E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9208,7 +9208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateRoomU3Ed__26_MoveNext_mE758D0D8
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:264>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:264>
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_3 = V_1;
 			NullCheck(L_3);
 			RuntimeObject* L_4 = L_3->___MatchmakingBehaviour;
@@ -9256,7 +9256,7 @@ IL_0073_1:
 			RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_15;
 			L_15 = TaskAwaiter_1_GetResult_mD44411E992084371A8FEDDF32412AB8BB5BA7BF9((&V_4), TaskAwaiter_1_GetResult_mD44411E992084371A8FEDDF32412AB8BB5BA7BF9_RuntimeMethod_var);
 			V_3 = L_15;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:266>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:266>
 			bool L_16;
 			L_16 = RoomOperationResult_get_IsSuccess_mDBDEBE65BFDD0122C8BB095A5BBB11B34D48BFBF((&V_3), NULL);
 			if (L_16)
@@ -9265,7 +9265,7 @@ IL_0073_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:268>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:268>
 			RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_17 = V_3;
 			String_t* L_18 = L_17.___ErrorMessage;
 			String_t* L_19;
@@ -9276,7 +9276,7 @@ IL_0073_1:
 
 IL_0099_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:271>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:271>
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_20 = V_1;
 			NullCheck(L_20);
 			UnityEvent_1_tA625E022BABB451E02C6BCBF6EE3B4AC00295867* L_21 = L_20->___onRoomCreationFinished;
@@ -9301,7 +9301,7 @@ IL_00a5_1:
 
 IL_00ab_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:272>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:272>
 			RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_24 = V_3;
 			V_2 = L_24;
 			goto IL_00c8;
@@ -9332,7 +9332,7 @@ CATCH_00af:
 
 IL_00c8:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:273>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t36D397AB4EA4948AAFD11F087A428FBD5B64A04D* L_28 = (AsyncTaskMethodBuilder_1_t36D397AB4EA4948AAFD11F087A428FBD5B64A04D*)(&__this->___U3CU3Et__builder);
 		RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_29 = V_2;
@@ -9352,7 +9352,7 @@ IL2CPP_EXTERN_C  void U3CCreateRoomU3Ed__26_MoveNext_mE758D0D8292083AAC616ED8545
 	_thisAdjusted = reinterpret_cast<U3CCreateRoomU3Ed__26_tCBF159D7540EF9DA202854BFDE718697031D58E7*>(__this + _offset);
 	U3CCreateRoomU3Ed__26_MoveNext_mE758D0D8292083AAC616ED854546447FED555B9C(_thisAdjusted, method);
 }
-// Method Definition Index: 115475
+// Method Definition Index: 115551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateRoomU3Ed__26_SetStateMachine_m1787184B641B0CDA7305F7F1513DAD81B2059390 (U3CCreateRoomU3Ed__26_tCBF159D7540EF9DA202854BFDE718697031D58E7* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9385,7 +9385,7 @@ IL2CPP_EXTERN_C  void U3CCreateRoomU3Ed__26_SetStateMachine_m1787184B641B0CDA730
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115476
+// Method Definition Index: 115552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CJoinOpenRoomU3Ed__28_MoveNext_m34C8A103F3D9C14AE74306362A933AEBB5775F42 (U3CJoinOpenRoomU3Ed__28_tE6B169A99F0E96E450478DD225BDF248F8820C14* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9431,7 +9431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CJoinOpenRoomU3Ed__28_MoveNext_m34C8A1
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:304>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:304>
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_3 = V_1;
 			NullCheck(L_3);
 			RuntimeObject* L_4 = L_3->___MatchmakingBehaviour;
@@ -9479,7 +9479,7 @@ IL_0073_1:
 			RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_15;
 			L_15 = TaskAwaiter_1_GetResult_mD44411E992084371A8FEDDF32412AB8BB5BA7BF9((&V_4), TaskAwaiter_1_GetResult_mD44411E992084371A8FEDDF32412AB8BB5BA7BF9_RuntimeMethod_var);
 			V_3 = L_15;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:306>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:306>
 			bool L_16;
 			L_16 = RoomOperationResult_get_IsSuccess_mDBDEBE65BFDD0122C8BB095A5BBB11B34D48BFBF((&V_3), NULL);
 			if (L_16)
@@ -9488,7 +9488,7 @@ IL_0073_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:308>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:308>
 			RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_17 = V_3;
 			String_t* L_18 = L_17.___ErrorMessage;
 			String_t* L_19;
@@ -9499,7 +9499,7 @@ IL_0073_1:
 
 IL_0099_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:311>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:311>
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_20 = V_1;
 			NullCheck(L_20);
 			UnityEvent_1_tA625E022BABB451E02C6BCBF6EE3B4AC00295867* L_21 = L_20->___onRoomJoinFinished;
@@ -9524,7 +9524,7 @@ IL_00a5_1:
 
 IL_00ab_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:312>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:312>
 			RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_24 = V_3;
 			V_2 = L_24;
 			goto IL_00c8;
@@ -9555,7 +9555,7 @@ CATCH_00af:
 
 IL_00c8:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:313>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:313>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t36D397AB4EA4948AAFD11F087A428FBD5B64A04D* L_28 = (AsyncTaskMethodBuilder_1_t36D397AB4EA4948AAFD11F087A428FBD5B64A04D*)(&__this->___U3CU3Et__builder);
 		RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_29 = V_2;
@@ -9575,7 +9575,7 @@ IL2CPP_EXTERN_C  void U3CJoinOpenRoomU3Ed__28_MoveNext_m34C8A103F3D9C14AE7430636
 	_thisAdjusted = reinterpret_cast<U3CJoinOpenRoomU3Ed__28_tE6B169A99F0E96E450478DD225BDF248F8820C14*>(__this + _offset);
 	U3CJoinOpenRoomU3Ed__28_MoveNext_m34C8A103F3D9C14AE74306362A933AEBB5775F42(_thisAdjusted, method);
 }
-// Method Definition Index: 115477
+// Method Definition Index: 115553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CJoinOpenRoomU3Ed__28_SetStateMachine_m5B0E811B202A09B495222BF3880A1E24261CDB1D (U3CJoinOpenRoomU3Ed__28_tE6B169A99F0E96E450478DD225BDF248F8820C14* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9608,7 +9608,7 @@ IL2CPP_EXTERN_C  void U3CJoinOpenRoomU3Ed__28_SetStateMachine_m5B0E811B202A09B49
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115478
+// Method Definition Index: 115554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CJoinRoomU3Ed__27_MoveNext_mDFC683BD803F6873FB014862F5406EBA1F2FB266 (U3CJoinRoomU3Ed__27_t5F48267CFF38FE9C655A670974627967AAEA528D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9654,7 +9654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CJoinRoomU3Ed__27_MoveNext_mDFC683BD80
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:285>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:285>
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_3 = V_1;
 			NullCheck(L_3);
 			RuntimeObject* L_4 = L_3->___MatchmakingBehaviour;
@@ -9703,7 +9703,7 @@ IL_0079_1:
 			RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_16;
 			L_16 = TaskAwaiter_1_GetResult_mD44411E992084371A8FEDDF32412AB8BB5BA7BF9((&V_4), TaskAwaiter_1_GetResult_mD44411E992084371A8FEDDF32412AB8BB5BA7BF9_RuntimeMethod_var);
 			V_3 = L_16;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:287>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:287>
 			bool L_17;
 			L_17 = RoomOperationResult_get_IsSuccess_mDBDEBE65BFDD0122C8BB095A5BBB11B34D48BFBF((&V_3), NULL);
 			if (L_17)
@@ -9712,7 +9712,7 @@ IL_0079_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:289>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:289>
 			RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_18 = V_3;
 			String_t* L_19 = L_18.___ErrorMessage;
 			String_t* L_20;
@@ -9723,7 +9723,7 @@ IL_0079_1:
 
 IL_009f_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:292>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:292>
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_21 = V_1;
 			NullCheck(L_21);
 			UnityEvent_1_tA625E022BABB451E02C6BCBF6EE3B4AC00295867* L_22 = L_21->___onRoomJoinFinished;
@@ -9748,7 +9748,7 @@ IL_00ab_1:
 
 IL_00b1_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:293>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:293>
 			RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_25 = V_3;
 			V_2 = L_25;
 			goto IL_00ce;
@@ -9779,7 +9779,7 @@ CATCH_00b5:
 
 IL_00ce:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:294>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:294>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t36D397AB4EA4948AAFD11F087A428FBD5B64A04D* L_29 = (AsyncTaskMethodBuilder_1_t36D397AB4EA4948AAFD11F087A428FBD5B64A04D*)(&__this->___U3CU3Et__builder);
 		RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_30 = V_2;
@@ -9799,7 +9799,7 @@ IL2CPP_EXTERN_C  void U3CJoinRoomU3Ed__27_MoveNext_mDFC683BD803F6873FB014862F540
 	_thisAdjusted = reinterpret_cast<U3CJoinRoomU3Ed__27_t5F48267CFF38FE9C655A670974627967AAEA528D*>(__this + _offset);
 	U3CJoinRoomU3Ed__27_MoveNext_mDFC683BD803F6873FB014862F5406EBA1F2FB266(_thisAdjusted, method);
 }
-// Method Definition Index: 115479
+// Method Definition Index: 115555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CJoinRoomU3Ed__27_SetStateMachine_m6E096AA422EDA15736D41F37F04A927E98AA629C (U3CJoinRoomU3Ed__27_t5F48267CFF38FE9C655A670974627967AAEA528D* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9880,23 +9880,23 @@ IL2CPP_EXTERN_C void MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF_marshal
 	il2cpp_codegen_marshal_free_bstring(marshaled.___Extra);
 	marshaled.___Extra = NULL;
 }
-// Method Definition Index: 115480
+// Method Definition Index: 115556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchInfo__ctor_m21ADE9C92A3EFFED23C527503AC489EF884F03AD (MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF* __this, String_t* ___0_roomId, String_t* ___1_roomPassword, String_t* ___2_extra, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:38>
 		String_t* L_0 = ___0_roomId;
 		__this->___RoomId = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:39>
 		String_t* L_1 = ___1_roomPassword;
 		__this->___RoomPassword = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomPassword), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:40>
 		String_t* L_2 = ___2_extra;
 		__this->___Extra = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Extra), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:41>
 		return;
 	}
 }
@@ -9915,7 +9915,7 @@ IL2CPP_EXTERN_C  void MatchInfo__ctor_m21ADE9C92A3EFFED23C527503AC489EF884F03AD_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115483
+// Method Definition Index: 115559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* SerializationUtils_Compress_m77D6F74F93447CED5DBD9ECFC113217B1509BBD2 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9930,7 +9930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 	DeflateStream_tF1758952E9DBAB2F9A15D42971F33A78AB4FC104* V_1 = NULL;
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:74>
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_0 = (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2*)il2cpp_codegen_object_new(MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m8F3BAE0B48E65BAA13C52FB020E502B3EA22CA6B(L_0, NULL);
 		V_0 = L_0;
@@ -9963,7 +9963,7 @@ IL_0037:
 		try
 		{
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:76>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:76>
 				MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_3 = V_0;
 				DeflateStream_tF1758952E9DBAB2F9A15D42971F33A78AB4FC104* L_4 = (DeflateStream_tF1758952E9DBAB2F9A15D42971F33A78AB4FC104*)il2cpp_codegen_object_new(DeflateStream_tF1758952E9DBAB2F9A15D42971F33A78AB4FC104_il2cpp_TypeInfo_var);
 				DeflateStream__ctor_m344C1EF8B83E612C4FC662F0152DF1D2A5636829(L_4, L_3, 1, NULL);
@@ -9996,14 +9996,14 @@ IL_0024_1:
 				});
 				try
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:78>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:78>
 					DeflateStream_tF1758952E9DBAB2F9A15D42971F33A78AB4FC104* L_7 = V_1;
 					ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = ___0_data;
 					ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = ___0_data;
 					NullCheck(L_9);
 					NullCheck(L_7);
 					VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_7, L_8, 0, ((int32_t)(((RuntimeArray*)L_9)->max_length)));
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:79>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:79>
 					goto IL_0025_1;
 				}
 				catch(Il2CppExceptionWrapper& e)
@@ -10014,7 +10014,7 @@ IL_0024_1:
 
 IL_0025_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:80>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:80>
 				MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_10 = V_0;
 				NullCheck(L_10);
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11;
@@ -10031,12 +10031,12 @@ IL_0025_1:
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:82>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = V_2;
 		return L_12;
 	}
 }
-// Method Definition Index: 115484
+// Method Definition Index: 115560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* SerializationUtils_Decompress_mB03E34E14763CC760B60055D592067E6968688B8 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10051,7 +10051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 	DeflateStream_tF1758952E9DBAB2F9A15D42971F33A78AB4FC104* V_1 = NULL;
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:85>
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_0 = (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2*)il2cpp_codegen_object_new(MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m8F3BAE0B48E65BAA13C52FB020E502B3EA22CA6B(L_0, NULL);
 		V_0 = L_0;
@@ -10084,7 +10084,7 @@ IL_0038:
 		try
 		{
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:87>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:87>
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ___0_data;
 				MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_4 = (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2*)il2cpp_codegen_object_new(MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
 				MemoryStream__ctor_m662CA0D5A0004A2E3B475FE8DCD687B654870AA2(L_4, L_3, NULL);
@@ -10119,12 +10119,12 @@ IL_0025_1:
 				});
 				try
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:89>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:89>
 					DeflateStream_tF1758952E9DBAB2F9A15D42971F33A78AB4FC104* L_8 = V_1;
 					MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_9 = V_0;
 					NullCheck(L_8);
 					Stream_CopyTo_m61DC54FF3708C2B8AB5C5D63D300AA57ADA01999(L_8, L_9, NULL);
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:90>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:90>
 					goto IL_0026_1;
 				}
 				catch(Il2CppExceptionWrapper& e)
@@ -10135,7 +10135,7 @@ IL_0025_1:
 
 IL_0026_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:91>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:91>
 				MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_10 = V_0;
 				NullCheck(L_10);
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11;
@@ -10152,7 +10152,7 @@ IL_0026_1:
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:93>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = V_2;
 		return L_12;
 	}
@@ -10165,7 +10165,7 @@ IL_0039:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115485
+// Method Definition Index: 115561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF CustomMatchmakingUtils_DecodeMatchInfoWithStruct_m01B72FD6B9F64E1925BA2DBB759B938A0CD61D05 (String_t* ___0_matchInfoString, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10181,7 +10181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF
 	memset((&V_2), 0, sizeof(V_2));
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:100>
 		String_t* L_0 = ___0_matchInfoString;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -10191,7 +10191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:102>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_2 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDAB5C11483E7848A096769E9575BC59CCC3DCA97)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CustomMatchmakingUtils_DecodeMatchInfoWithStruct_m01B72FD6B9F64E1925BA2DBB759B938A0CD61D05_RuntimeMethod_var)));
@@ -10202,11 +10202,11 @@ IL_0013:
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:107>
 		String_t* L_3 = ___0_matchInfoString;
 		MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF L_4;
 		L_4 = SerializationUtils_DeserializeFromString_TisMatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF_m9AAAECF1858F61AAC2B2FD223B90AE5B498678F3(L_3, SerializationUtils_DeserializeFromString_TisMatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF_m9AAAECF1858F61AAC2B2FD223B90AE5B498678F3_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:108>
 		V_0 = L_4;
 		goto IL_003b;
 	}
@@ -10223,16 +10223,16 @@ IL_0013:
 CATCH_001d:
 	{
 		Exception_t* L_5 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:110>
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:112>
 		String_t* L_6 = ___0_matchInfoString;
 		Exception_t* L_7 = V_1;
 		String_t* L_8;
 		L_8 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7F4DD3AC311D94A33332944E9A3A15C3283D587B)), L_6, L_7, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:115>
 		il2cpp_codegen_initobj((&V_2), sizeof(MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF));
 		MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF L_9 = V_2;
 		V_0 = L_9;
@@ -10242,12 +10242,12 @@ CATCH_001d:
 
 IL_003b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:117>
 		MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF L_10 = V_0;
 		return L_10;
 	}
 }
-// Method Definition Index: 115486
+// Method Definition Index: 115562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CustomMatchmakingUtils_EncodeMatchInfoWithStruct_m26AB47CAB50E4539F2CFB11B7CB4132224A09289 (String_t* ___0_roomId, String_t* ___1_roomPassword, String_t* ___2_extra, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10259,7 +10259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CustomMatchmakingUtils_EncodeMatchI
 	MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:121>
 		String_t* L_0 = ___0_roomId;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -10269,7 +10269,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CustomMatchmakingUtils_EncodeMatchI
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:123>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_2 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral98F5885F96473C06B2E55C013CC5478A5B58A3DE)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CustomMatchmakingUtils_EncodeMatchInfoWithStruct_m26AB47CAB50E4539F2CFB11B7CB4132224A09289_RuntimeMethod_var)));
@@ -10277,12 +10277,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CustomMatchmakingUtils_EncodeMatchI
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:125>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:126>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:127>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:128>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:129>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:130>
 		il2cpp_codegen_initobj((&V_0), sizeof(MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF));
 		String_t* L_3 = ___0_roomId;
 		(&V_0)->___RoomId = L_3;
@@ -10294,13 +10294,13 @@ IL_0013:
 		(&V_0)->___Extra = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___Extra), (void*)L_5);
 		MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF L_6 = V_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:131>
 		String_t* L_7;
 		L_7 = SerializationUtils_SerializeToString_TisMatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF_m1E43F8B228AB30348B4FD759B16252203D80756E(L_6, SerializationUtils_SerializeToString_TisMatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF_m1E43F8B228AB30348B4FD759B16252203D80756E_RuntimeMethod_var);
 		return L_7;
 	}
 }
-// Method Definition Index: 115487
+// Method Definition Index: 115563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tA369C763469BCB1C81541EE3A74BAE7F5F7A4A91 CustomMatchmakingUtils_ExtractMatchInfoFromSessionId_mC2683826463F782C328BEB0AE89BD727EE589F35 (String_t* ___0_matchSessionId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10317,7 +10317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tA369C763469BCB1C81541EE3A74BAE7
 	memset((&V_2), 0, sizeof(V_2));
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:136>
 		String_t* L_0 = ___0_matchSessionId;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -10327,7 +10327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tA369C763469BCB1C81541EE3A74BAE7
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:138>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_2 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA7CCEDE6C0B4C2C14FDC3835C62B6CBD83B10CB7)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CustomMatchmakingUtils_ExtractMatchInfoFromSessionId_mC2683826463F782C328BEB0AE89BD727EE589F35_RuntimeMethod_var)));
@@ -10335,7 +10335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tA369C763469BCB1C81541EE3A74BAE7
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:141>
 		String_t* L_3 = ___0_matchSessionId;
 		NullCheck(L_3);
 		bool L_4;
@@ -10346,7 +10346,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:143>
 		String_t* L_5 = ___0_matchSessionId;
 		ValueTuple_2_tA369C763469BCB1C81541EE3A74BAE7F5F7A4A91 L_6;
 		memset((&L_6), 0, sizeof(L_6));
@@ -10356,18 +10356,18 @@ IL_0013:
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:146>
 		String_t* L_7 = ___0_matchSessionId;
 		NullCheck(L_7);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8;
 		L_8 = String_Split_m9530B73D02054692283BF35C3A27C8F2230946F4(L_7, ((int32_t)58), 0, NULL);
 		V_0 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:148>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:149>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:150>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:151>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:152>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:153>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = V_0;
 		NullCheck(L_9);
 		V_3 = ((int32_t)(((RuntimeArray*)L_9)->max_length));
@@ -10390,7 +10390,7 @@ IL_0028:
 
 IL_003f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:150>
 		ValueTuple_2_tA369C763469BCB1C81541EE3A74BAE7F5F7A4A91 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		ValueTuple_2__ctor_mEA682AE0DEB0D89054EB55197618D6C2C4A60CE7((&L_12), (String_t*)NULL, (String_t*)NULL, ValueTuple_2__ctor_mEA682AE0DEB0D89054EB55197618D6C2C4A60CE7_RuntimeMethod_var);
@@ -10400,7 +10400,7 @@ IL_003f:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:151>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = V_0;
 		NullCheck(L_13);
 		int32_t L_14 = 0;
@@ -10414,7 +10414,7 @@ IL_0049:
 
 IL_0055:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:152>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = V_0;
 		NullCheck(L_17);
 		int32_t L_18 = 0;
@@ -10433,7 +10433,7 @@ IL_0061:
 	{
 		ValueTuple_2_tA369C763469BCB1C81541EE3A74BAE7F5F7A4A91 L_24 = V_2;
 		V_1 = L_24;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:155>
 		ValueTuple_2_tA369C763469BCB1C81541EE3A74BAE7F5F7A4A91 L_25 = V_1;
 		String_t* L_26 = L_25.___Item1;
 		String_t* L_27 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
@@ -10445,14 +10445,14 @@ IL_0061:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:157>
 		(&V_1)->___Item1 = (String_t*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___Item1), (void*)(String_t*)NULL);
 	}
 
 IL_007d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:160>
 		ValueTuple_2_tA369C763469BCB1C81541EE3A74BAE7F5F7A4A91 L_29 = V_1;
 		String_t* L_30 = L_29.___Item2;
 		String_t* L_31 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
@@ -10464,19 +10464,19 @@ IL_007d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:162>
 		(&V_1)->___Item2 = (String_t*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___Item2), (void*)(String_t*)NULL);
 	}
 
 IL_0097:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:165>
 		ValueTuple_2_tA369C763469BCB1C81541EE3A74BAE7F5F7A4A91 L_33 = V_1;
 		return L_33;
 	}
 }
-// Method Definition Index: 115488
+// Method Definition Index: 115564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CustomMatchmakingUtils_EncodeMatchInfoToSessionId_mC4860F53D1EF2386AC9AB5DE6A944B996BA95279 (String_t* ___0_roomId, String_t* ___1_roomPassword, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10486,7 +10486,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CustomMatchmakingUtils_EncodeMatchI
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:170>
 		String_t* L_0 = ___0_roomId;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -10496,7 +10496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CustomMatchmakingUtils_EncodeMatchI
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:172>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_2 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral98F5885F96473C06B2E55C013CC5478A5B58A3DE)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CustomMatchmakingUtils_EncodeMatchInfoToSessionId_mC4860F53D1EF2386AC9AB5DE6A944B996BA95279_RuntimeMethod_var)));
@@ -10504,7 +10504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CustomMatchmakingUtils_EncodeMatchI
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:175>
 		String_t* L_3 = ___1_roomPassword;
 		bool L_4;
 		L_4 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_3, NULL);
@@ -10535,66 +10535,66 @@ IL_0028:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115489
+// Method Definition Index: 115565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FriendsMatchmaking_get_DestinationApi_m23C3EC54E000BCC1528A0C7E1B2C4B49316048A6 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:66>
 		String_t* L_0 = __this->___destinationApi;
 		return L_0;
 	}
 }
-// Method Definition Index: 115490
+// Method Definition Index: 115566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_set_DestinationApi_mF9AAB009EE6CFF3D768A9926AE47FDCF545D761E (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:67>
 		String_t* L_0 = ___0_value;
 		__this->___destinationApi = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___destinationApi), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 115491
+// Method Definition Index: 115567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FriendsMatchmaking_get_InviteMessage_m293332685A10EAA4DAC7807E4630A21E549143F6 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:81>
 		String_t* L_0 = __this->___inviteMessage;
 		return L_0;
 	}
 }
-// Method Definition Index: 115492
+// Method Definition Index: 115568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_set_InviteMessage_m01C7989DB93734F38909CAEBAB9DC43EE668BB5A (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:82>
 		String_t* L_0 = ___0_value;
 		__this->___inviteMessage = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___inviteMessage), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 115493
+// Method Definition Index: 115569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t FriendsMatchmaking_get_MaxRetries_m99E618E6574779F653ED836B5932246A837D3C28 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:96>
 		uint32_t L_0 = __this->___maxRetries;
 		return L_0;
 	}
 }
-// Method Definition Index: 115494
+// Method Definition Index: 115570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_set_MaxRetries_m9E66B684BDD1C225F50165F32AA979900847F0EB (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:97>
 		uint32_t L_0 = ___0_value;
 		__this->___maxRetries = L_0;
 		return;
 	}
 }
-// Method Definition Index: 115495
+// Method Definition Index: 115571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_Awake_mA7844A8BD3D380E762C3EEE955C7EC333FF2ABB7 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10607,13 +10607,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_Awake_mA7844A8BD3D380
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:112>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_0;
 		L_0 = Object_FindObjectOfType_TisCustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239_m2645D4F3FBCDB3D05A5C833DFEBFE43F21D6CC55(Object_FindObjectOfType_TisCustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239_m2645D4F3FBCDB3D05A5C833DFEBFE43F21D6CC55_RuntimeMethod_var);
 		__this->____customMatchmaking = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____customMatchmaking), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:115>
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_1 = __this->____customMatchmaking;
 		bool L_2;
 		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -10623,8 +10623,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_Awake_mA7844A8BD3D380
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:117>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:118>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_3 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4501F9B872653B3C9F6290F17876C225D4A06827)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FriendsMatchmaking_Awake_mA7844A8BD3D380E762C3EEE955C7EC333FF2ABB7_RuntimeMethod_var)));
@@ -10632,15 +10632,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_Awake_mA7844A8BD3D380
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:121>
 		Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486* L_4 = (Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486*)il2cpp_codegen_object_new(Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486_il2cpp_TypeInfo_var);
 		Action_1__ctor_m9D86F5986F9A0C0B729832CA568325E685DC4F67(L_4, __this, (intptr_t)((void*)FriendsMatchmaking_OnEntitlementFinished_m22285CFCCDB63891D9C8C4243B573DD0DBAB7F4F_RuntimeMethod_var), NULL);
 		PlatformInit_GetEntitlementInformation_m6B36496A1C3B80BBFB2F73A10516830CBAAE2373(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:122>
 		return;
 	}
 }
-// Method Definition Index: 115496
+// Method Definition Index: 115572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnEnable_m9A347748E48A9040CAD61A64CFAF42F78F49F8E0 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10652,7 +10652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnEnable_m9A347748E48
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:126>
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_0 = __this->____customMatchmaking;
 		NullCheck(L_0);
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = L_0->___onRoomLeaveFinished;
@@ -10660,7 +10660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnEnable_m9A347748E48
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 6)), NULL);
 		NullCheck(L_1);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:127>
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_3 = __this->____customMatchmaking;
 		NullCheck(L_3);
 		UnityEvent_1_tA625E022BABB451E02C6BCBF6EE3B4AC00295867* L_4 = L_3->___onRoomCreationFinished;
@@ -10668,7 +10668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnEnable_m9A347748E48
 		UnityAction_1__ctor_m762B54523BDEF73EBAA9FA1116B5C8D52FEA45A6(L_5, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 4)), NULL);
 		NullCheck(L_4);
 		UnityEvent_1_AddListener_m6805F9A5CA590CAC9AF27AD76F6A2FFF9B27FB1B(L_4, L_5, UnityEvent_1_AddListener_m6805F9A5CA590CAC9AF27AD76F6A2FFF9B27FB1B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:128>
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_6 = __this->____customMatchmaking;
 		NullCheck(L_6);
 		UnityEvent_1_tA625E022BABB451E02C6BCBF6EE3B4AC00295867* L_7 = L_6->___onRoomJoinFinished;
@@ -10676,11 +10676,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnEnable_m9A347748E48
 		UnityAction_1__ctor_m762B54523BDEF73EBAA9FA1116B5C8D52FEA45A6(L_8, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 4)), NULL);
 		NullCheck(L_7);
 		UnityEvent_1_AddListener_m6805F9A5CA590CAC9AF27AD76F6A2FFF9B27FB1B(L_7, L_8, UnityEvent_1_AddListener_m6805F9A5CA590CAC9AF27AD76F6A2FFF9B27FB1B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:129>
 		return;
 	}
 }
-// Method Definition Index: 115497
+// Method Definition Index: 115573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnDisable_m5C7F7BF3DD3F07738D097BB56DEBF8DA55D40EE0 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10692,7 +10692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnDisable_m5C7F7BF3DD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:133>
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_0 = __this->____customMatchmaking;
 		NullCheck(L_0);
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = L_0->___onRoomLeaveFinished;
@@ -10700,7 +10700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnDisable_m5C7F7BF3DD
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 6)), NULL);
 		NullCheck(L_1);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:134>
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_3 = __this->____customMatchmaking;
 		NullCheck(L_3);
 		UnityEvent_1_tA625E022BABB451E02C6BCBF6EE3B4AC00295867* L_4 = L_3->___onRoomCreationFinished;
@@ -10708,7 +10708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnDisable_m5C7F7BF3DD
 		UnityAction_1__ctor_m762B54523BDEF73EBAA9FA1116B5C8D52FEA45A6(L_5, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 4)), NULL);
 		NullCheck(L_4);
 		UnityEvent_1_RemoveListener_m62833AB5A8A57CB48EC6692FB74ACA3BDC491AF8(L_4, L_5, UnityEvent_1_RemoveListener_m62833AB5A8A57CB48EC6692FB74ACA3BDC491AF8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:135>
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_6 = __this->____customMatchmaking;
 		NullCheck(L_6);
 		UnityEvent_1_tA625E022BABB451E02C6BCBF6EE3B4AC00295867* L_7 = L_6->___onRoomJoinFinished;
@@ -10716,22 +10716,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnDisable_m5C7F7BF3DD
 		UnityAction_1__ctor_m762B54523BDEF73EBAA9FA1116B5C8D52FEA45A6(L_8, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 4)), NULL);
 		NullCheck(L_7);
 		UnityEvent_1_RemoveListener_m62833AB5A8A57CB48EC6692FB74ACA3BDC491AF8(L_7, L_8, UnityEvent_1_RemoveListener_m62833AB5A8A57CB48EC6692FB74ACA3BDC491AF8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:136>
 		return;
 	}
 }
-// Method Definition Index: 115498
+// Method Definition Index: 115574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_LaunchFriendsInvitePanel_mDEAC3BEB063C82136D659770F55E7A4E40A729D9 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:149>
 		Task_1_t31688217275F280F1EB0C8A8443558E68C0BABFA* L_0;
 		L_0 = FriendsMatchmaking_LaunchFriendsInvitePanelAsync_mEB97D2012443225EC928D6ED1CF44B51A4E1B575(__this, (InviteOptions_tEBFCE10D6E1E340073E889DE0FA2CC3DB273645D*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:150>
 		return;
 	}
 }
-// Method Definition Index: 115499
+// Method Definition Index: 115575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t31688217275F280F1EB0C8A8443558E68C0BABFA* FriendsMatchmaking_LaunchFriendsInvitePanelAsync_mEB97D2012443225EC928D6ED1CF44B51A4E1B575 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, InviteOptions_tEBFCE10D6E1E340073E889DE0FA2CC3DB273645D* ___0_inviteOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10754,23 +10754,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t31688217275F280F1EB0C8A8443558E68C0BA
 		U3CU3Ec__DisplayClass21_0_tA864B58B5AC782E6AB77D5AD8F0EFC479EA9EADC* L_0 = (U3CU3Ec__DisplayClass21_0_tA864B58B5AC782E6AB77D5AD8F0EFC479EA9EADC*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass21_0_tA864B58B5AC782E6AB77D5AD8F0EFC479EA9EADC_il2cpp_TypeInfo_var);
 		U3CU3Ec__DisplayClass21_0__ctor_m457BCB3287AC57BBF378F068F74DF1C3D89EF8D5(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:161>
 		U3CU3Ec__DisplayClass21_0_tA864B58B5AC782E6AB77D5AD8F0EFC479EA9EADC* L_1 = V_0;
 		TaskCompletionSource_1_t126DD692566DFB1965B8066583A1750FBE55AC3C* L_2 = (TaskCompletionSource_1_t126DD692566DFB1965B8066583A1750FBE55AC3C*)il2cpp_codegen_object_new(TaskCompletionSource_1_t126DD692566DFB1965B8066583A1750FBE55AC3C_il2cpp_TypeInfo_var);
 		TaskCompletionSource_1__ctor_mB258200DE58F91B710F030825F33862309A76BF9(L_2, TaskCompletionSource_1__ctor_mB258200DE58F91B710F030825F33862309A76BF9_RuntimeMethod_var);
 		NullCheck(L_1);
 		L_1->___tcs = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___tcs), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:163>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:164>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:165>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:166>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:167>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:168>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:169>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:170>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:171>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:172>
 		InviteOptions_tEBFCE10D6E1E340073E889DE0FA2CC3DB273645D* L_3 = ___0_inviteOptions;
 		InviteOptions_tEBFCE10D6E1E340073E889DE0FA2CC3DB273645D* L_4 = L_3;
 		if (L_4)
@@ -10796,7 +10796,7 @@ IL_001b:
 		NullCheck(L_6);
 		Request_1_t0C74A5C7761CE8EEE75516AEB71768B9FCE654A8* L_9;
 		L_9 = Request_1_OnComplete_m626F8CBD49BFC03E2415F2394CDBA4E7307191A5(L_6, L_8, Request_1_OnComplete_m626F8CBD49BFC03E2415F2394CDBA4E7307191A5_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:174>
 		U3CU3Ec__DisplayClass21_0_tA864B58B5AC782E6AB77D5AD8F0EFC479EA9EADC* L_10 = V_0;
 		NullCheck(L_10);
 		TaskCompletionSource_1_t126DD692566DFB1965B8066583A1750FBE55AC3C* L_11 = L_10->___tcs;
@@ -10806,18 +10806,18 @@ IL_001b:
 		return L_12;
 	}
 }
-// Method Definition Index: 115500
+// Method Definition Index: 115576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_LaunchRosterPanel_mDA846C87C16EF560C441AEE4D6F6BB5F2CBC239F (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:184>
 		Task_1_t0FC38BE1ED866DEE5BCB9FB33882E5530F252C33* L_0;
 		L_0 = FriendsMatchmaking_LaunchRosterPanelAsync_m14D8F0DCA7DB9C6F13F2F25CE316FC4988864F07(__this, (RosterOptions_tD68D8BEDE5B0BF4D0F371E9CE09095293C6E643F*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:185>
 		return;
 	}
 }
-// Method Definition Index: 115501
+// Method Definition Index: 115577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0FC38BE1ED866DEE5BCB9FB33882E5530F252C33* FriendsMatchmaking_LaunchRosterPanelAsync_m14D8F0DCA7DB9C6F13F2F25CE316FC4988864F07 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, RosterOptions_tD68D8BEDE5B0BF4D0F371E9CE09095293C6E643F* ___0_rosterOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10839,23 +10839,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0FC38BE1ED866DEE5BCB9FB33882E5530F252
 		U3CU3Ec__DisplayClass23_0_tE55B78D6FA2292439A7F90CDDD43B079F597BB13* L_0 = (U3CU3Ec__DisplayClass23_0_tE55B78D6FA2292439A7F90CDDD43B079F597BB13*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass23_0_tE55B78D6FA2292439A7F90CDDD43B079F597BB13_il2cpp_TypeInfo_var);
 		U3CU3Ec__DisplayClass23_0__ctor_m421EA5D649DC2F5B9F70525DD3DBC32A07C96AA7(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:196>
 		U3CU3Ec__DisplayClass23_0_tE55B78D6FA2292439A7F90CDDD43B079F597BB13* L_1 = V_0;
 		TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6* L_2 = (TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6*)il2cpp_codegen_object_new(TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6_il2cpp_TypeInfo_var);
 		TaskCompletionSource_1__ctor_m72AF77F1B391601B3CF74426ACAEE3F5BFFF6B0D(L_2, TaskCompletionSource_1__ctor_m72AF77F1B391601B3CF74426ACAEE3F5BFFF6B0D_RuntimeMethod_var);
 		NullCheck(L_1);
 		L_1->___tcs = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___tcs), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:198>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:199>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:200>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:201>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:202>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:203>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:204>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:205>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:206>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:202>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:203>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:204>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:207>
 		RosterOptions_tD68D8BEDE5B0BF4D0F371E9CE09095293C6E643F* L_3 = ___0_rosterOptions;
 		RosterOptions_tD68D8BEDE5B0BF4D0F371E9CE09095293C6E643F* L_4 = L_3;
 		if (L_4)
@@ -10881,7 +10881,7 @@ IL_001b:
 		NullCheck(L_6);
 		Request_t0773858FF1AC67C0D8B43058CC7119DDD1202D3B* L_9;
 		L_9 = Request_OnComplete_mFF740AAA53CD7EC649138E513189CD533A602BBE(L_6, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:209>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:209>
 		U3CU3Ec__DisplayClass23_0_tE55B78D6FA2292439A7F90CDDD43B079F597BB13* L_10 = V_0;
 		NullCheck(L_10);
 		TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6* L_11 = L_10->___tcs;
@@ -10891,7 +10891,7 @@ IL_001b:
 		return L_12;
 	}
 }
-// Method Definition Index: 115502
+// Method Definition Index: 115578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnRoomOperationResult_m7D031F5C2B6096D34DEAB913B519CF34DBD26997 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10933,7 +10933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnRoomOperationResult
 		return;
 	}
 }
-// Method Definition Index: 115503
+// Method Definition Index: 115579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* FriendsMatchmaking_JoinRoom_m76B0C0CFA81270E02D0DE1AD7A6091D9787B2131 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, String_t* ___0_roomId, String_t* ___1_roomPassword, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10974,18 +10974,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_5;
 	}
 }
-// Method Definition Index: 115504
+// Method Definition Index: 115580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_ClearGroupPresenceCallback_mD5AFA1D2F7ED7A3BB00061DE253153B800CAD346 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:236>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:236>
 		Task_1_t0FC38BE1ED866DEE5BCB9FB33882E5530F252C33* L_0;
 		L_0 = FriendsMatchmaking_ClearGroupPresence_mCF1422F43461556AC9B558CE65607540FA8758B5(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:237>
 		return;
 	}
 }
-// Method Definition Index: 115505
+// Method Definition Index: 115581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* FriendsMatchmaking_RegisterGameRoom_m45EE3688CC79695BEA285D86513C8E6FA4FF6C0C (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, String_t* ___0_roomId, String_t* ___1_roomPassword, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11026,7 +11026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_5;
 	}
 }
-// Method Definition Index: 115506
+// Method Definition Index: 115582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0FC38BE1ED866DEE5BCB9FB33882E5530F252C33* FriendsMatchmaking_ClearGroupPresence_mCF1422F43461556AC9B558CE65607540FA8758B5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11045,23 +11045,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0FC38BE1ED866DEE5BCB9FB33882E5530F252
 		U3CU3Ec__DisplayClass28_0_tC08F1C9E24F1D2E8C91C0CF00EC5BBDDF90EE739* L_0 = (U3CU3Ec__DisplayClass28_0_tC08F1C9E24F1D2E8C91C0CF00EC5BBDDF90EE739*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass28_0_tC08F1C9E24F1D2E8C91C0CF00EC5BBDDF90EE739_il2cpp_TypeInfo_var);
 		U3CU3Ec__DisplayClass28_0__ctor_m84B23999A48895AE3F5F06729E04898CE5399E34(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:263>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:263>
 		U3CU3Ec__DisplayClass28_0_tC08F1C9E24F1D2E8C91C0CF00EC5BBDDF90EE739* L_1 = V_0;
 		TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6* L_2 = (TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6*)il2cpp_codegen_object_new(TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6_il2cpp_TypeInfo_var);
 		TaskCompletionSource_1__ctor_m72AF77F1B391601B3CF74426ACAEE3F5BFFF6B0D(L_2, TaskCompletionSource_1__ctor_m72AF77F1B391601B3CF74426ACAEE3F5BFFF6B0D_RuntimeMethod_var);
 		NullCheck(L_1);
 		L_1->___tcs = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___tcs), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:265>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:266>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:267>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:268>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:269>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:270>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:271>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:272>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:273>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:274>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:265>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:268>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:269>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:270>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:271>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:272>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:274>
 		Request_t0773858FF1AC67C0D8B43058CC7119DDD1202D3B* L_3;
 		L_3 = GroupPresence_Clear_m5508A296B1D0131F9FCF797D432BB46A4893CBB4(NULL);
 		U3CU3Ec__DisplayClass28_0_tC08F1C9E24F1D2E8C91C0CF00EC5BBDDF90EE739* L_4 = V_0;
@@ -11070,7 +11070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0FC38BE1ED866DEE5BCB9FB33882E5530F252
 		NullCheck(L_3);
 		Request_t0773858FF1AC67C0D8B43058CC7119DDD1202D3B* L_6;
 		L_6 = Request_OnComplete_mFF740AAA53CD7EC649138E513189CD533A602BBE(L_3, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:276>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:276>
 		U3CU3Ec__DisplayClass28_0_tC08F1C9E24F1D2E8C91C0CF00EC5BBDDF90EE739* L_7 = V_0;
 		NullCheck(L_7);
 		TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6* L_8 = L_7->___tcs;
@@ -11080,7 +11080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0FC38BE1ED866DEE5BCB9FB33882E5530F252
 		return L_9;
 	}
 }
-// Method Definition Index: 115507
+// Method Definition Index: 115583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0FC38BE1ED866DEE5BCB9FB33882E5530F252C33* FriendsMatchmaking_SetGroupPresence_m2879108A508316247C6CBD5DD558163C03698E3D (GroupPresenceOptions_t5807A9BFCE1F988764960642EA4B6917F884FF86* ___0_groupPresenceOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11099,14 +11099,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0FC38BE1ED866DEE5BCB9FB33882E5530F252
 		U3CU3Ec__DisplayClass29_0_tEF89351405EBE281C47DC322EBB2409D5C7C1F40* L_0 = (U3CU3Ec__DisplayClass29_0_tEF89351405EBE281C47DC322EBB2409D5C7C1F40*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass29_0_tEF89351405EBE281C47DC322EBB2409D5C7C1F40_il2cpp_TypeInfo_var);
 		U3CU3Ec__DisplayClass29_0__ctor_m72B0395CE9150DEF8ED13477A7734EF122E685F0(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:281>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:281>
 		U3CU3Ec__DisplayClass29_0_tEF89351405EBE281C47DC322EBB2409D5C7C1F40* L_1 = V_0;
 		TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6* L_2 = (TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6*)il2cpp_codegen_object_new(TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6_il2cpp_TypeInfo_var);
 		TaskCompletionSource_1__ctor_m72AF77F1B391601B3CF74426ACAEE3F5BFFF6B0D(L_2, TaskCompletionSource_1__ctor_m72AF77F1B391601B3CF74426ACAEE3F5BFFF6B0D_RuntimeMethod_var);
 		NullCheck(L_1);
 		L_1->___tcs = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___tcs), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:283>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:283>
 		GroupPresenceOptions_t5807A9BFCE1F988764960642EA4B6917F884FF86* L_3 = ___0_groupPresenceOptions;
 		Request_t0773858FF1AC67C0D8B43058CC7119DDD1202D3B* L_4;
 		L_4 = GroupPresence_Set_m299E65E855451B87F6C7AB4DDB3E6B1B8953A137(L_3, NULL);
@@ -11116,7 +11116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0FC38BE1ED866DEE5BCB9FB33882E5530F252
 		NullCheck(L_4);
 		Request_t0773858FF1AC67C0D8B43058CC7119DDD1202D3B* L_7;
 		L_7 = Request_OnComplete_mFF740AAA53CD7EC649138E513189CD533A602BBE(L_4, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:285>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:285>
 		U3CU3Ec__DisplayClass29_0_tEF89351405EBE281C47DC322EBB2409D5C7C1F40* L_8 = V_0;
 		NullCheck(L_8);
 		TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6* L_9 = L_8->___tcs;
@@ -11126,7 +11126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0FC38BE1ED866DEE5BCB9FB33882E5530F252
 		return L_10;
 	}
 }
-// Method Definition Index: 115508
+// Method Definition Index: 115584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnEntitlementFinished_m22285CFCCDB63891D9C8C4243B573DD0DBAB7F4F (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A ___0_info, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11140,23 +11140,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnEntitlementFinished
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:290>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:290>
 		Callback_tD1FBAFEC63B0112CFBE8DCB5EF96452FB354F484* L_0 = (Callback_tD1FBAFEC63B0112CFBE8DCB5EF96452FB354F484*)il2cpp_codegen_object_new(Callback_tD1FBAFEC63B0112CFBE8DCB5EF96452FB354F484_il2cpp_TypeInfo_var);
 		Callback__ctor_m272403F9D2A1595C5C6C1E64B6F5BF12F12C28AD(L_0, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 7)), NULL);
 		GroupPresence_SetJoinIntentReceivedNotificationCallback_mF04360D9D808031E5887E5A19F547E749E9A8515(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:291>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:291>
 		Callback_t9DA24D9401D6E6519599DC938267C4BCDFFCD3AB* L_1 = (Callback_t9DA24D9401D6E6519599DC938267C4BCDFFCD3AB*)il2cpp_codegen_object_new(Callback_t9DA24D9401D6E6519599DC938267C4BCDFFCD3AB_il2cpp_TypeInfo_var);
 		Callback__ctor_m03D91159CB9EDEA9ED79CF1BBC75ED7C4BDE8281(L_1, __this, (intptr_t)((void*)FriendsMatchmaking_OnInvitationsSent_mAEA6571EA105BC1C7E5A9C6CB8EF57CB83FC0694_RuntimeMethod_var), NULL);
 		GroupPresence_SetInvitationsSentNotificationCallback_m6AC5D1092031BC4C44B42EDB607E17D29B3A18F6(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:292>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:292>
 		Callback_t72ADDA0DCE925D83D0AF201E5D1DE0639B65C8F1* L_2 = (Callback_t72ADDA0DCE925D83D0AF201E5D1DE0639B65C8F1*)il2cpp_codegen_object_new(Callback_t72ADDA0DCE925D83D0AF201E5D1DE0639B65C8F1_il2cpp_TypeInfo_var);
 		Callback__ctor_mBB4A65AD21B6E3459AF6A13092C07214EBA62432(L_2, __this, (intptr_t)((void*)FriendsMatchmaking_OnLeaveIntentNotification_m468121B85803EF752433791CA6C80B1139A5ACF1_RuntimeMethod_var), NULL);
 		GroupPresence_SetLeaveIntentReceivedNotificationCallback_m2F76EF993892BA6F8CB68C0231F4F3474BF73F8C(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:293>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:293>
 		return;
 	}
 }
-// Method Definition Index: 115509
+// Method Definition Index: 115585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnJoinIntentReceived_m2B1EDF4ACA63E4356DE273D5269AA31F3A1A407A (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, Message_1_tF82F9260C694E05FC6DF694B043D9FA541AF32C6* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11192,7 +11192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnJoinIntentReceived_
 		return;
 	}
 }
-// Method Definition Index: 115510
+// Method Definition Index: 115586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnInvitationsSent_mAEA6571EA105BC1C7E5A9C6CB8EF57CB83FC0694 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, Message_1_t688AF015D1F97794F6E8D07772ECA4E3C0856B72* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11204,7 +11204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnInvitationsSent_mAE
 	UnityEvent_1_t9EC6697C65BC43912DC0398872B7FFF84DC6C4F4* G_B2_0 = NULL;
 	UnityEvent_1_t9EC6697C65BC43912DC0398872B7FFF84DC6C4F4* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:311>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:311>
 		UnityEvent_1_t9EC6697C65BC43912DC0398872B7FFF84DC6C4F4* L_0 = __this->___onInvitationsSent;
 		UnityEvent_1_t9EC6697C65BC43912DC0398872B7FFF84DC6C4F4* L_1 = L_0;
 		if (L_1)
@@ -11223,11 +11223,11 @@ IL_000b:
 		Message_1_t688AF015D1F97794F6E8D07772ECA4E3C0856B72* L_2 = ___0_message;
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_mDA664596A92893C3CA0AE45BEDC7F1EB1923E047(G_B2_0, L_2, UnityEvent_1_Invoke_mDA664596A92893C3CA0AE45BEDC7F1EB1923E047_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:312>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:312>
 		return;
 	}
 }
-// Method Definition Index: 115511
+// Method Definition Index: 115587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnLeaveIntentNotification_m468121B85803EF752433791CA6C80B1139A5ACF1 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, Message_1_t473C479A11F020EE33AD42CA5FB3A37C1182FB4B* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11239,7 +11239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking_OnLeaveIntentNotifica
 	UnityEvent_1_t1F7213CDE314100754825D28610B7CFFE2EA9B8D* G_B2_0 = NULL;
 	UnityEvent_1_t1F7213CDE314100754825D28610B7CFFE2EA9B8D* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:316>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:316>
 		UnityEvent_1_t1F7213CDE314100754825D28610B7CFFE2EA9B8D* L_0 = __this->___onLeaveIntentReceived;
 		UnityEvent_1_t1F7213CDE314100754825D28610B7CFFE2EA9B8D* L_1 = L_0;
 		if (L_1)
@@ -11258,11 +11258,11 @@ IL_000b:
 		Message_1_t473C479A11F020EE33AD42CA5FB3A37C1182FB4B* L_2 = ___0_message;
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_m9D2D88C4090929468792CBB6DA391168F89B209A(G_B2_0, L_2, UnityEvent_1_Invoke_m9D2D88C4090929468792CBB6DA391168F89B209A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:317>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:317>
 		return;
 	}
 }
-// Method Definition Index: 115512
+// Method Definition Index: 115588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GroupPresenceOptions_t5807A9BFCE1F988764960642EA4B6917F884FF86* FriendsMatchmaking_GetGroupPresenceOptions_mF0B487A45CB0C210F4CF8A26971A8FA9328EBF52 (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, String_t* ___0_roomId, String_t* ___1_roomPassword, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11274,37 +11274,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GroupPresenceOptions_t5807A9BFCE1F98876496064
 	GroupPresenceOptions_t5807A9BFCE1F988764960642EA4B6917F884FF86* V_0 = NULL;
 	String_t* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:321>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:321>
 		GroupPresenceOptions_t5807A9BFCE1F988764960642EA4B6917F884FF86* L_0 = (GroupPresenceOptions_t5807A9BFCE1F988764960642EA4B6917F884FF86*)il2cpp_codegen_object_new(GroupPresenceOptions_t5807A9BFCE1F988764960642EA4B6917F884FF86_il2cpp_TypeInfo_var);
 		GroupPresenceOptions__ctor_m793B93FF13AAA359F49421977850848351DF7C56(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:322>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:322>
 		GroupPresenceOptions_t5807A9BFCE1F988764960642EA4B6917F884FF86* L_1 = V_0;
 		NullCheck(L_1);
 		GroupPresenceOptions_SetIsJoinable_mA7FD34DF3984C98B13D4A0482AB201E6A4910EC2(L_1, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:323>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:323>
 		GroupPresenceOptions_t5807A9BFCE1F988764960642EA4B6917F884FF86* L_2 = V_0;
 		String_t* L_3;
 		L_3 = FriendsMatchmaking_get_DestinationApi_m23C3EC54E000BCC1528A0C7E1B2C4B49316048A6_inline(__this, NULL);
 		NullCheck(L_2);
 		GroupPresenceOptions_SetDestinationApiName_m5F0030669BFD5F89B1E65BA94C44B8B5EF87E426(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:325>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:325>
 		String_t* L_4 = ___0_roomId;
 		String_t* L_5 = ___1_roomPassword;
 		String_t* L_6;
 		L_6 = CustomMatchmakingUtils_EncodeMatchInfoToSessionId_mC4860F53D1EF2386AC9AB5DE6A944B996BA95279(L_4, L_5, NULL);
 		V_1 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:326>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:326>
 		GroupPresenceOptions_t5807A9BFCE1F988764960642EA4B6917F884FF86* L_7 = V_0;
 		String_t* L_8 = V_1;
 		NullCheck(L_7);
 		GroupPresenceOptions_SetLobbySessionId_m162D6F6F3199B15B78238E815DAA122A9B01A63B(L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:327>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:327>
 		GroupPresenceOptions_t5807A9BFCE1F988764960642EA4B6917F884FF86* L_9 = V_0;
 		String_t* L_10 = V_1;
 		NullCheck(L_9);
 		GroupPresenceOptions_SetMatchSessionId_m57D07643712FCDA1866F6C3263B3D450235D8FD1(L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:329>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:329>
 		String_t* L_11;
 		L_11 = FriendsMatchmaking_get_InviteMessage_m293332685A10EAA4DAC7807E4630A21E549143F6_inline(__this, NULL);
 		bool L_12;
@@ -11315,7 +11315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GroupPresenceOptions_t5807A9BFCE1F98876496064
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:331>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:331>
 		GroupPresenceOptions_t5807A9BFCE1F988764960642EA4B6917F884FF86* L_13 = V_0;
 		String_t* L_14;
 		L_14 = FriendsMatchmaking_get_InviteMessage_m293332685A10EAA4DAC7807E4630A21E549143F6_inline(__this, NULL);
@@ -11325,12 +11325,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GroupPresenceOptions_t5807A9BFCE1F98876496064
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:334>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:334>
 		GroupPresenceOptions_t5807A9BFCE1F988764960642EA4B6917F884FF86* L_15 = V_0;
 		return L_15;
 	}
 }
-// Method Definition Index: 115513
+// Method Definition Index: 115589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking__ctor_m9F2163708BB3EC541ABE55FFF984952E6B8E7FDA (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11341,13 +11341,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking__ctor_m9F2163708BB3EC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:58>
 		__this->___destinationApi = _stringLiteral8E81B0DD93A38C3CC3B4A23B68EBA28F99712C64;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___destinationApi), (void*)_stringLiteral8E81B0DD93A38C3CC3B4A23B68EBA28F99712C64);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:74>
 		__this->___inviteMessage = _stringLiteral45099947350104865775A3EFB720FF81EF7C4C01;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___inviteMessage), (void*)_stringLiteral45099947350104865775A3EFB720FF81EF7C4C01);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:89>
 		__this->___maxRetries = 3;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -11361,7 +11361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendsMatchmaking__ctor_m9F2163708BB3EC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115514
+// Method Definition Index: 115590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0__ctor_m457BCB3287AC57BBF378F068F74DF1C3D89EF8D5 (U3CU3Ec__DisplayClass21_0_tA864B58B5AC782E6AB77D5AD8F0EFC479EA9EADC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11369,7 +11369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0__ctor_m457BCB3
 		return;
 	}
 }
-// Method Definition Index: 115515
+// Method Definition Index: 115591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0_U3CLaunchFriendsInvitePanelAsyncU3Eb__0_m5B83D54FC26528561421AF4F34A096DAE0DA5A1A (U3CU3Ec__DisplayClass21_0_tA864B58B5AC782E6AB77D5AD8F0EFC479EA9EADC* __this, Message_1_tA8D38FD5FCB04394F14BDD7037E9898204F1755B* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11381,7 +11381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0_U3CLaunchFrien
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:165>
 		Message_1_tA8D38FD5FCB04394F14BDD7037E9898204F1755B* L_0 = ___0_message;
 		NullCheck(L_0);
 		bool L_1;
@@ -11392,8 +11392,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0_U3CLaunchFrien
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:167>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:168>
 		Message_1_tA8D38FD5FCB04394F14BDD7037E9898204F1755B* L_2 = ___0_message;
 		NullCheck(L_2);
 		Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* L_3;
@@ -11408,12 +11408,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0_U3CLaunchFrien
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:171>
 		TaskCompletionSource_1_t126DD692566DFB1965B8066583A1750FBE55AC3C* L_6 = __this->___tcs;
 		Message_1_tA8D38FD5FCB04394F14BDD7037E9898204F1755B* L_7 = ___0_message;
 		NullCheck(L_6);
 		TaskCompletionSource_1_SetResult_m5347E9B6255E72265A8624B0E59E82FB128547B5(L_6, L_7, TaskCompletionSource_1_SetResult_m5347E9B6255E72265A8624B0E59E82FB128547B5_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:172>
 		return;
 	}
 }
@@ -11425,7 +11425,7 @@ IL_0022:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115516
+// Method Definition Index: 115592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0__ctor_m421EA5D649DC2F5B9F70525DD3DBC32A07C96AA7 (U3CU3Ec__DisplayClass23_0_tE55B78D6FA2292439A7F90CDDD43B079F597BB13* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11433,7 +11433,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0__ctor_m421EA5D
 		return;
 	}
 }
-// Method Definition Index: 115517
+// Method Definition Index: 115593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0_U3CLaunchRosterPanelAsyncU3Eb__0_m1DCA65D13D0DD6C3DACC35D1AA1A65140488753A (U3CU3Ec__DisplayClass23_0_tE55B78D6FA2292439A7F90CDDD43B079F597BB13* __this, Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11445,7 +11445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0_U3CLaunchRoste
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:200>
 		Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* L_0 = ___0_message;
 		NullCheck(L_0);
 		bool L_1;
@@ -11456,8 +11456,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0_U3CLaunchRoste
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:202>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:203>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:202>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:203>
 		Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* L_2 = ___0_message;
 		NullCheck(L_2);
 		Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* L_3;
@@ -11472,12 +11472,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0_U3CLaunchRoste
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:206>
 		TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6* L_6 = __this->___tcs;
 		Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* L_7 = ___0_message;
 		NullCheck(L_6);
 		TaskCompletionSource_1_SetResult_m077702F57C76403430CFDCED088ADFFD35530DD5(L_6, L_7, TaskCompletionSource_1_SetResult_m077702F57C76403430CFDCED088ADFFD35530DD5_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:207>
 		return;
 	}
 }
@@ -11489,7 +11489,7 @@ IL_0022:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115518
+// Method Definition Index: 115594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass28_0__ctor_m84B23999A48895AE3F5F06729E04898CE5399E34 (U3CU3Ec__DisplayClass28_0_tC08F1C9E24F1D2E8C91C0CF00EC5BBDDF90EE739* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11497,7 +11497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass28_0__ctor_m84B2399
 		return;
 	}
 }
-// Method Definition Index: 115519
+// Method Definition Index: 115595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass28_0_U3CClearGroupPresenceU3Eb__0_m58C85D999EB004377A043F7C2C9C3D7D5CAE015F (U3CU3Ec__DisplayClass28_0_tC08F1C9E24F1D2E8C91C0CF00EC5BBDDF90EE739* __this, Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11509,7 +11509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass28_0_U3CClearGroupP
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:267>
 		Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* L_0 = ___0_message;
 		NullCheck(L_0);
 		bool L_1;
@@ -11520,8 +11520,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass28_0_U3CClearGroupP
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:269>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:270>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:269>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:270>
 		Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* L_2 = ___0_message;
 		NullCheck(L_2);
 		Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* L_3;
@@ -11536,12 +11536,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass28_0_U3CClearGroupP
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:273>
 		TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6* L_6 = __this->___tcs;
 		Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* L_7 = ___0_message;
 		NullCheck(L_6);
 		TaskCompletionSource_1_SetResult_m077702F57C76403430CFDCED088ADFFD35530DD5(L_6, L_7, TaskCompletionSource_1_SetResult_m077702F57C76403430CFDCED088ADFFD35530DD5_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:274>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:274>
 		return;
 	}
 }
@@ -11553,7 +11553,7 @@ IL_0022:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115520
+// Method Definition Index: 115596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0__ctor_m72B0395CE9150DEF8ED13477A7734EF122E685F0 (U3CU3Ec__DisplayClass29_0_tEF89351405EBE281C47DC322EBB2409D5C7C1F40* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11561,7 +11561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0__ctor_m72B0395
 		return;
 	}
 }
-// Method Definition Index: 115521
+// Method Definition Index: 115597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0_U3CSetGroupPresenceU3Eb__0_mC0647E3FC67FE1C157A094E49FCF8241D900923F (U3CU3Ec__DisplayClass29_0_tEF89351405EBE281C47DC322EBB2409D5C7C1F40* __this, Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11571,12 +11571,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0_U3CSetGroupPre
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:283>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:283>
 		TaskCompletionSource_1_t24F5874FFC1B2447E69476B0D39749EE89584DA6* L_0 = __this->___tcs;
 		Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* L_1 = ___0_message;
 		NullCheck(L_0);
 		TaskCompletionSource_1_SetResult_m077702F57C76403430CFDCED088ADFFD35530DD5(L_0, L_1, TaskCompletionSource_1_SetResult_m077702F57C76403430CFDCED088ADFFD35530DD5_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:283>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:283>
 		return;
 	}
 }
@@ -11588,7 +11588,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0_U3CSetGroupPre
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115522
+// Method Definition Index: 115598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CJoinRoomU3Ed__25_MoveNext_m783C9B33922B4AC9E2A255A6C0A14855CF0ECC7F (U3CJoinRoomU3Ed__25_tB47791D170AFB09314E369E08606FF02B5C8899E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11623,7 +11623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CJoinRoomU3Ed__25_MoveNext_m783C9B3392
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:226>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:226>
 			FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* L_3 = V_1;
 			NullCheck(L_3);
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_4 = L_3->____customMatchmaking;
@@ -11651,7 +11651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CJoinRoomU3Ed__25_MoveNext_m783C9B3392
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:228>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:228>
 			FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* L_11 = V_1;
 			NullCheck(L_11);
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_12 = L_11->____customMatchmaking;
@@ -11661,7 +11661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CJoinRoomU3Ed__25_MoveNext_m783C9B3392
 
 IL_0041_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:231>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:231>
 			FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* L_13 = V_1;
 			NullCheck(L_13);
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_14 = L_13->____customMatchmaking;
@@ -11737,7 +11737,7 @@ CATCH_00ad:
 
 IL_00c4:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:232>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:232>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_30 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -11756,7 +11756,7 @@ IL2CPP_EXTERN_C  void U3CJoinRoomU3Ed__25_MoveNext_m783C9B33922B4AC9E2A255A6C0A1
 	_thisAdjusted = reinterpret_cast<U3CJoinRoomU3Ed__25_tB47791D170AFB09314E369E08606FF02B5C8899E*>(__this + _offset);
 	U3CJoinRoomU3Ed__25_MoveNext_m783C9B33922B4AC9E2A255A6C0A14855CF0ECC7F(_thisAdjusted, method);
 }
-// Method Definition Index: 115523
+// Method Definition Index: 115599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CJoinRoomU3Ed__25_SetStateMachine_m73A1AA905E0E08CB27ADF1F7AB5D4B10F52F038E (U3CJoinRoomU3Ed__25_tB47791D170AFB09314E369E08606FF02B5C8899E* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11788,7 +11788,7 @@ IL2CPP_EXTERN_C  void U3CJoinRoomU3Ed__25_SetStateMachine_m73A1AA905E0E08CB27ADF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115524
+// Method Definition Index: 115600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnJoinIntentReceivedU3Ed__31_MoveNext_mEAF5FF76A25B6396F461D84E62A7AFD55C0B80DD (U3COnJoinIntentReceivedU3Ed__31_t67744182CEDB5A659994B5DFD69CAB072DCA857D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11834,8 +11834,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnJoinIntentReceivedU3Ed__31_MoveNext
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:297>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:298>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:297>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:298>
 			Message_1_tF82F9260C694E05FC6DF694B043D9FA541AF32C6* L_3 = __this->___message;
 			NullCheck(L_3);
 			GroupPresenceJoinIntent_t3032FE247AB7D19DDAE49EE0F991B5EDCB49AAD7* L_4;
@@ -11849,12 +11849,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnJoinIntentReceivedU3Ed__31_MoveNext
 			V_2 = L_8;
 			String_t* L_9 = L_7.___Item2;
 			V_3 = L_9;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:299>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:300>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:301>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:302>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:303>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:304>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:299>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:300>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:301>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:302>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:303>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:304>
 			FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* L_10 = V_1;
 			NullCheck(L_10);
 			UnityEvent_1_tA625E022BABB451E02C6BCBF6EE3B4AC00295867* L_11 = L_10->___onMatchRequestFound;
@@ -11923,7 +11923,7 @@ IL_007c_1:
 
 IL_0088_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:306>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:306>
 			FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* L_21 = V_1;
 			String_t* L_22 = V_2;
 			String_t* L_23 = V_3;
@@ -11994,7 +11994,7 @@ CATCH_00e7:
 
 IL_0100:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:307>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:307>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_36 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_36, NULL);
@@ -12012,7 +12012,7 @@ IL2CPP_EXTERN_C  void U3COnJoinIntentReceivedU3Ed__31_MoveNext_mEAF5FF76A25B6396
 	_thisAdjusted = reinterpret_cast<U3COnJoinIntentReceivedU3Ed__31_t67744182CEDB5A659994B5DFD69CAB072DCA857D*>(__this + _offset);
 	U3COnJoinIntentReceivedU3Ed__31_MoveNext_mEAF5FF76A25B6396F461D84E62A7AFD55C0B80DD(_thisAdjusted, method);
 }
-// Method Definition Index: 115525
+// Method Definition Index: 115601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnJoinIntentReceivedU3Ed__31_SetStateMachine_m5AD62AB362A0EAE4BE395D2DA5A14CCFFA7B8131 (U3COnJoinIntentReceivedU3Ed__31_t67744182CEDB5A659994B5DFD69CAB072DCA857D* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -12037,7 +12037,7 @@ IL2CPP_EXTERN_C  void U3COnJoinIntentReceivedU3Ed__31_SetStateMachine_m5AD62AB36
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115526
+// Method Definition Index: 115602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnRoomOperationResultU3Ed__24_MoveNext_mEC08DE032F92CFE744ADF3DB86375A68340D4838 (U3COnRoomOperationResultU3Ed__24_t420615D8F9128D3AB202E24C07CA81B5D3E0C95F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12068,7 +12068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnRoomOperationResultU3Ed__24_MoveNex
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:218>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:218>
 			RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D* L_3 = (RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D*)(&__this->___result);
 			bool L_4;
 			L_4 = RoomOperationResult_get_IsSuccess_mDBDEBE65BFDD0122C8BB095A5BBB11B34D48BFBF(L_3, NULL);
@@ -12078,7 +12078,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnRoomOperationResultU3Ed__24_MoveNex
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:220>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:220>
 			FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* L_5 = V_1;
 			RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D* L_6 = (RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D*)(&__this->___result);
 			String_t* L_7 = L_6->___RoomToken;
@@ -12155,7 +12155,7 @@ CATCH_008e:
 
 IL_00a5:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:222>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_22 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_22, NULL);
@@ -12173,7 +12173,7 @@ IL2CPP_EXTERN_C  void U3COnRoomOperationResultU3Ed__24_MoveNext_mEC08DE032F92CFE
 	_thisAdjusted = reinterpret_cast<U3COnRoomOperationResultU3Ed__24_t420615D8F9128D3AB202E24C07CA81B5D3E0C95F*>(__this + _offset);
 	U3COnRoomOperationResultU3Ed__24_MoveNext_mEC08DE032F92CFE744ADF3DB86375A68340D4838(_thisAdjusted, method);
 }
-// Method Definition Index: 115527
+// Method Definition Index: 115603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnRoomOperationResultU3Ed__24_SetStateMachine_m2C2003B0D59E295015BBB1FC3F600E0C298DB8DF (U3COnRoomOperationResultU3Ed__24_t420615D8F9128D3AB202E24C07CA81B5D3E0C95F* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -12198,7 +12198,7 @@ IL2CPP_EXTERN_C  void U3COnRoomOperationResultU3Ed__24_SetStateMachine_m2C2003B0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115528
+// Method Definition Index: 115604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRegisterGameRoomU3Ed__27_MoveNext_m021B18EB13341A93A60026983660A8A672892F0D (U3CRegisterGameRoomU3Ed__27_tFEB0922851928FEB453D3233224E0327769C5BF3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12241,16 +12241,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRegisterGameRoomU3Ed__27_MoveNext_m02
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:245>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:245>
 			V_2 = (Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9*)NULL;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:247>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:247>
 			__this->___U3CiU3E5__2 = 0;
 			goto IL_00a8_1;
 		}
 
 IL_001f_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:249>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:249>
 			FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* L_3 = V_1;
 			String_t* L_4 = __this->___roomId;
 			String_t* L_5 = __this->___roomPassword;
@@ -12299,7 +12299,7 @@ IL_0084_1:
 			Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* L_16;
 			L_16 = TaskAwaiter_1_GetResult_mF3E16CDD66892EC643175531DC6987108FCAE564((&V_3), TaskAwaiter_1_GetResult_mF3E16CDD66892EC643175531DC6987108FCAE564_RuntimeMethod_var);
 			V_2 = L_16;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:251>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:251>
 			Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* L_17 = V_2;
 			NullCheck(L_17);
 			bool L_18;
@@ -12310,13 +12310,13 @@ IL_0084_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:253>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:253>
 			goto IL_00f6;
 		}
 
 IL_0096_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:247>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:247>
 			int32_t L_19 = __this->___U3CiU3E5__2;
 			V_4 = L_19;
 			int32_t L_20 = V_4;
@@ -12325,7 +12325,7 @@ IL_0096_1:
 
 IL_00a8_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:247>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:247>
 			int32_t L_21 = __this->___U3CiU3E5__2;
 			FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* L_22 = V_1;
 			NullCheck(L_22);
@@ -12337,8 +12337,8 @@ IL_00a8_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:257>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:258>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:257>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:258>
 			Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* L_24 = V_2;
 			if (L_24)
 			{
@@ -12399,7 +12399,7 @@ CATCH_00dd:
 
 IL_00f6:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:259>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:259>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_32 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -12418,7 +12418,7 @@ IL2CPP_EXTERN_C  void U3CRegisterGameRoomU3Ed__27_MoveNext_m021B18EB13341A93A600
 	_thisAdjusted = reinterpret_cast<U3CRegisterGameRoomU3Ed__27_tFEB0922851928FEB453D3233224E0327769C5BF3*>(__this + _offset);
 	U3CRegisterGameRoomU3Ed__27_MoveNext_m021B18EB13341A93A60026983660A8A672892F0D(_thisAdjusted, method);
 }
-// Method Definition Index: 115529
+// Method Definition Index: 115605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRegisterGameRoomU3Ed__27_SetStateMachine_m5B2896991ECC20D5E0BF0FF7564A40373D00CDC7 (U3CRegisterGameRoomU3Ed__27_tFEB0922851928FEB453D3233224E0327769C5BF3* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12450,7 +12450,7 @@ IL2CPP_EXTERN_C  void U3CRegisterGameRoomU3Ed__27_SetStateMachine_m5B2896991ECC2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115530
+// Method Definition Index: 115606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_Awake_m9F7EDE26F255BE71D6783BDDE0E24783A3D5CC3D (LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12461,13 +12461,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_Awake_m9F7EDE26F255BE71
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:95>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_0;
 		L_0 = Object_FindObjectOfType_TisCustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239_m2645D4F3FBCDB3D05A5C833DFEBFE43F21D6CC55(Object_FindObjectOfType_TisCustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239_m2645D4F3FBCDB3D05A5C833DFEBFE43F21D6CC55_RuntimeMethod_var);
 		__this->____customMatchmaking = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____customMatchmaking), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:97>
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_1 = __this->____customMatchmaking;
 		bool L_2;
 		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -12477,7 +12477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_Awake_m9F7EDE26F255BE71
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:99>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_3 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC8FC27AAE85781A5E9B151EBB942FD1AE6198B01)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&LocalMatchmaking_Awake_m9F7EDE26F255BE71D6783BDDE0E24783A3D5CC3D_RuntimeMethod_var)));
@@ -12485,11 +12485,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_Awake_m9F7EDE26F255BE71
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:101>
 		return;
 	}
 }
-// Method Definition Index: 115531
+// Method Definition Index: 115607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_OnEnable_m7FAA95DA3D3AEBD976C1557856139209E8A2F527 (LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12502,7 +12502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_OnEnable_m7FAA95DA3D3AE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:105>
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_0 = __this->____customMatchmaking;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12513,13 +12513,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_OnEnable_m7FAA95DA3D3AE
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:107>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:109>
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_2 = __this->____customMatchmaking;
 		NullCheck(L_2);
 		UnityEvent_1_tA625E022BABB451E02C6BCBF6EE3B4AC00295867* L_3 = L_2->___onRoomCreationFinished;
@@ -12527,11 +12527,11 @@ IL_000f:
 		UnityAction_1__ctor_m762B54523BDEF73EBAA9FA1116B5C8D52FEA45A6(L_4, __this, (intptr_t)((void*)LocalMatchmaking_OnRoomCreationFinished_m40FA8C02C6B41D71CADC647A5D874FB16F05C699_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		UnityEvent_1_AddListener_m6805F9A5CA590CAC9AF27AD76F6A2FFF9B27FB1B(L_3, L_4, UnityEvent_1_AddListener_m6805F9A5CA590CAC9AF27AD76F6A2FFF9B27FB1B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:110>
 		return;
 	}
 }
-// Method Definition Index: 115532
+// Method Definition Index: 115608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_OnDisable_m8CA93537CC00D571AA054AF85B3B7FBA16723593 (LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12544,7 +12544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_OnDisable_m8CA93537CC00
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:114>
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_0 = __this->____customMatchmaking;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12555,13 +12555,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_OnDisable_m8CA93537CC00
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:116>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:118>
 		CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_2 = __this->____customMatchmaking;
 		NullCheck(L_2);
 		UnityEvent_1_tA625E022BABB451E02C6BCBF6EE3B4AC00295867* L_3 = L_2->___onRoomCreationFinished;
@@ -12569,15 +12569,15 @@ IL_000f:
 		UnityAction_1__ctor_m762B54523BDEF73EBAA9FA1116B5C8D52FEA45A6(L_4, __this, (intptr_t)((void*)LocalMatchmaking_OnRoomCreationFinished_m40FA8C02C6B41D71CADC647A5D874FB16F05C699_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		UnityEvent_1_RemoveListener_m62833AB5A8A57CB48EC6692FB74ACA3BDC491AF8(L_3, L_4, UnityEvent_1_RemoveListener_m62833AB5A8A57CB48EC6692FB74ACA3BDC491AF8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:119>
 		return;
 	}
 }
-// Method Definition Index: 115533
+// Method Definition Index: 115609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_Start_m7A96A7274406612BAE33008D668C829E8D4DF64B (LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:123>
 		bool L_0 = __this->___automaticHostOrJoin;
 		if (!L_0)
 		{
@@ -12585,17 +12585,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_Start_m7A96A7274406612B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:125>
 		LocalMatchmaking_HostOrJoinSessionAutomatically_m0ECB01A4C885DEA0F9663144B9485285D8EBD835(__this, NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:127>
 		return;
 	}
 }
-// Method Definition Index: 115534
+// Method Definition Index: 115610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* LocalMatchmaking_StartAsHost_m24767D6B9C79D664F281D6ACFB19AF8BE57AADA2 (LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12630,7 +12630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_3;
 	}
 }
-// Method Definition Index: 115535
+// Method Definition Index: 115611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* LocalMatchmaking_StartAsGuest_mA1A4D0A02E3D52D30D784C2B5BC0DF13A688F2EB (LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* __this, bool ___0_stopAfterTimeout, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12667,7 +12667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_4;
 	}
 }
-// Method Definition Index: 115536
+// Method Definition Index: 115612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_HostOrJoinSessionAutomatically_m0ECB01A4C885DEA0F9663144B9485285D8EBD835 (LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12700,7 +12700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_HostOrJoinSessionAutoma
 		return;
 	}
 }
-// Method Definition Index: 115537
+// Method Definition Index: 115613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_OnRoomCreationFinished_m40FA8C02C6B41D71CADC647A5D874FB16F05C699 (LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* __this, RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12710,7 +12710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_OnRoomCreationFinished_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:188>
 		bool L_0;
 		L_0 = RoomOperationResult_get_IsSuccess_mDBDEBE65BFDD0122C8BB095A5BBB11B34D48BFBF((&___0_result), NULL);
 		if (!L_0)
@@ -12719,7 +12719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_OnRoomCreationFinished_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:190>
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_1;
 		L_1 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 		RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_2 = ___0_result;
@@ -12733,17 +12733,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_OnRoomCreationFinished_
 		NullCheck(L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8;
 		L_8 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17, L_1, L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:191>
 		LocalMatchmaking_StartAdvertisingColocationSession_mBA9F22A9AE659C12DD467C6407C0A46EEA18B94B(L_8, NULL);
 	}
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:193>
 		return;
 	}
 }
-// Method Definition Index: 115538
+// Method Definition Index: 115614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_OnColocationSessionFound_mE9DCDC709D385635AD7F6C561269204CA41AE643 (LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* __this, Data_t7D77210C10D419D874B66E954524D35D2CC3BEE9 ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12779,7 +12779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_OnColocationSessionFoun
 		return;
 	}
 }
-// Method Definition Index: 115539
+// Method Definition Index: 115615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_StartAdvertisingColocationSession_mBA9F22A9AE659C12DD467C6407C0A46EEA18B94B (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12813,7 +12813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_StartAdvertisingColocat
 		return;
 	}
 }
-// Method Definition Index: 115540
+// Method Definition Index: 115616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_StopAdvertisingColocationSession_mCCAC8AC8B831903DCEA78E16F8EDF1611FD8C678 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12844,7 +12844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_StopAdvertisingColocati
 		return;
 	}
 }
-// Method Definition Index: 115541
+// Method Definition Index: 115617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_StartDiscoveringColocationSessions_mEC1CFADC96DECADE1ABDBC7421983AD3CB4B16FA (Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16* ___0_onGroupFound, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12878,7 +12878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_StartDiscoveringColocat
 		return;
 	}
 }
-// Method Definition Index: 115542
+// Method Definition Index: 115618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_StopDiscoveringColocationSessions_mBA069604989C26D19661CA70E66DF371261790D7 (Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16* ___0_onGroupFound, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12912,7 +12912,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_StopDiscoveringColocati
 		return;
 	}
 }
-// Method Definition Index: 115543
+// Method Definition Index: 115619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_ReportDiscoverEvent_mA2DEF8BE49FD911FB5E845F8C2B169EFBBA07AFF (Data_t7D77210C10D419D874B66E954524D35D2CC3BEE9 ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12925,7 +12925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking_ReportDiscoverEvent_mA2
 	UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* G_B2_0 = NULL;
 	UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:324>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:324>
 		il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 		UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_0 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionDiscoverSucceeded;
 		UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_1 = L_0;
@@ -12946,23 +12946,23 @@ IL_000a:
 		L_2 = Data_get_AdvertisementUuid_mFD4009C6539B1EEFFCB21C0857B3B05779BF30D2_inline((&___0_data), NULL);
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_m0F35E8152B0DCB7B764FC8AD2861F59168D799BE(G_B2_0, L_2, UnityEvent_1_Invoke_m0F35E8152B0DCB7B764FC8AD2861F59168D799BE_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:325>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:325>
 		return;
 	}
 }
-// Method Definition Index: 115544
+// Method Definition Index: 115620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking__ctor_mB81F8BA58423C932EA8BAAA09C62128905DFEF2F (LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:57>
 		__this->___automaticHostOrJoin = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:61>
 		__this->___timeDiscoveringInSec = 5;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 115545
+// Method Definition Index: 115621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking__cctor_m153712B3EAB265C57B044E3C8AD7E3DC58280177 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12976,27 +12976,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking__cctor_m153712B3EAB265C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:67>
 		UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_0 = (UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA*)il2cpp_codegen_object_new(UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA_il2cpp_TypeInfo_var);
 		UnityEvent_1__ctor_m47874EC729808F34189F77589A0146F2C5B3635B(L_0, UnityEvent_1__ctor_m47874EC729808F34189F77589A0146F2C5B3635B_RuntimeMethod_var);
 		((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateSucceeded = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateSucceeded), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:72>
 		UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_1 = (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*)il2cpp_codegen_object_new(UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257_il2cpp_TypeInfo_var);
 		UnityEvent_1__ctor_m0F7D790DACD6F3D18E865D01FE4427603C1B0CC6(L_1, UnityEvent_1__ctor_m0F7D790DACD6F3D18E865D01FE4427603C1B0CC6_RuntimeMethod_var);
 		((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateFailed = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateFailed), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:77>
 		UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_2 = (UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA*)il2cpp_codegen_object_new(UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA_il2cpp_TypeInfo_var);
 		UnityEvent_1__ctor_m47874EC729808F34189F77589A0146F2C5B3635B(L_2, UnityEvent_1__ctor_m47874EC729808F34189F77589A0146F2C5B3635B_RuntimeMethod_var);
 		((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionDiscoverSucceeded = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionDiscoverSucceeded), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:82>
 		UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_3 = (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*)il2cpp_codegen_object_new(UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257_il2cpp_TypeInfo_var);
 		UnityEvent_1__ctor_m0F7D790DACD6F3D18E865D01FE4427603C1B0CC6(L_3, UnityEvent_1__ctor_m0F7D790DACD6F3D18E865D01FE4427603C1B0CC6_RuntimeMethod_var);
 		((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionDiscoverFailed = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionDiscoverFailed), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:86>
 		((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___ExtraData = (String_t*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___ExtraData), (void*)(String_t*)NULL);
 		return;
@@ -13010,7 +13010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalMatchmaking__cctor_m153712B3EAB265C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115546
+// Method Definition Index: 115622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHostOrJoinSessionAutomaticallyU3Ed__16_MoveNext_m0DD4144E3750CFB202A1CA9F0A5889C600E89B78 (U3CHostOrJoinSessionAutomaticallyU3Ed__16_t5B9BF3D4D5093674D73024A3E78B0118FE00B249* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13051,11 +13051,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHostOrJoinSessionAutomaticallyU3Ed__1
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:177>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:177>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_4 = V_1;
 			NullCheck(L_4);
 			L_4->____discoveredLocalSessionAsGuest = (bool)0;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:178>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:178>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_5 = V_1;
 			NullCheck(L_5);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
@@ -13097,7 +13097,7 @@ IL_0058_1:
 IL_0074_1:
 		{
 			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:179>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:179>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_15 = V_1;
 			NullCheck(L_15);
 			bool L_16 = L_15->____discoveredLocalSessionAsGuest;
@@ -13119,10 +13119,10 @@ IL_0074_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:181>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:181>
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralE011C645F5C9B98DC576E5AFAE18BF7E1A15210E, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:182>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:182>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_20 = V_1;
 			NullCheck(L_20);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_21;
@@ -13195,7 +13195,7 @@ CATCH_00f5:
 
 IL_010c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:184>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_33 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_33, NULL);
@@ -13213,7 +13213,7 @@ IL2CPP_EXTERN_C  void U3CHostOrJoinSessionAutomaticallyU3Ed__16_MoveNext_m0DD414
 	_thisAdjusted = reinterpret_cast<U3CHostOrJoinSessionAutomaticallyU3Ed__16_t5B9BF3D4D5093674D73024A3E78B0118FE00B249*>(__this + _offset);
 	U3CHostOrJoinSessionAutomaticallyU3Ed__16_MoveNext_m0DD4144E3750CFB202A1CA9F0A5889C600E89B78(_thisAdjusted, method);
 }
-// Method Definition Index: 115547
+// Method Definition Index: 115623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHostOrJoinSessionAutomaticallyU3Ed__16_SetStateMachine_mD37714BD803A9644952DBF8C47B831F1358429F5 (U3CHostOrJoinSessionAutomaticallyU3Ed__16_t5B9BF3D4D5093674D73024A3E78B0118FE00B249* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -13238,7 +13238,7 @@ IL2CPP_EXTERN_C  void U3CHostOrJoinSessionAutomaticallyU3Ed__16_SetStateMachine_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115548
+// Method Definition Index: 115624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnColocationSessionFoundU3Ed__18_MoveNext_mDEB406599C1DAFE8EB958F7C5F5213A5771EF06F (U3COnColocationSessionFoundU3Ed__18_t576A4CE33F78C14ED3EA17431F994AE7FE990E0C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13276,7 +13276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnColocationSessionFoundU3Ed__18_Move
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:197>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:197>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_3 = V_1;
 			NullCheck(L_3);
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_4 = L_3->____customMatchmaking;
@@ -13289,13 +13289,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnColocationSessionFoundU3Ed__18_Move
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:199>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:199>
 			goto IL_012d;
 		}
 
 IL_0027_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:201>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:201>
 			Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_6;
 			L_6 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 			Data_t7D77210C10D419D874B66E954524D35D2CC3BEE9* L_7 = (Data_t7D77210C10D419D874B66E954524D35D2CC3BEE9*)(&__this->___data);
@@ -13314,7 +13314,7 @@ IL_0027_1:
 			#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CmatchInfoU3E5__2))->___Extra), (void*)NULL);
 			#endif
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:202>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:202>
 			MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF* L_11 = (MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF*)(&__this->___U3CmatchInfoU3E5__2);
 			String_t* L_12 = L_11->___RoomId;
 			bool L_13;
@@ -13325,17 +13325,17 @@ IL_0027_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:204>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:204>
 			goto IL_012d;
 		}
 
 IL_005e_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:206>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:206>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_14 = V_1;
 			NullCheck(L_14);
 			L_14->____discoveredLocalSessionAsGuest = (bool)1;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:207>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:207>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_15 = V_1;
 			NullCheck(L_15);
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_16 = L_15->____customMatchmaking;
@@ -13384,16 +13384,16 @@ IL_00d4_1:
 		{
 			RoomOperationResult_tFB468900390ACF226CB85A98CCA7EF56907E195D L_30;
 			L_30 = TaskAwaiter_1_GetResult_mD44411E992084371A8FEDDF32412AB8BB5BA7BF9((&V_2), TaskAwaiter_1_GetResult_mD44411E992084371A8FEDDF32412AB8BB5BA7BF9_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:208>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:208>
 			MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF* L_31 = (MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF*)(&__this->___U3CmatchInfoU3E5__2);
 			String_t* L_32 = L_31->___Extra;
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___ExtraData = L_32;
 			Il2CppCodeGenWriteBarrier((void**)(&((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___ExtraData), (void*)L_32);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:209>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:209>
 			Data_t7D77210C10D419D874B66E954524D35D2CC3BEE9 L_33 = __this->___data;
 			LocalMatchmaking_ReportDiscoverEvent_mA2DEF8BE49FD911FB5E845F8C2B169EFBBA07AFF(L_33, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:211>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:211>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_34 = V_1;
 			Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16* L_35 = (Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16*)il2cpp_codegen_object_new(Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16_il2cpp_TypeInfo_var);
 			Action_1__ctor_m954F5A52B0524144A4BFD979FB90B254706610CB(L_35, L_34, (intptr_t)((void*)LocalMatchmaking_OnColocationSessionFound_mE9DCDC709D385635AD7F6C561269204CA41AE643_RuntimeMethod_var), NULL);
@@ -13427,7 +13427,7 @@ CATCH_010a:
 
 IL_012d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:212>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF* L_40 = (MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF*)(&__this->___U3CmatchInfoU3E5__2);
 		il2cpp_codegen_initobj(L_40, sizeof(MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF));
@@ -13447,7 +13447,7 @@ IL2CPP_EXTERN_C  void U3COnColocationSessionFoundU3Ed__18_MoveNext_mDEB406599C1D
 	_thisAdjusted = reinterpret_cast<U3COnColocationSessionFoundU3Ed__18_t576A4CE33F78C14ED3EA17431F994AE7FE990E0C*>(__this + _offset);
 	U3COnColocationSessionFoundU3Ed__18_MoveNext_mDEB406599C1DAFE8EB958F7C5F5213A5771EF06F(_thisAdjusted, method);
 }
-// Method Definition Index: 115549
+// Method Definition Index: 115625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnColocationSessionFoundU3Ed__18_SetStateMachine_m186EFE5A74AFE65F9C0455E1052665B52462665E (U3COnColocationSessionFoundU3Ed__18_t576A4CE33F78C14ED3EA17431F994AE7FE990E0C* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -13472,7 +13472,7 @@ IL2CPP_EXTERN_C  void U3COnColocationSessionFoundU3Ed__18_SetStateMachine_m186EF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115550
+// Method Definition Index: 115626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartAdvertisingColocationSessionU3Ed__19_MoveNext_m6590FBB5A32454716A9389CE9E771EA06C72A3B9 (U3CStartAdvertisingColocationSessionU3Ed__19_t9D48AA73366C4340A7CD7FBEEF91EA5308A32BC2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13530,7 +13530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartAdvertisingColocationSessionU3Ed
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:227>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:227>
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = __this->___data;
 			ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D L_3;
 			L_3 = ReadOnlySpan_1_op_Implicit_mCEA7A54A72D5D6EADEFE280B4927119123C8E644(L_2, ReadOnlySpan_1_op_Implicit_mCEA7A54A72D5D6EADEFE280B4927119123C8E644_RuntimeMethod_var);
@@ -13575,7 +13575,7 @@ IL_006b_1:
 			OVRResult_2_t45942B55D92B1AE419FB104E94788902FC71248F L_13;
 			L_13 = Awaiter_GetResult_m44B7988B338DC6C234DC81EE65F550387EAE2C26((&V_2), Awaiter_GetResult_m44B7988B338DC6C234DC81EE65F550387EAE2C26_RuntimeMethod_var);
 			V_1 = L_13;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:228>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:228>
 			int32_t L_14;
 			L_14 = OVRResult_2_get_Status_m11DCC6ABB2C6AEC699B2ADA1752ACF693A23B97A((&V_1), OVRResult_2_get_Status_m11DCC6ABB2C6AEC699B2ADA1752ACF693A23B97A_RuntimeMethod_var);
 			V_4 = L_14;
@@ -13676,7 +13676,7 @@ IL_00d4_1:
 
 IL_00e8_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:231>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:231>
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_24 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateSucceeded;
 			UnityEvent_1_t785969C006841CC45ABF7CE25CEC1A878B9E60AA* L_25 = L_24;
@@ -13697,14 +13697,14 @@ IL_00f3_1:
 			L_26 = OVRResult_2_get_Value_m1FB61CF08F0E552CD921B8FB14BD81EA23DB7EB4((&V_1), OVRResult_2_get_Value_m1FB61CF08F0E552CD921B8FB14BD81EA23DB7EB4_RuntimeMethod_var);
 			NullCheck(G_B19_0);
 			UnityEvent_1_Invoke_m0F35E8152B0DCB7B764FC8AD2861F59168D799BE(G_B19_0, L_26, UnityEvent_1_Invoke_m0F35E8152B0DCB7B764FC8AD2861F59168D799BE_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:232>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:232>
 			goto IL_016c_1;
 		}
 
 IL_0101_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:234>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:235>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:234>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:235>
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_27 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateFailed;
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_28 = L_27;
@@ -13723,14 +13723,14 @@ IL_010c_1:
 		{
 			NullCheck(G_B22_0);
 			UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(G_B22_0, _stringLiteral7413972089156050EA3AE87A3A86EB4154D12AFF, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:236>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:236>
 			goto IL_016c_1;
 		}
 
 IL_0118_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:238>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:239>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:238>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:239>
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_29 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateFailed;
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_30 = L_29;
@@ -13749,14 +13749,14 @@ IL_0123_1:
 		{
 			NullCheck(G_B25_0);
 			UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(G_B25_0, _stringLiteral7A4570CAAB945DB63F9FE291AC2D3A6BFA8E0F8D, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:240>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:240>
 			goto IL_016c_1;
 		}
 
 IL_012f_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:242>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:243>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:242>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:243>
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_31 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateFailed;
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_32 = L_31;
@@ -13775,13 +13775,13 @@ IL_013a_1:
 		{
 			NullCheck(G_B28_0);
 			UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(G_B28_0, _stringLiteral4273E856B7E11006FA5E577FE9C60DC68F3022CD, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:244>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:244>
 			goto IL_016c_1;
 		}
 
 IL_0146_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:251>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:251>
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_33 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionCreateFailed;
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_34 = L_33;
@@ -13837,7 +13837,7 @@ CATCH_016e:
 
 IL_0187:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:254>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:254>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_42 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_42, NULL);
@@ -13855,7 +13855,7 @@ IL2CPP_EXTERN_C  void U3CStartAdvertisingColocationSessionU3Ed__19_MoveNext_m659
 	_thisAdjusted = reinterpret_cast<U3CStartAdvertisingColocationSessionU3Ed__19_t9D48AA73366C4340A7CD7FBEEF91EA5308A32BC2*>(__this + _offset);
 	U3CStartAdvertisingColocationSessionU3Ed__19_MoveNext_m6590FBB5A32454716A9389CE9E771EA06C72A3B9(_thisAdjusted, method);
 }
-// Method Definition Index: 115551
+// Method Definition Index: 115627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartAdvertisingColocationSessionU3Ed__19_SetStateMachine_m5A6E87ACD2CD331836B85CD1C884CA7B3C20C68E (U3CStartAdvertisingColocationSessionU3Ed__19_t9D48AA73366C4340A7CD7FBEEF91EA5308A32BC2* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -13880,7 +13880,7 @@ IL2CPP_EXTERN_C  void U3CStartAdvertisingColocationSessionU3Ed__19_SetStateMachi
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115552
+// Method Definition Index: 115628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartAsGuestU3Ed__15_MoveNext_m3FA43E40D1893E953F73EA892991F32A1004E8FC (U3CStartAsGuestU3Ed__15_tAE654CCC30E59BF60C5A2F9A3E0B457A1AE151DD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13916,13 +13916,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartAsGuestU3Ed__15_MoveNext_m3FA43E
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:163>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:163>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_3 = V_1;
 			Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16* L_4 = (Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16*)il2cpp_codegen_object_new(Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16_il2cpp_TypeInfo_var);
 			Action_1__ctor_m954F5A52B0524144A4BFD979FB90B254706610CB(L_4, L_3, (intptr_t)((void*)LocalMatchmaking_OnColocationSessionFound_mE9DCDC709D385635AD7F6C561269204CA41AE643_RuntimeMethod_var), NULL);
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			LocalMatchmaking_StartDiscoveringColocationSessions_mEC1CFADC96DECADE1ABDBC7421983AD3CB4B16FA(L_4, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:164>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:164>
 			bool L_5 = __this->___stopAfterTimeout;
 			if (L_5)
 			{
@@ -13930,13 +13930,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartAsGuestU3Ed__15_MoveNext_m3FA43E
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:166>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:166>
 			goto IL_00c4;
 		}
 
 IL_002f_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:168>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:168>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_6 = V_1;
 			NullCheck(L_6);
 			int32_t L_7 = L_6->___timeDiscoveringInSec;
@@ -13981,7 +13981,7 @@ IL_006f_1:
 IL_008b_1:
 		{
 			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:169>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:169>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_17 = V_1;
 			NullCheck(L_17);
 			bool L_18 = L_17->____discoveredLocalSessionAsGuest;
@@ -13991,7 +13991,7 @@ IL_008b_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:171>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:171>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_19 = V_1;
 			Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16* L_20 = (Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16*)il2cpp_codegen_object_new(Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16_il2cpp_TypeInfo_var);
 			Action_1__ctor_m954F5A52B0524144A4BFD979FB90B254706610CB(L_20, L_19, (intptr_t)((void*)LocalMatchmaking_OnColocationSessionFound_mE9DCDC709D385635AD7F6C561269204CA41AE643_RuntimeMethod_var), NULL);
@@ -14029,7 +14029,7 @@ CATCH_00ad:
 
 IL_00c4:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:173>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_24 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -14048,7 +14048,7 @@ IL2CPP_EXTERN_C  void U3CStartAsGuestU3Ed__15_MoveNext_m3FA43E40D1893E953F73EA89
 	_thisAdjusted = reinterpret_cast<U3CStartAsGuestU3Ed__15_tAE654CCC30E59BF60C5A2F9A3E0B457A1AE151DD*>(__this + _offset);
 	U3CStartAsGuestU3Ed__15_MoveNext_m3FA43E40D1893E953F73EA892991F32A1004E8FC(_thisAdjusted, method);
 }
-// Method Definition Index: 115553
+// Method Definition Index: 115629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartAsGuestU3Ed__15_SetStateMachine_mACAB3D6F4C7275851237BC50FB8C70692BB38572 (U3CStartAsGuestU3Ed__15_tAE654CCC30E59BF60C5A2F9A3E0B457A1AE151DD* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14080,7 +14080,7 @@ IL2CPP_EXTERN_C  void U3CStartAsGuestU3Ed__15_SetStateMachine_mACAB3D6F4C7275851
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115554
+// Method Definition Index: 115630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartAsHostU3Ed__14_MoveNext_mE49380C52E4499A3DA38AFE66CA0D09181A81CDC (U3CStartAsHostU3Ed__14_t7BAC8C896F9321E68486284B6E3B10266A270B75* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14132,7 +14132,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartAsHostU3Ed__14_MoveNext_mE49380C
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:139>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:139>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_4 = V_1;
 			NullCheck(L_4);
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_5 = L_4->____customMatchmaking;
@@ -14145,7 +14145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartAsHostU3Ed__14_MoveNext_mE49380C
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:141>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:141>
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			Func_1_t8F7DCA7C26E80651AA3D06600FE90C8D68416310* L_7 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___BeforeStartHost;
 			if (!L_7)
@@ -14154,7 +14154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartAsHostU3Ed__14_MoveNext_mE49380C
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:143>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:143>
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			Func_1_t8F7DCA7C26E80651AA3D06600FE90C8D68416310* L_8 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___BeforeStartHost;
 			NullCheck(L_8);
@@ -14205,16 +14205,16 @@ IL_0088_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:145>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:145>
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralB55386F66A4074DA191F86D8A41BC458C92407A1, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:146>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:146>
 			goto IL_0116;
 		}
 
 IL_009d_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:149>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:149>
 			LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3* L_19 = V_1;
 			NullCheck(L_19);
 			CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* L_20 = L_19->____customMatchmaking;
@@ -14292,7 +14292,7 @@ CATCH_00fd:
 
 IL_0116:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:151>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_34 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -14311,7 +14311,7 @@ IL2CPP_EXTERN_C  void U3CStartAsHostU3Ed__14_MoveNext_mE49380C52E4499A3DA38AFE66
 	_thisAdjusted = reinterpret_cast<U3CStartAsHostU3Ed__14_t7BAC8C896F9321E68486284B6E3B10266A270B75*>(__this + _offset);
 	U3CStartAsHostU3Ed__14_MoveNext_mE49380C52E4499A3DA38AFE66CA0D09181A81CDC(_thisAdjusted, method);
 }
-// Method Definition Index: 115555
+// Method Definition Index: 115631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartAsHostU3Ed__14_SetStateMachine_m55C69F6D8A67CFB845A41FBD2A2D841E9F1BB361 (U3CStartAsHostU3Ed__14_t7BAC8C896F9321E68486284B6E3B10266A270B75* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14343,7 +14343,7 @@ IL2CPP_EXTERN_C  void U3CStartAsHostU3Ed__14_SetStateMachine_m55C69F6D8A67CFB845
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115556
+// Method Definition Index: 115632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartDiscoveringColocationSessionsU3Ed__21_MoveNext_m36FF2898FC067B90648C573D7107D686541F1F6E (U3CStartDiscoveringColocationSessionsU3Ed__21_tD75970514797CC3971905F7D174151A3B36EB8C9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14393,13 +14393,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartDiscoveringColocationSessionsU3E
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:277>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:277>
 			Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16* L_2 = __this->___onGroupFound;
 			OVRColocationSession_remove_ColocationSessionDiscovered_m17DAB16A73F799582FF5F7EC582224475E537DAA(L_2, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:278>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:278>
 			Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16* L_3 = __this->___onGroupFound;
 			OVRColocationSession_add_ColocationSessionDiscovered_m637165F3F59B70DAF1E49DD45C5B4266E3DE5FC6(L_3, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:279>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:279>
 			OVRTask_1_t1851471F3ADC390639807ADEE664010A67E24E40 L_4;
 			L_4 = OVRColocationSession_StartDiscoveryAsync_mEB96B1D03889733D7A8E4647B1CB4293BDEDB9C2(NULL);
 			V_3 = L_4;
@@ -14441,7 +14441,7 @@ IL_0076_1:
 			OVRResult_1_tEB79882A5FAC624158C1D66DFCBF4BD9DC20BDFD L_13;
 			L_13 = Awaiter_GetResult_m6FB1A6953771E341D5C4D7713E373ADE4B5A864C((&V_2), Awaiter_GetResult_m6FB1A6953771E341D5C4D7713E373ADE4B5A864C_RuntimeMethod_var);
 			V_1 = L_13;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:280>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:280>
 			int32_t L_14;
 			L_14 = OVRResult_1_get_Status_m5D11D5E3B8B773C0BCF55CA7DBD80ABEF3208E7C((&V_1), OVRResult_1_get_Status_m5D11D5E3B8B773C0BCF55CA7DBD80ABEF3208E7C_RuntimeMethod_var);
 			V_4 = L_14;
@@ -14542,8 +14542,8 @@ IL_00d9_1:
 
 IL_00ed_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:286>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:287>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:286>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:287>
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_24 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionDiscoverFailed;
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_25 = L_24;
@@ -14562,14 +14562,14 @@ IL_00f8_1:
 		{
 			NullCheck(G_B19_0);
 			UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(G_B19_0, _stringLiteralF4D7783E9AADD76A1F7AA48CC1D1D7BE7E932C9B, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:288>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:288>
 			goto IL_0141_1;
 		}
 
 IL_0104_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:290>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:291>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:290>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:291>
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_26 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionDiscoverFailed;
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_27 = L_26;
@@ -14588,13 +14588,13 @@ IL_010f_1:
 		{
 			NullCheck(G_B22_0);
 			UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(G_B22_0, _stringLiteralE2C5694E0AEA81EA1FA471042844C744B867A47E, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:292>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:292>
 			goto IL_0141_1;
 		}
 
 IL_011b_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:300>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:300>
 			il2cpp_codegen_runtime_class_init_inline(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var);
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_28 = ((LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_StaticFields*)il2cpp_codegen_static_fields_for(LocalMatchmaking_tD5D09B818682C32A502F53CBD7EB19D22B1AD3F3_il2cpp_TypeInfo_var))->___OnSessionDiscoverFailed;
 			UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_29 = L_28;
@@ -14650,7 +14650,7 @@ CATCH_0143:
 
 IL_015c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:303>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:303>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_37 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_37, NULL);
@@ -14668,7 +14668,7 @@ IL2CPP_EXTERN_C  void U3CStartDiscoveringColocationSessionsU3Ed__21_MoveNext_m36
 	_thisAdjusted = reinterpret_cast<U3CStartDiscoveringColocationSessionsU3Ed__21_tD75970514797CC3971905F7D174151A3B36EB8C9*>(__this + _offset);
 	U3CStartDiscoveringColocationSessionsU3Ed__21_MoveNext_m36FF2898FC067B90648C573D7107D686541F1F6E(_thisAdjusted, method);
 }
-// Method Definition Index: 115557
+// Method Definition Index: 115633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartDiscoveringColocationSessionsU3Ed__21_SetStateMachine_m5D945C6E9F2830B0C9D5A714B152F7DE93E56C39 (U3CStartDiscoveringColocationSessionsU3Ed__21_tD75970514797CC3971905F7D174151A3B36EB8C9* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -14693,7 +14693,7 @@ IL2CPP_EXTERN_C  void U3CStartDiscoveringColocationSessionsU3Ed__21_SetStateMach
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115558
+// Method Definition Index: 115634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStopAdvertisingColocationSessionU3Ed__20_MoveNext_m5F016574C7867756761CE7A1B3EAC9EE5115D195 (U3CStopAdvertisingColocationSessionU3Ed__20_tCE849AB23702499DE6E221B03DF9145F095DC459* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14733,7 +14733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStopAdvertisingColocationSessionU3Ed_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:261>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:261>
 			OVRTask_1_t1851471F3ADC390639807ADEE664010A67E24E40 L_2;
 			L_2 = OVRColocationSession_StopAdvertisementAsync_m670086812CFB2C46C0A1CCEFAAEF509BE96081CD(NULL);
 			V_3 = L_2;
@@ -14775,7 +14775,7 @@ IL_005d_1:
 			OVRResult_1_tEB79882A5FAC624158C1D66DFCBF4BD9DC20BDFD L_11;
 			L_11 = Awaiter_GetResult_m6FB1A6953771E341D5C4D7713E373ADE4B5A864C((&V_2), Awaiter_GetResult_m6FB1A6953771E341D5C4D7713E373ADE4B5A864C_RuntimeMethod_var);
 			V_1 = L_11;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:262>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:262>
 			int32_t L_12;
 			L_12 = OVRResult_1_get_Status_m5D11D5E3B8B773C0BCF55CA7DBD80ABEF3208E7C((&V_1), OVRResult_1_get_Status_m5D11D5E3B8B773C0BCF55CA7DBD80ABEF3208E7C_RuntimeMethod_var);
 			if (!L_12)
@@ -14784,7 +14784,7 @@ IL_005d_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:264>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:264>
 			int32_t L_13;
 			L_13 = OVRResult_1_get_Status_m5D11D5E3B8B773C0BCF55CA7DBD80ABEF3208E7C((&V_1), OVRResult_1_get_Status_m5D11D5E3B8B773C0BCF55CA7DBD80ABEF3208E7C_RuntimeMethod_var);
 			int32_t L_14 = L_13;
@@ -14824,7 +14824,7 @@ CATCH_008b:
 
 IL_00a4:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:266>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_20 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_20, NULL);
@@ -14842,7 +14842,7 @@ IL2CPP_EXTERN_C  void U3CStopAdvertisingColocationSessionU3Ed__20_MoveNext_m5F01
 	_thisAdjusted = reinterpret_cast<U3CStopAdvertisingColocationSessionU3Ed__20_tCE849AB23702499DE6E221B03DF9145F095DC459*>(__this + _offset);
 	U3CStopAdvertisingColocationSessionU3Ed__20_MoveNext_m5F016574C7867756761CE7A1B3EAC9EE5115D195(_thisAdjusted, method);
 }
-// Method Definition Index: 115559
+// Method Definition Index: 115635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStopAdvertisingColocationSessionU3Ed__20_SetStateMachine_m8E7DFDBC9AC10B20F325B0D0C344260D7AF1A90D (U3CStopAdvertisingColocationSessionU3Ed__20_tCE849AB23702499DE6E221B03DF9145F095DC459* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -14867,7 +14867,7 @@ IL2CPP_EXTERN_C  void U3CStopAdvertisingColocationSessionU3Ed__20_SetStateMachin
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115560
+// Method Definition Index: 115636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStopDiscoveringColocationSessionsU3Ed__22_MoveNext_m2002749D55CD06497A9FDA41A6437B4891D278B6 (U3CStopDiscoveringColocationSessionsU3Ed__22_tF72499966ABCE40CCCE3F07D896EB99839474BC2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14907,7 +14907,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStopDiscoveringColocationSessionsU3Ed
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:311>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:311>
 			OVRTask_1_t1851471F3ADC390639807ADEE664010A67E24E40 L_2;
 			L_2 = OVRColocationSession_StopDiscoveryAsync_m5955024D853ACABC32703C5A830AECC89BB189FA(NULL);
 			V_3 = L_2;
@@ -14949,7 +14949,7 @@ IL_0060_1:
 			OVRResult_1_tEB79882A5FAC624158C1D66DFCBF4BD9DC20BDFD L_11;
 			L_11 = Awaiter_GetResult_m6FB1A6953771E341D5C4D7713E373ADE4B5A864C((&V_2), Awaiter_GetResult_m6FB1A6953771E341D5C4D7713E373ADE4B5A864C_RuntimeMethod_var);
 			V_1 = L_11;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:312>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:312>
 			int32_t L_12;
 			L_12 = OVRResult_1_get_Status_m5D11D5E3B8B773C0BCF55CA7DBD80ABEF3208E7C((&V_1), OVRResult_1_get_Status_m5D11D5E3B8B773C0BCF55CA7DBD80ABEF3208E7C_RuntimeMethod_var);
 			if (L_12)
@@ -14958,7 +14958,7 @@ IL_0060_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:314>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:314>
 			Action_1_tA6A103097D53CB54EE5BDC4B4EF73CFBC0ECCE16* L_13 = __this->___onGroupFound;
 			OVRColocationSession_remove_ColocationSessionDiscovered_m17DAB16A73F799582FF5F7EC582224475E537DAA(L_13, NULL);
 			goto IL_0099_1;
@@ -14966,7 +14966,7 @@ IL_0060_1:
 
 IL_007e_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:318>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:318>
 			int32_t L_14;
 			L_14 = OVRResult_1_get_Status_m5D11D5E3B8B773C0BCF55CA7DBD80ABEF3208E7C((&V_1), OVRResult_1_get_Status_m5D11D5E3B8B773C0BCF55CA7DBD80ABEF3208E7C_RuntimeMethod_var);
 			int32_t L_15 = L_14;
@@ -15006,7 +15006,7 @@ CATCH_009b:
 
 IL_00b4:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:320>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/LocalMatchmaking/LocalMatchmaking.cs:320>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_21 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_21, NULL);
@@ -15024,7 +15024,7 @@ IL2CPP_EXTERN_C  void U3CStopDiscoveringColocationSessionsU3Ed__22_MoveNext_m200
 	_thisAdjusted = reinterpret_cast<U3CStopDiscoveringColocationSessionsU3Ed__22_tF72499966ABCE40CCCE3F07D896EB99839474BC2*>(__this + _offset);
 	U3CStopDiscoveringColocationSessionsU3Ed__22_MoveNext_m2002749D55CD06497A9FDA41A6437B4891D278B6(_thisAdjusted, method);
 }
-// Method Definition Index: 115561
+// Method Definition Index: 115637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStopDiscoveringColocationSessionsU3Ed__22_SetStateMachine_m1E78EBBFFDE50550EC37AD78F94612FCB04AE4F7 (U3CStopDiscoveringColocationSessionsU3Ed__22_tF72499966ABCE40CCCE3F07D896EB99839474BC2* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -15057,7 +15057,7 @@ IL2CPP_EXTERN_C  void U3CStopDiscoveringColocationSessionsU3Ed__22_SetStateMachi
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115570
+// Method Definition Index: 115646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_Awake_m766FB0A5FCF6F59845240926F85F6D7D23DB9680 (TransferOwnershipOnSelect_t70AC6D93055B6A20EDC514DDABE302AE144A5925* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15072,12 +15072,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_Awake_m766FB0A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:73>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_0;
 		L_0 = Component_GetComponentInChildren_TisGrabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3_m69421585B1337615236999A23069FB85532E3F3F(__this, Component_GetComponentInChildren_TisGrabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3_m69421585B1337615236999A23069FB85532E3F3F_RuntimeMethod_var);
 		__this->____grabbable = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____grabbable), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:75>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_1 = __this->____grabbable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -15088,7 +15088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_Awake_m766FB0A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:77>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_3 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral12C48A79F726F890B7C2078DD3D1DB575583F08A)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TransferOwnershipOnSelect_Awake_m766FB0A5FCF6F59845240926F85F6D7D23DB9680_RuntimeMethod_var)));
@@ -15096,18 +15096,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_Awake_m766FB0A
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:80>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_4 = __this->____grabbable;
 		Action_1_t16439AC0253118742562394ACC7B97D80B44200D* L_5 = (Action_1_t16439AC0253118742562394ACC7B97D80B44200D*)il2cpp_codegen_object_new(Action_1_t16439AC0253118742562394ACC7B97D80B44200D_il2cpp_TypeInfo_var);
 		Action_1__ctor_m4052E43C460A30441C3F436AC271D3F5CDC77FA4(L_5, __this, (intptr_t)((void*)TransferOwnershipOnSelect_OnPointerEventRaised_m4633112ACFC02542BAC20695EA5FEA08A7BD122D_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		PointableElement_add_WhenPointerEventRaised_mE15E27F82BB55F84CFB1BA66E61604FDA12E1381(L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:82>
 		RuntimeObject* L_6;
 		L_6 = RunTimeUtils_GetInterfaceComponent_TisITransferOwnership_tF5CBE35045EDB5C6FB010CA90E0E73A81F96C2E0_m33564DAF16071740BD5AF49549CD405D259175DC(__this, RunTimeUtils_GetInterfaceComponent_TisITransferOwnership_tF5CBE35045EDB5C6FB010CA90E0E73A81F96C2E0_m33564DAF16071740BD5AF49549CD405D259175DC_RuntimeMethod_var);
 		__this->____transferOwnership = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____transferOwnership), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:83>
 		RuntimeObject* L_7 = __this->____transferOwnership;
 		if (L_7)
 		{
@@ -15115,7 +15115,7 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:85>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_8 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_8, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD6CCB07BEA8A8B7246D766B5749961E75C2F4D17)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_8, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TransferOwnershipOnSelect_Awake_m766FB0A5FCF6F59845240926F85F6D7D23DB9680_RuntimeMethod_var)));
@@ -15123,7 +15123,7 @@ IL_0025:
 
 IL_005b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:88>
 		bool L_9 = __this->___UseGravity;
 		if (L_9)
 		{
@@ -15131,18 +15131,18 @@ IL_005b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:90>
 		return;
 	}
 
 IL_0064:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:92>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_10;
 		L_10 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		__this->____rigidbody = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____rigidbody), (void*)L_10);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:93>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_11 = __this->____rigidbody;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -15153,7 +15153,7 @@ IL_0064:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:95>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_13 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_13, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA7A974353669EE7DE3D663ED700D36A613C68018)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TransferOwnershipOnSelect_Awake_m766FB0A5FCF6F59845240926F85F6D7D23DB9680_RuntimeMethod_var)));
@@ -15161,11 +15161,11 @@ IL_0064:
 
 IL_0089:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:97>
 		return;
 	}
 }
-// Method Definition Index: 115571
+// Method Definition Index: 115647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_OnDestroy_mD80AD46C83A6F91985A31040188720E9044B543F (TransferOwnershipOnSelect_t70AC6D93055B6A20EDC514DDABE302AE144A5925* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15177,7 +15177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_OnDestroy_mD80
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:101>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_0 = __this->____grabbable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -15188,7 +15188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_OnDestroy_mD80
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:103>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_2 = __this->____grabbable;
 		Action_1_t16439AC0253118742562394ACC7B97D80B44200D* L_3 = (Action_1_t16439AC0253118742562394ACC7B97D80B44200D*)il2cpp_codegen_object_new(Action_1_t16439AC0253118742562394ACC7B97D80B44200D_il2cpp_TypeInfo_var);
 		Action_1__ctor_m4052E43C460A30441C3F436AC271D3F5CDC77FA4(L_3, __this, (intptr_t)((void*)TransferOwnershipOnSelect_OnPointerEventRaised_m4633112ACFC02542BAC20695EA5FEA08A7BD122D_RuntimeMethod_var), NULL);
@@ -15198,11 +15198,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_OnDestroy_mD80
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:105>
 		return;
 	}
 }
-// Method Definition Index: 115572
+// Method Definition Index: 115648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_OnPointerEventRaised_m4633112ACFC02542BAC20695EA5FEA08A7BD122D (TransferOwnershipOnSelect_t70AC6D93055B6A20EDC514DDABE302AE144A5925* __this, PointerEvent_tAEB047AC9AE96DA96400B3C6FA88E56C917608BC ___0_pointerEvent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15213,7 +15213,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_OnPointerEvent
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:109>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_0 = __this->____grabbable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -15234,13 +15234,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_OnPointerEvent
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:111>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:114>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_3 = __this->____grabbable;
 		NullCheck(L_3);
 		int32_t L_4;
@@ -15251,7 +15251,7 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:116>
 		RuntimeObject* L_5 = __this->____transferOwnership;
 		NullCheck(L_5);
 		bool L_6;
@@ -15262,7 +15262,7 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:118>
 		RuntimeObject* L_7 = __this->____transferOwnership;
 		NullCheck(L_7);
 		InterfaceActionInvoker0::Invoke(0, ITransferOwnership_tF5CBE35045EDB5C6FB010CA90E0E73A81F96C2E0_il2cpp_TypeInfo_var, L_7);
@@ -15270,11 +15270,11 @@ IL_0019:
 
 IL_003f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:121>
 		return;
 	}
 }
-// Method Definition Index: 115573
+// Method Definition Index: 115649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_LateUpdate_m370B09BA2BED4381580CD2B693D93752B54794C7 (TransferOwnershipOnSelect_t70AC6D93055B6A20EDC514DDABE302AE144A5925* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15284,7 +15284,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_LateUpdate_m37
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:125>
 		RuntimeObject* L_0 = __this->____transferOwnership;
 		NullCheck(L_0);
 		bool L_1;
@@ -15302,7 +15302,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_LateUpdate_m37
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:129>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->____rigidbody;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = __this->____rigidbody;
 		bool L_5;
@@ -15313,11 +15313,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect_LateUpdate_m37
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs:131>
 		return;
 	}
 }
-// Method Definition Index: 115574
+// Method Definition Index: 115650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransferOwnershipOnSelect__ctor_m2E679FAC0C8603FF10CEBBF4825C2FA5F5AD6AE8 (TransferOwnershipOnSelect_t70AC6D93055B6A20EDC514DDABE302AE144A5925* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15403,7 +15403,7 @@ IL2CPP_EXTERN_C void PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A_mars
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115575
+// Method Definition Index: 115651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformInit___ctor_m9A6EBEA2F42C06D7A5BEEDCD6BE153D20D9A836E (PlatformInit__t8A4BA01E949F3F00D99C677BD22B8632289EF5D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15419,7 +15419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformInit___ctor_m9A6EBEA2F42C06D7A5B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115576
+// Method Definition Index: 115652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlatformInit_get_status_mACB52F21441DF2541EFB74788BE644B41A5D5ED8 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15429,12 +15429,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlatformInit_get_status_mACB52F21441D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:51>
 		int32_t L_0 = ((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->___U3CstatusU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 115577
+// Method Definition Index: 115653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformInit_set_status_mF40BB3FABC3960545EB9A7B9BD3E6C502B5012E9 (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15444,13 +15444,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformInit_set_status_mF40BB3FABC39605
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:51>
 		int32_t L_0 = ___0_value;
 		((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->___U3CstatusU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 115578
+// Method Definition Index: 115654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformInit_GetEntitlementInformation_m6B36496A1C3B80BBFB2F73A10516830CBAAE2373 (Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486* ___0_callback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15476,7 +15476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformInit_GetEntitlementInformation_m
 		NullCheck(L_1);
 		L_1->___callback = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___callback), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:57>
 		int32_t L_3;
 		L_3 = PlatformInit_get_status_mACB52F21441DF2541EFB74788BE644B41A5D5ED8_inline(NULL);
 		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
@@ -15485,14 +15485,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformInit_GetEntitlementInformation_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:59>
 		U3CU3Ec__DisplayClass5_0_t35E166FC337592E5650FFFB15510F5B76B548B9B* L_4 = V_0;
 		NullCheck(L_4);
 		Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486* L_5 = L_4->___callback;
 		PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A L_6 = ((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info;
 		NullCheck(L_5);
 		Action_1_Invoke_mE4FB6294627921F68E2B29A98BBE8BD55C9981AB_inline(L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:60>
 		return;
 	}
 
@@ -15501,9 +15501,9 @@ IL_0026:
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:65>
 		PlatformInit_set_status_mF40BB3FABC3960545EB9A7B9BD3E6C502B5012E9_inline(1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:66>
 		il2cpp_codegen_runtime_class_init_inline(Core_t272580A990CA827C27F3116C5420EB2F87FE290C_il2cpp_TypeInfo_var);
 		Request_1_tDF5315C7EB8AA620C19730D55185214ADD908497* L_7;
 		L_7 = Core_AsyncInitialize_mCD96A6E035BDC998E2330E28546134407FA2FC80((String_t*)NULL, NULL);
@@ -15513,7 +15513,7 @@ IL_0026:
 		NullCheck(L_7);
 		Request_1_tDF5315C7EB8AA620C19730D55185214ADD908497* L_10;
 		L_10 = Request_1_OnComplete_mAFB38E2045ED3FBC60FBE24E6787F9DB36AB4498(L_7, L_9, Request_1_OnComplete_mAFB38E2045ED3FBC60FBE24E6787F9DB36AB4498_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:139>
 		goto IL_007b;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -15529,11 +15529,11 @@ IL_0026:
 CATCH_0047:
 	{
 		Exception_t* L_11 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:140>
 		V_1 = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:142>
 		PlatformInit_set_status_mF40BB3FABC3960545EB9A7B9BD3E6C502B5012E9_inline(3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:143>
 		Exception_t* L_12 = V_1;
 		NullCheck(L_12);
 		String_t* L_13;
@@ -15546,21 +15546,21 @@ CATCH_0047:
 		L_16 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_13, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD)), L_15, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_16, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:144>
 		U3CU3Ec__DisplayClass5_0_t35E166FC337592E5650FFFB15510F5B76B548B9B* L_17 = V_0;
 		NullCheck(L_17);
 		Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486* L_18 = L_17->___callback;
 		PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A L_19 = ((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))))->____info;
 		NullCheck(L_18);
 		Action_1_Invoke_mE4FB6294627921F68E2B29A98BBE8BD55C9981AB_inline(L_18, L_19, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:145>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_007b;
 	}
 
 IL_007b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:146>
 		return;
 	}
 }
@@ -15572,7 +15572,7 @@ IL_007b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115579
+// Method Definition Index: 115655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_mA4CC14C2D763709EF247761FA85C806CFFF664B2 (U3CU3Ec__DisplayClass5_0_t35E166FC337592E5650FFFB15510F5B76B548B9B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15580,7 +15580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_mA4CC14C2
 		return;
 	}
 }
-// Method Definition Index: 115580
+// Method Definition Index: 115656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CGetEntitlementInformationU3Eg__InitializeCompleteU7C0_mD5180907DD89AE6B90AFCBD509C2E5B351541140 (U3CU3Ec__DisplayClass5_0_t35E166FC337592E5650FFFB15510F5B76B548B9B* __this, Message_1_tD6AD79CDBF40325AC0387650AC706FFD63EED29A* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15598,7 +15598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CGetEntitleme
 	PlatformInitialize_tEF75D0ADA5722B555535E85B41C2A3746CCEBF47* G_B1_0 = NULL;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:70>
 		Message_1_tD6AD79CDBF40325AC0387650AC706FFD63EED29A* L_0 = ___0_msg;
 		NullCheck(L_0);
 		PlatformInitialize_tEF75D0ADA5722B555535E85B41C2A3746CCEBF47* L_1;
@@ -15631,9 +15631,9 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:72>
 		PlatformInit_set_status_mF40BB3FABC3960545EB9A7B9BD3E6C502B5012E9_inline(3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:73>
 		Message_1_tD6AD79CDBF40325AC0387650AC706FFD63EED29A* L_4 = ___0_msg;
 		NullCheck(L_4);
 		Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* L_5;
@@ -15644,9 +15644,9 @@ IL_0015:
 		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralBA9DCC126AD052FB72AFE3F0B71797014BBB15BD, L_6, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:74>
 		(&((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info)->___IsEntitled = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:75>
 		Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486* L_8 = __this->___callback;
 		PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A L_9 = ((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info;
 		NullCheck(L_8);
@@ -15656,7 +15656,7 @@ IL_0015:
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:79>
 		Request_t0773858FF1AC67C0D8B43058CC7119DDD1202D3B* L_10;
 		L_10 = Entitlements_IsUserEntitledToApplication_m12DD5469C7A81F00804FC5BD2C3E75157F3BA309(NULL);
 		Callback_t9228F6822067C9E1BBEE3F816F1D26C56CB2F30D* L_11 = (Callback_t9228F6822067C9E1BBEE3F816F1D26C56CB2F30D*)il2cpp_codegen_object_new(Callback_t9228F6822067C9E1BBEE3F816F1D26C56CB2F30D_il2cpp_TypeInfo_var);
@@ -15664,11 +15664,11 @@ IL_0053:
 		NullCheck(L_10);
 		Request_t0773858FF1AC67C0D8B43058CC7119DDD1202D3B* L_12;
 		L_12 = Request_OnComplete_mFF740AAA53CD7EC649138E513189CD533A602BBE(L_10, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 115581
+// Method Definition Index: 115657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CGetEntitlementInformationU3Eg__CheckEntitlementU7C1_m740948AB78EFCEBA19B5674730570C3D17E55C29 (U3CU3Ec__DisplayClass5_0_t35E166FC337592E5650FFFB15510F5B76B548B9B* __this, Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15684,7 +15684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CGetEntitleme
 	}
 	Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:85>
 		Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* L_0 = ___0_msg;
 		NullCheck(L_0);
 		bool L_1;
@@ -15695,7 +15695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CGetEntitleme
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:87>
 		Request_1_t3EA499B388856971AB69C173E53D128BEBA5144C* L_2;
 		L_2 = Users_GetAccessToken_m174820AE01E5BE91806816E7376E6EFD270F9483(NULL);
 		Callback_t6FF4DE9C75ADF5326E55DAB2608C15009D179EEE* L_3 = (Callback_t6FF4DE9C75ADF5326E55DAB2608C15009D179EEE*)il2cpp_codegen_object_new(Callback_t6FF4DE9C75ADF5326E55DAB2608C15009D179EEE_il2cpp_TypeInfo_var);
@@ -15708,15 +15708,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CGetEntitleme
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:91>
 		PlatformInit_set_status_mF40BB3FABC3960545EB9A7B9BD3E6C502B5012E9_inline(3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:92>
 		Message_t5E5BB1D7C1870D878913D21BAA1AFD1EC65431D9* L_5 = ___0_msg;
 		NullCheck(L_5);
 		Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* L_6;
 		L_6 = VirtualFuncInvoker0< Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* >::Invoke(4, L_5);
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:93>
 		Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* L_7 = V_0;
 		NullCheck(L_7);
 		int32_t L_8 = L_7->___Code;
@@ -15729,18 +15729,18 @@ IL_0020:
 		L_13 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral6FE6E42CD28154A0FA67435819722F2974618080, L_10, L_12, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:94>
 		(&((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info)->___IsEntitled = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:95>
 		Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486* L_14 = __this->___callback;
 		PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A L_15 = ((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info;
 		NullCheck(L_14);
 		Action_1_Invoke_mE4FB6294627921F68E2B29A98BBE8BD55C9981AB_inline(L_14, L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:97>
 		return;
 	}
 }
-// Method Definition Index: 115582
+// Method Definition Index: 115658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CGetEntitlementInformationU3Eg__GetAccessTokenCompleteU7C2_mC2EBB4592B175B63FFA314E12DF39BD810741F75 (U3CU3Ec__DisplayClass5_0_t35E166FC337592E5650FFFB15510F5B76B548B9B* __this, Message_1_t0F379AFBD2F9DC93B291238F9C57840F85433F10* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15762,7 +15762,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CGetEntitleme
 	Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* V_1 = NULL;
 	U3CU3Ec__DisplayClass5_1_t322CF76B704EECDDACD4B3F797B40F61CAC6014C* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:101>
 		Message_1_t0F379AFBD2F9DC93B291238F9C57840F85433F10* L_0 = ___0_msg;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -15775,9 +15775,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CGetEntitleme
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:103>
 		V_0 = _stringLiteralC2DF0982FF7F06C065BFDC73C9C256607E2EC0B0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:104>
 		Message_1_t0F379AFBD2F9DC93B291238F9C57840F85433F10* L_3 = ___0_msg;
 		NullCheck(L_3);
 		bool L_4;
@@ -15788,13 +15788,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CGetEntitleme
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:106>
 		Message_1_t0F379AFBD2F9DC93B291238F9C57840F85433F10* L_5 = ___0_msg;
 		NullCheck(L_5);
 		Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* L_6;
 		L_6 = VirtualFuncInvoker0< Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* >::Invoke(4, L_5);
 		V_1 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:107>
 		Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* L_7 = V_1;
 		NullCheck(L_7);
 		int32_t L_8 = L_7->___Code;
@@ -15810,17 +15810,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CGetEntitleme
 
 IL_003e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:110>
 		PlatformInit_set_status_mF40BB3FABC3960545EB9A7B9BD3E6C502B5012E9_inline(3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:111>
 		String_t* L_14 = V_0;
 		String_t* L_15;
 		L_15 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF79B38220FABEBF3CD8DE3F66A2612D25B6FDB2F, L_14, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:112>
 		(&((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info)->___IsEntitled = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:113>
 		Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486* L_16 = __this->___callback;
 		PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A L_17 = ((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info;
 		NullCheck(L_16);
@@ -15837,7 +15837,7 @@ IL_0070:
 		NullCheck(L_19);
 		L_19->___CSU24U3CU3E8__locals1 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_19->___CSU24U3CU3E8__locals1), (void*)__this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:117>
 		U3CU3Ec__DisplayClass5_1_t322CF76B704EECDDACD4B3F797B40F61CAC6014C* L_20 = V_2;
 		Message_1_t0F379AFBD2F9DC93B291238F9C57840F85433F10* L_21 = ___0_msg;
 		NullCheck(L_21);
@@ -15846,25 +15846,25 @@ IL_0070:
 		NullCheck(L_20);
 		L_20->___accessToken = L_22;
 		Il2CppCodeGenWriteBarrier((void**)(&L_20->___accessToken), (void*)L_22);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:118>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:119>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:120>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:121>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:122>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:123>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:124>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:125>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:126>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:127>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:128>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:129>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:130>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:131>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:132>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:133>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:134>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:135>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:136>
 		Request_1_tDEBBCEA56ECDB50CF2277C79EB69671802236259* L_23;
 		L_23 = Users_GetLoggedInUser_mD53B3D47CE30559128E164EB5BB1E4293B40B955(NULL);
 		U3CU3Ec__DisplayClass5_1_t322CF76B704EECDDACD4B3F797B40F61CAC6014C* L_24 = V_2;
@@ -15873,7 +15873,7 @@ IL_0070:
 		NullCheck(L_23);
 		Request_1_tDEBBCEA56ECDB50CF2277C79EB69671802236259* L_26;
 		L_26 = Request_1_OnComplete_mCCFD1D1B76E7B35E1D34C2A82D5F36DA33CB707E(L_23, L_25, Request_1_OnComplete_mCCFD1D1B76E7B35E1D34C2A82D5F36DA33CB707E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:138>
 		return;
 	}
 }
@@ -15885,7 +15885,7 @@ IL_0070:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115583
+// Method Definition Index: 115659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_1__ctor_m7C1A68B1835AB62462AB3281286DE9D5721E3783 (U3CU3Ec__DisplayClass5_1_t322CF76B704EECDDACD4B3F797B40F61CAC6014C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15893,7 +15893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_1__ctor_m7C1A68B1
 		return;
 	}
 }
-// Method Definition Index: 115584
+// Method Definition Index: 115660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_1_U3CGetEntitlementInformationU3Eb__3_m663A8CFD0D5C8716AF5E923FE3E2904B392DA1B7 (U3CU3Ec__DisplayClass5_1_t322CF76B704EECDDACD4B3F797B40F61CAC6014C* __this, Message_1_tB77F82F1F4550955CAB92DBFEB260790E37A308A* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15907,7 +15907,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_1_U3CGetEntitleme
 	}
 	Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:120>
 		Message_1_tB77F82F1F4550955CAB92DBFEB260790E37A308A* L_0 = ___0_msg;
 		NullCheck(L_0);
 		bool L_1;
@@ -15918,40 +15918,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_1_U3CGetEntitleme
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:122>
 		(&((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info)->___IsEntitled = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:123>
 		String_t* L_2 = __this->___accessToken;
 		(&((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info)->___Token = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&(&((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info)->___Token), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:124>
 		Message_1_tB77F82F1F4550955CAB92DBFEB260790E37A308A* L_3 = ___0_msg;
 		NullCheck(L_3);
 		User_t63181B96DDD1EF4D5FDBE2E12C0A1510AF51F6F4* L_4;
 		L_4 = Message_1_get_Data_m45982A65EE77ACDB145388C84BD877AA377188D8_inline(L_3, Message_1_get_Data_m45982A65EE77ACDB145388C84BD877AA377188D8_RuntimeMethod_var);
 		(&((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info)->___OculusUser = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info)->___OculusUser), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:125>
 		U3CU3Ec__DisplayClass5_0_t35E166FC337592E5650FFFB15510F5B76B548B9B* L_5 = __this->___CSU24U3CU3E8__locals1;
 		NullCheck(L_5);
 		Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486* L_6 = L_5->___callback;
 		PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A L_7 = ((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info;
 		NullCheck(L_6);
 		Action_1_Invoke_mE4FB6294627921F68E2B29A98BBE8BD55C9981AB_inline(L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:126>
 		PlatformInit_set_status_mF40BB3FABC3960545EB9A7B9BD3E6C502B5012E9_inline(2, NULL);
 		return;
 	}
 
 IL_004f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:130>
 		Message_1_tB77F82F1F4550955CAB92DBFEB260790E37A308A* L_8 = ___0_msg;
 		NullCheck(L_8);
 		Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* L_9;
 		L_9 = VirtualFuncInvoker0< Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* >::Invoke(4, L_8);
 		V_0 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:131>
 		Error_t0A46640739F2057B84B1EE6489A55DDC224935A4* L_10 = V_0;
 		NullCheck(L_10);
 		String_t* L_11 = L_10->___Message;
@@ -15959,18 +15959,18 @@ IL_004f:
 		L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralC5F6CBF7298B871EBCDCB22486863FB89FD810AC, L_11, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:132>
 		(&((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info)->___IsEntitled = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:133>
 		PlatformInit_set_status_mF40BB3FABC3960545EB9A7B9BD3E6C502B5012E9_inline(3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:134>
 		U3CU3Ec__DisplayClass5_0_t35E166FC337592E5650FFFB15510F5B76B548B9B* L_13 = __this->___CSU24U3CU3E8__locals1;
 		NullCheck(L_13);
 		Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486* L_14 = L_13->___callback;
 		PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A L_15 = ((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->____info;
 		NullCheck(L_14);
 		Action_1_Invoke_mE4FB6294627921F68E2B29A98BBE8BD55C9981AB_inline(L_14, L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:136>
 		return;
 	}
 }
@@ -15982,7 +15982,7 @@ IL_004f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115587
+// Method Definition Index: 115663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerNameTagSpawner_Start_m7C14FEC3BD53EFF671931E3AC5C3450D8C80D496 (PlayerNameTagSpawner_tD23D4D71986CB106B5CAC84536462D000ABF84EB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15994,20 +15994,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerNameTagSpawner_Start_m7C14FEC3BD53
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:78>
 		RuntimeObject* L_0;
 		L_0 = RunTimeUtils_GetInterfaceComponent_TisINameTagSpawner_t3EF217419B50FFA277A8B4131911FE527F882FD1_m8C318B31F94AF49749D830FC536296E2B499E920(__this, RunTimeUtils_GetInterfaceComponent_TisINameTagSpawner_t3EF217419B50FFA277A8B4131911FE527F882FD1_m8C318B31F94AF49749D830FC536296E2B499E920_RuntimeMethod_var);
 		__this->____nameTagSpawner = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____nameTagSpawner), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:81>
 		Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486* L_1 = (Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486*)il2cpp_codegen_object_new(Action_1_t7732FF1343819DCC0AF79EF9E921E9956D062486_il2cpp_TypeInfo_var);
 		Action_1__ctor_m9D86F5986F9A0C0B729832CA568325E685DC4F67(L_1, __this, (intptr_t)((void*)PlayerNameTagSpawner_OnEntitlementFinished_m28A68758F69A728F0552F90EEC013658E944F661_RuntimeMethod_var), NULL);
 		PlatformInit_GetEntitlementInformation_m6B36496A1C3B80BBFB2F73A10516830CBAAE2373(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:86>
 		return;
 	}
 }
-// Method Definition Index: 115588
+// Method Definition Index: 115664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PlayerNameTagSpawner_SpawnCoroutine_mDC62E8C63337BE2490253BE633222B8A3046726B (PlayerNameTagSpawner_tD23D4D71986CB106B5CAC84536462D000ABF84EB* __this, String_t* ___0_playerName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16031,7 +16031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PlayerNameTagSpawner_SpawnCoro
 		return L_2;
 	}
 }
-// Method Definition Index: 115589
+// Method Definition Index: 115665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerNameTagSpawner_OnEntitlementFinished_m28A68758F69A728F0552F90EEC013658E944F661 (PlayerNameTagSpawner_tD23D4D71986CB106B5CAC84536462D000ABF84EB* __this, PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A ___0_info, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16072,7 +16072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerNameTagSpawner_OnEntitlementFinish
 	User_t63181B96DDD1EF4D5FDBE2E12C0A1510AF51F6F4* G_B10_0 = NULL;
 	User_t63181B96DDD1EF4D5FDBE2E12C0A1510AF51F6F4* G_B9_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:106>
 		PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A L_0 = ___0_info;
 		bool L_1 = L_0.___IsEntitled;
 		bool L_2 = L_1;
@@ -16156,7 +16156,7 @@ IL_0041:
 		L_16 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(G_B6_3, G_B6_2, G_B6_1, L_15, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_16, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:107>
 		PlatformInfo_tC70F634E2F2DDDB6CA51D80EC9DE63F3EBB80A3A L_17 = ___0_info;
 		bool L_18 = L_17.___IsEntitled;
 		if (L_18)
@@ -16198,17 +16198,17 @@ IL_006d:
 IL_0072:
 	{
 		V_0 = G_B11_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:108>
 		String_t* L_24 = V_0;
 		RuntimeObject* L_25;
 		L_25 = PlayerNameTagSpawner_SpawnCoroutine_mDC62E8C63337BE2490253BE633222B8A3046726B(__this, L_24, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_26;
 		L_26 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_25, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:109>
 		return;
 	}
 }
-// Method Definition Index: 115590
+// Method Definition Index: 115666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerNameTagSpawner_GetRandomName_m6236E65BAA9C066593EF65B9D35BD1CE056C73E5 (PlayerNameTagSpawner_tD23D4D71986CB106B5CAC84536462D000ABF84EB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16219,7 +16219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerNameTagSpawner_GetRandomName_
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:114>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___namePrefix;
 		NullCheck(L_0);
 		if (!(((RuntimeArray*)L_0)->max_length))
@@ -16238,13 +16238,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerNameTagSpawner_GetRandomName_
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:116>
 		return (String_t*)NULL;
 	}
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:119>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = __this->___namePrefix;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = __this->___namePrefix;
 		NullCheck(L_3);
@@ -16253,7 +16253,7 @@ IL_0014:
 		NullCheck(L_2);
 		int32_t L_5 = L_4;
 		String_t* L_6 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:120>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = __this->___namePostfix;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = __this->___namePostfix;
 		NullCheck(L_8);
@@ -16263,14 +16263,14 @@ IL_0014:
 		int32_t L_10 = L_9;
 		String_t* L_11 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		V_0 = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:121>
 		String_t* L_12 = V_0;
 		String_t* L_13;
 		L_13 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_6, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_12, NULL);
 		return L_13;
 	}
 }
-// Method Definition Index: 115591
+// Method Definition Index: 115667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerNameTagSpawner__ctor_mD04A250A4DBE16CF6A3E772D60237B29A93753D9 (PlayerNameTagSpawner_tD23D4D71986CB106B5CAC84536462D000ABF84EB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16288,7 +16288,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerNameTagSpawner__ctor_mD04A250A4DBE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:69>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -16304,7 +16304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerNameTagSpawner__ctor_mD04A250A4DBE
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral64B2160791AD7084F88B4EBCF32E1CDAA0C1D85C);
 		__this->___namePrefix = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___namePrefix), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:72>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = L_5;
 		NullCheck(L_6);
@@ -16332,7 +16332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerNameTagSpawner__ctor_mD04A250A4DBE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115592
+// Method Definition Index: 115668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpawnCoroutineU3Ed__4__ctor_m430503258160AE620DFFEC465C2CB7767312435B (U3CSpawnCoroutineU3Ed__4_tF4C6690797986EFE3B3CF889EC7E90FF88D8EC17* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -16342,14 +16342,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpawnCoroutineU3Ed__4__ctor_m43050325
 		return;
 	}
 }
-// Method Definition Index: 115593
+// Method Definition Index: 115669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpawnCoroutineU3Ed__4_System_IDisposable_Dispose_m01B123133008C3E7C6F695636B1D42685295AE68 (U3CSpawnCoroutineU3Ed__4_tF4C6690797986EFE3B3CF889EC7E90FF88D8EC17* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 115594
+// Method Definition Index: 115670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSpawnCoroutineU3Ed__4_MoveNext_mFF11D49F1594B49D0F28DFDB44FB13729B9593B4 (U3CSpawnCoroutineU3Ed__4_tF4C6690797986EFE3B3CF889EC7E90FF88D8EC17* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16385,7 +16385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSpawnCoroutineU3Ed__4_MoveNext_mFF11D
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:90>
 		PlayerNameTagSpawner_tD23D4D71986CB106B5CAC84536462D000ABF84EB* L_4 = V_1;
 		NullCheck(L_4);
 		RuntimeObject* L_5 = L_4->____nameTagSpawner;
@@ -16395,13 +16395,13 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:92>
 		return (bool)0;
 	}
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:97>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -16415,7 +16415,7 @@ IL_0038:
 
 IL_003f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:95>
 		PlayerNameTagSpawner_tD23D4D71986CB106B5CAC84536462D000ABF84EB* L_6 = V_1;
 		NullCheck(L_6);
 		RuntimeObject* L_7 = L_6->____nameTagSpawner;
@@ -16428,18 +16428,18 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:100>
 		PlayerNameTagSpawner_tD23D4D71986CB106B5CAC84536462D000ABF84EB* L_9 = V_1;
 		NullCheck(L_9);
 		RuntimeObject* L_10 = L_9->____nameTagSpawner;
 		String_t* L_11 = __this->___playerName;
 		NullCheck(L_10);
 		InterfaceActionInvoker1< String_t* >::Invoke(1, INameTagSpawner_t3EF217419B50FFA277A8B4131911FE527F882FD1_il2cpp_TypeInfo_var, L_10, L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs:101>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 115595
+// Method Definition Index: 115671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSpawnCoroutineU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD32C637DBCD8512786218BAB448C170B5FBBFADB (U3CSpawnCoroutineU3Ed__4_tF4C6690797986EFE3B3CF889EC7E90FF88D8EC17* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16447,7 +16447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSpawnCoroutineU3Ed__4_Syste
 		return L_0;
 	}
 }
-// Method Definition Index: 115596
+// Method Definition Index: 115672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpawnCoroutineU3Ed__4_System_Collections_IEnumerator_Reset_m10A272B73421F2B3F96620371FB01E7B75BC6883 (U3CSpawnCoroutineU3Ed__4_tF4C6690797986EFE3B3CF889EC7E90FF88D8EC17* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16456,7 +16456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpawnCoroutineU3Ed__4_System_Collecti
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSpawnCoroutineU3Ed__4_System_Collections_IEnumerator_Reset_m10A272B73421F2B3F96620371FB01E7B75BC6883_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 115597
+// Method Definition Index: 115673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSpawnCoroutineU3Ed__4_System_Collections_IEnumerator_get_Current_m25261AB5511975670076E7BE56259915FD726564 (U3CSpawnCoroutineU3Ed__4_tF4C6690797986EFE3B3CF889EC7E90FF88D8EC17* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16472,52 +16472,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSpawnCoroutineU3Ed__4_Syste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115598
+// Method Definition Index: 115674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* AlignCameraToAnchor_get_CameraAlignmentAnchor_m8F3DA7471AF57FBCBEA7D7F57B5E719C2CAD5210 (AlignCameraToAnchor_tA5F6F169AF9D66CC4E8E83DFB406A83779F629D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:31>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:31>
 		OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_0 = __this->___U3CCameraAlignmentAnchorU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 115599
+// Method Definition Index: 115675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlignCameraToAnchor_set_CameraAlignmentAnchor_mF09224872A73D09841784A82F7EEF1BAE6A21A38 (AlignCameraToAnchor_tA5F6F169AF9D66CC4E8E83DFB406A83779F629D8* __this, OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:31>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:31>
 		OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_0 = ___0_value;
 		__this->___U3CCameraAlignmentAnchorU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCameraAlignmentAnchorU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 115600
+// Method Definition Index: 115676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlignCameraToAnchor_Update_m8E0DFE1D1D855DA14FD3C8CC76DDEFAC722FE2CE (AlignCameraToAnchor_tA5F6F169AF9D66CC4E8E83DFB406A83779F629D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:35>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:35>
 		AlignCameraToAnchor_RealignToAnchor_m60E2E05F57121E0A338F5C2914485DBBB0FD7A98(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 115601
+// Method Definition Index: 115677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlignCameraToAnchor_RealignToAnchor_m60E2E05F57121E0A338F5C2914485DBBB0FD7A98 (AlignCameraToAnchor_tA5F6F169AF9D66CC4E8E83DFB406A83779F629D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:40>
 		OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_0;
 		L_0 = AlignCameraToAnchor_get_CameraAlignmentAnchor_m8F3DA7471AF57FBCBEA7D7F57B5E719C2CAD5210_inline(__this, NULL);
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
 		AlignCameraToAnchor_Align_m56F9A83D2572E000B55370DEBC115A131AA5B03D(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 115602
+// Method Definition Index: 115678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlignCameraToAnchor_Align_m56F9A83D2572E000B55370DEBC115A131AA5B03D (AlignCameraToAnchor_tA5F6F169AF9D66CC4E8E83DFB406A83779F629D8* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_anchorTransform, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -16527,26 +16527,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlignCameraToAnchor_Align_m56F9A83D2572E
 	OVRPose_t8054769FD4517C10D2ECD2C14C823723D675EEFB V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:51>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_anchorTransform;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:52>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = ___0_anchorTransform;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		NullCheck(L_2);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:55>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___0_anchorTransform;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_5;
 		L_5 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		OVRPose_t8054769FD4517C10D2ECD2C14C823723D675EEFB L_6;
 		L_6 = OVRExtensions_ToTrackingSpacePose_m17C9DAB4F69BB5D40513F37B70CE267950036ADA(L_4, L_5, NULL);
 		V_1 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:56>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = ___0_anchorTransform;
 		OVRPose_t8054769FD4517C10D2ECD2C14C823723D675EEFB L_8 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = L_8.___position;
@@ -16554,7 +16554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlignCameraToAnchor_Align_m56F9A83D2572E
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_11 = L_10.___orientation;
 		NullCheck(L_7);
 		Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A(L_7, L_9, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:59>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
 		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = ___0_anchorTransform;
@@ -16565,7 +16565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlignCameraToAnchor_Align_m56F9A83D2572E
 		L_15 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_13, L_14, NULL);
 		NullCheck(L_12);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_12, L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:60>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
 		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = ___0_anchorTransform;
@@ -16578,14 +16578,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlignCameraToAnchor_Align_m56F9A83D2572E
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_20), (0.0f), ((-L_19)), (0.0f), NULL);
 		NullCheck(L_16);
 		Transform_set_eulerAngles_m9F0BC484A7915A51FAB87230644229B75BACA004(L_16, L_20, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:63>
 		OVRPose_t8054769FD4517C10D2ECD2C14C823723D675EEFB L_21 = V_1;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_22;
 		L_22 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		OVRPose_t8054769FD4517C10D2ECD2C14C823723D675EEFB L_23;
 		L_23 = OVRExtensions_ToWorldSpacePose_mB00CD2AC97FB573C5FA5E4093A1F7441244CA097(L_21, L_22, NULL);
 		V_2 = L_23;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:64>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24 = ___0_anchorTransform;
 		OVRPose_t8054769FD4517C10D2ECD2C14C823723D675EEFB L_25 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = L_25.___position;
@@ -16593,16 +16593,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlignCameraToAnchor_Align_m56F9A83D2572E
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28 = L_27.___orientation;
 		NullCheck(L_24);
 		Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A(L_24, L_26, L_28, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:66>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = ___0_anchorTransform;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = V_0;
 		NullCheck(L_29);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_29, L_30, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:67>
 		return;
 	}
 }
-// Method Definition Index: 115603
+// Method Definition Index: 115679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlignCameraToAnchor__ctor_m3FDF0DF4B6E1A49E6655C9E0B9893E3A413B5F99 (AlignCameraToAnchor_tA5F6F169AF9D66CC4E8E83DFB406A83779F629D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16618,7 +16618,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlignCameraToAnchor__ctor_m3FDF0DF4B6E1A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115604
+// Method Definition Index: 115680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_add_ColocationReady_mEFF914C876B3230076B3CAC21F35EA1A725D3E16 (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16661,7 +16661,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 115605
+// Method Definition Index: 115681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_remove_ColocationReady_m8A8ACFAFAABA2C514EC1D2026A5366B2FEABFE92 (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16704,7 +16704,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 115606
+// Method Definition Index: 115682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_add_ColocationFailed_mC8671C0C2449F79F66D3B82E55CFF25A077D8A9B (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, Action_1_t5679F6495F60938D362DF8F8F23B4A4DB11F9387* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16747,7 +16747,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 115607
+// Method Definition Index: 115683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_remove_ColocationFailed_mA01B8AA29E93A77587CAC218E9C15140E75CAC91 (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, Action_1_t5679F6495F60938D362DF8F8F23B4A4DB11F9387* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16790,7 +16790,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 115608
+// Method Definition Index: 115684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_Init_mB4237FC6002C12C385FD63FFFEEE138D1E82234C (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, RuntimeObject* ___0_networkData, RuntimeObject* ___1_networkMessenger, SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* ___2_sharedAnchorManager, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___3_cameraRig, uint64_t ___4_myPlayerId, uint64_t ___5_myOculusId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16804,78 +16804,78 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_Init_mB4237F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:64>
 		Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteral4B9EBB8D4433132E196CA1812A5924047DC85FE9, 0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:65>
 		RuntimeObject* L_0 = ___0_networkData;
 		__this->____networkData = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____networkData), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:66>
 		RuntimeObject* L_1 = ___1_networkMessenger;
 		__this->____networkMessenger = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____networkMessenger), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:68>
 		RuntimeObject* L_2 = __this->____networkMessenger;
 		Action_1_tDD4F5B646DD624D57C2DECE4236597A38BD0E7BB* L_3 = (Action_1_tDD4F5B646DD624D57C2DECE4236597A38BD0E7BB*)il2cpp_codegen_object_new(Action_1_tDD4F5B646DD624D57C2DECE4236597A38BD0E7BB_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA1BC86786923F0BC161381DBABD7E9EE07906916(L_3, __this, (intptr_t)((void*)AutomaticColocationLauncher_OnAnchorShareRequestReceived_m24419F800F35398967A4144D2CF8A2FC3B1BAD25_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		InterfaceActionInvoker1< Action_1_tDD4F5B646DD624D57C2DECE4236597A38BD0E7BB* >::Invoke(0, INetworkMessenger_t38EFEE596283B1D68A0B60AC67D6BEA7247A8A62_il2cpp_TypeInfo_var, L_2, L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:69>
 		RuntimeObject* L_4 = __this->____networkMessenger;
 		Action_1_tDD4F5B646DD624D57C2DECE4236597A38BD0E7BB* L_5 = (Action_1_tDD4F5B646DD624D57C2DECE4236597A38BD0E7BB*)il2cpp_codegen_object_new(Action_1_tDD4F5B646DD624D57C2DECE4236597A38BD0E7BB_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA1BC86786923F0BC161381DBABD7E9EE07906916(L_5, __this, (intptr_t)((void*)AutomaticColocationLauncher_OnAnchorShareRequestCompleted_mBFC8F825D98FD338F50AB5FC824807C1305EF8E1_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		InterfaceActionInvoker1< Action_1_tDD4F5B646DD624D57C2DECE4236597A38BD0E7BB* >::Invoke(2, INetworkMessenger_t38EFEE596283B1D68A0B60AC67D6BEA7247A8A62_il2cpp_TypeInfo_var, L_4, L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:71>
 		SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_6 = ___2_sharedAnchorManager;
 		__this->____sharedAnchorManager = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____sharedAnchorManager), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:72>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = ___3_cameraRig;
 		__this->____cameraRig = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cameraRig), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:74>
 		uint64_t L_8 = ___4_myPlayerId;
 		__this->____myPlayerId = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:75>
 		uint64_t L_9 = ___5_myOculusId;
 		__this->____myOculusId = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:76>
 		return;
 	}
 }
-// Method Definition Index: 115609
+// Method Definition Index: 115685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_ColocateAutomatically_mDB905AB092532C75143B11926235FD8784DF022B (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:80>
 		AutomaticColocationLauncher_ColocateAutomaticallyInternal_mEF20657B550BADE9E732FE345E90140B8B9BF374(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 115610
+// Method Definition Index: 115686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_ColocateByPlayerWithOculusId_m3E31CEF31E6858FF6E1BA0CE450F2F256181634F (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, uint64_t ___0_oculusId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:85>
 		uint64_t L_0 = ___0_oculusId;
 		AutomaticColocationLauncher_ColocateByPlayerWithOculusIdInternal_mD9B790AACAD18368EC69D776191DE46B40BAC6AD(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:86>
 		return;
 	}
 }
-// Method Definition Index: 115611
+// Method Definition Index: 115687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_CreateColocatedSpace_m42C781BB1A3A34DA245A7053BA0DFE6FAC464585 (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:90>
 		AutomaticColocationLauncher_CreateColocatedSpaceInternal_m85AD5DBB274E1B83F4C9A2237D6CCBB982C5A151(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:91>
 		return;
 	}
 }
-// Method Definition Index: 115612
+// Method Definition Index: 115688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_ColocateAutomaticallyInternal_mEF20657B550BADE9E732FE345E90140B8B9BF374 (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16908,7 +16908,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_ColocateAuto
 		return;
 	}
 }
-// Method Definition Index: 115613
+// Method Definition Index: 115689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_ColocateByPlayerWithOculusIdInternal_mD9B790AACAD18368EC69D776191DE46B40BAC6AD (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, uint64_t ___0_oculusId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16943,7 +16943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_ColocateByPl
 		return;
 	}
 }
-// Method Definition Index: 115614
+// Method Definition Index: 115690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8 AutomaticColocationLauncher_FindAlignmentAnchorUsedByOculusId_m2B6A2FA102C53C6DB81B2714A6A91F86336E8346 (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, uint64_t ___0_oculusId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16983,14 +16983,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB0
 	Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8 V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:153>
 		RuntimeObject* L_0 = __this->____networkData;
 		NullCheck(L_0);
 		List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* L_1;
 		L_1 = InterfaceFuncInvoker0< List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* >::Invoke(4, INetworkData_t7CE864615C72AB09B342480F4A53008182375792_il2cpp_TypeInfo_var, L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:154>
 		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_tD043F01310E483091D0E9A5526C3425F13EF2099));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:156>
 		NullCheck(L_1);
 		Enumerator_t3D0A4C53A64270A9F1044636EF13B56009469AC5 L_2;
 		L_2 = List_1_GetEnumerator_mCF02BCB54187FA648D0EC4DBB5A89896300BBED8(L_1, List_1_GetEnumerator_mCF02BCB54187FA648D0EC4DBB5A89896300BBED8_RuntimeMethod_var);
@@ -17014,11 +17014,11 @@ FINALLY_0043:
 
 IL_001b_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:156>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:156>
 				Player_tE06134286175E81359172373BCA583D217A9CF0D L_3;
 				L_3 = Enumerator_get_Current_mF344BAA73DEB94B0BACB0EEE28B5199CDEB079C4_inline((&V_1), Enumerator_get_Current_mF344BAA73DEB94B0BACB0EEE28B5199CDEB079C4_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:157>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:157>
 				uint64_t L_4 = ___0_oculusId;
 				Player_tE06134286175E81359172373BCA583D217A9CF0D L_5 = V_2;
 				uint64_t L_6 = L_5.___oculusId;
@@ -17028,7 +17028,7 @@ IL_001b_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:159>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:159>
 				Player_tE06134286175E81359172373BCA583D217A9CF0D L_7 = V_2;
 				uint32_t L_8 = L_7.___colocationGroupId;
 				Nullable_1_tD043F01310E483091D0E9A5526C3425F13EF2099 L_9;
@@ -17039,7 +17039,7 @@ IL_001b_1:
 
 IL_0038_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:156>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:156>
 				bool L_10;
 				L_10 = Enumerator_MoveNext_mF449D9A9CFF250BC13914537BC7B2D97DD788D8F((&V_1), Enumerator_MoveNext_mF449D9A9CFF250BC13914537BC7B2D97DD788D8F_RuntimeMethod_var);
 				if (L_10)
@@ -17059,7 +17059,7 @@ IL_0038_1:
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:162>
 		bool L_11;
 		L_11 = Nullable_1_get_HasValue_mDEB82F7445A31CA12FE47E887EAE322E7ABB1B54_inline((&V_0), Nullable_1_get_HasValue_mDEB82F7445A31CA12FE47E887EAE322E7ABB1B54_RuntimeMethod_var);
 		if (L_11)
@@ -17068,16 +17068,16 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:164>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:165>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:166>
 		uint64_t L_12 = ___0_oculusId;
 		uint64_t L_13 = L_12;
 		RuntimeObject* L_14 = Box(il2cpp_defaults.uint64_class, &L_13);
 		String_t* L_15;
 		L_15 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralF47C3B0FB66E8B84F8B4C696F833D8AF9B8D0DDD, _stringLiteral089B67014AEDEE3DDD70FD4D3A8C7BBCE0C19347, L_14, NULL);
 		Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_15, 3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:167>
 		il2cpp_codegen_initobj((&V_3), sizeof(Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8));
 		Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8 L_16 = V_3;
 		return L_16;
@@ -17085,12 +17085,12 @@ IL_0051:
 
 IL_007f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:170>
 		RuntimeObject* L_17 = __this->____networkData;
 		NullCheck(L_17);
 		List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1* L_18;
 		L_18 = InterfaceFuncInvoker0< List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1* >::Invoke(8, INetworkData_t7CE864615C72AB09B342480F4A53008182375792_il2cpp_TypeInfo_var, L_17);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:171>
 		NullCheck(L_18);
 		Enumerator_t4784A6D270E571B7FD81B0C2A5E841E4C19A7F9B L_19;
 		L_19 = List_1_GetEnumerator_m577696725D3DC73745C6F67C0876A02C9B673B7D(L_18, List_1_GetEnumerator_m577696725D3DC73745C6F67C0876A02C9B673B7D_RuntimeMethod_var);
@@ -17114,11 +17114,11 @@ FINALLY_00c1:
 
 IL_0093_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:171>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:171>
 				Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_20;
 				L_20 = Enumerator_get_Current_m52333D538F04AB960FDB42D80D4ED754F933B830_inline((&V_4), Enumerator_get_Current_m52333D538F04AB960FDB42D80D4ED754F933B830_RuntimeMethod_var);
 				V_5 = L_20;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:172>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:172>
 				uint32_t L_21;
 				L_21 = Nullable_1_get_Value_m16BBF58EE8148945BE0ACF9973104876D437FF7E((&V_0), Nullable_1_get_Value_m16BBF58EE8148945BE0ACF9973104876D437FF7E_RuntimeMethod_var);
 				Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_22 = V_5;
@@ -17129,7 +17129,7 @@ IL_0093_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:174>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:174>
 				Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_24 = V_5;
 				Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8 L_25;
 				memset((&L_25), 0, sizeof(L_25));
@@ -17140,7 +17140,7 @@ IL_0093_1:
 
 IL_00b6_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:171>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:171>
 				bool L_26;
 				L_26 = Enumerator_MoveNext_mAD265998064E9283415B8BA908926657BF733F49((&V_4), Enumerator_MoveNext_mAD265998064E9283415B8BA908926657BF733F49_RuntimeMethod_var);
 				if (L_26)
@@ -17160,16 +17160,16 @@ IL_00b6_1:
 
 IL_00cf:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:177>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:178>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:179>
 		Nullable_1_tD043F01310E483091D0E9A5526C3425F13EF2099 L_27 = V_0;
 		Nullable_1_tD043F01310E483091D0E9A5526C3425F13EF2099 L_28 = L_27;
 		RuntimeObject* L_29 = Box(Nullable_1_tD043F01310E483091D0E9A5526C3425F13EF2099_il2cpp_TypeInfo_var, &L_28);
 		String_t* L_30;
 		L_30 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral9745FF73CD98DFB922B244D7AAFAECE4D8C517BC, _stringLiteral089B67014AEDEE3DDD70FD4D3A8C7BBCE0C19347, L_29, NULL);
 		Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_30, 3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:180>
 		il2cpp_codegen_initobj((&V_6), sizeof(Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8));
 		Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8 L_31 = V_6;
 		return L_31;
@@ -17177,22 +17177,22 @@ IL_00cf:
 
 IL_00f5:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:181>
 		Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8 L_32 = V_3;
 		return L_32;
 	}
 }
-// Method Definition Index: 115615
+// Method Definition Index: 115691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_CreateColocatedSpaceInternal_m85AD5DBB274E1B83F4C9A2237D6CCBB982C5A151 (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:185>
 		AutomaticColocationLauncher_CreateNewColocatedSpace_mA18783DFF70B3F6CBF1827F331B9A92D8675679B(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:186>
 		return;
 	}
 }
-// Method Definition Index: 115616
+// Method Definition Index: 115692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_CreateNewColocatedSpace_mA18783DFF70B3F6CBF1827F331B9A92D8675679B (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17225,7 +17225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_CreateNewCol
 		return;
 	}
 }
-// Method Definition Index: 115617
+// Method Definition Index: 115693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_AlignPlayerToAnchor_m78EBE2B17F554DC0AAEA872F9B32E5E475A6C4FA (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17237,9 +17237,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_AlignPlayerT
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:209>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:209>
 		Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteralCB7470CCB7576365CBB642D1D8163125B46534EB, 0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:212>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_0;
 		L_0 = MRUK_get_Instance_m19BDCBC4E99BEBD78897C60B093E0D58DA524041_inline(NULL);
@@ -17248,11 +17248,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_AlignPlayerT
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2 = ((ColocationConstants_tADCDC8A4BA41F07C12219006512FB11095175984_StaticFields*)il2cpp_codegen_static_fields_for(ColocationConstants_tADCDC8A4BA41F07C12219006512FB11095175984_il2cpp_TypeInfo_var))->___AlignmentAnchorPose;
 		NullCheck(L_0);
 		MRUK_SetCustomWorldLockAnchor_mC1EE1609F2B40B19F9E47CE8590E5BADB992400F(L_0, L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:218>
 		return;
 	}
 }
-// Method Definition Index: 115618
+// Method Definition Index: 115694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1* AutomaticColocationLauncher_GetAllAlignmentAnchors_m3C9BD0A994E880DF6906F09B39DB8BC9786A4953 (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17274,16 +17274,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00
 	Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:222>
 		List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1* L_0 = (List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1*)il2cpp_codegen_object_new(List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1_il2cpp_TypeInfo_var);
 		List_1__ctor_m817C51E1EF6EE9B479E9C561457D325F6C79CE8E(L_0, List_1__ctor_m817C51E1EF6EE9B479E9C561457D325F6C79CE8E_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:223>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:223>
 		RuntimeObject* L_1 = __this->____networkData;
 		NullCheck(L_1);
 		List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1* L_2;
 		L_2 = InterfaceFuncInvoker0< List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1* >::Invoke(8, INetworkData_t7CE864615C72AB09B342480F4A53008182375792_il2cpp_TypeInfo_var, L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:224>
 		NullCheck(L_2);
 		Enumerator_t4784A6D270E571B7FD81B0C2A5E841E4C19A7F9B L_3;
 		L_3 = List_1_GetEnumerator_m577696725D3DC73745C6F67C0876A02C9B673B7D(L_2, List_1_GetEnumerator_m577696725D3DC73745C6F67C0876A02C9B673B7D_RuntimeMethod_var);
@@ -17307,11 +17307,11 @@ FINALLY_003b:
 
 IL_0019_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:224>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:224>
 				Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_4;
 				L_4 = Enumerator_get_Current_m52333D538F04AB960FDB42D80D4ED754F933B830_inline((&V_1), Enumerator_get_Current_m52333D538F04AB960FDB42D80D4ED754F933B830_RuntimeMethod_var);
 				V_2 = L_4;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:226>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:226>
 				Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_5 = V_2;
 				bool L_6 = L_5.___isAlignmentAnchor;
 				if (!L_6)
@@ -17320,7 +17320,7 @@ IL_0019_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:228>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:228>
 				List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1* L_7 = V_0;
 				Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_8 = V_2;
 				NullCheck(L_7);
@@ -17329,7 +17329,7 @@ IL_0019_1:
 
 IL_0030_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:224>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:224>
 				bool L_9;
 				L_9 = Enumerator_MoveNext_mAD265998064E9283415B8BA908926657BF733F49((&V_1), Enumerator_MoveNext_mAD265998064E9283415B8BA908926657BF733F49_RuntimeMethod_var);
 				if (L_9)
@@ -17349,12 +17349,12 @@ IL_0030_1:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:232>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:232>
 		List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1* L_10 = V_0;
 		return L_10;
 	}
 }
-// Method Definition Index: 115619
+// Method Definition Index: 115695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* AutomaticColocationLauncher_ShareAndLocalizeAnchor_m9A32D4032ABD4C1F3D03B8C98FB032926656E70E (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 ___0_anchor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17366,15 +17366,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:237>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_0 = (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*)il2cpp_codegen_object_new(TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14_il2cpp_TypeInfo_var);
 		TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646(L_0, TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646_RuntimeMethod_var);
 		__this->____alignToAnchorTask = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____alignToAnchorTask), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:238>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:238>
 		Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_1 = ___0_anchor;
 		AutomaticColocationLauncher_SendAnchorShareRequest_m5F4B0908B7084A57D97D958B28E7BD6A797C371F(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:239>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:239>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_2 = __this->____alignToAnchorTask;
 		NullCheck(L_2);
 		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_3;
@@ -17382,7 +17382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 		return L_3;
 	}
 }
-// Method Definition Index: 115620
+// Method Definition Index: 115696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_SendAnchorShareRequest_m5F4B0908B7084A57D97D958B28E7BD6A797C371F (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 ___0_anchor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17406,10 +17406,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_SendAnchorSh
 	memset((&V_0), 0, sizeof(V_0));
 	uint64_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:244>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:245>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:246>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:247>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:244>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:245>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:246>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:247>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		NullCheck(L_1);
@@ -17444,7 +17444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_SendAnchorSh
 		String_t* L_16;
 		L_16 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteralCAD690F601532549D4290958F049BF600BE1DF8D, L_12, NULL);
 		Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_16, 0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:249>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:249>
 		RuntimeObject* L_17 = __this->____networkData;
 		Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_18 = ___0_anchor;
 		uint64_t L_19 = L_18.___ownerOculusId;
@@ -17452,7 +17452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_SendAnchorSh
 		Nullable_1_t8B44A1417F21CA753D18837ED2AA8BAB0BFAFB5B L_20;
 		L_20 = InterfaceFuncInvoker1< Nullable_1_t8B44A1417F21CA753D18837ED2AA8BAB0BFAFB5B, uint64_t >::Invoke(3, INetworkData_t7CE864615C72AB09B342480F4A53008182375792_il2cpp_TypeInfo_var, L_17, L_19);
 		V_0 = L_20;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:250>
 		bool L_21;
 		L_21 = Nullable_1_get_HasValue_mD048CDB536853E5728C5AAD525C9E3E727D0034F_inline((&V_0), Nullable_1_get_HasValue_mD048CDB536853E5728C5AAD525C9E3E727D0034F_RuntimeMethod_var);
 		if (L_21)
@@ -17461,9 +17461,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_SendAnchorSh
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:252>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:253>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:254>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:252>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:254>
 		Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_22 = ___0_anchor;
 		uint64_t L_23 = L_22.___ownerOculusId;
 		uint64_t L_24 = L_23;
@@ -17471,7 +17471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_SendAnchorSh
 		String_t* L_26;
 		L_26 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralE9F9AA47309D68BC084ADBA8430B662F44C3AF05, _stringLiteral089B67014AEDEE3DDD70FD4D3A8C7BBCE0C19347, L_25, NULL);
 		Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_26, 3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:255>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:255>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_27 = __this->____alignToAnchorTask;
 		NullCheck(L_27);
 		bool L_28;
@@ -17480,14 +17480,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_SendAnchorSh
 
 IL_0098:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:258>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:258>
 		Player_tE06134286175E81359172373BCA583D217A9CF0D L_29;
 		L_29 = Nullable_1_get_Value_m73699103E8A23152681AE89B212B75D7B5A4E23D((&V_0), Nullable_1_get_Value_m73699103E8A23152681AE89B212B75D7B5A4E23D_RuntimeMethod_var);
 		uint64_t L_30 = L_29.___playerId;
 		V_1 = L_30;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:260>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:261>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:262>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:260>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:261>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:262>
 		uint64_t L_31 = V_1;
 		uint64_t L_32 = L_31;
 		RuntimeObject* L_33 = Box(il2cpp_defaults.uint64_class, &L_32);
@@ -17498,8 +17498,8 @@ IL_0098:
 		String_t* L_38;
 		L_38 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral49A826FFFBA9DF2FACE5D610991C0C4D005F1B82, _stringLiteral089B67014AEDEE3DDD70FD4D3A8C7BBCE0C19347, L_33, L_37, NULL);
 		Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_38, 1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:264>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:265>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:265>
 		RuntimeObject* L_39 = __this->____networkMessenger;
 		uint64_t L_40 = V_1;
 		uint64_t L_41 = __this->____myPlayerId;
@@ -17511,11 +17511,11 @@ IL_0098:
 		ShareAndLocalizeParams__ctor_m1ABE21312CEF7E2B7DE820C8897EA31A45A8D1AE((&L_45), L_41, L_42, L_44, NULL);
 		NullCheck(L_39);
 		InterfaceActionInvoker2< uint64_t, ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B7F179 >::Invoke(4, INetworkMessenger_t38EFEE596283B1D68A0B60AC67D6BEA7247A8A62_il2cpp_TypeInfo_var, L_39, L_40, L_45);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:266>
 		return;
 	}
 }
-// Method Definition Index: 115621
+// Method Definition Index: 115697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_OnAnchorShareRequestReceived_m24419F800F35398967A4144D2CF8A2FC3B1BAD25 (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B7F179 ___0_shareAndLocalizeParams, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17550,7 +17550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_OnAnchorShar
 		return;
 	}
 }
-// Method Definition Index: 115622
+// Method Definition Index: 115698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_OnAnchorShareRequestCompleted_mBFC8F825D98FD338F50AB5FC824807C1305EF8E1 (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B7F179 ___0_shareAndLocalizeParams, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17569,9 +17569,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_OnAnchorShar
 	Action_1_t5679F6495F60938D362DF8F8F23B4A4DB11F9387* G_B3_0 = NULL;
 	Action_1_t5679F6495F60938D362DF8F8F23B4A4DB11F9387* G_B2_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:286>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:287>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:288>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:286>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:287>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:288>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		NullCheck(L_1);
@@ -17598,7 +17598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_OnAnchorShar
 		String_t* L_11;
 		L_11 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral87F176EA69F6727F4E9FC10090EFFEA6CE1D2D04, L_7, NULL);
 		Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_11, 1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:290>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:290>
 		ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B7F179 L_12 = ___0_shareAndLocalizeParams;
 		bool L_13 = L_12.___anchorFlowSucceeded;
 		if (L_13)
@@ -17607,9 +17607,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_OnAnchorShar
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:292>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:292>
 		Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteralDDBC0AB40E7A53CC01DD26CF27316E9F8A8438EF, 3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:293>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:293>
 		Action_1_t5679F6495F60938D362DF8F8F23B4A4DB11F9387* L_14 = __this->___ColocationFailed;
 		Action_1_t5679F6495F60938D362DF8F8F23B4A4DB11F9387* L_15 = L_14;
 		if (L_15)
@@ -17631,30 +17631,30 @@ IL_0061:
 
 IL_0067:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:294>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:294>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_16 = __this->____alignToAnchorTask;
 		NullCheck(L_16);
 		bool L_17;
 		L_17 = TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1(L_16, (bool)0, TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:295>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:295>
 		return;
 	}
 
 IL_0075:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:298>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:298>
 		Guid_t* L_18 = (Guid_t*)(&(&___0_shareAndLocalizeParams)->___anchorUUID);
 		String_t* L_19;
 		L_19 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C(L_18, NULL);
 		Guid__ctor_mAE66BA1C43B4194F4F7991E2E30370E36CBBF830((&V_0), L_19, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:299>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:299>
 		Guid_t L_20 = V_0;
 		AutomaticColocationLauncher_LocalizeAnchor_m94FBC6F473175C4AB2CA4B051855BDD5E87CF903(__this, L_20, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:300>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:300>
 		return;
 	}
 }
-// Method Definition Index: 115623
+// Method Definition Index: 115699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_LocalizeAnchor_m94FBC6F473175C4AB2CA4B051855BDD5E87CF903 (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, Guid_t ___0_anchorToLocalize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17689,7 +17689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher_LocalizeAnch
 		return;
 	}
 }
-// Method Definition Index: 115624
+// Method Definition Index: 115700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher__ctor_mCBF9A55F44556CE6086ECFA9605A10F4D0F61A34 (AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17697,7 +17697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher__ctor_mCBF9A
 		return;
 	}
 }
-// Method Definition Index: 115625
+// Method Definition Index: 115701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher__cctor_m3BEE2713FB7259940C6DD46E324643A446629E5E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17708,7 +17708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher__cctor_m3BEE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:53>
 		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0;
 		L_0 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
@@ -17724,7 +17724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticColocationLauncher__cctor_m3BEE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115626
+// Method Definition Index: 115702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CColocateAutomaticallyInternalU3Ed__20_MoveNext_m696A7EFFFB3221F26BD385E940D9E67231990EEF (U3CColocateAutomaticallyInternalU3Ed__20_t8129ABDC577BB1FE0BE3D307CCA68E68E0E1D036* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17770,17 +17770,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CColocateAutomaticallyInternalU3Ed__20
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:95>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:95>
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteralCEECB22432611C43981C67FB1F1181339DD8C2E3, 0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:96>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:96>
 			__this->___U3CsuccessfullyAlignedToAnchorU3E5__2 = (bool)0;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:98>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:98>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_3 = V_1;
 			NullCheck(L_3);
 			List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1* L_4;
 			L_4 = AutomaticColocationLauncher_GetAllAlignmentAnchors_m3C9BD0A994E880DF6906F09B39DB8BC9786A4953(L_3, NULL);
 			V_2 = L_4;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:99>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:99>
 			List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1* L_5 = V_2;
 			NullCheck(L_5);
 			Enumerator_t4784A6D270E571B7FD81B0C2A5E841E4C19A7F9B L_6;
@@ -17831,12 +17831,12 @@ IL_0152_1:
 
 IL_003f_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:99>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:99>
 					Enumerator_t4784A6D270E571B7FD81B0C2A5E841E4C19A7F9B* L_10 = (Enumerator_t4784A6D270E571B7FD81B0C2A5E841E4C19A7F9B*)(&__this->___U3CU3E7__wrap2);
 					Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_11;
 					L_11 = Enumerator_get_Current_m52333D538F04AB960FDB42D80D4ED754F933B830_inline(L_10, Enumerator_get_Current_m52333D538F04AB960FDB42D80D4ED754F933B830_RuntimeMethod_var);
 					__this->___U3CanchorU3E5__4 = L_11;
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:101>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:101>
 					AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_12 = V_1;
 					Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_13 = __this->___U3CanchorU3E5__4;
 					NullCheck(L_12);
@@ -17886,11 +17886,11 @@ IL_00aa_2:
 					}
 				}
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:103>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:103>
 					__this->___U3CsuccessfullyAlignedToAnchorU3E5__2 = (bool)1;
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:104>
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:105>
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:106>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:104>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:105>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:106>
 					Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19* L_24 = (Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19*)(&__this->___U3CanchorU3E5__4);
 					Guid_t L_25 = L_24->___automaticAnchorUuid;
 					Guid_t L_26 = L_25;
@@ -17898,7 +17898,7 @@ IL_00aa_2:
 					String_t* L_28;
 					L_28 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral4E2148B91A2B1B3F4D2C8889C4CEFA8D9AFB0BC6, _stringLiteral089B67014AEDEE3DDD70FD4D3A8C7BBCE0C19347, L_27, NULL);
 					Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_28, 1, NULL);
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:107>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:107>
 					AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_29 = V_1;
 					NullCheck(L_29);
 					RuntimeObject* L_30 = L_29->____networkData;
@@ -17915,11 +17915,11 @@ IL_00aa_2:
 					Player__ctor_mCE6B2F5A33FAAD1935A98E197C5A45CFE6E1F737((&L_37), L_32, L_34, L_36, NULL);
 					NullCheck(L_30);
 					InterfaceActionInvoker1< Player_tE06134286175E81359172373BCA583D217A9CF0D >::Invoke(0, INetworkData_t7CE864615C72AB09B342480F4A53008182375792_il2cpp_TypeInfo_var, L_30, L_37);
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:108>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:108>
 					AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_38 = V_1;
 					NullCheck(L_38);
 					AutomaticColocationLauncher_AlignPlayerToAnchor_m78EBE2B17F554DC0AAEA872F9B32E5E475A6C4FA(L_38, NULL);
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:109>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:109>
 					AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_39 = V_1;
 					NullCheck(L_39);
 					Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_40 = L_39->___ColocationReady;
@@ -17939,20 +17939,20 @@ IL_0118_2:
 				{
 					NullCheck(G_B12_0);
 					Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B12_0, NULL);
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:110>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:110>
 					goto IL_013b_2;
 				}
 
 IL_011f_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:112>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:112>
 					Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19* L_42 = (Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19*)(&__this->___U3CanchorU3E5__4);
 					il2cpp_codegen_initobj(L_42, sizeof(Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19));
 				}
 
 IL_012b_2:
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:99>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:99>
 					Enumerator_t4784A6D270E571B7FD81B0C2A5E841E4C19A7F9B* L_43 = (Enumerator_t4784A6D270E571B7FD81B0C2A5E841E4C19A7F9B*)(&__this->___U3CU3E7__wrap2);
 					bool L_44;
 					L_44 = Enumerator_MoveNext_mAD265998064E9283415B8BA908926657BF733F49(L_43, Enumerator_MoveNext_mAD265998064E9283415B8BA908926657BF733F49_RuntimeMethod_var);
@@ -17977,7 +17977,7 @@ IL_0153_1:
 		{
 			Enumerator_t4784A6D270E571B7FD81B0C2A5E841E4C19A7F9B* L_45 = (Enumerator_t4784A6D270E571B7FD81B0C2A5E841E4C19A7F9B*)(&__this->___U3CU3E7__wrap2);
 			il2cpp_codegen_initobj(L_45, sizeof(Enumerator_t4784A6D270E571B7FD81B0C2A5E841E4C19A7F9B));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:114>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:114>
 			bool L_46 = __this->___U3CsuccessfullyAlignedToAnchorU3E5__2;
 			if (L_46)
 			{
@@ -17985,7 +17985,7 @@ IL_0153_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:116>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:116>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_47 = V_1;
 			NullCheck(L_47);
 			AutomaticColocationLauncher_CreateNewColocatedSpace_mA18783DFF70B3F6CBF1827F331B9A92D8675679B(L_47, NULL);
@@ -18020,7 +18020,7 @@ CATCH_016f:
 
 IL_0188:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:118>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_51 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_51, NULL);
@@ -18038,7 +18038,7 @@ IL2CPP_EXTERN_C  void U3CColocateAutomaticallyInternalU3Ed__20_MoveNext_m696A7EF
 	_thisAdjusted = reinterpret_cast<U3CColocateAutomaticallyInternalU3Ed__20_t8129ABDC577BB1FE0BE3D307CCA68E68E0E1D036*>(__this + _offset);
 	U3CColocateAutomaticallyInternalU3Ed__20_MoveNext_m696A7EFFFB3221F26BD385E940D9E67231990EEF(_thisAdjusted, method);
 }
-// Method Definition Index: 115627
+// Method Definition Index: 115703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CColocateAutomaticallyInternalU3Ed__20_SetStateMachine_m906CBCEB41D993B3F94E7DB711557B1F7F46EFF2 (U3CColocateAutomaticallyInternalU3Ed__20_t8129ABDC577BB1FE0BE3D307CCA68E68E0E1D036* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -18063,7 +18063,7 @@ IL2CPP_EXTERN_C  void U3CColocateAutomaticallyInternalU3Ed__20_SetStateMachine_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115628
+// Method Definition Index: 115704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CColocateByPlayerWithOculusIdInternalU3Ed__21_MoveNext_m025759960ADE9F7E519FD8E48E2CF23A3DEAC7F7 (U3CColocateByPlayerWithOculusIdInternalU3Ed__21_t810B773697ED5EF405AE46B84D41BE7B13C737CB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18107,14 +18107,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CColocateByPlayerWithOculusIdInternalU
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:122>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:122>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_3 = V_1;
 			uint64_t L_4 = __this->___oculusId;
 			NullCheck(L_3);
 			Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8 L_5;
 			L_5 = AutomaticColocationLauncher_FindAlignmentAnchorUsedByOculusId_m2B6A2FA102C53C6DB81B2714A6A91F86336E8346(L_3, L_4, NULL);
 			__this->___U3CanchorToAlignToU3E5__2 = L_5;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:123>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:123>
 			Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8* L_6 = (Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8*)(&__this->___U3CanchorToAlignToU3E5__2);
 			bool L_7;
 			L_7 = Nullable_1_get_HasValue_m35F03CB64D343E29C357E9DA86431C7061EEDF11_inline(L_6, Nullable_1_get_HasValue_m35F03CB64D343E29C357E9DA86431C7061EEDF11_RuntimeMethod_var);
@@ -18124,22 +18124,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CColocateByPlayerWithOculusIdInternalU
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:125>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:126>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:127>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:125>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:126>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:127>
 			uint64_t L_8 = __this->___oculusId;
 			uint64_t L_9 = L_8;
 			RuntimeObject* L_10 = Box(il2cpp_defaults.uint64_class, &L_9);
 			String_t* L_11;
 			L_11 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral1F04797A183A8AD840952D55B70F3FA9A756944D, _stringLiteral089B67014AEDEE3DDD70FD4D3A8C7BBCE0C19347, L_10, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_11, 3, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:128>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:128>
 			goto IL_0155;
 		}
 
 IL_0058_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:131>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:131>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_12 = V_1;
 			Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8* L_13 = (Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8*)(&__this->___U3CanchorToAlignToU3E5__2);
 			Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_14;
@@ -18185,16 +18185,16 @@ IL_00b7_1:
 		{
 			bool L_24;
 			L_24 = TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B((&V_2), TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:132>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:132>
 			if (!L_24)
 			{
 				goto IL_0118_1;
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:134>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:135>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:136>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:134>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:135>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:136>
 			Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8* L_25 = (Nullable_1_t42608641E18D400EB4EDF5CCB477EDDB06EEFCD8*)(&__this->___U3CanchorToAlignToU3E5__2);
 			Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_26;
 			L_26 = Nullable_1_get_Value_mB0A39F397756DBEC0C63FB3A8BF0F3D5D7860C48(L_25, Nullable_1_get_Value_mB0A39F397756DBEC0C63FB3A8BF0F3D5D7860C48_RuntimeMethod_var);
@@ -18204,7 +18204,7 @@ IL_00b7_1:
 			String_t* L_30;
 			L_30 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral4E2148B91A2B1B3F4D2C8889C4CEFA8D9AFB0BC6, _stringLiteral089B67014AEDEE3DDD70FD4D3A8C7BBCE0C19347, L_29, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_30, 0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:137>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:137>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_31 = V_1;
 			NullCheck(L_31);
 			RuntimeObject* L_32 = L_31->____networkData;
@@ -18228,21 +18228,21 @@ IL_00b7_1:
 
 IL_0118_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:141>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:142>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:143>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:141>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:142>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:143>
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteral5B8147599700861A261BD2C92439F761CBE6AECE, 0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:144>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:144>
 			goto IL_0155;
 		}
 
 IL_0125_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:147>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:147>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_41 = V_1;
 			NullCheck(L_41);
 			AutomaticColocationLauncher_AlignPlayerToAnchor_m78EBE2B17F554DC0AAEA872F9B32E5E475A6C4FA(L_41, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:148>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:148>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_42 = V_1;
 			NullCheck(L_42);
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_43 = L_42->___ColocationReady;
@@ -18293,7 +18293,7 @@ CATCH_013e:
 
 IL_0155:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:149>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_48 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_48, NULL);
@@ -18311,7 +18311,7 @@ IL2CPP_EXTERN_C  void U3CColocateByPlayerWithOculusIdInternalU3Ed__21_MoveNext_m
 	_thisAdjusted = reinterpret_cast<U3CColocateByPlayerWithOculusIdInternalU3Ed__21_t810B773697ED5EF405AE46B84D41BE7B13C737CB*>(__this + _offset);
 	U3CColocateByPlayerWithOculusIdInternalU3Ed__21_MoveNext_m025759960ADE9F7E519FD8E48E2CF23A3DEAC7F7(_thisAdjusted, method);
 }
-// Method Definition Index: 115629
+// Method Definition Index: 115705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CColocateByPlayerWithOculusIdInternalU3Ed__21_SetStateMachine_m9174E97DE3222F9EBCA012B3E5211911B98FE99B (U3CColocateByPlayerWithOculusIdInternalU3Ed__21_t810B773697ED5EF405AE46B84D41BE7B13C737CB* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -18336,7 +18336,7 @@ IL2CPP_EXTERN_C  void U3CColocateByPlayerWithOculusIdInternalU3Ed__21_SetStateMa
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115630
+// Method Definition Index: 115706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateNewColocatedSpaceU3Ed__24_MoveNext_mF6CE426BE47907B177D64C57CD6B173F4E879026 (U3CCreateNewColocatedSpaceU3Ed__24_t583F3C692A22F37581F0977BD5D2A5B962FCCBF8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18379,7 +18379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateNewColocatedSpaceU3Ed__24_MoveN
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:190>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:190>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_3 = V_1;
 			NullCheck(L_3);
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_4 = L_3->____sharedAnchorManager;
@@ -18430,7 +18430,7 @@ IL_006d_1:
 			NullCheck(L_15);
 			L_15->____myAlignmentAnchor = L_16;
 			Il2CppCodeGenWriteBarrier((void**)(&L_15->____myAlignmentAnchor), (void*)L_16);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:191>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:191>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_17 = V_1;
 			NullCheck(L_17);
 			OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_18 = L_17->____myAlignmentAnchor;
@@ -18443,9 +18443,9 @@ IL_006d_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:193>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:193>
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteralF1E60AD79C4C93627FBCA6AB86BC51558049818D, 3, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:194>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:194>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_20 = V_1;
 			NullCheck(L_20);
 			Action_1_t5679F6495F60938D362DF8F8F23B4A4DB11F9387* L_21 = L_20->___ColocationFailed;
@@ -18469,13 +18469,13 @@ IL_00a1_1:
 
 IL_00a7_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:195>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:195>
 			goto IL_0136;
 		}
 
 IL_00ac_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:198>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:198>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_23 = V_1;
 			NullCheck(L_23);
 			RuntimeObject* L_24 = L_23->____networkData;
@@ -18483,14 +18483,14 @@ IL_00ac_1:
 			uint32_t L_25;
 			L_25 = InterfaceFuncInvoker0< uint32_t >::Invoke(9, INetworkData_t7CE864615C72AB09B342480F4A53008182375792_il2cpp_TypeInfo_var, L_24);
 			V_2 = L_25;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:199>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:199>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_26 = V_1;
 			NullCheck(L_26);
 			RuntimeObject* L_27 = L_26->____networkData;
 			NullCheck(L_27);
 			InterfaceActionInvoker0::Invoke(10, INetworkData_t7CE864615C72AB09B342480F4A53008182375792_il2cpp_TypeInfo_var, L_27);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:200>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:201>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:200>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:201>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_28 = V_1;
 			NullCheck(L_28);
 			RuntimeObject* L_29 = L_28->____networkData;
@@ -18509,7 +18509,7 @@ IL_00ac_1:
 			Anchor__ctor_mBFF76C9218EEBC7C987107F7CFF462C98F1BD910((&L_36), (bool)1, (bool)1, L_31, L_32, L_35, NULL);
 			NullCheck(L_29);
 			InterfaceActionInvoker1< Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 >::Invoke(5, INetworkData_t7CE864615C72AB09B342480F4A53008182375792_il2cpp_TypeInfo_var, L_29, L_36);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:202>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:202>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_37 = V_1;
 			NullCheck(L_37);
 			RuntimeObject* L_38 = L_37->____networkData;
@@ -18525,11 +18525,11 @@ IL_00ac_1:
 			Player__ctor_mCE6B2F5A33FAAD1935A98E197C5A45CFE6E1F737((&L_44), L_40, L_42, L_43, NULL);
 			NullCheck(L_38);
 			InterfaceActionInvoker1< Player_tE06134286175E81359172373BCA583D217A9CF0D >::Invoke(0, INetworkData_t7CE864615C72AB09B342480F4A53008182375792_il2cpp_TypeInfo_var, L_38, L_44);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:203>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:203>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_45 = V_1;
 			NullCheck(L_45);
 			AutomaticColocationLauncher_AlignPlayerToAnchor_m78EBE2B17F554DC0AAEA872F9B32E5E475A6C4FA(L_45, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:204>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:204>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_46 = V_1;
 			NullCheck(L_46);
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_47 = L_46->___ColocationReady;
@@ -18580,7 +18580,7 @@ CATCH_011d:
 
 IL_0136:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:205>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_52 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_52, NULL);
@@ -18598,7 +18598,7 @@ IL2CPP_EXTERN_C  void U3CCreateNewColocatedSpaceU3Ed__24_MoveNext_mF6CE426BE4790
 	_thisAdjusted = reinterpret_cast<U3CCreateNewColocatedSpaceU3Ed__24_t583F3C692A22F37581F0977BD5D2A5B962FCCBF8*>(__this + _offset);
 	U3CCreateNewColocatedSpaceU3Ed__24_MoveNext_mF6CE426BE47907B177D64C57CD6B173F4E879026(_thisAdjusted, method);
 }
-// Method Definition Index: 115631
+// Method Definition Index: 115707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateNewColocatedSpaceU3Ed__24_SetStateMachine_mE2624228AC35505C4E7B198CC04398059B8C2F2C (U3CCreateNewColocatedSpaceU3Ed__24_t583F3C692A22F37581F0977BD5D2A5B962FCCBF8* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -18623,7 +18623,7 @@ IL2CPP_EXTERN_C  void U3CCreateNewColocatedSpaceU3Ed__24_SetStateMachine_mE26242
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115632
+// Method Definition Index: 115708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLocalizeAnchorU3Ed__31_MoveNext_mC4323FCC1F22D3625C8A3A421D84E64A214DEAF8 (U3CLocalizeAnchorU3Ed__31_t13373CFF4961133E3329ECE0461A7D044A71DC89* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18671,7 +18671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLocalizeAnchorU3Ed__31_MoveNext_mC432
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:304>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:304>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_3 = V_1;
 			NullCheck(L_3);
 			uint64_t L_4 = L_3->____myOculusId;
@@ -18680,9 +18680,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLocalizeAnchorU3Ed__31_MoveNext_mC432
 			String_t* L_7;
 			L_7 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralC2F5FFB7F496396EBA672192E2F13F44C8722D62, _stringLiteral089B67014AEDEE3DDD70FD4D3A8C7BBCE0C19347, L_6, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_7, 0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:305>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:305>
 			V_2 = (RuntimeObject*)NULL;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:306>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:306>
 			List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15* L_8 = (List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15*)il2cpp_codegen_object_new(List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15_il2cpp_TypeInfo_var);
 			List_1__ctor_m6459CF09B306447EAD4BE3AA9AFA0A834A231274(L_8, List_1__ctor_m6459CF09B306447EAD4BE3AA9AFA0A834A231274_RuntimeMethod_var);
 			List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15* L_9 = L_8;
@@ -18690,7 +18690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLocalizeAnchorU3Ed__31_MoveNext_mC432
 			NullCheck(L_9);
 			List_1_Add_m49CBD7A242C0282C62F56119C22847A2D74F47B5_inline(L_9, L_10, List_1_Add_m49CBD7A242C0282C62F56119C22847A2D74F47B5_RuntimeMethod_var);
 			V_3 = L_9;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:307>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:307>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_11 = V_1;
 			NullCheck(L_11);
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_12 = L_11->____sharedAnchorManager;
@@ -18737,7 +18737,7 @@ IL_00a2_1:
 			RuntimeObject* L_23;
 			L_23 = TaskAwaiter_1_GetResult_m1342A36A9F31D6A62F8861AB30AD47EA1BAA1C24((&V_4), TaskAwaiter_1_GetResult_m1342A36A9F31D6A62F8861AB30AD47EA1BAA1C24_RuntimeMethod_var);
 			V_2 = L_23;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:308>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:308>
 			RuntimeObject* L_24 = V_2;
 			if (!L_24)
 			{
@@ -18757,9 +18757,9 @@ IL_00a2_1:
 
 IL_00b5_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:310>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:310>
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteral5CEE43AA19A5411296CEE228EAC234CD08AC2EE8, 3, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:311>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:311>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_27 = V_1;
 			NullCheck(L_27);
 			Action_1_t5679F6495F60938D362DF8F8F23B4A4DB11F9387* L_28 = L_27->___ColocationFailed;
@@ -18783,7 +18783,7 @@ IL_00cc_1:
 
 IL_00d2_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:312>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:312>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_30 = V_1;
 			NullCheck(L_30);
 			TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_31 = L_30->____alignToAnchorTask;
@@ -18795,10 +18795,10 @@ IL_00d2_1:
 
 IL_00e1_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:316>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:317>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:316>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:317>
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteral7A8FBEA162BCA5C499EDBC8AF3FF34234FE30506, 0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:319>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:319>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_33 = V_1;
 			RuntimeObject* L_34 = V_2;
 			NullCheck(L_34);
@@ -18807,7 +18807,7 @@ IL_00e1_1:
 			NullCheck(L_33);
 			L_33->____myAlignmentAnchor = L_35;
 			Il2CppCodeGenWriteBarrier((void**)(&L_33->____myAlignmentAnchor), (void*)L_35);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:320>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:320>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_36 = V_1;
 			NullCheck(L_36);
 			TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_37 = L_36->____alignToAnchorTask;
@@ -18845,7 +18845,7 @@ CATCH_0108:
 
 IL_0121:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:322>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:322>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_42 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_42, NULL);
@@ -18863,7 +18863,7 @@ IL2CPP_EXTERN_C  void U3CLocalizeAnchorU3Ed__31_MoveNext_mC4323FCC1F22D3625C8A3A
 	_thisAdjusted = reinterpret_cast<U3CLocalizeAnchorU3Ed__31_t13373CFF4961133E3329ECE0461A7D044A71DC89*>(__this + _offset);
 	U3CLocalizeAnchorU3Ed__31_MoveNext_mC4323FCC1F22D3625C8A3A421D84E64A214DEAF8(_thisAdjusted, method);
 }
-// Method Definition Index: 115633
+// Method Definition Index: 115709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLocalizeAnchorU3Ed__31_SetStateMachine_mDC8572FFF9133ADC7D9D1E487B245B9D067AB6CA (U3CLocalizeAnchorU3Ed__31_t13373CFF4961133E3329ECE0461A7D044A71DC89* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -18888,7 +18888,7 @@ IL2CPP_EXTERN_C  void U3CLocalizeAnchorU3Ed__31_SetStateMachine_mDC8572FFF9133AD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115634
+// Method Definition Index: 115710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnAnchorShareRequestReceivedU3Ed__29_MoveNext_m45A2269371D39B3E2F85B831F9FF1826174ECB67 (U3COnAnchorShareRequestReceivedU3Ed__29_tFC6288E7EDC22072131A0F95AE9FCE075252F27F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18929,9 +18929,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnAnchorShareRequestReceivedU3Ed__29_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:270>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:271>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:272>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:270>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:271>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:272>
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
 			NullCheck(L_4);
@@ -18962,8 +18962,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnAnchorShareRequestReceivedU3Ed__29_
 			String_t* L_16;
 			L_16 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral87F176EA69F6727F4E9FC10090EFFEA6CE1D2D04, L_11, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_16, 1, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:274>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:275>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:274>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:275>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_17 = V_1;
 			NullCheck(L_17);
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_18 = L_17->____sharedAnchorManager;
@@ -19011,20 +19011,20 @@ IL_00ba_1:
 			bool L_30;
 			L_30 = TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B((&V_3), TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B_RuntimeMethod_var);
 			V_2 = L_30;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:276>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:277>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:276>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:277>
 			bool L_31 = V_2;
 			bool L_32 = L_31;
 			RuntimeObject* L_33 = Box(il2cpp_defaults.boolean_class, &L_32);
 			String_t* L_34;
 			L_34 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralBB7CD2499C9BFFBD6FFD2D42BB2CE3B0747B3FEA, _stringLiteral089B67014AEDEE3DDD70FD4D3A8C7BBCE0C19347, L_33, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_34, 1, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:279>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:279>
 			ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B7F179* L_35 = (ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B7F179*)(&__this->___shareAndLocalizeParams);
 			bool L_36 = V_2;
 			L_35->___anchorFlowSucceeded = L_36;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:280>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:281>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:280>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:281>
 			AutomaticColocationLauncher_t7A1163CF620194516F82BF72770DEDC356EF4461* L_37 = V_1;
 			NullCheck(L_37);
 			RuntimeObject* L_38 = L_37->____networkMessenger;
@@ -19060,7 +19060,7 @@ CATCH_0107:
 
 IL_0120:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:282>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs:282>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_45 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_45, NULL);
@@ -19078,7 +19078,7 @@ IL2CPP_EXTERN_C  void U3COnAnchorShareRequestReceivedU3Ed__29_MoveNext_m45A22693
 	_thisAdjusted = reinterpret_cast<U3COnAnchorShareRequestReceivedU3Ed__29_tFC6288E7EDC22072131A0F95AE9FCE075252F27F*>(__this + _offset);
 	U3COnAnchorShareRequestReceivedU3Ed__29_MoveNext_m45A2269371D39B3E2F85B831F9FF1826174ECB67(_thisAdjusted, method);
 }
-// Method Definition Index: 115635
+// Method Definition Index: 115711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnAnchorShareRequestReceivedU3Ed__29_SetStateMachine_m94E3450A4BE8AD3B5DA103DBA2376189B338C600 (U3COnAnchorShareRequestReceivedU3Ed__29_tFC6288E7EDC22072131A0F95AE9FCE075252F27F* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -19163,26 +19163,26 @@ IL2CPP_EXTERN_C void Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19_marshal_co
 IL2CPP_EXTERN_C void Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19_marshal_com_cleanup(Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 115636
+// Method Definition Index: 115712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Anchor__ctor_mBFF76C9218EEBC7C987107F7CFF462C98F1BD910 (Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19* __this, bool ___0_isAutomaticAnchor, bool ___1_isAlignmentAnchor, uint64_t ___2_ownerOculusId, uint32_t ___3_colocationGroupId, Guid_t ___4_automaticAnchorUuid, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:45>
 		bool L_0 = ___0_isAutomaticAnchor;
 		__this->___isAutomaticAnchor = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:46>
 		bool L_1 = ___1_isAlignmentAnchor;
 		__this->___isAlignmentAnchor = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:47>
 		uint64_t L_2 = ___2_ownerOculusId;
 		__this->___ownerOculusId = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:48>
 		uint32_t L_3 = ___3_colocationGroupId;
 		__this->___colocationGroupId = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:50>
 		Guid_t L_4 = ___4_automaticAnchorUuid;
 		__this->___automaticAnchorUuid = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:51>
 		return;
 	}
 }
@@ -19193,15 +19193,15 @@ IL2CPP_EXTERN_C  void Anchor__ctor_mBFF76C9218EEBC7C987107F7CFF462C98F1BD910_Adj
 	_thisAdjusted = reinterpret_cast<Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19*>(__this + _offset);
 	Anchor__ctor_mBFF76C9218EEBC7C987107F7CFF462C98F1BD910(_thisAdjusted, ___0_isAutomaticAnchor, ___1_isAlignmentAnchor, ___2_ownerOculusId, ___3_colocationGroupId, ___4_automaticAnchorUuid, method);
 }
-// Method Definition Index: 115637
+// Method Definition Index: 115713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Anchor_Equals_m7954ED0D1D943353A746DE423B876F7C9FECB173 (Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19* __this, Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 ___0_other, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:55>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:56>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:57>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:58>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Anchor.cs:59>
 		bool L_0 = __this->___isAutomaticAnchor;
 		Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_1 = ___0_other;
 		bool L_2 = L_1.___isAutomaticAnchor;
@@ -19268,7 +19268,7 @@ IL2CPP_EXTERN_C  bool Anchor_Equals_m7954ED0D1D943353A746DE423B876F7C9FECB173_Ad
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115656
+// Method Definition Index: 115732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NetworkAdapter_get_NetworkData_mFACD32167139B4EFF2B2F6494F4EAD8BCEE2C843 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19278,12 +19278,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NetworkAdapter_get_NetworkData
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:28>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:28>
 		RuntimeObject* L_0 = ((NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_il2cpp_TypeInfo_var))->___U3CNetworkDataU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 115657
+// Method Definition Index: 115733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAdapter_set_NetworkData_m883CA15768561C8B0886467E172A178E8EA21730 (RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19293,14 +19293,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAdapter_set_NetworkData_m883CA157
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:28>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:28>
 		RuntimeObject* L_0 = ___0_value;
 		((NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_il2cpp_TypeInfo_var))->___U3CNetworkDataU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_il2cpp_TypeInfo_var))->___U3CNetworkDataU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 115658
+// Method Definition Index: 115734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NetworkAdapter_get_NetworkMessenger_m2AFD625C900B9F5D0F414091F22B0462AD6A43C8 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19310,12 +19310,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NetworkAdapter_get_NetworkMess
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:30>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:30>
 		RuntimeObject* L_0 = ((NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_il2cpp_TypeInfo_var))->___U3CNetworkMessengerU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 115659
+// Method Definition Index: 115735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAdapter_set_NetworkMessenger_mE8C4479A4025E0D91915F12E60DB0BE1B5979721 (RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19325,24 +19325,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAdapter_set_NetworkMessenger_mE8C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:30>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:30>
 		RuntimeObject* L_0 = ___0_value;
 		((NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_il2cpp_TypeInfo_var))->___U3CNetworkMessengerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_il2cpp_TypeInfo_var))->___U3CNetworkMessengerU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 115660
+// Method Definition Index: 115736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAdapter_SetConfig_m609B1A3B5C2A7CC9A65769F58B9C298D3B717BDE (RuntimeObject* ___0_networkData, RuntimeObject* ___1_networkMessenger, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:34>
 		RuntimeObject* L_0 = ___0_networkData;
 		NetworkAdapter_set_NetworkData_m883CA15768561C8B0886467E172A178E8EA21730_inline(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:35>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:35>
 		RuntimeObject* L_1 = ___1_networkMessenger;
 		NetworkAdapter_set_NetworkMessenger_mE8C4479A4025E0D91915F12E60DB0BE1B5979721_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:36>
 		return;
 	}
 }
@@ -19354,7 +19354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAdapter_SetConfig_m609B1A3B5C2A7C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115661
+// Method Definition Index: 115737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tF8BFF19FF240C9F0A45168187CD7106BAA146A99 NetworkDataUtils_GetOculusIdOfColocatedGroupOwnerFromColocationGroupId_m19F8E5D3B7B10AD927BCF424C6BFCABF345E8727 (uint32_t ___0_colocationGroupId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19377,14 +19377,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tF8BFF19FF240C9F0A45168187CD7106BA
 	Nullable_1_tF8BFF19FF240C9F0A45168187CD7106BAA146A99 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:29>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:29>
 		RuntimeObject* L_0;
 		L_0 = NetworkAdapter_get_NetworkData_mFACD32167139B4EFF2B2F6494F4EAD8BCEE2C843_inline(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:30>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:30>
 		NullCheck(L_0);
 		List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1* L_1;
 		L_1 = InterfaceFuncInvoker0< List_1_t7EC1F5F98C39CFE2A33397C7BC3AB28D8EE00FE1* >::Invoke(8, INetworkData_t7CE864615C72AB09B342480F4A53008182375792_il2cpp_TypeInfo_var, L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:31>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:31>
 		NullCheck(L_1);
 		Enumerator_t4784A6D270E571B7FD81B0C2A5E841E4C19A7F9B L_2;
 		L_2 = List_1_GetEnumerator_m577696725D3DC73745C6F67C0876A02C9B673B7D(L_1, List_1_GetEnumerator_m577696725D3DC73745C6F67C0876A02C9B673B7D_RuntimeMethod_var);
@@ -19408,11 +19408,11 @@ FINALLY_003c:
 
 IL_0012_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:31>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:31>
 				Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_3;
 				L_3 = Enumerator_get_Current_m52333D538F04AB960FDB42D80D4ED754F933B830_inline((&V_0), Enumerator_get_Current_m52333D538F04AB960FDB42D80D4ED754F933B830_RuntimeMethod_var);
 				V_1 = L_3;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:33>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:33>
 				uint32_t L_4 = ___0_colocationGroupId;
 				Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_5 = V_1;
 				uint32_t L_6 = L_5.___colocationGroupId;
@@ -19422,7 +19422,7 @@ IL_0012_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:35>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:35>
 				Anchor_tB46AC4F97676183C551B4AD661726245BB2F3A19 L_7 = V_1;
 				uint64_t L_8 = L_7.___ownerOculusId;
 				Nullable_1_tF8BFF19FF240C9F0A45168187CD7106BAA146A99 L_9;
@@ -19434,7 +19434,7 @@ IL_0012_1:
 
 IL_0031_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:31>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:31>
 				bool L_10;
 				L_10 = Enumerator_MoveNext_mAD265998064E9283415B8BA908926657BF733F49((&V_0), Enumerator_MoveNext_mAD265998064E9283415B8BA908926657BF733F49_RuntimeMethod_var);
 				if (L_10)
@@ -19454,7 +19454,7 @@ IL_0031_1:
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:39>
 		il2cpp_codegen_initobj((&V_3), sizeof(Nullable_1_tF8BFF19FF240C9F0A45168187CD7106BAA146A99));
 		Nullable_1_tF8BFF19FF240C9F0A45168187CD7106BAA146A99 L_11 = V_3;
 		return L_11;
@@ -19462,12 +19462,12 @@ IL_004a:
 
 IL_0054:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:40>
 		Nullable_1_tF8BFF19FF240C9F0A45168187CD7106BAA146A99 L_12 = V_2;
 		return L_12;
 	}
 }
-// Method Definition Index: 115662
+// Method Definition Index: 115738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* NetworkDataUtils_GetAllPlayersFromColocationGroupId_m242F8B824F6B705A6BF9B5BC7D4E6ABFD3A13EE2 (uint32_t ___0_colocationGroupId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19489,18 +19489,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t7F7CC24A1149980F407B2616E29759C5A98FD
 	Player_tE06134286175E81359172373BCA583D217A9CF0D V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:44>
 		RuntimeObject* L_0;
 		L_0 = NetworkAdapter_get_NetworkData_mFACD32167139B4EFF2B2F6494F4EAD8BCEE2C843_inline(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:45>
 		NullCheck(L_0);
 		List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* L_1;
 		L_1 = InterfaceFuncInvoker0< List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* >::Invoke(4, INetworkData_t7CE864615C72AB09B342480F4A53008182375792_il2cpp_TypeInfo_var, L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:46>
 		List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* L_2 = (List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0*)il2cpp_codegen_object_new(List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0_il2cpp_TypeInfo_var);
 		List_1__ctor_m225FD049283564AA7A48944DE20152495B6ED775(L_2, List_1__ctor_m225FD049283564AA7A48944DE20152495B6ED775_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:47>
 		NullCheck(L_1);
 		Enumerator_t3D0A4C53A64270A9F1044636EF13B56009469AC5 L_3;
 		L_3 = List_1_GetEnumerator_mCF02BCB54187FA648D0EC4DBB5A89896300BBED8(L_1, List_1_GetEnumerator_mCF02BCB54187FA648D0EC4DBB5A89896300BBED8_RuntimeMethod_var);
@@ -19524,11 +19524,11 @@ FINALLY_003b:
 
 IL_0018_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:47>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:47>
 				Player_tE06134286175E81359172373BCA583D217A9CF0D L_4;
 				L_4 = Enumerator_get_Current_mF344BAA73DEB94B0BACB0EEE28B5199CDEB079C4_inline((&V_1), Enumerator_get_Current_mF344BAA73DEB94B0BACB0EEE28B5199CDEB079C4_RuntimeMethod_var);
 				V_2 = L_4;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:49>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:49>
 				uint32_t L_5 = ___0_colocationGroupId;
 				Player_tE06134286175E81359172373BCA583D217A9CF0D L_6 = V_2;
 				uint32_t L_7 = L_6.___colocationGroupId;
@@ -19538,7 +19538,7 @@ IL_0018_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:51>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:51>
 				List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* L_8 = V_0;
 				Player_tE06134286175E81359172373BCA583D217A9CF0D L_9 = V_2;
 				NullCheck(L_8);
@@ -19547,7 +19547,7 @@ IL_0018_1:
 
 IL_0030_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:47>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:47>
 				bool L_10;
 				L_10 = Enumerator_MoveNext_mF449D9A9CFF250BC13914537BC7B2D97DD788D8F((&V_1), Enumerator_MoveNext_mF449D9A9CFF250BC13914537BC7B2D97DD788D8F_RuntimeMethod_var);
 				if (L_10)
@@ -19567,12 +19567,12 @@ IL_0030_1:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:55>
 		List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* L_11 = V_0;
 		return L_11;
 	}
 }
-// Method Definition Index: 115663
+// Method Definition Index: 115739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* NetworkDataUtils_GetAllPlayersColocatedWith_m3CC78424B59D4222FC3D02578F6CFE16CAE510CD (uint64_t ___0_oculusId, bool ___1_includeMyself, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19601,16 +19601,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t7F7CC24A1149980F407B2616E29759C5A98FD
 	Player_tE06134286175E81359172373BCA583D217A9CF0D V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:60>
 		RuntimeObject* L_0;
 		L_0 = NetworkAdapter_get_NetworkData_mFACD32167139B4EFF2B2F6494F4EAD8BCEE2C843_inline(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:61>
 		RuntimeObject* L_1 = L_0;
 		NullCheck(L_1);
 		List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* L_2;
 		L_2 = InterfaceFuncInvoker0< List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* >::Invoke(4, INetworkData_t7CE864615C72AB09B342480F4A53008182375792_il2cpp_TypeInfo_var, L_1);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:62>
 		uint64_t L_3 = ___0_oculusId;
 		NullCheck(L_1);
 		Nullable_1_t8B44A1417F21CA753D18837ED2AA8BAB0BFAFB5B L_4;
@@ -19618,14 +19618,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t7F7CC24A1149980F407B2616E29759C5A98FD
 		V_3 = L_4;
 		Player_tE06134286175E81359172373BCA583D217A9CF0D L_5;
 		L_5 = Nullable_1_get_Value_m73699103E8A23152681AE89B212B75D7B5A4E23D((&V_3), Nullable_1_get_Value_m73699103E8A23152681AE89B212B75D7B5A4E23D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:63>
 		uint32_t L_6 = L_5.___colocationGroupId;
 		V_1 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:64>
 		List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* L_7 = (List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0*)il2cpp_codegen_object_new(List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0_il2cpp_TypeInfo_var);
 		List_1__ctor_m225FD049283564AA7A48944DE20152495B6ED775(L_7, List_1__ctor_m225FD049283564AA7A48944DE20152495B6ED775_RuntimeMethod_var);
 		V_2 = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:66>
 		List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* L_8 = V_0;
 		NullCheck(L_8);
 		Enumerator_t3D0A4C53A64270A9F1044636EF13B56009469AC5 L_9;
@@ -19650,11 +19650,11 @@ FINALLY_0071:
 
 IL_0030_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:66>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:66>
 				Player_tE06134286175E81359172373BCA583D217A9CF0D L_10;
 				L_10 = Enumerator_get_Current_mF344BAA73DEB94B0BACB0EEE28B5199CDEB079C4_inline((&V_4), Enumerator_get_Current_mF344BAA73DEB94B0BACB0EEE28B5199CDEB079C4_RuntimeMethod_var);
 				V_5 = L_10;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:68>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:68>
 				Player_tE06134286175E81359172373BCA583D217A9CF0D L_11 = V_5;
 				uint32_t L_12 = L_11.___colocationGroupId;
 				uint32_t L_13 = V_1;
@@ -19664,12 +19664,12 @@ IL_0030_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:70>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:70>
 				List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* L_14 = V_2;
 				Player_tE06134286175E81359172373BCA583D217A9CF0D L_15 = V_5;
 				NullCheck(L_14);
 				List_1_Add_mC04E25A2A4C0E122A2AE1F75B370EC74F9B9B2E1_inline(L_14, L_15, List_1_Add_mC04E25A2A4C0E122A2AE1F75B370EC74F9B9B2E1_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:71>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:71>
 				bool L_16 = ___1_includeMyself;
 				if (L_16)
 				{
@@ -19686,7 +19686,7 @@ IL_0030_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:73>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:73>
 				List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* L_20 = V_2;
 				List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* L_21 = V_2;
 				NullCheck(L_21);
@@ -19698,7 +19698,7 @@ IL_0030_1:
 
 IL_0066_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:66>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:66>
 				bool L_23;
 				L_23 = Enumerator_MoveNext_mF449D9A9CFF250BC13914537BC7B2D97DD788D8F((&V_4), Enumerator_MoveNext_mF449D9A9CFF250BC13914537BC7B2D97DD788D8F_RuntimeMethod_var);
 				if (L_23)
@@ -19718,12 +19718,12 @@ IL_0066_1:
 
 IL_007f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:78>
 		List_1_t7F7CC24A1149980F407B2616E29759C5A98FDFD0* L_24 = V_2;
 		return L_24;
 	}
 }
-// Method Definition Index: 115664
+// Method Definition Index: 115740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t8B44A1417F21CA753D18837ED2AA8BAB0BFAFB5B NetworkDataUtils_GetPlayerFromOculusId_mEEBEAFB6907BFA9AFFB7E345CF9D2413E7844AF2 (uint64_t ___0_oculusId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19733,10 +19733,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t8B44A1417F21CA753D18837ED2AA8BAB0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:83>
 		RuntimeObject* L_0;
 		L_0 = NetworkAdapter_get_NetworkData_mFACD32167139B4EFF2B2F6494F4EAD8BCEE2C843_inline(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkDataUtils.cs:84>
 		uint64_t L_1 = ___0_oculusId;
 		NullCheck(L_0);
 		Nullable_1_t8B44A1417F21CA753D18837ED2AA8BAB0BFAFB5B L_2;
@@ -19752,20 +19752,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t8B44A1417F21CA753D18837ED2AA8BAB0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115665
+// Method Definition Index: 115741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player__ctor_mCE6B2F5A33FAAD1935A98E197C5A45CFE6E1F737 (Player_tE06134286175E81359172373BCA583D217A9CF0D* __this, uint64_t ___0_playerId, uint64_t ___1_oculusId, uint32_t ___2_colocationGroupId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Player.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Player.cs:37>
 		uint64_t L_0 = ___0_playerId;
 		__this->___playerId = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Player.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Player.cs:38>
 		uint64_t L_1 = ___1_oculusId;
 		__this->___oculusId = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Player.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Player.cs:39>
 		uint32_t L_2 = ___2_colocationGroupId;
 		__this->___colocationGroupId = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Player.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Player.cs:40>
 		return;
 	}
 }
@@ -19776,12 +19776,12 @@ IL2CPP_EXTERN_C  void Player__ctor_mCE6B2F5A33FAAD1935A98E197C5A45CFE6E1F737_Adj
 	_thisAdjusted = reinterpret_cast<Player_tE06134286175E81359172373BCA583D217A9CF0D*>(__this + _offset);
 	Player__ctor_mCE6B2F5A33FAAD1935A98E197C5A45CFE6E1F737(_thisAdjusted, ___0_playerId, ___1_oculusId, ___2_colocationGroupId, method);
 }
-// Method Definition Index: 115666
+// Method Definition Index: 115742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Player_Equals_m2F708D6A49465B0AFD0053373B319463A4299DDC (Player_tE06134286175E81359172373BCA583D217A9CF0D* __this, Player_tE06134286175E81359172373BCA583D217A9CF0D ___0_other, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Player.cs:44>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Player.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Player.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/Player.cs:45>
 		uint64_t L_0 = __this->___playerId;
 		Player_tE06134286175E81359172373BCA583D217A9CF0D L_1 = ___0_other;
 		uint64_t L_2 = L_1.___playerId;
@@ -19880,22 +19880,22 @@ IL2CPP_EXTERN_C void ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B
 IL2CPP_EXTERN_C void ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B7F179_marshal_com_cleanup(ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B7F179_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 115667
+// Method Definition Index: 115743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShareAndLocalizeParams__ctor_m1ABE21312CEF7E2B7DE820C8897EA31A45A8D1AE (ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B7F179* __this, uint64_t ___0_requestingPlayerId, uint64_t ___1_requestingPlayerOculusId, Guid_t ___2_anchorUUID, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:38>
 		uint64_t L_0 = ___0_requestingPlayerId;
 		__this->___requestingPlayerId = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:39>
 		uint64_t L_1 = ___1_requestingPlayerOculusId;
 		__this->___requestingPlayerOculusId = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:40>
 		Guid_t L_2 = ___2_anchorUUID;
 		__this->___anchorUUID = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:41>
 		__this->___anchorFlowSucceeded = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:42>
 		return;
 	}
 }
@@ -19906,23 +19906,23 @@ IL2CPP_EXTERN_C  void ShareAndLocalizeParams__ctor_m1ABE21312CEF7E2B7DE820C8897E
 	_thisAdjusted = reinterpret_cast<ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B7F179*>(__this + _offset);
 	ShareAndLocalizeParams__ctor_m1ABE21312CEF7E2B7DE820C8897EA31A45A8D1AE(_thisAdjusted, ___0_requestingPlayerId, ___1_requestingPlayerOculusId, ___2_anchorUUID, method);
 }
-// Method Definition Index: 115668
+// Method Definition Index: 115744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShareAndLocalizeParams__ctor_mAC57E113760A9CBA4CEE0BD04101B98A0BF9F6CD (ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B7F179* __this, uint64_t ___0_requestingPlayerId, uint64_t ___1_requestingPlayerOculusId, Guid_t ___2_anchorUUID, bool ___3_anchorFlowSucceeded, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:47>
 		uint64_t L_0 = ___0_requestingPlayerId;
 		__this->___requestingPlayerId = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:48>
 		uint64_t L_1 = ___1_requestingPlayerOculusId;
 		__this->___requestingPlayerOculusId = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:49>
 		Guid_t L_2 = ___2_anchorUUID;
 		__this->___anchorUUID = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:50>
 		bool L_3 = ___3_anchorFlowSucceeded;
 		__this->___anchorFlowSucceeded = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:51>
 		return;
 	}
 }
@@ -19933,7 +19933,7 @@ IL2CPP_EXTERN_C  void ShareAndLocalizeParams__ctor_mAC57E113760A9CBA4CEE0BD04101
 	_thisAdjusted = reinterpret_cast<ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B7F179*>(__this + _offset);
 	ShareAndLocalizeParams__ctor_mAC57E113760A9CBA4CEE0BD04101B98A0BF9F6CD(_thisAdjusted, ___0_requestingPlayerId, ___1_requestingPlayerOculusId, ___2_anchorUUID, ___3_anchorFlowSucceeded, method);
 }
-// Method Definition Index: 115669
+// Method Definition Index: 115745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ShareAndLocalizeParams_ToString_m8FB5F79EC0046FE57BC9620DA81D17D009684492 (ShareAndLocalizeParams_tD14DF4EAFE763E27568D2CE88DFE42DCA6B7F179* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19949,8 +19949,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ShareAndLocalizeParams_ToString_m8F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:55>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/ShareAndLocalizeParams.cs:56>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		NullCheck(L_1);
@@ -20018,36 +20018,36 @@ IL2CPP_EXTERN_C  String_t* ShareAndLocalizeParams_ToString_m8FB5F79EC0046FE57BC9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115670
+// Method Definition Index: 115746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* SharedAnchorManager_get_AnchorPrefab_m81B6D6E396C4AD581762945EFCB7EF4B8C8C5174 (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:53>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___U3CAnchorPrefabU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 115671
+// Method Definition Index: 115747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedAnchorManager_set_AnchorPrefab_m2C2439E15E3E5872E5ECF8F031E5C960B4A4B956 (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:53>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_value;
 		__this->___U3CAnchorPrefabU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAnchorPrefabU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 115672
+// Method Definition Index: 115748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SharedAnchorManager_get_LocalAnchors_m8B5402572D4985607DFED2E2BF2D635657883EEA (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:54>
 		List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* L_0 = __this->____localAnchors;
 		return L_0;
 	}
 }
-// Method Definition Index: 115673
+// Method Definition Index: 115749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedAnchorManager__ctor_m5BFC50681B12A667AB7161135965D918EAFC50E6 (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* ___0_ssaCore, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20060,32 +20060,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedAnchorManager__ctor_m5BFC50681B12A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:35>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:35>
 		List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* L_0 = (List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B*)il2cpp_codegen_object_new(List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B_il2cpp_TypeInfo_var);
 		List_1__ctor_m90F57853BD24F26D846D2399E6170B152F4FBE63(L_0, List_1__ctor_m90F57853BD24F26D846D2399E6170B152F4FBE63_RuntimeMethod_var);
 		__this->____localAnchors = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____localAnchors), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:37>
 		List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* L_1 = (List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B*)il2cpp_codegen_object_new(List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B_il2cpp_TypeInfo_var);
 		List_1__ctor_m90F57853BD24F26D846D2399E6170B152F4FBE63(L_1, List_1__ctor_m90F57853BD24F26D846D2399E6170B152F4FBE63_RuntimeMethod_var);
 		__this->____sharedAnchors = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____sharedAnchors), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:39>
 		HashSet_1_tD1FB3D7AEDC39398D18AB91D4EFD21D2DDC42C22* L_2 = (HashSet_1_tD1FB3D7AEDC39398D18AB91D4EFD21D2DDC42C22*)il2cpp_codegen_object_new(HashSet_1_tD1FB3D7AEDC39398D18AB91D4EFD21D2DDC42C22_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m3544335F7EE451150EAC91FC729DA09978F9705F(L_2, HashSet_1__ctor_m3544335F7EE451150EAC91FC729DA09978F9705F_RuntimeMethod_var);
 		__this->____userShareList = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____userShareList), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:57>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:59>
 		SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_3 = ___0_ssaCore;
 		__this->____ssaCore = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____ssaCore), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:60>
 		return;
 	}
 }
-// Method Definition Index: 115674
+// Method Definition Index: 115750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t711AB691286A8FAA177C90F1BFB6F2D7D5E2F09C* SharedAnchorManager_CreateAlignmentAnchor_mE5DD0D820431532E827FDCAE3D3E026F330FF10D (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20122,7 +20122,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t711AB691286A8FAA177C90F1BFB6F2D7D5E2F
 		return L_3;
 	}
 }
-// Method Definition Index: 115675
+// Method Definition Index: 115751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8BA1E4BAD84F1F0BED9C0D49F5AA4D9F7A9553BE* SharedAnchorManager_CreateAnchor_mB646BDAA524CC0C1AB38B29D2A8984D75AE679C6 (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_orientation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20163,7 +20163,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8BA1E4BAD84F1F0BED9C0D49F5AA4D9F7A955
 		return L_5;
 	}
 }
-// Method Definition Index: 115676
+// Method Definition Index: 115752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8BA1E4BAD84F1F0BED9C0D49F5AA4D9F7A9553BE* SharedAnchorManager_AnchorCreationTask_mC876E4D3E268EE11B4591045B6D531F23099A3CD (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_orientation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20204,7 +20204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8BA1E4BAD84F1F0BED9C0D49F5AA4D9F7A955
 		return L_5;
 	}
 }
-// Method Definition Index: 115677
+// Method Definition Index: 115753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedAnchorManager_CheckIfSavingAnchorsServiceHung_m5FF319F9C383D3128CB2423BD077398EAD348599 (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20237,7 +20237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedAnchorManager_CheckIfSavingAnchors
 		return;
 	}
 }
-// Method Definition Index: 115678
+// Method Definition Index: 115754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tC5AAA5859A32EDA22E3A16569A7051F9A3232B95* SharedAnchorManager_RetrieveAnchorsFromGroup_mB48FA3B921FEF7235A60EA05246A2C5609591776 (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, Guid_t ___0_groupUuid, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20276,7 +20276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tC5AAA5859A32EDA22E3A16569A7051F9A3232
 		return L_4;
 	}
 }
-// Method Definition Index: 115679
+// Method Definition Index: 115755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tC5AAA5859A32EDA22E3A16569A7051F9A3232B95* SharedAnchorManager_RetrieveAnchors_mBDA7ADFFCCFE42B8809CC3CEE04EA5E7DED0DD2C (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15* ___0_anchorIds, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20316,7 +20316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tC5AAA5859A32EDA22E3A16569A7051F9A3232
 		return L_4;
 	}
 }
-// Method Definition Index: 115680
+// Method Definition Index: 115756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedAnchorManager_CheckIfRetrievingAnchorServiceHung_m6BF9AD4D559FE7795C31AEB4EC8AF0996BABD5E1 (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20349,7 +20349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedAnchorManager_CheckIfRetrievingAnc
 		return;
 	}
 }
-// Method Definition Index: 115681
+// Method Definition Index: 115757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* SharedAnchorManager_ShareAnchorsWithGroup_m20D889FBF153E1181D2A958B844383183CB646F4 (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, Guid_t ___0_groupUuid, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20388,7 +20388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 		return L_4;
 	}
 }
-// Method Definition Index: 115682
+// Method Definition Index: 115758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* SharedAnchorManager_ShareAnchorsWithUser_mCB3BBC7A560CAEF08A23022F9557ED2889B96F2E (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, uint64_t ___0_userId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20427,7 +20427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 		return L_4;
 	}
 }
-// Method Definition Index: 115683
+// Method Definition Index: 115759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedAnchorManager_CheckIfSharingAnchorServiceHung_m5288DAE4A05117F8ABA5D819F490BEDF88EF8C43 (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20460,7 +20460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedAnchorManager_CheckIfSharingAnchor
 		return;
 	}
 }
-// Method Definition Index: 115684
+// Method Definition Index: 115760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedAnchorManager_StopSharingAnchorsWithUser_m49DB3F0015E9748EB42937E58BB17051BF329D8E (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, uint64_t ___0_userId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20481,7 +20481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedAnchorManager_StopSharingAnchorsWi
 		uint64_t L_2 = ___0_userId;
 		NullCheck(L_1);
 		L_1->___userId = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:272>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:272>
 		HashSet_1_tD1FB3D7AEDC39398D18AB91D4EFD21D2DDC42C22* L_3 = __this->____userShareList;
 		U3CU3Ec__DisplayClass29_0_t278AA8580AAE3C3596E279F17DF1AA3EFDD2DDA6* L_4 = V_0;
 		Predicate_1_tD73F248D16282DEC50B385633C357C2CE664651E* L_5 = (Predicate_1_tD73F248D16282DEC50B385633C357C2CE664651E*)il2cpp_codegen_object_new(Predicate_1_tD73F248D16282DEC50B385633C357C2CE664651E_il2cpp_TypeInfo_var);
@@ -20489,7 +20489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedAnchorManager_StopSharingAnchorsWi
 		NullCheck(L_3);
 		int32_t L_6;
 		L_6 = HashSet_1_RemoveWhere_m87ED838A59A8017F79794D7DEC41A2C213347FF7(L_3, L_5, HashSet_1_RemoveWhere_m87ED838A59A8017F79794D7DEC41A2C213347FF7_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:273>
 		return;
 	}
 }
@@ -20501,7 +20501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedAnchorManager_StopSharingAnchorsWi
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115685
+// Method Definition Index: 115761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0__ctor_m17F735FA4219989D8BB3C7DB57FBC49B61EB3EAD (U3CU3Ec__DisplayClass21_0_tD56B110D00E3A7DA2E0E9700B3985E916AE8B2C7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20509,7 +20509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0__ctor_m17F735F
 		return;
 	}
 }
-// Method Definition Index: 115686
+// Method Definition Index: 115762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0_U3CAnchorCreationTaskU3Eg__CreateCompletedCallbackU7C0_m35D4446604EE96EDAA2ED48884BC3E80DF6A48A5 (U3CU3Ec__DisplayClass21_0_tD56B110D00E3A7DA2E0E9700B3985E916AE8B2C7* __this, OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* ___0_anchor, int32_t ___1_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20520,11 +20520,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0_U3CAnchorCreat
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:119>
 		SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		L_0->____saveAnchorSaveToCloudIsSuccessful = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:120>
 		TaskCompletionSource_1_t6D668724F9A024A8A35079B166C9825C9FC31CCC* L_1 = __this->___task;
 		OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_2 = ___0_anchor;
 		int32_t L_3 = ___1_result;
@@ -20534,7 +20534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0_U3CAnchorCreat
 		NullCheck(L_1);
 		bool L_5;
 		L_5 = TaskCompletionSource_1_TrySetResult_m567331D8E0295D8CC5DA49EB4F7FFA7F4A218136(L_1, L_4, TaskCompletionSource_1_TrySetResult_m567331D8E0295D8CC5DA49EB4F7FFA7F4A218136_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:121>
 		return;
 	}
 }
@@ -20546,7 +20546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0_U3CAnchorCreat
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115687
+// Method Definition Index: 115763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0__ctor_m1C1BC4896096E56222AB6E304226DB32EDE6659E (U3CU3Ec__DisplayClass23_0_t40E769C75AAD3136E45E26C5A67ECBE5D4FEF824* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20554,7 +20554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0__ctor_m1C1BC48
 		return;
 	}
 }
-// Method Definition Index: 115688
+// Method Definition Index: 115764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0_U3CRetrieveAnchorsFromGroupU3Eg__LoadCompletedCallbackU7C0_m57A4546CB2E4CEC0896DFDA9255A271249420D12 (U3CU3Ec__DisplayClass23_0_t40E769C75AAD3136E45E26C5A67ECBE5D4FEF824* __this, List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* ___0_loadedAnchors, int32_t ___1_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20565,7 +20565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0_U3CRetrieveAnc
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:151>
 		int32_t L_0 = ___1_result;
 		if (L_0)
 		{
@@ -20573,18 +20573,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0_U3CRetrieveAnc
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:153>
 		SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_1 = __this->___U3CU3E4__this;
 		NullCheck(L_1);
 		L_1->____retrieveAnchorIsSuccessful = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:154>
 		SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_2 = __this->___U3CU3E4__this;
 		NullCheck(L_2);
 		List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* L_3 = L_2->____sharedAnchors;
 		List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* L_4 = ___0_loadedAnchors;
 		NullCheck(L_3);
 		List_1_AddRange_m15D4419DD89056229161128D626F5D8C26D10839(L_3, L_4, List_1_AddRange_m15D4419DD89056229161128D626F5D8C26D10839_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:155>
 		TaskCompletionSource_1_t3A8CCE3C3AC45061ECB42577F2BE1989F4159E17* L_5 = __this->___task;
 		List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* L_6 = ___0_loadedAnchors;
 		NullCheck(L_5);
@@ -20594,7 +20594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0_U3CRetrieveAnc
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:157>
 		return;
 	}
 }
@@ -20606,7 +20606,7 @@ IL_002d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115689
+// Method Definition Index: 115765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0__ctor_mA697248401D388C668F85BE6D9ED7283E72D369F (U3CU3Ec__DisplayClass24_0_tDB50D4D047BC40A3C33D7A732A52CD655D44E615* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20614,7 +20614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0__ctor_mA697248
 		return;
 	}
 }
-// Method Definition Index: 115690
+// Method Definition Index: 115766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3CRetrieveAnchorsU3Eg__LoadCompletedCallbackU7C0_m8FA1C555A20AF43637D35BC3D25CEB38B19C4048 (U3CU3Ec__DisplayClass24_0_tDB50D4D047BC40A3C33D7A732A52CD655D44E615* __this, List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* ___0_loadedAnchors, int32_t ___1_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20625,7 +20625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3CRetrieveAnc
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:175>
 		int32_t L_0 = ___1_result;
 		if (L_0)
 		{
@@ -20633,18 +20633,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3CRetrieveAnc
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:177>
 		SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_1 = __this->___U3CU3E4__this;
 		NullCheck(L_1);
 		L_1->____retrieveAnchorIsSuccessful = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:178>
 		SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_2 = __this->___U3CU3E4__this;
 		NullCheck(L_2);
 		List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* L_3 = L_2->____sharedAnchors;
 		List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* L_4 = ___0_loadedAnchors;
 		NullCheck(L_3);
 		List_1_AddRange_m15D4419DD89056229161128D626F5D8C26D10839(L_3, L_4, List_1_AddRange_m15D4419DD89056229161128D626F5D8C26D10839_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:179>
 		TaskCompletionSource_1_t3A8CCE3C3AC45061ECB42577F2BE1989F4159E17* L_5 = __this->___task;
 		List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* L_6 = ___0_loadedAnchors;
 		NullCheck(L_5);
@@ -20654,7 +20654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3CRetrieveAnc
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:181>
 		return;
 	}
 }
@@ -20666,7 +20666,7 @@ IL_002d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115691
+// Method Definition Index: 115767
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass26_0__ctor_mFD81969F59654F61582E0C17B667842189DA64C9 (U3CU3Ec__DisplayClass26_0_t29B54B5460BC59ECE932675F58F027BC08249C47* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20674,7 +20674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass26_0__ctor_mFD81969
 		return;
 	}
 }
-// Method Definition Index: 115692
+// Method Definition Index: 115768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass26_0_U3CShareAnchorsWithGroupU3Eg__ShareToGroupCompletedCallbackU7C0_mC6F6540F12F0BE46EFEB20B4A2B14837323EBD78 (U3CU3Ec__DisplayClass26_0_t29B54B5460BC59ECE932675F58F027BC08249C47* __this, List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* ___0__, int32_t ___1_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20687,24 +20687,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass26_0_U3CShareAnchor
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:210>
 		int32_t L_0 = ___1_result;
 		int32_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(ShareResult_t90D8BAF09E08C8C86153A674AE72DED88E706A2B_il2cpp_TypeInfo_var, &L_1);
 		String_t* L_3;
 		L_3 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralE62847C95566D51A02365C3DDAC6CF2E6B997BC1, _stringLiteral7C808887BB1996D96073132ADC8BE64E95ACE577, L_2, NULL);
 		Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_3, 0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:211>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_4 = __this->___task;
 		int32_t L_5 = ___1_result;
 		NullCheck(L_4);
 		bool L_6;
 		L_6 = TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1(L_4, (bool)((((int32_t)L_5) == ((int32_t)0))? 1 : 0), TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:212>
 		SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_7 = __this->___U3CU3E4__this;
 		NullCheck(L_7);
 		L_7->____shareAnchorIsSuccessful = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:213>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:213>
 		return;
 	}
 }
@@ -20716,7 +20716,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass26_0_U3CShareAnchor
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115693
+// Method Definition Index: 115769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass27_0__ctor_mCB92637AE86BB8193919F613037C0752B6CD4175 (U3CU3Ec__DisplayClass27_0_tF13987FCE17D697E9A815B7B59FE0A38AA8CAC6E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20724,7 +20724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass27_0__ctor_mCB92637
 		return;
 	}
 }
-// Method Definition Index: 115694
+// Method Definition Index: 115770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass27_0_U3CShareAnchorsWithUserU3Eg__ShareCompleteCallbackU7C0_m5ECF19D3B6745A95F456223FA5387A89785E605C (U3CU3Ec__DisplayClass27_0_tF13987FCE17D697E9A815B7B59FE0A38AA8CAC6E* __this, List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* ___0__, int32_t ___1_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20737,24 +20737,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass27_0_U3CShareAnchor
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:248>
 		int32_t L_0 = ___1_result;
 		int32_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(OperationResult_tCEEF60CD40479FB5175A075F097BA5C1811E555D_il2cpp_TypeInfo_var, &L_1);
 		String_t* L_3;
 		L_3 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralE62847C95566D51A02365C3DDAC6CF2E6B997BC1, _stringLiteral7C808887BB1996D96073132ADC8BE64E95ACE577, L_2, NULL);
 		Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_3, 0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:249>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:249>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_4 = __this->___task;
 		int32_t L_5 = ___1_result;
 		NullCheck(L_4);
 		bool L_6;
 		L_6 = TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1(L_4, (bool)((((int32_t)L_5) == ((int32_t)0))? 1 : 0), TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:250>
 		SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_7 = __this->___U3CU3E4__this;
 		NullCheck(L_7);
 		L_7->____shareAnchorIsSuccessful = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:251>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:251>
 		return;
 	}
 }
@@ -20766,7 +20766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass27_0_U3CShareAnchor
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115695
+// Method Definition Index: 115771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0__ctor_mE406146F293F1F8C2D777F1CBE915388DC9827A3 (U3CU3Ec__DisplayClass29_0_t278AA8580AAE3C3596E279F17DF1AA3EFDD2DDA6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20774,11 +20774,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0__ctor_mE406146
 		return;
 	}
 }
-// Method Definition Index: 115696
+// Method Definition Index: 115772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass29_0_U3CStopSharingAnchorsWithUserU3Eb__0_m3E4D770397CD70CD5B523075D3E50DEA5699691F (U3CU3Ec__DisplayClass29_0_t278AA8580AAE3C3596E279F17DF1AA3EFDD2DDA6* __this, OVRSpaceUser_tF145982B655F69985F22D9AB527F17FC76CDC90F ___0_el, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:272>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:272>
 		uint64_t L_0;
 		L_0 = OVRSpaceUser_get_Id_mC3F0C9C691EC5C53A4007E55C4F97874C0F8F64C((&___0_el), NULL);
 		uint64_t L_1 = __this->___userId;
@@ -20793,7 +20793,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass29_0_U3CStopSharing
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115697
+// Method Definition Index: 115773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnchorCreationTaskU3Ed__21_MoveNext_m0C68865B8AA0120D96FAB4B226BBCCDB5B01374A (U3CAnchorCreationTaskU3Ed__21_t5D62FC5BA2869975CE1D7FBA5A425A6683FECF2D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20848,22 +20848,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnchorCreationTaskU3Ed__21_MoveNext_m
 			NullCheck(L_4);
 			L_4->___U3CU3E4__this = L_5;
 			Il2CppCodeGenWriteBarrier((void**)(&L_4->___U3CU3E4__this), (void*)L_5);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:114>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:114>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_6 = V_1;
 			NullCheck(L_6);
 			L_6->____saveAnchorSaveToCloudIsSuccessful = (bool)0;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:115>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:115>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_7 = V_1;
 			NullCheck(L_7);
 			SharedAnchorManager_CheckIfSavingAnchorsServiceHung_m5FF319F9C383D3128CB2423BD077398EAD348599(L_7, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:116>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:116>
 			U3CU3Ec__DisplayClass21_0_tD56B110D00E3A7DA2E0E9700B3985E916AE8B2C7* L_8 = __this->___U3CU3E8__1;
 			TaskCompletionSource_1_t6D668724F9A024A8A35079B166C9825C9FC31CCC* L_9 = (TaskCompletionSource_1_t6D668724F9A024A8A35079B166C9825C9FC31CCC*)il2cpp_codegen_object_new(TaskCompletionSource_1_t6D668724F9A024A8A35079B166C9825C9FC31CCC_il2cpp_TypeInfo_var);
 			TaskCompletionSource_1__ctor_mE9B0DF777B052D1D49AA4C7331E99814173E2786(L_9, TaskCompletionSource_1__ctor_mE9B0DF777B052D1D49AA4C7331E99814173E2786_RuntimeMethod_var);
 			NullCheck(L_8);
 			L_8->___task = L_9;
 			Il2CppCodeGenWriteBarrier((void**)(&L_8->___task), (void*)L_9);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:122>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:122>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_10 = V_1;
 			NullCheck(L_10);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_11 = L_10->____ssaCore;
@@ -20875,7 +20875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnchorCreationTaskU3Ed__21_MoveNext_m
 			UnityAction_2__ctor_m42719D78BC205F59900B3C8809BE2B50CDE8A8B5(L_14, L_13, (intptr_t)((void*)U3CU3Ec__DisplayClass21_0_U3CAnchorCreationTaskU3Eg__CreateCompletedCallbackU7C0_m35D4446604EE96EDAA2ED48884BC3E80DF6A48A5_RuntimeMethod_var), NULL);
 			NullCheck(L_12);
 			UnityEvent_2_AddListener_m1577100D14C4E275D6A4E2F93CAF655C643A38D5(L_12, L_14, UnityEvent_2_AddListener_m1577100D14C4E275D6A4E2F93CAF655C643A38D5_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:123>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:123>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_15 = V_1;
 			NullCheck(L_15);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_16 = L_15->____ssaCore;
@@ -20887,7 +20887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnchorCreationTaskU3Ed__21_MoveNext_m
 			Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = __this->___orientation;
 			NullCheck(L_16);
 			SharedSpatialAnchorCore_InstantiateSpatialAnchor_m8D354337C2F6E92FE0C1897E33E4C842FE4F1440(L_16, L_18, L_19, L_20, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:124>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:124>
 			U3CU3Ec__DisplayClass21_0_tD56B110D00E3A7DA2E0E9700B3985E916AE8B2C7* L_21 = __this->___U3CU3E8__1;
 			NullCheck(L_21);
 			TaskCompletionSource_1_t6D668724F9A024A8A35079B166C9825C9FC31CCC* L_22 = L_21->___task;
@@ -20933,7 +20933,7 @@ IL_00e9_1:
 		{
 			ValueTuple_2_t602F895CFC6A6DA798CB5829B7FDDD623DFD588E L_32;
 			L_32 = TaskAwaiter_1_GetResult_m7ED7E6B0BDADFA4F7A3EC0D85D69D7DD1FE60DA3((&V_3), TaskAwaiter_1_GetResult_m7ED7E6B0BDADFA4F7A3EC0D85D69D7DD1FE60DA3_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:125>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:125>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_33 = V_1;
 			NullCheck(L_33);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_34 = L_33->____ssaCore;
@@ -20945,7 +20945,7 @@ IL_00e9_1:
 			UnityAction_2__ctor_m42719D78BC205F59900B3C8809BE2B50CDE8A8B5(L_37, L_36, (intptr_t)((void*)U3CU3Ec__DisplayClass21_0_U3CAnchorCreationTaskU3Eg__CreateCompletedCallbackU7C0_m35D4446604EE96EDAA2ED48884BC3E80DF6A48A5_RuntimeMethod_var), NULL);
 			NullCheck(L_35);
 			UnityEvent_2_RemoveListener_m6648DAA207723BB87DDF9EE6E22D66E2056D7881(L_35, L_37, UnityEvent_2_RemoveListener_m6648DAA207723BB87DDF9EE6E22D66E2056D7881_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:126>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:126>
 			V_2 = L_32;
 			goto IL_0134;
 		}
@@ -20977,7 +20977,7 @@ CATCH_0114:
 
 IL_0134:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:127>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CU3E8__1 = (U3CU3Ec__DisplayClass21_0_tD56B110D00E3A7DA2E0E9700B3985E916AE8B2C7*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)(U3CU3Ec__DisplayClass21_0_tD56B110D00E3A7DA2E0E9700B3985E916AE8B2C7*)NULL);
@@ -20999,7 +20999,7 @@ IL2CPP_EXTERN_C  void U3CAnchorCreationTaskU3Ed__21_MoveNext_m0C68865B8AA0120D96
 	_thisAdjusted = reinterpret_cast<U3CAnchorCreationTaskU3Ed__21_t5D62FC5BA2869975CE1D7FBA5A425A6683FECF2D*>(__this + _offset);
 	U3CAnchorCreationTaskU3Ed__21_MoveNext_m0C68865B8AA0120D96FAB4B226BBCCDB5B01374A(_thisAdjusted, method);
 }
-// Method Definition Index: 115698
+// Method Definition Index: 115774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnchorCreationTaskU3Ed__21_SetStateMachine_m13ED1E80768E40FA58E4FEB78971AC682556D9EF (U3CAnchorCreationTaskU3Ed__21_t5D62FC5BA2869975CE1D7FBA5A425A6683FECF2D* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21032,7 +21032,7 @@ IL2CPP_EXTERN_C  void U3CAnchorCreationTaskU3Ed__21_SetStateMachine_m13ED1E80768
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115699
+// Method Definition Index: 115775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckIfRetrievingAnchorServiceHungU3Ed__25_MoveNext_mC1EE92579C47029F7D66E72FAE64CCF2EEEA234B (U3CCheckIfRetrievingAnchorServiceHungU3Ed__25_t8DCA48E87AA107ED40123B1BCD41AEE719F950A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21066,7 +21066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckIfRetrievingAnchorServiceHungU3E
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:191>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:191>
 			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_3;
 			L_3 = Task_Delay_m4B84654B4DAADEC41096D9F01C099CCEA9927A48(((int32_t)10000), NULL);
@@ -21107,7 +21107,7 @@ IL_004a_1:
 IL_0066_1:
 		{
 			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:192>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:192>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_12 = V_1;
 			NullCheck(L_12);
 			bool L_13 = L_12->____retrieveAnchorIsSuccessful;
@@ -21117,9 +21117,9 @@ IL_0066_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:194>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:195>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:196>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:194>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:195>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:196>
 			int32_t L_14 = ((int32_t)10000);
 			RuntimeObject* L_15 = Box(il2cpp_defaults.int32_class, &L_14);
 			String_t* L_16;
@@ -21156,7 +21156,7 @@ CATCH_0096:
 
 IL_00ad:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:198>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_20 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_20, NULL);
@@ -21174,7 +21174,7 @@ IL2CPP_EXTERN_C  void U3CCheckIfRetrievingAnchorServiceHungU3Ed__25_MoveNext_mC1
 	_thisAdjusted = reinterpret_cast<U3CCheckIfRetrievingAnchorServiceHungU3Ed__25_t8DCA48E87AA107ED40123B1BCD41AEE719F950A0*>(__this + _offset);
 	U3CCheckIfRetrievingAnchorServiceHungU3Ed__25_MoveNext_mC1EE92579C47029F7D66E72FAE64CCF2EEEA234B(_thisAdjusted, method);
 }
-// Method Definition Index: 115700
+// Method Definition Index: 115776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckIfRetrievingAnchorServiceHungU3Ed__25_SetStateMachine_m2460704C9B72675267BB027A92349BE09B62753C (U3CCheckIfRetrievingAnchorServiceHungU3Ed__25_t8DCA48E87AA107ED40123B1BCD41AEE719F950A0* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -21199,7 +21199,7 @@ IL2CPP_EXTERN_C  void U3CCheckIfRetrievingAnchorServiceHungU3Ed__25_SetStateMach
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115701
+// Method Definition Index: 115777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckIfSavingAnchorsServiceHungU3Ed__22_MoveNext_m1A69E23350793A374AB3BF5AC0AA3BE3F66E0B73 (U3CCheckIfSavingAnchorsServiceHungU3Ed__22_t5117A7EDA0333BFDF4B314E19F3E99951CE6AD00* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21232,7 +21232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckIfSavingAnchorsServiceHungU3Ed__
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:131>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:131>
 			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_3;
 			L_3 = Task_Delay_m4B84654B4DAADEC41096D9F01C099CCEA9927A48(((int32_t)10000), NULL);
@@ -21273,7 +21273,7 @@ IL_004a_1:
 IL_0066_1:
 		{
 			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:132>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:132>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_12 = V_1;
 			NullCheck(L_12);
 			bool L_13 = L_12->____saveAnchorSaveToCloudIsSuccessful;
@@ -21283,9 +21283,9 @@ IL_0066_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:134>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:135>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:136>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:134>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:135>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:136>
 			int32_t L_14 = ((int32_t)10000);
 			RuntimeObject* L_15 = Box(il2cpp_defaults.int32_class, &L_14);
 			String_t* L_16;
@@ -21322,7 +21322,7 @@ CATCH_0091:
 
 IL_00a8:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:138>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_20 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_20, NULL);
@@ -21340,7 +21340,7 @@ IL2CPP_EXTERN_C  void U3CCheckIfSavingAnchorsServiceHungU3Ed__22_MoveNext_m1A69E
 	_thisAdjusted = reinterpret_cast<U3CCheckIfSavingAnchorsServiceHungU3Ed__22_t5117A7EDA0333BFDF4B314E19F3E99951CE6AD00*>(__this + _offset);
 	U3CCheckIfSavingAnchorsServiceHungU3Ed__22_MoveNext_m1A69E23350793A374AB3BF5AC0AA3BE3F66E0B73(_thisAdjusted, method);
 }
-// Method Definition Index: 115702
+// Method Definition Index: 115778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckIfSavingAnchorsServiceHungU3Ed__22_SetStateMachine_m4DBABABEB803DD12421505E63C76F28123467136 (U3CCheckIfSavingAnchorsServiceHungU3Ed__22_t5117A7EDA0333BFDF4B314E19F3E99951CE6AD00* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -21365,7 +21365,7 @@ IL2CPP_EXTERN_C  void U3CCheckIfSavingAnchorsServiceHungU3Ed__22_SetStateMachine
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115703
+// Method Definition Index: 115779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckIfSharingAnchorServiceHungU3Ed__28_MoveNext_m69B4C9FF4CCB6F4F141DE668339AA249607B24FE (U3CCheckIfSharingAnchorServiceHungU3Ed__28_tB18299B26FAA4EE95D19690DC0323ADE165ABD73* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21399,7 +21399,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckIfSharingAnchorServiceHungU3Ed__
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:261>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:261>
 			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_3;
 			L_3 = Task_Delay_m4B84654B4DAADEC41096D9F01C099CCEA9927A48(((int32_t)10000), NULL);
@@ -21440,7 +21440,7 @@ IL_004a_1:
 IL_0066_1:
 		{
 			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:262>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:262>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_12 = V_1;
 			NullCheck(L_12);
 			bool L_13 = L_12->____shareAnchorIsSuccessful;
@@ -21450,9 +21450,9 @@ IL_0066_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:264>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:265>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:266>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:264>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:265>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:266>
 			int32_t L_14 = ((int32_t)10000);
 			RuntimeObject* L_15 = Box(il2cpp_defaults.int32_class, &L_14);
 			String_t* L_16;
@@ -21489,7 +21489,7 @@ CATCH_0096:
 
 IL_00ad:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:268>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:268>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_20 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_20, NULL);
@@ -21507,7 +21507,7 @@ IL2CPP_EXTERN_C  void U3CCheckIfSharingAnchorServiceHungU3Ed__28_MoveNext_m69B4C
 	_thisAdjusted = reinterpret_cast<U3CCheckIfSharingAnchorServiceHungU3Ed__28_tB18299B26FAA4EE95D19690DC0323ADE165ABD73*>(__this + _offset);
 	U3CCheckIfSharingAnchorServiceHungU3Ed__28_MoveNext_m69B4C9FF4CCB6F4F141DE668339AA249607B24FE(_thisAdjusted, method);
 }
-// Method Definition Index: 115704
+// Method Definition Index: 115780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckIfSharingAnchorServiceHungU3Ed__28_SetStateMachine_mCF0B9A693D497DD50018823FAAC85A4903406CF3 (U3CCheckIfSharingAnchorServiceHungU3Ed__28_tB18299B26FAA4EE95D19690DC0323ADE165ABD73* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -21532,7 +21532,7 @@ IL2CPP_EXTERN_C  void U3CCheckIfSharingAnchorServiceHungU3Ed__28_SetStateMachine
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115705
+// Method Definition Index: 115781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateAlignmentAnchorU3Ed__19_MoveNext_m02975B2FF2F6401BCDD09614596583FCDF6DE384 (U3CCreateAlignmentAnchorU3Ed__19_tB54C458F24DAC0A0B33FA72950D6D6336B935826* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21580,7 +21580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateAlignmentAnchorU3Ed__19_MoveNex
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:65>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:65>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_3 = V_1;
 			Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 			L_4 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
@@ -21633,7 +21633,7 @@ IL_0072_1:
 			V_3 = L_17;
 			int32_t L_18 = L_16.___Item2;
 			V_4 = L_18;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:66>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:66>
 			OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_19 = V_3;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_20;
@@ -21644,20 +21644,20 @@ IL_0072_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:68>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:69>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:68>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:69>
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteral7668070CA3934654DD000992015B62AA9C2391D3, 3, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:70>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:70>
 			V_2 = (OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874*)NULL;
 			goto IL_0130;
 		}
 
 IL_00a2_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:73>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:74>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:75>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:76>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:73>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:74>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:75>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:76>
 			int32_t L_21 = V_4;
 			if ((((int32_t)L_21) == ((int32_t)((int32_t)-2003))))
 			{
@@ -21684,23 +21684,23 @@ IL_00c2_1:
 
 IL_00c3_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:78>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:78>
 			if (G_B11_0)
 			{
 				goto IL_00d4_1;
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:80>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:80>
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteralFA354F0A44C77AA461F69934C5665638A018EA50, 4, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:81>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:81>
 			V_2 = (OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874*)NULL;
 			goto IL_0130;
 		}
 
 IL_00d4_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:84>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:84>
 			int32_t L_24 = V_4;
 			if (!L_24)
 			{
@@ -21708,21 +21708,21 @@ IL_00d4_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:86>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:86>
 			int32_t L_25 = V_4;
 			int32_t L_26 = L_25;
 			RuntimeObject* L_27 = Box(OperationResult_tCEEF60CD40479FB5175A075F097BA5C1811E555D_il2cpp_TypeInfo_var, &L_26);
 			String_t* L_28;
 			L_28 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral5A87AF294C3B79EFCAAF5BEDE98552A6B383E809, _stringLiteral089B67014AEDEE3DDD70FD4D3A8C7BBCE0C19347, L_27, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_28, 4, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:87>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:87>
 			V_2 = (OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874*)NULL;
 			goto IL_0130;
 		}
 
 IL_00f8_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:90>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:90>
 			OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_29 = V_3;
 			NullCheck(L_29);
 			Guid_t L_30;
@@ -21732,7 +21732,7 @@ IL_00f8_1:
 			String_t* L_33;
 			L_33 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralEE256A225C776BAEAF596195DD4417B16D8B6721, L_32, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_33, 0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:92>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:92>
 			OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_34 = V_3;
 			V_2 = L_34;
 			goto IL_0130;
@@ -21763,7 +21763,7 @@ CATCH_0117:
 
 IL_0130:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:93>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tDFD067027ADF598DDC25EC8A8195C3BA03C743C1* L_38 = (AsyncTaskMethodBuilder_1_tDFD067027ADF598DDC25EC8A8195C3BA03C743C1*)(&__this->___U3CU3Et__builder);
 		OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_39 = V_2;
@@ -21783,7 +21783,7 @@ IL2CPP_EXTERN_C  void U3CCreateAlignmentAnchorU3Ed__19_MoveNext_m02975B2FF2F6401
 	_thisAdjusted = reinterpret_cast<U3CCreateAlignmentAnchorU3Ed__19_tB54C458F24DAC0A0B33FA72950D6D6336B935826*>(__this + _offset);
 	U3CCreateAlignmentAnchorU3Ed__19_MoveNext_m02975B2FF2F6401BCDD09614596583FCDF6DE384(_thisAdjusted, method);
 }
-// Method Definition Index: 115706
+// Method Definition Index: 115782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateAlignmentAnchorU3Ed__19_SetStateMachine_m874C9962EEAF3FA25ED93FB76FFE6A5EFAB45ED8 (U3CCreateAlignmentAnchorU3Ed__19_tB54C458F24DAC0A0B33FA72950D6D6336B935826* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21816,7 +21816,7 @@ IL2CPP_EXTERN_C  void U3CCreateAlignmentAnchorU3Ed__19_SetStateMachine_m874C9962
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115707
+// Method Definition Index: 115783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateAnchorU3Ed__20_MoveNext_mB25E33560024D6DF5C0A9459893725EA9A8164C7 (U3CCreateAnchorU3Ed__20_t2733A0617941A098456B2AC2CD309F92EEF43F53* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21865,9 +21865,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateAnchorU3Ed__20_MoveNext_mB25E33
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:97>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:97>
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteral908F8A4C59DB3F202E7959B3C719ECA7E63C1D9A, 0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:99>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:99>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_3 = V_1;
 			Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = __this->___position;
 			Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5 = __this->___orientation;
@@ -21918,7 +21918,7 @@ IL_007f_1:
 			V_3 = L_17;
 			int32_t L_18 = L_16.___Item2;
 			V_4 = L_18;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:100>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:100>
 			OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_19 = V_3;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_20;
@@ -21948,14 +21948,14 @@ IL_007f_1:
 
 IL_00a8_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:102>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:102>
 			int32_t L_24 = V_4;
 			int32_t L_25 = L_24;
 			RuntimeObject* L_26 = Box(OperationResult_tCEEF60CD40479FB5175A075F097BA5C1811E555D_il2cpp_TypeInfo_var, &L_25);
 			String_t* L_27;
 			L_27 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral47AADD3C877B5BF7C41B359A6A2907E1D7A98931, _stringLiteral7C808887BB1996D96073132ADC8BE64E95ACE577, L_26, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_27, 4, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:103>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:103>
 			int32_t L_28 = V_4;
 			ValueTuple_2_t602F895CFC6A6DA798CB5829B7FDDD623DFD588E L_29;
 			memset((&L_29), 0, sizeof(L_29));
@@ -21966,7 +21966,7 @@ IL_00a8_1:
 
 IL_00cf_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:106>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:106>
 			OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_30 = V_3;
 			NullCheck(L_30);
 			Guid_t L_31;
@@ -21976,14 +21976,14 @@ IL_00cf_1:
 			String_t* L_34;
 			L_34 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral4A44AC42569B0B95121103ED6C3511B4D7C20BBC, _stringLiteral7C808887BB1996D96073132ADC8BE64E95ACE577, L_33, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_34, 1, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:108>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:108>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_35 = V_1;
 			NullCheck(L_35);
 			List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* L_36 = L_35->____localAnchors;
 			OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_37 = V_3;
 			NullCheck(L_36);
 			List_1_Add_mE1DF0776467FBBCD1B011F1C0F363C0729862112_inline(L_36, L_37, List_1_Add_mE1DF0776467FBBCD1B011F1C0F363C0729862112_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:109>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:109>
 			OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_38 = V_3;
 			int32_t L_39 = V_4;
 			ValueTuple_2_t602F895CFC6A6DA798CB5829B7FDDD623DFD588E L_40;
@@ -22018,7 +22018,7 @@ CATCH_0106:
 
 IL_011f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:110>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tEA5517039BFF7D7365BC0D6C2CD544B56C697F40* L_44 = (AsyncTaskMethodBuilder_1_tEA5517039BFF7D7365BC0D6C2CD544B56C697F40*)(&__this->___U3CU3Et__builder);
 		ValueTuple_2_t602F895CFC6A6DA798CB5829B7FDDD623DFD588E L_45 = V_2;
@@ -22038,7 +22038,7 @@ IL2CPP_EXTERN_C  void U3CCreateAnchorU3Ed__20_MoveNext_mB25E33560024D6DF5C0A9459
 	_thisAdjusted = reinterpret_cast<U3CCreateAnchorU3Ed__20_t2733A0617941A098456B2AC2CD309F92EEF43F53*>(__this + _offset);
 	U3CCreateAnchorU3Ed__20_MoveNext_mB25E33560024D6DF5C0A9459893725EA9A8164C7(_thisAdjusted, method);
 }
-// Method Definition Index: 115708
+// Method Definition Index: 115784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateAnchorU3Ed__20_SetStateMachine_m62F92CD41DDB7651118C2072A7CEC7230C178268 (U3CCreateAnchorU3Ed__20_t2733A0617941A098456B2AC2CD309F92EEF43F53* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22071,7 +22071,7 @@ IL2CPP_EXTERN_C  void U3CCreateAnchorU3Ed__20_SetStateMachine_m62F92CD41DDB76511
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115709
+// Method Definition Index: 115785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRetrieveAnchorsU3Ed__24_MoveNext_m5FF54FADC7C9289C55F714B794A6D053BF65E585 (U3CRetrieveAnchorsU3Ed__24_tA01438FD4C9D035BA68C53EF449495253313B3DA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22128,29 +22128,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRetrieveAnchorsU3Ed__24_MoveNext_m5FF
 			NullCheck(L_4);
 			L_4->___U3CU3E4__this = L_5;
 			Il2CppCodeGenWriteBarrier((void**)(&L_4->___U3CU3E4__this), (void*)L_5);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:169>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:169>
 			U3CU3Ec__DisplayClass24_0_tDB50D4D047BC40A3C33D7A732A52CD655D44E615* L_6 = __this->___U3CU3E8__1;
 			TaskCompletionSource_1_t3A8CCE3C3AC45061ECB42577F2BE1989F4159E17* L_7 = (TaskCompletionSource_1_t3A8CCE3C3AC45061ECB42577F2BE1989F4159E17*)il2cpp_codegen_object_new(TaskCompletionSource_1_t3A8CCE3C3AC45061ECB42577F2BE1989F4159E17_il2cpp_TypeInfo_var);
 			TaskCompletionSource_1__ctor_mD17EAD779771A9C5E4E3F5B3F1471E55EEE54D60(L_7, TaskCompletionSource_1__ctor_mD17EAD779771A9C5E4E3F5B3F1471E55EEE54D60_RuntimeMethod_var);
 			NullCheck(L_6);
 			L_6->___task = L_7;
 			Il2CppCodeGenWriteBarrier((void**)(&L_6->___task), (void*)L_7);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:170>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:170>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_8 = V_1;
 			NullCheck(L_8);
 			L_8->____retrieveAnchorIsSuccessful = (bool)0;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:171>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:171>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_9 = V_1;
 			NullCheck(L_9);
 			SharedAnchorManager_CheckIfRetrievingAnchorServiceHung_m6BF9AD4D559FE7795C31AEB4EC8AF0996BABD5E1(L_9, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:172>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:172>
 			List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15* L_10 = __this->___anchorIds;
 			String_t* L_11;
 			L_11 = String_Join_TisGuid_t_m19D47E8576A44E413A92933CC3E8B6B6B464F18A(_stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D, L_10, String_Join_TisGuid_t_m19D47E8576A44E413A92933CC3E8B6B6B464F18A_RuntimeMethod_var);
 			String_t* L_12;
 			L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA6CAC8671BC603B42DDDCB0478301DD3ED710C34, L_11, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_12, 0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:182>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:182>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_13 = V_1;
 			NullCheck(L_13);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_14 = L_13->____ssaCore;
@@ -22162,7 +22162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRetrieveAnchorsU3Ed__24_MoveNext_m5FF
 			UnityAction_2__ctor_m8A4AE0B7F025D4F10C828B00659560AB7CA39CD0(L_17, L_16, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CRetrieveAnchorsU3Eg__LoadCompletedCallbackU7C0_m8FA1C555A20AF43637D35BC3D25CEB38B19C4048_RuntimeMethod_var), NULL);
 			NullCheck(L_15);
 			UnityEvent_2_AddListener_m814B9F27A403729A64A0BCE5650488EEEBB05FB2(L_15, L_17, UnityEvent_2_AddListener_m814B9F27A403729A64A0BCE5650488EEEBB05FB2_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:183>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:183>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_18 = V_1;
 			NullCheck(L_18);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_19 = L_18->____ssaCore;
@@ -22173,7 +22173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRetrieveAnchorsU3Ed__24_MoveNext_m5FF
 			List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15* L_22 = __this->___anchorIds;
 			NullCheck(L_19);
 			VirtualActionInvoker2< GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15* >::Invoke(4, L_19, L_21, L_22);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:184>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:184>
 			U3CU3Ec__DisplayClass24_0_tDB50D4D047BC40A3C33D7A732A52CD655D44E615* L_23 = __this->___U3CU3E8__1;
 			NullCheck(L_23);
 			TaskCompletionSource_1_t3A8CCE3C3AC45061ECB42577F2BE1989F4159E17* L_24 = L_23->___task;
@@ -22219,7 +22219,7 @@ IL_0103_1:
 		{
 			RuntimeObject* L_34;
 			L_34 = TaskAwaiter_1_GetResult_m1342A36A9F31D6A62F8861AB30AD47EA1BAA1C24((&V_3), TaskAwaiter_1_GetResult_m1342A36A9F31D6A62F8861AB30AD47EA1BAA1C24_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:185>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:185>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_35 = V_1;
 			NullCheck(L_35);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_36 = L_35->____ssaCore;
@@ -22231,7 +22231,7 @@ IL_0103_1:
 			UnityAction_2__ctor_m8A4AE0B7F025D4F10C828B00659560AB7CA39CD0(L_39, L_38, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CRetrieveAnchorsU3Eg__LoadCompletedCallbackU7C0_m8FA1C555A20AF43637D35BC3D25CEB38B19C4048_RuntimeMethod_var), NULL);
 			NullCheck(L_37);
 			UnityEvent_2_RemoveListener_m6600FD5AC4F83446D96EA60F5FE746A80E3FFF53(L_37, L_39, UnityEvent_2_RemoveListener_m6600FD5AC4F83446D96EA60F5FE746A80E3FFF53_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:186>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:186>
 			V_2 = L_34;
 			goto IL_014e;
 		}
@@ -22263,7 +22263,7 @@ CATCH_012e:
 
 IL_014e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:187>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CU3E8__1 = (U3CU3Ec__DisplayClass24_0_tDB50D4D047BC40A3C33D7A732A52CD655D44E615*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)(U3CU3Ec__DisplayClass24_0_tDB50D4D047BC40A3C33D7A732A52CD655D44E615*)NULL);
@@ -22285,7 +22285,7 @@ IL2CPP_EXTERN_C  void U3CRetrieveAnchorsU3Ed__24_MoveNext_m5FF54FADC7C9289C55F71
 	_thisAdjusted = reinterpret_cast<U3CRetrieveAnchorsU3Ed__24_tA01438FD4C9D035BA68C53EF449495253313B3DA*>(__this + _offset);
 	U3CRetrieveAnchorsU3Ed__24_MoveNext_m5FF54FADC7C9289C55F714B794A6D053BF65E585(_thisAdjusted, method);
 }
-// Method Definition Index: 115710
+// Method Definition Index: 115786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRetrieveAnchorsU3Ed__24_SetStateMachine_m4147290D8CB94BB2ED8A313974636956A1FCB33E (U3CRetrieveAnchorsU3Ed__24_tA01438FD4C9D035BA68C53EF449495253313B3DA* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22318,7 +22318,7 @@ IL2CPP_EXTERN_C  void U3CRetrieveAnchorsU3Ed__24_SetStateMachine_m4147290D8CB94B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115711
+// Method Definition Index: 115787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRetrieveAnchorsFromGroupU3Ed__23_MoveNext_m8E2174CA7B04138FFF878032B60AF10CF06FCA00 (U3CRetrieveAnchorsFromGroupU3Ed__23_tC249A86B1FA06390F144C30BACA07718684CD2C4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22372,22 +22372,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRetrieveAnchorsFromGroupU3Ed__23_Move
 			NullCheck(L_4);
 			L_4->___U3CU3E4__this = L_5;
 			Il2CppCodeGenWriteBarrier((void**)(&L_4->___U3CU3E4__this), (void*)L_5);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:146>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:146>
 			U3CU3Ec__DisplayClass23_0_t40E769C75AAD3136E45E26C5A67ECBE5D4FEF824* L_6 = __this->___U3CU3E8__1;
 			TaskCompletionSource_1_t3A8CCE3C3AC45061ECB42577F2BE1989F4159E17* L_7 = (TaskCompletionSource_1_t3A8CCE3C3AC45061ECB42577F2BE1989F4159E17*)il2cpp_codegen_object_new(TaskCompletionSource_1_t3A8CCE3C3AC45061ECB42577F2BE1989F4159E17_il2cpp_TypeInfo_var);
 			TaskCompletionSource_1__ctor_mD17EAD779771A9C5E4E3F5B3F1471E55EEE54D60(L_7, TaskCompletionSource_1__ctor_mD17EAD779771A9C5E4E3F5B3F1471E55EEE54D60_RuntimeMethod_var);
 			NullCheck(L_6);
 			L_6->___task = L_7;
 			Il2CppCodeGenWriteBarrier((void**)(&L_6->___task), (void*)L_7);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:147>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:147>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_8 = V_1;
 			NullCheck(L_8);
 			L_8->____retrieveAnchorIsSuccessful = (bool)0;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:148>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:148>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_9 = V_1;
 			NullCheck(L_9);
 			SharedAnchorManager_CheckIfRetrievingAnchorServiceHung_m6BF9AD4D559FE7795C31AEB4EC8AF0996BABD5E1(L_9, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:158>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:158>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_10 = V_1;
 			NullCheck(L_10);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_11 = L_10->____ssaCore;
@@ -22399,7 +22399,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRetrieveAnchorsFromGroupU3Ed__23_Move
 			UnityAction_2__ctor_m8A4AE0B7F025D4F10C828B00659560AB7CA39CD0(L_14, L_13, (intptr_t)((void*)U3CU3Ec__DisplayClass23_0_U3CRetrieveAnchorsFromGroupU3Eg__LoadCompletedCallbackU7C0_m57A4546CB2E4CEC0896DFDA9255A271249420D12_RuntimeMethod_var), NULL);
 			NullCheck(L_12);
 			UnityEvent_2_AddListener_m814B9F27A403729A64A0BCE5650488EEEBB05FB2(L_12, L_14, UnityEvent_2_AddListener_m814B9F27A403729A64A0BCE5650488EEEBB05FB2_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:159>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:159>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_15 = V_1;
 			NullCheck(L_15);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_16 = L_15->____ssaCore;
@@ -22410,7 +22410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRetrieveAnchorsFromGroupU3Ed__23_Move
 			Guid_t L_19 = __this->___groupUuid;
 			NullCheck(L_16);
 			SharedSpatialAnchorCore_LoadAndInstantiateAnchorsFromGroup_m03C266EABE799DE2459C6B172E1AFF70568774BF(L_16, L_18, L_19, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:160>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:160>
 			U3CU3Ec__DisplayClass23_0_t40E769C75AAD3136E45E26C5A67ECBE5D4FEF824* L_20 = __this->___U3CU3E8__1;
 			NullCheck(L_20);
 			TaskCompletionSource_1_t3A8CCE3C3AC45061ECB42577F2BE1989F4159E17* L_21 = L_20->___task;
@@ -22456,7 +22456,7 @@ IL_00e3_1:
 		{
 			RuntimeObject* L_31;
 			L_31 = TaskAwaiter_1_GetResult_m1342A36A9F31D6A62F8861AB30AD47EA1BAA1C24((&V_3), TaskAwaiter_1_GetResult_m1342A36A9F31D6A62F8861AB30AD47EA1BAA1C24_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:161>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:161>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_32 = V_1;
 			NullCheck(L_32);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_33 = L_32->____ssaCore;
@@ -22468,7 +22468,7 @@ IL_00e3_1:
 			UnityAction_2__ctor_m8A4AE0B7F025D4F10C828B00659560AB7CA39CD0(L_36, L_35, (intptr_t)((void*)U3CU3Ec__DisplayClass23_0_U3CRetrieveAnchorsFromGroupU3Eg__LoadCompletedCallbackU7C0_m57A4546CB2E4CEC0896DFDA9255A271249420D12_RuntimeMethod_var), NULL);
 			NullCheck(L_34);
 			UnityEvent_2_RemoveListener_m6600FD5AC4F83446D96EA60F5FE746A80E3FFF53(L_34, L_36, UnityEvent_2_RemoveListener_m6600FD5AC4F83446D96EA60F5FE746A80E3FFF53_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:162>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:162>
 			V_2 = L_31;
 			goto IL_012e;
 		}
@@ -22500,7 +22500,7 @@ CATCH_010e:
 
 IL_012e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:163>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CU3E8__1 = (U3CU3Ec__DisplayClass23_0_t40E769C75AAD3136E45E26C5A67ECBE5D4FEF824*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)(U3CU3Ec__DisplayClass23_0_t40E769C75AAD3136E45E26C5A67ECBE5D4FEF824*)NULL);
@@ -22522,7 +22522,7 @@ IL2CPP_EXTERN_C  void U3CRetrieveAnchorsFromGroupU3Ed__23_MoveNext_m8E2174CA7B04
 	_thisAdjusted = reinterpret_cast<U3CRetrieveAnchorsFromGroupU3Ed__23_tC249A86B1FA06390F144C30BACA07718684CD2C4*>(__this + _offset);
 	U3CRetrieveAnchorsFromGroupU3Ed__23_MoveNext_m8E2174CA7B04138FFF878032B60AF10CF06FCA00(_thisAdjusted, method);
 }
-// Method Definition Index: 115712
+// Method Definition Index: 115788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRetrieveAnchorsFromGroupU3Ed__23_SetStateMachine_mDF3AA8160D07B11C735E96689A93A17F500A2C26 (U3CRetrieveAnchorsFromGroupU3Ed__23_tC249A86B1FA06390F144C30BACA07718684CD2C4* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22555,7 +22555,7 @@ IL2CPP_EXTERN_C  void U3CRetrieveAnchorsFromGroupU3Ed__23_SetStateMachine_mDF3AA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115713
+// Method Definition Index: 115789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareAnchorsWithGroupU3Ed__26_MoveNext_mE7A032204EF99861BCEDD151F6B0688A0B43F172 (U3CShareAnchorsWithGroupU3Ed__26_t2DE044B06706F9CF0C90024C7630E19AA04C59AA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22609,22 +22609,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareAnchorsWithGroupU3Ed__26_MoveNex
 			NullCheck(L_4);
 			L_4->___U3CU3E4__this = L_5;
 			Il2CppCodeGenWriteBarrier((void**)(&L_4->___U3CU3E4__this), (void*)L_5);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:205>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:205>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_6 = V_1;
 			NullCheck(L_6);
 			L_6->____shareAnchorIsSuccessful = (bool)0;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:206>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:206>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_7 = V_1;
 			NullCheck(L_7);
 			SharedAnchorManager_CheckIfSharingAnchorServiceHung_m5288DAE4A05117F8ABA5D819F490BEDF88EF8C43(L_7, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:207>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:207>
 			U3CU3Ec__DisplayClass26_0_t29B54B5460BC59ECE932675F58F027BC08249C47* L_8 = __this->___U3CU3E8__1;
 			TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_9 = (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*)il2cpp_codegen_object_new(TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14_il2cpp_TypeInfo_var);
 			TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646(L_9, TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646_RuntimeMethod_var);
 			NullCheck(L_8);
 			L_8->___task = L_9;
 			Il2CppCodeGenWriteBarrier((void**)(&L_8->___task), (void*)L_9);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:214>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:214>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_10 = V_1;
 			NullCheck(L_10);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_11 = L_10->____ssaCore;
@@ -22636,7 +22636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareAnchorsWithGroupU3Ed__26_MoveNex
 			UnityAction_2__ctor_mB7C1A72FE3C5075020F21D70421248291176F6EB(L_14, L_13, (intptr_t)((void*)U3CU3Ec__DisplayClass26_0_U3CShareAnchorsWithGroupU3Eg__ShareToGroupCompletedCallbackU7C0_mC6F6540F12F0BE46EFEB20B4A2B14837323EBD78_RuntimeMethod_var), NULL);
 			NullCheck(L_12);
 			UnityEvent_2_AddListener_m6344DDF59BAC06AA8AF42221952ADBD6F90194A2(L_12, L_14, UnityEvent_2_AddListener_m6344DDF59BAC06AA8AF42221952ADBD6F90194A2_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:215>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:215>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_15 = V_1;
 			NullCheck(L_15);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_16 = L_15->____ssaCore;
@@ -22646,7 +22646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareAnchorsWithGroupU3Ed__26_MoveNex
 			Guid_t L_19 = __this->___groupUuid;
 			NullCheck(L_16);
 			SharedSpatialAnchorCore_ShareSpatialAnchors_m914817F2561267B9A91D728B1BCBF4E60F4FD244(L_16, L_18, L_19, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:216>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:216>
 			U3CU3Ec__DisplayClass26_0_t29B54B5460BC59ECE932675F58F027BC08249C47* L_20 = __this->___U3CU3E8__1;
 			NullCheck(L_20);
 			TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_21 = L_20->___task;
@@ -22692,7 +22692,7 @@ IL_00e3_1:
 		{
 			bool L_31;
 			L_31 = TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B((&V_3), TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:217>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:217>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_32 = V_1;
 			NullCheck(L_32);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_33 = L_32->____ssaCore;
@@ -22704,7 +22704,7 @@ IL_00e3_1:
 			UnityAction_2__ctor_mB7C1A72FE3C5075020F21D70421248291176F6EB(L_36, L_35, (intptr_t)((void*)U3CU3Ec__DisplayClass26_0_U3CShareAnchorsWithGroupU3Eg__ShareToGroupCompletedCallbackU7C0_mC6F6540F12F0BE46EFEB20B4A2B14837323EBD78_RuntimeMethod_var), NULL);
 			NullCheck(L_34);
 			UnityEvent_2_RemoveListener_m9A7E2C831C6497C3CFA90170417628372DA97447(L_34, L_36, UnityEvent_2_RemoveListener_m9A7E2C831C6497C3CFA90170417628372DA97447_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:218>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:218>
 			V_2 = L_31;
 			goto IL_012e;
 		}
@@ -22736,7 +22736,7 @@ CATCH_010e:
 
 IL_012e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:219>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:219>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CU3E8__1 = (U3CU3Ec__DisplayClass26_0_t29B54B5460BC59ECE932675F58F027BC08249C47*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)(U3CU3Ec__DisplayClass26_0_t29B54B5460BC59ECE932675F58F027BC08249C47*)NULL);
@@ -22758,7 +22758,7 @@ IL2CPP_EXTERN_C  void U3CShareAnchorsWithGroupU3Ed__26_MoveNext_mE7A032204EF9986
 	_thisAdjusted = reinterpret_cast<U3CShareAnchorsWithGroupU3Ed__26_t2DE044B06706F9CF0C90024C7630E19AA04C59AA*>(__this + _offset);
 	U3CShareAnchorsWithGroupU3Ed__26_MoveNext_mE7A032204EF99861BCEDD151F6B0688A0B43F172(_thisAdjusted, method);
 }
-// Method Definition Index: 115714
+// Method Definition Index: 115790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareAnchorsWithGroupU3Ed__26_SetStateMachine_m95FCA5D2E7BED78846906BBDAF45A06A5D17F5A7 (U3CShareAnchorsWithGroupU3Ed__26_t2DE044B06706F9CF0C90024C7630E19AA04C59AA* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22791,7 +22791,7 @@ IL2CPP_EXTERN_C  void U3CShareAnchorsWithGroupU3Ed__26_SetStateMachine_m95FCA5D2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115715
+// Method Definition Index: 115791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareAnchorsWithUserU3Ed__27_MoveNext_m713DB709D6842375F277689CA6CED831EA676B06 (U3CShareAnchorsWithUserU3Ed__27_t09D8FEBA14251A05341CA7F972C3263C75CB2495* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22857,7 +22857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareAnchorsWithUserU3Ed__27_MoveNext
 			NullCheck(L_4);
 			L_4->___U3CU3E4__this = L_5;
 			Il2CppCodeGenWriteBarrier((void**)(&L_4->___U3CU3E4__this), (void*)L_5);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:223>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:223>
 			uint64_t L_6 = __this->___userId;
 			bool L_7;
 			L_7 = OVRSpaceUser_TryCreate_m0EB6314D43B567708D8EFF91E67B2F7659C10938(L_6, (&V_3), NULL);
@@ -22867,21 +22867,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareAnchorsWithUserU3Ed__27_MoveNext
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:225>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:225>
 			uint64_t L_8 = __this->___userId;
 			uint64_t L_9 = L_8;
 			RuntimeObject* L_10 = Box(il2cpp_defaults.uint64_class, &L_9);
 			String_t* L_11;
 			L_11 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral6715FB26A43FCEDD627F298C59EA74E111B787D7, _stringLiteral7C808887BB1996D96073132ADC8BE64E95ACE577, L_10, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_11, 2, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:226>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:226>
 			V_2 = (bool)0;
 			goto IL_01d3;
 		}
 
 IL_0066_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:229>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:229>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_12 = V_1;
 			NullCheck(L_12);
 			HashSet_1_tD1FB3D7AEDC39398D18AB91D4EFD21D2DDC42C22* L_13 = L_12->____userShareList;
@@ -22889,7 +22889,7 @@ IL_0066_1:
 			NullCheck(L_13);
 			bool L_15;
 			L_15 = HashSet_1_Add_m325150D4FCB2AC42424DBC13292DF868F1E4C286(L_13, L_14, HashSet_1_Add_m325150D4FCB2AC42424DBC13292DF868F1E4C286_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:232>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:232>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_16 = V_1;
 			NullCheck(L_16);
 			List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* L_17 = L_16->____localAnchors;
@@ -22902,17 +22902,17 @@ IL_0066_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:234>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:234>
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(_stringLiteral167BC75E969CD12A17640ECA8009EFF4E09E9555, 2, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:235>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:235>
 			V_2 = (bool)1;
 			goto IL_01d3;
 		}
 
 IL_0092_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:238>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:239>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:238>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:239>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_19 = V_1;
 			NullCheck(L_19);
 			List_1_t273413C8B654D2B591BCAA657421FF6CFCB3C56B* L_20 = L_19->____localAnchors;
@@ -22927,33 +22927,33 @@ IL_0092_1:
 			String_t* L_27;
 			L_27 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral1AE1090C0AC5B2F394217CD762E232C8EAFA08CB, _stringLiteral7C808887BB1996D96073132ADC8BE64E95ACE577, L_23, L_26, NULL);
 			Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407(L_27, 0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:240>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:240>
 			List_1_t3E323BC7E3853B57A3D121BEB59EFE91E67555F3* L_28 = (List_1_t3E323BC7E3853B57A3D121BEB59EFE91E67555F3*)il2cpp_codegen_object_new(List_1_t3E323BC7E3853B57A3D121BEB59EFE91E67555F3_il2cpp_TypeInfo_var);
 			List_1__ctor_m23FC8CDBBF6B1D754921988055E4C1E9F075145F(L_28, List_1__ctor_m23FC8CDBBF6B1D754921988055E4C1E9F075145F_RuntimeMethod_var);
 			V_4 = L_28;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:241>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:241>
 			List_1_t3E323BC7E3853B57A3D121BEB59EFE91E67555F3* L_29 = V_4;
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_30 = V_1;
 			NullCheck(L_30);
 			HashSet_1_tD1FB3D7AEDC39398D18AB91D4EFD21D2DDC42C22* L_31 = L_30->____userShareList;
 			NullCheck(L_29);
 			List_1_AddRange_m049ED5FA13B265369DE6A1C38491756AE7F84FF5(L_29, L_31, List_1_AddRange_m049ED5FA13B265369DE6A1C38491756AE7F84FF5_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:243>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:243>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_32 = V_1;
 			NullCheck(L_32);
 			L_32->____shareAnchorIsSuccessful = (bool)0;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:244>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:244>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_33 = V_1;
 			NullCheck(L_33);
 			SharedAnchorManager_CheckIfSharingAnchorServiceHung_m5288DAE4A05117F8ABA5D819F490BEDF88EF8C43(L_33, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:245>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:245>
 			U3CU3Ec__DisplayClass27_0_tF13987FCE17D697E9A815B7B59FE0A38AA8CAC6E* L_34 = __this->___U3CU3E8__1;
 			TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_35 = (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*)il2cpp_codegen_object_new(TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14_il2cpp_TypeInfo_var);
 			TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646(L_35, TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646_RuntimeMethod_var);
 			NullCheck(L_34);
 			L_34->___task = L_35;
 			Il2CppCodeGenWriteBarrier((void**)(&L_34->___task), (void*)L_35);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:252>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:252>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_36 = V_1;
 			NullCheck(L_36);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_37 = L_36->____ssaCore;
@@ -22965,7 +22965,7 @@ IL_0092_1:
 			UnityAction_2__ctor_m8A4AE0B7F025D4F10C828B00659560AB7CA39CD0(L_40, L_39, (intptr_t)((void*)U3CU3Ec__DisplayClass27_0_U3CShareAnchorsWithUserU3Eg__ShareCompleteCallbackU7C0_m5ECF19D3B6745A95F456223FA5387A89785E605C_RuntimeMethod_var), NULL);
 			NullCheck(L_38);
 			UnityEvent_2_AddListener_m814B9F27A403729A64A0BCE5650488EEEBB05FB2(L_38, L_40, UnityEvent_2_AddListener_m814B9F27A403729A64A0BCE5650488EEEBB05FB2_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:253>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:253>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_41 = V_1;
 			NullCheck(L_41);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_42 = L_41->____ssaCore;
@@ -22975,7 +22975,7 @@ IL_0092_1:
 			List_1_t3E323BC7E3853B57A3D121BEB59EFE91E67555F3* L_45 = V_4;
 			NullCheck(L_42);
 			SharedSpatialAnchorCore_ShareSpatialAnchors_m9B2006150AB9D481A85C6EFCADA057C62437A550(L_42, L_44, L_45, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:254>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:254>
 			U3CU3Ec__DisplayClass27_0_tF13987FCE17D697E9A815B7B59FE0A38AA8CAC6E* L_46 = __this->___U3CU3E8__1;
 			NullCheck(L_46);
 			TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_47 = L_46->___task;
@@ -23021,7 +23021,7 @@ IL_0188_1:
 		{
 			bool L_57;
 			L_57 = TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B((&V_5), TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:255>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:255>
 			SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* L_58 = V_1;
 			NullCheck(L_58);
 			SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* L_59 = L_58->____ssaCore;
@@ -23033,7 +23033,7 @@ IL_0188_1:
 			UnityAction_2__ctor_m8A4AE0B7F025D4F10C828B00659560AB7CA39CD0(L_62, L_61, (intptr_t)((void*)U3CU3Ec__DisplayClass27_0_U3CShareAnchorsWithUserU3Eg__ShareCompleteCallbackU7C0_m5ECF19D3B6745A95F456223FA5387A89785E605C_RuntimeMethod_var), NULL);
 			NullCheck(L_60);
 			UnityEvent_2_RemoveListener_m6600FD5AC4F83446D96EA60F5FE746A80E3FFF53(L_60, L_62, UnityEvent_2_RemoveListener_m6600FD5AC4F83446D96EA60F5FE746A80E3FFF53_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:256>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:256>
 			V_2 = L_57;
 			goto IL_01d3;
 		}
@@ -23065,7 +23065,7 @@ CATCH_01b3:
 
 IL_01d3:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:257>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:257>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CU3E8__1 = (U3CU3Ec__DisplayClass27_0_tF13987FCE17D697E9A815B7B59FE0A38AA8CAC6E*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)(U3CU3Ec__DisplayClass27_0_tF13987FCE17D697E9A815B7B59FE0A38AA8CAC6E*)NULL);
@@ -23087,7 +23087,7 @@ IL2CPP_EXTERN_C  void U3CShareAnchorsWithUserU3Ed__27_MoveNext_m713DB709D6842375
 	_thisAdjusted = reinterpret_cast<U3CShareAnchorsWithUserU3Ed__27_t09D8FEBA14251A05341CA7F972C3263C75CB2495*>(__this + _offset);
 	U3CShareAnchorsWithUserU3Ed__27_MoveNext_m713DB709D6842375F277689CA6CED831EA676B06(_thisAdjusted, method);
 }
-// Method Definition Index: 115716
+// Method Definition Index: 115792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShareAnchorsWithUserU3Ed__27_SetStateMachine_m0F654B80CA08E09E32C030C30407807557548E2F (U3CShareAnchorsWithUserU3Ed__27_t09D8FEBA14251A05341CA7F972C3263C75CB2495* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23120,7 +23120,7 @@ IL2CPP_EXTERN_C  void U3CShareAnchorsWithUserU3Ed__27_SetStateMachine_m0F654B80C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115717
+// Method Definition Index: 115793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual_add__debugVisibilityChanged_mDD1E49FD82B0B9058D0F22EF1401DD4ABF889EA9 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23165,7 +23165,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 115718
+// Method Definition Index: 115794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual_remove__debugVisibilityChanged_mB827FF70F825440A7A3E13846B6A20B96C4D0FD4 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23210,7 +23210,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 115719
+// Method Definition Index: 115795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AnchorDebugVisual_get_DebugVisualsVisible_mE57A46DD9C97AE11A8CB16BA7F1EB011E8DAA459 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23220,13 +23220,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AnchorDebugVisual_get_DebugVisualsVisibl
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:36>
 		il2cpp_codegen_runtime_class_init_inline(AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_il2cpp_TypeInfo_var);
 		bool L_0 = ((AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_StaticFields*)il2cpp_codegen_static_fields_for(AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_il2cpp_TypeInfo_var))->____debugVisualsVisible;
 		return L_0;
 	}
 }
-// Method Definition Index: 115720
+// Method Definition Index: 115796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual_set_DebugVisualsVisible_m8DF3B495F1F742E98B641901A0838BAA2BDFBBF8 (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23236,7 +23236,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual_set_DebugVisualsVisibl
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:39>
 		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_il2cpp_TypeInfo_var);
 		bool L_1 = ((AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_StaticFields*)il2cpp_codegen_static_fields_for(AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_il2cpp_TypeInfo_var))->____debugVisualsVisible;
@@ -23246,25 +23246,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual_set_DebugVisualsVisibl
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:41>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:44>
 		bool L_2 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_il2cpp_TypeInfo_var);
 		((AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_StaticFields*)il2cpp_codegen_static_fields_for(AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_il2cpp_TypeInfo_var))->____debugVisualsVisible = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:45>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ((AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_StaticFields*)il2cpp_codegen_static_fields_for(AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_il2cpp_TypeInfo_var))->____debugVisibilityChanged;
 		NullCheck(L_3);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 115721
+// Method Definition Index: 115797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual_Awake_m5D0B0010C05B93D97161C39A29B94BE30CDD5EC3 (AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23276,18 +23276,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual_Awake_m5D0B0010C05B93D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:51>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_0, __this, (intptr_t)((void*)AnchorDebugVisual_OnDebugVisibilityChanged_m601E40EE0F0C4391A83F21B4E2046E20434D5F03_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_il2cpp_TypeInfo_var);
 		AnchorDebugVisual_add__debugVisibilityChanged_mDD1E49FD82B0B9058D0F22EF1401DD4ABF889EA9(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:52>
 		AnchorDebugVisual_OnDebugVisibilityChanged_m601E40EE0F0C4391A83F21B4E2046E20434D5F03(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:53>
 		return;
 	}
 }
-// Method Definition Index: 115722
+// Method Definition Index: 115798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual_OnDebugVisibilityChanged_m601E40EE0F0C4391A83F21B4E2046E20434D5F03 (AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23297,18 +23297,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual_OnDebugVisibilityChang
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:57>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_il2cpp_TypeInfo_var);
 		bool L_1 = ((AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_StaticFields*)il2cpp_codegen_static_fields_for(AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_il2cpp_TypeInfo_var))->____debugVisualsVisible;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:58>
 		return;
 	}
 }
-// Method Definition Index: 115723
+// Method Definition Index: 115799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual__ctor_mE6CDD9C8D8B69410DF98CF344E440C109693159D (AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23316,7 +23316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual__ctor_mE6CDD9C8D8B6941
 		return;
 	}
 }
-// Method Definition Index: 115724
+// Method Definition Index: 115800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual__cctor_m039567BD2E6018F0BB45C0C4DECEC1ADBDCBFAC6 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23326,7 +23326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual__cctor_m039567BD2E6018
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:31>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/AnchorDebugVisual.cs:31>
 		((AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_StaticFields*)il2cpp_codegen_static_fields_for(AnchorDebugVisual_tF00520CF2A29D719769C52E7D4A81B1983B21CE7_il2cpp_TypeInfo_var))->____debugVisualsVisible = (bool)1;
 		return;
 	}
@@ -23347,7 +23347,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorDebugVisual__cctor_m039567BD2E6018
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115725
+// Method Definition Index: 115801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407 (String_t* ___0_message, int32_t ___1_logLevel, const RuntimeMethod* method) 
 {
 	{
@@ -23382,53 +23382,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_Log_m1744FCE6311D4AEF21AEC43B4579
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:42>
 		String_t* L_1 = ___0_message;
 		Logger_LogVerbose_mFC188FDFD995FE5A2D5EA65F02DEDC5D4CE0C68A(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:43>
 		return;
 	}
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:45>
 		String_t* L_2 = ___0_message;
 		Logger_LogInfo_mF40A6AF5A2592E10B85E38FF80C4B91E652CCB57(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:46>
 		return;
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:48>
 		String_t* L_3 = ___0_message;
 		Logger_LogWarning_mBBF5CB275FE933E4320FB8F097C37E476B8EF25B(L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:49>
 		return;
 	}
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:51>
 		String_t* L_4 = ___0_message;
 		Logger_LogError_mFBABD9D58907C8A1174438B798172220F14A1622(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:52>
 		return;
 	}
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:54>
 		String_t* L_5 = ___0_message;
 		Logger_LogSharedSpatialAnchorsError_m7C396B89D0E750416C5C288FCDA24079D1EF3BD0(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:55>
 		return;
 	}
 
 IL_003f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:57>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:58>
 		int32_t L_6 = ___1_logLevel;
 		int32_t L_7 = L_6;
 		RuntimeObject* L_8 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&LogLevel_t747933162A2130327A09239A0B3A9DC186EEE1D9_il2cpp_TypeInfo_var)), &L_7);
@@ -23442,7 +23442,7 @@ IL_003f:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Logger_Log_m1744FCE6311D4AEF21AEC43B4579074B8FF05407_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 115726
+// Method Definition Index: 115802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogVerbose_mFC188FDFD995FE5A2D5EA65F02DEDC5D4CE0C68A (String_t* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23453,7 +23453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogVerbose_mFC188FDFD995FE5A2D5EA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:64>
 		bool L_0 = ((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isVerboseLogVisible;
 		if (!L_0)
 		{
@@ -23461,24 +23461,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogVerbose_mFC188FDFD995FE5A2D5EA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:66>
 		String_t* L_1;
 		L_1 = Logger_GetPrefixMessage_mD4053E6019A7573907944FC1D97D4E78E63DF452(0, NULL);
 		String_t* L_2 = ___0_message;
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:67>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:69>
 		return;
 	}
 }
-// Method Definition Index: 115727
+// Method Definition Index: 115803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogInfo_mF40A6AF5A2592E10B85E38FF80C4B91E652CCB57 (String_t* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23489,7 +23489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogInfo_mF40A6AF5A2592E10B85E38FF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:73>
 		bool L_0 = ((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isInfoLogVisible;
 		if (!L_0)
 		{
@@ -23497,24 +23497,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogInfo_mF40A6AF5A2592E10B85E38FF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:75>
 		String_t* L_1;
 		L_1 = Logger_GetPrefixMessage_mD4053E6019A7573907944FC1D97D4E78E63DF452(1, NULL);
 		String_t* L_2 = ___0_message;
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:76>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:78>
 		return;
 	}
 }
-// Method Definition Index: 115728
+// Method Definition Index: 115804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogWarning_mBBF5CB275FE933E4320FB8F097C37E476B8EF25B (String_t* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23525,7 +23525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogWarning_mBBF5CB275FE933E4320FB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:82>
 		bool L_0 = ((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isWarningLogVisible;
 		if (!L_0)
 		{
@@ -23533,24 +23533,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogWarning_mBBF5CB275FE933E4320FB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:84>
 		String_t* L_1;
 		L_1 = Logger_GetPrefixMessage_mD4053E6019A7573907944FC1D97D4E78E63DF452(2, NULL);
 		String_t* L_2 = ___0_message;
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:85>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_3, NULL);
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:87>
 		return;
 	}
 }
-// Method Definition Index: 115729
+// Method Definition Index: 115805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogError_mFBABD9D58907C8A1174438B798172220F14A1622 (String_t* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23561,7 +23561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogError_mFBABD9D58907C8A1174438B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:91>
 		bool L_0 = ((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isErrorLogVisible;
 		if (!L_0)
 		{
@@ -23569,24 +23569,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogError_mFBABD9D58907C8A1174438B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:93>
 		String_t* L_1;
 		L_1 = Logger_GetPrefixMessage_mD4053E6019A7573907944FC1D97D4E78E63DF452(3, NULL);
 		String_t* L_2 = ___0_message;
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:94>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_3, NULL);
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:96>
 		return;
 	}
 }
-// Method Definition Index: 115730
+// Method Definition Index: 115806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogSharedSpatialAnchorsError_m7C396B89D0E750416C5C288FCDA24079D1EF3BD0 (String_t* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23597,7 +23597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogSharedSpatialAnchorsError_m7C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:100>
 		bool L_0 = ((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isSharedSpatialAnchorsErrorVisible;
 		if (!L_0)
 		{
@@ -23605,24 +23605,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogSharedSpatialAnchorsError_m7C3
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:102>
 		String_t* L_1;
 		L_1 = Logger_GetPrefixMessage_mD4053E6019A7573907944FC1D97D4E78E63DF452(4, NULL);
 		String_t* L_2 = ___0_message;
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:103>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_3, NULL);
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:105>
 		return;
 	}
 }
-// Method Definition Index: 115731
+// Method Definition Index: 115807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Logger_GetPrefixMessage_mD4053E6019A7573907944FC1D97D4E78E63DF452 (int32_t ___0_logLevel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23633,7 +23633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Logger_GetPrefixMessage_mD4053E6019
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:110>
 		int32_t L_0 = ___0_logLevel;
 		int32_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(LogLevel_t747933162A2130327A09239A0B3A9DC186EEE1D9_il2cpp_TypeInfo_var, &L_1);
@@ -23642,7 +23642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Logger_GetPrefixMessage_mD4053E6019
 		return L_3;
 	}
 }
-// Method Definition Index: 115732
+// Method Definition Index: 115808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_SetLogLevelVisibility_m871424AE1F8623E22E6FB6DA49683AB0E280B039 (int32_t ___0_logLevel, bool ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23683,53 +23683,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_SetLogLevelVisibility_m871424AE1F
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:118>
 		bool L_1 = ___1_value;
 		((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isVerboseLogVisible = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:119>
 		return;
 	}
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:121>
 		bool L_2 = ___1_value;
 		((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isInfoLogVisible = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:122>
 		return;
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:124>
 		bool L_3 = ___1_value;
 		((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isWarningLogVisible = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:125>
 		return;
 	}
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:127>
 		bool L_4 = ___1_value;
 		((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isErrorLogVisible = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:128>
 		return;
 	}
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:130>
 		bool L_5 = ___1_value;
 		((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isSharedSpatialAnchorsErrorVisible = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:131>
 		return;
 	}
 
 IL_003f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:133>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:134>
 		int32_t L_6 = ___0_logLevel;
 		int32_t L_7 = L_6;
 		RuntimeObject* L_8 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&LogLevel_t747933162A2130327A09239A0B3A9DC186EEE1D9_il2cpp_TypeInfo_var)), &L_7);
@@ -23743,7 +23743,7 @@ IL_003f:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Logger_SetLogLevelVisibility_m871424AE1F8623E22E6FB6DA49683AB0E280B039_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 115733
+// Method Definition Index: 115809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_SetAllLogsVisibility_m6347AC30FC41D495C5E2AAAF72F319884CEC45D3 (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23753,22 +23753,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_SetAllLogsVisibility_m6347AC30FC4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:140>
 		bool L_0 = ___0_value;
 		((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isVerboseLogVisible = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:141>
 		bool L_1 = ___0_value;
 		((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isInfoLogVisible = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:142>
 		bool L_2 = ___0_value;
 		((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isWarningLogVisible = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:143>
 		bool L_3 = ___0_value;
 		((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isErrorLogVisible = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:144>
 		bool L_4 = ___0_value;
 		((Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_StaticFields*)il2cpp_codegen_static_fields_for(Logger_t78BAAE57253765B4B115E2B63D349BE6081F1B23_il2cpp_TypeInfo_var))->____isSharedSpatialAnchorsErrorVisible = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Utils/Logger.cs:145>
 		return;
 	}
 }
@@ -23807,11 +23807,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_SetAllLogsVisibility_m6347AC30FC4
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 115671
+// Method Definition Index: 115747
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SharedAnchorManager_set_AnchorPrefab_m2C2439E15E3E5872E5ECF8F031E5C960B4A4B956_inline (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:53>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_value;
 		__this->___U3CAnchorPrefabU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAnchorPrefabU3Ek__BackingField), (void*)L_0);
@@ -23828,7 +23828,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MRUK_tD09615374DB9F7EFEEE6BA25E2F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:549>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:549>
 		il2cpp_codegen_runtime_class_init_inline(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var);
 		MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* L_0 = ((MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_StaticFields*)il2cpp_codegen_static_fields_for(MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
 		return L_0;
@@ -23838,7 +23838,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MRUK_tD09615374DB9F7EFEEE6BA25E2F
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* MRUKRoom_get_FloorAnchors_m6A53415ACB6DEA4EAB7805A780B7D07B344EC05C_inline (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:164>
 		List_1_tE869D4668F953424E56CA19D4543224CE2F642A9* L_0 = __this->___U3CFloorAnchorsU3Ek__BackingField;
 		return L_0;
 	}
@@ -23847,7 +23847,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tE869D4668F953424E56CA19D4
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 MRUKRoom_get_Anchor_m268BBFC01E2CD37279BF9ED0D9447D177FAE5B10_inline (MRUKRoom_t2D8F925984BB79DB510F6BC67BEB9921E66410F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUKRoom.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKRoom.cs:104>
 		OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061 L_0 = __this->___U3CAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -23856,7 +23856,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRAnchor_tC6603E0C1628ACAA50D8CC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Guid_t OVRAnchor_get_Uuid_mB4A38F13C1AA2C5F8DC98BFED64D55DE34F4059D_inline (OVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRAnchor/OVRAnchor.cs:1171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRAnchor/OVRAnchor.cs:1171>
 		Guid_t L_0 = __this->___U3CUuidU3Ek__BackingField;
 		return L_0;
 	}
@@ -23865,12 +23865,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Guid_t OVRAnchor_get_Uuid_mB4A38F
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MRUK_get_IsInitialized_mC05FB32131087F618AFEC89B2CD16A743B75C769_inline (MRUK_tD09615374DB9F7EFEEE6BA25E2FA70F8B6E11BA4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@31f30b04be0b/Core/Scripts/MRUK.cs:251>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUK.cs:251>
 		bool L_0 = __this->___U3CIsInitializedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 115656
+// Method Definition Index: 115732
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* NetworkAdapter_get_NetworkData_mFACD32167139B4EFF2B2F6494F4EAD8BCEE2C843_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23880,12 +23880,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* NetworkAdapter_get
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:28>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:28>
 		RuntimeObject* L_0 = ((NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_il2cpp_TypeInfo_var))->___U3CNetworkDataU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 115658
+// Method Definition Index: 115734
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* NetworkAdapter_get_NetworkMessenger_m2AFD625C900B9F5D0F414091F22B0462AD6A43C8_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23895,7 +23895,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* NetworkAdapter_get
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:30>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:30>
 		RuntimeObject* L_0 = ((NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_il2cpp_TypeInfo_var))->___U3CNetworkMessengerU3Ek__BackingField;
 		return L_0;
 	}
@@ -23906,65 +23906,65 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 115451
+// Method Definition Index: 115527
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CustomMatchmaking_get_IsPasswordProtected_m9A32483398D052911A365C22329438E64D1A3158_inline (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:222>
 		bool L_0 = __this->___isPasswordProtected;
 		return L_0;
 	}
 }
-// Method Definition Index: 115449
+// Method Definition Index: 115525
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CustomMatchmaking_get_MaxPlayersPerRoom_mF570DEDA953550B5CF08C8C36127279E05E32164_inline (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:210>
 		int32_t L_0 = __this->___maxPlayersPerRoom;
 		return L_0;
 	}
 }
-// Method Definition Index: 115445
+// Method Definition Index: 115521
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* CustomMatchmaking_get_LobbyName_mC212392E843B115ACADBE3F2BF1E805362D8ABDC_inline (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:185>
 		String_t* L_0 = __this->___lobbyName;
 		return L_0;
 	}
 }
-// Method Definition Index: 115447
+// Method Definition Index: 115523
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CustomMatchmaking_get_IsPrivate_mAD89F794F41DD131CC3C212526000DCDAE93F6A8_inline (CustomMatchmaking_tC115EBDC2F1980E0B5B4CE7F88A4FB1770931239* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmaking.cs:198>
 		bool L_0 = __this->___isPrivate;
 		return L_0;
 	}
 }
-// Method Definition Index: 115489
+// Method Definition Index: 115565
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* FriendsMatchmaking_get_DestinationApi_m23C3EC54E000BCC1528A0C7E1B2C4B49316048A6_inline (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:66>
 		String_t* L_0 = __this->___destinationApi;
 		return L_0;
 	}
 }
-// Method Definition Index: 115491
+// Method Definition Index: 115567
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* FriendsMatchmaking_get_InviteMessage_m293332685A10EAA4DAC7807E4630A21E549143F6_inline (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:81>
 		String_t* L_0 = __this->___inviteMessage;
 		return L_0;
 	}
 }
-// Method Definition Index: 115493
+// Method Definition Index: 115569
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t FriendsMatchmaking_get_MaxRetries_m99E618E6574779F653ED836B5932246A837D3C28_inline (FriendsMatchmaking_t2947ECA54C91BCC221B86325F065EB9DFE7D9B0A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/FriendsMatchmaking/FriendsMatchmaking.cs:96>
 		uint32_t L_0 = __this->___maxRetries;
 		return L_0;
 	}
@@ -23973,7 +23973,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t FriendsMatchmaking_get_M
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Guid_t Data_get_AdvertisementUuid_mFD4009C6539B1EEFFCB21C0857B3B05779BF30D2_inline (Data_t7D77210C10D419D874B66E954524D35D2CC3BEE9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRColocationSession.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRColocationSession.cs:83>
 		Guid_t L_0 = __this->___U3CAdvertisementUuidU3Ek__BackingField;
 		return L_0;
 	}
@@ -23982,7 +23982,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Guid_t Data_get_AdvertisementUuid
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* Data_get_Metadata_m6B2922DB59BEAF03963C67D0690FF29061993F70_inline (Data_t7D77210C10D419D874B66E954524D35D2CC3BEE9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRColocationSession.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRColocationSession.cs:89>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___U3CMetadataU3Ek__BackingField;
 		return L_0;
 	}
@@ -23996,7 +23996,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEvent_get_Type_mC8
 		return L_0;
 	}
 }
-// Method Definition Index: 115576
+// Method Definition Index: 115652
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PlatformInit_get_status_mACB52F21441DF2541EFB74788BE644B41A5D5ED8_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24006,12 +24006,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PlatformInit_get_status_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:51>
 		int32_t L_0 = ((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->___U3CstatusU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 115577
+// Method Definition Index: 115653
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlatformInit_set_status_mF40BB3FABC3960545EB9A7B9BD3E6C502B5012E9_inline (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24021,17 +24021,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlatformInit_set_status_mF40
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs:51>
 		int32_t L_0 = ___0_value;
 		((PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_StaticFields*)il2cpp_codegen_static_fields_for(PlatformInit_tB0F37F2B3E0947D27BDD81156C685515ADBE8410_il2cpp_TypeInfo_var))->___U3CstatusU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 115598
+// Method Definition Index: 115674
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* AlignCameraToAnchor_get_CameraAlignmentAnchor_m8F3DA7471AF57FBCBEA7D7F57B5E719C2CAD5210_inline (AlignCameraToAnchor_tA5F6F169AF9D66CC4E8E83DFB406A83779F629D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:31>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs:31>
 		OVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874* L_0 = __this->___U3CCameraAlignmentAnchorU3Ek__BackingField;
 		return L_0;
 	}
@@ -24095,7 +24095,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 115657
+// Method Definition Index: 115733
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetworkAdapter_set_NetworkData_m883CA15768561C8B0886467E172A178E8EA21730_inline (RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24105,14 +24105,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetworkAdapter_set_NetworkDa
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:28>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:28>
 		RuntimeObject* L_0 = ___0_value;
 		((NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_il2cpp_TypeInfo_var))->___U3CNetworkDataU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_il2cpp_TypeInfo_var))->___U3CNetworkDataU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 115659
+// Method Definition Index: 115735
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetworkAdapter_set_NetworkMessenger_mE8C4479A4025E0D91915F12E60DB0BE1B5979721_inline (RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24122,27 +24122,27 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetworkAdapter_set_NetworkMe
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:30>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkImpl/NetworkAdapter.cs:30>
 		RuntimeObject* L_0 = ___0_value;
 		((NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_il2cpp_TypeInfo_var))->___U3CNetworkMessengerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAdapter_tB06B287A268D9E268F60A55927DAA8BCE3142E9D_il2cpp_TypeInfo_var))->___U3CNetworkMessengerU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 116594
+// Method Definition Index: 116670
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnityEvent_2_t8BD8B2D552DBAC71219AB8986931168387484C85* SpatialAnchorCoreBuildingBlock_get_OnAnchorCreateCompleted_mD4EB0E9AB1E3E21FFE4A9D95A08A7B1CA15E7D6C_inline (SpatialAnchorCoreBuildingBlock_tCA657382824F34BC3401DD717A2F15F80ECA65B7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/SpatialAnchorManagerBlockScripts/SpatialAnchorCoreBuildingBlock.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/SpatialAnchorManagerBlockScripts/SpatialAnchorCoreBuildingBlock.cs:41>
 		UnityEvent_2_t8BD8B2D552DBAC71219AB8986931168387484C85* L_0 = __this->____onAnchorCreateCompleted;
 		return L_0;
 	}
 }
-// Method Definition Index: 115670
+// Method Definition Index: 115746
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* SharedAnchorManager_get_AnchorPrefab_m81B6D6E396C4AD581762945EFCB7EF4B8C8C5174_inline (SharedAnchorManager_t6C74506A57BFC0EC03A385E84122B0D6C8194A28* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs:53>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___U3CAnchorPrefabU3Ek__BackingField;
 		return L_0;
 	}
@@ -24170,29 +24170,29 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 116570
+// Method Definition Index: 116646
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnityEvent_2_tB173A6D4C4CE87F18453AA2364F1661D7D8A06F0* SharedSpatialAnchorCore_get_OnSharedSpatialAnchorsLoadCompleted_m762CEDE50938B890FEF82EF266D9BC091AEA9A26_inline (SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/SharedSpatialAnchorCore/SharedSpatialAnchorCore.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/SharedSpatialAnchorCore/SharedSpatialAnchorCore.cs:60>
 		UnityEvent_2_tB173A6D4C4CE87F18453AA2364F1661D7D8A06F0* L_0 = __this->____onSharedSpatialAnchorsLoadCompleted;
 		return L_0;
 	}
 }
-// Method Definition Index: 116568
+// Method Definition Index: 116644
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnityEvent_2_t846304867740220F4B3BB878680907D84C9B041D* SharedSpatialAnchorCore_get_OnSpatialAnchorsShareToGroupCompleted_mE6F7907C0E7913550E7864E36ABD1DDBE83867E6_inline (SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/SharedSpatialAnchorCore/SharedSpatialAnchorCore.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/SharedSpatialAnchorCore/SharedSpatialAnchorCore.cs:51>
 		UnityEvent_2_t846304867740220F4B3BB878680907D84C9B041D* L_0 = __this->____onSpatialAnchorsShareToGroupCompleted;
 		return L_0;
 	}
 }
-// Method Definition Index: 116566
+// Method Definition Index: 116642
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnityEvent_2_tB173A6D4C4CE87F18453AA2364F1661D7D8A06F0* SharedSpatialAnchorCore_get_OnSpatialAnchorsShareCompleted_m54D563D9453DC71364BA9A07BC871B3600980F02_inline (SharedSpatialAnchorCore_t9CCBFB36FC728AC3B6E5907275460B1CEA08FE96* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/BuildingBlocks/SharedSpatialAnchorCore/SharedSpatialAnchorCore.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/SharedSpatialAnchorCore/SharedSpatialAnchorCore.cs:45>
 		UnityEvent_2_tB173A6D4C4CE87F18453AA2364F1661D7D8A06F0* L_0 = __this->____onSpatialAnchorsShareCompleted;
 		return L_0;
 	}
