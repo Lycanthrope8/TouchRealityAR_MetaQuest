@@ -17,6 +17,9 @@ namespace ARObjectDetection
         /// <summary>
         /// Convert OpenCV solvePnP output (rvec, tvec) to a Unity Pose representing
         /// the tag/marker pose in camera coordinates.
+        /// 
+        /// CRITICAL FIX: Use standard OpenCV→Unity conversion (keep +Z forward).
+        /// Previous negation of Z was incorrect and caused tags to be placed behind camera.
         /// </summary>
         public static Pose TagInCamera_FromOpenCvRvecTvec(float[] rvec, float[] tvec)
         {
@@ -27,21 +30,29 @@ namespace ARObjectDetection
             }
 
             // === TRANSLATION ===
-            // OpenCV: +X right, +Y down, +Z forward
-            // Unity:  +X right, +Y up,   +Z forward
+            // OpenCV: +X right, +Y down, +Z forward (into scene)
+            // Unity:  +X right, +Y up,   +Z forward (into scene)
             // 
-            // Standard conversion would be: flip Y only
-            // BUT: Quest passthrough camera has inverted Z, so we also negate Z
-            // This places markers IN FRONT of the camera (positive Z) instead of behind
+            // STANDARD CONVERSION: Only flip Y axis
+            // DO NOT negate Z - this would place markers behind camera!
             Vector3 translationUnity = new Vector3(
                 tvec[0],      // X: same (right is right)
                 -tvec[1],     // Y: flip (OpenCV down -> Unity up)
-                -tvec[2]      // Z: NEGATE (fixes Quest passthrough camera convention)
+                tvec[2]       // Z: KEEP POSITIVE (forward is forward)
             );
 
             // === ROTATION ===
             Quaternion rotationOpenCv = RodriguesToQuaternion(rvec);
             Quaternion rotationUnity = ConvertRotationOpenCvToUnity(rotationOpenCv);
+
+            // === SANITY CHECK ===
+            // Tag pose in camera space MUST have positive Z (in front of camera)
+            if (translationUnity.z < 0.01f)
+            {
+                Debug.LogWarning($"[OpenCvPoseConversion] Tag has negative/zero Z in camera space: {translationUnity.z:F3}. " +
+                               $"This means tag is BEHIND camera - likely a pose computation error. " +
+                               $"Raw tvec=[{tvec[0]:F3}, {tvec[1]:F3}, {tvec[2]:F3}]");
+            }
 
             return new Pose(translationUnity, rotationUnity);
         }
@@ -64,13 +75,12 @@ namespace ARObjectDetection
 
         private static Quaternion ConvertRotationOpenCvToUnity(Quaternion rotOpenCv)
         {
-            // For Y-axis flip: negate x and z components
-            // For Z-axis flip: also need to adjust rotation
-            // Combined Y and Z flip: negate x and y components, keep z and w
+            // For Y-axis flip only (standard OpenCV→Unity):
+            // Negate x and z components
             return new Quaternion(
                 -rotOpenCv.x,  // Flip
-                -rotOpenCv.y,  // Flip (for Z axis inversion)
-                rotOpenCv.z,   // Keep
+                rotOpenCv.y,   // Keep
+                -rotOpenCv.z,  // Flip
                 rotOpenCv.w    // Keep
             );
         }

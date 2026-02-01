@@ -72,6 +72,9 @@ namespace ARObjectDetection
         private int fiducialsMissingPose = 0;
         private int fiducialsStaleResponse = 0;
 
+        // === FIX: Track detection pose misses ===
+        private int detectionsMissingPose = 0;
+
         // === SITEFRAME: Last valid pose hint for ArUco disambiguation ===
         // Stores the most recent valid rvec/tvec to send to server for pose continuity
         private PoseHint? lastValidPoseHint = null;
@@ -83,6 +86,41 @@ namespace ARObjectDetection
         public ObjectTracker Tracker => tracker;
         public DepthAnchorSystem DepthAnchors => depthAnchorSystem;
         public SiteFrameManager SiteFrame => siteFrameManager;
+
+        // ============================================================
+        // NEW: Public API for AprilTag Integration (no reflection needed)
+        // ============================================================
+
+        /// <summary>
+        /// Try to get the camera pose that was recorded when a specific frame was captured.
+        /// Used by AprilTag integration for accurate pose timing (no current-pose fallback).
+        /// 
+        /// This provides a public, non-reflection API to access the pose buffer,
+        /// which is essential for accurate AprilTag pose computation.
+        /// </summary>
+        /// <param name="frameId">The frame ID from the detection response</param>
+        /// <param name="pose">Output: The camera pose at capture time</param>
+        /// <returns>True if pose was found in buffer, false if expired or not found</returns>
+        public bool TryGetCameraPoseForFrame(int frameId, out Pose pose)
+        {
+            pose = Pose.identity;
+
+            if (cameraPoseBuffer == null)
+            {
+                return false;
+            }
+
+            return cameraPoseBuffer.TryGet(frameId, out pose);
+        }
+
+        /// <summary>
+        /// Get the number of poses currently in the buffer (for diagnostics).
+        /// </summary>
+        public int CameraPoseBufferCount => cameraPoseBuffer?.Count ?? 0;
+
+        // ============================================================
+        // END NEW API
+        // ============================================================
 
         private int lastAcceptedFrameId = -1;
         public float maxResponseAgeToAccept = 0.8f;
@@ -211,7 +249,7 @@ namespace ARObjectDetection
             }
 
             string siteFrameStatus = siteFrameManager != null ? "enabled" : "not found (fiducial data will be ignored)";
-            Debug.Log($"ARDetectionManager initialized with depth-based anchor placement. SiteFrame: {siteFrameStatus}");
+            Debug.Log($"ARDetectionManager initialized with CAPTURE-TIME POSE FIX. SiteFrame: {siteFrameStatus}");
         }
 
         private void Start()
@@ -251,6 +289,7 @@ namespace ARObjectDetection
             cameraPoseBuffer?.Clear();
             fiducialsMissingPose = 0;
             fiducialsStaleResponse = 0;
+            detectionsMissingPose = 0;
             Debug.Log("Detection started");
         }
 
@@ -392,6 +431,12 @@ namespace ARObjectDetection
                         }
                     }
 
+                    // === FIX: Log detection pose misses ===
+                    if (detectionsMissingPose > 0)
+                    {
+                        Debug.LogWarning($"[ARDetectionManager] Detections skipped due to missing pose: {detectionsMissingPose}");
+                    }
+
                     Debug.Log("========================");
                 }
             }
@@ -463,10 +508,25 @@ namespace ARObjectDetection
                 response.count = response.detections.Count;
             }
 
-            // Process through tracker
+            // === FIX: Get capture-time camera pose for tracker ===
             if (tracker != null)
             {
-                tracker.ProcessDetections(response);
+                if (TryGetCameraPoseForFrame(response.frame_id, out Pose cameraPoseAtCapture))
+                {
+                    // CRITICAL FIX: Pass capture-time pose to tracker
+                    tracker.ProcessDetections(response, cameraPoseAtCapture);
+                }
+                else
+                {
+                    // Pose buffer miss - log warning and skip processing
+                    detectionsMissingPose++;
+                    if (verboseSiteFrameLogs)
+                    {
+                        Debug.LogWarning($"[ARDetectionManager] SKIPPING detections for frame {response.frame_id} - " +
+                                        $"no capture-time pose in buffer. Buffer: {cameraPoseBuffer?.GetDiagnosticInfo()}");
+                    }
+                    // DO NOT fall back to current pose - that causes the coordinate mismatch!
+                }
             }
 
             // 3D Bounding boxes (optional)
@@ -519,6 +579,8 @@ namespace ARObjectDetection
 
             // === DIAGNOSTIC: Prepare logging data ===
             int frameId = response.frame_id;
+
+            // Buffer lookup
             bool bufferHasPose = cameraPoseBuffer.TryGetEntry(frameId, out PoseBufferEntry bufferEntry);
             float bufferPoseAge = bufferHasPose ? (currentTime - bufferEntry.CaptureTime) : -1f;
 

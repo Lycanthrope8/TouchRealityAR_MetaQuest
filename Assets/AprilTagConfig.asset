@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: AprilTagConfig
+  m_EditorClassIdentifier: Assembly-CSharp:ARObjectDetection.AprilTag:AprilTagConfig
+  RequiredConsecutiveDetections: 8
+  MaxStablePositionDelta: 0.05
+  MaxStableRotationDelta: 15
+  MinQualityForLatch: 1
+  RefineThreshold: 0.05
+  ConflictThreshold: 0.25
+  GentleCorrectionDuration: 0.3
+  SlowCorrectionDuration: 1
+  SiteFrameMarkerId: 0
+  RequireSiteFrame: 1
+  EnableDebugLogs: 1
+  ShowDebugGUI: 1

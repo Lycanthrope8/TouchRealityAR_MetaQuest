@@ -860,6 +860,7 @@ GameObject:
   - component: {fileID: 670715295}
   - component: {fileID: 670715296}
   - component: {fileID: 670715297}
+  - component: {fileID: 670715298}
   m_Layer: 0
   m_Name: ARDetectionManager
   m_TagString: Untagged
@@ -888,6 +889,7 @@ MonoBehaviour:
   depthAnchorSystem: {fileID: 670715295}
   siteFrameManager: {fileID: 0}
   enableSiteFrame: 1
+  verboseSiteFrameLogs: 1
   enable3DBoundingBoxes: 0
   enableDepthAnchors: 1
   OnDetectionReceived:
@@ -956,6 +958,7 @@ MonoBehaviour:
   environmentRaycastManager: {fileID: 1190586617}
   anchorPrefab: {fileID: 8553739118990585630, guid: f3adb2d8a152ab1499e342bccefb2ba8, type: 3}
   objectTracker: {fileID: 670715294}
+  tagTrackAssociator: {fileID: 0}
   infoPanelPrefab: {fileID: 7405791483200750014, guid: 45580b3c7797ce3469f5007412055534, type: 3}
   interactionController: 2
   selectButton: 8192
@@ -969,66 +972,30 @@ MonoBehaviour:
   hideRayWhenNoHit: 0
   selectionRayMaxDistance: 10
   selectionRayTriggerInteraction: 2
-  tintRayByHit: 1
-  rayNoHitColor: {r: 1, g: 0, b: 1, a: 1}
-  rayHitColor: {r: 0, g: 1, b: 1, a: 1}
   cameraEye: 0
-  defaultFollowMode: 1
-  portableClasses:
-  - mouse
-  - cell phone
-  - cup
-  - bottle
-  - remote
-  - book
-  - keyboard
-  - handbag
-  - backpack
-  staticClasses:
-  - couch
-  - chair
-  - bed
-  - dining table
-  - tv
-  - refrigerator
-  - oven
-  - sink
-  - toilet
-  - potted plant
-  - laptop
-  maxFreshnessForUpdate: 0.35
-  smoothFreshUpdates: 1
-  freshUpdateSmoothingAlpha: 0.5
-  minPositionChangeForUpdate: 0.005
-  displaySmoothTime: 0.08
-  maxDisplaySpeed: 8
-  placementPoint: 3
+  defaultAnchorColor: {r: 0, g: 1, b: 1, a: 1}
+  aprilTagAssociatedColor: {r: 0, g: 1, b: 0, a: 1}
+  selectedColor: {r: 1, g: 0.5, b: 0, a: 1}
+  pendingColor: {r: 1, g: 1, b: 0, a: 0.5}
   verticalOffset: -0.02
-  fallbackDepth: 2
   maxRaycastDistance: 50
-  customYPercent: 0
-  minConfidenceToLock: 0.5
-  lockCooldown: 0.5
-  keepAnchorsWhenLost: 1
-  lostAnchorVisibilityTime: 0
-  fadeLostAnchors: 1
-  onlyConfirmedTracks: 1
-  minimumConfidence: 0.3
   anchorScale: 0.1
   scaleWithDistance: 0
-  confirmedColor: {r: 0.2, g: 1, b: 0.4, a: 1}
-  tentativeColor: {r: 1, g: 0.85, b: 0.2, a: 0.9}
-  lockedColor: {r: 0, g: 0.8, b: 1, a: 1}
-  selectedColor: {r: 1, g: 0.5, b: 0, a: 1}
-  lostColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
-  staleColor: {r: 0.7, g: 0.7, b: 0.5, a: 0.9}
+  minimumConfidence: 0.3
+  framesRequiredToConfirm: 15
+  framesToRemoveWhenMissedInView: 20
+  fovMargin: 5
   enableDebugLogs: 1
-  drawDebugRays: 1
-  showDataFreshnessInLabel: 0
   OnAnchorSelected:
     m_PersistentCalls:
       m_Calls: []
   OnAnchorDeselected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAnchorConfirmed:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAnchorRemoved:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &670715296
@@ -1044,7 +1011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.SiteFrameManager
   requiredConsecutiveObservations: 8
-  graceSeconds: 15
+  occlusionThresholdSeconds: 0.5
   minConfidence: 0.2
   positionSmoothingAlpha: 0.3
   rotationSmoothingAlpha: 0.3
@@ -1059,7 +1026,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670715291}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 35f65119b39ca034caf2302ef8e01d89, type: 3}
   m_Name: 
@@ -1069,6 +1036,26 @@ MonoBehaviour:
   spawnButton: 8192
   cubeSize: 0.1
   logConversions: 1
+--- !u!114 &670715298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670715291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6525881cc1cef7f468acc74335b539b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.AprilTag.AprilTagIntegration
+  assetTagManager: {fileID: 1837017233}
+  siteFrameManager: {fileID: 670715296}
+  enableAprilTagProcessing: 1
+  siteFrameMarkerId: 0
+  maxResponseAge: 0.8
+  enableDebugLogs: 1
+  multiMarkerLogInterval: 2
+  bufferMissLogInterval: 5
 --- !u!1 &691523315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,6 +1907,166 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1837017228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1837017234}
+  - component: {fileID: 1837017233}
+  - component: {fileID: 1837017232}
+  - component: {fileID: 1837017231}
+  - component: {fileID: 1837017230}
+  - component: {fileID: 1837017229}
+  m_Layer: 0
+  m_Name: AprilTagSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1837017229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837017228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6833fcaf5f420284c90431b043ad642a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.AprilTag.UI.AprilTagPanel
+  assetTagManager: {fileID: 1837017233}
+  tagTrackAssociator: {fileID: 1837017232}
+  poseCorrector: {fileID: 1837017231}
+  panelRoot: {fileID: 0}
+  panelDistanceFromHead: 1.5
+  followHead: 1
+  followSmoothTime: 0.3
+  titleText: {fileID: 0}
+  statusText: {fileID: 0}
+  tagListText: {fileID: 0}
+--- !u!114 &1837017230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837017228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ead7c8d6f013a04cb8fa8a11897709c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.AprilTag.AprilTagOverlayManager
+  assetTagManager: {fileID: 1837017233}
+  poseCorrector: {fileID: 1837017231}
+  overlayPrefab: {fileID: 0}
+  overlayScale: 0.1
+  positionSmoothTime: 0.1
+  enableOverlays: 0
+  latchedColor: {r: 0, g: 1, b: 0, a: 1}
+  conflictColor: {r: 1, g: 0.5, b: 0, a: 1}
+  occludedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  correctingColor: {r: 0, g: 1, b: 1, a: 1}
+  enableDebugLogs: 1
+--- !u!114 &1837017231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837017228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e74c3c4b0085af48b8c3826d314f10b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.AprilTag.PoseCorrector
+  assetTagManager: {fileID: 1837017233}
+  objectTracker: {fileID: 670715294}
+  siteFrameManager: {fileID: 670715296}
+  gentleCorrectionMaxError: 0.05
+  slowCorrectionMaxError: 0.15
+  minQualityForCorrection: 1
+  gentleCorrectionDuration: 0.3
+  slowCorrectionDuration: 1
+  minCorrectionInterval: 0.5
+  enableDebugLogs: 1
+--- !u!114 &1837017232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837017228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d0f234d0cd3bab49a78eb2afa19db23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.AprilTag.TagTrackAssociator
+  assetTagManager: {fileID: 1837017233}
+  objectTracker: {fileID: 670715294}
+  siteFrameManager: {fileID: 670715296}
+  maxAssociationDistance: 5
+  existingAssociationBonus: 0.2
+  confirmedTrackBonus: 0.1
+  pendingSwitchThreshold: 0.2
+  requiredConfirmationFrames: 1
+  pendingTimeout: 1
+  stickyAssociations: 1
+  enableDebugLogs: 1
+  enableVerbosePoseLogs: 0
+--- !u!114 &1837017233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837017228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3b3f9000795f2478665de8d1b48397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.AprilTag.AssetTagManager
+  config: {fileID: 11400000, guid: 3dfd21be043626a4eaf9269231c957ce, type: 2}
+  siteFrameManager: {fileID: 670715296}
+  objectTracker: {fileID: 670715294}
+  mainCamera: {fileID: 0}
+  requiredStableObservations: 3
+  allowLatchWithoutSiteFrame: 1
+  OnTagLatched:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTagSeen:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTagConflict:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTagConflictResolved:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAnchorRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1837017234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837017228}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.41255, y: 0, z: -17.19257}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1844726991
 GameObject:
   m_ObjectHideFlags: 0
@@ -2228,3 +2375,4 @@ SceneRoots:
   - {fileID: 638982209}
   - {fileID: 691523317}
   - {fileID: 1190586618}
+  - {fileID: 1837017234}
