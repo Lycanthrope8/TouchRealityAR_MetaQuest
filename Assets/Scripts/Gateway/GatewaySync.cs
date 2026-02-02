@@ -1,9 +1,7 @@
 // ============================================================================
 // FILE: GatewaySync.cs
 // Main orchestrator for Unity <-> Gateway communication.
-// Manages state, events, and provides API for UI components.
-// 
-// FIX: Now properly passes GatewayConfig to GatewayClient and GatewaySseClient
+// EP5 FIX: Bulletproof config propagation, explicit SSE connect call
 // ============================================================================
 
 using System;
@@ -13,13 +11,9 @@ using UnityEngine.Events;
 
 namespace ARObjectDetection.Gateway
 {
-    /// <summary>
-    /// Main orchestrator for Gateway synchronization.
-    /// Add this to a single GameObject in the scene.
-    /// </summary>
     public class GatewaySync : MonoBehaviour
     {
-        [Header("Configuration")]
+        [Header("Configuration (REQUIRED)")]
         [SerializeField] private GatewayConfig config;
 
         [Header("Components (auto-created if null)")]
@@ -37,21 +31,15 @@ namespace ARObjectDetection.Gateway
 
         [Header("Debug")]
         [SerializeField] private bool enableDebugLogs = true;
-        [SerializeField] private bool showDebugGUI = false;
 
-        // State
         private AnchorClaimStateManager stateManager;
         private bool isInitialized = false;
-
-        // Pending proposals (local state before gateway response)
         private Dictionary<string, float> pendingProposals = new Dictionary<string, float>();
         private const float PENDING_TIMEOUT_SECONDS = 30f;
 
-        // Singleton
         private static GatewaySync instance;
         public static GatewaySync Instance => instance;
 
-        // Public accessors
         public bool IsConnected => sseClient != null && sseClient.IsConnected;
         public AnchorClaimStateManager StateManager => stateManager;
         public GatewayClient Client => gatewayClient;
@@ -59,7 +47,6 @@ namespace ARObjectDetection.Gateway
 
         private void Awake()
         {
-            // Singleton
             if (instance != null && instance != this)
             {
                 Debug.LogWarning("[GatewaySync] Duplicate instance found, destroying...");
@@ -68,32 +55,32 @@ namespace ARObjectDetection.Gateway
             }
             instance = this;
             DontDestroyOnLoad(gameObject);
+        }
 
+        private void Start()
+        {
+            // Initialize in Start to ensure all components are ready
             Initialize();
         }
 
         private void Initialize()
         {
-            if (isInitialized)
-                return;
+            if (isInitialized) return;
 
-            // Check for config first
+            // CRITICAL: Check config FIRST
             if (config == null)
             {
-                Debug.LogError("[GatewaySync] GatewayConfig not assigned in Inspector! Please assign a GatewayConfig asset.");
-                // Try to find one in Resources as fallback
-                config = Resources.Load<GatewayConfig>("GatewayConfig");
-                if (config == null)
-                {
-                    Debug.LogError("[GatewaySync] Could not find GatewayConfig in Resources either. Gateway will not function.");
-                }
+                Debug.LogError("[GatewaySync] ERROR: GatewayConfig not assigned in Inspector! Drag your GatewayConfig ScriptableObject to the Config field.");
+                return;
             }
+
+            Debug.Log($"[GatewaySync] Initializing with config: {config.gatewayBaseUrl}");
 
             // Create state manager
             stateManager = new AnchorClaimStateManager();
             stateManager.OnStateChanged += HandleStateChanged;
 
-            // Find or create GatewayClient
+            // Create or get GatewayClient
             if (gatewayClient == null)
             {
                 gatewayClient = GetComponent<GatewayClient>();
@@ -102,13 +89,11 @@ namespace ARObjectDetection.Gateway
                     gatewayClient = gameObject.AddComponent<GatewayClient>();
                 }
             }
-            // Pass config to GatewayClient
-            if (config != null)
-            {
-                gatewayClient.SetConfig(config);
-            }
+            // MUST set config immediately after ensuring component exists
+            gatewayClient.Initialize(config);
+            Debug.Log("[GatewaySync] GatewayClient initialized");
 
-            // Find or create SSE client
+            // Create or get SSE client
             if (sseClient == null)
             {
                 sseClient = GetComponent<GatewaySseClient>();
@@ -117,19 +102,13 @@ namespace ARObjectDetection.Gateway
                     sseClient = gameObject.AddComponent<GatewaySseClient>();
                 }
             }
-            // Pass config to SSE client
-            if (config != null)
-            {
-                sseClient.SetConfig(config);
-            }
-
-            // Configure SSE client
-            sseClient.SetStateManager(stateManager);
-            sseClient.SetGatewayClient(gatewayClient);
+            // Configure SSE client with all dependencies
+            sseClient.Initialize(config, stateManager, gatewayClient);
             sseClient.OnConnected += HandleSseConnected;
             sseClient.OnDisconnected += HandleSseDisconnected;
             sseClient.OnEventReceived += HandleSseEvent;
             sseClient.OnError += HandleSseError;
+            Debug.Log("[GatewaySync] GatewaySseClient initialized");
 
             // Find SiteFrameManager if not assigned
             if (siteFrameManager == null)
@@ -142,23 +121,16 @@ namespace ARObjectDetection.Gateway
             }
 
             isInitialized = true;
+            Debug.Log($"[GatewaySync] ✓ Fully initialized. Gateway: {config.gatewayBaseUrl}");
 
-            if (config != null)
-            {
-                Debug.Log($"[GatewaySync] Initialized with config: {config.gatewayBaseUrl}");
-            }
-            else
-            {
-                Debug.LogWarning("[GatewaySync] Initialized WITHOUT config - assign GatewayConfig in Inspector!");
-            }
+            // NOW start SSE connection (after everything is wired up)
+            sseClient.Connect();
         }
 
         private void OnDestroy()
         {
             if (stateManager != null)
-            {
                 stateManager.OnStateChanged -= HandleStateChanged;
-            }
 
             if (sseClient != null)
             {
@@ -169,23 +141,20 @@ namespace ARObjectDetection.Gateway
             }
 
             if (instance == this)
-            {
                 instance = null;
-            }
         }
 
         private void Update()
         {
-            // Check for pending proposal timeouts
+            if (!isInitialized) return;
+
             List<string> timedOut = new List<string>();
             float now = Time.realtimeSinceStartup;
 
             foreach (var kvp in pendingProposals)
             {
                 if (now - kvp.Value > PENDING_TIMEOUT_SECONDS)
-                {
                     timedOut.Add(kvp.Key);
-                }
             }
 
             foreach (string assetId in timedOut)
@@ -195,24 +164,10 @@ namespace ARObjectDetection.Gateway
                 if (state != null && state.status == ClaimStatus.Pending)
                 {
                     Debug.LogWarning($"[GatewaySync] Proposal timeout for {assetId} - no commit confirmation received");
-                    // Keep in Pending state - don't fake a success
                 }
             }
         }
 
-        // ============================================================
-        // PUBLIC API
-        // ============================================================
-
-        /// <summary>
-        /// Propose an anchor claim for an asset.
-        /// </summary>
-        /// <param name="assetId">Asset ID (e.g., "laptop_TAG_5")</param>
-        /// <param name="worldPose">World pose of the anchor</param>
-        /// <param name="confidence">Detection confidence</param>
-        /// <param name="stabilityRms">Stability RMS (pose jitter)</param>
-        /// <param name="observationCount">Number of observations</param>
-        /// <returns>True if proposal was initiated</returns>
         public bool ProposeAnchor(string assetId, Pose worldPose, float confidence, float stabilityRms, int observationCount)
         {
             if (string.IsNullOrEmpty(assetId))
@@ -221,28 +176,19 @@ namespace ARObjectDetection.Gateway
                 return false;
             }
 
-            if (config == null)
+            if (!isInitialized || config == null)
             {
-                Debug.LogError("[GatewaySync] Cannot propose - GatewayConfig not assigned!");
-                OnGatewayError?.Invoke("GatewayConfig not assigned");
+                Debug.LogError("[GatewaySync] Cannot propose - not initialized or config missing!");
+                OnGatewayError?.Invoke("GatewaySync not initialized");
                 return false;
             }
 
-            if (gatewayClient == null)
-            {
-                Debug.LogError("[GatewaySync] Cannot propose - GatewayClient not available!");
-                OnGatewayError?.Invoke("GatewayClient not available");
-                return false;
-            }
-
-            // Check if already pending
             if (pendingProposals.ContainsKey(assetId))
             {
                 Debug.LogWarning($"[GatewaySync] Proposal already pending for {assetId}");
                 return false;
             }
 
-            // Check current state
             var currentState = stateManager.GetState(assetId);
             if (currentState != null && !currentState.CanPropose)
             {
@@ -250,7 +196,7 @@ namespace ARObjectDetection.Gateway
                 return false;
             }
 
-            // Convert world pose to site pose if SiteFrame is available
+            // Convert world pose to site pose if available
             Pose sitePose = worldPose;
             if (siteFrameManager != null)
             {
@@ -263,15 +209,8 @@ namespace ARObjectDetection.Gateway
                         if (method != null)
                         {
                             sitePose = (Pose)method.Invoke(siteFrameManager, new object[] { worldPose });
-                            if (enableDebugLogs)
-                            {
-                                Debug.Log($"[GatewaySync] Converted world pose to site pose: {sitePose.position}");
-                            }
+                            Debug.Log($"[GatewaySync] Converted world pose to site pose: {sitePose.position}");
                         }
-                    }
-                    else
-                    {
-                        Debug.LogWarning("[GatewaySync] SiteFrame not valid - using world pose directly");
                     }
                 }
                 catch (Exception e)
@@ -280,38 +219,28 @@ namespace ARObjectDetection.Gateway
                 }
             }
 
-            // Create request data
             var poseSite = GatewayClient.CreatePoseSite(sitePose);
             var qualityMetrics = GatewayClient.CreateQualityMetrics(confidence, stabilityRms, observationCount);
 
-            // Mark as pending locally
             stateManager.SetPending(assetId);
             pendingProposals[assetId] = Time.realtimeSinceStartup;
 
             Debug.Log($"[GatewaySync] Proposing anchor for {assetId}...");
 
-            // Send to gateway
             gatewayClient.ProposeAnchor(assetId, poseSite, qualityMetrics,
                 response =>
                 {
-                    // Success - update state with claimId (still Pending until SSE confirms)
                     var state = stateManager.GetOrCreateState(assetId);
                     state.claimId = response.claim_id;
                     state.conflictClassification = response.conflict_classification;
-                    // Note: We do NOT set status to Proposed here - wait for SSE event
-
                     Debug.Log($"[GatewaySync] ✓ Propose submitted: claimId={response.claim_id}, awaiting commit confirmation...");
                 },
                 error =>
                 {
-                    // Error - revert to None
                     pendingProposals.Remove(assetId);
                     var state = stateManager.GetState(assetId);
                     if (state != null && state.status == ClaimStatus.Pending)
-                    {
                         state.status = ClaimStatus.None;
-                    }
-
                     Debug.LogError($"[GatewaySync] Propose failed for {assetId}: {error}");
                     OnGatewayError?.Invoke(error);
                 }
@@ -320,99 +249,39 @@ namespace ARObjectDetection.Gateway
             return true;
         }
 
-        /// <summary>
-        /// Get the claim status for an asset.
-        /// </summary>
         public ClaimStatus GetClaimStatus(string assetId)
         {
-            var state = stateManager.GetState(assetId);
+            var state = stateManager?.GetState(assetId);
             return state?.status ?? ClaimStatus.None;
         }
 
-        /// <summary>
-        /// Get the full claim state for an asset.
-        /// </summary>
         public AnchorClaimState GetClaimState(string assetId)
         {
-            return stateManager.GetState(assetId);
+            return stateManager?.GetState(assetId);
         }
 
-        /// <summary>
-        /// Check if an asset can be proposed.
-        /// </summary>
         public bool CanPropose(string assetId)
         {
-            if (string.IsNullOrEmpty(assetId))
+            if (string.IsNullOrEmpty(assetId) || !isInitialized)
                 return false;
-
-            if (config == null)
-                return false;
-
             if (pendingProposals.ContainsKey(assetId))
                 return false;
-
             var state = stateManager.GetState(assetId);
-            if (state == null)
-                return true;
-
-            return state.CanPropose;
+            return state == null || state.CanPropose;
         }
-
-        /// <summary>
-        /// Force refresh state from gateway snapshot.
-        /// </summary>
-        public void RefreshFromSnapshot()
-        {
-            if (gatewayClient != null)
-            {
-                gatewayClient.FetchSnapshot(
-                    snapshot =>
-                    {
-                        stateManager.ApplySnapshot(snapshot.assets);
-                        Debug.Log($"[GatewaySync] Snapshot applied: {snapshot.assets?.Count ?? 0} assets");
-                    },
-                    error =>
-                    {
-                        Debug.LogError($"[GatewaySync] Snapshot failed: {error}");
-                    }
-                );
-            }
-        }
-
-        /// <summary>
-        /// Clear all local state (for testing/reset).
-        /// </summary>
-        public void ClearLocalState()
-        {
-            stateManager.ClearAll();
-            pendingProposals.Clear();
-            Debug.Log("[GatewaySync] Local state cleared");
-        }
-
-        // ============================================================
-        // EVENT HANDLERS
-        // ============================================================
 
         private void HandleStateChanged(string assetId, AnchorClaimState state)
         {
-            // Remove from pending if no longer pending
             if (state.status != ClaimStatus.Pending)
-            {
                 pendingProposals.Remove(assetId);
-            }
-
-            // Notify listeners
             OnClaimStatusChanged?.Invoke(assetId, state.status);
-
             if (enableDebugLogs)
-            {
                 Debug.Log($"[GatewaySync] State changed: {assetId} -> {state.status}");
-            }
         }
 
         private void HandleSseConnected()
         {
-            Debug.Log("[GatewaySync] Gateway SSE connected");
+            Debug.Log("[GatewaySync] ✓ Gateway SSE connected");
             OnGatewayConnected?.Invoke();
         }
 
@@ -424,57 +293,14 @@ namespace ARObjectDetection.Gateway
 
         private void HandleSseEvent(GatewayEvent evt)
         {
-            // Events are already applied to state manager by SSE client
-            // This is just for additional handling if needed
-
             if (enableDebugLogs)
-            {
                 Debug.Log($"[GatewaySync] SSE Event: {evt.type} for {evt.assetId}");
-            }
         }
 
         private void HandleSseError(string error)
         {
             Debug.LogError($"[GatewaySync] SSE Error: {error}");
             OnGatewayError?.Invoke(error);
-        }
-
-        // ============================================================
-        // DEBUG GUI
-        // ============================================================
-
-        private void OnGUI()
-        {
-            if (!showDebugGUI)
-                return;
-
-            GUILayout.BeginArea(new Rect(10, 600, 400, 200));
-            GUILayout.Label("=== GATEWAY SYNC ===");
-
-            string connStatus = IsConnected ? "<color=green>CONNECTED</color>" : "<color=red>DISCONNECTED</color>";
-            GUILayout.Label($"Status: {connStatus}");
-            GUILayout.Label($"Config: {(config != null ? config.gatewayBaseUrl : "NOT SET")}");
-
-            if (sseClient != null)
-            {
-                GUILayout.Label($"Last event: {sseClient.SecondsSinceLastEvent:F1}s ago");
-            }
-
-            GUILayout.Label($"Pending proposals: {pendingProposals.Count}");
-
-            // Show recent states
-            var states = stateManager?.GetAllStates();
-            if (states != null)
-            {
-                int count = 0;
-                foreach (var state in states)
-                {
-                    if (count++ >= 5) break;
-                    GUILayout.Label($"  {state.assetId}: {state.status}");
-                }
-            }
-
-            GUILayout.EndArea();
         }
     }
 }

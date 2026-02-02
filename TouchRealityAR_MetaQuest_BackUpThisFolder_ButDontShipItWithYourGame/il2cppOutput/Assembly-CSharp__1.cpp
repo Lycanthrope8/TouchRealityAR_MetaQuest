@@ -2484,12 +2484,11 @@ struct AnchorClaimState_t8A161C37F57BCEA3CA047DCA7B36BDD6AE653427  : public Runt
 	String_t* ___claimId;
 	String_t* ___lastEventId;
 	String_t* ___publisherId;
-	float ___lastUpdateTime;
-	float ___proposedTime;
-	float ___confirmedTime;
 	String_t* ___conflictClassification;
 	String_t* ___rejectionReason;
 	int32_t ___endorsementCount;
+	String_t* ___createdAt;
+	String_t* ___updatedAt;
 };
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
@@ -3465,7 +3464,6 @@ struct GatewaySync_t1A48E792DE953ABD19D520656B0F982C51D7629E  : public MonoBehav
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnGatewayDisconnected;
 	UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* ___OnGatewayError;
 	bool ___enableDebugLogs;
-	bool ___showDebugGUI;
 	AnchorClaimStateManager_t57C11DD582F5096C6235E4F6C1EA9AF2D2560BCC* ___stateManager;
 	bool ___isInitialized;
 	Dictionary_2_tFF5BAE20C79FF62D8212212465EDB4D26909FFE9* ___pendingProposals;
@@ -26725,7 +26723,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1
 		return L_0;
 	}
 }
-// Method Definition Index: 107122
+// Method Definition Index: 107075
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GatewaySync_t1A48E792DE953ABD19D520656B0F982C51D7629E* GatewaySync_get_Instance_m7F086E488305019640BF4647FCA1407116A00C63_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26735,7 +26733,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GatewaySync_t1A48E792DE953ABD19D5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Gateway/GatewaySync.cs:52>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Gateway/GatewaySync.cs:41>
 		GatewaySync_t1A48E792DE953ABD19D520656B0F982C51D7629E* L_0 = ((GatewaySync_t1A48E792DE953ABD19D520656B0F982C51D7629E_StaticFields*)il2cpp_codegen_static_fields_for(GatewaySync_t1A48E792DE953ABD19D520656B0F982C51D7629E_il2cpp_TypeInfo_var))->___instance;
 		return L_0;
 	}
@@ -27090,7 +27088,7 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 107403
+// Method Definition Index: 107347
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* WebCamTextureManager_get_WebCamTexture_m4C964E06941EEA90515B8D550504D909DF099E73_inline (WebCamTextureManager_tE20615C91777D8897C883309CDD5867DC613EC4B* __this, const RuntimeMethod* method) 
 {
 	{
