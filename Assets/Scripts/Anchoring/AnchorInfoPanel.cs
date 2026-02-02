@@ -4,33 +4,22 @@
 // Displays detailed information about a selected anchor including:
 // - Asset ID (for AprilTag-associated anchors)
 // - Tag ID
-// - Registry status (Unproposed / Proposed / Approved / Rejected)
-// - Propose button functionality
+// - Registry status from Gateway (Pending / Proposed / Active / Rejected / Revoked)
+// - Propose button functionality with Gateway integration
 // 
-// NO OnGUI - all UI is rendered via TextMeshPro and Unity UI
+// EP5 UPDATE: Now integrates with GatewaySync for real ledger-confirmed state.
 // ============================================================================
 
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System.Collections.Generic;
 
 namespace ARObjectDetection
 {
     /// <summary>
-    /// Registry state for an asset (local-only, no backend)
-    /// </summary>
-    public enum RegistryState
-    {
-        Unproposed,
-        Proposed,
-        Approved,
-        Rejected
-    }
-
-    /// <summary>
     /// Component for the InfoPanel prefab.
     /// Displays detailed information about a selected anchor.
+    /// Now integrated with Gateway for ledger-confirmed state.
     /// </summary>
     public class AnchorInfoPanel : MonoBehaviour
     {
@@ -48,6 +37,7 @@ namespace ARObjectDetection
         [SerializeField] private TextMeshPro tagIdText;
         [SerializeField] private TextMeshPro assetIdText;
         [SerializeField] private TextMeshPro registryStatusText;
+        [SerializeField] private TextMeshPro claimIdText;
 
         [Header("Propose Button (UI Button)")]
         [Tooltip("Assign a Unity UI Button for the Propose action")]
@@ -65,18 +55,25 @@ namespace ARObjectDetection
         [SerializeField] private Color borderColor = new Color(0f, 0.8f, 1f, 1f);
 
         [Header("Registry Status Colors")]
-        [SerializeField] private Color unproposedColor = new Color(0.7f, 0.7f, 0.7f, 1f);
-        [SerializeField] private Color proposedColor = new Color(1f, 0.8f, 0f, 1f);
-        [SerializeField] private Color approvedColor = new Color(0f, 1f, 0.5f, 1f);
+        [SerializeField] private Color noneColor = new Color(0.7f, 0.7f, 0.7f, 1f);
+        [SerializeField] private Color pendingColor = new Color(1f, 0.8f, 0f, 1f);
+        [SerializeField] private Color proposedColor = new Color(0.5f, 0.8f, 1f, 1f);
+        [SerializeField] private Color activeColor = new Color(0f, 1f, 0.5f, 1f);
         [SerializeField] private Color rejectedColor = new Color(1f, 0.3f, 0.3f, 1f);
+        [SerializeField] private Color revokedColor = new Color(0.6f, 0.3f, 0.6f, 1f);
 
-        // ============================================================
-        // REGISTRY STATE STORAGE (In-memory, keyed by asset_id)
-        // ============================================================
-        private static Dictionary<string, RegistryState> registryStates = new Dictionary<string, RegistryState>();
+        [Header("Gateway Integration")]
+        [Tooltip("Use Gateway for real ledger state (disable for offline/local-only mode)")]
+        [SerializeField] private bool useGateway = true;
+
+        [Tooltip("Reference to SiteFrameManager for pose conversion")]
+        [SerializeField] private MonoBehaviour siteFrameManager;
 
         private DepthAnchorSystem.DepthAnchorInstance currentAnchor;
         private string currentAssetId = null;
+
+        // Gateway reference (found at runtime)
+        private Gateway.GatewaySync gatewaySync;
 
         private void Awake()
         {
@@ -99,6 +96,35 @@ namespace ARObjectDetection
             {
                 proposeButton.onClick.AddListener(OnProposeButtonClicked);
             }
+
+            // Find SiteFrameManager
+            if (siteFrameManager == null)
+            {
+                siteFrameManager = FindFirstObjectByType<SiteFrameManager>();
+            }
+        }
+
+        private void Start()
+        {
+            // Find GatewaySync
+            if (useGateway)
+            {
+                gatewaySync = Gateway.GatewaySync.Instance;
+                if (gatewaySync == null)
+                {
+                    gatewaySync = FindFirstObjectByType<Gateway.GatewaySync>();
+                }
+
+                if (gatewaySync != null)
+                {
+                    gatewaySync.OnClaimStatusChanged.AddListener(OnClaimStatusChanged);
+                    Debug.Log("[AnchorInfoPanel] Gateway integration enabled");
+                }
+                else
+                {
+                    Debug.LogWarning("[AnchorInfoPanel] GatewaySync not found - using local state only");
+                }
+            }
         }
 
         private void OnDestroy()
@@ -106,6 +132,23 @@ namespace ARObjectDetection
             if (proposeButton != null)
             {
                 proposeButton.onClick.RemoveListener(OnProposeButtonClicked);
+            }
+
+            if (gatewaySync != null)
+            {
+                gatewaySync.OnClaimStatusChanged.RemoveListener(OnClaimStatusChanged);
+            }
+        }
+
+        /// <summary>
+        /// Called when Gateway reports a claim status change
+        /// </summary>
+        private void OnClaimStatusChanged(string assetId, Gateway.ClaimStatus status)
+        {
+            // Refresh UI if this is the current anchor
+            if (assetId == currentAssetId && currentAnchor != null)
+            {
+                UpdateInfo(currentAnchor);
             }
         }
 
@@ -128,8 +171,19 @@ namespace ARObjectDetection
                 currentAssetId = $"{anchor.className}_TAG_{tagId}";
             }
 
-            // Get or create registry state
-            RegistryState registryState = GetRegistryState(currentAssetId);
+            // Get registry state from Gateway or local fallback
+            Gateway.ClaimStatus claimStatus = Gateway.ClaimStatus.None;
+            string claimId = null;
+
+            if (useGateway && gatewaySync != null && !string.IsNullOrEmpty(currentAssetId))
+            {
+                var claimState = gatewaySync.GetClaimState(currentAssetId);
+                if (claimState != null)
+                {
+                    claimStatus = claimState.status;
+                    claimId = claimState.claimId;
+                }
+            }
 
             // ============================================================
             // Update Individual Text Fields (if assigned)
@@ -169,10 +223,19 @@ namespace ARObjectDetection
                     assetIdText.text = "Asset ID: N/A (no tag)";
             }
 
+            // Claim ID field
+            if (claimIdText != null)
+            {
+                if (!string.IsNullOrEmpty(claimId))
+                    claimIdText.text = $"Claim: {claimId.Substring(0, Mathf.Min(8, claimId.Length))}...";
+                else
+                    claimIdText.text = "Claim: None";
+            }
+
             // Registry Status field
             if (registryStatusText != null)
             {
-                UpdateRegistryStatusText(registryState);
+                UpdateRegistryStatusText(claimStatus, claimId);
             }
 
             // ============================================================
@@ -206,7 +269,16 @@ namespace ARObjectDetection
                     assetIdInfo = "<color=#888888>N/A</color>";
 
                 // Registry status
-                string registryInfo = GetRegistryStatusString(registryState);
+                string registryInfo = GetRegistryStatusString(claimStatus, claimId);
+
+                // Gateway connection status
+                string gatewayInfo = "";
+                if (useGateway && gatewaySync != null)
+                {
+                    gatewayInfo = gatewaySync.IsConnected
+                        ? "<color=#00FF00>●</color> Gateway"
+                        : "<color=#FF0000>●</color> Gateway";
+                }
 
                 bodyText.text =
                     $"<b>Track ID:</b> #{anchor.trackId}\n" +
@@ -217,6 +289,7 @@ namespace ARObjectDetection
                     $"<b>Tag ID:</b> {tagInfo}\n" +
                     $"<b>Asset ID:</b> {assetIdInfo}\n" +
                     $"<b>Registry:</b> {registryInfo}\n" +
+                    (string.IsNullOrEmpty(gatewayInfo) ? "" : $"{gatewayInfo}\n") +
                     $"───────────────\n" +
                     $"<b>Position:</b>\n" +
                     $"  X: {anchor.worldLockedPosition.x:F3}m\n" +
@@ -227,7 +300,7 @@ namespace ARObjectDetection
             // ============================================================
             // Update Propose Button State
             // ============================================================
-            UpdateProposeButton(registryState);
+            UpdateProposeButton(claimStatus);
 
             // Update border color based on lock state
             if (panelBackground != null && panelBackground.material != null)
@@ -236,33 +309,41 @@ namespace ARObjectDetection
             }
         }
 
-        private void UpdateRegistryStatusText(RegistryState state)
+        private void UpdateRegistryStatusText(Gateway.ClaimStatus status, string claimId)
         {
             if (registryStatusText == null) return;
 
             Color color;
             string text;
 
-            switch (state)
+            switch (status)
             {
-                case RegistryState.Unproposed:
-                    color = unproposedColor;
+                case Gateway.ClaimStatus.None:
+                    color = noneColor;
                     text = "Unproposed";
                     break;
-                case RegistryState.Proposed:
+                case Gateway.ClaimStatus.Pending:
+                    color = pendingColor;
+                    text = !string.IsNullOrEmpty(claimId) ? "Submitted..." : "Pending...";
+                    break;
+                case Gateway.ClaimStatus.Proposed:
                     color = proposedColor;
                     text = "Proposed";
                     break;
-                case RegistryState.Approved:
-                    color = approvedColor;
+                case Gateway.ClaimStatus.Active:
+                    color = activeColor;
                     text = "Approved";
                     break;
-                case RegistryState.Rejected:
+                case Gateway.ClaimStatus.Rejected:
                     color = rejectedColor;
                     text = "Rejected";
                     break;
+                case Gateway.ClaimStatus.Revoked:
+                    color = revokedColor;
+                    text = "Revoked";
+                    break;
                 default:
-                    color = unproposedColor;
+                    color = noneColor;
                     text = "Unknown";
                     break;
             }
@@ -271,34 +352,42 @@ namespace ARObjectDetection
             registryStatusText.color = color;
         }
 
-        private string GetRegistryStatusString(RegistryState state)
+        private string GetRegistryStatusString(Gateway.ClaimStatus status, string claimId)
         {
-            switch (state)
+            switch (status)
             {
-                case RegistryState.Unproposed:
+                case Gateway.ClaimStatus.None:
                     return "<color=#AAAAAA>Unproposed</color>";
-                case RegistryState.Proposed:
-                    return "<color=#FFCC00>Proposed</color>";
-                case RegistryState.Approved:
+                case Gateway.ClaimStatus.Pending:
+                    if (!string.IsNullOrEmpty(claimId))
+                        return $"<color=#FFCC00>Submitted</color>";
+                    return "<color=#FFCC00>Pending...</color>";
+                case Gateway.ClaimStatus.Proposed:
+                    return "<color=#88CCFF>Proposed</color>";
+                case Gateway.ClaimStatus.Active:
                     return "<color=#00FF88>Approved</color>";
-                case RegistryState.Rejected:
+                case Gateway.ClaimStatus.Rejected:
                     return "<color=#FF5555>Rejected</color>";
+                case Gateway.ClaimStatus.Revoked:
+                    return "<color=#9966CC>Revoked</color>";
                 default:
                     return "<color=#888888>Unknown</color>";
             }
         }
 
-        private void UpdateProposeButton(RegistryState state)
+        private void UpdateProposeButton(Gateway.ClaimStatus status)
         {
+            bool canPropose = CanPropose(status);
+            string label = GetProposeButtonLabel(status);
+
             // Update UI Button
             if (proposeButton != null)
             {
-                bool canPropose = CanPropose(state);
                 proposeButton.interactable = canPropose;
 
                 if (proposeButtonText != null)
                 {
-                    proposeButtonText.text = GetProposeButtonLabel(state);
+                    proposeButtonText.text = label;
                     proposeButtonText.color = canPropose ? Color.white : new Color(0.5f, 0.5f, 0.5f, 1f);
                 }
             }
@@ -306,8 +395,7 @@ namespace ARObjectDetection
             // Update 3D Text Button (alternative)
             if (proposeButton3DText != null)
             {
-                bool canPropose = CanPropose(state);
-                proposeButton3DText.text = GetProposeButtonLabel(state);
+                proposeButton3DText.text = label;
                 proposeButton3DText.color = canPropose ? Color.white : new Color(0.5f, 0.5f, 0.5f, 1f);
 
                 if (proposeButton3DCollider != null)
@@ -315,29 +403,35 @@ namespace ARObjectDetection
             }
         }
 
-        private bool CanPropose(RegistryState state)
+        private bool CanPropose(Gateway.ClaimStatus status)
         {
             // Can only propose if:
             // 1. Asset ID is available (anchor is AprilTag-associated / GREEN)
-            // 2. State is Unproposed OR Rejected
+            // 2. Status allows proposing (None, Rejected, or Revoked)
             if (string.IsNullOrEmpty(currentAssetId))
                 return false;
 
-            return state == RegistryState.Unproposed || state == RegistryState.Rejected;
+            return status == Gateway.ClaimStatus.None ||
+                   status == Gateway.ClaimStatus.Rejected ||
+                   status == Gateway.ClaimStatus.Revoked;
         }
 
-        private string GetProposeButtonLabel(RegistryState state)
+        private string GetProposeButtonLabel(Gateway.ClaimStatus status)
         {
-            switch (state)
+            switch (status)
             {
-                case RegistryState.Unproposed:
+                case Gateway.ClaimStatus.None:
                     return "Propose";
-                case RegistryState.Proposed:
+                case Gateway.ClaimStatus.Pending:
+                    return "Submitting...";
+                case Gateway.ClaimStatus.Proposed:
                     return "Proposed";
-                case RegistryState.Approved:
+                case Gateway.ClaimStatus.Active:
                     return "Approved";
-                case RegistryState.Rejected:
-                    return "Propose"; // Can re-propose after rejection
+                case Gateway.ClaimStatus.Rejected:
+                    return "Re-Propose";
+                case Gateway.ClaimStatus.Revoked:
+                    return "Re-Propose";
                 default:
                     return "Propose";
             }
@@ -354,18 +448,60 @@ namespace ARObjectDetection
                 return;
             }
 
-            RegistryState currentState = GetRegistryState(currentAssetId);
-
-            if (!CanPropose(currentState))
+            if (currentAnchor == null)
             {
-                Debug.LogWarning($"[AnchorInfoPanel] Cannot propose - current state is {currentState}");
+                Debug.LogWarning("[AnchorInfoPanel] Cannot propose - no current anchor");
                 return;
             }
 
-            // Set state to Proposed
-            SetProposed(currentAssetId);
+            // Check if we can propose
+            Gateway.ClaimStatus currentStatus = Gateway.ClaimStatus.None;
+            if (gatewaySync != null)
+            {
+                currentStatus = gatewaySync.GetClaimStatus(currentAssetId);
+            }
 
-            Debug.Log($"[AnchorInfoPanel] Asset '{currentAssetId}' marked as PROPOSED");
+            if (!CanPropose(currentStatus))
+            {
+                Debug.LogWarning($"[AnchorInfoPanel] Cannot propose - current status is {currentStatus}");
+                return;
+            }
+
+            // Use Gateway for real proposal
+            if (useGateway && gatewaySync != null)
+            {
+                // Get pose
+                Pose worldPose = new Pose(currentAnchor.worldLockedPosition, Quaternion.identity);
+
+                // Get quality metrics from anchor
+                float confidence = currentAnchor.confidence;
+                float stabilityRms = 0.01f; // TODO: Calculate from actual pose history
+                int observationCount = 1; // TODO: Get actual count
+
+                // Propose via Gateway
+                bool initiated = gatewaySync.ProposeAnchor(
+                    currentAssetId,
+                    worldPose,
+                    confidence,
+                    stabilityRms,
+                    observationCount
+                );
+
+                if (initiated)
+                {
+                    Debug.Log($"[AnchorInfoPanel] Propose initiated for '{currentAssetId}'");
+                    // UI will update via OnClaimStatusChanged callback
+                }
+                else
+                {
+                    Debug.LogWarning($"[AnchorInfoPanel] Failed to initiate propose for '{currentAssetId}'");
+                }
+            }
+            else
+            {
+                // Fallback: local-only mode (for testing without gateway)
+                Debug.LogWarning("[AnchorInfoPanel] Gateway not available - proposal not sent");
+            }
 
             // Refresh the UI
             if (currentAnchor != null)
@@ -381,84 +517,6 @@ namespace ARObjectDetection
         public void OnPropose3DButtonClicked()
         {
             OnProposeButtonClicked();
-        }
-
-        // ============================================================
-        // STATIC REGISTRY API
-        // These methods can be called from anywhere to manage registry state
-        // ============================================================
-
-        /// <summary>
-        /// Get the registry state for an asset_id.
-        /// Returns Unproposed if not found.
-        /// </summary>
-        public static RegistryState GetRegistryState(string assetId)
-        {
-            if (string.IsNullOrEmpty(assetId))
-                return RegistryState.Unproposed;
-
-            if (registryStates.TryGetValue(assetId, out RegistryState state))
-                return state;
-
-            return RegistryState.Unproposed;
-        }
-
-        /// <summary>
-        /// Set an asset as Proposed.
-        /// </summary>
-        public static void SetProposed(string assetId)
-        {
-            if (string.IsNullOrEmpty(assetId)) return;
-            registryStates[assetId] = RegistryState.Proposed;
-            Debug.Log($"[AnchorInfoPanel.Registry] {assetId} -> PROPOSED");
-        }
-
-        /// <summary>
-        /// Set an asset as Approved (called by supervisor/backend).
-        /// </summary>
-        public static void SetApproved(string assetId)
-        {
-            if (string.IsNullOrEmpty(assetId)) return;
-            registryStates[assetId] = RegistryState.Approved;
-            Debug.Log($"[AnchorInfoPanel.Registry] {assetId} -> APPROVED");
-        }
-
-        /// <summary>
-        /// Set an asset as Rejected (called by supervisor/backend).
-        /// After rejection, the Propose button becomes clickable again.
-        /// </summary>
-        public static void SetRejected(string assetId)
-        {
-            if (string.IsNullOrEmpty(assetId)) return;
-            registryStates[assetId] = RegistryState.Rejected;
-            Debug.Log($"[AnchorInfoPanel.Registry] {assetId} -> REJECTED");
-        }
-
-        /// <summary>
-        /// Reset an asset to Unproposed state.
-        /// </summary>
-        public static void ResetToUnproposed(string assetId)
-        {
-            if (string.IsNullOrEmpty(assetId)) return;
-            registryStates[assetId] = RegistryState.Unproposed;
-            Debug.Log($"[AnchorInfoPanel.Registry] {assetId} -> UNPROPOSED (reset)");
-        }
-
-        /// <summary>
-        /// Clear all registry states (for testing/reset).
-        /// </summary>
-        public static void ClearAllRegistryStates()
-        {
-            registryStates.Clear();
-            Debug.Log("[AnchorInfoPanel.Registry] All registry states cleared");
-        }
-
-        /// <summary>
-        /// Get all registered asset IDs and their states (for debugging/display).
-        /// </summary>
-        public static Dictionary<string, RegistryState> GetAllRegistryStates()
-        {
-            return new Dictionary<string, RegistryState>(registryStates);
         }
 
         /// <summary>
@@ -493,6 +551,7 @@ namespace ARObjectDetection
             if (tagIdText != null) tagIdText.text = "";
             if (assetIdText != null) assetIdText.text = "";
             if (registryStatusText != null) registryStatusText.text = "";
+            if (claimIdText != null) claimIdText.text = "";
 
             // Reset button
             if (proposeButton != null)

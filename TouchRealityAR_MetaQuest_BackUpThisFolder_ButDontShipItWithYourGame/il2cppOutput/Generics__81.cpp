@@ -9115,14 +9115,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m72CFBB583237D55
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93687
+// Method Definition Index: 93689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericDictionaryEnumerator_2_Dispose_mE47270B506EB9421E4A2F233E08B7D64A1C18D89_gshared (GenericDictionaryEnumerator_2_t2A3E712454183EE568966102BED89CD85F70CEF4* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 93688
+// Method Definition Index: 93690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericDictionaryEnumerator_2_MoveNext_mAD997F88B91332788A07DACC98000C6C18657E07_gshared (GenericDictionaryEnumerator_2_t2A3E712454183EE568966102BED89CD85F70CEF4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9139,7 +9139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericDictionaryEnumerator_2_MoveNext_m
 		return L_1;
 	}
 }
-// Method Definition Index: 93689
+// Method Definition Index: 93691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericDictionaryEnumerator_2_get_Current_mBA818BCEC1ED0CD5B0D74C4AE5BA3C842C997C01_gshared (GenericDictionaryEnumerator_2_t2A3E712454183EE568966102BED89CD85F70CEF4* __this, KeyValue_2_tA4CEE02AEB49744EDF8BC5BB6E3DE30DDF520974* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_KeyValuePair_2_tC53E91C8327F4DD4A40528DFD90EDCCD35460ECD = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 3));
@@ -9167,7 +9167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericDictionaryEnumerator_2_get_Curren
 		return;
 	}
 }
-// Method Definition Index: 93690
+// Method Definition Index: 93692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GenericDictionaryEnumerator_2_System_Collections_IEnumerator_get_Current_mBA5962057C687CEF7420A3F3B5505B150A02B5FA_gshared (GenericDictionaryEnumerator_2_t2A3E712454183EE568966102BED89CD85F70CEF4* __this, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_KeyValue_2_t8B9C7FE007571771A8E7FC9A8C7626105676361A = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 9));
@@ -9178,7 +9178,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GenericDictionaryEnumerator_2_
 		return L_1;
 	}
 }
-// Method Definition Index: 93691
+// Method Definition Index: 93693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericDictionaryEnumerator_2_Reset_m06BFDF94CABBB99FE83937E6660BA105527FD800_gshared (GenericDictionaryEnumerator_2_t2A3E712454183EE568966102BED89CD85F70CEF4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

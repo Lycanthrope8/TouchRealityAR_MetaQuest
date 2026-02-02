@@ -428,6 +428,7 @@ MonoBehaviour:
   tagIdText: {fileID: 0}
   assetIdText: {fileID: 0}
   registryStatusText: {fileID: 0}
+  claimIdText: {fileID: 0}
   proposeButton: {fileID: 0}
   proposeButtonText: {fileID: 0}
   proposeButton3DText: {fileID: 4822696640766898939}
@@ -435,10 +436,14 @@ MonoBehaviour:
   panelBackground: {fileID: 1452739733722796150}
   backgroundColor: {r: 0.1, g: 0.1, b: 0.1, a: 0.9}
   borderColor: {r: 0, g: 0.8, b: 1, a: 1}
-  unproposedColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  noneColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  pendingColor: {r: 1, g: 0.8, b: 0, a: 1}
   proposedColor: {r: 1, g: 0.8, b: 0, a: 1}
-  approvedColor: {r: 0, g: 1, b: 0.5, a: 1}
+  activeColor: {r: 0, g: 1, b: 0.5, a: 1}
   rejectedColor: {r: 1, g: 0.3, b: 0.3, a: 1}
+  revokedColor: {r: 0.6, g: 0.3, b: 0.6, a: 1}
+  useGateway: 1
+  siteFrameManager: {fileID: 0}
 --- !u!114 &3396618307238184094
 MonoBehaviour:
   m_ObjectHideFlags: 0

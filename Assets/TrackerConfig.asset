@@ -20,18 +20,21 @@ MonoBehaviour:
   reacquireWindowSec: 8
   confirmedMaxMissTimeSec: 10
   tentativeMaxMissTimeSec: 1.5
-  lostRetentionTimeSec: 8
+  lostRetentionTimeSec: 10
   maxMissTimeSec: 2.5
+  minHits: 3
   depthThicknessFraction: 0.15
   minBoundsThickness: 0.1
   maxBoundsThickness: 0.8
-  minHits: 3
   smoothingAlphaPosition: 0.6
   smoothingAlphaSize: 0.25
   smoothingAlphaVelocity: 0.8
   enableMotionCompensation: 1
   motionCompensateLostTracks: 1
+  predictLostTrackMotion: 0
   maxObjectVelocity: 10
+  minTrackSeparation: 0.25
+  preferOlderTrackOnMerge: 1
   enableDebugLogs: 1
   showTrackIDs: 1
   showRevivalMetrics: 1

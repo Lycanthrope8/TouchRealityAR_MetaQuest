@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c66c90b1775be4da6534b04efdabec, type: 3}
+  m_Name: GatewayConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.Gateway.GatewayConfig
+  gatewayBaseUrl: https://ad5748e6e72c.ngrok-free.app
+  apiKey: proposer-key-001
+  requestTimeoutSeconds: 10
+  eventStreamEndpoint: /events/stream
+  reconnectDelaySeconds: 3
+  maxReconnectDelaySeconds: 30
+  heartbeatTimeoutSeconds: 45
+  snapshotEndpoint: /events/snapshot
+  fetchSnapshotOnReconnect: 1
+  enableDebugLogs: 1
+  logAllEvents: 0
