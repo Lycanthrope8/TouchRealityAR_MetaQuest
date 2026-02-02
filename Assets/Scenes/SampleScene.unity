@@ -959,7 +959,7 @@ MonoBehaviour:
   anchorPrefab: {fileID: 8553739118990585630, guid: f3adb2d8a152ab1499e342bccefb2ba8, type: 3}
   objectTracker: {fileID: 670715294}
   tagTrackAssociator: {fileID: 0}
-  infoPanelPrefab: {fileID: 7405791483200750014, guid: 45580b3c7797ce3469f5007412055534, type: 3}
+  infoPanelPrefab: {fileID: 1999148751851149119, guid: 45580b3c7797ce3469f5007412055534, type: 3}
   interactionController: 2
   selectButton: 8192
   maxSelectionDistance: 50
@@ -1950,6 +1950,9 @@ MonoBehaviour:
   titleText: {fileID: 0}
   statusText: {fileID: 0}
   tagListText: {fileID: 0}
+  acceptButtonObject: {fileID: 0}
+  rejectButtonObject: {fileID: 0}
+  conflictInfoText: {fileID: 0}
 --- !u!114 &1837017230
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2,12 +2,13 @@
 // FILE: DepthAnchorSystem.cs
 // DEPTH ANCHOR SYSTEM - SESSION PERSISTENT ANCHORS WITH FOV-AWARE REMOVAL
 // 
-// BEHAVIOR (FIXED):
-// - Anchors are ONLY created after 15 consecutive frames of detection ("confirmed")
+// BEHAVIOR:
+// - Anchors are ONLY created after N consecutive frames of detection ("confirmed")
 // - Once confirmed, anchors stay for the ENTIRE SESSION unless removed
 // - Anchors are ONLY removed if:
 //   1. The anchor is currently IN VIEW (within camera FOV)
-//   2. AND NOT detected for 20 consecutive frames while in view
+//   2. AND NOT detected for N consecutive frames while in view
+//   3. AND the anchor does NOT have AprilTag association (GREEN anchors NEVER removed)
 // - If anchor is NOT in view, it persists indefinitely (no accumulation of misses)
 // - Position is STATIC (set once at confirmation, never moved)
 // 
@@ -15,6 +16,8 @@
 // - Default: CYAN
 // - After CONFIRMED AprilTag association: GREEN
 // - Selected: ORANGE
+// 
+// CRITICAL FIX: AprilTag-associated (GREEN) anchors are NEVER removed during session
 // ============================================================================
 
 using UnityEngine;
@@ -78,7 +81,7 @@ namespace ARObjectDetection
         [Range(5, 30)]
         [SerializeField] private int framesRequiredToConfirm = 15;
 
-        [Tooltip("Consecutive frames missed WHILE IN VIEW to remove anchor")]
+        [Tooltip("Consecutive frames missed WHILE IN VIEW to remove anchor (DOES NOT APPLY TO GREEN/APRILTAG ANCHORS)")]
         [Range(10, 50)]
         [SerializeField] private int framesToRemoveWhenMissedInView = 20;
 
@@ -195,6 +198,7 @@ namespace ARObjectDetection
             if (OVRManager.instance != null)
                 cameraTransform = OVRManager.instance.GetComponentInChildren<Camera>()?.transform;
             if (cameraTransform == null) cameraTransform = Camera.main?.transform;
+
             if (cameraTransform == null)
             {
                 Debug.LogError("[DepthAnchor] No camera transform!");
@@ -221,7 +225,8 @@ namespace ARObjectDetection
 
             Debug.Log($"[DepthAnchor] ✅ SESSION PERSISTENT ANCHORS initialized");
             Debug.Log($"[DepthAnchor] Confirm after {framesRequiredToConfirm} frames, " +
-                     $"Remove after {framesToRemoveWhenMissedInView} missed-while-visible frames");
+                     $"Remove after {framesToRemoveWhenMissedInView} missed-while-visible frames " +
+                     $"(GREEN/AprilTag anchors NEVER removed)");
             return true;
         }
 
@@ -450,6 +455,16 @@ namespace ARObjectDetection
                 if (tracksSeenThisFrame.Contains(trackId))
                     continue;
 
+                // ============================================================
+                // CRITICAL FIX: AprilTag-associated (GREEN) anchors are NEVER removed
+                // ============================================================
+                if (anchor.hasAprilTagAssociation)
+                {
+                    // GREEN anchor - do NOT accumulate misses, do NOT remove
+                    // These anchors persist for the entire session
+                    continue;
+                }
+
                 bool isInView = IsAnchorInView(cameraPose, anchor.worldAnchorPosition);
 
                 if (isInView)
@@ -479,6 +494,13 @@ namespace ARObjectDetection
         {
             if (!confirmedAnchors.TryGetValue(trackId, out var anchor))
                 return;
+
+            // Double-check: NEVER remove AprilTag-associated anchors
+            if (anchor.hasAprilTagAssociation)
+            {
+                Debug.LogWarning($"[DepthAnchor] Attempted to remove AprilTag-associated anchor #{trackId} - BLOCKED");
+                return;
+            }
 
             Debug.Log($"[DepthAnchor] ✖ Anchor #{trackId} ({anchor.className}) REMOVED after " +
                      $"{framesToRemoveWhenMissedInView} missed-while-visible frames");
@@ -556,7 +578,7 @@ namespace ARObjectDetection
             {
                 anchor.hasAprilTagAssociation = true;
                 anchor.associatedAprilTagId = tagId;
-                Debug.Log($"[DepthAnchor] ★ Anchor #{anchor.trackId} ({anchor.className}) -> GREEN (AprilTag #{tagId})");
+                Debug.Log($"[DepthAnchor] ★ Anchor #{anchor.trackId} ({anchor.className}) -> GREEN (AprilTag #{tagId}) - PROTECTED FROM REMOVAL");
             }
         }
 
@@ -652,6 +674,28 @@ namespace ARObjectDetection
                 return;
             }
 
+            // ============================================================
+            // PRIORITY 1: Check if we hit the Propose button on InfoPanel
+            // ============================================================
+            if (IsProposeButttonHit(cachedRayHit))
+            {
+                OnProposeButtonHit();
+                return; // Don't deselect or do anything else
+            }
+
+            // ============================================================
+            // PRIORITY 2: Check if we hit the InfoPanel itself (not button)
+            // If so, do nothing - don't deselect the anchor
+            // ============================================================
+            if (IsInfoPanelHit(cachedRayHit))
+            {
+                // Clicked on info panel but not on button - just ignore
+                return;
+            }
+
+            // ============================================================
+            // PRIORITY 3: Check if we hit an anchor
+            // ============================================================
             DepthAnchorInstance hitAnchor = null;
             foreach (var anchor in confirmedAnchors.Values)
             {
@@ -673,7 +717,72 @@ namespace ARObjectDetection
             }
             else
             {
+                // Clicked on empty space - deselect
                 DeselectAnchor();
+            }
+        }
+
+        /// <summary>
+        /// Check if the raycast hit the Propose button
+        /// </summary>
+        private bool IsProposeButttonHit(RaycastHit hit)
+        {
+            if (hit.collider == null) return false;
+
+            // Check if hit object or any parent is named "ProposeButton"
+            Transform t = hit.collider.transform;
+            while (t != null)
+            {
+                if (t.name.Contains("ProposeButton") || t.name.Contains("proposeButton"))
+                {
+                    return true;
+                }
+                t = t.parent;
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Check if the raycast hit the InfoPanel (but not the button)
+        /// </summary>
+        private bool IsInfoPanelHit(RaycastHit hit)
+        {
+            if (hit.collider == null) return false;
+            if (activeInfoPanel == null) return false;
+
+            // Check if hit object is part of the InfoPanel hierarchy
+            Transform t = hit.collider.transform;
+            while (t != null)
+            {
+                if (t.gameObject == activeInfoPanel)
+                {
+                    return true;
+                }
+                t = t.parent;
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Handle Propose button click
+        /// </summary>
+        private void OnProposeButtonHit()
+        {
+            if (activeInfoPanel == null)
+            {
+                Debug.LogWarning("[DepthAnchor] Propose button hit but no active InfoPanel");
+                return;
+            }
+
+            var infoPanel = activeInfoPanel.GetComponent<AnchorInfoPanel>();
+            if (infoPanel != null)
+            {
+                infoPanel.OnPropose3DButtonClicked();
+                Debug.Log("[DepthAnchor] ✓ Propose button clicked!");
+            }
+            else
+            {
+                Debug.LogWarning("[DepthAnchor] Propose button hit but AnchorInfoPanel component not found");
             }
         }
 
@@ -781,6 +890,14 @@ namespace ARObjectDetection
         public IEnumerable<DepthAnchorInstance> GetActiveAnchors() => confirmedAnchors.Values;
         public IEnumerable<DepthAnchorInstance> GetLostAnchors() => Enumerable.Empty<DepthAnchorInstance>();
 
+        /// <summary>
+        /// Get the number of AprilTag-associated (GREEN) anchors
+        /// </summary>
+        public int GetAprilTagAssociatedAnchorCount()
+        {
+            return confirmedAnchors.Values.Count(a => a.hasAprilTagAssociation);
+        }
+
         public void ClearAllAnchors()
         {
             DeselectAnchor();
@@ -799,22 +916,8 @@ namespace ARObjectDetection
             if (activeInfoPanel != null) Destroy(activeInfoPanel);
         }
 
-        private void OnGUI()
-        {
-            if (!enableDebugLogs) return;
-
-            GUILayout.BeginArea(new Rect(10, 300, 400, 150));
-            GUILayout.Label($"═══ SESSION PERSISTENT ANCHORS ═══");
-            GUILayout.Label($"Confirmed: {confirmedAnchors.Count} | Pending: {pendingAnchors.Count}");
-            GUILayout.Label($"Selected: {(selectedAnchor != null ? $"#{selectedAnchor.trackId}" : "None")}");
-            GUILayout.Label($"Created: {anchorsCreated} | Removed: {anchorsRemoved} | Promoted: {pendingPromoted}");
-
-            int cyanCount = confirmedAnchors.Values.Count(a => !a.hasAprilTagAssociation && !a.isSelected);
-            int greenCount = confirmedAnchors.Values.Count(a => a.hasAprilTagAssociation && !a.isSelected);
-            GUILayout.Label($"Colors: CYAN={cyanCount}, GREEN={greenCount}");
-            GUILayout.Label($"Confirm: {framesRequiredToConfirm} frames | Remove: {framesToRemoveWhenMissedInView} missed-in-view");
-            GUILayout.EndArea();
-        }
+        // NOTE: OnGUI() method has been REMOVED to eliminate debug spam.
+        // Debug information can be viewed via the InfoPanel or via code-based logging.
 
         [System.Serializable]
         public class DepthAnchorInstance

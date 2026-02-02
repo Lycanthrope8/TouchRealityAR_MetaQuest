@@ -7,6 +7,7 @@
 // - Site-frame poses are computed/stored when SiteFrame becomes valid
 // - Tags remain sticky after latching (never auto-unlatch on occlusion)
 // - Only manual reset or ClearAll can remove latched tags
+// - OnGUI REMOVED to eliminate NullReferenceException spam
 // ============================================================================
 
 using System;
@@ -40,7 +41,7 @@ namespace ARObjectDetection.AprilTag
         public UnityEvent<int, Pose, float> OnTagSeen;
         public UnityEvent<int> OnTagConflict;
         public UnityEvent<int> OnTagConflictResolved;
-        public UnityEvent<int> OnAnchorRemoved;  // FIX #4: New event
+        public UnityEvent<int> OnAnchorRemoved;
 
         // Internal state
         private Dictionary<int, LatchedTagState> tagStates = new Dictionary<int, LatchedTagState>();
@@ -49,11 +50,11 @@ namespace ARObjectDetection.AprilTag
         // Pending site-frame pose updates (for tags that latched before SiteFrame was valid)
         private HashSet<int> tagsPendingSiteFramePose = new HashSet<int>();
 
-        // FIX #4: Track which tags were detected this tracker frame
+        // Track which tags were detected this tracker frame
         private HashSet<int> tagsDetectedThisFrame = new HashSet<int>();
         private int lastProcessedTrackerFrame = -1;
 
-        // Metrics
+        // Metrics (kept for potential future use / debugging via code)
         private int totalDetectionsReceived = 0;
         private int detectionsSkippedSiteFrameMarker = 0;
         private int detectionsSkippedLowQuality = 0;
@@ -63,7 +64,7 @@ namespace ARObjectDetection.AprilTag
         private int conflictsResolved = 0;
         private int tagsLatchedWithoutSiteFrame = 0;
         private int tagsPoseUpdatedAfterSiteFrame = 0;
-        private int anchorsRemoved = 0;  // FIX #4
+        private int anchorsRemoved = 0;
 
         // Public properties
         public IReadOnlyDictionary<int, LatchedTagState> AllTagStates => tagStates;
@@ -75,11 +76,16 @@ namespace ARObjectDetection.AprilTag
         public SiteFrameManager SiteFrame => siteFrameManager;
         public int RequiredStableObservations => requiredStableObservations;
 
+        // Metrics accessors for InfoPanel
+        public int TotalDetectionsReceived => totalDetectionsReceived;
+        public int TagsLatchedCount => tagsLatched;
+        public int ConflictsTriggered => conflictsTriggered;
+        public int AnchorsRemovedCount => anchorsRemoved;
+
         private void Awake()
         {
             if (config == null)
             {
-                // Create default config if not assigned
                 Debug.LogWarning("[AssetTagManager] AprilTagConfig not assigned, using defaults");
             }
 
@@ -118,7 +124,7 @@ namespace ARObjectDetection.AprilTag
                 UpdatePendingSiteFramePoses();
             }
 
-            // FIX #4: Visibility-aware anchor removal
+            // Visibility-aware anchor removal
             if (config != null && config.EnableAnchorRemoval && mainCamera != null)
             {
                 ProcessAnchorRemoval();
@@ -135,7 +141,6 @@ namespace ARObjectDetection.AprilTag
             {
                 if (tagStates.TryGetValue(tagId, out LatchedTagState state))
                 {
-                    // Recompute site-frame pose from stored world pose
                     Pose sitePose = siteFrameManager.SitePoseFromWorldPose(state.LastTagPoseWorld);
                     state.UpdateSiteFramePose(sitePose);
                     tagsPoseUpdatedAfterSiteFrame++;
@@ -148,8 +153,6 @@ namespace ARObjectDetection.AprilTag
 
         /// <summary>
         /// Process an AprilTag detection observation.
-        /// Tag identity latches INDEPENDENTLY of SiteFrame validity.
-        /// Site-frame poses are computed when SiteFrame is valid.
         /// </summary>
         public void ProcessDetection(AprilTagDetection detection, Pose cameraPoseAtCapture)
         {
@@ -158,10 +161,8 @@ namespace ARObjectDetection.AprilTag
 
             totalDetectionsReceived++;
 
-            // FIX #4: Mark this tag as detected this tracker frame
             tagsDetectedThisFrame.Add(detection.TagId);
 
-            // Skip SiteFrame marker
             int siteFrameMarkerId = config != null ? config.SiteFrameMarkerId : 0;
             if (detection.TagId == siteFrameMarkerId)
             {
@@ -169,11 +170,9 @@ namespace ARObjectDetection.AprilTag
                 return;
             }
 
-            // Compute world pose (always valid)
             Pose tagPoseWorld = OpenCvPoseConversion.ComputeTagWorldPose(detection.PoseInCamera, cameraPoseAtCapture);
 
-            // Compute site-frame pose (only if SiteFrame valid)
-            Pose tagPoseSite = tagPoseWorld; // Default to world pose
+            Pose tagPoseSite = tagPoseWorld;
             bool hasSiteFramePose = false;
 
             if (IsSiteFrameValid)
@@ -182,13 +181,10 @@ namespace ARObjectDetection.AprilTag
                 hasSiteFramePose = true;
             }
 
-            // Fire OnTagSeen event (always, even without SiteFrame)
             OnTagSeen?.Invoke(detection.TagId, tagPoseWorld, detection.Confidence);
 
-            // Get or create tag state
             if (!tagStates.TryGetValue(detection.TagId, out LatchedTagState state))
             {
-                // Quality check for new candidates
                 if (!MeetsLatchQuality(detection.Quality))
                 {
                     detectionsSkippedLowQuality++;
@@ -242,7 +238,6 @@ namespace ARObjectDetection.AprilTag
         private void ProcessCandidateTag(LatchedTagState state, AprilTagDetection detection,
             Pose poseSite, Pose poseWorld, bool hasSiteFramePose)
         {
-            // Stability check - use world pose if no site-frame pose available
             Pose referenceNewPose = hasSiteFramePose ? poseSite : poseWorld;
             Pose referenceOldPose = state.HasSiteFramePose ? state.LastTagPoseSite : state.LastTagPoseWorld;
 
@@ -299,14 +294,12 @@ namespace ARObjectDetection.AprilTag
         private void ProcessLatchedTag(LatchedTagState state, AprilTagDetection detection,
             Pose poseSite, Pose poseWorld, bool hasSiteFramePose)
         {
-            // Ignore low-quality detections
             if (!MeetsLatchQuality(detection.Quality))
             {
                 detectionsSkippedLowQuality++;
                 return;
             }
 
-            // Check cooldown
             if (conflictCooldowns.TryGetValue(state.TagId, out float cooldownEnd))
             {
                 if (Time.realtimeSinceStartup < cooldownEnd)
@@ -320,7 +313,6 @@ namespace ARObjectDetection.AprilTag
             state.UpdateFromDetection(poseSite, poseWorld, detection.Quality,
                 detection.Confidence, detection.ReprojError, true, hasSiteFramePose);
 
-            // Update pending site-frame pose if it just became available
             if (hasSiteFramePose && tagsPendingSiteFramePose.Contains(state.TagId))
             {
                 state.UpdateSiteFramePose(poseSite);
@@ -329,7 +321,6 @@ namespace ARObjectDetection.AprilTag
                 Debug.Log($"[AssetTagManager] Tag #{state.TagId}: Site-frame pose now available");
             }
 
-            // Check for conflicts with linked track
             if (state.HasLinkedTrack && objectTracker != null && hasSiteFramePose)
             {
                 CheckForConflict(state, poseSite, poseWorld);
@@ -353,7 +344,6 @@ namespace ARObjectDetection.AprilTag
 
             float conflictThreshold = config != null ? config.ConflictThreshold : 0.25f;
 
-            // Compute error in SITEFRAME space
             Pose trackedPoseWorld = new Pose(track.worldPositionSmoothed, track.worldRotation);
             Pose trackedPoseSite = IsSiteFrameValid
                 ? siteFrameManager.SitePoseFromWorldPose(trackedPoseWorld)
@@ -473,7 +463,7 @@ namespace ARObjectDetection.AprilTag
         }
 
         // ============================================================
-        // FIX #4: VISIBILITY-AWARE ANCHOR REMOVAL
+        // VISIBILITY-AWARE ANCHOR REMOVAL
         // ============================================================
 
         /// <summary>
@@ -488,7 +478,6 @@ namespace ARObjectDetection.AprilTag
 
             foreach (var state in tagStates.Values)
             {
-                // Only process latched tags
                 if (!state.IsLatched) continue;
 
                 // Check for anchor confirmation
@@ -497,10 +486,7 @@ namespace ARObjectDetection.AprilTag
                     if (state.ConsecutiveDetectionFrames >= config.AnchorConfirmationFrames)
                     {
                         state.ConfirmAnchor();
-                        if (config.EnableDebugLogs)
-                        {
-                            Debug.Log($"[AssetTagManager] ✅ Anchor #{state.TagId} CONFIRMED after {state.ConsecutiveDetectionFrames} detection frames");
-                        }
+                        Debug.Log($"[AssetTagManager] ✅ Anchor #{state.TagId} CONFIRMED after {state.ConsecutiveDetectionFrames} detection frames");
                     }
                 }
 
@@ -520,10 +506,7 @@ namespace ARObjectDetection.AprilTag
                     conflictCooldowns.Remove(tagId);
                     anchorsRemoved++;
                     OnAnchorRemoved?.Invoke(tagId);
-                    if (config.EnableDebugLogs)
-                    {
-                        Debug.Log($"[AssetTagManager] 🗑️ Removed anchor #{tagId} (exceeded {config.MaxMissesWhileInView} consecutive misses while in view)");
-                    }
+                    Debug.Log($"[AssetTagManager] 🗑️ Removed anchor #{tagId} (exceeded {config.MaxMissesWhileInView} consecutive misses while in view)");
                 }
             }
         }
@@ -537,7 +520,6 @@ namespace ARObjectDetection.AprilTag
 
             Vector3 viewportPos = mainCamera.WorldToViewportPoint(worldPos);
 
-            // Check if in frustum (0-1 range for x/y, positive z)
             return viewportPos.z > 0 &&
                    viewportPos.x >= 0 && viewportPos.x <= 1 &&
                    viewportPos.y >= 0 && viewportPos.y <= 1;
@@ -545,11 +527,9 @@ namespace ARObjectDetection.AprilTag
 
         /// <summary>
         /// PUBLIC API: Called by AprilTagIntegration at the END of each detection/tracker frame.
-        /// This finalizes the frame and processes visibility-based miss counters.
         /// </summary>
         public void OnTrackerFrameComplete(int frameId)
         {
-            // Prevent double-processing same frame
             if (frameId == lastProcessedTrackerFrame)
                 return;
             lastProcessedTrackerFrame = frameId;
@@ -560,7 +540,6 @@ namespace ARObjectDetection.AprilTag
                 return;
             }
 
-            // For each latched tag, check if it was detected this frame
             foreach (var state in tagStates.Values)
             {
                 if (!state.IsLatched) continue;
@@ -569,60 +548,27 @@ namespace ARObjectDetection.AprilTag
 
                 if (detectedThisFrame)
                 {
-                    // Tag was detected → reset miss counter
                     state.ResetMissCounter();
                 }
                 else
                 {
-                    // Tag NOT detected → check if in FOV
                     bool inFOV = IsInCameraFOV(state.LastTagPoseWorld.position);
 
                     if (inFOV)
                     {
-                        // In FOV but not detected → accumulate miss
                         state.RecordMissWhileInView();
                     }
                     else
                     {
-                        // Not in FOV → don't accumulate miss
                         state.ResetMissCounter();
                     }
                 }
             }
 
-            // Clear detection set for next frame
             tagsDetectedThisFrame.Clear();
         }
 
-        private void OnGUI()
-        {
-            bool showGUI = config != null ? config.ShowDebugGUI : true;
-            if (!showGUI) return;
-
-            GUILayout.BeginArea(new Rect(420, 10, 400, 280));
-            GUILayout.Label("═══ APRILTAG ASSET MANAGER ═══");
-            GUILayout.Label($"SiteFrame: {(IsSiteFrameValid ? "VALID" : "INVALID")}");
-            GUILayout.Label($"Latched: {LatchedTagCount} | Candidates: {CandidateTagCount} | Conflicts: {ConflictTagCount}");
-            GUILayout.Label($"Confirmed Anchors: {tagStates.Values.Count(s => s.IsAnchorConfirmed)}");
-            GUILayout.Label($"Detections: {totalDetectionsReceived} | Anchors Removed: {anchorsRemoved}");
-            GUILayout.Label($"Latched w/o SiteFrame: {tagsLatchedWithoutSiteFrame} | Poses updated after: {tagsPoseUpdatedAfterSiteFrame}");
-            GUILayout.Label($"Pending SiteFrame pose: {tagsPendingSiteFramePose.Count}");
-            GUILayout.Label($"Skipped: LowQ={detectionsSkippedLowQuality}, SFMarker={detectionsSkippedSiteFrameMarker}");
-
-            GUILayout.Label("─── ACTIVE TAGS ───");
-            foreach (var state in tagStates.Values.Take(5))
-            {
-                string statusStr = state.Status.ToString().Substring(0, 3).ToUpper();
-                string linkStr = state.HasLinkedTrack ? $"→T{state.LinkedTrackId}" : "";
-                string siteStr = state.HasSiteFramePose ? "" : " (no SF pose)";
-                float secsSeen = state.SecondsSinceLastSeen;
-                string seenStr = secsSeen < 1f ? "now" : $"{secsSeen:F0}s ago";
-                string anchorStr = state.IsAnchorConfirmed ? "✓" : $"[{state.ConsecutiveDetectionFrames}/{config.AnchorConfirmationFrames}]";
-                string missStr = state.ConsecutiveMissesWhileInView > 0 ? $" miss:{state.ConsecutiveMissesWhileInView}/{config.MaxMissesWhileInView}" : "";
-                GUILayout.Label($"  #{state.TagId} [{statusStr}]{linkStr} {anchorStr} det:{state.TotalDetections} seen:{seenStr}{siteStr}{missStr}");
-            }
-
-            GUILayout.EndArea();
-        }
+        // NOTE: OnGUI() method has been REMOVED to eliminate NullReferenceException spam.
+        // Debug information can be viewed via the InfoPanel or via code-based logging.
     }
 }

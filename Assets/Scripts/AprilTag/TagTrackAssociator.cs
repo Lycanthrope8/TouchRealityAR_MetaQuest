@@ -8,6 +8,7 @@
 // - RequiredFrames=1 confirms IMMEDIATELY (no expiration possible)
 // - Debug logging shows world poses and site poses for diagnosis
 // - Coordinate frame validation
+// - OnGUI REMOVED to eliminate debug spam
 // ============================================================================
 
 using System.Collections.Generic;
@@ -24,7 +25,7 @@ namespace ARObjectDetection.AprilTag
         public int ConfirmationCount;
         public float LastSeenTime;
         public float DistanceSite;
-        public float BestScoreSeen;  // Track best score to prevent jitter switching
+        public float BestScoreSeen;
     }
 
     public class TagTrackAssociator : MonoBehaviour
@@ -75,6 +76,12 @@ namespace ARObjectDetection.AprilTag
         private int rejectedConflict = 0;
         private int eventsFired = 0;
         private int hysteresisPreventedSwitch = 0;
+
+        // Public accessors for metrics (can be used by InfoPanel)
+        public int AssociationAttempts => associationAttempts;
+        public int SuccessfulAssociations => successfulAssociations;
+        public int ActiveAssociationCount => trackToTag.Count;
+        public int PendingCount => pendingAssociations.Count;
 
         private void Awake()
         {
@@ -138,8 +145,6 @@ namespace ARObjectDetection.AprilTag
             if (state == null || !state.IsLatched)
                 return;
 
-            // CRITICAL: Use WORLD pose for association, not site pose
-            // The tag world pose and track world pose should be in the same coordinate system
             TryAssociateTag(tagId, state);
         }
 
@@ -177,7 +182,6 @@ namespace ARObjectDetection.AprilTag
                 return;
             }
 
-            // Check if there are any active tracks
             int activeTrackCount = objectTracker.ActiveTracks.Count(t => t.state != TrackState.Lost);
             if (activeTrackCount == 0)
             {
@@ -189,21 +193,18 @@ namespace ARObjectDetection.AprilTag
 
             int currentLinkedTrackId = tagState.LinkedTrackId;
 
-            // STICKY CHECK: If tag already has association and stickyAssociations is enabled, skip
             if (stickyAssociations && tagToTrack.ContainsKey(tagId))
             {
                 int existingTrackId = tagToTrack[tagId];
                 TrackedObject existingTrack = objectTracker.ActiveTracks.FirstOrDefault(t => t.id == existingTrackId);
                 if (existingTrack != null && existingTrack.state != TrackState.Lost)
                 {
-                    // Track still valid, keep existing association
                     return;
                 }
                 if (enableDebugLogs)
                     Debug.Log($"[TagTrackAssociator] Tag #{tagId}: Previous track #{existingTrackId} gone, allowing reassociation");
             }
 
-            // Get tag pose in WORLD space (this is what we compare against track world positions)
             Vector3 tagWorldPos = tagState.LastTagPoseWorld.position;
 
             if (enableDebugLogs)
@@ -226,7 +227,6 @@ namespace ARObjectDetection.AprilTag
                     Debug.Log($"[TagTrackAssociator] Tag #{tagId} SitePos: {tagState.LastTagPoseSite.position}");
             }
 
-            // Find candidates using WORLD space distances
             var candidates = new List<(TrackedObject track, float distance, float score)>();
 
             if (enableDebugLogs)
@@ -237,14 +237,12 @@ namespace ARObjectDetection.AprilTag
                 if (track.state == TrackState.Lost)
                     continue;
 
-                // CONFLICT CHECK: If this track already has a DIFFERENT tag, skip it
                 if (stickyAssociations && trackToTag.TryGetValue(track.id, out int existingTagId))
                 {
                     if (existingTagId != tagId)
                         continue;
                 }
 
-                // Use WORLD positions for distance calculation
                 Vector3 trackWorldPos = track.worldPositionSmoothed;
                 float distance = Vector3.Distance(tagWorldPos, trackWorldPos);
 
@@ -281,7 +279,6 @@ namespace ARObjectDetection.AprilTag
             if (enableDebugLogs)
                 Debug.Log($"[TagTrackAssociator] Tag #{tagId}: Best candidate is Track #{best.track.id} ({best.track.className}) at {best.distance:F3}m, score={best.score:F3}");
 
-            // STICKY CHECK: Don't switch if we have an existing CONFIRMED association
             if (stickyAssociations && currentLinkedTrackId >= 0 && best.track.id != currentLinkedTrackId)
             {
                 var current = candidates.FirstOrDefault(c => c.track.id == currentLinkedTrackId);
@@ -296,7 +293,6 @@ namespace ARObjectDetection.AprilTag
                 }
             }
 
-            // Temporal confirmation with HYSTERESIS
             ApplyTemporalConfirmationWithHysteresis(tagId, tagState, best.track, best.distance, best.score, currentLinkedTrackId);
         }
 
@@ -305,17 +301,14 @@ namespace ARObjectDetection.AprilTag
         {
             float now = Time.realtimeSinceStartup;
 
-            // Check if we have an existing pending association
             if (pendingAssociations.TryGetValue(tagId, out PendingAssociation pending))
             {
                 if (pending.TrackId == bestTrack.id)
                 {
-                    // Same candidate - increment confirmation
                     pending.ConfirmationCount++;
                     pending.LastSeenTime = now;
                     pending.DistanceSite = distance;
 
-                    // Track best score seen
                     if (score < pending.BestScoreSeen)
                         pending.BestScoreSeen = score;
 
@@ -331,14 +324,12 @@ namespace ARObjectDetection.AprilTag
                 }
                 else
                 {
-                    // HYSTERESIS: Only switch to new candidate if significantly better
                     float improvement = pending.BestScoreSeen - score;
 
                     if (improvement < pendingSwitchThreshold)
                     {
-                        // Not enough improvement - keep existing pending candidate
                         hysteresisPreventedSwitch++;
-                        pending.LastSeenTime = now;  // Keep it alive
+                        pending.LastSeenTime = now;
 
                         if (enableDebugLogs)
                         {
@@ -348,7 +339,6 @@ namespace ARObjectDetection.AprilTag
                         return;
                     }
 
-                    // Significant improvement - allow switch
                     if (enableDebugLogs)
                     {
                         Debug.Log($"[TagTrackAssociator] Tag #{tagId}: Track changed from #{pending.TrackId} to #{bestTrack.id} " +
@@ -358,7 +348,6 @@ namespace ARObjectDetection.AprilTag
                 }
             }
 
-            // Start new pending association
             pendingAssociations[tagId] = new PendingAssociation
             {
                 TagId = tagId,
@@ -373,7 +362,6 @@ namespace ARObjectDetection.AprilTag
             if (enableDebugLogs)
                 Debug.Log($"[TagTrackAssociator] Tag #{tagId} -> Track #{bestTrack.id}: starting confirmation 1/{requiredConfirmationFrames}");
 
-            // IMMEDIATE CONFIRMATION if RequiredFrames == 1
             if (requiredConfirmationFrames <= 1)
             {
                 FinalizeAssociation(tagId, tagState, bestTrack, currentLinkedTrackId);
@@ -383,7 +371,6 @@ namespace ARObjectDetection.AprilTag
 
         private void FinalizeAssociation(int tagId, LatchedTagState tagState, TrackedObject track, int previousLinkedTrackId)
         {
-            // CONFLICT CHECK: Ensure no other tag has this track
             if (trackToTag.TryGetValue(track.id, out int existingTagId) && existingTagId != tagId)
             {
                 rejectedConflict++;
@@ -392,7 +379,6 @@ namespace ARObjectDetection.AprilTag
                 return;
             }
 
-            // Clear previous associations
             if (previousLinkedTrackId >= 0)
             {
                 trackToTag.Remove(previousLinkedTrackId);
@@ -402,7 +388,6 @@ namespace ARObjectDetection.AprilTag
                 trackToTag.Remove(oldTrackId);
             }
 
-            // Set new associations (both directions)
             tagState.LinkToTrack(track.id, track.className);
             trackToTag[track.id] = tagId;
             tagToTrack[tagId] = track.id;
@@ -460,25 +445,7 @@ namespace ARObjectDetection.AprilTag
             Debug.Log("[TagTrackAssociator] All associations cleared");
         }
 
-        private void OnGUI()
-        {
-            if (!enableDebugLogs) return;
-
-            GUILayout.BeginArea(new Rect(420, 300, 400, 170));
-            GUILayout.Label("─── TAG-TRACK ASSOCIATIONS ───");
-            GUILayout.Label($"Mode: {(stickyAssociations ? "STICKY" : "Dynamic")}, Hysteresis: {pendingSwitchThreshold}m");
-            GUILayout.Label($"Events: {eventsFired} | Attempts: {associationAttempts}");
-            GUILayout.Label($"Confirmed: {successfulAssociations} | Pending: {pendingAssociations.Count}");
-            GUILayout.Label($"Active: {trackToTag.Count}");
-            GUILayout.Label($"Rejected: tooFar={rejectedTooFar}, noTracks={rejectedNoTracks}, conflict={rejectedConflict}");
-            GUILayout.Label($"Hysteresis prevented: {hysteresisPreventedSwitch}");
-
-            foreach (var kvp in tagToTrack.Take(3))
-            {
-                GUILayout.Label($"  Tag #{kvp.Key} ↔ Track #{kvp.Value}");
-            }
-
-            GUILayout.EndArea();
-        }
+        // NOTE: OnGUI() method has been REMOVED to eliminate debug spam.
+        // Metrics can be accessed via public properties for InfoPanel display.
     }
 }

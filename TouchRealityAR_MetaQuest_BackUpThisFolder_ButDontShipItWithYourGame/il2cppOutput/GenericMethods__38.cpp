@@ -13499,7 +13499,7 @@ IL_000d:
 		return L_5;
 	}
 }
-// Method Definition Index: 110997
+// Method Definition Index: 111029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerUtils_RebuildInspectorForType_TisRuntimeObject_m7CB3BFBAB56827CEB557634AA32CE04A9D3D3479_gshared (RuntimeObject* ___0_panel, InstanceCache_t4BE74F0905EC3B9F43DA75C026AFE64CF80DCD98* ___1_cache, Type_t* ___2_type, List_1_t84D3C4DF7E7139A1CE31AA2F01FEDAECB9920943* ___3_memberPairs, RegisterMember_1_t0B922DD7A040E12D923BEAC0FF8A2EE136DC45FD* ___4_memberRegistration, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -29757,7 +29757,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueTuple_2_tC3717D4552EE1E5FC27
 		return L_0;
 	}
 }
-// Method Definition Index: 110999
+// Method Definition Index: 111031
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RegisterMember_1_Invoke_mEB5C14220E038A1AF2548A58E1E799C8C86B2821_gshared_inline (RegisterMember_1_t0B922DD7A040E12D923BEAC0FF8A2EE136DC45FD* __this, RuntimeObject* ___0_memberController, RuntimeObject* ___1_member, DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* ___2_attribute, InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA ___3_instanceHandle, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A*, InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA, const RuntimeMethod*);

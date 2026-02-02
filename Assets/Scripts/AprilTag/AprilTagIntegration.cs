@@ -7,6 +7,7 @@
 // - STRICT TIMING: If pose buffer lookup fails, detection is SKIPPED
 // - MULTI-MARKER: Processes primary fiducial + additional_markers array
 // - ROBUSTNESS: Guards against null/invalid rvec/tvec arrays
+// - OnGUI REMOVED to eliminate debug spam
 // ============================================================================
 
 using System.Collections.Generic;
@@ -53,6 +54,12 @@ namespace ARObjectDetection.AprilTag
 
         private float lastBufferMissLogTime = 0f;
         private float lastMultiMarkerLogTime = 0f;
+
+        // Public accessors for metrics (for InfoPanel display)
+        public int FiducialsProcessed => fiducialsProcessed;
+        public int AssetTagsProcessed => assetTagsProcessed;
+        public int MultiMarkerFrames => multiMarkerFrames;
+        public int FiducialsSkippedNoBuffer => fiducialsSkippedNoBuffer;
 
         private void Awake()
         {
@@ -179,8 +186,7 @@ namespace ARObjectDetection.AprilTag
                 ProcessSingleMarker(marker, response.frame_id, response.capture_time);
             }
 
-            // FIX #4: Notify AssetTagManager that this tracker frame is complete
-            // This finalizes visibility-based miss counters for anchor removal
+            // Notify AssetTagManager that this tracker frame is complete
             if (assetTagManager != null)
             {
                 assetTagManager.OnTrackerFrameComplete(response.frame_id);
@@ -311,19 +317,7 @@ namespace ARObjectDetection.AprilTag
             assetTagsProcessed = 0;
         }
 
-        private void OnGUI()
-        {
-            if (!enableDebugLogs) return;
-
-            GUILayout.BeginArea(new Rect(420, 440, 400, 120));
-            GUILayout.Label("─── APRILTAG INTEGRATION ───");
-            GUILayout.Label($"Asset tags processed: {assetTagsProcessed}");
-            GUILayout.Label($"Multi-marker frames: {multiMarkerFrames} | Additional markers: {additionalMarkersReceived}");
-            GUILayout.Label($"Skipped: buffer={fiducialsSkippedNoBuffer}, " +
-                           $"siteframe={fiducialsSkippedSiteFrame}, " +
-                           $"age={fiducialsSkippedAge}, " +
-                           $"invalid={fiducialsSkippedInvalidPose}");
-            GUILayout.EndArea();
-        }
+        // NOTE: OnGUI() method has been REMOVED to eliminate debug spam.
+        // Metrics can be accessed via public properties for InfoPanel display.
     }
 }
