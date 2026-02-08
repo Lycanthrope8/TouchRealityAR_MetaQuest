@@ -1,7 +1,7 @@
 // ============================================================================
 // FILE: GatewayClient.cs
-// REST client for Gateway API calls.
-// EP5 FIX: Explicit Initialize() method, better logging
+// REST client for Gateway API calls - Updated for Two-Org Model
+// Supports revocation workflow: initiate, endorse, reject
 // ============================================================================
 
 using System;
@@ -51,6 +51,93 @@ namespace ARObjectDetection.Gateway
         public string error;
     }
 
+    // =========================================================================
+    // REVOCATION TYPES
+    // =========================================================================
+
+    [Serializable]
+    public class RevokeRequest
+    {
+        public string asset_id;
+        public string reason;
+    }
+
+    [Serializable]
+    public class RevokeResponse
+    {
+        public bool success;
+        public string claim_id;
+        public string state;
+        public string initiated_by;
+        public string required_endorser;
+        public string event_id;
+        public string error;
+    }
+
+    [Serializable]
+    public class EndorseRevokeRequest
+    {
+        public string asset_id;
+    }
+
+    [Serializable]
+    public class EndorseRevokeResponse
+    {
+        public bool success;
+        public string claim_id;
+        public string state;
+        public string initiated_by;
+        public string endorsed_by;
+        public bool anchor_deleted;
+        public string event_id;
+        public string error;
+    }
+
+    [Serializable]
+    public class RejectRevokeRequest
+    {
+        public string asset_id;
+        public string reason;
+    }
+
+    [Serializable]
+    public class RejectRevokeResponse
+    {
+        public bool success;
+        public string claim_id;
+        public string state;
+        public string initiated_by;
+        public string rejected_by;
+        public string rejection_reason;
+        public bool anchor_preserved;
+        public string event_id;
+        public string error;
+    }
+
+    [Serializable]
+    public class PendingRevocation
+    {
+        public string assetId;
+        public string claimId;
+        public string initiatedBy;
+        public string initiatedAt;
+        public string reason;
+        public string status;
+        public string requiredEndorser;
+    }
+
+    [Serializable]
+    public class PendingRevocationsResponse
+    {
+        public PendingRevocation[] pendingRevocations;
+        public int count;
+        public string forOrg;
+    }
+
+    // =========================================================================
+    // SNAPSHOT TYPES
+    // =========================================================================
+
     [Serializable]
     public class SnapshotResponse
     {
@@ -68,6 +155,10 @@ namespace ARObjectDetection.Gateway
         public string publisher_id;
         public int endorsement_count;
     }
+
+    // =========================================================================
+    // GATEWAY CLIENT
+    // =========================================================================
 
     public class GatewayClient : MonoBehaviour
     {
@@ -107,6 +198,10 @@ namespace ARObjectDetection.Gateway
             };
         }
 
+        // =====================================================================
+        // PROPOSE ANCHOR
+        // =====================================================================
+
         public void ProposeAnchor(string assetId, PoseSite poseSite, QualityMetrics qualityMetrics,
             Action<ProposeResponse> onSuccess, Action<string> onError)
         {
@@ -143,6 +238,7 @@ namespace ARObjectDetection.Gateway
                 webRequest.downloadHandler = new DownloadHandlerBuffer();
                 webRequest.SetRequestHeader("Content-Type", "application/json");
                 webRequest.SetRequestHeader("x-api-key", config.apiKey);
+                webRequest.SetRequestHeader("x-org-id", config.organizationId);
                 webRequest.timeout = config.requestTimeoutSeconds;
 
                 yield return webRequest.SendWebRequest();
@@ -172,6 +268,240 @@ namespace ARObjectDetection.Gateway
             }
         }
 
+        // =====================================================================
+        // REVOCATION WORKFLOW
+        // =====================================================================
+
+        /// <summary>
+        /// Initiate anchor revocation. Sets state to REVOKE_PENDING.
+        /// Requires endorsement from the other organization to complete.
+        /// </summary>
+        public void RevokeAnchor(string assetId, string reason,
+            Action<RevokeResponse> onSuccess, Action<string> onError)
+        {
+            if (!isInitialized || config == null)
+            {
+                onError?.Invoke("GatewayClient not initialized");
+                return;
+            }
+
+            var request = new RevokeRequest
+            {
+                asset_id = assetId,
+                reason = reason ?? ""
+            };
+
+            StartCoroutine(RevokeAnchorCoroutine(request, onSuccess, onError));
+        }
+
+        private IEnumerator RevokeAnchorCoroutine(RevokeRequest request,
+            Action<RevokeResponse> onSuccess, Action<string> onError)
+        {
+            string url = $"{config.gatewayBaseUrl}/admin/revoke";
+            string json = JsonUtility.ToJson(request);
+
+            Debug.Log($"[GatewayClient] POST {url} (Revoke)");
+
+            using (var webRequest = new UnityWebRequest(url, "POST"))
+            {
+                byte[] bodyRaw = Encoding.UTF8.GetBytes(json);
+                webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
+                webRequest.downloadHandler = new DownloadHandlerBuffer();
+                webRequest.SetRequestHeader("Content-Type", "application/json");
+                webRequest.SetRequestHeader("x-api-key", config.apiKey);
+                webRequest.SetRequestHeader("x-org-id", config.organizationId);
+                webRequest.timeout = config.requestTimeoutSeconds;
+
+                yield return webRequest.SendWebRequest();
+
+                string responseText = webRequest.downloadHandler?.text ?? "";
+
+                if (webRequest.result == UnityWebRequest.Result.Success && webRequest.responseCode >= 200 && webRequest.responseCode < 300)
+                {
+                    try
+                    {
+                        var response = JsonUtility.FromJson<RevokeResponse>(responseText);
+                        Debug.Log($"[GatewayClient] ✓ Revoke initiated: state={response.state}, requiredEndorser={response.required_endorser}");
+                        onSuccess?.Invoke(response);
+                    }
+                    catch (Exception e)
+                    {
+                        onError?.Invoke($"Parse error: {e.Message}");
+                    }
+                }
+                else
+                {
+                    onError?.Invoke($"HTTP {webRequest.responseCode}: {webRequest.error} - {responseText}");
+                }
+            }
+        }
+
+        /// <summary>
+        /// Endorse a pending revocation. Completes the revocation and deletes the anchor.
+        /// Must be called by different organization than initiator.
+        /// </summary>
+        public void EndorseRevoke(string assetId,
+            Action<EndorseRevokeResponse> onSuccess, Action<string> onError)
+        {
+            if (!isInitialized || config == null)
+            {
+                onError?.Invoke("GatewayClient not initialized");
+                return;
+            }
+
+            var request = new EndorseRevokeRequest { asset_id = assetId };
+            StartCoroutine(EndorseRevokeCoroutine(request, onSuccess, onError));
+        }
+
+        private IEnumerator EndorseRevokeCoroutine(EndorseRevokeRequest request,
+            Action<EndorseRevokeResponse> onSuccess, Action<string> onError)
+        {
+            string url = $"{config.gatewayBaseUrl}/admin/endorse-revoke";
+            string json = JsonUtility.ToJson(request);
+
+            Debug.Log($"[GatewayClient] POST {url} (EndorseRevoke)");
+
+            using (var webRequest = new UnityWebRequest(url, "POST"))
+            {
+                byte[] bodyRaw = Encoding.UTF8.GetBytes(json);
+                webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
+                webRequest.downloadHandler = new DownloadHandlerBuffer();
+                webRequest.SetRequestHeader("Content-Type", "application/json");
+                webRequest.SetRequestHeader("x-api-key", config.apiKey);
+                webRequest.SetRequestHeader("x-org-id", config.organizationId);
+                webRequest.timeout = config.requestTimeoutSeconds;
+
+                yield return webRequest.SendWebRequest();
+
+                string responseText = webRequest.downloadHandler?.text ?? "";
+
+                if (webRequest.result == UnityWebRequest.Result.Success && webRequest.responseCode >= 200 && webRequest.responseCode < 300)
+                {
+                    try
+                    {
+                        var response = JsonUtility.FromJson<EndorseRevokeResponse>(responseText);
+                        Debug.Log($"[GatewayClient] ✓ Revoke endorsed: state={response.state}, anchorDeleted={response.anchor_deleted}");
+                        onSuccess?.Invoke(response);
+                    }
+                    catch (Exception e)
+                    {
+                        onError?.Invoke($"Parse error: {e.Message}");
+                    }
+                }
+                else
+                {
+                    onError?.Invoke($"HTTP {webRequest.responseCode}: {webRequest.error} - {responseText}");
+                }
+            }
+        }
+
+        /// <summary>
+        /// Reject a pending revocation. Keeps anchor in ACTIVE state.
+        /// Must be called by different organization than initiator.
+        /// </summary>
+        public void RejectRevoke(string assetId, string reason,
+            Action<RejectRevokeResponse> onSuccess, Action<string> onError)
+        {
+            if (!isInitialized || config == null)
+            {
+                onError?.Invoke("GatewayClient not initialized");
+                return;
+            }
+
+            var request = new RejectRevokeRequest { asset_id = assetId, reason = reason ?? "" };
+            StartCoroutine(RejectRevokeCoroutine(request, onSuccess, onError));
+        }
+
+        private IEnumerator RejectRevokeCoroutine(RejectRevokeRequest request,
+            Action<RejectRevokeResponse> onSuccess, Action<string> onError)
+        {
+            string url = $"{config.gatewayBaseUrl}/admin/reject-revoke";
+            string json = JsonUtility.ToJson(request);
+
+            Debug.Log($"[GatewayClient] POST {url} (RejectRevoke)");
+
+            using (var webRequest = new UnityWebRequest(url, "POST"))
+            {
+                byte[] bodyRaw = Encoding.UTF8.GetBytes(json);
+                webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
+                webRequest.downloadHandler = new DownloadHandlerBuffer();
+                webRequest.SetRequestHeader("Content-Type", "application/json");
+                webRequest.SetRequestHeader("x-api-key", config.apiKey);
+                webRequest.SetRequestHeader("x-org-id", config.organizationId);
+                webRequest.timeout = config.requestTimeoutSeconds;
+
+                yield return webRequest.SendWebRequest();
+
+                string responseText = webRequest.downloadHandler?.text ?? "";
+
+                if (webRequest.result == UnityWebRequest.Result.Success && webRequest.responseCode >= 200 && webRequest.responseCode < 300)
+                {
+                    try
+                    {
+                        var response = JsonUtility.FromJson<RejectRevokeResponse>(responseText);
+                        Debug.Log($"[GatewayClient] ✓ Revoke rejected: state={response.state}, anchorPreserved={response.anchor_preserved}");
+                        onSuccess?.Invoke(response);
+                    }
+                    catch (Exception e)
+                    {
+                        onError?.Invoke($"Parse error: {e.Message}");
+                    }
+                }
+                else
+                {
+                    onError?.Invoke($"HTTP {webRequest.responseCode}: {webRequest.error} - {responseText}");
+                }
+            }
+        }
+
+        /// <summary>
+        /// Get pending revocations that require this organization's action
+        /// </summary>
+        public void GetPendingRevocationsForMe(Action<PendingRevocationsResponse> onSuccess, Action<string> onError)
+        {
+            if (!isInitialized || config == null)
+            {
+                onError?.Invoke("GatewayClient not initialized");
+                return;
+            }
+            StartCoroutine(GetPendingRevocationsCoroutine(onSuccess, onError));
+        }
+
+        private IEnumerator GetPendingRevocationsCoroutine(Action<PendingRevocationsResponse> onSuccess, Action<string> onError)
+        {
+            string url = $"{config.gatewayBaseUrl}/admin/pending-revocations/for-me";
+
+            using (var webRequest = UnityWebRequest.Get(url))
+            {
+                webRequest.SetRequestHeader("x-api-key", config.apiKey);
+                webRequest.SetRequestHeader("x-org-id", config.organizationId);
+                webRequest.timeout = config.requestTimeoutSeconds;
+
+                yield return webRequest.SendWebRequest();
+
+                if (webRequest.result == UnityWebRequest.Result.Success)
+                {
+                    try
+                    {
+                        var response = JsonUtility.FromJson<PendingRevocationsResponse>(webRequest.downloadHandler.text);
+                        onSuccess?.Invoke(response);
+                    }
+                    catch (Exception e)
+                    {
+                        onError?.Invoke($"Parse error: {e.Message}");
+                    }
+                }
+                else
+                {
+                    onError?.Invoke($"HTTP {webRequest.responseCode}: {webRequest.error}");
+                }
+            }
+        }
+
+        // =====================================================================
+        // SNAPSHOT
+        // =====================================================================
+
         public void FetchSnapshot(Action<SnapshotResponse> onSuccess, Action<string> onError)
         {
             if (!isInitialized || config == null)
@@ -190,6 +520,7 @@ namespace ARObjectDetection.Gateway
             using (var webRequest = UnityWebRequest.Get(url))
             {
                 webRequest.SetRequestHeader("x-api-key", config.apiKey);
+                webRequest.SetRequestHeader("x-org-id", config.organizationId);
                 webRequest.timeout = config.requestTimeoutSeconds;
 
                 yield return webRequest.SendWebRequest();

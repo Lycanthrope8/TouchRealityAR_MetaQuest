@@ -1,345 +1,456 @@
 // ============================================================================
 // FILE: GatewaySseClient.cs
-// SSE client for Unity - receives real-time events from Gateway.
-// EP5 FIX: Explicit Initialize(), guaranteed Connect() call, clear logging
+// SSE Client for receiving real-time events from the Gateway
+// FIXED: Self-contained main thread dispatch, compatible with existing code
 // ============================================================================
 
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
 
 namespace ARObjectDetection.Gateway
 {
+    /// <summary>
+    /// Event data received from SSE stream
+    /// </summary>
+    [Serializable]
+    public class GatewayEvent
+    {
+        public string event_id;
+        public string type;
+        public string asset_id;
+        public string claim_id;
+        public string state;
+        public string timestamp;
+
+        // CamelCase versions (Unity-friendly)
+        public string assetId;
+        public string claimId;
+
+        // Endorsement info
+        public string endorsed_by;
+        public string endorsedBy;
+        public string final_endorser;
+        public string finalEndorser;
+        public string proposed_via_org;
+        public string proposedViaOrg;
+        public bool is_fully_endorsed;
+
+        // Rejection info
+        public string rejected_by;
+        public string rejectedBy;
+        public string reason;
+
+        // Revocation info
+        public string initiated_by;
+        public string initiatedBy;
+        public string required_endorser;
+        public string requiredEndorser;
+        public bool anchor_deleted;
+        public bool anchorDeleted;
+        public bool anchor_preserved;
+        public bool anchorPreserved;
+
+        // Endorsements object (for dual endorsement tracking)
+        public EndorsementsData endorsements;
+
+        /// <summary>
+        /// Get the asset ID (tries both camelCase and snake_case)
+        /// </summary>
+        public string GetAssetId()
+        {
+            return !string.IsNullOrEmpty(assetId) ? assetId : asset_id;
+        }
+
+        /// <summary>
+        /// Get the claim ID (tries both camelCase and snake_case)
+        /// </summary>
+        public string GetClaimId()
+        {
+            return !string.IsNullOrEmpty(claimId) ? claimId : claim_id;
+        }
+    }
+
+    [Serializable]
+    public class EndorsementsData
+    {
+        public bool Org1MSP;
+        public bool Org2MSP;
+    }
+
     public class GatewaySseClient : MonoBehaviour
     {
-        private GatewayConfig config;
-        private AnchorClaimStateManager stateManager;
-        private GatewayClient gatewayClient;
+        [Header("Configuration")]
+        [SerializeField] private float reconnectDelay = 5f;
+        [SerializeField] private bool autoReconnect = true;
+        [SerializeField] private bool enableDebugLogs = true;
 
-        private UnityWebRequest activeRequest;
-        private SseDownloadHandler sseHandler;
-        private Coroutine connectionCoroutine;
-        private bool isInitialized = false;
-        private bool isConnecting = false;
-        private bool isConnected = false;
-        private bool shouldReconnect = true;
-        private int reconnectAttempts = 0;
-        private float lastEventTime;
+        // SSE endpoint path (appended to base URL)
+        private const string SSE_ENDPOINT = "/events/stream";
 
+        // Events
         public event Action OnConnected;
         public event Action OnDisconnected;
         public event Action<GatewayEvent> OnEventReceived;
         public event Action<string> OnError;
 
+        // State
+        private GatewayConfig config;
+        private AnchorClaimStateManager stateManager;
+        private GatewayClient gatewayClient;
+        private UnityWebRequest currentRequest;
+        private bool isConnected = false;
+        private bool shouldReconnect = true;
+        private string lastEventId = null;
+        private Coroutine sseCoroutine;
+
+        // Main thread action queue
+        private readonly Queue<Action> mainThreadActions = new Queue<Action>();
+        private readonly object queueLock = new object();
+
         public bool IsConnected => isConnected;
-        public bool IsConnecting => isConnecting;
-        public float SecondsSinceLastEvent => Time.realtimeSinceStartup - lastEventTime;
 
-        public void Initialize(GatewayConfig gatewayConfig, AnchorClaimStateManager stateMgr, GatewayClient client)
+        public void Initialize(GatewayConfig config, AnchorClaimStateManager stateManager, GatewayClient client)
         {
-            if (gatewayConfig == null)
-            {
-                Debug.LogError("[GatewaySseClient] Initialize called with null config!");
-                return;
-            }
-
-            config = gatewayConfig;
-            stateManager = stateMgr;
-            gatewayClient = client;
-            isInitialized = true;
-
-            Debug.Log($"[GatewaySseClient] ✓ Initialized: {config.EventStreamUrl}");
-        }
-
-        private void OnDisable()
-        {
-            shouldReconnect = false;
-            Disconnect();
-        }
-
-        private void OnDestroy()
-        {
-            shouldReconnect = false;
-            Disconnect();
-        }
-
-        private void Update()
-        {
-            if (isConnected && config != null)
-            {
-                float timeSinceLastEvent = Time.realtimeSinceStartup - lastEventTime;
-                if (timeSinceLastEvent > config.heartbeatTimeoutSeconds)
-                {
-                    Debug.LogWarning($"[GatewaySseClient] Heartbeat timeout ({timeSinceLastEvent:F1}s), reconnecting...");
-                    Reconnect();
-                }
-            }
-        }
-
-        private void OnApplicationPause(bool paused)
-        {
-            if (paused)
-            {
-                Disconnect();
-                PlayerPrefs.Save();
-            }
-            else if (shouldReconnect && isInitialized)
-            {
-                Connect();
-            }
+            this.config = config;
+            this.stateManager = stateManager;
+            this.gatewayClient = client;
         }
 
         public void Connect()
         {
-            if (!isInitialized)
+            if (config == null)
             {
-                Debug.LogError("[GatewaySseClient] Cannot connect - not initialized!");
+                Debug.LogError("[GatewaySseClient] Not initialized. Call Initialize() first.");
                 return;
             }
-
-            if (isConnecting || isConnected)
-            {
-                Debug.Log("[GatewaySseClient] Already connecting/connected");
-                return;
-            }
-
-            if (connectionCoroutine != null)
-                StopCoroutine(connectionCoroutine);
 
             shouldReconnect = true;
-            connectionCoroutine = StartCoroutine(ConnectCoroutine());
+            if (sseCoroutine != null)
+            {
+                StopCoroutine(sseCoroutine);
+            }
+            sseCoroutine = StartCoroutine(SseConnectionCoroutine());
         }
 
         public void Disconnect()
         {
             shouldReconnect = false;
-
-            if (connectionCoroutine != null)
+            if (sseCoroutine != null)
             {
-                StopCoroutine(connectionCoroutine);
-                connectionCoroutine = null;
+                StopCoroutine(sseCoroutine);
+                sseCoroutine = null;
             }
-
-            if (activeRequest != null)
+            if (currentRequest != null)
             {
-                activeRequest.Abort();
-                activeRequest.Dispose();
-                activeRequest = null;
+                currentRequest.Abort();
+                currentRequest.Dispose();
+                currentRequest = null;
             }
-
-            if (isConnected)
-            {
-                isConnected = false;
-                OnDisconnected?.Invoke();
-            }
-
-            isConnecting = false;
+            isConnected = false;
+            OnDisconnected?.Invoke();
         }
 
-        public void Reconnect()
+        /// <summary>
+        /// Process queued main thread actions
+        /// </summary>
+        private void Update()
         {
-            Disconnect();
-            shouldReconnect = true;
-            reconnectAttempts++;
-            Connect();
-        }
-
-        private IEnumerator ConnectCoroutine()
-        {
-            isConnecting = true;
-
-            // Exponential backoff
-            if (reconnectAttempts > 0)
+            lock (queueLock)
             {
-                float delay = Mathf.Min(
-                    config.reconnectDelaySeconds * Mathf.Pow(2, reconnectAttempts - 1),
-                    config.maxReconnectDelaySeconds
-                );
-                Debug.Log($"[GatewaySseClient] Reconnect attempt {reconnectAttempts}, waiting {delay:F1}s...");
-                yield return new WaitForSeconds(delay);
-            }
-
-            // Build URL with Last-Event-ID
-            string url = config.EventStreamUrl;
-            string lastEventId = stateManager?.GetLastEventId();
-            if (!string.IsNullOrEmpty(lastEventId))
-            {
-                url += (url.Contains("?") ? "&" : "?") + "last_event_id=" + UnityWebRequest.EscapeURL(lastEventId);
-            }
-
-            Debug.Log($"[GatewaySseClient] Connecting SSE: {url}");
-
-            activeRequest = new UnityWebRequest(url, "GET");
-            sseHandler = new SseDownloadHandler(this);
-            activeRequest.downloadHandler = sseHandler;
-            activeRequest.SetRequestHeader("Accept", "text/event-stream");
-            activeRequest.SetRequestHeader("Cache-Control", "no-cache");
-            activeRequest.SetRequestHeader("x-api-key", config.apiKey);
-
-            if (!string.IsNullOrEmpty(lastEventId))
-                activeRequest.SetRequestHeader("Last-Event-ID", lastEventId);
-
-            var operation = activeRequest.SendWebRequest();
-
-            // Wait briefly for initial response
-            yield return new WaitForSeconds(1.0f);
-
-            if (activeRequest.result == UnityWebRequest.Result.ConnectionError ||
-                activeRequest.result == UnityWebRequest.Result.ProtocolError)
-            {
-                string error = $"SSE connection failed: {activeRequest.error} (HTTP {activeRequest.responseCode})";
-                Debug.LogError($"[GatewaySseClient] {error}");
-                isConnecting = false;
-                OnError?.Invoke(error);
-
-                if (shouldReconnect)
+                while (mainThreadActions.Count > 0)
                 {
-                    reconnectAttempts++;
-                    connectionCoroutine = StartCoroutine(ConnectCoroutine());
-                }
-                yield break;
-            }
-
-            // Connected!
-            isConnecting = false;
-            isConnected = true;
-            reconnectAttempts = 0;
-            lastEventTime = Time.realtimeSinceStartup;
-
-            Debug.Log($"[GatewaySseClient] ✓ SSE connected to {config.gatewayBaseUrl}");
-            OnConnected?.Invoke();
-
-            // Keep alive until disconnected
-            while (!operation.isDone && activeRequest != null)
-            {
-                yield return null;
-            }
-
-            // Connection ended
-            if (isConnected)
-            {
-                isConnected = false;
-                OnDisconnected?.Invoke();
-                Debug.Log($"[GatewaySseClient] SSE connection closed: {activeRequest?.error ?? "unknown"}");
-
-                if (shouldReconnect)
-                {
-                    reconnectAttempts++;
-                    connectionCoroutine = StartCoroutine(ConnectCoroutine());
+                    var action = mainThreadActions.Dequeue();
+                    try
+                    {
+                        action?.Invoke();
+                    }
+                    catch (Exception e)
+                    {
+                        Debug.LogError($"[GatewaySseClient] Error executing main thread action: {e.Message}");
+                    }
                 }
             }
         }
 
-        internal void ProcessSseData(string line)
+        /// <summary>
+        /// Enqueue action to run on main thread
+        /// </summary>
+        private void EnqueueMainThread(Action action)
         {
-            MainThreadDispatcher.RunOnMainThread(() => ProcessSseDataOnMainThread(line));
-        }
-
-        private void ProcessSseDataOnMainThread(string line)
-        {
-            if (string.IsNullOrEmpty(line)) return;
-
-            lastEventTime = Time.realtimeSinceStartup;
-
-            if (line.StartsWith("id:"))
+            lock (queueLock)
             {
-                sseHandler.CurrentEventId = line.Substring(3).Trim();
-                return;
-            }
-
-            if (line.StartsWith("event:"))
-            {
-                sseHandler.CurrentEventType = line.Substring(6).Trim();
-                return;
-            }
-
-            if (line.StartsWith("data:"))
-            {
-                string json = line.Substring(5).Trim();
-                ProcessEventData(json, sseHandler.CurrentEventId, sseHandler.CurrentEventType);
-                sseHandler.CurrentEventId = null;
-                sseHandler.CurrentEventType = null;
-                return;
+                mainThreadActions.Enqueue(action);
             }
         }
 
-        private void ProcessEventData(string json, string eventId, string eventType)
+        private IEnumerator SseConnectionCoroutine()
         {
-            if (string.IsNullOrEmpty(json)) return;
+            while (shouldReconnect)
+            {
+                // Build SSE URL from config
+                string baseUrl = config.gatewayBaseUrl;
+                if (baseUrl.EndsWith("/"))
+                {
+                    baseUrl = baseUrl.TrimEnd('/');
+                }
+                string url = baseUrl + SSE_ENDPOINT;
+
+                if (enableDebugLogs)
+                    Debug.Log($"[GatewaySseClient] Connecting to SSE: {url}");
+
+                currentRequest = new UnityWebRequest(url, "GET");
+                currentRequest.downloadHandler = new SseDownloadHandler(this);
+                currentRequest.SetRequestHeader("Accept", "text/event-stream");
+                currentRequest.SetRequestHeader("Cache-Control", "no-cache");
+
+                if (!string.IsNullOrEmpty(lastEventId))
+                {
+                    currentRequest.SetRequestHeader("Last-Event-ID", lastEventId);
+                }
+
+                var operation = currentRequest.SendWebRequest();
+
+                // Wait for headers to be received (connection established)
+                float timeout = 10f;
+                float elapsed = 0f;
+                while (!operation.isDone && elapsed < timeout)
+                {
+                    if (currentRequest.downloadedBytes > 0 && !isConnected)
+                    {
+                        isConnected = true;
+                        Debug.Log("[GatewaySseClient] ✓ SSE Connected");
+                        OnConnected?.Invoke();
+                    }
+                    elapsed += Time.deltaTime;
+                    yield return null;
+                }
+
+                // Keep connection alive
+                while (!operation.isDone && shouldReconnect)
+                {
+                    yield return null;
+                }
+
+                // Connection ended
+                isConnected = false;
+
+                if (currentRequest.result != UnityWebRequest.Result.Success)
+                {
+                    Debug.LogError($"[GatewaySseClient] Connection error: {currentRequest.error}");
+                    OnError?.Invoke(currentRequest.error);
+                }
+
+                currentRequest.Dispose();
+                currentRequest = null;
+                OnDisconnected?.Invoke();
+
+                if (shouldReconnect && autoReconnect)
+                {
+                    Debug.Log($"[GatewaySseClient] Reconnecting in {reconnectDelay}s...");
+                    yield return new WaitForSeconds(reconnectDelay);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Process SSE data received from the stream
+        /// Called from SseDownloadHandler on background thread
+        /// </summary>
+        public void ProcessSseData(string data)
+        {
+            // Must dispatch to main thread for Unity operations
+            EnqueueMainThread(() => ProcessSseDataOnMainThread(data));
+        }
+
+        private void ProcessSseDataOnMainThread(string data)
+        {
+            if (string.IsNullOrEmpty(data)) return;
 
             try
             {
-                GatewayEvent evt = JsonUtility.FromJson<GatewayEvent>(json);
-                if (evt == null) return;
+                // Parse SSE format: "id: xxx\nevent: xxx\ndata: {...}\n\n"
+                string eventId = null;
+                string eventType = null;
+                string eventData = null;
 
-                if (string.IsNullOrEmpty(evt.eventId) && !string.IsNullOrEmpty(eventId))
-                    evt.eventId = eventId;
-                if (string.IsNullOrEmpty(evt.type) && !string.IsNullOrEmpty(eventType))
-                    evt.type = eventType;
+                string[] lines = data.Split('\n');
+                foreach (string line in lines)
+                {
+                    if (line.StartsWith("id:"))
+                    {
+                        eventId = line.Substring(3).Trim();
+                    }
+                    else if (line.StartsWith("event:"))
+                    {
+                        eventType = line.Substring(6).Trim();
+                    }
+                    else if (line.StartsWith("data:"))
+                    {
+                        eventData = line.Substring(5).Trim();
+                    }
+                }
 
-                Debug.Log($"[GatewaySseClient] Received event: id={evt.eventId}, type={evt.type}, assetId={evt.assetId}");
+                if (!string.IsNullOrEmpty(eventId))
+                {
+                    lastEventId = eventId;
+                }
 
-                if (evt.type == "CONNECTED" || evt.type == "HEARTBEAT")
+                if (!string.IsNullOrEmpty(eventType) && !string.IsNullOrEmpty(eventData))
+                {
+                    ProcessEventData(eventId, eventType, eventData);
+                }
+            }
+            catch (Exception e)
+            {
+                Debug.LogError($"[GatewaySseClient] Error parsing SSE data: {e.Message}");
+            }
+        }
+
+        private void ProcessEventData(string eventId, string eventType, string jsonData)
+        {
+            try
+            {
+                // Parse the JSON data
+                GatewayEvent evt = JsonUtility.FromJson<GatewayEvent>(jsonData);
+                evt.type = eventType; // Ensure type is set
+
+                // Get asset ID (tries both formats)
+                string assetId = evt.GetAssetId();
+
+                if (enableDebugLogs)
+                {
+                    Debug.Log($"[GatewaySseClient] Received event: id={eventId}, type={eventType}, assetId={assetId}");
+                }
+
+                // Skip heartbeat events for state processing
+                if (eventType == "HEARTBEAT" || eventType == "CONNECTED")
+                {
+                    OnEventReceived?.Invoke(evt);
                     return;
+                }
 
-                if (stateManager != null)
-                    stateManager.ApplyEvent(evt);
+                // Update state manager based on event type
+                if (stateManager != null && !string.IsNullOrEmpty(assetId))
+                {
+                    ProcessStateUpdate(eventType, evt, assetId);
+                }
 
+                // Notify listeners
                 OnEventReceived?.Invoke(evt);
             }
             catch (Exception e)
             {
-                Debug.LogError($"[GatewaySseClient] Error processing event: {e.Message}");
+                Debug.LogError($"[GatewaySseClient] Error processing event data: {e.Message}\nData: {jsonData}");
             }
         }
 
-        private class SseDownloadHandler : DownloadHandlerScript
+        private void ProcessStateUpdate(string eventType, GatewayEvent evt, string assetId)
         {
-            private GatewaySseClient client;
-            private StringBuilder lineBuffer = new StringBuilder();
+            if (string.IsNullOrEmpty(assetId)) return;
 
-            public string CurrentEventId { get; set; }
-            public string CurrentEventType { get; set; }
+            string claimId = evt.GetClaimId();
+            string proposedViaOrg = !string.IsNullOrEmpty(evt.proposedViaOrg) ? evt.proposedViaOrg : evt.proposed_via_org;
+            string rejectedBy = !string.IsNullOrEmpty(evt.rejectedBy) ? evt.rejectedBy : evt.rejected_by;
+            string initiatedBy = !string.IsNullOrEmpty(evt.initiatedBy) ? evt.initiatedBy : evt.initiated_by;
+            string requiredEndorser = !string.IsNullOrEmpty(evt.requiredEndorser) ? evt.requiredEndorser : evt.required_endorser;
 
-            public SseDownloadHandler(GatewaySseClient client) : base(new byte[1024])
+            switch (eventType)
             {
-                this.client = client;
+                case "CLAIM_PROPOSED":
+                    Debug.Log($"[GatewaySseClient] → State Update: {assetId} is now PROPOSED");
+                    stateManager.SetProposed(assetId, claimId, proposedViaOrg);
+                    break;
+
+                case "CLAIM_ENDORSED_ORG1":
+                    Debug.Log($"[GatewaySseClient] → State Update: {assetId} endorsed by Org1");
+                    stateManager.SetEndorsedOrg1(assetId);
+                    break;
+
+                case "CLAIM_ENDORSED_ORG2":
+                    Debug.Log($"[GatewaySseClient] → State Update: {assetId} endorsed by Org2");
+                    stateManager.SetEndorsedOrg2(assetId);
+                    break;
+
+                case "CLAIM_ACTIVATED":
+                    Debug.Log($"[GatewaySseClient] → State Update: {assetId} is now ACTIVE!");
+                    stateManager.SetActive(assetId);
+                    break;
+
+                case "CLAIM_REJECTED":
+                    Debug.Log($"[GatewaySseClient] → State Update: {assetId} was REJECTED by {rejectedBy}");
+                    stateManager.SetRejected(assetId, rejectedBy, evt.reason);
+                    break;
+
+                case "REVOKE_INITIATED":
+                    Debug.Log($"[GatewaySseClient] → State Update: {assetId} revocation initiated by {initiatedBy}");
+                    stateManager.SetRevokePending(assetId, initiatedBy, requiredEndorser, evt.reason);
+                    break;
+
+                case "CLAIM_REVOKED":
+                    Debug.Log($"[GatewaySseClient] → State Update: {assetId} has been REVOKED");
+                    stateManager.SetRevoked(assetId);
+                    break;
+
+                case "REVOKE_REJECTED":
+                    Debug.Log($"[GatewaySseClient] → State Update: {assetId} revocation rejected, back to ACTIVE");
+                    stateManager.SetActive(assetId);
+                    break;
+
+                default:
+                    if (enableDebugLogs)
+                        Debug.Log($"[GatewaySseClient] Unhandled event type: {eventType}");
+                    break;
             }
+        }
 
-            protected override bool ReceiveData(byte[] data, int dataLength)
+        private void OnDestroy()
+        {
+            Disconnect();
+        }
+    }
+
+    /// <summary>
+    /// Custom download handler for SSE streaming
+    /// </summary>
+    public class SseDownloadHandler : DownloadHandlerScript
+    {
+        private GatewaySseClient client;
+        private StringBuilder buffer = new StringBuilder();
+
+        public SseDownloadHandler(GatewaySseClient client) : base()
+        {
+            this.client = client;
+        }
+
+        protected override bool ReceiveData(byte[] data, int dataLength)
+        {
+            if (data == null || dataLength == 0) return true;
+
+            string chunk = Encoding.UTF8.GetString(data, 0, dataLength);
+            buffer.Append(chunk);
+
+            // Process complete events (separated by double newline)
+            string content = buffer.ToString();
+            int eventEnd;
+            while ((eventEnd = content.IndexOf("\n\n")) != -1)
             {
-                if (data == null || dataLength == 0 || client == null) return true;
+                string eventData = content.Substring(0, eventEnd);
+                content = content.Substring(eventEnd + 2);
 
-                string text = Encoding.UTF8.GetString(data, 0, dataLength);
-
-                foreach (char c in text)
+                if (!string.IsNullOrWhiteSpace(eventData))
                 {
-                    if (c == '\n')
-                    {
-                        string line = lineBuffer.ToString();
-                        lineBuffer.Clear();
-                        if (!string.IsNullOrEmpty(line))
-                            client.ProcessSseData(line);
-                    }
-                    else if (c != '\r')
-                    {
-                        lineBuffer.Append(c);
-                    }
-                }
-
-                return true;
-            }
-
-            protected override void CompleteContent()
-            {
-                if (lineBuffer.Length > 0)
-                {
-                    client.ProcessSseData(lineBuffer.ToString());
-                    lineBuffer.Clear();
+                    client.ProcessSseData(eventData);
                 }
             }
+
+            buffer.Clear();
+            buffer.Append(content);
+
+            return true;
         }
     }
 }

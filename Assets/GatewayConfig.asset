@@ -12,14 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c66c90b1775be4da6534b04efdabec, type: 3}
   m_Name: GatewayConfig
   m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.Gateway.GatewayConfig
-  gatewayBaseUrl: https://ad5748e6e72c.ngrok-free.app
+  gatewayBaseUrl: https://37fd-73-184-161-38.ngrok-free.app
   apiKey: proposer-key-001
-  requestTimeoutSeconds: 10
+  organizationId: org1
+  organizationName: Organization 1
   eventStreamEndpoint: /events/stream
+  snapshotEndpoint: /events/snapshot
+  proposeEndpoint: /claims/propose
+  revokeEndpoint: /admin/revoke
+  endorseRevokeEndpoint: /admin/endorse-revoke
+  rejectRevokeEndpoint: /admin/reject-revoke
+  requestTimeoutSeconds: 30
   reconnectDelaySeconds: 3
   maxReconnectDelaySeconds: 30
   heartbeatTimeoutSeconds: 45
-  snapshotEndpoint: /events/snapshot
   fetchSnapshotOnReconnect: 1
   enableDebugLogs: 1
   logAllEvents: 0
+  autoProcessRevocations: 0

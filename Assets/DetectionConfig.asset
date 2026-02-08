@@ -22,7 +22,6 @@ MonoBehaviour:
   enableClassFilter: 1
   classFilter:
   - laptop
-  - mouse
   - keyboard
   - cell phone
   - cup

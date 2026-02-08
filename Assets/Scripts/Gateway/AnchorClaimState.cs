@@ -1,7 +1,6 @@
 // ============================================================================
 // FILE: AnchorClaimState.cs
-// State models and manager for anchor claims.
-// EP5: Added GetLastEventId, GetOrCreateState, GetAllStates
+// State management for anchor claims with DUAL ENDORSEMENT workflow
 // ============================================================================
 
 using System;
@@ -10,232 +9,339 @@ using UnityEngine;
 
 namespace ARObjectDetection.Gateway
 {
+    /// <summary>
+    /// Claim status enum matching chaincode states
+    /// </summary>
     public enum ClaimStatus
     {
-        None,
-        Pending,
-        Proposed,
-        Active,
-        Rejected,
-        Revoked,
-        Unknown
+        None,           // No claim exists
+        Pending,        // Local pending (before server confirms)
+        Proposed,       // PROPOSED - waiting for both endorsements
+        EndorsedOrg1,   // ENDORSED_ORG1 - Org1 endorsed, waiting for Org2
+        EndorsedOrg2,   // ENDORSED_ORG2 - Org2 endorsed, waiting for Org1
+        Active,         // ACTIVE - Both orgs endorsed
+        Rejected,       // REJECTED - One org rejected
+        RevokePending,  // REVOKE_PENDING - Revocation initiated
+        Revoked         // REVOKED - Anchor deleted
     }
 
+    /// <summary>
+    /// Represents the state of an anchor claim
+    /// </summary>
     [Serializable]
     public class AnchorClaimState
     {
         public string assetId;
-        public ClaimStatus status = ClaimStatus.None;
         public string claimId;
-        public string lastEventId;
-        public string publisherId;
-        public string conflictClassification;
+        public ClaimStatus status;
+
+        // Proposal info
+        public string proposedViaOrg;
+        public DateTime proposedAt;
+
+        // Dual endorsement tracking
+        public bool endorsedByOrg1;
+        public bool endorsedByOrg2;
+        public DateTime? endorsedOrg1At;
+        public DateTime? endorsedOrg2At;
+        public DateTime? activatedAt;
+
+        // Rejection info
+        public string rejectedBy;
         public string rejectionReason;
-        public int endorsementCount;
-        public string createdAt;
-        public string updatedAt;
+        public DateTime? rejectedAt;
 
-        public bool CanPropose => status == ClaimStatus.None ||
-                                   status == ClaimStatus.Rejected ||
-                                   status == ClaimStatus.Revoked;
+        // Revocation info
+        public string revokeInitiatedBy;
+        public string revokeRequiredEndorser;
+        public string revokeReason;
+        public DateTime? revokeInitiatedAt;
+
+        // Computed properties
+        public bool CanPropose => status == ClaimStatus.None || status == ClaimStatus.Rejected || status == ClaimStatus.Revoked;
+        public bool CanRevoke => status == ClaimStatus.Active;
+        public bool IsRevokePending => status == ClaimStatus.RevokePending;
+        public bool IsActive => status == ClaimStatus.Active;
+        public bool IsPending => status == ClaimStatus.Pending || status == ClaimStatus.Proposed ||
+                                 status == ClaimStatus.EndorsedOrg1 || status == ClaimStatus.EndorsedOrg2;
+
+        public bool RequiresMyAction(string myMspId)
+        {
+            if (status == ClaimStatus.RevokePending)
+            {
+                return revokeRequiredEndorser == myMspId;
+            }
+            return false;
+        }
+
+        public string GetStatusDescription()
+        {
+            switch (status)
+            {
+                case ClaimStatus.Proposed:
+                    return "Proposed - Awaiting Org1 & Org2 endorsement";
+                case ClaimStatus.EndorsedOrg1:
+                    return "Org1 Endorsed ✓ - Awaiting Org2";
+                case ClaimStatus.EndorsedOrg2:
+                    return "Org2 Endorsed ✓ - Awaiting Org1";
+                case ClaimStatus.Active:
+                    return "Active ✓✓ - Both orgs endorsed";
+                case ClaimStatus.Rejected:
+                    return $"Rejected by {rejectedBy}";
+                case ClaimStatus.RevokePending:
+                    return $"Revoke pending - Awaiting {revokeRequiredEndorser}";
+                case ClaimStatus.Revoked:
+                    return "Revoked - Anchor deleted";
+                default:
+                    return status.ToString();
+            }
+        }
     }
 
-    [Serializable]
-    public class GatewayEvent
-    {
-        public string type;
-        public string eventId;
-        public string assetId;
-        public string claimId;
-        public string publisherId;
-        public string state;
-        public string reason;
-        public int endorsementCount;
-        public string timestamp;
-        public bool isReplay;
-    }
-
+    /// <summary>
+    /// Manages the state of all anchor claims
+    /// </summary>
     public class AnchorClaimStateManager
     {
         private Dictionary<string, AnchorClaimState> states = new Dictionary<string, AnchorClaimState>();
-        private HashSet<string> processedEventKeys = new HashSet<string>();
-        private string lastEventId;
-        private const int MAX_PROCESSED_KEYS = 500;
-        private const string PREFS_LAST_EVENT_ID = "GatewayLastEventId";
 
+        // Events
         public event Action<string, AnchorClaimState> OnStateChanged;
-
-        public AnchorClaimStateManager()
-        {
-            // Restore last event ID from PlayerPrefs
-            lastEventId = PlayerPrefs.GetString(PREFS_LAST_EVENT_ID, null);
-            if (!string.IsNullOrEmpty(lastEventId))
-            {
-                Debug.Log($"[AnchorClaimStateManager] Restored lastEventId: {lastEventId}");
-            }
-        }
-
-        public string GetLastEventId()
-        {
-            return lastEventId;
-        }
+        public event Action<string, AnchorClaimState> OnProposed;
+        public event Action<string, AnchorClaimState> OnEndorsedOrg1;
+        public event Action<string, AnchorClaimState> OnEndorsedOrg2;
+        public event Action<string, AnchorClaimState> OnActivated;
+        public event Action<string, AnchorClaimState> OnRejected;
+        public event Action<string, AnchorClaimState> OnRevokePending;
+        public event Action<string, AnchorClaimState> OnRevoked;
 
         public AnchorClaimState GetState(string assetId)
         {
-            if (string.IsNullOrEmpty(assetId)) return null;
-            states.TryGetValue(assetId, out var state);
-            return state;
+            return states.TryGetValue(assetId, out var state) ? state : null;
         }
 
         public AnchorClaimState GetOrCreateState(string assetId)
         {
-            if (string.IsNullOrEmpty(assetId)) return null;
-
             if (!states.TryGetValue(assetId, out var state))
             {
-                state = new AnchorClaimState { assetId = assetId };
+                state = new AnchorClaimState
+                {
+                    assetId = assetId,
+                    status = ClaimStatus.None
+                };
                 states[assetId] = state;
             }
             return state;
         }
 
-        public IEnumerable<AnchorClaimState> GetAllStates()
-        {
-            return states.Values;
-        }
-
-        public void SetPending(string assetId, string claimId = null)
+        /// <summary>
+        /// Set state to Pending (local state before server confirms)
+        /// </summary>
+        public void SetPending(string assetId)
         {
             var state = GetOrCreateState(assetId);
             state.status = ClaimStatus.Pending;
-            if (!string.IsNullOrEmpty(claimId))
-                state.claimId = claimId;
-            state.updatedAt = DateTime.UtcNow.ToString("o");
+            state.proposedAt = DateTime.Now;
+            NotifyStateChanged(assetId, state);
+        }
 
+        /// <summary>
+        /// Set state to Proposed (server confirmed proposal)
+        /// </summary>
+        public void SetProposed(string assetId, string claimId, string proposedViaOrg)
+        {
+            var state = GetOrCreateState(assetId);
+            state.status = ClaimStatus.Proposed;
+            state.claimId = claimId;
+            state.proposedViaOrg = proposedViaOrg;
+            state.proposedAt = DateTime.Now;
+            state.endorsedByOrg1 = false;
+            state.endorsedByOrg2 = false;
+
+            Debug.Log($"[StateManager] {assetId} → PROPOSED (claimId: {claimId})");
+
+            NotifyStateChanged(assetId, state);
+            OnProposed?.Invoke(assetId, state);
+        }
+
+        /// <summary>
+        /// Set state to EndorsedOrg1
+        /// </summary>
+        public void SetEndorsedOrg1(string assetId)
+        {
+            var state = GetOrCreateState(assetId);
+            state.endorsedByOrg1 = true;
+            state.endorsedOrg1At = DateTime.Now;
+
+            // Check if both orgs have endorsed
+            if (state.endorsedByOrg1 && state.endorsedByOrg2)
+            {
+                SetActive(assetId);
+            }
+            else
+            {
+                state.status = ClaimStatus.EndorsedOrg1;
+                Debug.Log($"[StateManager] {assetId} → ENDORSED_ORG1 (waiting for Org2)");
+                NotifyStateChanged(assetId, state);
+                OnEndorsedOrg1?.Invoke(assetId, state);
+            }
+        }
+
+        /// <summary>
+        /// Set state to EndorsedOrg2
+        /// </summary>
+        public void SetEndorsedOrg2(string assetId)
+        {
+            var state = GetOrCreateState(assetId);
+            state.endorsedByOrg2 = true;
+            state.endorsedOrg2At = DateTime.Now;
+
+            // Check if both orgs have endorsed
+            if (state.endorsedByOrg1 && state.endorsedByOrg2)
+            {
+                SetActive(assetId);
+            }
+            else
+            {
+                state.status = ClaimStatus.EndorsedOrg2;
+                Debug.Log($"[StateManager] {assetId} → ENDORSED_ORG2 (waiting for Org1)");
+                NotifyStateChanged(assetId, state);
+                OnEndorsedOrg2?.Invoke(assetId, state);
+            }
+        }
+
+        /// <summary>
+        /// Set state to Active (both orgs endorsed)
+        /// </summary>
+        public void SetActive(string assetId)
+        {
+            var state = GetOrCreateState(assetId);
+            state.status = ClaimStatus.Active;
+            state.endorsedByOrg1 = true;
+            state.endorsedByOrg2 = true;
+            state.activatedAt = DateTime.Now;
+
+            Debug.Log($"[StateManager] {assetId} → ACTIVE ✓✓ (Both orgs endorsed!)");
+
+            NotifyStateChanged(assetId, state);
+            OnActivated?.Invoke(assetId, state);
+        }
+
+        /// <summary>
+        /// Set state to Rejected
+        /// </summary>
+        public void SetRejected(string assetId, string rejectedBy, string reason)
+        {
+            var state = GetOrCreateState(assetId);
+            state.status = ClaimStatus.Rejected;
+            state.rejectedBy = rejectedBy;
+            state.rejectionReason = reason;
+            state.rejectedAt = DateTime.Now;
+
+            Debug.Log($"[StateManager] {assetId} → REJECTED by {rejectedBy}");
+
+            NotifyStateChanged(assetId, state);
+            OnRejected?.Invoke(assetId, state);
+        }
+
+        /// <summary>
+        /// Set state to RevokePending
+        /// </summary>
+        public void SetRevokePending(string assetId, string initiatedBy, string requiredEndorser, string reason)
+        {
+            var state = GetOrCreateState(assetId);
+            state.status = ClaimStatus.RevokePending;
+            state.revokeInitiatedBy = initiatedBy;
+            state.revokeRequiredEndorser = requiredEndorser;
+            state.revokeReason = reason;
+            state.revokeInitiatedAt = DateTime.Now;
+
+            Debug.Log($"[StateManager] {assetId} → REVOKE_PENDING (initiated by {initiatedBy}, needs {requiredEndorser})");
+
+            NotifyStateChanged(assetId, state);
+            OnRevokePending?.Invoke(assetId, state);
+        }
+
+        /// <summary>
+        /// Set state to Revoked
+        /// </summary>
+        public void SetRevoked(string assetId)
+        {
+            var state = GetOrCreateState(assetId);
+            state.status = ClaimStatus.Revoked;
+
+            Debug.Log($"[StateManager] {assetId} → REVOKED (anchor deleted)");
+
+            NotifyStateChanged(assetId, state);
+            OnRevoked?.Invoke(assetId, state);
+        }
+
+        private void NotifyStateChanged(string assetId, AnchorClaimState state)
+        {
             OnStateChanged?.Invoke(assetId, state);
         }
 
-        public bool ApplyEvent(GatewayEvent evt)
+        /// <summary>
+        /// Get all states with a specific status
+        /// </summary>
+        public IEnumerable<AnchorClaimState> GetStatesByStatus(ClaimStatus status)
         {
-            if (evt == null || string.IsNullOrEmpty(evt.assetId))
-                return false;
-
-            // Deduplication key
-            string eventKey = $"{evt.claimId}:{evt.type}:{evt.eventId}";
-            if (processedEventKeys.Contains(eventKey))
+            foreach (var kvp in states)
             {
-                return false; // Duplicate
+                if (kvp.Value.status == status)
+                    yield return kvp.Value;
             }
-
-            // Add to processed set
-            processedEventKeys.Add(eventKey);
-
-            // Evict old keys if needed
-            if (processedEventKeys.Count > MAX_PROCESSED_KEYS)
-            {
-                // Simple eviction: clear half
-                processedEventKeys.Clear();
-            }
-
-            // Update last event ID
-            if (!string.IsNullOrEmpty(evt.eventId))
-            {
-                lastEventId = evt.eventId;
-                PlayerPrefs.SetString(PREFS_LAST_EVENT_ID, lastEventId);
-            }
-
-            // Get or create state
-            var state = GetOrCreateState(evt.assetId);
-
-            // Update state from event
-            if (!string.IsNullOrEmpty(evt.claimId))
-                state.claimId = evt.claimId;
-            if (!string.IsNullOrEmpty(evt.publisherId))
-                state.publisherId = evt.publisherId;
-            if (evt.endorsementCount > 0)
-                state.endorsementCount = evt.endorsementCount;
-
-            state.lastEventId = evt.eventId;
-            state.updatedAt = evt.timestamp ?? DateTime.UtcNow.ToString("o");
-
-            // Map event type to status
-            ClaimStatus newStatus = state.status;
-            switch (evt.type)
-            {
-                case "CLAIM_PROPOSED":
-                    newStatus = ClaimStatus.Proposed;
-                    break;
-                case "CLAIM_ENDORSED":
-                case "CLAIM_ACTIVATED":
-                    if (evt.state == "ACTIVE")
-                        newStatus = ClaimStatus.Active;
-                    break;
-                case "CLAIM_REJECTED":
-                    newStatus = ClaimStatus.Rejected;
-                    state.rejectionReason = evt.reason;
-                    break;
-                case "CLAIM_REVOKED":
-                    newStatus = ClaimStatus.Revoked;
-                    break;
-                case "CLAIM_REOPENED":
-                    newStatus = ClaimStatus.Proposed;
-                    break;
-                case "ACTIVE_CHANGED":
-                    // Could go either way
-                    break;
-            }
-
-            bool statusChanged = state.status != newStatus;
-            state.status = newStatus;
-
-            // Notify listeners
-            OnStateChanged?.Invoke(evt.assetId, state);
-
-            return true;
         }
 
-        public void ApplySnapshot(SnapshotAssetState[] assets)
+        /// <summary>
+        /// Get all active anchors
+        /// </summary>
+        public IEnumerable<AnchorClaimState> GetActiveAnchors()
         {
-            if (assets == null) return;
+            return GetStatesByStatus(ClaimStatus.Active);
+        }
 
-            foreach (var asset in assets)
+        /// <summary>
+        /// Get all pending claims (Proposed, EndorsedOrg1, EndorsedOrg2)
+        /// </summary>
+        public IEnumerable<AnchorClaimState> GetPendingClaims()
+        {
+            foreach (var kvp in states)
             {
-                if (string.IsNullOrEmpty(asset.asset_id)) continue;
+                if (kvp.Value.IsPending)
+                    yield return kvp.Value;
+            }
+        }
 
-                var state = GetOrCreateState(asset.asset_id);
-                state.claimId = asset.claim_id;
-                state.publisherId = asset.publisher_id;
-                state.endorsementCount = asset.endorsement_count;
+        /// <summary>
+        /// Get pending revocations
+        /// </summary>
+        public IEnumerable<AnchorClaimState> GetPendingRevocations()
+        {
+            return GetStatesByStatus(ClaimStatus.RevokePending);
+        }
 
-                switch (asset.state)
+        /// <summary>
+        /// Get pending revocations requiring action from specified org
+        /// </summary>
+        public IEnumerable<AnchorClaimState> GetPendingRevocationsRequiringAction(string mspId)
+        {
+            foreach (var kvp in states)
+            {
+                if (kvp.Value.status == ClaimStatus.RevokePending &&
+                    kvp.Value.revokeRequiredEndorser == mspId)
                 {
-                    case "PROPOSED":
-                        state.status = ClaimStatus.Proposed;
-                        break;
-                    case "ACTIVE":
-                        state.status = ClaimStatus.Active;
-                        break;
-                    case "REJECTED":
-                        state.status = ClaimStatus.Rejected;
-                        break;
-                    case "REVOKED":
-                        state.status = ClaimStatus.Revoked;
-                        break;
-                    default:
-                        state.status = ClaimStatus.Unknown;
-                        break;
+                    yield return kvp.Value;
                 }
-
-                OnStateChanged?.Invoke(asset.asset_id, state);
             }
         }
 
-        public void ClearAll()
+        /// <summary>
+        /// Clear all states
+        /// </summary>
+        public void Clear()
         {
             states.Clear();
-            processedEventKeys.Clear();
-            lastEventId = null;
-            PlayerPrefs.DeleteKey(PREFS_LAST_EVENT_ID);
         }
     }
 }
