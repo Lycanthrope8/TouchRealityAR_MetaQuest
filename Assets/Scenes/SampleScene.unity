@@ -306,8 +306,16 @@ MonoBehaviour:
   OnGatewayError:
     m_PersistentCalls:
       m_Calls: []
+  OnRevokePending:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRevokeCompleted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRevokeRejected:
+    m_PersistentCalls:
+      m_Calls: []
   enableDebugLogs: 1
-  showDebugGUI: 0
 --- !u!4 &280996118
 Transform:
   m_ObjectHideFlags: 0
@@ -767,6 +775,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 623b85b2b4f9a884796cfb310bffad80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WebcamTextureAssigner
+--- !u!1 &538293154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 538293156}
+  - component: {fileID: 538293155}
+  m_Layer: 0
+  m_Name: BenchmarkModeController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &538293155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538293154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c979eb6cb7b6ac34db60c4ba7a1c64ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.Gateway.Benchmark.BenchmarkModeController
+  gatewaySync: {fileID: 280996117}
+  config: {fileID: 11400000, guid: 8c9507f22b197fc4baa3024b4946f7c0, type: 2}
+  runId: quest3-bench-001
+  lane: A
+  proposalCount: 50
+  proposalRate: 1
+  assetIdPrefix: 
+  snapshotPollIntervalSec: 15
+  fpsLogIntervalSec: 1
+  autoStartOnConnect: 1
+  uploadLogsOnComplete: 1
+  completionTimeoutSec: 120
+  enableDebugLogs: 1
+--- !u!4 &538293156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538293154}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.04834, y: 0, z: 0.10974}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &583002571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2442,3 +2507,4 @@ SceneRoots:
   - {fileID: 1190586618}
   - {fileID: 1837017234}
   - {fileID: 280996118}
+  - {fileID: 538293156}
