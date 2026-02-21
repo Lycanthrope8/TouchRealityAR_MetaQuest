@@ -785,6 +785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538293156}
   - component: {fileID: 538293155}
+  - component: {fileID: 538293157}
   m_Layer: 0
   m_Name: BenchmarkModeController
   m_TagString: Untagged
@@ -808,11 +809,13 @@ MonoBehaviour:
   config: {fileID: 11400000, guid: 8c9507f22b197fc4baa3024b4946f7c0, type: 2}
   runId: quest3-bench-001
   lane: A
+  warmupCount: 3
   proposalCount: 50
   proposalRate: 1
   assetIdPrefix: 
   snapshotPollIntervalSec: 15
   fpsLogIntervalSec: 1
+  baselineSeconds: 30
   autoStartOnConnect: 1
   uploadLogsOnComplete: 1
   completionTimeoutSec: 120
@@ -832,6 +835,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &538293157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538293154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f70b88a161b6fb488ce7015b268d29a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.Gateway.Benchmark.ReadBenchmarkController
+  gatewaySync: {fileID: 280996117}
+  config: {fileID: 11400000, guid: 8c9507f22b197fc4baa3024b4946f7c0, type: 2}
+  runId: exp2-q3-read-001
+  lane: A
+  iterations: 20
+  delayBetweenRequests: 0.1
+  sampleAssetId: 
+  autoStartOnConnect: 1
+  uploadLogsOnComplete: 1
+  enableDebugLogs: 1
 --- !u!1 &583002571
 GameObject:
   m_ObjectHideFlags: 0
