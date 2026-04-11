@@ -315,6 +315,12 @@ MonoBehaviour:
   OnRevokeRejected:
     m_PersistentCalls:
       m_Calls: []
+  OnAnnotationStatusChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAnnotationActive:
+    m_PersistentCalls:
+      m_Calls: []
   enableDebugLogs: 1
 --- !u!4 &280996118
 Transform:
@@ -807,10 +813,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.Gateway.Benchmark.BenchmarkModeController
   gatewaySync: {fileID: 280996117}
   config: {fileID: 11400000, guid: 8c9507f22b197fc4baa3024b4946f7c0, type: 2}
-  runId: quest3-bench-001
+  runId: q3-r10-bt500-t3
   lane: A
-  warmupCount: 3
-  proposalCount: 50
+  warmupCount: 5
+  proposalCount: 60
   proposalRate: 1
   assetIdPrefix: 
   snapshotPollIntervalSec: 15
@@ -818,7 +824,7 @@ MonoBehaviour:
   baselineSeconds: 30
   autoStartOnConnect: 1
   uploadLogsOnComplete: 1
-  completionTimeoutSec: 120
+  completionTimeoutSec: 5000
   enableDebugLogs: 1
 --- !u!4 &538293156
 Transform:
@@ -842,14 +848,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538293154}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f70b88a161b6fb488ce7015b268d29a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.Gateway.Benchmark.ReadBenchmarkController
   gatewaySync: {fileID: 280996117}
   config: {fileID: 11400000, guid: 8c9507f22b197fc4baa3024b4946f7c0, type: 2}
-  runId: exp2-q3-read-001
+  runId: exp2d-n1000-t1
   lane: A
   iterations: 20
   delayBetweenRequests: 0.1

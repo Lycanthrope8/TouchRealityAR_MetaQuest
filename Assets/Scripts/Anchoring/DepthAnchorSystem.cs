@@ -679,12 +679,23 @@ namespace ARObjectDetection
             // ============================================================
             if (IsProposeButttonHit(cachedRayHit))
             {
+                Debug.Log("[DepthAnchor] Propose button collider hit");
                 OnProposeButtonHit();
                 return; // Don't deselect or do anything else
             }
 
             // ============================================================
-            // PRIORITY 2: Check if we hit the InfoPanel itself (not button)
+            // PRIORITY 2: Check if we hit the Annotate button on InfoPanel
+            // ============================================================
+            if (IsAnnotateButtonHit(cachedRayHit))
+            {
+                Debug.Log("[DepthAnchor] Annotate button collider hit");
+                OnAnnotateButtonHit();
+                return; // Don't deselect or do anything else
+            }
+
+            // ============================================================
+            // PRIORITY 3: Check if we hit the InfoPanel itself (not button)
             // If so, do nothing - don't deselect the anchor
             // ============================================================
             if (IsInfoPanelHit(cachedRayHit))
@@ -694,7 +705,7 @@ namespace ARObjectDetection
             }
 
             // ============================================================
-            // PRIORITY 3: Check if we hit an anchor
+            // PRIORITY 4: Check if we hit an anchor
             // ============================================================
             DepthAnchorInstance hitAnchor = null;
             foreach (var anchor in confirmedAnchors.Values)
@@ -734,6 +745,26 @@ namespace ARObjectDetection
             while (t != null)
             {
                 if (t.name.Contains("ProposeButton") || t.name.Contains("proposeButton"))
+                {
+                    return true;
+                }
+                t = t.parent;
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Check if the raycast hit the Annotate button
+        /// </summary>
+        private bool IsAnnotateButtonHit(RaycastHit hit)
+        {
+            if (hit.collider == null) return false;
+
+            // Check if hit object or any parent is named "AnnotateButton"
+            Transform t = hit.collider.transform;
+            while (t != null)
+            {
+                if (t.name.Contains("AnnotateButton") || t.name.Contains("annotateButton"))
                 {
                     return true;
                 }
@@ -783,6 +814,29 @@ namespace ARObjectDetection
             else
             {
                 Debug.LogWarning("[DepthAnchor] Propose button hit but AnchorInfoPanel component not found");
+            }
+        }
+
+        /// <summary>
+        /// Handle Annotate button click
+        /// </summary>
+        private void OnAnnotateButtonHit()
+        {
+            if (activeInfoPanel == null)
+            {
+                Debug.LogWarning("[DepthAnchor] Annotate button hit but no active InfoPanel");
+                return;
+            }
+
+            var infoPanel = activeInfoPanel.GetComponent<AnchorInfoPanel>();
+            if (infoPanel != null)
+            {
+                Debug.Log("[DepthAnchor] ✓ Annotate button clicked!");
+                infoPanel.OnAnnotate3DButtonClicked();
+            }
+            else
+            {
+                Debug.LogWarning("[DepthAnchor] Annotate button hit but AnchorInfoPanel component not found");
             }
         }
 

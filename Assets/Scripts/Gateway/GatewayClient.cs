@@ -2,6 +2,7 @@
 // FILE: GatewayClient.cs
 // REST client for Gateway API calls - Updated for Two-Org Model
 // Supports revocation workflow: initiate, endorse, reject
+// v2.0: Added annotation request support
 // ============================================================================
 
 using System;
@@ -135,7 +136,7 @@ namespace ARObjectDetection.Gateway
     }
 
     // =========================================================================
-    // SNAPSHOT TYPES
+    // SNAPSHOT TYPES (v2.0: includes annotations)
     // =========================================================================
 
     [Serializable]
@@ -143,6 +144,7 @@ namespace ARObjectDetection.Gateway
     {
         public bool success;
         public SnapshotAssetState[] assets;
+        public SnapshotAnnotationState[] annotations;
         public string last_event_id;
     }
 
@@ -154,6 +156,47 @@ namespace ARObjectDetection.Gateway
         public string state;
         public string publisher_id;
         public int endorsement_count;
+    }
+
+    [Serializable]
+    public class SnapshotAnnotationState
+    {
+        public string asset_id;
+        public string annotation_id;
+        public string state;
+        public string tier;
+        public string content_text;
+        public string proposed_via_org;
+        public bool endorsed_org1;
+        public bool endorsed_org2;
+    }
+
+    // =========================================================================
+    // ANNOTATION TYPES (v2.0)
+    // =========================================================================
+
+    [Serializable]
+    public class AnnotationRequestData
+    {
+        public string asset_id;
+        public string tier;
+        public string class_name;
+        public float confidence;
+    }
+
+    [Serializable]
+    public class AnnotationResponse
+    {
+        public bool success;
+        public string annotation_id;
+        public string asset_id;
+        public string state;
+        public string tier;
+        public string content_text;
+        public string anchor_claim_id;
+        public string proposed_via_org;
+        public string activation_method;
+        public string error;
     }
 
     // =========================================================================
@@ -540,6 +583,81 @@ namespace ARObjectDetection.Gateway
                 else
                 {
                     onError?.Invoke($"HTTP {webRequest.responseCode}: {webRequest.error}");
+                }
+            }
+        }
+
+        // =====================================================================
+        // ANNOTATION REQUEST (v2.0)
+        // =====================================================================
+
+        /// <summary>
+        /// Request an AI-generated annotation for an asset.
+        /// Calls POST /annotations/request on the gateway.
+        /// The gateway orchestrates: mock/LLM generation → chaincode → SSE.
+        /// </summary>
+        public void RequestAnnotation(string assetId, string tier, string className, float confidence,
+            Action<AnnotationResponse> onSuccess, Action<string> onError)
+        {
+            if (!isInitialized || config == null)
+            {
+                onError?.Invoke("GatewayClient not initialized");
+                return;
+            }
+
+            var request = new AnnotationRequestData
+            {
+                asset_id = assetId,
+                tier = tier,
+                class_name = className,
+                confidence = confidence
+            };
+
+            StartCoroutine(RequestAnnotationCoroutine(request, onSuccess, onError));
+        }
+
+        private IEnumerator RequestAnnotationCoroutine(AnnotationRequestData request,
+            Action<AnnotationResponse> onSuccess, Action<string> onError)
+        {
+            string url = $"{config.gatewayBaseUrl}/annotations/request";
+            string json = JsonUtility.ToJson(request);
+
+            Debug.Log($"[GatewayClient] POST {url} (RequestAnnotation)");
+            Debug.Log($"[GatewayClient] Body: {json}");
+
+            using (var webRequest = new UnityWebRequest(url, "POST"))
+            {
+                byte[] bodyRaw = Encoding.UTF8.GetBytes(json);
+                webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
+                webRequest.downloadHandler = new DownloadHandlerBuffer();
+                webRequest.SetRequestHeader("Content-Type", "application/json");
+                webRequest.SetRequestHeader("x-api-key", config.apiKey);
+                webRequest.SetRequestHeader("x-org-id", config.organizationId);
+                webRequest.timeout = config.requestTimeoutSeconds;
+
+                yield return webRequest.SendWebRequest();
+
+                string responseText = webRequest.downloadHandler?.text ?? "";
+                Debug.Log($"[GatewayClient] Annotation Response ({webRequest.responseCode}): {responseText}");
+
+                if (webRequest.result == UnityWebRequest.Result.Success && webRequest.responseCode >= 200 && webRequest.responseCode < 300)
+                {
+                    try
+                    {
+                        var response = JsonUtility.FromJson<AnnotationResponse>(responseText);
+                        Debug.Log($"[GatewayClient] ✓ Annotation: state={response.state}, tier={response.tier}");
+                        onSuccess?.Invoke(response);
+                    }
+                    catch (Exception e)
+                    {
+                        onError?.Invoke($"Parse error: {e.Message}");
+                    }
+                }
+                else
+                {
+                    string error = $"HTTP {webRequest.responseCode}: {webRequest.error} - {responseText}";
+                    Debug.LogError($"[GatewayClient] Annotation FAILED: {error}");
+                    onError?.Invoke(error);
                 }
             }
         }

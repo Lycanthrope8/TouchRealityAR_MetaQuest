@@ -8,6 +8,8 @@
 // - Propose button functionality with Gateway integration
 // 
 // EP5 UPDATE: Now integrates with GatewaySync for real ledger-confirmed state.
+// v2.0: Added annotation display + "Request Annotation" button
+//       Changed assetId format to TAG_{tagId} (class name is metadata only)
 // ============================================================================
 
 using UnityEngine;
@@ -19,7 +21,7 @@ namespace ARObjectDetection
     /// <summary>
     /// Component for the InfoPanel prefab.
     /// Displays detailed information about a selected anchor.
-    /// Now integrated with Gateway for ledger-confirmed state.
+    /// Now integrated with Gateway for ledger-confirmed state and annotations.
     /// </summary>
     public class AnchorInfoPanel : MonoBehaviour
     {
@@ -48,6 +50,19 @@ namespace ARObjectDetection
         [Tooltip("Assign a TextMeshPro for a 3D clickable button (alternative to UI Button)")]
         [SerializeField] private TextMeshPro proposeButton3DText;
         [SerializeField] private Collider proposeButton3DCollider;
+
+        [Header("Annotation Button (v2.0)")]
+        [Tooltip("Assign a Unity UI Button for the Request Annotation action")]
+        [SerializeField] private Button annotateButton;
+        [SerializeField] private TextMeshProUGUI annotateButtonText;
+
+        [Header("Annotation Button (3D World Space - Alternative)")]
+        [SerializeField] private TextMeshPro annotateButton3DText;
+        [SerializeField] private Collider annotateButton3DCollider;
+
+        [Header("Annotation Settings")]
+        [Tooltip("Default annotation tier: ADVISORY (auto-approve) or GOVERNED (dual endorsement)")]
+        [SerializeField] private string defaultAnnotationTier = "ADVISORY";
 
         [Header("Visual Settings")]
         [SerializeField] private Renderer panelBackground;
@@ -97,6 +112,12 @@ namespace ARObjectDetection
                 proposeButton.onClick.AddListener(OnProposeButtonClicked);
             }
 
+            // Setup annotate button click handler (v2.0)
+            if (annotateButton != null)
+            {
+                annotateButton.onClick.AddListener(OnAnnotateButtonClicked);
+            }
+
             // Find SiteFrameManager
             if (siteFrameManager == null)
             {
@@ -118,7 +139,8 @@ namespace ARObjectDetection
                 if (gatewaySync != null)
                 {
                     gatewaySync.OnClaimStatusChanged.AddListener(OnClaimStatusChanged);
-                    Debug.Log("[AnchorInfoPanel] Gateway integration enabled");
+                    gatewaySync.OnAnnotationStatusChanged.AddListener(OnAnnotationStatusChanged);
+                    Debug.Log("[AnchorInfoPanel] Gateway integration enabled (v2.0 — annotations)");
                 }
                 else
                 {
@@ -134,9 +156,15 @@ namespace ARObjectDetection
                 proposeButton.onClick.RemoveListener(OnProposeButtonClicked);
             }
 
+            if (annotateButton != null)
+            {
+                annotateButton.onClick.RemoveListener(OnAnnotateButtonClicked);
+            }
+
             if (gatewaySync != null)
             {
                 gatewaySync.OnClaimStatusChanged.RemoveListener(OnClaimStatusChanged);
+                gatewaySync.OnAnnotationStatusChanged.RemoveListener(OnAnnotationStatusChanged);
             }
         }
 
@@ -145,7 +173,17 @@ namespace ARObjectDetection
         /// </summary>
         private void OnClaimStatusChanged(string assetId, Gateway.ClaimStatus status)
         {
-            // Refresh UI if this is the current anchor
+            if (assetId == currentAssetId && currentAnchor != null)
+            {
+                UpdateInfo(currentAnchor);
+            }
+        }
+
+        /// <summary>
+        /// Called when Gateway reports an annotation status change (v2.0)
+        /// </summary>
+        private void OnAnnotationStatusChanged(string assetId, Gateway.AnnotationStatus status)
+        {
             if (assetId == currentAssetId && currentAnchor != null)
             {
                 UpdateInfo(currentAnchor);
@@ -160,15 +198,15 @@ namespace ARObjectDetection
             if (anchor == null) return;
             currentAnchor = anchor;
 
-            // Compute Asset ID if AprilTag-associated
+            // Compute Asset ID — TAG-CENTRIC (v2.0: class name is metadata only)
             currentAssetId = null;
             int tagId = -1;
 
             if (anchor.hasAprilTagAssociation)
             {
                 tagId = anchor.associatedAprilTagId;
-                // Asset ID format: "<className>_TAG_<tagId>"
-                currentAssetId = $"{anchor.className}_TAG_{tagId}";
+                // v2.0: Tag-centric identity (class name is NOT part of the governed ID)
+                currentAssetId = $"TAG_{tagId}";
             }
 
             // Get registry state from Gateway or local fallback
@@ -183,6 +221,13 @@ namespace ARObjectDetection
                     claimStatus = claimState.status;
                     claimId = claimState.claimId;
                 }
+            }
+
+            // Get annotation state (v2.0)
+            Gateway.AnnotationState annotationState = null;
+            if (useGateway && gatewaySync != null && !string.IsNullOrEmpty(currentAssetId))
+            {
+                annotationState = gatewaySync.GetAnnotationState(currentAssetId);
             }
 
             // ============================================================
@@ -280,7 +325,8 @@ namespace ARObjectDetection
                         : "<color=#FF0000>●</color> Gateway";
                 }
 
-                bodyText.text =
+                // Build body text
+                string body =
                     $"<b>Track ID:</b> #{anchor.trackId}\n" +
                     $"<b>Confidence:</b> {anchor.confidence:P0}\n" +
                     $"<b>State:</b> <color={stateColor}>{anchor.trackState}</color>\n" +
@@ -295,6 +341,35 @@ namespace ARObjectDetection
                     $"  X: {anchor.worldLockedPosition.x:F3}m\n" +
                     $"  Y: {anchor.worldLockedPosition.y:F3}m\n" +
                     $"  Z: {anchor.worldLockedPosition.z:F3}m";
+
+                // Annotation section (v2.0)
+                if (annotationState != null && annotationState.status != Gateway.AnnotationStatus.None)
+                {
+                    string annColor = annotationState.status switch
+                    {
+                        Gateway.AnnotationStatus.Active => "#00FF88",
+                        Gateway.AnnotationStatus.Proposed => "#FFDD44",
+                        Gateway.AnnotationStatus.EndorsedOrg1 => "#FFDD44",
+                        Gateway.AnnotationStatus.EndorsedOrg2 => "#FFDD44",
+                        Gateway.AnnotationStatus.Requesting => "#FFDD44",
+                        Gateway.AnnotationStatus.Rejected => "#FF4444",
+                        Gateway.AnnotationStatus.Revoked => "#9966CC",
+                        _ => "#888888"
+                    };
+
+                    string tierLabel = !string.IsNullOrEmpty(annotationState.tier) ? annotationState.tier : "N/A";
+                    string annStatusLabel = annotationState.GetStatusDescription();
+
+                    body += $"\n───────────────\n";
+                    body += $"<color={annColor}><b>[{tierLabel}] {annStatusLabel}</b></color>\n";
+
+                    if (annotationState.HasContent)
+                    {
+                        body += $"<color=#CCCCCC>{annotationState.contentText}</color>";
+                    }
+                }
+
+                bodyText.text = body;
             }
 
             // ============================================================
@@ -302,12 +377,21 @@ namespace ARObjectDetection
             // ============================================================
             UpdateProposeButton(claimStatus);
 
+            // ============================================================
+            // Update Annotate Button State (v2.0)
+            // ============================================================
+            UpdateAnnotateButton(claimStatus, annotationState);
+
             // Update border color based on lock state
             if (panelBackground != null && panelBackground.material != null)
             {
                 Color border = anchor.isLocked ? new Color(0f, 1f, 0.5f, 1f) : new Color(1f, 0.8f, 0f, 1f);
             }
         }
+
+        // ============================================================
+        // REGISTRY STATUS (existing)
+        // ============================================================
 
         private void UpdateRegistryStatusText(Gateway.ClaimStatus status, string claimId)
         {
@@ -375,6 +459,10 @@ namespace ARObjectDetection
             }
         }
 
+        // ============================================================
+        // PROPOSE BUTTON (existing)
+        // ============================================================
+
         private void UpdateProposeButton(Gateway.ClaimStatus status)
         {
             bool canPropose = CanPropose(status);
@@ -405,9 +493,6 @@ namespace ARObjectDetection
 
         private bool CanPropose(Gateway.ClaimStatus status)
         {
-            // Can only propose if:
-            // 1. Asset ID is available (anchor is AprilTag-associated / GREEN)
-            // 2. Status allows proposing (None, Rejected, or Revoked)
             if (string.IsNullOrEmpty(currentAssetId))
                 return false;
 
@@ -437,9 +522,6 @@ namespace ARObjectDetection
             }
         }
 
-        /// <summary>
-        /// Called when the Propose button is clicked
-        /// </summary>
         private void OnProposeButtonClicked()
         {
             if (string.IsNullOrEmpty(currentAssetId))
@@ -454,7 +536,6 @@ namespace ARObjectDetection
                 return;
             }
 
-            // Check if we can propose
             Gateway.ClaimStatus currentStatus = Gateway.ClaimStatus.None;
             if (gatewaySync != null)
             {
@@ -467,18 +548,13 @@ namespace ARObjectDetection
                 return;
             }
 
-            // Use Gateway for real proposal
             if (useGateway && gatewaySync != null)
             {
-                // Get pose
                 Pose worldPose = new Pose(currentAnchor.worldLockedPosition, Quaternion.identity);
-
-                // Get quality metrics from anchor
                 float confidence = currentAnchor.confidence;
-                float stabilityRms = 0.01f; // TODO: Calculate from actual pose history
-                int observationCount = 1; // TODO: Get actual count
+                float stabilityRms = 0.01f;
+                int observationCount = 1;
 
-                // Propose via Gateway
                 bool initiated = gatewaySync.ProposeAnchor(
                     currentAssetId,
                     worldPose,
@@ -490,7 +566,6 @@ namespace ARObjectDetection
                 if (initiated)
                 {
                     Debug.Log($"[AnchorInfoPanel] Propose initiated for '{currentAssetId}'");
-                    // UI will update via OnClaimStatusChanged callback
                 }
                 else
                 {
@@ -499,11 +574,141 @@ namespace ARObjectDetection
             }
             else
             {
-                // Fallback: local-only mode (for testing without gateway)
                 Debug.LogWarning("[AnchorInfoPanel] Gateway not available - proposal not sent");
             }
 
-            // Refresh the UI
+            if (currentAnchor != null)
+            {
+                UpdateInfo(currentAnchor);
+            }
+        }
+
+        public void OnPropose3DButtonClicked()
+        {
+            OnProposeButtonClicked();
+        }
+
+        // ============================================================
+        // ANNOTATE BUTTON (v2.0)
+        // ============================================================
+
+        private void UpdateAnnotateButton(Gateway.ClaimStatus claimStatus, Gateway.AnnotationState annotationState)
+        {
+            bool canAnnotate = CanRequestAnnotation(claimStatus, annotationState);
+            string label = GetAnnotateButtonLabel(annotationState);
+
+            // Update UI Button
+            if (annotateButton != null)
+            {
+                annotateButton.interactable = canAnnotate;
+
+                if (annotateButtonText != null)
+                {
+                    annotateButtonText.text = label;
+                    annotateButtonText.color = canAnnotate ? Color.white : new Color(0.5f, 0.5f, 0.5f, 1f);
+                }
+            }
+
+            // Update 3D Text Button (alternative)
+            if (annotateButton3DText != null)
+            {
+                annotateButton3DText.text = label;
+                annotateButton3DText.color = canAnnotate ? Color.white : new Color(0.5f, 0.5f, 0.5f, 1f);
+
+                if (annotateButton3DCollider != null)
+                    annotateButton3DCollider.enabled = canAnnotate;
+            }
+        }
+
+        private bool CanRequestAnnotation(Gateway.ClaimStatus claimStatus, Gateway.AnnotationState annotationState)
+        {
+            // Must have an asset ID
+            if (string.IsNullOrEmpty(currentAssetId))
+                return false;
+
+            // Anchor must be ACTIVE on-chain
+            if (claimStatus != Gateway.ClaimStatus.Active)
+                return false;
+
+            // No existing active/pending annotation
+            if (annotationState != null && !annotationState.CanRequest)
+                return false;
+
+            // Check gateway
+            if (gatewaySync != null)
+                return gatewaySync.CanRequestAnnotation(currentAssetId);
+
+            return false;
+        }
+
+        private string GetAnnotateButtonLabel(Gateway.AnnotationState annotationState)
+        {
+            if (annotationState == null)
+                return "Request Annotation";
+
+            switch (annotationState.status)
+            {
+                case Gateway.AnnotationStatus.Requesting:
+                    return "Requesting...";
+                case Gateway.AnnotationStatus.Proposed:
+                case Gateway.AnnotationStatus.EndorsedOrg1:
+                case Gateway.AnnotationStatus.EndorsedOrg2:
+                    return "Pending...";
+                case Gateway.AnnotationStatus.Active:
+                    return "Annotated ✓";
+                case Gateway.AnnotationStatus.Rejected:
+                    return "Re-Annotate";
+                case Gateway.AnnotationStatus.Revoked:
+                    return "Re-Annotate";
+                default:
+                    return "Request Annotation";
+            }
+        }
+
+        private void OnAnnotateButtonClicked()
+        {
+            Debug.Log("[AnchorInfoPanel] Annotate button clicked");
+            if (string.IsNullOrEmpty(currentAssetId))
+            {
+                Debug.LogWarning("[AnchorInfoPanel] Cannot annotate - no Asset ID");
+                return;
+            }
+
+            if (currentAnchor == null)
+            {
+                Debug.LogWarning("[AnchorInfoPanel] Cannot annotate - no current anchor");
+                return;
+            }
+
+            if (gatewaySync == null)
+            {
+                Debug.LogWarning("[AnchorInfoPanel] Cannot annotate - GatewaySync not available");
+                return;
+            }
+
+            if (!gatewaySync.CanRequestAnnotation(currentAssetId))
+            {
+                Debug.LogWarning($"[AnchorInfoPanel] Cannot annotate {currentAssetId} - not eligible");
+                return;
+            }
+
+            bool initiated = gatewaySync.RequestAnnotation(
+                currentAssetId,
+                currentAnchor.className,
+                currentAnchor.confidence,
+                defaultAnnotationTier
+            );
+
+            if (initiated)
+            {
+                Debug.Log($"[AnchorInfoPanel] 🤖 Annotation requested for '{currentAssetId}' (tier={defaultAnnotationTier})");
+            }
+            else
+            {
+                Debug.LogWarning($"[AnchorInfoPanel] Failed to request annotation for '{currentAssetId}'");
+            }
+
+            // Refresh UI
             if (currentAnchor != null)
             {
                 UpdateInfo(currentAnchor);
@@ -511,33 +716,27 @@ namespace ARObjectDetection
         }
 
         /// <summary>
-        /// Called when 3D button is clicked (via raycast interaction)
-        /// Call this from your interaction system when the 3D button collider is hit
+        /// Called when 3D annotate button is clicked (via raycast interaction)
         /// </summary>
-        public void OnPropose3DButtonClicked()
+        public void OnAnnotate3DButtonClicked()
         {
-            OnProposeButtonClicked();
+            OnAnnotateButtonClicked();
         }
 
-        /// <summary>
-        /// Get the current anchor being displayed
-        /// </summary>
+        // ============================================================
+        // PUBLIC API (existing)
+        // ============================================================
+
         public DepthAnchorSystem.DepthAnchorInstance GetCurrentAnchor()
         {
             return currentAnchor;
         }
 
-        /// <summary>
-        /// Get the current asset ID being displayed
-        /// </summary>
         public string GetCurrentAssetId()
         {
             return currentAssetId;
         }
 
-        /// <summary>
-        /// Clear the panel
-        /// </summary>
         public void Clear()
         {
             currentAnchor = null;
@@ -553,13 +752,20 @@ namespace ARObjectDetection
             if (registryStatusText != null) registryStatusText.text = "";
             if (claimIdText != null) claimIdText.text = "";
 
-            // Reset button
+            // Reset buttons
             if (proposeButton != null)
                 proposeButton.interactable = false;
             if (proposeButtonText != null)
                 proposeButtonText.text = "Propose";
             if (proposeButton3DText != null)
                 proposeButton3DText.text = "Propose";
+
+            if (annotateButton != null)
+                annotateButton.interactable = false;
+            if (annotateButtonText != null)
+                annotateButtonText.text = "Request Annotation";
+            if (annotateButton3DText != null)
+                annotateButton3DText.text = "Request Annotation";
         }
     }
 }

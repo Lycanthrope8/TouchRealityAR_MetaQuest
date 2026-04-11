@@ -2,6 +2,7 @@
 // FILE: GatewaySseClient.cs
 // SSE Client for receiving real-time events from the Gateway
 // FIXED: Self-contained main thread dispatch, compatible with existing code
+// v2.0: Added annotation event handling
 // ============================================================================
 
 using System;
@@ -15,6 +16,7 @@ namespace ARObjectDetection.Gateway
 {
     /// <summary>
     /// Event data received from SSE stream
+    /// v2.0: Added annotation fields
     /// </summary>
     [Serializable]
     public class GatewayEvent
@@ -57,6 +59,21 @@ namespace ARObjectDetection.Gateway
         // Endorsements object (for dual endorsement tracking)
         public EndorsementsData endorsements;
 
+        // =========================================================
+        // ANNOTATION FIELDS (v2.0)
+        // =========================================================
+        public string annotation_id;
+        public string annotationId;
+        public string content_text;
+        public string contentText;
+        public string tier;
+        public string activation_method;
+        public string activationMethod;
+        public string anchor_claim_id;
+        public string anchorClaimId;
+        public string revoked_by;
+        public string revokedBy;
+
         /// <summary>
         /// Get the asset ID (tries both camelCase and snake_case)
         /// </summary>
@@ -71,6 +88,30 @@ namespace ARObjectDetection.Gateway
         public string GetClaimId()
         {
             return !string.IsNullOrEmpty(claimId) ? claimId : claim_id;
+        }
+
+        /// <summary>
+        /// Get the annotation ID (tries both formats)
+        /// </summary>
+        public string GetAnnotationId()
+        {
+            return !string.IsNullOrEmpty(annotationId) ? annotationId : annotation_id;
+        }
+
+        /// <summary>
+        /// Get annotation content text (tries both formats)
+        /// </summary>
+        public string GetContentText()
+        {
+            return !string.IsNullOrEmpty(contentText) ? contentText : content_text;
+        }
+
+        /// <summary>
+        /// Get activation method (tries both formats)
+        /// </summary>
+        public string GetActivationMethod()
+        {
+            return !string.IsNullOrEmpty(activationMethod) ? activationMethod : activation_method;
         }
     }
 
@@ -100,6 +141,7 @@ namespace ARObjectDetection.Gateway
         // State
         private GatewayConfig config;
         private AnchorClaimStateManager stateManager;
+        private AnnotationStateManager annotationStateManager;
         private GatewayClient gatewayClient;
         private UnityWebRequest currentRequest;
         private bool isConnected = false;
@@ -118,6 +160,14 @@ namespace ARObjectDetection.Gateway
             this.config = config;
             this.stateManager = stateManager;
             this.gatewayClient = client;
+        }
+
+        /// <summary>
+        /// Set the annotation state manager (called from GatewaySync after initialization)
+        /// </summary>
+        public void SetAnnotationStateManager(AnnotationStateManager manager)
+        {
+            this.annotationStateManager = manager;
         }
 
         public void Connect()
@@ -333,10 +383,16 @@ namespace ARObjectDetection.Gateway
                     return;
                 }
 
-                // Update state manager based on event type
+                // Update anchor state manager based on event type
                 if (stateManager != null && !string.IsNullOrEmpty(assetId))
                 {
-                    ProcessStateUpdate(eventType, evt, assetId);
+                    ProcessAnchorStateUpdate(eventType, evt, assetId);
+                }
+
+                // Update annotation state manager based on event type
+                if (annotationStateManager != null && !string.IsNullOrEmpty(assetId))
+                {
+                    ProcessAnnotationStateUpdate(eventType, evt, assetId);
                 }
 
                 // Notify listeners
@@ -348,7 +404,7 @@ namespace ARObjectDetection.Gateway
             }
         }
 
-        private void ProcessStateUpdate(string eventType, GatewayEvent evt, string assetId)
+        private void ProcessAnchorStateUpdate(string eventType, GatewayEvent evt, string assetId)
         {
             if (string.IsNullOrEmpty(assetId)) return;
 
@@ -399,10 +455,50 @@ namespace ARObjectDetection.Gateway
                     Debug.Log($"[GatewaySseClient] → State Update: {assetId} revocation rejected, back to ACTIVE");
                     stateManager.SetActive(assetId);
                     break;
+            }
+        }
 
-                default:
-                    if (enableDebugLogs)
-                        Debug.Log($"[GatewaySseClient] Unhandled event type: {eventType}");
+        /// <summary>
+        /// Process annotation-specific SSE events (v2.0)
+        /// </summary>
+        private void ProcessAnnotationStateUpdate(string eventType, GatewayEvent evt, string assetId)
+        {
+            string contentText = evt.GetContentText();
+            string annotationId = evt.GetAnnotationId();
+            string rejectedBy = !string.IsNullOrEmpty(evt.rejectedBy) ? evt.rejectedBy : evt.rejected_by;
+            string revokedBy = !string.IsNullOrEmpty(evt.revokedBy) ? evt.revokedBy : evt.revoked_by;
+            string activationMethod = evt.GetActivationMethod();
+
+            switch (eventType)
+            {
+                case "ANNOTATION_PROPOSED":
+                    Debug.Log($"[GatewaySseClient] → Annotation: {assetId} ANN_PROPOSED (tier={evt.tier})");
+                    annotationStateManager.SetProposed(assetId, annotationId, contentText, evt.tier);
+                    break;
+
+                case "ANNOTATION_ENDORSED_ORG1":
+                    Debug.Log($"[GatewaySseClient] → Annotation: {assetId} endorsed by Org1");
+                    annotationStateManager.SetEndorsedOrg1(assetId);
+                    break;
+
+                case "ANNOTATION_ENDORSED_ORG2":
+                    Debug.Log($"[GatewaySseClient] → Annotation: {assetId} endorsed by Org2");
+                    annotationStateManager.SetEndorsedOrg2(assetId);
+                    break;
+
+                case "ANNOTATION_ACTIVE":
+                    Debug.Log($"[GatewaySseClient] → Annotation: {assetId} ANN_ACTIVE! ({activationMethod})");
+                    annotationStateManager.SetActive(assetId, contentText, evt.tier, activationMethod);
+                    break;
+
+                case "ANNOTATION_REJECTED":
+                    Debug.Log($"[GatewaySseClient] → Annotation: {assetId} ANN_REJECTED by {rejectedBy}");
+                    annotationStateManager.SetRejected(assetId, rejectedBy, evt.reason);
+                    break;
+
+                case "ANNOTATION_REVOKED":
+                    Debug.Log($"[GatewaySseClient] → Annotation: {assetId} ANN_REVOKED by {revokedBy}");
+                    annotationStateManager.SetRevoked(assetId, revokedBy, evt.reason);
                     break;
             }
         }
