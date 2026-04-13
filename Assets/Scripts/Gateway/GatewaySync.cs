@@ -1,8 +1,7 @@
 // ============================================================================
 // FILE: GatewaySync.cs
 // Main orchestrator for Unity <-> Gateway communication
-// Updated for Two-Org Model with revocation workflow support
-// v2.0: Added annotation request + state management
+// v2.1: RequestAnnotation and state lookups require intentType (multi-card)
 // ============================================================================
 
 using System;
@@ -35,9 +34,9 @@ namespace ARObjectDetection.Gateway
         public UnityEvent<string> OnRevokeCompleted;
         public UnityEvent<string, string> OnRevokeRejected;
 
-        [Header("Annotation Events (v2.0)")]
+        [Header("Annotation Events (v2.1: compositeKey = assetId:intentType)")]
         public UnityEvent<string, AnnotationStatus> OnAnnotationStatusChanged;
-        public UnityEvent<string, string> OnAnnotationActive;
+        public UnityEvent<string, string> OnAnnotationActive;    // compositeKey, contentText
 
         [Header("Debug")]
         [SerializeField] private bool enableDebugLogs = true;
@@ -47,7 +46,7 @@ namespace ARObjectDetection.Gateway
         private bool isInitialized = false;
         private Dictionary<string, float> pendingProposals = new Dictionary<string, float>();
         private Dictionary<string, float> pendingRevokes = new Dictionary<string, float>();
-        private Dictionary<string, float> pendingAnnotationRequests = new Dictionary<string, float>();
+        private Dictionary<string, float> pendingAnnotationRequests = new Dictionary<string, float>(); // key: assetId:intentType
         private const float PENDING_TIMEOUT_SECONDS = 30f;
 
         private static GatewaySync instance;
@@ -63,11 +62,7 @@ namespace ARObjectDetection.Gateway
 
         private void Awake()
         {
-            if (instance != null && instance != this)
-            {
-                Destroy(gameObject);
-                return;
-            }
+            if (instance != null && instance != this) { Destroy(gameObject); return; }
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
@@ -77,37 +72,23 @@ namespace ARObjectDetection.Gateway
         private void Initialize()
         {
             if (isInitialized) return;
-            if (config == null)
-            {
-                Debug.LogError("[GatewaySync] GatewayConfig not assigned!");
-                return;
-            }
+            if (config == null) { Debug.LogError("[GatewaySync] GatewayConfig not assigned!"); return; }
 
             Debug.Log($"[GatewaySync] Initializing as {config.organizationName} ({config.MspId})");
 
-            // Anchor state manager
             stateManager = new AnchorClaimStateManager();
             stateManager.OnStateChanged += HandleStateChanged;
             stateManager.OnRevokePending += HandleRevokePending;
             stateManager.OnRevoked += HandleRevoked;
 
-            // Annotation state manager (v2.0)
             annotationStateManager = new AnnotationStateManager();
             annotationStateManager.OnStateChanged += HandleAnnotationStateChanged;
             annotationStateManager.OnAnnotationActive += HandleAnnotationActive;
 
-            // Gateway client
-            if (gatewayClient == null)
-            {
-                gatewayClient = GetComponent<GatewayClient>() ?? gameObject.AddComponent<GatewayClient>();
-            }
+            if (gatewayClient == null) gatewayClient = GetComponent<GatewayClient>() ?? gameObject.AddComponent<GatewayClient>();
             gatewayClient.Initialize(config);
 
-            // SSE client
-            if (sseClient == null)
-            {
-                sseClient = GetComponent<GatewaySseClient>() ?? gameObject.AddComponent<GatewaySseClient>();
-            }
+            if (sseClient == null) sseClient = GetComponent<GatewaySseClient>() ?? gameObject.AddComponent<GatewaySseClient>();
             sseClient.Initialize(config, stateManager, gatewayClient);
             sseClient.SetAnnotationStateManager(annotationStateManager);
             sseClient.OnConnected += HandleSseConnected;
@@ -116,30 +97,15 @@ namespace ARObjectDetection.Gateway
             sseClient.OnError += HandleSseError;
 
             isInitialized = true;
-            Debug.Log($"[GatewaySync] ✓ Initialized as {config.organizationName} (annotations enabled)");
+            Debug.Log($"[GatewaySync] ✓ Initialized as {config.organizationName} (multi-card annotations enabled)");
             sseClient.Connect();
         }
 
         private void OnDestroy()
         {
-            if (stateManager != null)
-            {
-                stateManager.OnStateChanged -= HandleStateChanged;
-                stateManager.OnRevokePending -= HandleRevokePending;
-                stateManager.OnRevoked -= HandleRevoked;
-            }
-            if (annotationStateManager != null)
-            {
-                annotationStateManager.OnStateChanged -= HandleAnnotationStateChanged;
-                annotationStateManager.OnAnnotationActive -= HandleAnnotationActive;
-            }
-            if (sseClient != null)
-            {
-                sseClient.OnConnected -= HandleSseConnected;
-                sseClient.OnDisconnected -= HandleSseDisconnected;
-                sseClient.OnEventReceived -= HandleSseEvent;
-                sseClient.OnError -= HandleSseError;
-            }
+            if (stateManager != null) { stateManager.OnStateChanged -= HandleStateChanged; stateManager.OnRevokePending -= HandleRevokePending; stateManager.OnRevoked -= HandleRevoked; }
+            if (annotationStateManager != null) { annotationStateManager.OnStateChanged -= HandleAnnotationStateChanged; annotationStateManager.OnAnnotationActive -= HandleAnnotationActive; }
+            if (sseClient != null) { sseClient.OnConnected -= HandleSseConnected; sseClient.OnDisconnected -= HandleSseDisconnected; sseClient.OnEventReceived -= HandleSseEvent; sseClient.OnError -= HandleSseError; }
             if (instance == this) instance = null;
         }
 
@@ -156,8 +122,7 @@ namespace ARObjectDetection.Gateway
         {
             List<string> timedOut = new List<string>();
             foreach (var kvp in pending)
-                if (now - kvp.Value > PENDING_TIMEOUT_SECONDS)
-                    timedOut.Add(kvp.Key);
+                if (now - kvp.Value > PENDING_TIMEOUT_SECONDS) timedOut.Add(kvp.Key);
             foreach (string id in timedOut)
             {
                 pending.Remove(id);
@@ -166,14 +131,13 @@ namespace ARObjectDetection.Gateway
         }
 
         // =====================================================================
-        // ANCHOR OPERATIONS (existing)
+        // ANCHOR OPERATIONS (unchanged)
         // =====================================================================
 
         public bool ProposeAnchor(string assetId, Pose worldPose, float confidence, float stabilityRms, int observationCount)
         {
             if (string.IsNullOrEmpty(assetId) || !isInitialized || config == null) return false;
             if (pendingProposals.ContainsKey(assetId)) return false;
-
             var currentState = stateManager.GetState(assetId);
             if (currentState != null && !currentState.CanPropose) return false;
 
@@ -185,17 +149,8 @@ namespace ARObjectDetection.Gateway
             pendingProposals[assetId] = Time.realtimeSinceStartup;
 
             gatewayClient.ProposeAnchor(assetId, poseSite, qualityMetrics,
-                response =>
-                {
-                    var state = stateManager.GetOrCreateState(assetId);
-                    state.claimId = response.claim_id;
-                },
-                error =>
-                {
-                    pendingProposals.Remove(assetId);
-                    OnGatewayError?.Invoke(error);
-                });
-
+                response => { var state = stateManager.GetOrCreateState(assetId); state.claimId = response.claim_id; },
+                error => { pendingProposals.Remove(assetId); OnGatewayError?.Invoke(error); });
             return true;
         }
 
@@ -203,8 +158,7 @@ namespace ARObjectDetection.Gateway
         {
             if (string.IsNullOrEmpty(assetId) || !isInitialized) return false;
             var state = stateManager.GetState(assetId);
-            if (state == null || !state.CanRevoke) return false;
-            if (pendingRevokes.ContainsKey(assetId)) return false;
+            if (state == null || !state.CanRevoke || pendingRevokes.ContainsKey(assetId)) return false;
 
             pendingRevokes[assetId] = Time.realtimeSinceStartup;
             gatewayClient.RevokeAnchor(assetId, reason,
@@ -218,10 +172,7 @@ namespace ARObjectDetection.Gateway
             if (string.IsNullOrEmpty(assetId)) return false;
             var state = stateManager.GetState(assetId);
             if (state == null || !state.IsRevokePending || !state.RequiresMyAction(MyMspId)) return false;
-
-            gatewayClient.EndorseRevoke(assetId,
-                response => OnRevokeCompleted?.Invoke(assetId),
-                error => OnGatewayError?.Invoke(error));
+            gatewayClient.EndorseRevoke(assetId, response => OnRevokeCompleted?.Invoke(assetId), error => OnGatewayError?.Invoke(error));
             return true;
         }
 
@@ -230,89 +181,92 @@ namespace ARObjectDetection.Gateway
             if (string.IsNullOrEmpty(assetId)) return false;
             var state = stateManager.GetState(assetId);
             if (state == null || !state.IsRevokePending || !state.RequiresMyAction(MyMspId)) return false;
-
-            gatewayClient.RejectRevoke(assetId, reason,
-                response => OnRevokeRejected?.Invoke(assetId, MyMspId),
-                error => OnGatewayError?.Invoke(error));
+            gatewayClient.RejectRevoke(assetId, reason, response => OnRevokeRejected?.Invoke(assetId, MyMspId), error => OnGatewayError?.Invoke(error));
             return true;
         }
 
         // =====================================================================
-        // ANNOTATION OPERATIONS (v2.0)
+        // ANNOTATION OPERATIONS (v2.1: intentType required)
         // =====================================================================
 
         /// <summary>
-        /// Request an AI-generated annotation for an asset.
-        /// The asset must have an ACTIVE anchor on-chain.
+        /// Request an AI-generated annotation for an asset with a specific intent type.
+        /// v2.1: intentType is now required (ASK_ANCHOR or ACTION_SUGGEST).
         /// </summary>
-        public bool RequestAnnotation(string assetId, string className, float confidence, string tier = "ADVISORY")
+        public bool RequestAnnotation(string assetId, string className, float confidence, string intentType, string tier = "ADVISORY")
         {
-            if (string.IsNullOrEmpty(assetId) || !isInitialized) return false;
-            if (pendingAnnotationRequests.ContainsKey(assetId)) return false;
+            if (string.IsNullOrEmpty(assetId) || string.IsNullOrEmpty(intentType) || !isInitialized) return false;
 
-            // Check if annotation can be requested
-            var annState = annotationStateManager.GetState(assetId);
+            string compositeKey = $"{assetId}:{intentType}";
+            if (pendingAnnotationRequests.ContainsKey(compositeKey)) return false;
+
+            var annState = annotationStateManager.GetState(assetId, intentType);
             if (annState != null && !annState.CanRequest) return false;
 
-            annotationStateManager.SetRequesting(assetId);
-            pendingAnnotationRequests[assetId] = Time.realtimeSinceStartup;
+            annotationStateManager.SetRequesting(assetId, intentType);
+            pendingAnnotationRequests[compositeKey] = Time.realtimeSinceStartup;
 
-            Debug.Log($"[GatewaySync] Requesting annotation: {assetId} (tier={tier}, class={className})");
+            Debug.Log($"[GatewaySync] Requesting annotation: {compositeKey} (tier={tier}, class={className})");
 
-            gatewayClient.RequestAnnotation(assetId, tier, className, confidence,
+            gatewayClient.RequestAnnotation(assetId, tier, intentType, className, confidence,
                 response =>
                 {
-                    pendingAnnotationRequests.Remove(assetId);
-                    Debug.Log($"[GatewaySync] ✓ Annotation request accepted: {assetId} → {response.state}");
+                    pendingAnnotationRequests.Remove(compositeKey);
+                    Debug.Log($"[GatewaySync] ✓ Annotation request accepted: {compositeKey} → {response.state}");
                 },
                 error =>
                 {
-                    pendingAnnotationRequests.Remove(assetId);
-                    // Reset to None so user can try again
-                    var s = annotationStateManager.GetOrCreateState(assetId);
+                    pendingAnnotationRequests.Remove(compositeKey);
+                    var s = annotationStateManager.GetOrCreateState(assetId, intentType);
                     s.status = AnnotationStatus.None;
                     Debug.LogError($"[GatewaySync] Annotation request failed: {error}");
                     OnGatewayError?.Invoke(error);
                 });
-
             return true;
         }
 
         /// <summary>
-        /// Get annotation state for an asset
+        /// Get annotation state for a specific (assetId, intentType) pair
         /// </summary>
-        public AnnotationState GetAnnotationState(string assetId)
+        public AnnotationState GetAnnotationState(string assetId, string intentType)
         {
-            return annotationStateManager?.GetState(assetId);
+            return annotationStateManager?.GetState(assetId, intentType);
         }
 
         /// <summary>
-        /// Get annotation status for an asset
+        /// Get annotation status for a specific (assetId, intentType) pair
         /// </summary>
-        public AnnotationStatus GetAnnotationStatus(string assetId)
+        public AnnotationStatus GetAnnotationStatus(string assetId, string intentType)
         {
-            return annotationStateManager?.GetState(assetId)?.status ?? AnnotationStatus.None;
+            return annotationStateManager?.GetState(assetId, intentType)?.status ?? AnnotationStatus.None;
         }
 
         /// <summary>
-        /// Check if an annotation can be requested for this asset
+        /// Get all annotations (all intent types) for an asset
         /// </summary>
-        public bool CanRequestAnnotation(string assetId)
+        public IEnumerable<AnnotationState> GetAnnotationsForAsset(string assetId)
         {
-            if (string.IsNullOrEmpty(assetId) || !isInitialized) return false;
-            if (pendingAnnotationRequests.ContainsKey(assetId)) return false;
+            return annotationStateManager?.GetAnnotationsForAsset(assetId) ?? System.Array.Empty<AnnotationState>();
+        }
 
-            // Must have an active anchor
+        /// <summary>
+        /// Check if an annotation can be requested for this (assetId, intentType)
+        /// </summary>
+        public bool CanRequestAnnotation(string assetId, string intentType)
+        {
+            if (string.IsNullOrEmpty(assetId) || string.IsNullOrEmpty(intentType) || !isInitialized) return false;
+            string compositeKey = $"{assetId}:{intentType}";
+            if (pendingAnnotationRequests.ContainsKey(compositeKey)) return false;
+
             var claimState = stateManager.GetState(assetId);
             if (claimState == null || !claimState.IsActive) return false;
 
-            // Must not have an active/pending annotation
-            var annState = annotationStateManager.GetState(assetId);
+            var annState = annotationStateManager.GetState(assetId, intentType);
             return annState == null || annState.CanRequest;
         }
 
         // =====================================================================
-        // QUERY HELPERS (existing)
+        // QUERY HELPERS
         // =====================================================================
 
         public IEnumerable<AnchorClaimState> GetPendingRevocationsRequiringMyAction()
@@ -339,7 +293,7 @@ namespace ARObjectDetection.Gateway
         }
 
         // =====================================================================
-        // POSE CONVERSION (existing)
+        // POSE CONVERSION
         // =====================================================================
 
         private Pose ConvertToSitePose(Pose worldPose)
@@ -359,7 +313,7 @@ namespace ARObjectDetection.Gateway
         }
 
         // =====================================================================
-        // EVENT HANDLERS - ANCHORS (existing)
+        // EVENT HANDLERS - ANCHORS
         // =====================================================================
 
         private void HandleStateChanged(string assetId, AnchorClaimState state)
@@ -371,42 +325,37 @@ namespace ARObjectDetection.Gateway
 
         private void HandleRevokePending(string assetId, AnchorClaimState state)
         {
-            if (state.RequiresMyAction(MyMspId))
-                Debug.Log($"[GatewaySync] ACTION REQUIRED: Endorse or reject revocation of {assetId}");
+            if (state.RequiresMyAction(MyMspId)) Debug.Log($"[GatewaySync] ACTION REQUIRED: Endorse or reject revocation of {assetId}");
             OnRevokePending?.Invoke(assetId, state.revokeInitiatedBy);
         }
 
-        private void HandleRevoked(string assetId, AnchorClaimState state)
-            => OnRevokeCompleted?.Invoke(assetId);
+        private void HandleRevoked(string assetId, AnchorClaimState state) => OnRevokeCompleted?.Invoke(assetId);
 
         // =====================================================================
-        // EVENT HANDLERS - ANNOTATIONS (v2.0)
+        // EVENT HANDLERS - ANNOTATIONS (v2.1: compositeKey)
         // =====================================================================
 
-        private void HandleAnnotationStateChanged(string assetId, AnnotationState state)
+        private void HandleAnnotationStateChanged(string compositeKey, AnnotationState state)
         {
-            pendingAnnotationRequests.Remove(assetId);
-            OnAnnotationStatusChanged?.Invoke(assetId, state.status);
+            pendingAnnotationRequests.Remove(compositeKey);
+            OnAnnotationStatusChanged?.Invoke(compositeKey, state.status);
         }
 
-        private void HandleAnnotationActive(string assetId, AnnotationState state)
+        private void HandleAnnotationActive(string compositeKey, AnnotationState state)
         {
-            Debug.Log($"[GatewaySync] 🤖 Annotation ACTIVE for {assetId}: {state.contentText}");
-            OnAnnotationActive?.Invoke(assetId, state.contentText);
+            Debug.Log($"[GatewaySync] 🤖 Annotation ACTIVE for {compositeKey}: {state.contentText}");
+            OnAnnotationActive?.Invoke(compositeKey, state.contentText);
         }
 
         // =====================================================================
-        // SSE HANDLERS (existing + snapshot extension)
+        // SSE HANDLERS
         // =====================================================================
 
         private void HandleSseConnected()
         {
             Debug.Log($"[GatewaySync] ✓ Connected as {config.organizationName}");
             OnGatewayConnected?.Invoke();
-
-            // Fetch snapshot to restore both anchor and annotation state
             FetchSnapshotForReconnect();
-
             if (config.autoProcessRevocations) CheckPendingRevocations();
         }
 
@@ -415,51 +364,38 @@ namespace ARObjectDetection.Gateway
         private void HandleSseError(string error) => OnGatewayError?.Invoke(error);
 
         /// <summary>
-        /// Fetch snapshot on connect/reconnect to restore annotation state (v2.0)
+        /// Fetch snapshot on connect/reconnect (v2.1: annotations include intent_type)
         /// </summary>
         private void FetchSnapshotForReconnect()
         {
             if (!config.fetchSnapshotOnReconnect) return;
-
             gatewayClient.FetchSnapshot(
                 response =>
                 {
-                    // Restore annotation state from snapshot
                     if (response.annotations != null)
                     {
                         int count = 0;
                         foreach (var ann in response.annotations)
                         {
-                            if (!string.IsNullOrEmpty(ann.asset_id))
+                            if (!string.IsNullOrEmpty(ann.asset_id) && !string.IsNullOrEmpty(ann.intent_type))
                             {
                                 annotationStateManager.LoadFromSnapshot(
-                                    ann.asset_id,
-                                    ann.annotation_id,
-                                    ann.state,
-                                    ann.content_text,
-                                    ann.tier,
-                                    ann.endorsed_org1,
-                                    ann.endorsed_org2
-                                );
+                                    ann.asset_id, ann.intent_type, ann.annotation_id,
+                                    ann.state, ann.content_text, ann.tier,
+                                    ann.endorsed_org1, ann.endorsed_org2);
                                 count++;
                             }
                         }
-                        if (count > 0)
-                            Debug.Log($"[GatewaySync] Restored {count} annotation(s) from snapshot");
+                        if (count > 0) Debug.Log($"[GatewaySync] Restored {count} annotation(s) from snapshot");
                     }
                 },
-                error => Debug.LogWarning($"[GatewaySync] Snapshot fetch failed: {error}")
-            );
+                error => Debug.LogWarning($"[GatewaySync] Snapshot fetch failed: {error}"));
         }
 
         private void CheckPendingRevocations()
         {
             gatewayClient.GetPendingRevocationsForMe(
-                response =>
-                {
-                    if (response.count > 0)
-                        Debug.Log($"[GatewaySync] {response.count} pending revocation(s) require action");
-                },
+                response => { if (response.count > 0) Debug.Log($"[GatewaySync] {response.count} pending revocation(s) require action"); },
                 error => { });
         }
     }

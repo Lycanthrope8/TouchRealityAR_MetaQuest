@@ -685,11 +685,31 @@ namespace ARObjectDetection
             }
 
             // ============================================================
-            // PRIORITY 2: Check if we hit the Annotate button on InfoPanel
+            // PRIORITY 2a: Check if we hit the Describe button on InfoPanel
+            // ============================================================
+            if (IsDescribeButtonHit(cachedRayHit))
+            {
+                Debug.Log("[DepthAnchor] Describe button collider hit");
+                OnDescribeButtonHit();
+                return;
+            }
+
+            // ============================================================
+            // PRIORITY 2b: Check if we hit the Actions button on InfoPanel
+            // ============================================================
+            if (IsActionsButtonHit(cachedRayHit))
+            {
+                Debug.Log("[DepthAnchor] Actions button collider hit");
+                OnActionsButtonHit();
+                return;
+            }
+
+            // ============================================================
+            // PRIORITY 2c: Backward compat — old "AnnotateButton" name
             // ============================================================
             if (IsAnnotateButtonHit(cachedRayHit))
             {
-                Debug.Log("[DepthAnchor] Annotate button collider hit");
+                Debug.Log("[DepthAnchor] Annotate button collider hit (legacy)");
                 OnAnnotateButtonHit();
                 return; // Don't deselect or do anything else
             }
@@ -754,7 +774,47 @@ namespace ARObjectDetection
         }
 
         /// <summary>
-        /// Check if the raycast hit the Annotate button
+        /// Check if the raycast hit the Describe button (ASK_ANCHOR)
+        /// </summary>
+        private bool IsDescribeButtonHit(RaycastHit hit)
+        {
+            if (hit.collider == null) return false;
+
+            Transform t = hit.collider.transform;
+            while (t != null)
+            {
+                if (t.name.Contains("DescribeButton") || t.name.Contains("describeButton") ||
+                    t.name.Contains("AskAnchorButton") || t.name.Contains("askAnchorButton"))
+                {
+                    return true;
+                }
+                t = t.parent;
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Check if the raycast hit the Actions button (ACTION_SUGGEST)
+        /// </summary>
+        private bool IsActionsButtonHit(RaycastHit hit)
+        {
+            if (hit.collider == null) return false;
+
+            Transform t = hit.collider.transform;
+            while (t != null)
+            {
+                if (t.name.Contains("ActionsButton") || t.name.Contains("actionsButton") ||
+                    t.name.Contains("ActionSuggestButton") || t.name.Contains("actionSuggestButton"))
+                {
+                    return true;
+                }
+                t = t.parent;
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Check if the raycast hit the Annotate button (legacy fallback)
         /// </summary>
         private bool IsAnnotateButtonHit(RaycastHit hit)
         {
@@ -818,7 +878,53 @@ namespace ARObjectDetection
         }
 
         /// <summary>
-        /// Handle Annotate button click
+        /// Handle Describe button click (ASK_ANCHOR)
+        /// </summary>
+        private void OnDescribeButtonHit()
+        {
+            if (activeInfoPanel == null)
+            {
+                Debug.LogWarning("[DepthAnchor] Describe button hit but no active InfoPanel");
+                return;
+            }
+
+            var infoPanel = activeInfoPanel.GetComponent<AnchorInfoPanel>();
+            if (infoPanel != null)
+            {
+                Debug.Log("[DepthAnchor] ✓ Describe (ASK_ANCHOR) button clicked!");
+                infoPanel.OnAskAnchor3DButtonClicked();
+            }
+            else
+            {
+                Debug.LogWarning("[DepthAnchor] Describe button hit but AnchorInfoPanel component not found");
+            }
+        }
+
+        /// <summary>
+        /// Handle Actions button click (ACTION_SUGGEST)
+        /// </summary>
+        private void OnActionsButtonHit()
+        {
+            if (activeInfoPanel == null)
+            {
+                Debug.LogWarning("[DepthAnchor] Actions button hit but no active InfoPanel");
+                return;
+            }
+
+            var infoPanel = activeInfoPanel.GetComponent<AnchorInfoPanel>();
+            if (infoPanel != null)
+            {
+                Debug.Log("[DepthAnchor] ✓ Actions (ACTION_SUGGEST) button clicked!");
+                infoPanel.OnActionSuggest3DButtonClicked();
+            }
+            else
+            {
+                Debug.LogWarning("[DepthAnchor] Actions button hit but AnchorInfoPanel component not found");
+            }
+        }
+
+        /// <summary>
+        /// Handle Annotate button click (legacy — defaults to ASK_ANCHOR)
         /// </summary>
         private void OnAnnotateButtonHit()
         {

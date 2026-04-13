@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c66c90b1775be4da6534b04efdabec, type: 3}
   m_Name: GatewayConfig
   m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.Gateway.GatewayConfig
-  gatewayBaseUrl: https://963f-73-184-161-38.ngrok-free.app
+  gatewayBaseUrl: https://1a2a-73-184-161-38.ngrok-free.app
   apiKey: proposer-key-001
   organizationId: org1
   organizationName: Organization 1
