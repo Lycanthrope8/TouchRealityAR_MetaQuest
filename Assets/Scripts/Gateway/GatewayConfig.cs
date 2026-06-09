@@ -2,6 +2,11 @@
 // FILE: GatewayConfig.cs
 // ScriptableObject for Gateway configuration - Updated for Two-Org Model
 // Create via: Assets > Create > AR Detection > Gateway Config
+//
+// PHASE 6 ADDITIONS:
+//   - Skill-gateway endpoints (/skills/interpret, /skills/execute, /skills/health)
+//   - Separate skill request timeout (LLM calls take longer than plain REST)
+//   Everything from the prior version is preserved unchanged.
 // ============================================================================
 
 using UnityEngine;
@@ -12,7 +17,7 @@ namespace ARObjectDetection.Gateway
     public class GatewayConfig : ScriptableObject
     {
         [Header("Gateway Connection")]
-        [Tooltip("Base URL of the gateway (e.g., http://192.168.1.100:3000 or https://xxx.ngrok-free.app)")]
+        [Tooltip("Base URL of the gateway (e.g., http://192.168.1.100:3000 or https://xxx.ngrok-free.app). CHANGE THIS each session when your ngrok URL changes.")]
         public string gatewayBaseUrl = "http://localhost:3000";
 
         [Tooltip("API key for authentication (proposer role)")]
@@ -44,9 +49,22 @@ namespace ARObjectDetection.Gateway
         [Tooltip("Reject revoke endpoint path")]
         public string rejectRevokeEndpoint = "/admin/reject-revoke";
 
+        [Header("Skill Gateway Endpoints (Phase 6 — LLM-mediated)")]
+        [Tooltip("Interpret endpoint: POST natural-language text, get a Decision back")]
+        public string skillInterpretEndpoint = "/skills/interpret";
+
+        [Tooltip("Execute endpoint: POST decision_id after user confirms")]
+        public string skillExecuteEndpoint = "/skills/execute";
+
+        [Tooltip("Skill health endpoint (runtime + allowlist status)")]
+        public string skillHealthEndpoint = "/skills/health";
+
         [Header("Timeouts")]
-        [Tooltip("HTTP request timeout in seconds")]
+        [Tooltip("HTTP request timeout in seconds (plain REST)")]
         public int requestTimeoutSeconds = 10;
+
+        [Tooltip("Skill request timeout in seconds. LLM interpretation can take several seconds — keep this higher than the REST timeout.")]
+        public int skillRequestTimeoutSeconds = 30;
 
         [Tooltip("SSE reconnect delay in seconds (base)")]
         public float reconnectDelaySeconds = 3f;
@@ -70,13 +88,18 @@ namespace ARObjectDetection.Gateway
         [Tooltip("Auto-process pending revocations on connect")]
         public bool autoProcessRevocations = false;
 
-        // Computed URLs
+        // Computed URLs (existing)
         public string ProposeEndpoint => $"{gatewayBaseUrl}{proposeEndpoint}";
         public string EventStreamUrl => $"{gatewayBaseUrl}{eventStreamEndpoint}";
         public string SnapshotUrl => $"{gatewayBaseUrl}{snapshotEndpoint}";
         public string RevokeUrl => $"{gatewayBaseUrl}{revokeEndpoint}";
         public string EndorseRevokeUrl => $"{gatewayBaseUrl}{endorseRevokeEndpoint}";
         public string RejectRevokeUrl => $"{gatewayBaseUrl}{rejectRevokeEndpoint}";
+
+        // Computed URLs (Phase 6)
+        public string SkillInterpretUrl => $"{gatewayBaseUrl}{skillInterpretEndpoint}";
+        public string SkillExecuteUrl => $"{gatewayBaseUrl}{skillExecuteEndpoint}";
+        public string SkillHealthUrl => $"{gatewayBaseUrl}{skillHealthEndpoint}";
 
         // Organization helpers
         public bool IsOrg1 => organizationId.ToLower() == "org1";
@@ -100,6 +123,9 @@ namespace ARObjectDetection.Gateway
             EnsureStartsWithSlash(ref revokeEndpoint);
             EnsureStartsWithSlash(ref endorseRevokeEndpoint);
             EnsureStartsWithSlash(ref rejectRevokeEndpoint);
+            EnsureStartsWithSlash(ref skillInterpretEndpoint);
+            EnsureStartsWithSlash(ref skillExecuteEndpoint);
+            EnsureStartsWithSlash(ref skillHealthEndpoint);
 
             // Validate organization ID
             if (!string.IsNullOrEmpty(organizationId))

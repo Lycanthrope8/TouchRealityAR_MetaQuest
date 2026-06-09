@@ -685,33 +685,61 @@ namespace ARObjectDetection
             }
 
             // ============================================================
-            // PRIORITY 2a: Check if we hit the Describe button on InfoPanel
+            // PRIORITY 1b (Phase 6A): a "Suggested command" button.
+            // Detected by COMPONENT (not name) and FIRST, so leftover child names
+            // inherited from the duplicated source button cannot misroute the poke.
+            // Picking only fills the command line — it never calls chaincode.
             // ============================================================
-            if (IsDescribeButtonHit(cachedRayHit))
+            var pokedSuggestion = cachedRayHit.collider != null
+                ? cachedRayHit.collider.GetComponentInParent<SkillCommandButton>()
+                : null;
+            if (pokedSuggestion != null)
             {
-                Debug.Log("[DepthAnchor] Describe button collider hit");
-                OnDescribeButtonHit();
+                Debug.Log("[DepthAnchor] Suggestion button collider hit: " + pokedSuggestion.Command);
+                OnSuggestionButtonHit(pokedSuggestion);
                 return;
             }
 
             // ============================================================
-            // PRIORITY 2b: Check if we hit the Actions button on InfoPanel
+            // PRIORITY 1c (Phase 6A): the "Suggested" toggle that shows/hides the list.
             // ============================================================
-            if (IsActionsButtonHit(cachedRayHit))
+            if (IsSuggestedToggleHit(cachedRayHit))
             {
-                Debug.Log("[DepthAnchor] Actions button collider hit");
-                OnActionsButtonHit();
+                Debug.Log("[DepthAnchor] Suggested toggle collider hit");
+                OnSuggestedToggleHit();
                 return;
             }
 
             // ============================================================
-            // PRIORITY 2c: Backward compat — old "AnnotateButton" name
+            // PRIORITY 2a: Ask button (Phase 6 — opens keyboard, sends NL)
+            // (was "Describe"; old name still matched for back-compat)
             // ============================================================
-            if (IsAnnotateButtonHit(cachedRayHit))
+            if (IsAskButtonHit(cachedRayHit))
             {
-                Debug.Log("[DepthAnchor] Annotate button collider hit (legacy)");
-                OnAnnotateButtonHit();
-                return; // Don't deselect or do anything else
+                Debug.Log("[DepthAnchor] Ask button collider hit");
+                OnAskButtonHit();
+                return;
+            }
+
+            // ============================================================
+            // PRIORITY 2b: Confirm button (Phase 6 — executes the decision)
+            // (was "Actions"; old name still matched for back-compat)
+            // ============================================================
+            if (IsConfirmButtonHit(cachedRayHit))
+            {
+                Debug.Log("[DepthAnchor] Confirm button collider hit");
+                OnConfirmButtonHit();
+                return;
+            }
+
+            // ============================================================
+            // PRIORITY 2c: Cancel button (Phase 6 — cancels the decision)
+            // ============================================================
+            if (IsCancelButtonHit(cachedRayHit))
+            {
+                Debug.Log("[DepthAnchor] Cancel button collider hit");
+                OnCancelButtonHit();
+                return;
             }
 
             // ============================================================
@@ -774,17 +802,18 @@ namespace ARObjectDetection
         }
 
         /// <summary>
-        /// Check if the raycast hit the Describe button (ASK_ANCHOR)
+        /// Check if the raycast hit the Ask button (Phase 6).
+        /// Matches "AskButton" and the legacy "DescribeButton" name.
         /// </summary>
-        private bool IsDescribeButtonHit(RaycastHit hit)
+        private bool IsAskButtonHit(RaycastHit hit)
         {
             if (hit.collider == null) return false;
 
             Transform t = hit.collider.transform;
             while (t != null)
             {
-                if (t.name.Contains("DescribeButton") || t.name.Contains("describeButton") ||
-                    t.name.Contains("AskAnchorButton") || t.name.Contains("askAnchorButton"))
+                if (t.name.Contains("AskButton") || t.name.Contains("askButton") ||
+                    t.name.Contains("DescribeButton") || t.name.Contains("describeButton"))
                 {
                     return true;
                 }
@@ -794,17 +823,18 @@ namespace ARObjectDetection
         }
 
         /// <summary>
-        /// Check if the raycast hit the Actions button (ACTION_SUGGEST)
+        /// Check if the raycast hit the Confirm button (Phase 6).
+        /// Matches "ConfirmButton" and the legacy "ActionsButton" name.
         /// </summary>
-        private bool IsActionsButtonHit(RaycastHit hit)
+        private bool IsConfirmButtonHit(RaycastHit hit)
         {
             if (hit.collider == null) return false;
 
             Transform t = hit.collider.transform;
             while (t != null)
             {
-                if (t.name.Contains("ActionsButton") || t.name.Contains("actionsButton") ||
-                    t.name.Contains("ActionSuggestButton") || t.name.Contains("actionSuggestButton"))
+                if (t.name.Contains("ConfirmButton") || t.name.Contains("confirmButton") ||
+                    t.name.Contains("ActionsButton") || t.name.Contains("actionsButton"))
                 {
                     return true;
                 }
@@ -814,17 +844,35 @@ namespace ARObjectDetection
         }
 
         /// <summary>
-        /// Check if the raycast hit the Annotate button (legacy fallback)
+        /// Check if the raycast hit the Cancel button (Phase 6).
         /// </summary>
-        private bool IsAnnotateButtonHit(RaycastHit hit)
+        private bool IsCancelButtonHit(RaycastHit hit)
         {
             if (hit.collider == null) return false;
 
-            // Check if hit object or any parent is named "AnnotateButton"
             Transform t = hit.collider.transform;
             while (t != null)
             {
-                if (t.name.Contains("AnnotateButton") || t.name.Contains("annotateButton"))
+                if (t.name.Contains("CancelButton") || t.name.Contains("cancelButton"))
+                {
+                    return true;
+                }
+                t = t.parent;
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Check if the raycast hit the "Suggested" toggle button (Phase 6A).
+        /// </summary>
+        private bool IsSuggestedToggleHit(RaycastHit hit)
+        {
+            if (hit.collider == null) return false;
+
+            Transform t = hit.collider.transform;
+            while (t != null)
+            {
+                if (t.name.Contains("SuggestedToggle") || t.name.Contains("suggestedToggle"))
                 {
                     return true;
                 }
@@ -878,71 +926,117 @@ namespace ARObjectDetection
         }
 
         /// <summary>
-        /// Handle Describe button click (ASK_ANCHOR)
+        /// Handle Ask button click (Phase 6) — opens the keyboard to type an NL command.
         /// </summary>
-        private void OnDescribeButtonHit()
+        private void OnAskButtonHit()
         {
             if (activeInfoPanel == null)
             {
-                Debug.LogWarning("[DepthAnchor] Describe button hit but no active InfoPanel");
+                Debug.LogWarning("[DepthAnchor] Ask button hit but no active InfoPanel");
                 return;
             }
 
             var infoPanel = activeInfoPanel.GetComponent<AnchorInfoPanel>();
             if (infoPanel != null)
             {
-                Debug.Log("[DepthAnchor] ✓ Describe (ASK_ANCHOR) button clicked!");
-                infoPanel.OnAskAnchor3DButtonClicked();
+                Debug.Log("[DepthAnchor] ✓ Ask button clicked!");
+                infoPanel.OnAsk3DButtonClicked();
             }
             else
             {
-                Debug.LogWarning("[DepthAnchor] Describe button hit but AnchorInfoPanel component not found");
+                Debug.LogWarning("[DepthAnchor] Ask button hit but AnchorInfoPanel component not found");
             }
         }
 
         /// <summary>
-        /// Handle Actions button click (ACTION_SUGGEST)
+        /// Handle Confirm button click (Phase 6) — executes the previewed decision.
         /// </summary>
-        private void OnActionsButtonHit()
+        private void OnConfirmButtonHit()
         {
             if (activeInfoPanel == null)
             {
-                Debug.LogWarning("[DepthAnchor] Actions button hit but no active InfoPanel");
+                Debug.LogWarning("[DepthAnchor] Confirm button hit but no active InfoPanel");
                 return;
             }
 
             var infoPanel = activeInfoPanel.GetComponent<AnchorInfoPanel>();
             if (infoPanel != null)
             {
-                Debug.Log("[DepthAnchor] ✓ Actions (ACTION_SUGGEST) button clicked!");
-                infoPanel.OnActionSuggest3DButtonClicked();
+                Debug.Log("[DepthAnchor] ✓ Confirm button clicked!");
+                infoPanel.OnConfirm3DClicked();
             }
             else
             {
-                Debug.LogWarning("[DepthAnchor] Actions button hit but AnchorInfoPanel component not found");
+                Debug.LogWarning("[DepthAnchor] Confirm button hit but AnchorInfoPanel component not found");
             }
         }
 
         /// <summary>
-        /// Handle Annotate button click (legacy — defaults to ASK_ANCHOR)
+        /// Handle Cancel button click (Phase 6) — cancels/dismisses the decision.
         /// </summary>
-        private void OnAnnotateButtonHit()
+        private void OnCancelButtonHit()
         {
             if (activeInfoPanel == null)
             {
-                Debug.LogWarning("[DepthAnchor] Annotate button hit but no active InfoPanel");
+                Debug.LogWarning("[DepthAnchor] Cancel button hit but no active InfoPanel");
                 return;
             }
 
             var infoPanel = activeInfoPanel.GetComponent<AnchorInfoPanel>();
             if (infoPanel != null)
             {
-                Debug.Log("[DepthAnchor] ✓ Annotate button clicked!");
-                infoPanel.OnAnnotate3DButtonClicked();
+                Debug.Log("[DepthAnchor] ✓ Cancel button clicked!");
+                infoPanel.OnCancel3DClicked();
             }
             else
             {
-                Debug.LogWarning("[DepthAnchor] Annotate button hit but AnchorInfoPanel component not found");
+                Debug.LogWarning("[DepthAnchor] Cancel button hit but AnchorInfoPanel component not found");
+            }
+        }
+
+        /// <summary>
+        /// Handle the "Suggested" toggle click (Phase 6A) — shows/hides the list.
+        /// </summary>
+        private void OnSuggestedToggleHit()
+        {
+            if (activeInfoPanel == null)
+            {
+                Debug.LogWarning("[DepthAnchor] Suggested toggle hit but no active InfoPanel");
+                return;
+            }
+
+            var infoPanel = activeInfoPanel.GetComponent<AnchorInfoPanel>();
+            if (infoPanel != null)
+            {
+                Debug.Log("[DepthAnchor] ✓ Suggested toggle clicked!");
+                infoPanel.OnSuggestedToggle3D();
+            }
+            else
+            {
+                Debug.LogWarning("[DepthAnchor] Suggested toggle hit but AnchorInfoPanel component not found");
+            }
+        }
+
+        /// <summary>
+        /// Handle a suggestion-button click (Phase 6A) — fills the command line.
+        /// </summary>
+        private void OnSuggestionButtonHit(SkillCommandButton btn)
+        {
+            if (activeInfoPanel == null)
+            {
+                Debug.LogWarning("[DepthAnchor] Suggestion button hit but no active InfoPanel");
+                return;
+            }
+
+            var infoPanel = activeInfoPanel.GetComponent<AnchorInfoPanel>();
+            if (infoPanel != null)
+            {
+                Debug.Log("[DepthAnchor] ✓ Suggestion picked: " + btn.Command);
+                infoPanel.OnSuggestionPicked(btn);
+            }
+            else
+            {
+                Debug.LogWarning("[DepthAnchor] Suggestion button hit but AnchorInfoPanel component not found");
             }
         }
 

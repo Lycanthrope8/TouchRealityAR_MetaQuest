@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7fee93dcb065c7428976cda8da85122, type: 3}
   m_Name: DetectionConfig
   m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.DetectionConfig
-  serverUrl: http://10.0.0.93:5000
+  serverUrl: http://192.168.0.135:5000
   requestTimeout: 5
   maxRetryAttempts: 2
   frameCaptureInterval: 6

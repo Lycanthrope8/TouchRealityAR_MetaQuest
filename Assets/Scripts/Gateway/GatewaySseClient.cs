@@ -1,7 +1,11 @@
 // ============================================================================
 // FILE: GatewaySseClient.cs
 // SSE Client for receiving real-time events from the Gateway
-// v2.1: Annotation events include intentType — passed to AnnotationStateManager
+//
+// PHASE 6: Annotation handling removed. The SSE stream still drives anchor
+// claim-state transitions (CLAIM_PROPOSED → CLAIM_ACTIVATED, REVOKE_*), which is
+// what updates anchor colors after a skill-execute commits. Annotation event
+// routing and the AnnotationStateManager dependency are deleted.
 // ============================================================================
 
 using System;
@@ -95,7 +99,6 @@ namespace ARObjectDetection.Gateway
 
         private GatewayConfig config;
         private AnchorClaimStateManager stateManager;
-        private AnnotationStateManager annotationStateManager;
         private GatewayClient gatewayClient;
         private UnityWebRequest currentRequest;
         private bool isConnected = false;
@@ -115,10 +118,7 @@ namespace ARObjectDetection.Gateway
             this.gatewayClient = client;
         }
 
-        public void SetAnnotationStateManager(AnnotationStateManager manager)
-        {
-            this.annotationStateManager = manager;
-        }
+        // SetAnnotationStateManager REMOVED in Phase 6 (annotation service deleted).
 
         public void Connect()
         {
@@ -244,9 +244,6 @@ namespace ARObjectDetection.Gateway
                 if (stateManager != null && !string.IsNullOrEmpty(assetId))
                     ProcessAnchorStateUpdate(eventType, evt, assetId);
 
-                if (annotationStateManager != null && !string.IsNullOrEmpty(assetId))
-                    ProcessAnnotationStateUpdate(eventType, evt, assetId);
-
                 OnEventReceived?.Invoke(evt);
             }
             catch (Exception e) { Debug.LogError($"[GatewaySseClient] Error processing event: {e.Message}\nData: {jsonData}"); }
@@ -273,58 +270,7 @@ namespace ARObjectDetection.Gateway
             }
         }
 
-        /// <summary>
-        /// Process annotation SSE events (v2.1: intentType extracted and passed)
-        /// </summary>
-        private void ProcessAnnotationStateUpdate(string eventType, GatewayEvent evt, string assetId)
-        {
-            string contentText = evt.GetContentText();
-            string annotationId = evt.GetAnnotationId();
-            string intentType = evt.GetIntentType();
-            string rejectedBy = !string.IsNullOrEmpty(evt.rejectedBy) ? evt.rejectedBy : evt.rejected_by;
-            string revokedBy = !string.IsNullOrEmpty(evt.revokedBy) ? evt.revokedBy : evt.revoked_by;
-            string activationMethod = evt.GetActivationMethod();
-
-            // v2.1: intentType is required for all annotation state updates
-            if (string.IsNullOrEmpty(intentType))
-            {
-                // Skip annotation processing if intentType missing (not an annotation event)
-                return;
-            }
-
-            switch (eventType)
-            {
-                case "ANNOTATION_PROPOSED":
-                    Debug.Log($"[GatewaySseClient] → Annotation: {assetId}:{intentType} ANN_PROPOSED (tier={evt.tier})");
-                    annotationStateManager.SetProposed(assetId, intentType, annotationId, contentText, evt.tier);
-                    break;
-
-                case "ANNOTATION_ENDORSED_ORG1":
-                    Debug.Log($"[GatewaySseClient] → Annotation: {assetId}:{intentType} endorsed by Org1");
-                    annotationStateManager.SetEndorsedOrg1(assetId, intentType);
-                    break;
-
-                case "ANNOTATION_ENDORSED_ORG2":
-                    Debug.Log($"[GatewaySseClient] → Annotation: {assetId}:{intentType} endorsed by Org2");
-                    annotationStateManager.SetEndorsedOrg2(assetId, intentType);
-                    break;
-
-                case "ANNOTATION_ACTIVE":
-                    Debug.Log($"[GatewaySseClient] → Annotation: {assetId}:{intentType} ANN_ACTIVE! ({activationMethod})");
-                    annotationStateManager.SetActive(assetId, intentType, contentText, evt.tier, activationMethod);
-                    break;
-
-                case "ANNOTATION_REJECTED":
-                    Debug.Log($"[GatewaySseClient] → Annotation: {assetId}:{intentType} ANN_REJECTED by {rejectedBy}");
-                    annotationStateManager.SetRejected(assetId, intentType, rejectedBy, evt.reason);
-                    break;
-
-                case "ANNOTATION_REVOKED":
-                    Debug.Log($"[GatewaySseClient] → Annotation: {assetId}:{intentType} ANN_REVOKED by {revokedBy}");
-                    annotationStateManager.SetRevoked(assetId, intentType, revokedBy, evt.reason);
-                    break;
-            }
-        }
+        // ProcessAnnotationStateUpdate REMOVED in Phase 6 (annotation service deleted).
 
         private void OnDestroy() { Disconnect(); }
     }

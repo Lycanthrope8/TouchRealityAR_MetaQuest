@@ -1,7 +1,12 @@
 // ============================================================================
 // FILE: GatewayClient.cs
 // REST client for Gateway API calls - Updated for Two-Org Model
-// v2.1: Added intent_type to annotation request/response types (multi-card)
+//
+// PHASE 6: The annotation service has been removed. RequestAnnotation(),
+// AnnotationRequestData, and AnnotationResponse are deleted. The LLM-mediated
+// flow lives in SkillGatewayClient instead. SnapshotAnnotationState remains as a
+// passive DTO so existing snapshot parsing is unaffected, but it is no longer
+// consumed by GatewaySync.
 // ============================================================================
 
 using System;
@@ -76,32 +81,7 @@ namespace ARObjectDetection.Gateway
         public bool endorsed_org2;
     }
 
-    // Annotation types (v2.1: intent_type added)
-    [Serializable]
-    public class AnnotationRequestData
-    {
-        public string asset_id;
-        public string tier;
-        public string intent_type;      // v2.1: required
-        public string class_name;
-        public float confidence;
-    }
-
-    [Serializable]
-    public class AnnotationResponse
-    {
-        public bool success;
-        public string annotation_id;
-        public string asset_id;
-        public string intent_type;      // v2.1
-        public string state;
-        public string tier;
-        public string content_text;
-        public string anchor_claim_id;
-        public string proposed_via_org;
-        public string activation_method;
-        public string error;
-    }
+    // Annotation types REMOVED in Phase 6 (annotation service deleted).
 
     // =========================================================================
     // GATEWAY CLIENT
@@ -189,26 +169,9 @@ namespace ARObjectDetection.Gateway
         }
 
         // =====================================================================
-        // ANNOTATION REQUEST (v2.1: intentType required)
+        // ANNOTATION REQUEST — REMOVED in Phase 6.
+        // The LLM-mediated flow now lives in SkillGatewayClient.Interpret/Execute.
         // =====================================================================
-
-        public void RequestAnnotation(string assetId, string tier, string intentType, string className, float confidence,
-            Action<AnnotationResponse> onSuccess, Action<string> onError)
-        {
-            if (!isInitialized || config == null) { onError?.Invoke("GatewayClient not initialized"); return; }
-
-            var request = new AnnotationRequestData
-            {
-                asset_id = assetId,
-                tier = tier,
-                intent_type = intentType,
-                class_name = className,
-                confidence = confidence
-            };
-
-            StartCoroutine(PostCoroutine<AnnotationRequestData, AnnotationResponse>(
-                $"{config.gatewayBaseUrl}/annotations/request", request, onSuccess, onError));
-        }
 
         // =====================================================================
         // GENERIC HTTP HELPERS
