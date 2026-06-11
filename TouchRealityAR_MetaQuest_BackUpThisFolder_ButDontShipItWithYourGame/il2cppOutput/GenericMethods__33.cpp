@@ -10630,7 +10630,7 @@ IL_000d:
 		return;
 	}
 }
-// Method Definition Index: 111465
+// Method Definition Index: 111468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugManager_RegisterManager_TisRuntimeObject_m6DCAEA71031E704ED9F6AFB928EE6BD728F5A5FD_gshared (DebugManager_tB497DAE8D9055CB6B970EBD98704022045F1E608* __this, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -10660,7 +10660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugManager_RegisterManager_TisRuntimeO
 		return;
 	}
 }
-// Method Definition Index: 111465
+// Method Definition Index: 111468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugManager_RegisterManager_TisIl2CppFullySharedGenericAny_m1A23E103569444C135CAE6E1A58441F8076ABA54_gshared (DebugManager_tB497DAE8D9055CB6B970EBD98704022045F1E608* __this, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -19368,7 +19368,7 @@ IL_0092:
 		return L_29;
 	}
 }
-// Method Definition Index: 100219
+// Method Definition Index: 100222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestructibleMeshComponent_GetDestructibleMeshSegments_TisRuntimeObject_m9BCAA5E8D8E7E27089DE9C3AE5EF32FBB99A2A4B_gshared (DestructibleMeshComponent_tB6211678E36005F972BCFCB4C8639368E157B83D* __this, RuntimeObject* ___0_segments, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19509,7 +19509,7 @@ IL_0087:
 		return;
 	}
 }
-// Method Definition Index: 100219
+// Method Definition Index: 100222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestructibleMeshComponent_GetDestructibleMeshSegments_TisIl2CppFullySharedGenericAny_m7D653819691D15D324541FF5ADFBE524CAA78D67_gshared (DestructibleMeshComponent_tB6211678E36005F972BCFCB4C8639368E157B83D* __this, Il2CppFullySharedGenericAny ___0_segments, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -19708,7 +19708,7 @@ IL_0042:
 		return L_12;
 	}
 }
-// Method Definition Index: 105226
+// Method Definition Index: 105229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dropdown_GetOrAddComponent_TisRuntimeObject_m4CFC452AF36299E564FA54F2B998631D1630083E_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_go, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -38973,7 +38973,7 @@ IL_0069:
 		return L_23;
 	}
 }
-// Method Definition Index: 111455
+// Method Definition Index: 111458
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* DebugManager_get_UiPanel_m0DFF50CC6F3550559E78809FE1ADBFCC86819DAC_inline (DebugManager_tB497DAE8D9055CB6B970EBD98704022045F1E608* __this, const RuntimeMethod* method) 
 {
 	{

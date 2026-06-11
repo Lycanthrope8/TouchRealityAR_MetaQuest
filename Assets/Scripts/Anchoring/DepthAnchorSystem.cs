@@ -711,6 +711,16 @@ namespace ARObjectDetection
             }
 
             // ============================================================
+            // PRIORITY 1d (Phase 6B): the "Custom Question" button (opens keyboard).
+            // ============================================================
+            if (IsCustomQuestionHit(cachedRayHit))
+            {
+                Debug.Log("[DepthAnchor] Custom Question collider hit");
+                OnCustomQuestionHit();
+                return;
+            }
+
+            // ============================================================
             // PRIORITY 2a: Ask button (Phase 6 — opens keyboard, sends NL)
             // (was "Describe"; old name still matched for back-compat)
             // ============================================================
@@ -882,6 +892,25 @@ namespace ARObjectDetection
         }
 
         /// <summary>
+        /// True if the poke hit the "Custom Question" button (name contains "CustomQuestion").
+        /// </summary>
+        private bool IsCustomQuestionHit(RaycastHit hit)
+        {
+            if (hit.collider == null) return false;
+
+            Transform t = hit.collider.transform;
+            while (t != null)
+            {
+                if (t.name.Contains("CustomQuestion") || t.name.Contains("customQuestion"))
+                {
+                    return true;
+                }
+                t = t.parent;
+            }
+            return false;
+        }
+
+        /// <summary>
         /// Check if the raycast hit the InfoPanel (but not the button)
         /// </summary>
         private bool IsInfoPanelHit(RaycastHit hit)
@@ -1014,6 +1043,29 @@ namespace ARObjectDetection
             else
             {
                 Debug.LogWarning("[DepthAnchor] Suggested toggle hit but AnchorInfoPanel component not found");
+            }
+        }
+
+        /// <summary>
+        /// Handle the "Custom Question" button click (Phase 6B) — opens the keyboard.
+        /// </summary>
+        private void OnCustomQuestionHit()
+        {
+            if (activeInfoPanel == null)
+            {
+                Debug.LogWarning("[DepthAnchor] Custom Question hit but no active InfoPanel");
+                return;
+            }
+
+            var infoPanel = activeInfoPanel.GetComponent<AnchorInfoPanel>();
+            if (infoPanel != null)
+            {
+                Debug.Log("[DepthAnchor] ✓ Custom Question clicked!");
+                infoPanel.OnCustomQuestion3DButtonClicked();
+            }
+            else
+            {
+                Debug.LogWarning("[DepthAnchor] Custom Question hit but AnchorInfoPanel component not found");
             }
         }
 

@@ -299,6 +299,7 @@ extern void AnchorInfoPanel_OnPropose3DButtonClicked_m0B0BBCD271785302C574F98726
 extern void AnchorInfoPanel_UpdateSendButtonAvailability_m42B0FBA6B585A2488B1EA5285FEAE7B36A00A40F (void);
 extern void AnchorInfoPanel_ApplyStateVisibility_mC579CEF8F5C879FA591982261C2AFD849A9E5C75 (void);
 extern void AnchorInfoPanel_OnAsk3DButtonClicked_m90C57203CE7A09C7CD082AAED815472912E51889 (void);
+extern void AnchorInfoPanel_OnCustomQuestion3DButtonClicked_m171C94E6F8AF44256D097FF5F68843441E394EFB (void);
 extern void AnchorInfoPanel_OpenKeyboardForCustomCommand_m61E8CF1E180FEF7204A1BDFFB2819B30EC6FDF3E (void);
 extern void AnchorInfoPanel_SendPreset1_m7825C34228332FDB9CAE2197EC66A5C27D967047 (void);
 extern void AnchorInfoPanel_SendPreset2_m36107964B4BCA597EF7CB898135E81F00AA7FACD (void);
@@ -345,8 +346,8 @@ extern void AnchorInfoPanel_GetCurrentAnchor_m6D9952ABD283BD0E744B78D0524F127A14
 extern void AnchorInfoPanel_GetCurrentAssetId_m1AD7D446CF993224E326BEAC853B69C52072E3E1 (void);
 extern void AnchorInfoPanel_Clear_m5608983B27663AB9618497DE9522DCD51E8D66EC (void);
 extern void AnchorInfoPanel__ctor_m93DCFB705C3BCF8F8030321445346F8284693604 (void);
-extern void AnchorInfoPanel_U3CFormatArgumentsLinesU3Eg__addU7C125_0_m63EFA296CDE5E4CAD28E4BFB5018C308D2129ABF (void);
-extern void AnchorInfoPanel_U3CFormatArgumentsU3Eg__addU7C127_0_m5C263A7E2178760A29805041EE7A8E6F33619726 (void);
+extern void AnchorInfoPanel_U3CFormatArgumentsLinesU3Eg__addU7C128_0_m739123D34CF7720947BE0C210C9305F5DD319868 (void);
+extern void AnchorInfoPanel_U3CFormatArgumentsU3Eg__addU7C130_0_m9FCA4BEAD2FEE4D50F103A69290CF0D0490BA83D (void);
 extern void DepthAnchorSystem_get_TotalAnchorCount_mC8F8C17EA9C4A567AB18C43592CEB4E259B43BE3 (void);
 extern void DepthAnchorSystem_get_ActiveAnchorCount_mEC5E5F45AC837DBF38F098C7A363794FB6E82190 (void);
 extern void DepthAnchorSystem_get_PendingAnchorCount_mD1F56BFECD71BA8D951E1B7A6FBBD63B5F4254DC (void);
@@ -378,12 +379,14 @@ extern void DepthAnchorSystem_IsAskButtonHit_mCDC3CB3BD36A70920631E1EA26AD0EF4B6
 extern void DepthAnchorSystem_IsConfirmButtonHit_m80EDC42A6F5EBBE0C3914E5D684CC031440E8D2C (void);
 extern void DepthAnchorSystem_IsCancelButtonHit_m96B4F4C8FA317A0C475C7DF27631E8F6530AA0D9 (void);
 extern void DepthAnchorSystem_IsSuggestedToggleHit_m2E2393A2301124AD98BA70C72928E3760485AF00 (void);
+extern void DepthAnchorSystem_IsCustomQuestionHit_m1FA2B6432A6F06AC8A3DA0A52E79C160EEBC4C3A (void);
 extern void DepthAnchorSystem_IsInfoPanelHit_mFB13547E5D83848A2860B9ED7D6644DE250DF21A (void);
 extern void DepthAnchorSystem_OnProposeButtonHit_m0597DF708FB520B9152C3C27C85A368E470A4FD3 (void);
 extern void DepthAnchorSystem_OnAskButtonHit_m5A9ADCC3FF690B8C8F2C5C4E926AB7A06EB6DE5A (void);
 extern void DepthAnchorSystem_OnConfirmButtonHit_m76001F9973629E4B102E8524BB11342F2048936C (void);
 extern void DepthAnchorSystem_OnCancelButtonHit_mEE851754C00EC8CACE633155DC5094B0F73D7A90 (void);
 extern void DepthAnchorSystem_OnSuggestedToggleHit_m262CF04E93676BF0928CA2599B1A53CC73305C1B (void);
+extern void DepthAnchorSystem_OnCustomQuestionHit_m2BDF33924E8E3E831622D5F1D918940E4E65739E (void);
 extern void DepthAnchorSystem_OnSuggestionButtonHit_m3039E74AA07E00AFE4374F9A9E1BF205304EC138 (void);
 extern void DepthAnchorSystem_SelectAnchor_m1B597AF64BA5AEB641716BFAF9CE4774A57FBB36 (void);
 extern void DepthAnchorSystem_DeselectAnchor_m77F2BC37816CE99FAA8D0FEFE433D2AA18BB0841 (void);
@@ -408,7 +411,7 @@ extern void DepthAnchorInstance_get_smoothedPosition_m257B90FB9F2B7F8EF6F14A9433
 extern void DepthAnchorInstance__ctor_mD04C62F9B6CBD9B8E3B756457E5FF69F8FB18C4C (void);
 extern void U3CU3Ec__cctor_m21ADFE2A826EEFE7866F28477027DB3FBF6F2657 (void);
 extern void U3CU3Ec__ctor_m79FBAF0408F430A3C29FB4D29547A3F3786B5489 (void);
-extern void U3CU3Ec_U3CGetAprilTagAssociatedAnchorCountU3Eb__110_0_mE29B86E881970FB1E6581FA624570390D5171E18 (void);
+extern void U3CU3Ec_U3CGetAprilTagAssociatedAnchorCountU3Eb__112_0_m4A960C5E1C1F6A103F8967259FB3ABFF435E7768 (void);
 extern void SkillCommandButton_get_Command_m5093B85349633119D9AB75BDC0CB1031FF050E64 (void);
 extern void SkillCommandButton_Bind_mFDA41B940F32236A8DE1169F6F0746AC582706D0 (void);
 extern void SkillCommandButton_Pick_mA034E646F2E3307156AA6E99D65BDBD5F01E6B92 (void);
@@ -1430,7 +1433,7 @@ extern void U3CInitializeWebCamTextureU3Ed__12_System_Collections_Generic_IEnume
 extern void U3CInitializeWebCamTextureU3Ed__12_System_Collections_IEnumerator_Reset_mDB91D3B9389B30DA938D4268E03DFBC7834466E8 (void);
 extern void U3CInitializeWebCamTextureU3Ed__12_System_Collections_IEnumerator_get_Current_m5E304D77D7CFEBE8F7A56CCB9687D0BE8D95030F (void);
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m6EA1F233618497AEFF8902A5EDFA24C74E2F2876 (void);
-static Il2CppMethodPointer s_methodPointers[1441] = 
+static Il2CppMethodPointer s_methodPointers[1444] = 
 {
 	WebcamTextureAssigner_Start_m9348192CAD3E9D97F9EA385DF35C875FA24C59D8,
 	WebcamTextureAssigner__ctor_mFB8C66D2C79D2BA88F2A41A1281BD119C7F3E3C4,
@@ -1724,6 +1727,7 @@ static Il2CppMethodPointer s_methodPointers[1441] =
 	AnchorInfoPanel_UpdateSendButtonAvailability_m42B0FBA6B585A2488B1EA5285FEAE7B36A00A40F,
 	AnchorInfoPanel_ApplyStateVisibility_mC579CEF8F5C879FA591982261C2AFD849A9E5C75,
 	AnchorInfoPanel_OnAsk3DButtonClicked_m90C57203CE7A09C7CD082AAED815472912E51889,
+	AnchorInfoPanel_OnCustomQuestion3DButtonClicked_m171C94E6F8AF44256D097FF5F68843441E394EFB,
 	AnchorInfoPanel_OpenKeyboardForCustomCommand_m61E8CF1E180FEF7204A1BDFFB2819B30EC6FDF3E,
 	AnchorInfoPanel_SendPreset1_m7825C34228332FDB9CAE2197EC66A5C27D967047,
 	AnchorInfoPanel_SendPreset2_m36107964B4BCA597EF7CB898135E81F00AA7FACD,
@@ -1770,8 +1774,8 @@ static Il2CppMethodPointer s_methodPointers[1441] =
 	AnchorInfoPanel_GetCurrentAssetId_m1AD7D446CF993224E326BEAC853B69C52072E3E1,
 	AnchorInfoPanel_Clear_m5608983B27663AB9618497DE9522DCD51E8D66EC,
 	AnchorInfoPanel__ctor_m93DCFB705C3BCF8F8030321445346F8284693604,
-	AnchorInfoPanel_U3CFormatArgumentsLinesU3Eg__addU7C125_0_m63EFA296CDE5E4CAD28E4BFB5018C308D2129ABF,
-	AnchorInfoPanel_U3CFormatArgumentsU3Eg__addU7C127_0_m5C263A7E2178760A29805041EE7A8E6F33619726,
+	AnchorInfoPanel_U3CFormatArgumentsLinesU3Eg__addU7C128_0_m739123D34CF7720947BE0C210C9305F5DD319868,
+	AnchorInfoPanel_U3CFormatArgumentsU3Eg__addU7C130_0_m9FCA4BEAD2FEE4D50F103A69290CF0D0490BA83D,
 	DepthAnchorSystem_get_TotalAnchorCount_mC8F8C17EA9C4A567AB18C43592CEB4E259B43BE3,
 	DepthAnchorSystem_get_ActiveAnchorCount_mEC5E5F45AC837DBF38F098C7A363794FB6E82190,
 	DepthAnchorSystem_get_PendingAnchorCount_mD1F56BFECD71BA8D951E1B7A6FBBD63B5F4254DC,
@@ -1803,12 +1807,14 @@ static Il2CppMethodPointer s_methodPointers[1441] =
 	DepthAnchorSystem_IsConfirmButtonHit_m80EDC42A6F5EBBE0C3914E5D684CC031440E8D2C,
 	DepthAnchorSystem_IsCancelButtonHit_m96B4F4C8FA317A0C475C7DF27631E8F6530AA0D9,
 	DepthAnchorSystem_IsSuggestedToggleHit_m2E2393A2301124AD98BA70C72928E3760485AF00,
+	DepthAnchorSystem_IsCustomQuestionHit_m1FA2B6432A6F06AC8A3DA0A52E79C160EEBC4C3A,
 	DepthAnchorSystem_IsInfoPanelHit_mFB13547E5D83848A2860B9ED7D6644DE250DF21A,
 	DepthAnchorSystem_OnProposeButtonHit_m0597DF708FB520B9152C3C27C85A368E470A4FD3,
 	DepthAnchorSystem_OnAskButtonHit_m5A9ADCC3FF690B8C8F2C5C4E926AB7A06EB6DE5A,
 	DepthAnchorSystem_OnConfirmButtonHit_m76001F9973629E4B102E8524BB11342F2048936C,
 	DepthAnchorSystem_OnCancelButtonHit_mEE851754C00EC8CACE633155DC5094B0F73D7A90,
 	DepthAnchorSystem_OnSuggestedToggleHit_m262CF04E93676BF0928CA2599B1A53CC73305C1B,
+	DepthAnchorSystem_OnCustomQuestionHit_m2BDF33924E8E3E831622D5F1D918940E4E65739E,
 	DepthAnchorSystem_OnSuggestionButtonHit_m3039E74AA07E00AFE4374F9A9E1BF205304EC138,
 	DepthAnchorSystem_SelectAnchor_m1B597AF64BA5AEB641716BFAF9CE4774A57FBB36,
 	DepthAnchorSystem_DeselectAnchor_m77F2BC37816CE99FAA8D0FEFE433D2AA18BB0841,
@@ -1833,7 +1839,7 @@ static Il2CppMethodPointer s_methodPointers[1441] =
 	DepthAnchorInstance__ctor_mD04C62F9B6CBD9B8E3B756457E5FF69F8FB18C4C,
 	U3CU3Ec__cctor_m21ADFE2A826EEFE7866F28477027DB3FBF6F2657,
 	U3CU3Ec__ctor_m79FBAF0408F430A3C29FB4D29547A3F3786B5489,
-	U3CU3Ec_U3CGetAprilTagAssociatedAnchorCountU3Eb__110_0_mE29B86E881970FB1E6581FA624570390D5171E18,
+	U3CU3Ec_U3CGetAprilTagAssociatedAnchorCountU3Eb__112_0_m4A960C5E1C1F6A103F8967259FB3ABFF435E7768,
 	SkillCommandButton_get_Command_m5093B85349633119D9AB75BDC0CB1031FF050E64,
 	SkillCommandButton_Bind_mFDA41B940F32236A8DE1169F6F0746AC582706D0,
 	SkillCommandButton_Pick_mA034E646F2E3307156AA6E99D65BDBD5F01E6B92,
@@ -2879,11 +2885,11 @@ extern void PoseBufferEntry__ctor_m3AB6F87B9AF655DFFC430ED34385E7D7B0861585_Adju
 extern void AprilTagDetection_get_IsValid_m77EB2EF4D6FECE09A3BDB4C336F266D1BDC70924_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[3] = 
 {
-	{ 0x060001D5, PoseHint_get_IsValid_m8388DBCA6751F816DA42E94DCDD99B1071140986_AdjustorThunk },
-	{ 0x06000238, PoseBufferEntry__ctor_m3AB6F87B9AF655DFFC430ED34385E7D7B0861585_AdjustorThunk },
-	{ 0x0600049D, AprilTagDetection_get_IsValid_m77EB2EF4D6FECE09A3BDB4C336F266D1BDC70924_AdjustorThunk },
+	{ 0x060001D8, PoseHint_get_IsValid_m8388DBCA6751F816DA42E94DCDD99B1071140986_AdjustorThunk },
+	{ 0x0600023B, PoseBufferEntry__ctor_m3AB6F87B9AF655DFFC430ED34385E7D7B0861585_AdjustorThunk },
+	{ 0x060004A0, AprilTagDetection_get_IsValid_m77EB2EF4D6FECE09A3BDB4C336F266D1BDC70924_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[1441] = 
+static const int32_t s_InvokerIndices[1444] = 
 {
 	19157,
 	19383,
@@ -3181,6 +3187,7 @@ static const int32_t s_InvokerIndices[1441] =
 	19383,
 	19383,
 	19383,
+	19383,
 	14853,
 	12932,
 	19383,
@@ -3257,6 +3264,8 @@ static const int32_t s_InvokerIndices[1441] =
 	10739,
 	10739,
 	10739,
+	10739,
+	19383,
 	19383,
 	19383,
 	19383,
@@ -4331,10 +4340,10 @@ static const Il2CppTokenRangePair s_rgctxIndices[6] =
 {
 	{ 0x02000091, { 7, 7 } },
 	{ 0x02000092, { 14, 8 } },
-	{ 0x06000304, { 0, 4 } },
-	{ 0x06000305, { 4, 3 } },
-	{ 0x0600058B, { 22, 2 } },
-	{ 0x0600058C, { 24, 2 } },
+	{ 0x06000307, { 0, 4 } },
+	{ 0x06000308, { 4, 3 } },
+	{ 0x0600058E, { 22, 2 } },
+	{ 0x0600058F, { 24, 2 } },
 };
 extern const uint32_t g_rgctx_U3CPostCoroutineU3Ed__13_2_t62F7DAEF535C7AA3D0E1065B0EED821DC09F222F;
 extern const uint32_t g_rgctx_U3CPostCoroutineU3Ed__13_2__ctor_m57B5453FDB7E09DD93386FF9E4D32B3B5B99A0FB;
@@ -4395,7 +4404,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	1441,
+	1444,
 	s_methodPointers,
 	3,
 	s_adjustorThunks,

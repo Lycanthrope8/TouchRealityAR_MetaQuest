@@ -96,8 +96,8 @@ IL2CPP_EXTERN_C RuntimeClass* U3CInitializeLoaderU3Ed__24_t02DE083CB86C55D65BAF8
 IL2CPP_EXTERN_C RuntimeClass* XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XRManagementAnalytics_t9A6F8603FBB618B8FEC7A6BF3FD9615C61C1063F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeField* BuildEvent_tE21D64E5354C87B5E40D2D2648C677B96CCA811E____assigned_loaders_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t1436EB136FEDE74E44A7ADE2D70160CAD86A81EE____5DAAB1DAA89E0E83B4CB82FDB2DF68EE27307326A3A849140802ACFE41916D5C_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t1436EB136FEDE74E44A7ADE2D70160CAD86A81EE____B5FF9ED79077A2D816C31DA5ACEB60D0AD75DCFBA18536C29DF39080D08DBC8D_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t1436EB136FEDE74E44A7ADE2D70160CAD86A81EE____EB0E2ABB9ADDB2CCF0C5757FC7767CFC4F62F06B2BFA0828DF967A827D8F6D50_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral315B698B2842E2D68111639F66C762E9B89D07CD;
 IL2CPP_EXTERN_C String_t* _stringLiteral382C2D644BFA222F1F3E9ECB531AE6F3D95044FF;
 IL2CPP_EXTERN_C String_t* _stringLiteral46E098C88DA5E70C12C778EED75B14DE754DBDB6;
@@ -575,8 +575,8 @@ struct List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_t1436EB136FEDE74E44A7ADE2D70160CAD86A81EE_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D564_t922C906BD08AFC72D98DA831C8A0853DAE55F99A ___5DAAB1DAA89E0E83B4CB82FDB2DF68EE27307326A3A849140802ACFE41916D5C;
 	__StaticArrayInitTypeSizeU3D427_t848D4989DB33DA290B49C5221EDBD85C96F28D75 ___B5FF9ED79077A2D816C31DA5ACEB60D0AD75DCFBA18536C29DF39080D08DBC8D;
+	__StaticArrayInitTypeSizeU3D564_t922C906BD08AFC72D98DA831C8A0853DAE55F99A ___EB0E2ABB9ADDB2CCF0C5757FC7767CFC4F62F06B2BFA0828DF967A827D8F6D50;
 };
 struct String_t_StaticFields
 {
@@ -886,15 +886,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 120354
+// Method Definition Index: 120357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t25F17436988D605C5F724C6B8644E5215C5F0045 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mB8F527FED4982F78A0E90C98B2AB703EAA27B563 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t1436EB136FEDE74E44A7ADE2D70160CAD86A81EE____5DAAB1DAA89E0E83B4CB82FDB2DF68EE27307326A3A849140802ACFE41916D5C_FieldInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t1436EB136FEDE74E44A7ADE2D70160CAD86A81EE____B5FF9ED79077A2D816C31DA5ACEB60D0AD75DCFBA18536C29DF39080D08DBC8D_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t1436EB136FEDE74E44A7ADE2D70160CAD86A81EE____EB0E2ABB9ADDB2CCF0C5757FC7767CFC4F62F06B2BFA0828DF967A827D8F6D50_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t25F17436988D605C5F724C6B8644E5215C5F0045 V_0;
@@ -903,7 +903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t25F17436988D605C5F724C6B8644E
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t25F17436988D605C5F724C6B8644E5215C5F0045));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)564));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t1436EB136FEDE74E44A7ADE2D70160CAD86A81EE____5DAAB1DAA89E0E83B4CB82FDB2DF68EE27307326A3A849140802ACFE41916D5C_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t1436EB136FEDE74E44A7ADE2D70160CAD86A81EE____EB0E2ABB9ADDB2CCF0C5757FC7767CFC4F62F06B2BFA0828DF967A827D8F6D50_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
@@ -920,7 +920,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t25F17436988D605C5F724C6B8644E
 		return L_6;
 	}
 }
-// Method Definition Index: 120355
+// Method Definition Index: 120358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m38B7A3286884F1C804B02BC8FFBA4F32DB859C5C (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tB46C530640D598DB0A18AEDDA2DC073CCB0C7271* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1006,69 +1006,69 @@ IL2CPP_EXTERN_C void MonoScriptData_t25F17436988D605C5F724C6B8644E5215C5F0045_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 120356
+// Method Definition Index: 120359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XRConfigurationDataAttribute_get_displayName_mE0BD51CF7824CBB1318708EAD9717F604BE14057 (XRConfigurationDataAttribute_tFCF093318B5224BCC0E168E99C562AB50DDFC0B2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRConfigurationData.cs:19>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRConfigurationData.cs:19>
 		String_t* L_0 = __this->___U3CdisplayNameU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 120357
+// Method Definition Index: 120360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRConfigurationDataAttribute_set_displayName_m3AFFE133640E562156E3D20A81206FE9F62D12BB (XRConfigurationDataAttribute_tFCF093318B5224BCC0E168E99C562AB50DDFC0B2* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRConfigurationData.cs:19>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRConfigurationData.cs:19>
 		String_t* L_0 = ___0_value;
 		__this->___U3CdisplayNameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdisplayNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 120358
+// Method Definition Index: 120361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XRConfigurationDataAttribute_get_buildSettingsKey_m5458381526D6DEDA8A3DDC7375F24EE3A481CE37 (XRConfigurationDataAttribute_tFCF093318B5224BCC0E168E99C562AB50DDFC0B2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRConfigurationData.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRConfigurationData.cs:27>
 		String_t* L_0 = __this->___U3CbuildSettingsKeyU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 120359
+// Method Definition Index: 120362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRConfigurationDataAttribute_set_buildSettingsKey_m6AFAEBF0A402551EC9A80324E5B64403065E75A0 (XRConfigurationDataAttribute_tFCF093318B5224BCC0E168E99C562AB50DDFC0B2* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRConfigurationData.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRConfigurationData.cs:27>
 		String_t* L_0 = ___0_value;
 		__this->___U3CbuildSettingsKeyU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CbuildSettingsKeyU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 120360
+// Method Definition Index: 120363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRConfigurationDataAttribute__ctor_mC4325AA1EFFCBB1D2CC10B1F0BFDACCDE147A9C8 (XRConfigurationDataAttribute_tFCF093318B5224BCC0E168E99C562AB50DDFC0B2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRConfigurationData.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRConfigurationData.cs:29>
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRConfigurationData.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRConfigurationData.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 120361
+// Method Definition Index: 120364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRConfigurationDataAttribute__ctor_m644D2F677622C19F3AF0AF72BC355A73A274597D (XRConfigurationDataAttribute_tFCF093318B5224BCC0E168E99C562AB50DDFC0B2* __this, String_t* ___0_displayName, String_t* ___1_buildSettingsKey, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRConfigurationData.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRConfigurationData.cs:34>
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRConfigurationData.cs:36>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRConfigurationData.cs:36>
 		String_t* L_0 = ___0_displayName;
 		XRConfigurationDataAttribute_set_displayName_m3AFFE133640E562156E3D20A81206FE9F62D12BB_inline(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRConfigurationData.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRConfigurationData.cs:37>
 		String_t* L_1 = ___1_buildSettingsKey;
 		XRConfigurationDataAttribute_set_buildSettingsKey_m6AFAEBF0A402551EC9A80324E5B64403065E75A0_inline(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRConfigurationData.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRConfigurationData.cs:38>
 		return;
 	}
 }
@@ -1080,28 +1080,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRConfigurationDataAttribute__ctor_m644D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 120362
+// Method Definition Index: 120365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* XRGeneralSettings_get_Manager_m112FEB4E6DFB7B5F5C4A2DEC4E975CF2EBD51B42 (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:28>
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_0 = __this->___m_LoaderManagerInstance;
 		return L_0;
 	}
 }
-// Method Definition Index: 120363
+// Method Definition Index: 120366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_set_Manager_m8BF44008AF9941A38529BF4E9DD291B519CD3310 (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:29>
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_0 = ___0_value;
 		__this->___m_LoaderManagerInstance = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LoaderManagerInstance), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 120364
+// Method Definition Index: 120367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1111,31 +1111,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRGeneralSettings_t8F8D096944606B5AD845D01070
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:44>
 		il2cpp_codegen_runtime_class_init_inline(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var);
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_0 = ((XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_StaticFields*)il2cpp_codegen_static_fields_for(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var))->___s_RuntimeSettingsInstance;
 		return L_0;
 	}
 }
-// Method Definition Index: 120365
+// Method Definition Index: 120368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* XRGeneralSettings_get_AssignedSettings_mBC55A93C750C07D07C3588D7238FAE6C0D8E005F (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:59>
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_0 = __this->___m_LoaderManagerInstance;
 		return L_0;
 	}
 }
-// Method Definition Index: 120366
+// Method Definition Index: 120369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRGeneralSettings_get_InitManagerOnStart_mA117DE9A4754CC3BA0E7F99FB7A593FF5B5B482A (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:74>
 		bool L_0 = __this->___m_InitManagerOnStart;
 		return L_0;
 	}
 }
-// Method Definition Index: 120367
+// Method Definition Index: 120370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_Awake_mDB501D0A232DAB9D5E56F232CBB9FE5BFA8F5AE2 (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1151,27 +1151,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_Awake_mDB501D0A232DAB9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:88>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralADC37DF0257D7B87C604A97F0803D0370B8FD8C6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:89>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:89>
 		il2cpp_codegen_runtime_class_init_inline(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var);
 		((XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_StaticFields*)il2cpp_codegen_static_fields_for(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var))->___s_RuntimeSettingsInstance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_StaticFields*)il2cpp_codegen_static_fields_for(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var))->___s_RuntimeSettingsInstance), (void*)__this);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:90>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_0, NULL, (intptr_t)((void*)XRGeneralSettings_Quit_m1AAD46F067D518F864C13ABD5832559C39540A54_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_add_quitting_m5767AC63F23ABFD5BC3D60710906643BA536CCC5(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:91>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:91>
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_1 = ((XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_StaticFields*)il2cpp_codegen_static_fields_for(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var))->___s_RuntimeSettingsInstance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:92>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:92>
 		return;
 	}
 }
-// Method Definition Index: 120368
+// Method Definition Index: 120371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_Quit_m1AAD46F067D518F864C13ABD5832559C39540A54 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1183,12 +1183,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_Quit_m1AAD46F067D518F8
 	}
 	XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:121>
 		il2cpp_codegen_runtime_class_init_inline(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var);
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_0;
 		L_0 = XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:122>
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -1199,41 +1199,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_Quit_m1AAD46F067D518F8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:123>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:123>
 		return;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:125>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:125>
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_3 = V_0;
 		NullCheck(L_3);
 		XRGeneralSettings_DeInitXRSDK_mF101D7A880E1DC4958ADA2388E7140F4DF7B7EDC(L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:126>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:126>
 		return;
 	}
 }
-// Method Definition Index: 120369
+// Method Definition Index: 120372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_Start_m191BC7C4C042DB4599D74254F6E62F346F20BDAB (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:130>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:130>
 		XRGeneralSettings_StartXRSDK_mC2BAC4CF6D76CC4704B9DAC2601FCF8CDB9A9F12(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:131>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:131>
 		return;
 	}
 }
-// Method Definition Index: 120370
+// Method Definition Index: 120373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_OnDestroy_mFEE1954662ED788B1A09309573EFA9DE210BEF96 (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:135>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:135>
 		XRGeneralSettings_DeInitXRSDK_mF101D7A880E1DC4958ADA2388E7140F4DF7B7EDC(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:136>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:136>
 		return;
 	}
 }
-// Method Definition Index: 120371
+// Method Definition Index: 120374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_AttemptInitializeXRSDKOnLoad_m1905ABBBDC0982AD1AF76D157881215BB66002B7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1245,12 +1245,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_AttemptInitializeXRSDK
 	}
 	XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:141>
 		il2cpp_codegen_runtime_class_init_inline(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var);
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_0;
 		L_0 = XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:142>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:142>
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -1273,21 +1273,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_AttemptInitializeXRSDK
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:143>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:143>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:145>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:145>
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_5 = V_0;
 		NullCheck(L_5);
 		XRGeneralSettings_InitXRSDK_m29F5580C758C0F617E9A2588AA861DE49E4EC779(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:146>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:146>
 		return;
 	}
 }
-// Method Definition Index: 120372
+// Method Definition Index: 120375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_AttemptStartXRSDKOnBeforeSplashScreen_m186BDD078384E5494797E213BA9BEE337747DD3A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1299,12 +1299,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_AttemptStartXRSDKOnBef
 	}
 	XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:151>
 		il2cpp_codegen_runtime_class_init_inline(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var);
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_0;
 		L_0 = XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:152>
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -1327,21 +1327,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_AttemptStartXRSDKOnBef
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:153>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:155>
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_5 = V_0;
 		NullCheck(L_5);
 		XRGeneralSettings_StartXRSDK_mC2BAC4CF6D76CC4704B9DAC2601FCF8CDB9A9F12(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:156>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:156>
 		return;
 	}
 }
-// Method Definition Index: 120373
+// Method Definition Index: 120376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_InitXRSDK_m29F5580C758C0F617E9A2588AA861DE49E4EC779 (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1354,7 +1354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_InitXRSDK_m29F5580C758
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:160>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:160>
 		il2cpp_codegen_runtime_class_init_inline(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var);
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_0;
 		L_0 = XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline(NULL);
@@ -1394,13 +1394,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_InitXRSDK_m29F5580C758
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:161>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:161>
 		return;
 	}
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:163>
 		il2cpp_codegen_runtime_class_init_inline(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var);
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_7;
 		L_7 = XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline(NULL);
@@ -1408,7 +1408,7 @@ IL_002c:
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_8 = L_7->___m_LoaderManagerInstance;
 		__this->___m_XRManager = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_XRManager), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:164>
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_9 = __this->___m_XRManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -1419,34 +1419,34 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:166>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:166>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral315B698B2842E2D68111639F66C762E9B89D07CD, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:167>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:167>
 		return;
 	}
 
 IL_0055:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:170>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:170>
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_11 = __this->___m_XRManager;
 		NullCheck(L_11);
 		XRManagerSettings_set_automaticLoading_m8F328FA730A8DD8C62D9A8FA8569A2084D530E0E_inline(L_11, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:171>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:171>
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_12 = __this->___m_XRManager;
 		NullCheck(L_12);
 		XRManagerSettings_set_automaticRunning_mAC78998A385194EBEBF00C7337FC018148A40729_inline(L_12, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:172>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:172>
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_13 = __this->___m_XRManager;
 		NullCheck(L_13);
 		XRManagerSettings_InitializeLoaderSync_m5CE4139417252856F67537554BAD16798E5A8D6D(L_13, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:173>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:173>
 		__this->___m_ProviderIntialized = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:174>
 		return;
 	}
 }
-// Method Definition Index: 120374
+// Method Definition Index: 120377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_StartXRSDK_mC2BAC4CF6D76CC4704B9DAC2601FCF8CDB9A9F12 (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1456,7 +1456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_StartXRSDK_mC2BAC4CF6D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:178>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:178>
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_0 = __this->___m_XRManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -1480,21 +1480,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_StartXRSDK_mC2BAC4CF6D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:180>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:180>
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_5 = __this->___m_XRManager;
 		NullCheck(L_5);
 		XRManagerSettings_StartSubsystems_m94D89460222C083D6E25881C6825E44FEC98DDCC(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:181>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:181>
 		__this->___m_ProviderStarted = (bool)1;
 	}
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:183>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:183>
 		return;
 	}
 }
-// Method Definition Index: 120375
+// Method Definition Index: 120378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_StopXRSDK_m1ABC0D7F3AB9422CAE5993A1641836CE0DC394A2 (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1504,7 +1504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_StopXRSDK_m1ABC0D7F3AB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:187>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:187>
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_0 = __this->___m_XRManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -1528,21 +1528,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_StopXRSDK_m1ABC0D7F3AB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:189>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:189>
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_5 = __this->___m_XRManager;
 		NullCheck(L_5);
 		XRManagerSettings_StopSubsystems_mB59730C9283178A5E9E6D6E9127FE3DB25CC82D4(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:190>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:190>
 		__this->___m_ProviderStarted = (bool)0;
 	}
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:192>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:192>
 		return;
 	}
 }
-// Method Definition Index: 120376
+// Method Definition Index: 120379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_DeInitXRSDK_mF101D7A880E1DC4958ADA2388E7140F4DF7B7EDC (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1552,7 +1552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_DeInitXRSDK_mF101D7A88
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:196>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:196>
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_0 = __this->___m_XRManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -1576,34 +1576,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings_DeInitXRSDK_mF101D7A88
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:198>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:198>
 		XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_5 = __this->___m_XRManager;
 		NullCheck(L_5);
 		XRManagerSettings_DeinitializeLoader_m81038A43AD1AD84045B90396D1E2E4F2D8029BAB(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:199>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:199>
 		__this->___m_XRManager = (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_XRManager), (void*)(XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:200>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:200>
 		__this->___m_ProviderIntialized = (bool)0;
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:202>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:202>
 		return;
 	}
 }
-// Method Definition Index: 120377
+// Method Definition Index: 120380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings__ctor_m17F368F5DF52B3CF764C69C6A551DC983874CB59 (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:23>
 		__this->___m_InitManagerOnStart = (bool)1;
 		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 120378
+// Method Definition Index: 120381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings__cctor_mA1B586D9E9534249DACCFD9CEA23C69A433F1A44 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1614,10 +1614,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings__cctor_mA1B586D9E95342
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:15>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:15>
 		((XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_StaticFields*)il2cpp_codegen_static_fields_for(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var))->___k_SettingsKey = _stringLiteral8A67FBC5ABA519008B443A3446FFD6458D968D4E;
 		Il2CppCodeGenWriteBarrier((void**)(&((XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_StaticFields*)il2cpp_codegen_static_fields_for(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var))->___k_SettingsKey), (void*)_stringLiteral8A67FBC5ABA519008B443A3446FFD6458D968D4E);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:16>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:16>
 		((XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_StaticFields*)il2cpp_codegen_static_fields_for(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var))->___s_RuntimeSettingsInstance = (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_StaticFields*)il2cpp_codegen_static_fields_for(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var))->___s_RuntimeSettingsInstance), (void*)(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE*)NULL);
 		return;
@@ -1631,39 +1631,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGeneralSettings__cctor_mA1B586D9E95342
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 120379
+// Method Definition Index: 120382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRLoader_Initialize_mA506BDCDF97BA180CDC5BF1945E29CF3766CA859 (XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRLoader.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRLoader.cs:26>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 120380
+// Method Definition Index: 120383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRLoader_Start_m8E73CE045F2B7D7BE46C5670C936880DDF380FD1 (XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRLoader.cs:33>
-		return (bool)1;
-	}
-}
-// Method Definition Index: 120381
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRLoader_Stop_m398D1FFBE01D294AD5DFB6DB8D807C1DDEA91C97 (XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRLoader.cs:40>
-		return (bool)1;
-	}
-}
-// Method Definition Index: 120382
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRLoader_Deinitialize_m001821A3F803AC067C6884A6BBD01DDE378DFAB9 (XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRLoader.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRLoader.cs:33>
 		return (bool)1;
 	}
 }
 // Method Definition Index: 120384
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRLoader_Stop_m398D1FFBE01D294AD5DFB6DB8D807C1DDEA91C97 (XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRLoader.cs:40>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 120385
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRLoader_Deinitialize_m001821A3F803AC067C6884A6BBD01DDE378DFAB9 (XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRLoader.cs:47>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 120387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tDF4AF78E7C25C69EFBD24C60518073B6B9CCC894* XRLoader_GetSupportedGraphicsDeviceTypes_m92C8ECDE9FEF211C2B9EB9574B563EE805859753 (XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* __this, bool ___0_buildingPlayer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1674,13 +1674,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tDF4AF78E7C25C69EFBD24C60518073B6B9CCC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRLoader.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRLoader.cs:67>
 		List_1_tDF4AF78E7C25C69EFBD24C60518073B6B9CCC894* L_0 = (List_1_tDF4AF78E7C25C69EFBD24C60518073B6B9CCC894*)il2cpp_codegen_object_new(List_1_tDF4AF78E7C25C69EFBD24C60518073B6B9CCC894_il2cpp_TypeInfo_var);
 		List_1__ctor_m68F16ADD72EB9C53684357C73187FDE06A47AC36(L_0, List_1__ctor_m68F16ADD72EB9C53684357C73187FDE06A47AC36_RuntimeMethod_var);
 		return L_0;
 	}
 }
-// Method Definition Index: 120385
+// Method Definition Index: 120388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoader__ctor_m466A0E280C64F30806342A9EEF55801FA88682CE (XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1696,7 +1696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoader__ctor_m466A0E280C64F30806342A9E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 120393
+// Method Definition Index: 120396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRLoaderHelper_Deinitialize_m879052C82795CBA2443070F8206798BED6C0C5E7 (XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1706,17 +1706,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRLoaderHelper_Deinitialize_m879052C8279
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRLoaderHelper.cs:170>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRLoaderHelper.cs:170>
 		Dictionary_2_tCDC65F572855EBDD1C12CEE33EBEBE0131F60C9C* L_0 = __this->___m_SubsystemInstanceMap;
 		NullCheck(L_0);
 		Dictionary_2_Clear_m64E5244EC38185D18BDBBD9843498A15D1FE8455(L_0, Dictionary_2_Clear_m64E5244EC38185D18BDBBD9843498A15D1FE8455_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRLoaderHelper.cs:171>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRLoaderHelper.cs:171>
 		bool L_1;
 		L_1 = XRLoader_Deinitialize_m001821A3F803AC067C6884A6BBD01DDE378DFAB9(__this, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 120394
+// Method Definition Index: 120397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoaderHelper__ctor_mEAD9691DBE10C223AB11AB7056ED0B3BA59D7699 (XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1727,7 +1727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoaderHelper__ctor_mEAD9691DBE10C223AB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRLoaderHelper.cs:21>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRLoaderHelper.cs:21>
 		Dictionary_2_tCDC65F572855EBDD1C12CEE33EBEBE0131F60C9C* L_0 = (Dictionary_2_tCDC65F572855EBDD1C12CEE33EBEBE0131F60C9C*)il2cpp_codegen_object_new(Dictionary_2_tCDC65F572855EBDD1C12CEE33EBEBE0131F60C9C_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mCCAE8E8620E1F7596EBB9710A40F6D0D520EED0F(L_0, Dictionary_2__ctor_mCCAE8E8620E1F7596EBB9710A40F6D0D520EED0F_RuntimeMethod_var);
 		__this->___m_SubsystemInstanceMap = L_0;
@@ -1744,7 +1744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLoaderHelper__ctor_mEAD9691DBE10C223AB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 120395
+// Method Definition Index: 120398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagementAnalytics_Initialize_mA0727A2B768833A169E4FBC45B7F6F2A09FAEC78 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1754,7 +1754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagementAnalytics_Initialize_mA0727A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagementAnalytics.cs:78>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagementAnalytics.cs:78>
 		bool L_0 = ((XRManagementAnalytics_t9A6F8603FBB618B8FEC7A6BF3FD9615C61C1063F_StaticFields*)il2cpp_codegen_static_fields_for(XRManagementAnalytics_t9A6F8603FBB618B8FEC7A6BF3FD9615C61C1063F_il2cpp_TypeInfo_var))->___s_Initialized;
 		return L_0;
 	}
@@ -1829,7 +1829,7 @@ IL2CPP_EXTERN_C void BuildEvent_tE21D64E5354C87B5E40D2D2648C677B96CCA811E_marsha
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 120396
+// Method Definition Index: 120399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrInitializeAnalytic__ctor_m9980C9F6ABD15963DA3CF0F7CC296329A0C8B2E6 (XrInitializeAnalytic_t85DEC03A8987AD32F84C7B5AEC5A85355CF9A910* __this, BuildEvent_tE21D64E5354C87B5E40D2D2648C677B96CCA811E ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1839,9 +1839,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrInitializeAnalytic__ctor_m9980C9F6ABD1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagementAnalytics.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagementAnalytics.cs:48>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagementAnalytics.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagementAnalytics.cs:50>
 		BuildEvent_tE21D64E5354C87B5E40D2D2648C677B96CCA811E L_0 = ___0_data;
 		Nullable_1_tFD4A397478DEB035FA11155870BAD8FD605BD5D3 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -1857,11 +1857,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrInitializeAnalytic__ctor_m9980C9F6ABD1
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___data))->___value))->___assigned_loaders), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagementAnalytics.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagementAnalytics.cs:51>
 		return;
 	}
 }
-// Method Definition Index: 120397
+// Method Definition Index: 120400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XrInitializeAnalytic_TryGatherData_mCC619322C1F0372D348C2C951BDD570EA4465187 (XrInitializeAnalytic_t85DEC03A8987AD32F84C7B5AEC5A85355CF9A910* __this, RuntimeObject** ___0_data, Exception_t** ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1871,18 +1871,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XrInitializeAnalytic_TryGatherData_mCC61
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagementAnalytics.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagementAnalytics.cs:55>
 		Exception_t** L_0 = ___1_error;
 		*((RuntimeObject**)L_0) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagementAnalytics.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagementAnalytics.cs:56>
 		RuntimeObject** L_1 = ___0_data;
 		Nullable_1_tFD4A397478DEB035FA11155870BAD8FD605BD5D3 L_2 = __this->___data;
 		Nullable_1_tFD4A397478DEB035FA11155870BAD8FD605BD5D3 L_3 = L_2;
 		RuntimeObject* L_4 = Box(Nullable_1_tFD4A397478DEB035FA11155870BAD8FD605BD5D3_il2cpp_TypeInfo_var, &L_3);
 		*((RuntimeObject**)L_1) = (RuntimeObject*)L_4;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_1, (void*)(RuntimeObject*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagementAnalytics.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagementAnalytics.cs:57>
 		RuntimeObject** L_5 = ___0_data;
 		RuntimeObject* L_6 = *((RuntimeObject**)L_5);
 		return (bool)((!(((RuntimeObject*)(RuntimeObject*)L_6) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
@@ -1896,94 +1896,94 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XrInitializeAnalytic_TryGatherData_mCC61
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 120398
+// Method Definition Index: 120401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_get_automaticLoading_mF28DC51D46409F4D75DCF53E38C8E6B28444B01A (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:68>
 		bool L_0 = __this->___m_AutomaticLoading;
 		return L_0;
 	}
 }
-// Method Definition Index: 120399
+// Method Definition Index: 120402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_set_automaticLoading_m8F328FA730A8DD8C62D9A8FA8569A2084D530E0E (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:69>
 		bool L_0 = ___0_value;
 		__this->___m_AutomaticLoading = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:69>
 		return;
 	}
 }
-// Method Definition Index: 120400
+// Method Definition Index: 120403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_get_automaticRunning_mE6F4B5875CF9B098B0B20388E77B651EB633D166 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:84>
 		bool L_0 = __this->___m_AutomaticRunning;
 		return L_0;
 	}
 }
-// Method Definition Index: 120401
+// Method Definition Index: 120404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_set_automaticRunning_mAC78998A385194EBEBF00C7337FC018148A40729 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:85>
 		bool L_0 = ___0_value;
 		__this->___m_AutomaticRunning = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:85>
 		return;
 	}
 }
-// Method Definition Index: 120402
+// Method Definition Index: 120405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* XRManagerSettings_get_loaders_m485A1CD420B07D57B9E2856795BDB933389322D0 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:111>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:111>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_0 = __this->___m_Loaders;
-		return L_0;
-	}
-}
-// Method Definition Index: 120403
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRManagerSettings_get_activeLoaders_m47D0FF16B7012A87F56D93124DC5D8DA0ACA591F (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:125>
-		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_0 = __this->___m_Loaders;
-		return L_0;
-	}
-}
-// Method Definition Index: 120404
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_get_isInitializationComplete_m2F7E30B51DB12D34535BE7805A3CD490FFE12F68 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:134>
-		bool L_0 = __this->___m_InitializationComplete;
-		return L_0;
-	}
-}
-// Method Definition Index: 120405
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:141>
-		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_0 = __this->___U3CactiveLoaderU3Ek__BackingField;
 		return L_0;
 	}
 }
 // Method Definition Index: 120406
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRManagerSettings_get_activeLoaders_m47D0FF16B7012A87F56D93124DC5D8DA0ACA591F (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:125>
+		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_0 = __this->___m_Loaders;
+		return L_0;
+	}
+}
+// Method Definition Index: 120407
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_get_isInitializationComplete_m2F7E30B51DB12D34535BE7805A3CD490FFE12F68 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:134>
+		bool L_0 = __this->___m_InitializationComplete;
+		return L_0;
+	}
+}
+// Method Definition Index: 120408
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:141>
+		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_0 = __this->___U3CactiveLoaderU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 120409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_set_activeLoader_m85857974C574787278D7B4E861AD235F2D49726A (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:141>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_0 = ___0_value;
 		__this->___U3CactiveLoaderU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CactiveLoaderU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 120408
+// Method Definition Index: 120411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_InitializeLoaderSync_m5CE4139417252856F67537554BAD16798E5A8D6D (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2002,7 +2002,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_InitializeLoaderSync_m
 	memset((&V_0), 0, sizeof(V_0));
 	XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:174>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_0;
 		L_0 = XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -2014,18 +2014,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_InitializeLoaderSync_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:176>
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:177>
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:178>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:176>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:177>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:178>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral890B268A2AFBDA04F33348E7C0FF8600A336DABE, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:179>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:179>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:182>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:182>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_2;
 		L_2 = XRManagerSettings_get_currentLoaders_m3A4FF4CA5168E58C4DAB89B33972C1EE83FF2237_inline(__this, NULL);
 		NullCheck(L_2);
@@ -2051,11 +2051,11 @@ FINALLY_0064:
 
 IL_0027_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:182>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:182>
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_4;
 				L_4 = Enumerator_get_Current_m4D452A399E7790870BCDE47FD637EABEC40C4884_inline((&V_0), Enumerator_get_Current_m4D452A399E7790870BCDE47FD637EABEC40C4884_RuntimeMethod_var);
 				V_1 = L_4;
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:184>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:184>
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_5 = V_1;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_6;
@@ -2066,7 +2066,7 @@ IL_0027_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:186>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:186>
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_7 = V_1;
 				bool L_8;
 				L_8 = XRManagerSettings_CheckGraphicsAPICompatibility_m63AE4A622C2B137618B747F25A7591CBD0B9496B(__this, L_7, NULL);
@@ -2086,18 +2086,18 @@ IL_0027_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:188>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:188>
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_11 = V_1;
 				XRManagerSettings_set_activeLoader_m85857974C574787278D7B4E861AD235F2D49726A_inline(__this, L_11, NULL);
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:189>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:189>
 				__this->___m_InitializationComplete = (bool)1;
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:190>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:190>
 				goto IL_0079;
 			}
 
 IL_0059_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:182>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:182>
 				bool L_12;
 				L_12 = Enumerator_MoveNext_m08EA2E51B87E7E0DE5F72486EDCADC812011B8CB((&V_0), Enumerator_MoveNext_m08EA2E51B87E7E0DE5F72486EDCADC812011B8CB_RuntimeMethod_var);
 				if (L_12)
@@ -2117,17 +2117,17 @@ IL_0059_1:
 
 IL_0072:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:195>
 		XRManagerSettings_set_activeLoader_m85857974C574787278D7B4E861AD235F2D49726A_inline(__this, (XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976*)NULL, NULL);
 	}
 
 IL_0079:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:196>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:196>
 		return;
 	}
 }
-// Method Definition Index: 120409
+// Method Definition Index: 120412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRManagerSettings_InitializeLoader_m563761BAF04C04AC931D738AD9E4EBF7FD87E62B (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2146,7 +2146,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRManagerSettings_InitializeLo
 		return L_1;
 	}
 }
-// Method Definition Index: 120410
+// Method Definition Index: 120413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_TryAddLoader_m1CF7DEB07D6E67F3D788B41FE0404DAE19F38031 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* ___0_loader, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2161,7 +2161,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_TryAddLoader_m1CF7DEB0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:267>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:267>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_0 = ___0_loader;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2186,13 +2186,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_TryAddLoader_m1CF7DEB0
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:268>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:268>
 		return (bool)0;
 	}
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:274>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:274>
 		HashSet_1_t174593AE6599738C19A33586587D63534CED9F0F* L_5 = __this->___m_RegisteredLoaders;
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_6 = ___0_loader;
 		NullCheck(L_5);
@@ -2204,13 +2204,13 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:275>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:275>
 		return (bool)0;
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:277>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:277>
 		int32_t L_8 = ___1_index;
 		if ((((int32_t)L_8) < ((int32_t)0)))
 		{
@@ -2232,7 +2232,7 @@ IL_0029:
 
 IL_003b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:278>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:278>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_12;
 		L_12 = XRManagerSettings_get_currentLoaders_m3A4FF4CA5168E58C4DAB89B33972C1EE83FF2237_inline(__this, NULL);
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_13 = ___0_loader;
@@ -2243,7 +2243,7 @@ IL_003b:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:280>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:280>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_14;
 		L_14 = XRManagerSettings_get_currentLoaders_m3A4FF4CA5168E58C4DAB89B33972C1EE83FF2237_inline(__this, NULL);
 		int32_t L_15 = ___1_index;
@@ -2254,11 +2254,11 @@ IL_0049:
 
 IL_0056:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:282>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:282>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 120411
+// Method Definition Index: 120414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_TryRemoveLoader_m29479875EF3C4773D5D74661131A06C2E8736BB0 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* ___0_loader, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2270,9 +2270,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_TryRemoveLoader_m29479
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:303>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:303>
 		V_0 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:304>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:304>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_0;
 		L_0 = XRManagerSettings_get_currentLoaders_m3A4FF4CA5168E58C4DAB89B33972C1EE83FF2237_inline(__this, NULL);
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_1 = ___0_loader;
@@ -2285,7 +2285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_TryRemoveLoader_m29479
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:305>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:305>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_3;
 		L_3 = XRManagerSettings_get_currentLoaders_m3A4FF4CA5168E58C4DAB89B33972C1EE83FF2237_inline(__this, NULL);
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_4 = ___0_loader;
@@ -2297,12 +2297,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_TryRemoveLoader_m29479
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:312>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:312>
 		bool L_6 = V_0;
 		return L_6;
 	}
 }
-// Method Definition Index: 120412
+// Method Definition Index: 120415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_TrySetLoaders_mD2EAE278D90F867E6EA02A75D60F09FD1EE13C30 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* ___0_reorderedLoaders, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2323,18 +2323,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_TrySetLoaders_mD2EAE27
 	XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* V_2 = NULL;
 	bool V_3 = false;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:332>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:332>
 		RuntimeObject* L_0;
 		L_0 = XRManagerSettings_get_activeLoaders_m47D0FF16B7012A87F56D93124DC5D8DA0ACA591F_inline(__this, NULL);
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_1 = (List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822*)il2cpp_codegen_object_new(List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822_il2cpp_TypeInfo_var);
 		List_1__ctor_m4479B2D3BCC34E9CCCA97A4FF0E662BBA3631028(L_1, L_0, List_1__ctor_m4479B2D3BCC34E9CCCA97A4FF0E662BBA3631028_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:350>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:350>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_2;
 		L_2 = XRManagerSettings_get_currentLoaders_m3A4FF4CA5168E58C4DAB89B33972C1EE83FF2237_inline(__this, NULL);
 		NullCheck(L_2);
 		List_1_Clear_m979FD941B8820FF2363CA35F3B9F6ECF6C660237_inline(L_2, List_1_Clear_m979FD941B8820FF2363CA35F3B9F6ECF6C660237_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:351>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:351>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_3 = ___0_reorderedLoaders;
 		NullCheck(L_3);
 		Enumerator_tE4C063339BE1A617569244A7F77DF2FBF2ABFA4A L_4;
@@ -2359,11 +2359,11 @@ FINALLY_0048:
 
 IL_0020_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:351>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:351>
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_5;
 				L_5 = Enumerator_get_Current_m4D452A399E7790870BCDE47FD637EABEC40C4884_inline((&V_1), Enumerator_get_Current_m4D452A399E7790870BCDE47FD637EABEC40C4884_RuntimeMethod_var);
 				V_2 = L_5;
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:353>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:353>
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_6 = V_2;
 				bool L_7;
 				L_7 = XRManagerSettings_TryAddLoader_m1CF7DEB07D6E67F3D788B41FE0404DAE19F38031(__this, L_6, (-1), NULL);
@@ -2373,17 +2373,17 @@ IL_0020_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:355>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:355>
 				List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_8 = V_0;
 				XRManagerSettings_set_currentLoaders_mBF7D7DE30A657C0B8A145FBE84104797D668454A_inline(__this, L_8, NULL);
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:356>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:356>
 				V_3 = (bool)0;
 				goto IL_0058;
 			}
 
 IL_003d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:351>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:351>
 				bool L_9;
 				L_9 = Enumerator_MoveNext_m08EA2E51B87E7E0DE5F72486EDCADC812011B8CB((&V_1), Enumerator_MoveNext_m08EA2E51B87E7E0DE5F72486EDCADC812011B8CB_RuntimeMethod_var);
 				if (L_9)
@@ -2403,18 +2403,18 @@ IL_003d_1:
 
 IL_0056:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:360>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:360>
 		return (bool)1;
 	}
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:361>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:361>
 		bool L_10 = V_3;
 		return L_10;
 	}
 }
-// Method Definition Index: 120413
+// Method Definition Index: 120416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_Awake_mAD790D96C19843B09AA0D7B8F6819757E0D62C89 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2432,7 +2432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_Awake_mAD790D96C19843B
 	memset((&V_0), 0, sizeof(V_0));
 	XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:366>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:366>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_0;
 		L_0 = XRManagerSettings_get_currentLoaders_m3A4FF4CA5168E58C4DAB89B33972C1EE83FF2237_inline(__this, NULL);
 		NullCheck(L_0);
@@ -2458,11 +2458,11 @@ FINALLY_003c:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:366>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:366>
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_2;
 				L_2 = Enumerator_get_Current_m4D452A399E7790870BCDE47FD637EABEC40C4884_inline((&V_0), Enumerator_get_Current_m4D452A399E7790870BCDE47FD637EABEC40C4884_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:368>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:368>
 				HashSet_1_t174593AE6599738C19A33586587D63534CED9F0F* L_3 = __this->___m_RegisteredLoaders;
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_4 = V_1;
 				NullCheck(L_3);
@@ -2474,7 +2474,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:370>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:370>
 				HashSet_1_t174593AE6599738C19A33586587D63534CED9F0F* L_6 = __this->___m_RegisteredLoaders;
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_7 = V_1;
 				NullCheck(L_6);
@@ -2484,7 +2484,7 @@ IL_000e_1:
 
 IL_0031_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:366>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:366>
 				bool L_9;
 				L_9 = Enumerator_MoveNext_m08EA2E51B87E7E0DE5F72486EDCADC812011B8CB((&V_0), Enumerator_MoveNext_m08EA2E51B87E7E0DE5F72486EDCADC812011B8CB_RuntimeMethod_var);
 				if (L_9)
@@ -2504,11 +2504,11 @@ IL_0031_1:
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:373>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:373>
 		return;
 	}
 }
-// Method Definition Index: 120414
+// Method Definition Index: 120417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_CheckGraphicsAPICompatibility_m63AE4A622C2B137618B747F25A7591CBD0B9496B (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* ___0_loader, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2524,17 +2524,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_CheckGraphicsAPICompat
 	int32_t V_0 = 0;
 	List_1_tDF4AF78E7C25C69EFBD24C60518073B6B9CCC894* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:377>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:377>
 		int32_t L_0;
 		L_0 = SystemInfo_get_graphicsDeviceType_m2D54A0B94D138727041B29B127D8837165686545(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:378>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:378>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_1 = ___0_loader;
 		NullCheck(L_1);
 		List_1_tDF4AF78E7C25C69EFBD24C60518073B6B9CCC894* L_2;
 		L_2 = VirtualFuncInvoker1< List_1_tDF4AF78E7C25C69EFBD24C60518073B6B9CCC894*, bool >::Invoke(9, L_1, (bool)0);
 		V_1 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:382>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:382>
 		List_1_tDF4AF78E7C25C69EFBD24C60518073B6B9CCC894* L_3 = V_1;
 		NullCheck(L_3);
 		int32_t L_4;
@@ -2556,7 +2556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_CheckGraphicsAPICompat
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:384>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:384>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_8 = ___0_loader;
 		NullCheck(L_8);
 		String_t* L_9;
@@ -2568,17 +2568,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRManagerSettings_CheckGraphicsAPICompat
 		L_12 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral6B8B436F01039B99374349DB664935E4E9FA600B, L_9, L_11, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_12, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:385>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:385>
 		return (bool)0;
 	}
 
 IL_0044:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:388>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:388>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 120415
+// Method Definition Index: 120418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_StartSubsystems_m94D89460222C083D6E25881C6825E44FEC98DDCC (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2590,7 +2590,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_StartSubsystems_m94D89
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:399>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:399>
 		bool L_0 = __this->___m_InitializationComplete;
 		if (L_0)
 		{
@@ -2598,18 +2598,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_StartSubsystems_m94D89
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:401>
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:402>
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:403>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:401>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:402>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:403>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralAE0ABAD544C4FF6309990ACB67971500C1591984, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:404>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:404>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:407>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:407>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_1;
 		L_1 = XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -2621,7 +2621,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:409>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:409>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_3;
 		L_3 = XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline(__this, NULL);
 		NullCheck(L_3);
@@ -2631,11 +2631,11 @@ IL_0013:
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:411>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:411>
 		return;
 	}
 }
-// Method Definition Index: 120416
+// Method Definition Index: 120419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_StopSubsystems_mB59730C9283178A5E9E6D6E9127FE3DB25CC82D4 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2647,7 +2647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_StopSubsystems_mB59730
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:421>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:421>
 		bool L_0 = __this->___m_InitializationComplete;
 		if (L_0)
 		{
@@ -2655,18 +2655,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_StopSubsystems_mB59730
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:423>
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:424>
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:425>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:423>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:424>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:425>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral46E098C88DA5E70C12C778EED75B14DE754DBDB6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:426>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:426>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:429>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:429>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_1;
 		L_1 = XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -2678,7 +2678,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:431>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:431>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_3;
 		L_3 = XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline(__this, NULL);
 		NullCheck(L_3);
@@ -2688,11 +2688,11 @@ IL_0013:
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:433>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:433>
 		return;
 	}
 }
-// Method Definition Index: 120417
+// Method Definition Index: 120420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_DeinitializeLoader_m81038A43AD1AD84045B90396D1E2E4F2D8029BAB (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2704,7 +2704,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_DeinitializeLoader_m81
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:446>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:446>
 		bool L_0 = __this->___m_InitializationComplete;
 		if (L_0)
 		{
@@ -2712,20 +2712,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_DeinitializeLoader_m81
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:448>
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:449>
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:450>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:448>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:449>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:450>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral382C2D644BFA222F1F3E9ECB531AE6F3D95044FF, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:451>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:451>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:454>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:454>
 		XRManagerSettings_StopSubsystems_mB59730C9283178A5E9E6D6E9127FE3DB25CC82D4(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:455>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:455>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_1;
 		L_1 = XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -2737,29 +2737,29 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:457>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:457>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_3;
 		L_3 = XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline(__this, NULL);
 		NullCheck(L_3);
 		bool L_4;
 		L_4 = VirtualFuncInvoker0< bool >::Invoke(7, L_3);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:458>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:458>
 		XRManagerSettings_set_activeLoader_m85857974C574787278D7B4E861AD235F2D49726A_inline(__this, (XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976*)NULL, NULL);
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:461>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:461>
 		__this->___m_InitializationComplete = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:462>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:462>
 		return;
 	}
 }
-// Method Definition Index: 120418
+// Method Definition Index: 120421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_Start_mBF2ADCCC6377C8A7DDA7C462313DAD00DC00382C (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:467>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:467>
 		bool L_0;
 		L_0 = XRManagerSettings_get_automaticLoading_mF28DC51D46409F4D75DCF53E38C8E6B28444B01A_inline(__this, NULL);
 		if (!L_0)
@@ -2776,21 +2776,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_Start_mBF2ADCCC6377C8A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:469>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:469>
 		XRManagerSettings_StartSubsystems_m94D89460222C083D6E25881C6825E44FEC98DDCC(__this, NULL);
 	}
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:471>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:471>
 		return;
 	}
 }
-// Method Definition Index: 120419
+// Method Definition Index: 120422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_OnDisable_m31F1208BDDBDC01D75AAC4063C0F8765269CA408 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:475>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:475>
 		bool L_0;
 		L_0 = XRManagerSettings_get_automaticLoading_mF28DC51D46409F4D75DCF53E38C8E6B28444B01A_inline(__this, NULL);
 		if (!L_0)
@@ -2807,21 +2807,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_OnDisable_m31F1208BDDB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:477>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:477>
 		XRManagerSettings_StopSubsystems_mB59730C9283178A5E9E6D6E9127FE3DB25CC82D4(__this, NULL);
 	}
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:479>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:479>
 		return;
 	}
 }
-// Method Definition Index: 120420
+// Method Definition Index: 120423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_OnDestroy_m88AE1F5A6B819CF07D249F6A6D3A7809C4DBF9E2 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:483>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:483>
 		bool L_0;
 		L_0 = XRManagerSettings_get_automaticLoading_mF28DC51D46409F4D75DCF53E38C8E6B28444B01A_inline(__this, NULL);
 		if (!L_0)
@@ -2830,47 +2830,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_OnDestroy_m88AE1F5A6B8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:485>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:485>
 		XRManagerSettings_DeinitializeLoader_m81038A43AD1AD84045B90396D1E2E4F2D8029BAB(__this, NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:487>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:487>
 		return;
 	}
 }
-// Method Definition Index: 120421
+// Method Definition Index: 120424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* XRManagerSettings_get_currentLoaders_m3A4FF4CA5168E58C4DAB89B33972C1EE83FF2237 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:494>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:494>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_0 = __this->___m_Loaders;
 		return L_0;
 	}
 }
-// Method Definition Index: 120422
+// Method Definition Index: 120425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings_set_currentLoaders_mBF7D7DE30A657C0B8A145FBE84104797D668454A (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:495>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:495>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_0 = ___0_value;
 		__this->___m_Loaders = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Loaders), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:495>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:495>
 		return;
 	}
 }
-// Method Definition Index: 120423
+// Method Definition Index: 120426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HashSet_1_t174593AE6599738C19A33586587D63534CED9F0F* XRManagerSettings_get_registeredLoaders_m9FDA9ABA6EE526EC99C892488869777BF13E4D1B (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:502>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:502>
 		HashSet_1_t174593AE6599738C19A33586587D63534CED9F0F* L_0 = __this->___m_RegisteredLoaders;
 		return L_0;
 	}
 }
-// Method Definition Index: 120424
+// Method Definition Index: 120427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings__ctor_m516BC0C114BD8652EAE41D77BF961C5521520317 (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2883,12 +2883,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings__ctor_m516BC0C114BD865
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:92>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:92>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_0 = (List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822*)il2cpp_codegen_object_new(List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822_il2cpp_TypeInfo_var);
 		List_1__ctor_m54789A96B9085519EE4649A5AAA202B639232BAD(L_0, List_1__ctor_m54789A96B9085519EE4649A5AAA202B639232BAD_RuntimeMethod_var);
 		__this->___m_Loaders = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Loaders), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:97>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:97>
 		HashSet_1_t174593AE6599738C19A33586587D63534CED9F0F* L_1 = (HashSet_1_t174593AE6599738C19A33586587D63534CED9F0F*)il2cpp_codegen_object_new(HashSet_1_t174593AE6599738C19A33586587D63534CED9F0F_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_mB5674CAFBC5EEF5CCCB52956A8F11D308F13D868(L_1, HashSet_1__ctor_mB5674CAFBC5EEF5CCCB52956A8F11D308F13D868_RuntimeMethod_var);
 		__this->___m_RegisteredLoaders = L_1;
@@ -2905,7 +2905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRManagerSettings__ctor_m516BC0C114BD865
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 120425
+// Method Definition Index: 120428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeLoaderU3Ed__24__ctor_m55EFC72939B5E8ABAF9E70DD0878A80B0280C97A (U3CInitializeLoaderU3Ed__24_t02DE083CB86C55D65BAF82701483413204DE18C7* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -2915,7 +2915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeLoaderU3Ed__24__ctor_m55EFC
 		return;
 	}
 }
-// Method Definition Index: 120426
+// Method Definition Index: 120429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeLoaderU3Ed__24_System_IDisposable_Dispose_mB850632340F899B06CCC956A3557DECF8BCC7AE8 (U3CInitializeLoaderU3Ed__24_t02DE083CB86C55D65BAF82701483413204DE18C7* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -2964,7 +2964,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 120427
+// Method Definition Index: 120430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInitializeLoaderU3Ed__24_MoveNext_m0D3BCBEFAE33727F17874481BF551C2741132003 (U3CInitializeLoaderU3Ed__24_t02DE083CB86C55D65BAF82701483413204DE18C7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3020,7 +3020,7 @@ FAULT_00e6:
 IL_001f_1:
 			{
 				__this->___U3CU3E1__state = (-1);
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:218>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:218>
 				XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_4 = V_2;
 				NullCheck(L_4);
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_5;
@@ -3034,19 +3034,19 @@ IL_001f_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:220>
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:221>
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:222>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:220>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:221>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:222>
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral890B268A2AFBDA04F33348E7C0FF8600A336DABE, NULL);
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:223>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:223>
 				V_0 = (bool)0;
 				goto IL_00ed;
 			}
 
 IL_0045_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:226>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:226>
 				XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_7 = V_2;
 				NullCheck(L_7);
 				List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_8;
@@ -3065,12 +3065,12 @@ IL_0045_1:
 
 IL_0060_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:226>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:226>
 				Enumerator_tE4C063339BE1A617569244A7F77DF2FBF2ABFA4A* L_10 = (Enumerator_tE4C063339BE1A617569244A7F77DF2FBF2ABFA4A*)(&__this->___U3CU3E7__wrap1);
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_11;
 				L_11 = Enumerator_get_Current_m4D452A399E7790870BCDE47FD637EABEC40C4884_inline(L_10, Enumerator_get_Current_m4D452A399E7790870BCDE47FD637EABEC40C4884_RuntimeMethod_var);
 				V_3 = L_11;
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:228>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:228>
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_12 = V_3;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_13;
@@ -3081,7 +3081,7 @@ IL_0060_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:230>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:230>
 				XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_14 = V_2;
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_15 = V_3;
 				NullCheck(L_14);
@@ -3103,23 +3103,23 @@ IL_0060_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:232>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:232>
 				XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_19 = V_2;
 				XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_20 = V_3;
 				NullCheck(L_19);
 				XRManagerSettings_set_activeLoader_m85857974C574787278D7B4E861AD235F2D49726A_inline(L_19, L_20, NULL);
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:233>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:233>
 				XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_21 = V_2;
 				NullCheck(L_21);
 				L_21->___m_InitializationComplete = (bool)1;
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:234>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:234>
 				V_0 = (bool)0;
 				goto IL_00c7_1;
 			}
 
 IL_0098_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:238>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:238>
 				__this->___U3CU3E2__current = NULL;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 				__this->___U3CU3E1__state = 1;
@@ -3134,7 +3134,7 @@ IL_00aa_1:
 
 IL_00b2_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:226>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:226>
 				Enumerator_tE4C063339BE1A617569244A7F77DF2FBF2ABFA4A* L_22 = (Enumerator_tE4C063339BE1A617569244A7F77DF2FBF2ABFA4A*)(&__this->___U3CU3E7__wrap1);
 				bool L_23;
 				L_23 = Enumerator_MoveNext_m08EA2E51B87E7E0DE5F72486EDCADC812011B8CB(L_22, Enumerator_MoveNext_m08EA2E51B87E7E0DE5F72486EDCADC812011B8CB_RuntimeMethod_var);
@@ -3158,11 +3158,11 @@ IL_00cf_1:
 			{
 				Enumerator_tE4C063339BE1A617569244A7F77DF2FBF2ABFA4A* L_24 = (Enumerator_tE4C063339BE1A617569244A7F77DF2FBF2ABFA4A*)(&__this->___U3CU3E7__wrap1);
 				il2cpp_codegen_initobj(L_24, sizeof(Enumerator_tE4C063339BE1A617569244A7F77DF2FBF2ABFA4A));
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:241>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:241>
 				XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* L_25 = V_2;
 				NullCheck(L_25);
 				XRManagerSettings_set_activeLoader_m85857974C574787278D7B4E861AD235F2D49726A_inline(L_25, (XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976*)NULL, NULL);
-				//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:242>
+				//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:242>
 				V_0 = (bool)0;
 				goto IL_00ed;
 			}
@@ -3179,7 +3179,7 @@ IL_00ed:
 		return L_26;
 	}
 }
-// Method Definition Index: 120428
+// Method Definition Index: 120431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeLoaderU3Ed__24_U3CU3Em__Finally1_m6CCA9E68B1BF2344768A755069F9B9CD799E277C (U3CInitializeLoaderU3Ed__24_t02DE083CB86C55D65BAF82701483413204DE18C7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3195,7 +3195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeLoaderU3Ed__24_U3CU3Em__Fin
 		return;
 	}
 }
-// Method Definition Index: 120429
+// Method Definition Index: 120432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeLoaderU3Ed__24_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4F6952CC23A00893DC2B18A638480696CEE3370C (U3CInitializeLoaderU3Ed__24_t02DE083CB86C55D65BAF82701483413204DE18C7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3203,7 +3203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeLoaderU3Ed__24_Sy
 		return L_0;
 	}
 }
-// Method Definition Index: 120430
+// Method Definition Index: 120433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeLoaderU3Ed__24_System_Collections_IEnumerator_Reset_m803D94C93BE413DFBA21C0FEFABA00DA3E3414C4 (U3CInitializeLoaderU3Ed__24_t02DE083CB86C55D65BAF82701483413204DE18C7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3212,7 +3212,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeLoaderU3Ed__24_System_Colle
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CInitializeLoaderU3Ed__24_System_Collections_IEnumerator_Reset_m803D94C93BE413DFBA21C0FEFABA00DA3E3414C4_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 120431
+// Method Definition Index: 120434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeLoaderU3Ed__24_System_Collections_IEnumerator_get_Current_m92156199FCA3AAD568CA668A7A6CF7FB31B8A23C (U3CInitializeLoaderU3Ed__24_t02DE083CB86C55D65BAF82701483413204DE18C7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3247,29 +3247,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeLoaderU3Ed__24_Sy
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 120357
+// Method Definition Index: 120360
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRConfigurationDataAttribute_set_displayName_m3AFFE133640E562156E3D20A81206FE9F62D12BB_inline (XRConfigurationDataAttribute_tFCF093318B5224BCC0E168E99C562AB50DDFC0B2* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRConfigurationData.cs:19>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRConfigurationData.cs:19>
 		String_t* L_0 = ___0_value;
 		__this->___U3CdisplayNameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdisplayNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 120359
+// Method Definition Index: 120362
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRConfigurationDataAttribute_set_buildSettingsKey_m6AFAEBF0A402551EC9A80324E5B64403065E75A0_inline (XRConfigurationDataAttribute_tFCF093318B5224BCC0E168E99C562AB50DDFC0B2* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRConfigurationData.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRConfigurationData.cs:27>
 		String_t* L_0 = ___0_value;
 		__this->___U3CbuildSettingsKeyU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CbuildSettingsKeyU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 120364
+// Method Definition Index: 120367
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3279,107 +3279,107 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRGeneralSettings_t8F8D096944606B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:44>
 		il2cpp_codegen_runtime_class_init_inline(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var);
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_0 = ((XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_StaticFields*)il2cpp_codegen_static_fields_for(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var))->___s_RuntimeSettingsInstance;
 		return L_0;
 	}
 }
-// Method Definition Index: 120366
+// Method Definition Index: 120369
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRGeneralSettings_get_InitManagerOnStart_mA117DE9A4754CC3BA0E7F99FB7A593FF5B5B482A_inline (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRGeneralSettings.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRGeneralSettings.cs:74>
 		bool L_0 = __this->___m_InitManagerOnStart;
 		return L_0;
 	}
 }
-// Method Definition Index: 120399
+// Method Definition Index: 120402
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRManagerSettings_set_automaticLoading_m8F328FA730A8DD8C62D9A8FA8569A2084D530E0E_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:69>
 		bool L_0 = ___0_value;
 		__this->___m_AutomaticLoading = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:69>
 		return;
 	}
 }
-// Method Definition Index: 120401
+// Method Definition Index: 120404
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRManagerSettings_set_automaticRunning_mAC78998A385194EBEBF00C7337FC018148A40729_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:85>
 		bool L_0 = ___0_value;
 		__this->___m_AutomaticRunning = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:85>
 		return;
 	}
 }
-// Method Definition Index: 120405
+// Method Definition Index: 120408
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:141>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_0 = __this->___U3CactiveLoaderU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 120421
+// Method Definition Index: 120424
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* XRManagerSettings_get_currentLoaders_m3A4FF4CA5168E58C4DAB89B33972C1EE83FF2237_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:494>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:494>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_0 = __this->___m_Loaders;
 		return L_0;
 	}
 }
-// Method Definition Index: 120406
+// Method Definition Index: 120409
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRManagerSettings_set_activeLoader_m85857974C574787278D7B4E861AD235F2D49726A_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:141>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_0 = ___0_value;
 		__this->___U3CactiveLoaderU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CactiveLoaderU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 120403
+// Method Definition Index: 120406
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* XRManagerSettings_get_activeLoaders_m47D0FF16B7012A87F56D93124DC5D8DA0ACA591F_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:125>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:125>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_0 = __this->___m_Loaders;
 		return L_0;
 	}
 }
-// Method Definition Index: 120422
+// Method Definition Index: 120425
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRManagerSettings_set_currentLoaders_mBF7D7DE30A657C0B8A145FBE84104797D668454A_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:495>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:495>
 		List_1_tA1A04BD6B1EE83992AE369D5DB31A028E9B57822* L_0 = ___0_value;
 		__this->___m_Loaders = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Loaders), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:495>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:495>
 		return;
 	}
 }
-// Method Definition Index: 120398
+// Method Definition Index: 120401
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRManagerSettings_get_automaticLoading_mF28DC51D46409F4D75DCF53E38C8E6B28444B01A_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:68>
 		bool L_0 = __this->___m_AutomaticLoading;
 		return L_0;
 	}
 }
-// Method Definition Index: 120400
+// Method Definition Index: 120403
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRManagerSettings_get_automaticRunning_mE6F4B5875CF9B098B0B20388E77B651EB633D166_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.management@574ebfb1e976/Runtime/XRManagerSettings.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:84>
 		bool L_0 = __this->___m_AutomaticRunning;
 		return L_0;
 	}

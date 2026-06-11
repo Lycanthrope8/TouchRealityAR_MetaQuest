@@ -123,6 +123,12 @@ namespace ARObjectDetection
         [Tooltip("Vertical spacing (in the panel's local units) between stacked suggestion buttons.")]
         [SerializeField] private float suggestionSpacing = 0.06f;
 
+        [Header("Skill 3D — Custom Question (opens the keyboard)")]
+        [Tooltip("Button that opens the on-device keyboard to type a free-form command. Its name MUST contain 'CustomQuestion' so the raycaster routes pokes to it. Make it by duplicating your Suggested toggle button and placing it just below.")]
+        [SerializeField] private GameObject customQuestionButton3DRoot;
+        [Tooltip("Label on the Custom Question button. Auto-set to 'Custom Question' at runtime if wired.")]
+        [SerializeField] private TextMeshPro customQuestionButton3DText;
+
         [Header("Skill 3D — Ask / Confirm / Cancel button roots")]
         [Tooltip("Ask button root GameObject (poke to type). Repurposed DescribeButton.")]
         [SerializeField] private GameObject askButton3DRoot;
@@ -481,16 +487,23 @@ namespace ARObjectDetection
         {
             bool isActive = currentClaimStatus == ClaimStatus.Active;
             bool showSkill = !skillUIRequiresActive || isActive;
+            bool hasAsset = !string.IsNullOrEmpty(currentAssetId);
+
+            if (customQuestionButton3DText != null)
+                customQuestionButton3DText.text = "Custom Question";
 
             if (!showSkill)
             {
                 if (suggestedToggleRoot != null) suggestedToggleRoot.SetActive(false);
+                if (customQuestionButton3DRoot != null) customQuestionButton3DRoot.SetActive(false);
                 SetSuggestionsExpanded(false);   // collapse + hide the list
             }
             else
             {
                 if (suggestedToggleRoot != null)
-                    suggestedToggleRoot.SetActive(!string.IsNullOrEmpty(currentAssetId));
+                    suggestedToggleRoot.SetActive(hasAsset);
+                if (customQuestionButton3DRoot != null)
+                    customQuestionButton3DRoot.SetActive(hasAsset);
             }
 
             // Propose button: visible only when NOT active (optional root must be wired).
@@ -538,21 +551,44 @@ namespace ARObjectDetection
 
             if (string.IsNullOrWhiteSpace(cmd))
             {
-                // Nothing chosen. If a real keyboard is available (Phase 6B), open it;
-                // otherwise prompt the user to pick a suggestion.
-                if (!askSendsPreset && TouchScreenKeyboard.isSupported)
-                {
-                    OpenKeyboardForCustomCommand();
-                    return;
-                }
+                // "Ask LLM" only SENDS. Typing is handled by the separate "Custom
+                // Question" button (which opens the keyboard). With nothing on the
+                // command line, just prompt the user.
                 ShowPreview();
-                ShowStatus("Pick a suggested command first.", clarifyColor);
+                ShowStatus("Pick a suggestion or tap \"Custom Question\" to type.", clarifyColor);
                 return;
             }
 
             if (nlDisplay3D != null) nlDisplay3D.text = cmd;
             Debug.Log($"[AnchorInfoPanel] Ask → \"{cmd}\"  (asset {currentAssetId})");
             SubmitForInterpret(cmd);
+        }
+
+        /// <summary>
+        /// "Custom Question" button (3D): opens the on-device keyboard so the user can
+        /// type a free-form command. On Done the typed text fills the command line; the
+        /// user then pokes "Ask LLM" to send it through the same pipeline. The button's
+        /// GameObject name must contain "CustomQuestion" for the raycaster to route to it.
+        /// </summary>
+        public void OnCustomQuestion3DButtonClicked()
+        {
+            if (skillFlow == null)
+            {
+                Debug.LogError("[AnchorInfoPanel] skillFlow is NULL — add a 'Skill Flow Controller' to the GatewaySync GameObject.");
+                return;
+            }
+            if (currentAnchor == null || string.IsNullOrEmpty(currentAssetId))
+            {
+                ShowPreview();
+                ShowStatus("Select a tagged anchor first.", clarifyColor);
+                return;
+            }
+            if (skillFlow.Current.IsBusy) { Debug.Log("[AnchorInfoPanel] Busy; ignoring Custom Question."); return; }
+
+            if (TouchScreenKeyboard.isSupported)
+                OpenKeyboardForCustomCommand();
+            else
+                ShowStatus("No on-device keyboard available on this device.", rejectColor);
         }
 
         /// <summary>Phase 6B hook: open the on-device keyboard to type a custom command.
