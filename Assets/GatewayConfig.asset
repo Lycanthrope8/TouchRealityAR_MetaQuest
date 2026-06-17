@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c66c90b1775be4da6534b04efdabec, type: 3}
   m_Name: GatewayConfig
   m_EditorClassIdentifier: Assembly-CSharp::ARObjectDetection.Gateway.GatewayConfig
-  gatewayBaseUrl: https://2a9f-223-29-215-65.ngrok-free.app
+  gatewayBaseUrl: https://6cf2-223-29-215-71.ngrok-free.app
   apiKey: proposer-key-001
   organizationId: org1
   organizationName: Organization 1
@@ -25,8 +25,8 @@ MonoBehaviour:
   skillInterpretEndpoint: /skills/interpret
   skillExecuteEndpoint: /skills/execute
   skillHealthEndpoint: /skills/health
-  requestTimeoutSeconds: 30
-  skillRequestTimeoutSeconds: 30
+  requestTimeoutSeconds: 1000
+  skillRequestTimeoutSeconds: 1000
   reconnectDelaySeconds: 3
   maxReconnectDelaySeconds: 30
   heartbeatTimeoutSeconds: 45

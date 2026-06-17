@@ -10150,9 +10150,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_UpdateSendButtonAvailabi
 	int32_t G_B17_0 = 0;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* G_B17_1 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:466>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:467>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:468>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:470>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:471>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:472>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_0 = __this->___skillFlow;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10191,7 +10191,7 @@ IL_0030:
 IL_0031:
 	{
 		V_0 = (bool)G_B4_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:469>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:473>
 		bool L_7 = __this->___skillUIRequiresActive;
 		if (!L_7)
 		{
@@ -10212,7 +10212,7 @@ IL_0045:
 IL_0046:
 	{
 		V_1 = (bool)G_B7_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:470>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:474>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___sendButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -10223,7 +10223,7 @@ IL_0046:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:470>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:474>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_11 = __this->___sendButton;
 		bool L_12 = V_0;
 		bool L_13 = V_1;
@@ -10233,7 +10233,7 @@ IL_0046:
 
 IL_0063:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:471>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:475>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_14 = __this->___sendButtonText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -10244,7 +10244,7 @@ IL_0063:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:471>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:475>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_16 = __this->___sendButtonText;
 		NullCheck(L_16);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_16, _stringLiteralC86EC5531EBD8B51C4944FF50C7007F5F966250D);
@@ -10252,7 +10252,7 @@ IL_0063:
 
 IL_0081:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:475>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:479>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___askButton3DRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -10263,7 +10263,7 @@ IL_0081:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:475>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:479>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___askButton3DRoot;
 		bool L_20 = V_1;
 		if (!L_20)
@@ -10313,7 +10313,7 @@ IL_00ad:
 
 IL_00b2:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:476>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:480>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_24 = __this->___askButton3DText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_25;
@@ -10324,7 +10324,7 @@ IL_00b2:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:476>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:480>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_26 = __this->___askButton3DText;
 		NullCheck(L_26);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_26, _stringLiteralD4AFD36783E5099AFE30A153D1DCBDE1744DD3E6);
@@ -10332,7 +10332,7 @@ IL_00b2:
 
 IL_00d0:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:477>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:481>
 		return;
 	}
 }
@@ -10351,18 +10351,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ApplyStateVisibility_mC5
 	int32_t G_B2_0 = 0;
 	int32_t G_B1_0 = 0;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:488>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:492>
 		int32_t L_0 = __this->___currentClaimStatus;
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)5))? 1 : 0);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:489>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:493>
 		bool L_1 = __this->___skillUIRequiresActive;
 		bool L_2 = V_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:490>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:494>
 		String_t* L_3 = __this->___currentAssetId;
 		bool L_4;
 		L_4 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_3, NULL);
 		V_1 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:492>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:496>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_5 = __this->___customQuestionButton3DText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -10375,7 +10375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ApplyStateVisibility_mC5
 		G_B1_0 = ((int32_t)(((((int32_t)L_1) == ((int32_t)0))? 1 : 0)|(int32_t)L_2));
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:493>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:497>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_7 = __this->___customQuestionButton3DText;
 		NullCheck(L_7);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_7, _stringLiteral777128DEBA59C54A59B74B9FF389CA78A9CB2B6D);
@@ -10384,14 +10384,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ApplyStateVisibility_mC5
 
 IL_0042:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:495>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:499>
 		if (G_B2_0)
 		{
 			goto IL_0081;
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:497>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:501>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___suggestedToggleRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -10402,7 +10402,7 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:497>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:501>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___suggestedToggleRoot;
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
@@ -10410,7 +10410,7 @@ IL_0042:
 
 IL_005e:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:498>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:502>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___customQuestionButton3DRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -10421,7 +10421,7 @@ IL_005e:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:498>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:502>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___customQuestionButton3DRoot;
 		NullCheck(L_13);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
@@ -10429,14 +10429,14 @@ IL_005e:
 
 IL_0078:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:499>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:503>
 		AnchorInfoPanel_SetSuggestionsExpanded_m4C337F31C197AF9E19277F5BEBD21A9DEFC31D61(__this, (bool)0, NULL);
 		goto IL_00b5;
 	}
 
 IL_0081:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:503>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:507>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___suggestedToggleRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -10447,7 +10447,7 @@ IL_0081:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:504>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:508>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___suggestedToggleRoot;
 		bool L_17 = V_1;
 		NullCheck(L_16);
@@ -10456,7 +10456,7 @@ IL_0081:
 
 IL_009b:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:505>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:509>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___customQuestionButton3DRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_19;
@@ -10467,7 +10467,7 @@ IL_009b:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:506>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:510>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___customQuestionButton3DRoot;
 		bool L_21 = V_1;
 		NullCheck(L_20);
@@ -10476,7 +10476,7 @@ IL_009b:
 
 IL_00b5:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:510>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:514>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___proposeButton3DRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_23;
@@ -10487,7 +10487,7 @@ IL_00b5:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:511>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:515>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->___proposeButton3DRoot;
 		bool L_25 = V_0;
 		NullCheck(L_24);
@@ -10496,7 +10496,7 @@ IL_00b5:
 
 IL_00d2:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:512>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:516>
 		return;
 	}
 }
@@ -10524,7 +10524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnAsk3DButtonClicked_m90
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:530>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:534>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_2 = __this->___skillFlow;
@@ -10557,7 +10557,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnAsk3DButtonClicked_m90
 		L_14 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral349E19FA06FE1F9A7CCBEB08AE226B7CE7EF537B, L_12, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_14, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:532>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:536>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_15 = __this->___skillFlow;
 		bool L_16;
 		L_16 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -10567,16 +10567,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnAsk3DButtonClicked_m90
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:534>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:538>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral658E039357E99234A85569CCEA0FC5F52A4490C6, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:535>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:539>
 		return;
 	}
 
 IL_0065:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:537>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:541>
 		DepthAnchorInstance_t2A0C29FD20B2FD99207BCD0959BD173B93D6002C* L_17 = __this->___currentAnchor;
 		if (L_17)
 		{
@@ -10584,16 +10584,16 @@ IL_0065:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:537>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:541>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralCC9C16E6DC987070DB4964E05155F65A0C87CD63, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:537>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:541>
 		return;
 	}
 
 IL_0078:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:538>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:542>
 		String_t* L_18 = __this->___currentAssetId;
 		bool L_19;
 		L_19 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_18, NULL);
@@ -10603,21 +10603,21 @@ IL_0078:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:540>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:544>
 		AnchorInfoPanel_ShowPreview_mAFFCF6891149E0F679E177EEB0CC1A8725A39280(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:541>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:545>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20 = __this->___clarifyColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteral061C419ACEBFC18FEC85874637AABACF5D8AD9E3, L_20, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:542>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:546>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral2082ADBBCBB45C8E6CF4663DD1BEF678861F644E, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:543>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:547>
 		return;
 	}
 
 IL_00a7:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:545>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:549>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_21 = __this->___skillFlow;
 		NullCheck(L_21);
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_22;
@@ -10631,19 +10631,19 @@ IL_00a7:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:545>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:549>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral3AF50E70B08B27725CC70DD624797AD8BD43E830, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:545>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:549>
 		return;
 	}
 
 IL_00c4:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:547>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:551>
 		String_t* L_24 = __this->___capturedText;
 		V_0 = L_24;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:550>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:554>
 		String_t* L_25 = V_0;
 		bool L_26;
 		L_26 = String_IsNullOrWhiteSpace_m42E1F3B2C358068D645E46F01CF1834DC77A5A10(L_25, NULL);
@@ -10660,14 +10660,14 @@ IL_00c4:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:550>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:554>
 		String_t* L_28 = __this->___askPresetCommand;
 		V_0 = L_28;
 	}
 
 IL_00e2:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:552>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:556>
 		String_t* L_29 = V_0;
 		bool L_30;
 		L_30 = String_IsNullOrWhiteSpace_m42E1F3B2C358068D645E46F01CF1834DC77A5A10(L_29, NULL);
@@ -10677,18 +10677,18 @@ IL_00e2:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:557>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:561>
 		AnchorInfoPanel_ShowPreview_mAFFCF6891149E0F679E177EEB0CC1A8725A39280(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:558>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:562>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31 = __this->___clarifyColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteral697A267A3DEAF603FD6D4A1E1298F09E51293000, L_31, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:559>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:563>
 		return;
 	}
 
 IL_0102:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:562>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:566>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_32 = __this->___nlDisplay3D;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_33;
@@ -10699,7 +10699,7 @@ IL_0102:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:562>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:566>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_34 = __this->___nlDisplay3D;
 		String_t* L_35 = V_0;
 		NullCheck(L_34);
@@ -10708,7 +10708,7 @@ IL_0102:
 
 IL_011c:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:563>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:567>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_36 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_37 = L_36;
 		NullCheck(L_37);
@@ -10731,10 +10731,10 @@ IL_011c:
 		L_44 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_43, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_44, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:564>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:568>
 		String_t* L_45 = V_0;
 		AnchorInfoPanel_SubmitForInterpret_m8C208839A4B80DB0A51FA20363C6241EDF65E5BB(__this, L_45, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:565>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:569>
 		return;
 	}
 }
@@ -10753,7 +10753,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnCustomQuestion3DButton
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:575>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:579>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_0 = __this->___skillFlow;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10764,16 +10764,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnCustomQuestion3DButton
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:577>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:581>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral591253303B2A49510F79EF15DB390D5BE06D1F6A, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:578>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:582>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:580>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:584>
 		DepthAnchorInstance_t2A0C29FD20B2FD99207BCD0959BD173B93D6002C* L_2 = __this->___currentAnchor;
 		if (!L_2)
 		{
@@ -10792,18 +10792,18 @@ IL_0019:
 
 IL_002e:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:582>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:586>
 		AnchorInfoPanel_ShowPreview_mAFFCF6891149E0F679E177EEB0CC1A8725A39280(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:583>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:587>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = __this->___clarifyColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteral6E8478909B0A9891A9EBF8BE16D24536AE17411E, L_5, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:584>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:588>
 		return;
 	}
 
 IL_0046:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:586>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:590>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_6 = __this->___skillFlow;
 		NullCheck(L_6);
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_7;
@@ -10817,16 +10817,16 @@ IL_0046:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:586>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:590>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral5C79B4E43C429FD42D40964F191D6C2ACE205644, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:586>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:590>
 		return;
 	}
 
 IL_0063:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:588>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:592>
 		bool L_9;
 		L_9 = TouchScreenKeyboard_get_isSupported_mCFAC95CA6CAA06B4E21F42E3C40A39668D6B438E(NULL);
 		if (!L_9)
@@ -10835,17 +10835,17 @@ IL_0063:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:589>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:593>
 		AnchorInfoPanel_OpenKeyboardForCustomCommand_m61E8CF1E180FEF7204A1BDFFB2819B30EC6FDF3E(__this, NULL);
 		return;
 	}
 
 IL_0071:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:591>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:595>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10 = __this->___rejectColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteral5C80F16E10D8E2D52C2D5A3EB85A64263E12F43F, L_10, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:592>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:596>
 		return;
 	}
 }
@@ -10865,14 +10865,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OpenKeyboardForCustomCom
 	String_t* G_B1_0 = NULL;
 	AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* G_B1_1 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:598>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:602>
 		AnchorInfoPanel_ShowPreview_mAFFCF6891149E0F679E177EEB0CC1A8725A39280(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:599>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:603>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___clarifyColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteral300BC4674261C8E5F7A1E9EB8D5426589F3BA56E, L_0, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:600>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:601>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:602>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:604>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:605>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:606>
 		String_t* L_1 = __this->___capturedText;
 		String_t* L_2 = L_1;
 		if (L_2)
@@ -10898,10 +10898,10 @@ IL_0027:
 		NullCheck(G_B2_1);
 		G_B2_1->___keyboard = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_1->___keyboard), (void*)L_5);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:603>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:607>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_6 = __this->___keyboard;
 		__this->___keyboardOpen = (bool)((!(((RuntimeObject*)(TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*)L_6) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:604>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:608>
 		bool L_7 = __this->___keyboardOpen;
 		if (L_7)
 		{
@@ -10909,14 +10909,14 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:605>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:609>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = __this->___rejectColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteral5C80F16E10D8E2D52C2D5A3EB85A64263E12F43F, L_8, NULL);
 	}
 
 IL_006a:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:606>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:610>
 		return;
 	}
 }
@@ -10924,7 +10924,7 @@ IL_006a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SendPreset1_m7825C34228332FDB9CAE2197EC66A5C27D967047 (AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:609>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:613>
 		String_t* L_0 = __this->___askPresetCommand;
 		AnchorInfoPanel_SendPreset_m646EAC0C985DC1D17DCB889BC814E29C1DE7734A(__this, L_0, NULL);
 		return;
@@ -10934,7 +10934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SendPreset1_m7825C342283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SendPreset2_m36107964B4BCA597EF7CB898135E81F00AA7FACD (AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:610>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:614>
 		String_t* L_0 = __this->___presetCommand2;
 		AnchorInfoPanel_SendPreset_m646EAC0C985DC1D17DCB889BC814E29C1DE7734A(__this, L_0, NULL);
 		return;
@@ -10944,7 +10944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SendPreset2_m36107964B4B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SendPreset3_mDE90E20835348C78256E9A9B651C14A073CDA790 (AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:611>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:615>
 		String_t* L_0 = __this->___presetCommand3;
 		AnchorInfoPanel_SendPreset_m646EAC0C985DC1D17DCB889BC814E29C1DE7734A(__this, L_0, NULL);
 		return;
@@ -10967,7 +10967,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SendPreset_m646EAC0C985D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:615>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:619>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_0 = __this->___skillFlow;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10987,16 +10987,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SendPreset_m646EAC0C985D
 
 IL_0016:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:617>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:621>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral03E6B68D92335E867D5F4B3B13DCE2D8A4300097, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:618>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:622>
 		return;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:620>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:624>
 		String_t* L_3 = __this->___currentAssetId;
 		bool L_4;
 		L_4 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_3, NULL);
@@ -11006,20 +11006,20 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:620>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:624>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = __this->___clarifyColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteralB558E884267B295DF3F60633C30CAE79F383DB57, L_5, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:620>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:624>
 		return;
 	}
 
 IL_0040:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:621>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:625>
 		String_t* L_6 = ___0_cmd;
 		__this->___capturedText = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___capturedText), (void*)L_6);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:622>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:626>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_7 = __this->___nlDisplay3D;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -11030,7 +11030,7 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:622>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:626>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_9 = __this->___nlDisplay3D;
 		String_t* L_10 = ___0_cmd;
 		NullCheck(L_9);
@@ -11039,7 +11039,7 @@ IL_0040:
 
 IL_0061:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:623>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:627>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_11;
 		NullCheck(L_12);
@@ -11062,10 +11062,10 @@ IL_0061:
 		L_19 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_18, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_19, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:624>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:628>
 		String_t* L_20 = ___0_cmd;
 		AnchorInfoPanel_SubmitForInterpret_m8C208839A4B80DB0A51FA20363C6241EDF65E5BB(__this, L_20, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:625>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:629>
 		return;
 	}
 }
@@ -11091,7 +11091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD
 	}
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* V_0 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:641>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:645>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		V_0 = L_0;
@@ -11142,41 +11142,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD
 
 IL_0032:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:647>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:651>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_2 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_2, _stringLiteral0CD524FDF8CF6CDE2C3D8AAACEC9D57AED24E0F5, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:648>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:652>
 		goto IL_006f;
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:653>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:657>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = V_0;
 		NullCheck(L_3);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_3, _stringLiteralB9EAA550F240B95EE0FBF620F67A589B43EF3DCE, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:654>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:658>
 		goto IL_006f;
 	}
 
 IL_004c:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:656>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:660>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_4 = V_0;
 		NullCheck(L_4);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_4, _stringLiteralB2B82E35AF62CCA175C66D14F0AD9064FC236AD4, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:657>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:661>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_5 = V_0;
 		NullCheck(L_5);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_5, _stringLiteralB9EAA550F240B95EE0FBF620F67A589B43EF3DCE, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:658>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:662>
 		goto IL_006f;
 	}
 
 IL_0064:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:660>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:664>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_6 = V_0;
 		NullCheck(L_6);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_6, _stringLiteralBFAC5F53A1B22655939B3175AE99E2E95154F0E4, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
@@ -11184,27 +11184,27 @@ IL_0064:
 
 IL_006f:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:663>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:667>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_7 = V_0;
 		NullCheck(L_7);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_7, _stringLiteral9379811E94DB61FDA3CE73E4EF3B4AD6E1E300CE, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:664>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:668>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_8 = V_0;
 		NullCheck(L_8);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_8, _stringLiteral9B13463A6616524F93FD61270AE1E1ED138C4632, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:665>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:669>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_9 = V_0;
 		NullCheck(L_9);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_9, _stringLiteralCF34A66A77E091ADEAA8D78C5731AEE75EE8A3A9, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:666>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:670>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_10 = V_0;
 		NullCheck(L_10);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_10, _stringLiteral56F714AF27E69B246A510F8A65177D33507F6AAA, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:667>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:671>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_11 = V_0;
 		NullCheck(L_11);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_11, _stringLiteralBC6BB1A09DE05D39A6A799A5DDF65E94853D17EA, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:668>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:672>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_12 = V_0;
 		return L_12;
 	}
@@ -11233,14 +11233,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_PopulateSuggestions_m84A
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
 	SkillCommandButton_tB386061721DA1AA38B2F5CD346537703CB296E4D* V_4 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:675>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:679>
 		V_1 = 0;
 		goto IL_0032;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:676>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:680>
 		List_1_tEC94CAEFDED9E7AD459B0CD359AEDB5CBA070C22* L_0 = __this->___spawnedSuggestions;
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
@@ -11255,7 +11255,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:676>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:680>
 		List_1_tEC94CAEFDED9E7AD459B0CD359AEDB5CBA070C22* L_4 = __this->___spawnedSuggestions;
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
@@ -11270,14 +11270,14 @@ IL_0004:
 
 IL_002e:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:675>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:679>
 		int32_t L_8 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:675>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:679>
 		int32_t L_9 = V_1;
 		List_1_tEC94CAEFDED9E7AD459B0CD359AEDB5CBA070C22* L_10 = __this->___spawnedSuggestions;
 		NullCheck(L_10);
@@ -11289,11 +11289,11 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:677>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:681>
 		List_1_tEC94CAEFDED9E7AD459B0CD359AEDB5CBA070C22* L_12 = __this->___spawnedSuggestions;
 		NullCheck(L_12);
 		List_1_Clear_m09EA48353AD1237CDE5491ECFA33CBCD3FBCE3ED_inline(L_12, List_1_Clear_m09EA48353AD1237CDE5491ECFA33CBCD3FBCE3ED_RuntimeMethod_var);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:679>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:683>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___suggestedToggleRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -11304,7 +11304,7 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:680>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:684>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___suggestedToggleRoot;
 		String_t* L_16 = __this->___currentAssetId;
 		bool L_17;
@@ -11315,7 +11315,7 @@ IL_0032:
 
 IL_0072:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:682>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:686>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___suggestionButtonPrefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_19;
@@ -11338,13 +11338,13 @@ IL_0072:
 
 IL_008e:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:682>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:686>
 		return;
 	}
 
 IL_008f:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:683>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:687>
 		String_t* L_22 = __this->___currentAssetId;
 		bool L_23;
 		L_23 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_22, NULL);
@@ -11354,34 +11354,34 @@ IL_008f:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:683>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:687>
 		AnchorInfoPanel_SetSuggestionsExpanded_m4C337F31C197AF9E19277F5BEBD21A9DEFC31D61(__this, (bool)0, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:683>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:687>
 		return;
 	}
 
 IL_00a4:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:685>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:689>
 		int32_t L_24 = __this->___currentClaimStatus;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_25;
 		L_25 = AnchorInfoPanel_SuggestionsForState_m600BE2E5331114D0CA9AD1DAEB58D144AA9E2CB0(__this, L_24, NULL);
 		V_0 = L_25;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:686>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:690>
 		V_2 = 0;
 		goto IL_014a;
 	}
 
 IL_00b8:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:688>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:692>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = __this->___suggestionButtonPrefab;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = __this->___suggestionListRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28;
 		L_28 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_26, L_27, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
 		V_3 = L_28;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:689>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:693>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = V_3;
 		NullCheck(L_29);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
@@ -11390,7 +11390,7 @@ IL_00b8:
 		L_31 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		NullCheck(L_30);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_30, L_31, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:690>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:694>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = V_3;
 		NullCheck(L_32);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33;
@@ -11405,13 +11405,13 @@ IL_00b8:
 		L_38 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_34, L_37, NULL);
 		NullCheck(L_33);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_33, L_38, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:692>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:696>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39 = V_3;
 		NullCheck(L_39);
 		SkillCommandButton_tB386061721DA1AA38B2F5CD346537703CB296E4D* L_40;
 		L_40 = GameObject_GetComponent_TisSkillCommandButton_tB386061721DA1AA38B2F5CD346537703CB296E4D_m5E4928956F869C26D8C33352E65B045785D91065(L_39, GameObject_GetComponent_TisSkillCommandButton_tB386061721DA1AA38B2F5CD346537703CB296E4D_m5E4928956F869C26D8C33352E65B045785D91065_RuntimeMethod_var);
 		V_4 = L_40;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:693>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:697>
 		SkillCommandButton_tB386061721DA1AA38B2F5CD346537703CB296E4D* L_41 = V_4;
 		bool L_42;
 		L_42 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_41, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -11421,7 +11421,7 @@ IL_00b8:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:693>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:697>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43 = V_3;
 		NullCheck(L_43);
 		SkillCommandButton_tB386061721DA1AA38B2F5CD346537703CB296E4D* L_44;
@@ -11431,7 +11431,7 @@ IL_00b8:
 
 IL_0123:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:694>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:698>
 		SkillCommandButton_tB386061721DA1AA38B2F5CD346537703CB296E4D* L_45 = V_4;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_46 = V_0;
 		int32_t L_47 = V_2;
@@ -11440,23 +11440,23 @@ IL_0123:
 		L_48 = List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8(L_46, L_47, List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var);
 		NullCheck(L_45);
 		SkillCommandButton_Bind_mFDA41B940F32236A8DE1169F6F0746AC582706D0(L_45, __this, L_48, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:695>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:699>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_49 = V_3;
 		NullCheck(L_49);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_49, (bool)1, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:696>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:700>
 		List_1_tEC94CAEFDED9E7AD459B0CD359AEDB5CBA070C22* L_50 = __this->___spawnedSuggestions;
 		SkillCommandButton_tB386061721DA1AA38B2F5CD346537703CB296E4D* L_51 = V_4;
 		NullCheck(L_50);
 		List_1_Add_m38AB15267CBFFD94E253F11889E6913CEEEDD085_inline(L_50, L_51, List_1_Add_m38AB15267CBFFD94E253F11889E6913CEEEDD085_RuntimeMethod_var);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:686>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:690>
 		int32_t L_52 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_52, 1));
 	}
 
 IL_014a:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:686>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:690>
 		int32_t L_53 = V_2;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_54 = V_0;
 		NullCheck(L_54);
@@ -11468,10 +11468,10 @@ IL_014a:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:699>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:703>
 		bool L_56 = __this->___suggestionsExpanded;
 		AnchorInfoPanel_SetSuggestionsExpanded_m4C337F31C197AF9E19277F5BEBD21A9DEFC31D61(__this, L_56, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:700>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:704>
 		return;
 	}
 }
@@ -11491,10 +11491,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SetSuggestionsExpanded_m
 	String_t* G_B6_0 = NULL;
 	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* G_B6_1 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:704>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:708>
 		bool L_0 = ___0_expanded;
 		__this->___suggestionsExpanded = L_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:705>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:709>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___suggestionListRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -11505,7 +11505,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SetSuggestionsExpanded_m
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:705>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:709>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___suggestionListRoot;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
@@ -11517,7 +11517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SetSuggestionsExpanded_m
 
 IL_0026:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:706>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:710>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_6 = __this->___suggestedToggleText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -11528,7 +11528,7 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:707>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:711>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_8 = __this->___suggestedToggleText;
 		bool L_9 = ___0_expanded;
 		if (L_9)
@@ -11558,7 +11558,7 @@ IL_0049:
 
 IL_004e:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:708>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:712>
 		return;
 	}
 }
@@ -11566,7 +11566,7 @@ IL_004e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSuggestedToggle3D_m83EB3FD2661C245A641569E1A3B0A02F32BE7861 (AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:711>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:715>
 		bool L_0 = __this->___suggestionsExpanded;
 		AnchorInfoPanel_SetSuggestionsExpanded_m4C337F31C197AF9E19277F5BEBD21A9DEFC31D61(__this, (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0), NULL);
 		return;
@@ -11583,7 +11583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSuggestionPicked_m8FAA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:717>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:721>
 		SkillCommandButton_tB386061721DA1AA38B2F5CD346537703CB296E4D* L_0 = ___0_btn;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11594,20 +11594,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSuggestionPicked_m8FAA
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:717>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:721>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:718>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:722>
 		SkillCommandButton_tB386061721DA1AA38B2F5CD346537703CB296E4D* L_2 = ___0_btn;
 		NullCheck(L_2);
 		String_t* L_3;
 		L_3 = SkillCommandButton_get_Command_m5093B85349633119D9AB75BDC0CB1031FF050E64_inline(L_2, NULL);
 		__this->___capturedText = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___capturedText), (void*)L_3);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:719>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:723>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_4 = __this->___nlDisplay3D;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -11618,7 +11618,7 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:719>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:723>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_6 = __this->___nlDisplay3D;
 		SkillCommandButton_tB386061721DA1AA38B2F5CD346537703CB296E4D* L_7 = ___0_btn;
 		NullCheck(L_7);
@@ -11630,14 +11630,14 @@ IL_000a:
 
 IL_0035:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:720>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:724>
 		AnchorInfoPanel_SetSuggestionsExpanded_m4C337F31C197AF9E19277F5BEBD21A9DEFC31D61(__this, (bool)0, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:721>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:725>
 		AnchorInfoPanel_ShowPreview_mAFFCF6891149E0F679E177EEB0CC1A8725A39280(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:722>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:726>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = __this->___clarifyColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteralB22FEEA364A9A8D4ADBBC9F61FB9500A9521A90C, L_9, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:723>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:727>
 		return;
 	}
 }
@@ -11659,7 +11659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_Update_m642ECCEDD9E835B7
 	String_t* G_B10_0 = NULL;
 	AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* G_B10_1 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:727>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:731>
 		bool L_0 = __this->___keyboardOpen;
 		if (!L_0)
 		{
@@ -11676,13 +11676,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_Update_m642ECCEDD9E835B7
 
 IL_0010:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:727>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:731>
 		return;
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:730>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:734>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_2 = __this->___nlDisplay3D;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -11705,7 +11705,7 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:731>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:735>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_7 = __this->___nlDisplay3D;
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_8 = __this->___keyboard;
 		NullCheck(L_8);
@@ -11717,13 +11717,13 @@ IL_0011:
 
 IL_0047:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:733>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:737>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_10 = __this->___keyboard;
 		NullCheck(L_10);
 		int32_t L_11;
 		L_11 = TouchScreenKeyboard_get_status_mCC466FDEC7E1913D8585ABA7F048FC198CB19504(L_10, NULL);
 		V_0 = L_11;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:734>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:738>
 		int32_t L_12 = V_0;
 		if (L_12)
 		{
@@ -11731,15 +11731,15 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:734>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:738>
 		return;
 	}
 
 IL_0057:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:737>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:741>
 		__this->___keyboardOpen = (bool)0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:739>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:743>
 		int32_t L_13 = V_0;
 		if ((!(((uint32_t)L_13) == ((uint32_t)1))))
 		{
@@ -11747,7 +11747,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:741>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:745>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_14 = __this->___keyboard;
 		NullCheck(L_14);
 		String_t* L_15;
@@ -11772,7 +11772,7 @@ IL_0077:
 		NullCheck(G_B11_1);
 		G_B11_1->___capturedText = G_B11_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B11_1->___capturedText), (void*)G_B11_0);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:742>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:746>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_17 = __this->___nlDisplay3D;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -11783,7 +11783,7 @@ IL_0077:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:742>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:746>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_19 = __this->___nlDisplay3D;
 		String_t* L_20 = __this->___capturedText;
 		NullCheck(L_19);
@@ -11792,10 +11792,10 @@ IL_0077:
 
 IL_009b:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:743>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:747>
 		__this->___keyboard = (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___keyboard), (void*)(TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*)NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:747>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:751>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21 = __this->___clarifyColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteralB22FEEA364A9A8D4ADBBC9F61FB9500A9521A90C, L_21, NULL);
 		return;
@@ -11803,13 +11803,13 @@ IL_009b:
 
 IL_00b4:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:751>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:755>
 		__this->___keyboard = (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___keyboard), (void*)(TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*)NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:752>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:756>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22 = __this->___clarifyColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteral8D0D767FEC0ABDD29EADD65C7057FD66A57C433A, L_22, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:754>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:758>
 		return;
 	}
 }
@@ -11828,7 +11828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SubmitForInterpret_m8C20
 	SkillContext_tCB9A91A4F358F7633A605B131A06037F0D3C53D5* V_1 = NULL;
 	RuntimeObject* G_B8_0 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:759>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:763>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_0 = __this->___skillFlow;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11848,13 +11848,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SubmitForInterpret_m8C20
 
 IL_0016:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:759>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:763>
 		return;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:760>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:764>
 		String_t* L_3 = ___0_userText;
 		bool L_4;
 		L_4 = String_IsNullOrWhiteSpace_m42E1F3B2C358068D645E46F01CF1834DC77A5A10(L_3, NULL);
@@ -11864,17 +11864,17 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:762>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:766>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = __this->___clarifyColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteralF0BC0720DA89480311A5176791EDCDC6ED34020E, L_5, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:763>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:767>
 		return;
 	}
 
 IL_0031:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:768>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:769>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:772>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:773>
 		DepthAnchorSystem_tB361B67F730AEBDBF4F49CE8DEB6437140949BE7* L_6 = __this->___depthAnchorSystem;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -11901,21 +11901,21 @@ IL_0042:
 IL_004d:
 	{
 		V_0 = G_B8_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:771>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:775>
 		DepthAnchorInstance_t2A0C29FD20B2FD99207BCD0959BD173B93D6002C* L_10 = __this->___currentAnchor;
 		GatewaySync_t1A48E792DE953ABD19D520656B0F982C51D7629E* L_11 = __this->___gatewaySync;
 		RuntimeObject* L_12 = V_0;
 		SkillContext_tCB9A91A4F358F7633A605B131A06037F0D3C53D5* L_13;
 		L_13 = AnchorContextBuilder_Build_m66C97CFF3A6FDD56BC751AB26045C951BF743047(L_10, L_11, L_12, NULL);
 		V_1 = L_13;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:773>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:777>
 		AnchorInfoPanel_ShowPreview_mAFFCF6891149E0F679E177EEB0CC1A8725A39280(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:774>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:778>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14 = __this->___clarifyColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteralE69AF3135EC2B6B350F8177E1F43F09BF1D0AB9C, L_14, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:775>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:779>
 		AnchorInfoPanel_ClearDecisionFields_m6CC519BD8463494B8C0F0D0D4A7BBDBB3A3E81E0(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:777>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:781>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_15 = __this->___skillFlow;
 		String_t* L_16 = __this->___currentAssetId;
 		String_t* L_17 = ___0_userText;
@@ -11923,7 +11923,7 @@ IL_004d:
 		NullCheck(L_15);
 		bool L_19;
 		L_19 = SkillFlowController_BeginInterpret_mE3E4055AD0661483843B19E7EBCD3CC3F5946AC1(L_15, L_16, L_17, L_18, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:778>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:782>
 		return;
 	}
 }
@@ -11939,7 +11939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSendClicked_mD50E54837
 	String_t* V_0 = NULL;
 	String_t* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:783>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:787>
 		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_0 = __this->___nlInputField;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11967,10 +11967,10 @@ IL_0016:
 IL_0021:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:784>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:788>
 		String_t* L_5 = V_0;
 		AnchorInfoPanel_SubmitForInterpret_m8C208839A4B80DB0A51FA20363C6241EDF65E5BB(__this, L_5, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:785>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:789>
 		return;
 	}
 }
@@ -11978,7 +11978,7 @@ IL_0021:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSend3DClicked_mCD752716566A3F7BDC9F1B7986B86EB9CD0A61AF (AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:788>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:792>
 		AnchorInfoPanel_OnSendClicked_mD50E54837111B42FFFAD080D9984B64EFFE0F3CA(__this, NULL);
 		return;
 	}
@@ -11987,7 +11987,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSend3DClicked_mCD75271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnAskAnchor3DButtonClicked_m3C8E23B99D36A50FE5AD01061E8D2D9B71E46D59 (AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:795>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:799>
 		AnchorInfoPanel_OnAsk3DButtonClicked_m90C57203CE7A09C7CD082AAED815472912E51889(__this, NULL);
 		return;
 	}
@@ -11996,7 +11996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnAskAnchor3DButtonClick
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnActionSuggest3DButtonClicked_m4A15B6833603E63983C4DE29B28D0CED769484CE (AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:796>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:800>
 		AnchorInfoPanel_OnConfirmClicked_m37DD2B442A900EFBBB5E8928EADB9B2936294F23(__this, NULL);
 		return;
 	}
@@ -12005,7 +12005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnActionSuggest3DButtonC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnAnnotate3DButtonClicked_m20EF091329003EF4456099322194CF3B7123CAD0 (AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:797>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:801>
 		AnchorInfoPanel_OnAsk3DButtonClicked_m90C57203CE7A09C7CD082AAED815472912E51889(__this, NULL);
 		return;
 	}
@@ -12020,7 +12020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnConfirmClicked_m37DD2B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:801>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:805>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_0 = __this->___skillFlow;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12031,18 +12031,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnConfirmClicked_m37DD2B
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:801>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:805>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:802>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:806>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_2 = __this->___skillFlow;
 		NullCheck(L_2);
 		bool L_3;
 		L_3 = SkillFlowController_ConfirmExecute_m97C6ADFFECC8BF6B3D5A56D01615E8B7645F142C(L_2, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:803>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:807>
 		return;
 	}
 }
@@ -12050,7 +12050,7 @@ IL_000f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnConfirm3DClicked_m4A475BDD6DA679C7C130F66681D329F797FAD110 (AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:804>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:808>
 		AnchorInfoPanel_OnConfirmClicked_m37DD2B442A900EFBBB5E8928EADB9B2936294F23(__this, NULL);
 		return;
 	}
@@ -12066,7 +12066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnCancelClicked_m8DE78E8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:808>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:812>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_0 = __this->___skillFlow;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12077,7 +12077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnCancelClicked_m8DE78E8
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:808>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:812>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_2 = __this->___skillFlow;
 		NullCheck(L_2);
 		SkillFlowController_Cancel_m2DEDFBA7019EEDA0FD4BC9AC15AAEC1B6E2936B3(L_2, NULL);
@@ -12085,10 +12085,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnCancelClicked_m8DE78E8
 
 IL_0019:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:809>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:813>
 		__this->___capturedText = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___capturedText), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:810>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:814>
 		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_3 = __this->___nlInputField;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -12099,7 +12099,7 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:810>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:814>
 		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_5 = __this->___nlInputField;
 		NullCheck(L_5);
 		TMP_InputField_set_text_m684E9CDA2D9E82D1C497B5E03DBE79C00584FF62(L_5, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -12107,7 +12107,7 @@ IL_0019:
 
 IL_0042:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:811>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:815>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_6 = __this->___nlDisplay3D;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -12118,7 +12118,7 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:811>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:815>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_8 = __this->___nlDisplay3D;
 		String_t* L_9 = __this->___nlPlaceholder;
 		NullCheck(L_8);
@@ -12127,13 +12127,13 @@ IL_0042:
 
 IL_0061:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:812>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:816>
 		AnchorInfoPanel_SetSuggestionsExpanded_m4C337F31C197AF9E19277F5BEBD21A9DEFC31D61(__this, (bool)0, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:813>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:817>
 		AnchorInfoPanel_HidePreview_m263A190E804D112BC8EEBF26111310A4FE056830(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:814>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:818>
 		AnchorInfoPanel_UpdateSendButtonAvailability_m42B0FBA6B585A2488B1EA5285FEAE7B36A00A40F(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:815>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:819>
 		return;
 	}
 }
@@ -12141,7 +12141,7 @@ IL_0061:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnCancel3DClicked_mC11467F029C905E1CFFCA7EDC05297EEBB7769BB (AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:816>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:820>
 		AnchorInfoPanel_OnCancelClicked_m8DE78E8EBBC62237261F32E8CF1BCE50F3FFF6D7(__this, NULL);
 		return;
 	}
@@ -12156,7 +12156,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnRawToggle_mCD9F38B0294
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:820>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:824>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___previewRawText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12167,7 +12167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnRawToggle_mCD9F38B0294
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:820>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:824>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___previewRawText;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
@@ -12179,7 +12179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnRawToggle_mCD9F38B0294
 
 IL_001f:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:821>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:825>
 		return;
 	}
 }
@@ -12194,7 +12194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSkillStageChanged_m32F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:828>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:832>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_0 = ___0_s;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___stage;
@@ -12204,7 +12204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSkillStageChanged_m32F
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:828>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:832>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = __this->___clarifyColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteralE69AF3135EC2B6B350F8177E1F43F09BF1D0AB9C, L_2, NULL);
 		goto IL_0036;
@@ -12212,7 +12212,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSkillStageChanged_m32F
 
 IL_001c:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:829>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:833>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_3 = ___0_s;
 		NullCheck(L_3);
 		int32_t L_4 = L_3->___stage;
@@ -12222,16 +12222,16 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:829>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:833>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = __this->___clarifyColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteral25BF0F0A91D23EC074EE996EA9123519B7D4F9AC, L_5, NULL);
 	}
 
 IL_0036:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:830>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:834>
 		AnchorInfoPanel_UpdateSendButtonAvailability_m42B0FBA6B585A2488B1EA5285FEAE7B36A00A40F(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:831>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:835>
 		return;
 	}
 }
@@ -12245,17 +12245,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSkillAwaitingConfirm_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:835>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:839>
 		AnchorInfoPanel_ShowPreview_mAFFCF6891149E0F679E177EEB0CC1A8725A39280(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:836>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:840>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_0 = ___0_s;
 		AnchorInfoPanel_RenderDecision_m855BC9508E46A7D55A63C34584454EBBE31B215C(__this, L_0, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:837>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:841>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = __this->___invokeColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, _stringLiteral76F0C509CEA64BBA74EA07F6771717F4C7CFAE98, L_1, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:838>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:842>
 		AnchorInfoPanel_SetConfirmCancelVisible_m2482E3A94C6D3D367B886768F2AB661C2FDD0F8D(__this, (bool)1, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:839>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:843>
 		return;
 	}
 }
@@ -12275,12 +12275,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSkillRejected_m88E66F0
 	String_t* G_B3_0 = NULL;
 	String_t* G_B6_0 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:843>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:847>
 		AnchorInfoPanel_ShowPreview_mAFFCF6891149E0F679E177EEB0CC1A8725A39280(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:844>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:848>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_0 = ___0_s;
 		AnchorInfoPanel_RenderDecision_m855BC9508E46A7D55A63C34584454EBBE31B215C(__this, L_0, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:845>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:849>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_1 = ___0_s;
 		NullCheck(L_1);
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_2 = L_1->___decision;
@@ -12310,7 +12310,7 @@ IL_001d:
 IL_0028:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:846>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:850>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_8 = ___0_s;
 		NullCheck(L_8);
 		String_t* L_9 = L_8->___decisionId;
@@ -12341,18 +12341,18 @@ IL_003d:
 IL_0052:
 	{
 		V_1 = G_B6_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:847>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:851>
 		String_t* L_15 = V_0;
 		String_t* L_16 = V_1;
 		String_t* L_17;
 		L_17 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral7CE28207A256BFE5B3869E3EE66DB3E203257713, L_15, L_16, NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18 = __this->___clarifyColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, L_17, L_18, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:848>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:852>
 		AnchorInfoPanel_ShowOnlyCancel_m7DE183FCAF944DB5F661B026970E28BA831DDE47(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:849>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:853>
 		AnchorInfoPanel_SetCancelLabelClose_m2630F6DA5A508C2BE96F9D8B6BC18E8F9FE76C0F(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:850>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:854>
 		return;
 	}
 }
@@ -12369,12 +12369,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSkillClarify_m2081D23A
 	String_t* V_0 = NULL;
 	String_t* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:854>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:858>
 		AnchorInfoPanel_ShowPreview_mAFFCF6891149E0F679E177EEB0CC1A8725A39280(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:855>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:859>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_0 = ___0_s;
 		AnchorInfoPanel_RenderDecision_m855BC9508E46A7D55A63C34584454EBBE31B215C(__this, L_0, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:856>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:860>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_1 = ___0_s;
 		NullCheck(L_1);
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_2 = L_1->___decision;
@@ -12401,17 +12401,17 @@ IL_001c:
 IL_0027:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:857>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:861>
 		String_t* L_6 = V_0;
 		String_t* L_7;
 		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral6484901394CBC4E6B2EB8B1177BF1B591DB9ECAC, L_6, NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = __this->___infoColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, L_7, L_8, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:859>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:863>
 		AnchorInfoPanel_ShowOnlyCancel_m7DE183FCAF944DB5F661B026970E28BA831DDE47(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:860>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:864>
 		AnchorInfoPanel_UpdateSendButtonAvailability_m42B0FBA6B585A2488B1EA5285FEAE7B36A00A40F(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:861>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:865>
 		return;
 	}
 }
@@ -12432,10 +12432,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSkillExecuted_mA6A14A2
 	String_t* G_B3_0 = NULL;
 	String_t* G_B6_0 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:866>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:870>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_0 = ___0_s;
 		AnchorInfoPanel_RenderDecision_m855BC9508E46A7D55A63C34584454EBBE31B215C(__this, L_0, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:867>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:871>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_1 = ___0_s;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___anchorTxId;
@@ -12466,7 +12466,7 @@ IL_001b:
 IL_0030:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:868>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:872>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_8 = ___0_s;
 		NullCheck(L_8);
 		String_t* L_9 = L_8->___auditRecordTx;
@@ -12497,7 +12497,7 @@ IL_0045:
 IL_005a:
 	{
 		V_1 = G_B6_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:869>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:873>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_15 = ___0_s;
 		NullCheck(L_15);
 		String_t* L_16 = L_15->___finalState;
@@ -12507,11 +12507,11 @@ IL_005a:
 		L_19 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralD1E19AE8FE2CC56221936BE18597C89BA958EF82, L_16, L_17, L_18, NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20 = __this->___invokeColor;
 		AnchorInfoPanel_ShowStatus_m08341B2EF8F77DEC522578B15016BEB3FF04C1C8(__this, L_19, L_20, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:870>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:874>
 		AnchorInfoPanel_ShowOnlyCancel_m7DE183FCAF944DB5F661B026970E28BA831DDE47(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:871>
-		AnchorInfoPanel_SetCancelLabelClose_m2630F6DA5A508C2BE96F9D8B6BC18E8F9FE76C0F(__this, NULL);
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:875>
+		AnchorInfoPanel_SetCancelLabelClose_m2630F6DA5A508C2BE96F9D8B6BC18E8F9FE76C0F(__this, NULL);
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:879>
 		DepthAnchorInstance_t2A0C29FD20B2FD99207BCD0959BD173B93D6002C* L_21 = __this->___currentAnchor;
 		if (!L_21)
 		{
@@ -12519,14 +12519,14 @@ IL_005a:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:875>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:879>
 		DepthAnchorInstance_t2A0C29FD20B2FD99207BCD0959BD173B93D6002C* L_22 = __this->___currentAnchor;
 		AnchorInfoPanel_UpdateInfo_m1566D8E88463AF650849874E1179CE6953BA8994(__this, L_22, NULL);
 	}
 
 IL_0099:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:876>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:880>
 		return;
 	}
 }
@@ -12554,9 +12554,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_OnSkillError_m5600CDEDD2
 	int32_t G_B6_0 = 0;
 	String_t* G_B12_0 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:880>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:884>
 		AnchorInfoPanel_ShowPreview_mAFFCF6891149E0F679E177EEB0CC1A8725A39280(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:881>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:885>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_0 = ___0_s;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___errorMessage;
@@ -12583,7 +12583,7 @@ IL_001b:
 IL_0020:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:887>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:891>
 		String_t* L_5 = V_0;
 		NullCheck(L_5);
 		bool L_6;
@@ -12609,21 +12609,21 @@ IL_003b:
 
 IL_003c:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:888>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:892>
 		if (!G_B6_0)
 		{
 			goto IL_00bc;
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:890>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:894>
 		String_t* L_9 = V_0;
 		NullCheck(L_9);
 		String_t* L_10;
 		L_10 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_9, _stringLiteral5373A80BB7F96C5141B127E9760A71F257FE9112, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
 		V_1 = L_10;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:891>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:892>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:895>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:896>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_11 = ___0_s;
 		NullCheck(L_11);
 		String_t* L_12 = L_11->___auditRecordTx;
@@ -12678,7 +12678,7 @@ IL_0087:
 IL_009c:
 	{
 		V_2 = G_B12_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:893>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:897>
 		String_t* L_25 = V_1;
 		String_t* L_26 = V_2;
 		String_t* L_27;
@@ -12690,7 +12690,7 @@ IL_009c:
 
 IL_00bc:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:897>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:901>
 		String_t* L_29 = V_0;
 		String_t* L_30;
 		L_30 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralBBF7A38D972F66010E03F23115ECC9FA431F49CE, L_29, NULL);
@@ -12700,11 +12700,11 @@ IL_00bc:
 
 IL_00d3:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:899>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:903>
 		AnchorInfoPanel_ShowOnlyCancel_m7DE183FCAF944DB5F661B026970E28BA831DDE47(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:900>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:904>
 		AnchorInfoPanel_SetCancelLabelClose_m2630F6DA5A508C2BE96F9D8B6BC18E8F9FE76C0F(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:901>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:905>
 		return;
 	}
 }
@@ -12748,12 +12748,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_RenderDecision_m855BC950
 	int32_t G_B28_0 = 0;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* G_B28_1 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:907>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:911>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_0 = ___0_s;
 		NullCheck(L_0);
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_1 = L_0->___decision;
 		V_0 = L_1;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:908>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:912>
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_2 = V_0;
 		if (L_2)
 		{
@@ -12761,13 +12761,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_RenderDecision_m855BC950
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:908>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:912>
 		return;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:911>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:915>
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_3 = V_0;
 		NullCheck(L_3);
 		bool L_4;
@@ -12809,7 +12809,7 @@ IL_002b:
 IL_0031:
 	{
 		V_1 = G_B7_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:914>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:918>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_10 = __this->___previewIntentText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -12820,7 +12820,7 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:916>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:920>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = __this->___previewIntentText;
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_13 = V_0;
 		NullCheck(L_13);
@@ -12853,7 +12853,7 @@ IL_0060:
 	{
 		NullCheck(G_B11_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66, G_B11_1, G_B11_0);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:917>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:921>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_18 = __this->___previewIntentText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19 = V_1;
 		NullCheck(L_18);
@@ -12862,7 +12862,7 @@ IL_0060:
 
 IL_0071:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:919>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:923>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_20 = __this->___previewFunctionText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -12873,7 +12873,7 @@ IL_0071:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:921>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:925>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_22 = __this->___previewFunctionText;
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_23 = V_0;
 		NullCheck(L_23);
@@ -12931,7 +12931,7 @@ IL_00d9:
 	{
 		NullCheck(G_B16_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66, G_B16_1, G_B16_0);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:922>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:926>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_39 = __this->___previewFunctionText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_40 = V_1;
 		NullCheck(L_39);
@@ -12940,7 +12940,7 @@ IL_00d9:
 
 IL_00ea:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:924>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:928>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_41 = __this->___previewArgumentsText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_42;
@@ -12951,7 +12951,7 @@ IL_00ea:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:924>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:928>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_43 = __this->___previewArgumentsText;
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_44 = V_0;
 		String_t* L_45;
@@ -12962,7 +12962,7 @@ IL_00ea:
 
 IL_010a:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:925>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:929>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_46 = __this->___previewReasoningText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_47;
@@ -12973,7 +12973,7 @@ IL_010a:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:926>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:930>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_48 = __this->___previewReasoningText;
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_49 = V_0;
 		NullCheck(L_49);
@@ -13012,7 +13012,7 @@ IL_0147:
 
 IL_014c:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:927>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:931>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_55 = __this->___previewRawText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_56;
@@ -13023,14 +13023,14 @@ IL_014c:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:929>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:933>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_57 = __this->___previewRawText;
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_58 = ___0_s;
 		String_t* L_59;
 		L_59 = AnchorInfoPanel_BuildRawProvenance_m37345F9610EFA4730EC292C0CA5879A5AB16B303(__this, L_58, NULL);
 		NullCheck(L_57);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_57, L_59);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:930>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:934>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_60 = __this->___previewRawText;
 		NullCheck(L_60);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_61;
@@ -13070,7 +13070,7 @@ IL_0193:
 
 IL_0198:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:934>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:938>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_66 = __this->___previewBody3D;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_67;
@@ -13081,7 +13081,7 @@ IL_0198:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:935>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:939>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_68 = __this->___previewBody3D;
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_69 = ___0_s;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_70 = V_1;
@@ -13093,7 +13093,7 @@ IL_0198:
 
 IL_01b9:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:936>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:940>
 		return;
 	}
 }
@@ -13122,12 +13122,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_BuildDecisionBlock_
 	String_t* V_1 = NULL;
 	String_t* V_2 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:944>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:948>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_0 = ___0_s;
 		NullCheck(L_0);
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_1 = L_0->___decision;
 		V_0 = L_1;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:945>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:949>
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_2 = V_0;
 		if (L_2)
 		{
@@ -13135,18 +13135,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_BuildDecisionBlock_
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:945>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:949>
 		return _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:946>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:950>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___1_typeColor;
 		String_t* L_4;
 		L_4 = ColorUtility_ToHtmlStringRGB_m50D59301FF2736B78C95C1FD5619D429358B7433(L_3, NULL);
 		V_1 = L_4;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:950>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:954>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = L_5;
 		NullCheck(L_6);
@@ -13170,7 +13170,7 @@ IL_0010:
 		String_t* L_14;
 		L_14 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_13, NULL);
 		V_2 = L_14;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:951>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:955>
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_15 = V_0;
 		NullCheck(L_15);
 		bool L_16;
@@ -13192,7 +13192,7 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:952>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:956>
 		String_t* L_20 = V_2;
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_21 = V_0;
 		NullCheck(L_21);
@@ -13204,7 +13204,7 @@ IL_0010:
 
 IL_006f:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:955>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:959>
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_24 = V_0;
 		NullCheck(L_24);
 		bool L_25;
@@ -13226,7 +13226,7 @@ IL_006f:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:956>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:960>
 		String_t* L_29 = V_2;
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_30 = V_0;
 		NullCheck(L_30);
@@ -13238,7 +13238,7 @@ IL_006f:
 
 IL_0096:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:959>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:963>
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_33 = V_0;
 		NullCheck(L_33);
 		bool L_34;
@@ -13260,7 +13260,7 @@ IL_0096:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:960>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:964>
 		String_t* L_38 = V_2;
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_39 = V_0;
 		NullCheck(L_39);
@@ -13272,7 +13272,7 @@ IL_0096:
 
 IL_00bd:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:963>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:967>
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_42 = V_0;
 		NullCheck(L_42);
 		bool L_43;
@@ -13283,7 +13283,7 @@ IL_00bd:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:964>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:968>
 		String_t* L_44 = V_2;
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_45 = V_0;
 		String_t* L_46;
@@ -13295,7 +13295,7 @@ IL_00bd:
 
 IL_00d8:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:967>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:971>
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_48 = V_0;
 		NullCheck(L_48);
 		String_t* L_49 = L_48->___policyReasoning;
@@ -13307,7 +13307,7 @@ IL_00d8:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:968>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:972>
 		String_t* L_51 = V_2;
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_52 = V_0;
 		NullCheck(L_52);
@@ -13319,7 +13319,7 @@ IL_00d8:
 
 IL_00fc:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:971>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:975>
 		String_t* L_55 = V_2;
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_56 = ___0_s;
 		String_t* L_57;
@@ -13327,7 +13327,7 @@ IL_00fc:
 		String_t* L_58;
 		L_58 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_55, _stringLiteralE8352CB7F718A428D69E810D579157F6960EE353, L_57, _stringLiteralE173C44FAB53D83804FCEDDCA23BF119CE5B714E, NULL);
 		V_2 = L_58;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:973>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:977>
 		String_t* L_59 = V_2;
 		return L_59;
 	}
@@ -13360,47 +13360,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_FormatArgumentsLine
 	memset((&V_0), 0, sizeof(V_0));
 	SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* V_1 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:980>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:984>
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_0 = ___0_d;
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_1;
 		L_1 = SkillGatewayClient_ParseArguments_m70514D72492401C49B0B54583FDEFCEAC8ABF317(L_0, NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:981>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:985>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_2 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_2, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		(&V_0)->___lines = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___lines), (void*)L_2);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:984>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:988>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_3 = V_1;
 		NullCheck(L_3);
 		String_t* L_4 = L_3->___assetId;
 		AnchorInfoPanel_U3CFormatArgumentsLinesU3Eg__addU7C128_0_m739123D34CF7720947BE0C210C9305F5DD319868(_stringLiteralCBA26BD5EFCAE4E3677A7851C1EB5447ED7C26A3, L_4, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:985>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:989>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_5 = V_1;
 		NullCheck(L_5);
 		String_t* L_6 = L_5->___poseHash;
 		AnchorInfoPanel_U3CFormatArgumentsLinesU3Eg__addU7C128_0_m739123D34CF7720947BE0C210C9305F5DD319868(_stringLiteral95C2EB21AD573602595844F9EED999B9531DE628, L_6, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:986>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:990>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_7 = V_1;
 		NullCheck(L_7);
 		String_t* L_8 = L_7->___metadataHash;
 		AnchorInfoPanel_U3CFormatArgumentsLinesU3Eg__addU7C128_0_m739123D34CF7720947BE0C210C9305F5DD319868(_stringLiteral161771F6FDD729252E13533EB844960CF1C3DF11, L_8, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:987>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:991>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_9 = V_1;
 		NullCheck(L_9);
 		String_t* L_10 = L_9->___reason;
 		AnchorInfoPanel_U3CFormatArgumentsLinesU3Eg__addU7C128_0_m739123D34CF7720947BE0C210C9305F5DD319868(_stringLiteral012A18907B249DF0954BFA806717C2FD7DDB76F9, L_10, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:988>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:992>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_11 = V_1;
 		NullCheck(L_11);
 		String_t* L_12 = L_11->___note;
 		AnchorInfoPanel_U3CFormatArgumentsLinesU3Eg__addU7C128_0_m739123D34CF7720947BE0C210C9305F5DD319868(_stringLiteral776029F0AF2443F61702EC69FEB62D9A8FC1FE34, L_12, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:989>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:993>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_13 = V_1;
 		NullCheck(L_13);
 		String_t* L_14 = L_13->___description;
 		AnchorInfoPanel_U3CFormatArgumentsLinesU3Eg__addU7C128_0_m739123D34CF7720947BE0C210C9305F5DD319868(_stringLiteralEB534843932D1025EEE09575458F840C63DC1063, L_14, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:990>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:994>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_15 = V_1;
 		NullCheck(L_15);
 		float L_16 = L_15->___confidence;
@@ -13410,7 +13410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_FormatArgumentsLine
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:990>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:994>
 		U3CU3Ec__DisplayClass128_0_tB9365480A6BD92D7B261BF774C5ED907EAF6B930 L_17 = V_0;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_18 = L_17.___lines;
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_19 = V_1;
@@ -13426,7 +13426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_FormatArgumentsLine
 
 IL_00ac:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:991>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:995>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_24 = V_1;
 		NullCheck(L_24);
 		int32_t L_25 = L_24->___sourceFrameId;
@@ -13436,7 +13436,7 @@ IL_00ac:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:991>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:995>
 		U3CU3Ec__DisplayClass128_0_tB9365480A6BD92D7B261BF774C5ED907EAF6B930 L_26 = V_0;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_27 = L_26.___lines;
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_28 = V_1;
@@ -13452,7 +13452,7 @@ IL_00ac:
 
 IL_00d5:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:992>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:996>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_33 = V_1;
 		NullCheck(L_33);
 		int32_t L_34 = L_33->___limit;
@@ -13462,7 +13462,7 @@ IL_00d5:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:992>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:996>
 		U3CU3Ec__DisplayClass128_0_tB9365480A6BD92D7B261BF774C5ED907EAF6B930 L_35 = V_0;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_36 = L_35.___lines;
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_37 = V_1;
@@ -13478,12 +13478,12 @@ IL_00d5:
 
 IL_00fe:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:993>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:997>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_42 = V_1;
 		NullCheck(L_42);
 		String_t* L_43 = L_42->___cursor;
 		AnchorInfoPanel_U3CFormatArgumentsLinesU3Eg__addU7C128_0_m739123D34CF7720947BE0C210C9305F5DD319868(_stringLiteral8E08C8EDF9C6C7488563F982040DEAEC05EB9064, L_43, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:995>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:999>
 		U3CU3Ec__DisplayClass128_0_tB9365480A6BD92D7B261BF774C5ED907EAF6B930 L_44 = V_0;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_45 = L_44.___lines;
 		NullCheck(L_45);
@@ -13495,13 +13495,13 @@ IL_00fe:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:995>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:999>
 		return _stringLiteral239D4D5F5145E8EA3880557B80E32A9F6AF9EDA1;
 	}
 
 IL_0123:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:996>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1000>
 		U3CU3Ec__DisplayClass128_0_tB9365480A6BD92D7B261BF774C5ED907EAF6B930 L_47 = V_0;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_48 = L_47.___lines;
 		String_t* L_49;
@@ -13533,12 +13533,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_BuildProvenanceLine
 	String_t* G_B8_0 = NULL;
 	String_t* G_B8_1 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1003>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1007>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_0 = ___0_s;
 		NullCheck(L_0);
 		SkillAudit_t5DED8DCBFB5A439A27799D521318F60139DCB08B* L_1 = L_0->___audit;
 		V_0 = L_1;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1004>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1008>
 		SkillAudit_t5DED8DCBFB5A439A27799D521318F60139DCB08B* L_2 = V_0;
 		if (!L_2)
 		{
@@ -13573,7 +13573,7 @@ IL_001e:
 
 IL_0024:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1005>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1009>
 		SkillAudit_t5DED8DCBFB5A439A27799D521318F60139DCB08B* L_8 = V_0;
 		if (!L_8)
 		{
@@ -13615,12 +13615,12 @@ IL_003b:
 IL_0041:
 	{
 		V_1 = G_B8_0;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1006>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1010>
 		String_t* L_14 = V_1;
 		String_t* L_15;
 		L_15 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(G_B8_1, _stringLiteral8ADB23C6A87F61A7AD2AF763C381746BCD576FF0, L_14, NULL);
 		V_2 = L_15;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1007>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1011>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_16 = ___0_s;
 		NullCheck(L_16);
 		String_t* L_17 = L_16->___decisionId;
@@ -13632,7 +13632,7 @@ IL_0041:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1007>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1011>
 		String_t* L_19 = V_2;
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_20 = ___0_s;
 		NullCheck(L_20);
@@ -13644,7 +13644,7 @@ IL_0041:
 
 IL_006d:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1008>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1012>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_23 = ___0_s;
 		NullCheck(L_23);
 		String_t* L_24 = L_23->___anchorTxId;
@@ -13656,7 +13656,7 @@ IL_006d:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1008>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1012>
 		String_t* L_26 = V_2;
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_27 = ___0_s;
 		NullCheck(L_27);
@@ -13670,7 +13670,7 @@ IL_006d:
 
 IL_0091:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1009>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1013>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_31 = ___0_s;
 		NullCheck(L_31);
 		String_t* L_32 = L_31->___auditRecordTx;
@@ -13682,7 +13682,7 @@ IL_0091:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1009>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1013>
 		String_t* L_34 = V_2;
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_35 = ___0_s;
 		NullCheck(L_35);
@@ -13696,7 +13696,7 @@ IL_0091:
 
 IL_00b5:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1010>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1014>
 		String_t* L_39 = V_2;
 		return L_39;
 	}
@@ -13730,47 +13730,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_FormatArguments_mCE
 	memset((&V_0), 0, sizeof(V_0));
 	SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* V_1 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1016>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1020>
 		SkillDecision_tA617DAE48A1C09C27CE8558D73167DBF676E0D5E* L_0 = ___0_d;
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_1;
 		L_1 = SkillGatewayClient_ParseArguments_m70514D72492401C49B0B54583FDEFCEAC8ABF317(L_0, NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1017>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1021>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_2 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_2, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		(&V_0)->___lines = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___lines), (void*)L_2);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1021>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1025>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_3 = V_1;
 		NullCheck(L_3);
 		String_t* L_4 = L_3->___assetId;
 		AnchorInfoPanel_U3CFormatArgumentsU3Eg__addU7C130_0_m9FCA4BEAD2FEE4D50F103A69290CF0D0490BA83D(_stringLiteralCBA26BD5EFCAE4E3677A7851C1EB5447ED7C26A3, L_4, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1022>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1026>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_5 = V_1;
 		NullCheck(L_5);
 		String_t* L_6 = L_5->___poseHash;
 		AnchorInfoPanel_U3CFormatArgumentsU3Eg__addU7C130_0_m9FCA4BEAD2FEE4D50F103A69290CF0D0490BA83D(_stringLiteral95C2EB21AD573602595844F9EED999B9531DE628, L_6, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1023>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1027>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_7 = V_1;
 		NullCheck(L_7);
 		String_t* L_8 = L_7->___metadataHash;
 		AnchorInfoPanel_U3CFormatArgumentsU3Eg__addU7C130_0_m9FCA4BEAD2FEE4D50F103A69290CF0D0490BA83D(_stringLiteral161771F6FDD729252E13533EB844960CF1C3DF11, L_8, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1024>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1028>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_9 = V_1;
 		NullCheck(L_9);
 		String_t* L_10 = L_9->___reason;
 		AnchorInfoPanel_U3CFormatArgumentsU3Eg__addU7C130_0_m9FCA4BEAD2FEE4D50F103A69290CF0D0490BA83D(_stringLiteral012A18907B249DF0954BFA806717C2FD7DDB76F9, L_10, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1025>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1029>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_11 = V_1;
 		NullCheck(L_11);
 		String_t* L_12 = L_11->___note;
 		AnchorInfoPanel_U3CFormatArgumentsU3Eg__addU7C130_0_m9FCA4BEAD2FEE4D50F103A69290CF0D0490BA83D(_stringLiteral776029F0AF2443F61702EC69FEB62D9A8FC1FE34, L_12, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1026>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1030>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_13 = V_1;
 		NullCheck(L_13);
 		String_t* L_14 = L_13->___description;
 		AnchorInfoPanel_U3CFormatArgumentsU3Eg__addU7C130_0_m9FCA4BEAD2FEE4D50F103A69290CF0D0490BA83D(_stringLiteralEB534843932D1025EEE09575458F840C63DC1063, L_14, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1027>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1031>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_15 = V_1;
 		NullCheck(L_15);
 		float L_16 = L_15->___confidence;
@@ -13780,7 +13780,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_FormatArguments_mCE
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1027>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1031>
 		U3CU3Ec__DisplayClass130_0_t857209627DCF7D5CC60843A50B3466BE30345096 L_17 = V_0;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_18 = L_17.___lines;
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_19 = V_1;
@@ -13796,7 +13796,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_FormatArguments_mCE
 
 IL_00ac:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1028>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1032>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_24 = V_1;
 		NullCheck(L_24);
 		int32_t L_25 = L_24->___sourceFrameId;
@@ -13806,7 +13806,7 @@ IL_00ac:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1028>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1032>
 		U3CU3Ec__DisplayClass130_0_t857209627DCF7D5CC60843A50B3466BE30345096 L_26 = V_0;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_27 = L_26.___lines;
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_28 = V_1;
@@ -13822,7 +13822,7 @@ IL_00ac:
 
 IL_00d5:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1029>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1033>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_33 = V_1;
 		NullCheck(L_33);
 		int32_t L_34 = L_33->___limit;
@@ -13832,7 +13832,7 @@ IL_00d5:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1029>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1033>
 		U3CU3Ec__DisplayClass130_0_t857209627DCF7D5CC60843A50B3466BE30345096 L_35 = V_0;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_36 = L_35.___lines;
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_37 = V_1;
@@ -13848,12 +13848,12 @@ IL_00d5:
 
 IL_00fe:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1030>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1034>
 		SkillArguments_t550EFEEAB1A17A79AEA9260700765C0E64EEBF59* L_42 = V_1;
 		NullCheck(L_42);
 		String_t* L_43 = L_42->___cursor;
 		AnchorInfoPanel_U3CFormatArgumentsU3Eg__addU7C130_0_m9FCA4BEAD2FEE4D50F103A69290CF0D0490BA83D(_stringLiteral8E08C8EDF9C6C7488563F982040DEAEC05EB9064, L_43, (&V_0), NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1032>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1036>
 		U3CU3Ec__DisplayClass130_0_t857209627DCF7D5CC60843A50B3466BE30345096 L_44 = V_0;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_45 = L_44.___lines;
 		NullCheck(L_45);
@@ -13865,13 +13865,13 @@ IL_00fe:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1032>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1036>
 		return _stringLiteralCD5E7101535C56EFC948BA5F852DD210AECE635A;
 	}
 
 IL_0123:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1033>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1037>
 		U3CU3Ec__DisplayClass130_0_t857209627DCF7D5CC60843A50B3466BE30345096 L_47 = V_0;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_48 = L_47.___lines;
 		String_t* L_49;
@@ -13939,12 +13939,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_BuildRawProvenance_
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B11_2 = NULL;
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B11_3 = NULL;
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1039>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1043>
 		SkillDecisionState_t045640DBD83BDB06129B6D7A2F478333C5F5FADC* L_0 = ___0_s;
 		NullCheck(L_0);
 		SkillAudit_t5DED8DCBFB5A439A27799D521318F60139DCB08B* L_1 = L_0->___audit;
 		V_0 = L_1;
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1040>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1044>
 		SkillAudit_t5DED8DCBFB5A439A27799D521318F60139DCB08B* L_2 = V_0;
 		if (L_2)
 		{
@@ -13952,16 +13952,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_BuildRawProvenance_
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1040>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1044>
 		return _stringLiteralDFA2640DF9664A9912E139A00C292DEE906AD65A;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1041>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1042>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1043>
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1044>
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1045>
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1046>
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1047>
@@ -13973,6 +13969,10 @@ IL_0010:
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1053>
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1054>
 		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1055>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1056>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1057>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1058>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1059>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)24));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
 		NullCheck(L_4);
@@ -14234,7 +14234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_Short_mD08E0A5413A1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1060>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1064>
 		String_t* L_0 = ___0_h;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -14244,13 +14244,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_Short_mD08E0A5413A1
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1060>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1064>
 		return _stringLiteral9D254E50F4DE5BE7CA9E72BD2F890B87F910B88B;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1061>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1065>
 		String_t* L_2 = ___0_h;
 		NullCheck(L_2);
 		int32_t L_3;
@@ -14286,7 +14286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ShowPreview_mAFFCF689114
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1068>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1072>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___decisionPreviewRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14297,7 +14297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ShowPreview_mAFFCF689114
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1068>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1072>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___decisionPreviewRoot;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
@@ -14305,7 +14305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ShowPreview_mAFFCF689114
 
 IL_001a:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1069>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1073>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___preview3DRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -14316,7 +14316,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1069>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1073>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___preview3DRoot;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
@@ -14324,7 +14324,7 @@ IL_001a:
 
 IL_0034:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1070>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1074>
 		return;
 	}
 }
@@ -14338,7 +14338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_HidePreview_m263A190E804
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1074>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1078>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___decisionPreviewRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14349,7 +14349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_HidePreview_m263A190E804
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1074>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1078>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___decisionPreviewRoot;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
@@ -14357,7 +14357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_HidePreview_m263A190E804
 
 IL_001a:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1075>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1079>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___preview3DRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -14368,7 +14368,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1075>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1079>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___preview3DRoot;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
@@ -14376,9 +14376,89 @@ IL_001a:
 
 IL_0034:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1076>
-		AnchorInfoPanel_SetConfirmCancelVisible_m2482E3A94C6D3D367B886768F2AB661C2FDD0F8D(__this, (bool)0, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1077>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1081>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___cancelButton;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1081>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = __this->___cancelButton;
+		NullCheck(L_8);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
+		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_8, NULL);
+		NullCheck(L_9);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
+	}
+
+IL_0053:
+	{
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1082>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___cancelButton3DRoot;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_11)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1082>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___cancelButton3DRoot;
+		NullCheck(L_12);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+	}
+
+IL_006d:
+	{
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1083>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_13 = __this->___confirmButton;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_14)
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1083>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_15 = __this->___confirmButton;
+		NullCheck(L_15);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
+		L_16 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_15, NULL);
+		NullCheck(L_16);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
+	}
+
+IL_008c:
+	{
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1084>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___confirmButton3DRoot;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_18;
+		L_18 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_17, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_18)
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1084>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___confirmButton3DRoot;
+		NullCheck(L_19);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)1, NULL);
+	}
+
+IL_00a6:
+	{
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1085>
 		return;
 	}
 }
@@ -14392,7 +14472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ShowStatus_m08341B2EF8F7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1081>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1089>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___previewStatusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14403,12 +14483,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ShowStatus_m08341B2EF8F7
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1081>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1089>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___previewStatusText;
 		String_t* L_3 = ___0_msg;
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, L_3);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1081>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1089>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = __this->___previewStatusText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = ___1_c;
 		NullCheck(L_4);
@@ -14417,7 +14497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ShowStatus_m08341B2EF8F7
 
 IL_0026:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1082>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1090>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_6 = __this->___previewStatus3D;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -14428,12 +14508,12 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1082>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1090>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_8 = __this->___previewStatus3D;
 		String_t* L_9 = ___0_msg;
 		NullCheck(L_8);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_8, L_9);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1082>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1090>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_10 = __this->___previewStatus3D;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11 = ___1_c;
 		NullCheck(L_10);
@@ -14442,7 +14522,7 @@ IL_0026:
 
 IL_004c:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1083>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1091>
 		return;
 	}
 }
@@ -14457,7 +14537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ClearDecisionFields_m6CC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1087>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1095>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___previewIntentText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14468,7 +14548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ClearDecisionFields_m6CC
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1087>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1095>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___previewIntentText;
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -14476,7 +14556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ClearDecisionFields_m6CC
 
 IL_001e:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1088>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1096>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_3 = __this->___previewFunctionText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -14487,7 +14567,7 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1088>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1096>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = __this->___previewFunctionText;
 		NullCheck(L_5);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -14495,7 +14575,7 @@ IL_001e:
 
 IL_003c:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1089>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1097>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_6 = __this->___previewArgumentsText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -14506,7 +14586,7 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1089>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1097>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_8 = __this->___previewArgumentsText;
 		NullCheck(L_8);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_8, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -14514,7 +14594,7 @@ IL_003c:
 
 IL_005a:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1090>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1098>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___previewReasoningText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -14525,7 +14605,7 @@ IL_005a:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1090>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1098>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_11 = __this->___previewReasoningText;
 		NullCheck(L_11);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_11, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -14533,7 +14613,7 @@ IL_005a:
 
 IL_0078:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1091>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1099>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = __this->___previewRawText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -14544,7 +14624,7 @@ IL_0078:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1091>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1099>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_14 = __this->___previewRawText;
 		NullCheck(L_14);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -14552,7 +14632,7 @@ IL_0078:
 
 IL_0096:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1092>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1100>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_15 = __this->___previewBody3D;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -14563,7 +14643,7 @@ IL_0096:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1092>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1100>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_17 = __this->___previewBody3D;
 		NullCheck(L_17);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_17, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -14571,7 +14651,7 @@ IL_0096:
 
 IL_00b4:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1093>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1101>
 		return;
 	}
 }
@@ -14587,7 +14667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SetConfirmCancelVisible_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1099>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1108>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___confirmButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14598,156 +14678,154 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SetConfirmCancelVisible_
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1099>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1108>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___confirmButton;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
-		bool L_4 = ___0_showConfirm;
 		NullCheck(L_3);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, L_4, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1100>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___cancelButton;
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1109>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___cancelButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_6;
-		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_6)
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1100>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->___cancelButton;
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1109>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___cancelButton;
+		NullCheck(L_6);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		NullCheck(L_7);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
-		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
-		NullCheck(L_8);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
 	}
 
 IL_003e:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1101>
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___cancelButtonText;
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1110>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_8 = __this->___cancelButtonText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_10;
-		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_10)
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
 		{
 			goto IL_005c;
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1101>
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_11 = __this->___cancelButtonText;
-		NullCheck(L_11);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_11, _stringLiteral93717CD8FCD45BAB4F15D3BACC989A6A93BA2674);
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1110>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_10 = __this->___cancelButtonText;
+		NullCheck(L_10);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_10, _stringLiteral93717CD8FCD45BAB4F15D3BACC989A6A93BA2674);
 	}
 
 IL_005c:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1102>
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = __this->___confirmButtonText;
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1111>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_11 = __this->___confirmButtonText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_13;
-		L_13 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_13)
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
 		{
 			goto IL_007a;
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1102>
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_14 = __this->___confirmButtonText;
-		NullCheck(L_14);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, _stringLiteral395C75DAFC96AE1C9B89E497397FF16296D6A49E);
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1111>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_13 = __this->___confirmButtonText;
+		NullCheck(L_13);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, _stringLiteral395C75DAFC96AE1C9B89E497397FF16296D6A49E);
 	}
 
 IL_007a:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1105>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___confirmButton3DRoot;
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1114>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___confirmButton3DRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_16;
-		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_16)
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_15)
 		{
 			goto IL_0094;
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1105>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___confirmButton3DRoot;
-		bool L_18 = ___0_showConfirm;
-		NullCheck(L_17);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, L_18, NULL);
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1114>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___confirmButton3DRoot;
+		NullCheck(L_16);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
 	}
 
 IL_0094:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1106>
-		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_19 = __this->___confirmButton3DText;
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1115>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_17 = __this->___confirmButton3DText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_20;
-		L_20 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_19, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_20)
+		bool L_18;
+		L_18 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_17, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_18)
 		{
 			goto IL_00b2;
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1106>
-		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_21 = __this->___confirmButton3DText;
-		NullCheck(L_21);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_21, _stringLiteral395C75DAFC96AE1C9B89E497397FF16296D6A49E);
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1115>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_19 = __this->___confirmButton3DText;
+		NullCheck(L_19);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_19, _stringLiteral395C75DAFC96AE1C9B89E497397FF16296D6A49E);
 	}
 
 IL_00b2:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1107>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___cancelButton3DRoot;
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1116>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___cancelButton3DRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_23;
-		L_23 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_22, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_23)
+		bool L_21;
+		L_21 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_20, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_21)
 		{
 			goto IL_00cc;
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1107>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->___cancelButton3DRoot;
-		NullCheck(L_24);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_24, (bool)1, NULL);
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1116>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___cancelButton3DRoot;
+		NullCheck(L_22);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_22, (bool)1, NULL);
 	}
 
 IL_00cc:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1108>
-		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_25 = __this->___cancelButton3DText;
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1117>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_23 = __this->___cancelButton3DText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_26;
-		L_26 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_25, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_26)
+		bool L_24;
+		L_24 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_23, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_24)
 		{
 			goto IL_00ea;
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1108>
-		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_27 = __this->___cancelButton3DText;
-		NullCheck(L_27);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_27, _stringLiteral93717CD8FCD45BAB4F15D3BACC989A6A93BA2674);
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1117>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_25 = __this->___cancelButton3DText;
+		NullCheck(L_25);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, _stringLiteral93717CD8FCD45BAB4F15D3BACC989A6A93BA2674);
 	}
 
 IL_00ea:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1109>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1118>
 		return;
 	}
 }
@@ -14761,7 +14839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ShowOnlyCancel_m7DE183FC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1113>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1124>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___confirmButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14772,18 +14850,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_ShowOnlyCancel_m7DE183FC
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1113>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1124>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___confirmButton;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1114>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1125>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___cancelButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -14794,7 +14872,7 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1114>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1125>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___cancelButton;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
@@ -14805,7 +14883,7 @@ IL_001f:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1115>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1126>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___confirmButton3DRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -14816,15 +14894,15 @@ IL_003e:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1115>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1126>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___confirmButton3DRoot;
 		NullCheck(L_10);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)1, NULL);
 	}
 
 IL_0058:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1116>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1127>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___cancelButton3DRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -14835,7 +14913,7 @@ IL_0058:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1116>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1127>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___cancelButton3DRoot;
 		NullCheck(L_13);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)1, NULL);
@@ -14843,7 +14921,7 @@ IL_0058:
 
 IL_0072:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1117>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1128>
 		return;
 	}
 }
@@ -14858,7 +14936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SetCancelLabelClose_m263
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1121>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1132>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___cancelButtonText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14869,7 +14947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SetCancelLabelClose_m263
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1121>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1132>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___cancelButtonText;
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, _stringLiteral6CE02DBF10772951A436ED08602B6C21AF7A06F2);
@@ -14877,7 +14955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_SetCancelLabelClose_m263
 
 IL_001e:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1122>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1133>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_3 = __this->___cancelButton3DText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -14888,7 +14966,7 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1122>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1133>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_5 = __this->___cancelButton3DText;
 		NullCheck(L_5);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, _stringLiteral6CE02DBF10772951A436ED08602B6C21AF7A06F2);
@@ -14896,7 +14974,7 @@ IL_001e:
 
 IL_003c:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1123>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1134>
 		return;
 	}
 }
@@ -14904,7 +14982,7 @@ IL_003c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DepthAnchorInstance_t2A0C29FD20B2FD99207BCD0959BD173B93D6002C* AnchorInfoPanel_GetCurrentAnchor_m6D9952ABD283BD0E744B78D0524F127A14D3AA4A (AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1129>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1140>
 		DepthAnchorInstance_t2A0C29FD20B2FD99207BCD0959BD173B93D6002C* L_0 = __this->___currentAnchor;
 		return L_0;
 	}
@@ -14913,7 +14991,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DepthAnchorInstance_t2A0C29FD20B2FD99207BCD09
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnchorInfoPanel_GetCurrentAssetId_m1AD7D446CF993224E326BEAC853B69C52072E3E1 (AnchorInfoPanel_tC55AAA92DD93D44CB8247109EED083751083FB6D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1130>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1141>
 		String_t* L_0 = __this->___currentAssetId;
 		return L_0;
 	}
@@ -14930,13 +15008,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_Clear_m5608983B27663AB96
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1134>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1145>
 		__this->___currentAnchor = (DepthAnchorInstance_t2A0C29FD20B2FD99207BCD0959BD173B93D6002C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentAnchor), (void*)(DepthAnchorInstance_t2A0C29FD20B2FD99207BCD0959BD173B93D6002C*)NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1135>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1146>
 		__this->___currentAssetId = (String_t*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentAssetId), (void*)(String_t*)NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1136>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1147>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_0 = __this->___titleText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14947,7 +15025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_Clear_m5608983B27663AB96
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1136>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1147>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_2 = __this->___titleText;
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -14955,7 +15033,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_Clear_m5608983B27663AB96
 
 IL_002c:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1137>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1148>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_3 = __this->___bodyText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -14966,7 +15044,7 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1137>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1148>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_5 = __this->___bodyText;
 		NullCheck(L_5);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -14974,7 +15052,7 @@ IL_002c:
 
 IL_004a:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1138>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1149>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_6 = __this->___idText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -14985,7 +15063,7 @@ IL_004a:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1138>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1149>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_8 = __this->___idText;
 		NullCheck(L_8);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_8, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -14993,7 +15071,7 @@ IL_004a:
 
 IL_0068:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1139>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1150>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_9 = __this->___confidenceText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -15004,7 +15082,7 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1139>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1150>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_11 = __this->___confidenceText;
 		NullCheck(L_11);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_11, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -15012,7 +15090,7 @@ IL_0068:
 
 IL_0086:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1140>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1151>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_12 = __this->___stateText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -15023,7 +15101,7 @@ IL_0086:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1140>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1151>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_14 = __this->___stateText;
 		NullCheck(L_14);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -15031,7 +15109,7 @@ IL_0086:
 
 IL_00a4:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1141>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1152>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_15 = __this->___positionText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -15042,7 +15120,7 @@ IL_00a4:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1141>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1152>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_17 = __this->___positionText;
 		NullCheck(L_17);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_17, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -15050,7 +15128,7 @@ IL_00a4:
 
 IL_00c2:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1142>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1153>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_18 = __this->___tagIdText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_19;
@@ -15061,7 +15139,7 @@ IL_00c2:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1142>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1153>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_20 = __this->___tagIdText;
 		NullCheck(L_20);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_20, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -15069,7 +15147,7 @@ IL_00c2:
 
 IL_00e0:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1143>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1154>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_21 = __this->___assetIdText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_22;
@@ -15080,7 +15158,7 @@ IL_00e0:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1143>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1154>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_23 = __this->___assetIdText;
 		NullCheck(L_23);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_23, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -15088,7 +15166,7 @@ IL_00e0:
 
 IL_00fe:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1144>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1155>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_24 = __this->___registryStatusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_25;
@@ -15099,7 +15177,7 @@ IL_00fe:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1144>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1155>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_26 = __this->___registryStatusText;
 		NullCheck(L_26);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_26, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -15107,7 +15185,7 @@ IL_00fe:
 
 IL_011c:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1145>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1156>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_27 = __this->___claimIdText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_28;
@@ -15118,7 +15196,7 @@ IL_011c:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1145>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1156>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_29 = __this->___claimIdText;
 		NullCheck(L_29);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_29, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -15126,7 +15204,7 @@ IL_011c:
 
 IL_013a:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1146>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1157>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_30 = __this->___proposeButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_31;
@@ -15137,7 +15215,7 @@ IL_013a:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1146>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1157>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_32 = __this->___proposeButton;
 		NullCheck(L_32);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_32, (bool)0, NULL);
@@ -15145,7 +15223,7 @@ IL_013a:
 
 IL_0154:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1147>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1158>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_33 = __this->___proposeButtonText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_34;
@@ -15156,7 +15234,7 @@ IL_0154:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1147>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1158>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_35 = __this->___proposeButtonText;
 		NullCheck(L_35);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_35, _stringLiteralAFC4E78578F4C4B42B2D9AF8B7C930765E2B3E3E);
@@ -15164,7 +15242,7 @@ IL_0154:
 
 IL_0172:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1149>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1160>
 		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_36 = __this->___nlInputField;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_37;
@@ -15175,7 +15253,7 @@ IL_0172:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1149>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1160>
 		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_38 = __this->___nlInputField;
 		NullCheck(L_38);
 		TMP_InputField_set_text_m684E9CDA2D9E82D1C497B5E03DBE79C00584FF62(L_38, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -15183,7 +15261,7 @@ IL_0172:
 
 IL_0190:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1150>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1161>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_39 = __this->___skillFlow;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_40;
@@ -15194,7 +15272,7 @@ IL_0190:
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1150>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1161>
 		SkillFlowController_t451D3F58F813450939A7A3ABCB9AB91499F1276E* L_41 = __this->___skillFlow;
 		NullCheck(L_41);
 		SkillFlowController_ResetFlow_mEAA203BBAA2173ACFD6C2F2C5CD851E2F7D27ECB(L_41, NULL);
@@ -15202,11 +15280,11 @@ IL_0190:
 
 IL_01a9:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1151>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1162>
 		AnchorInfoPanel_SetSuggestionsExpanded_m4C337F31C197AF9E19277F5BEBD21A9DEFC31D61(__this, (bool)0, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1152>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1163>
 		AnchorInfoPanel_HidePreview_m263A190E804D112BC8EEBF26111310A4FE056830(__this, NULL);
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1153>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1164>
 		return;
 	}
 }
@@ -15331,7 +15409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_U3CFormatArgumentsLinesU
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:982>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:986>
 		String_t* L_0 = ___1_v;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -15341,7 +15419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_U3CFormatArgumentsLinesU
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:982>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:986>
 		U3CU3Ec__DisplayClass128_0_tB9365480A6BD92D7B261BF774C5ED907EAF6B930* L_2 = ___2_p;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = L_2->___lines;
 		String_t* L_4 = ___0_k;
@@ -15354,7 +15432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_U3CFormatArgumentsLinesU
 
 IL_0024:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:982>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:986>
 		return;
 	}
 }
@@ -15370,7 +15448,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_U3CFormatArgumentsU3Eg__
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1019>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1023>
 		String_t* L_0 = ___1_v;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -15380,7 +15458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_U3CFormatArgumentsU3Eg__
 		}
 	}
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1019>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1023>
 		U3CU3Ec__DisplayClass130_0_t857209627DCF7D5CC60843A50B3466BE30345096* L_2 = ___2_p;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = L_2->___lines;
 		String_t* L_4 = ___0_k;
@@ -15393,7 +15471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorInfoPanel_U3CFormatArgumentsU3Eg__
 
 IL_0024:
 	{
-		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1019>
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/Anchoring/AnchorInfoPanel.cs:1023>
 		return;
 	}
 }
@@ -26660,7 +26738,7 @@ IL_001b:
 		return L_6;
 	}
 }
-// Method Definition Index: 105100
+// Method Definition Index: 105102
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26814,7 +26892,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* TMP_InputField_get_text
 		return L_0;
 	}
 }
-// Method Definition Index: 106342
+// Method Definition Index: 106344
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Toggle_get_isOn_m89A609E936CD67F460E336CA8E03C4047BFB6619_inline (Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27117,7 +27195,7 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 99991
+// Method Definition Index: 99993
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* WebCamTextureManager_get_WebCamTexture_m4C964E06941EEA90515B8D550504D909DF099E73_inline (WebCamTextureManager_tE20615C91777D8897C883309CDD5867DC613EC4B* __this, const RuntimeMethod* method) 
 {
 	{

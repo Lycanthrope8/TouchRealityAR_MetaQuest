@@ -30,244 +30,294 @@ using UnityEngine.Events;
 
 namespace ARObjectDetection.Gateway
 {
-          public class SkillFlowController : MonoBehaviour
-          {
-                    [Header("Dependencies (auto-found if null)")]
-                    [SerializeField] private GatewaySync gatewaySync;
-                    [SerializeField] private SkillGatewayClient skillClient;
+    public class SkillFlowController : MonoBehaviour
+    {
+        [Header("Dependencies (auto-found if null)")]
+        [SerializeField] private GatewaySync gatewaySync;
+        [SerializeField] private SkillGatewayClient skillClient;
 
-                    [Header("Debug")]
-                    [SerializeField] private bool enableDebugLogs = true;
+        [Header("Debug")]
+        [SerializeField] private bool enableDebugLogs = true;
 
-                    [Header("Events")]
-                    public UnityEvent<SkillDecisionState> OnStageChanged;     // fired on every stage transition
-                    public UnityEvent<SkillDecisionState> OnAwaitingConfirm;  // INVOKE parked, show preview + Confirm/Cancel
-                    public UnityEvent<SkillDecisionState> OnRejected;         // REJECT — show policyReasoning
-                    public UnityEvent<SkillDecisionState> OnClarify;          // CLARIFY — show clarificationQuestion
-                    public UnityEvent<SkillDecisionState> OnExecuted;         // execute succeeded
-                    public UnityEvent<SkillDecisionState> OnError;            // transport/parse/chaincode error
+        [Header("Events")]
+        public UnityEvent<SkillDecisionState> OnStageChanged;     // fired on every stage transition
+        public UnityEvent<SkillDecisionState> OnAwaitingConfirm;  // INVOKE parked, show preview + Confirm/Cancel
+        public UnityEvent<SkillDecisionState> OnRejected;         // REJECT — show policyReasoning
+        public UnityEvent<SkillDecisionState> OnClarify;          // CLARIFY — show clarificationQuestion
+        public UnityEvent<SkillDecisionState> OnExecuted;         // execute succeeded
+        public UnityEvent<SkillDecisionState> OnError;            // transport/parse/chaincode error
 
-                    private readonly SkillDecisionState current = new SkillDecisionState();
-                    public SkillDecisionState Current => current;
+        private readonly SkillDecisionState current = new SkillDecisionState();
+        public SkillDecisionState Current => current;
 
-                    private static SkillFlowController instance;
-                    public static SkillFlowController Instance => instance;
+        private static SkillFlowController instance;
+        public static SkillFlowController Instance => instance;
 
-                    private void Awake()
+        private void Awake()
+        {
+            if (instance != null && instance != this) { /* allow multiple, but prefer first */ }
+            else instance = this;
+        }
+
+        private void Start()
+        {
+            if (gatewaySync == null)
+                gatewaySync = GatewaySync.Instance ?? FindFirstObjectByType<GatewaySync>();
+
+            if (gatewaySync == null)
+            {
+                Debug.LogError("[SkillFlowController] No GatewaySync found — skill flow disabled.");
+                enabled = false;
+                return;
+            }
+
+            // Reuse the same GatewayConfig that GatewaySync uses.
+            var config = gatewaySync.Config;
+            if (config == null)
+            {
+                Debug.LogError("[SkillFlowController] GatewaySync has no GatewayConfig — skill flow disabled.");
+                enabled = false;
+                return;
+            }
+
+            if (skillClient == null)
+                skillClient = GetComponent<SkillGatewayClient>() ?? gameObject.AddComponent<SkillGatewayClient>();
+            skillClient.Initialize(config);
+
+            if (enableDebugLogs) Debug.Log("[SkillFlowController] ✓ Ready (skill flow enabled).");
+        }
+
+        private void OnDestroy()
+        {
+            if (instance == this) instance = null;
+        }
+
+        // =====================================================================
+        // PUBLIC API
+        // =====================================================================
+
+        /// <summary>
+        /// Step 1: send the user's natural-language text to the gateway for interpretation.
+        /// `context` should be built by the caller (SkillInfoPanel) from the selected anchor.
+        /// </summary>
+        public bool BeginInterpret(string assetId, string userText, SkillContext context)
+        {
+            if (skillClient == null || !skillClient.IsInitialized)
+            {
+                SetError("Skill client not initialized");
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(userText))
+            {
+                SetError("Please enter a request first");
+                return false;
+            }
+            if (current.IsBusy)
+            {
+                if (enableDebugLogs) Debug.LogWarning("[SkillFlowController] Busy; ignoring new interpret request.");
+                return false;
+            }
+
+            current.Reset(assetId, userText);
+            current.stage = SkillFlowStage.Interpreting;
+            FireStage();
+
+            var request = new SkillInterpretRequest { userText = userText, context = context };
+
+            if (enableDebugLogs) Debug.Log($"[SkillFlowController] interpret: \"{userText}\" (asset={assetId})");
+
+            skillClient.Interpret(request, OnInterpretComplete, err => SetError($"interpret: {err}"));
+            return true;
+        }
+
+        /// <summary>
+        /// Step 2a: the user tapped Confirm. Execute the parked decision.
+        /// </summary>
+        public bool ConfirmExecute()
+        {
+            if (current.stage != SkillFlowStage.AwaitingConfirm || string.IsNullOrEmpty(current.decisionId))
+            {
+                if (enableDebugLogs) Debug.LogWarning("[SkillFlowController] ConfirmExecute called with nothing to confirm.");
+                return false;
+            }
+
+            current.stage = SkillFlowStage.Executing;
+            FireStage();
+
+            if (enableDebugLogs) Debug.Log($"[SkillFlowController] execute: {current.decisionId}");
+
+            skillClient.Execute(current.decisionId, OnExecuteComplete, OnExecuteTransportError);
+            return true;
+        }
+
+        /// <summary>
+        /// Step 2b: the user tapped Cancel. Drop the parked decision locally.
+        /// The gateway will expire it on its own after expires_in_ms.
+        /// </summary>
+        public void Cancel()
+        {
+            if (enableDebugLogs) Debug.Log("[SkillFlowController] cancelled.");
+            current.Reset(current.assetId, current.userText);
+            current.stage = SkillFlowStage.Idle;
+            FireStage();
+        }
+
+        /// <summary>Clear everything back to Idle (e.g. when the panel closes).</summary>
+        public void ResetFlow()
+        {
+            current.Reset(null, null);
+            current.stage = SkillFlowStage.Idle;
+            FireStage();
+        }
+
+        // =====================================================================
+        // CALLBACKS
+        // =====================================================================
+
+        private void OnInterpretComplete(SkillInterpretResponse resp)
+        {
+            current.decisionId = resp.decision_id;
+            current.decision = resp.decision;
+            current.audit = resp.audit;
+            current.expiresInMs = resp.expires_in_ms;
+
+            if (resp.decision == null)
+            {
+                // Validation failed so hard the gateway didn't return a decision body.
+                string errs = (resp.errors != null && resp.errors.Length > 0)
+                    ? string.Join("; ", resp.errors) : "no decision returned";
+                SetError($"gateway: {errs}");
+                return;
+            }
+
+            switch (resp.decision.decisionType)
+            {
+                case "INVOKE":
+                    if (resp.requires_confirmation)
                     {
-                              if (instance != null && instance != this) { /* allow multiple, but prefer first */ }
-                              else instance = this;
+                        current.stage = SkillFlowStage.AwaitingConfirm;
+                        FireStage();
+                        OnAwaitingConfirm?.Invoke(current);
                     }
-
-                    private void Start()
+                    else
                     {
-                              if (gatewaySync == null)
-                                        gatewaySync = GatewaySync.Instance ?? FindFirstObjectByType<GatewaySync>();
-
-                              if (gatewaySync == null)
-                              {
-                                        Debug.LogError("[SkillFlowController] No GatewaySync found — skill flow disabled.");
-                                        enabled = false;
-                                        return;
-                              }
-
-                              // Reuse the same GatewayConfig that GatewaySync uses.
-                              var config = gatewaySync.Config;
-                              if (config == null)
-                              {
-                                        Debug.LogError("[SkillFlowController] GatewaySync has no GatewayConfig — skill flow disabled.");
-                                        enabled = false;
-                                        return;
-                              }
-
-                              if (skillClient == null)
-                                        skillClient = GetComponent<SkillGatewayClient>() ?? gameObject.AddComponent<SkillGatewayClient>();
-                              skillClient.Initialize(config);
-
-                              if (enableDebugLogs) Debug.Log("[SkillFlowController] ✓ Ready (skill flow enabled).");
+                        // INVOKE that the gateway already rejected during validation
+                        // (returned as success:false). Treat as rejection.
+                        current.stage = SkillFlowStage.Rejected;
+                        if (string.IsNullOrEmpty(current.errorMessage))
+                            current.errorMessage = resp.decision.policyReasoning;
+                        FireStage();
+                        OnRejected?.Invoke(current);
                     }
+                    break;
 
-                    private void OnDestroy()
-                    {
-                              if (instance == this) instance = null;
-                    }
+                case "REJECT":
+                    current.stage = SkillFlowStage.Rejected;
+                    FireStage();
+                    OnRejected?.Invoke(current);
+                    break;
 
-                    // =====================================================================
-                    // PUBLIC API
-                    // =====================================================================
+                case "CLARIFY":
+                    current.stage = SkillFlowStage.Clarify;
+                    FireStage();
+                    OnClarify?.Invoke(current);
+                    break;
 
-                    /// <summary>
-                    /// Step 1: send the user's natural-language text to the gateway for interpretation.
-                    /// `context` should be built by the caller (SkillInfoPanel) from the selected anchor.
-                    /// </summary>
-                    public bool BeginInterpret(string assetId, string userText, SkillContext context)
-                    {
-                              if (skillClient == null || !skillClient.IsInitialized)
-                              {
-                                        SetError("Skill client not initialized");
-                                        return false;
-                              }
-                              if (string.IsNullOrWhiteSpace(userText))
-                              {
-                                        SetError("Please enter a request first");
-                                        return false;
-                              }
-                              if (current.IsBusy)
-                              {
-                                        if (enableDebugLogs) Debug.LogWarning("[SkillFlowController] Busy; ignoring new interpret request.");
-                                        return false;
-                              }
+                default:
+                    SetError($"unknown decisionType: {resp.decision.decisionType}");
+                    break;
+            }
+        }
 
-                              current.Reset(assetId, userText);
-                              current.stage = SkillFlowStage.Interpreting;
-                              FireStage();
+        private void OnExecuteComplete(SkillExecuteResponse resp)
+        {
+            if (resp.success)
+            {
+                current.anchorTxId = resp.anchor_tx_id;
+                current.finalState = resp.final_state;
+                current.auditRecordTx = resp.audit_record_tx;
+                current.auditLinkTx = resp.audit_link_tx;
+                current.stage = SkillFlowStage.Done;
+                FireStage();
+                OnExecuted?.Invoke(current);
 
-                              var request = new SkillInterpretRequest { userText = userText, context = context };
+                if (enableDebugLogs)
+                    Debug.Log($"[SkillFlowController] ✓ executed {current.decisionId} " +
+                              $"anchor_tx={resp.anchor_tx_id} final_state={resp.final_state}");
+            }
+            else
+            {
+                // Chaincode rejected (e.g. lifecycle violation). The attempt is still
+                // recorded on-chain (audit_recorded). Surface the reason to the user.
+                string msg = !string.IsNullOrEmpty(resp.error) ? resp.error : "chaincode rejected the transaction";
+                if (resp.audit_recorded) msg += " (attempt recorded on-chain)";
+                SetError(msg);
+            }
+        }
 
-                              if (enableDebugLogs) Debug.Log($"[SkillFlowController] interpret: \"{userText}\" (asset={assetId})");
+        /// <summary>
+        /// The execute call failed at the transport level (no usable JSON came back).
+        /// If it looks transient -- an ngrok 5xx, a dropped tunnel, a timeout, or a
+        /// network blip -- KEEP the parked decision and return to AwaitingConfirm so the
+        /// user can simply tap Confirm again once the connection is back. The gateway
+        /// keeps the decision for expires_in_ms (about 5 min), so a prompt retry lands
+        /// without re-running the slow interpret. Anything else is treated as terminal.
+        /// </summary>
+        private void OnExecuteTransportError(string err)
+        {
+            if (IsTransientExecuteError(err) && !string.IsNullOrEmpty(current.decisionId))
+            {
+                current.errorMessage = "Connection problem. Tap Confirm to try again.";
+                current.stage = SkillFlowStage.AwaitingConfirm;   // stay confirmable
+                if (enableDebugLogs)
+                    Debug.LogWarning($"[SkillFlowController] execute transient error; " +
+                                     $"decision {current.decisionId} kept for retry: {err}");
+                FireStage();
+                OnAwaitingConfirm?.Invoke(current);   // re-show Confirm / Cancel
+                return;
+            }
 
-                              skillClient.Interpret(request, OnInterpretComplete, err => SetError($"interpret: {err}"));
-                              return true;
-                    }
+            // Terminal (4xx, decision_id missing, unparseable non-5xx body, ...).
+            SetError($"execute: {err}");
+        }
 
-                    /// <summary>
-                    /// Step 2a: the user tapped Confirm. Execute the parked decision.
-                    /// </summary>
-                    public bool ConfirmExecute()
-                    {
-                              if (current.stage != SkillFlowStage.AwaitingConfirm || string.IsNullOrEmpty(current.decisionId))
-                              {
-                                        if (enableDebugLogs) Debug.LogWarning("[SkillFlowController] ConfirmExecute called with nothing to confirm.");
-                                        return false;
-                              }
+        /// <summary>
+        /// True when an execute transport error is worth retrying without a new interpret:
+        /// a gateway/tunnel 5xx, or a network-layer failure (DNS, connect, timeout).
+        /// A 4xx (expired / already-executed / not-found) is NOT transient.
+        /// </summary>
+        private static bool IsTransientExecuteError(string err)
+        {
+            if (string.IsNullOrEmpty(err)) return false;
+            string e = err.ToLowerInvariant();
 
-                              current.stage = SkillFlowStage.Executing;
-                              FireStage();
+            // Any HTTP 5xx, e.g. "HTTP 503: ... <!DOCTYPE html>" from ngrok.
+            if (e.Contains("http 5")) return true;
 
-                              if (enableDebugLogs) Debug.Log($"[SkillFlowController] execute: {current.decisionId}");
+            // Network-layer failures (UnityWebRequest, usually responseCode 0).
+            if (e.Contains("cannot resolve") || e.Contains("cannot connect") ||
+                e.Contains("connection error") || e.Contains("unable to complete") ||
+                e.Contains("timed out") || e.Contains("timeout") ||
+                e.Contains("service unavailable") || e.Contains("bad gateway") ||
+                e.Contains("gateway timeout"))
+                return true;
 
-                              skillClient.Execute(current.decisionId, OnExecuteComplete, err => SetError($"execute: {err}"));
-                              return true;
-                    }
+            return false;
+        }
 
-                    /// <summary>
-                    /// Step 2b: the user tapped Cancel. Drop the parked decision locally.
-                    /// The gateway will expire it on its own after expires_in_ms.
-                    /// </summary>
-                    public void Cancel()
-                    {
-                              if (enableDebugLogs) Debug.Log("[SkillFlowController] cancelled.");
-                              current.Reset(current.assetId, current.userText);
-                              current.stage = SkillFlowStage.Idle;
-                              FireStage();
-                    }
+        // =====================================================================
+        // INTERNAL
+        // =====================================================================
 
-                    /// <summary>Clear everything back to Idle (e.g. when the panel closes).</summary>
-                    public void ResetFlow()
-                    {
-                              current.Reset(null, null);
-                              current.stage = SkillFlowStage.Idle;
-                              FireStage();
-                    }
+        private void SetError(string message)
+        {
+            current.errorMessage = message;
+            current.stage = SkillFlowStage.Error;
+            Debug.LogError($"[SkillFlowController] {message}");
+            FireStage();
+            OnError?.Invoke(current);
+        }
 
-                    // =====================================================================
-                    // CALLBACKS
-                    // =====================================================================
-
-                    private void OnInterpretComplete(SkillInterpretResponse resp)
-                    {
-                              current.decisionId = resp.decision_id;
-                              current.decision = resp.decision;
-                              current.audit = resp.audit;
-                              current.expiresInMs = resp.expires_in_ms;
-
-                              if (resp.decision == null)
-                              {
-                                        // Validation failed so hard the gateway didn't return a decision body.
-                                        string errs = (resp.errors != null && resp.errors.Length > 0)
-                                            ? string.Join("; ", resp.errors) : "no decision returned";
-                                        SetError($"gateway: {errs}");
-                                        return;
-                              }
-
-                              switch (resp.decision.decisionType)
-                              {
-                                        case "INVOKE":
-                                                  if (resp.requires_confirmation)
-                                                  {
-                                                            current.stage = SkillFlowStage.AwaitingConfirm;
-                                                            FireStage();
-                                                            OnAwaitingConfirm?.Invoke(current);
-                                                  }
-                                                  else
-                                                  {
-                                                            // INVOKE that the gateway already rejected during validation
-                                                            // (returned as success:false). Treat as rejection.
-                                                            current.stage = SkillFlowStage.Rejected;
-                                                            if (string.IsNullOrEmpty(current.errorMessage))
-                                                                      current.errorMessage = resp.decision.policyReasoning;
-                                                            FireStage();
-                                                            OnRejected?.Invoke(current);
-                                                  }
-                                                  break;
-
-                                        case "REJECT":
-                                                  current.stage = SkillFlowStage.Rejected;
-                                                  FireStage();
-                                                  OnRejected?.Invoke(current);
-                                                  break;
-
-                                        case "CLARIFY":
-                                                  current.stage = SkillFlowStage.Clarify;
-                                                  FireStage();
-                                                  OnClarify?.Invoke(current);
-                                                  break;
-
-                                        default:
-                                                  SetError($"unknown decisionType: {resp.decision.decisionType}");
-                                                  break;
-                              }
-                    }
-
-                    private void OnExecuteComplete(SkillExecuteResponse resp)
-                    {
-                              if (resp.success)
-                              {
-                                        current.anchorTxId = resp.anchor_tx_id;
-                                        current.finalState = resp.final_state;
-                                        current.auditRecordTx = resp.audit_record_tx;
-                                        current.auditLinkTx = resp.audit_link_tx;
-                                        current.stage = SkillFlowStage.Done;
-                                        FireStage();
-                                        OnExecuted?.Invoke(current);
-
-                                        if (enableDebugLogs)
-                                                  Debug.Log($"[SkillFlowController] ✓ executed {current.decisionId} " +
-                                                            $"anchor_tx={resp.anchor_tx_id} final_state={resp.final_state}");
-                              }
-                              else
-                              {
-                                        // Chaincode rejected (e.g. lifecycle violation). The attempt is still
-                                        // recorded on-chain (audit_recorded). Surface the reason to the user.
-                                        string msg = !string.IsNullOrEmpty(resp.error) ? resp.error : "chaincode rejected the transaction";
-                                        if (resp.audit_recorded) msg += " (attempt recorded on-chain)";
-                                        SetError(msg);
-                              }
-                    }
-
-                    // =====================================================================
-                    // INTERNAL
-                    // =====================================================================
-
-                    private void SetError(string message)
-                    {
-                              current.errorMessage = message;
-                              current.stage = SkillFlowStage.Error;
-                              Debug.LogError($"[SkillFlowController] {message}");
-                              FireStage();
-                              OnError?.Invoke(current);
-                    }
-
-                    private void FireStage() => OnStageChanged?.Invoke(current);
-          }
+        private void FireStage() => OnStageChanged?.Invoke(current);
+    }
 }

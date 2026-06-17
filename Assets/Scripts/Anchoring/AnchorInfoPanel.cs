@@ -463,6 +463,10 @@ namespace ARObjectDetection
 
         private void UpdateSendButtonAvailability()
         {
+            // IsBusy now includes AwaitingConfirm (see SkillDecisionState), so canSend
+            // is automatically false while a decision is parked waiting for Confirm/Cancel.
+            // This prevents a stray Ask poke from calling BeginInterpret and wiping the
+            // parked decisionId, which would cause ConfirmExecute to report "nothing to confirm".
             bool canSend = skillFlow != null
                            && !string.IsNullOrEmpty(currentAssetId)
                            && !skillFlow.Current.IsBusy;
@@ -470,8 +474,8 @@ namespace ARObjectDetection
             if (sendButton != null) sendButton.interactable = canSend && showSkill;
             if (sendButtonText != null) sendButtonText.text = "Send";
 
-            // 3D Ask button: shown only when the governance UI is allowed for this
-            // state AND it's ready to send.
+            // 3D Ask button: hidden while a decision is pending (IsBusy=true when AwaitingConfirm)
+            // so the collider cannot be poked and accidentally re-interpret.
             if (askButton3DRoot != null) askButton3DRoot.SetActive(showSkill && (canSend || skillFlow == null));
             if (askButton3DText != null) askButton3DText.text = "Ask";
         }
@@ -1073,7 +1077,11 @@ namespace ARObjectDetection
         {
             if (decisionPreviewRoot != null) decisionPreviewRoot.SetActive(false);
             if (preview3DRoot != null) preview3DRoot.SetActive(false);
-            SetConfirmCancelVisible(false);
+            // Confirm is always visible (same as Cancel); only the preview panels are hidden.
+            if (cancelButton != null) cancelButton.gameObject.SetActive(true);
+            if (cancelButton3DRoot != null) cancelButton3DRoot.SetActive(true);
+            if (confirmButton != null) confirmButton.gameObject.SetActive(true);
+            if (confirmButton3DRoot != null) confirmButton3DRoot.SetActive(true);
         }
 
         private void ShowStatus(string msg, Color c)
@@ -1092,17 +1100,18 @@ namespace ARObjectDetection
             if (previewBody3D != null) previewBody3D.text = "";
         }
 
-        // showConfirm=true → Confirm + Cancel both shown; false → only Cancel.
+        // Confirm is always visible (same as Cancel). showConfirm parameter retained
+        // for call-site compatibility but no longer gates Confirm's visibility.
         private void SetConfirmCancelVisible(bool showConfirm)
         {
             // Canvas (optional)
-            if (confirmButton != null) confirmButton.gameObject.SetActive(showConfirm);
+            if (confirmButton != null) confirmButton.gameObject.SetActive(true);
             if (cancelButton != null) cancelButton.gameObject.SetActive(true);
             if (cancelButtonText != null) cancelButtonText.text = "Cancel";
             if (confirmButtonText != null) confirmButtonText.text = "Confirm";
 
             // 3D (primary)
-            if (confirmButton3DRoot != null) confirmButton3DRoot.SetActive(showConfirm);
+            if (confirmButton3DRoot != null) confirmButton3DRoot.SetActive(true);
             if (confirmButton3DText != null) confirmButton3DText.text = "Confirm";
             if (cancelButton3DRoot != null) cancelButton3DRoot.SetActive(true);
             if (cancelButton3DText != null) cancelButton3DText.text = "Cancel";
@@ -1110,9 +1119,11 @@ namespace ARObjectDetection
 
         private void ShowOnlyCancel()
         {
-            if (confirmButton != null) confirmButton.gameObject.SetActive(false);
+            // Confirm is always-on; skillFlow.ConfirmExecute is a no-op when nothing
+            // is pending, so leaving it visible is harmless and matches Cancel's behaviour.
+            if (confirmButton != null) confirmButton.gameObject.SetActive(true);
             if (cancelButton != null) cancelButton.gameObject.SetActive(true);
-            if (confirmButton3DRoot != null) confirmButton3DRoot.SetActive(false);
+            if (confirmButton3DRoot != null) confirmButton3DRoot.SetActive(true);
             if (cancelButton3DRoot != null) cancelButton3DRoot.SetActive(true);
         }
 

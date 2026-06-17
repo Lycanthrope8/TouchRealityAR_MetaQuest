@@ -57,7 +57,14 @@ namespace ARObjectDetection.Gateway
                     // On any failure:
                     public string errorMessage;
 
-                    public bool IsBusy => stage == SkillFlowStage.Interpreting || stage == SkillFlowStage.Executing;
+                    // IsBusy covers all stages where a new BeginInterpret must be blocked:
+                    // Interpreting and Executing (active HTTP round-trips) plus AwaitingConfirm
+                    // (decision parked, waiting for user Confirm/Cancel). Without AwaitingConfirm
+                    // here, a stray Ask poke would call BeginInterpret, Reset() the state, wipe
+                    // decisionId, and make the subsequent ConfirmExecute report "nothing to confirm".
+                    public bool IsBusy => stage == SkillFlowStage.Interpreting
+                                       || stage == SkillFlowStage.Executing
+                                       || stage == SkillFlowStage.AwaitingConfirm;
                     public bool NeedsConfirm => stage == SkillFlowStage.AwaitingConfirm;
 
                     public void Reset(string assetId, string userText)

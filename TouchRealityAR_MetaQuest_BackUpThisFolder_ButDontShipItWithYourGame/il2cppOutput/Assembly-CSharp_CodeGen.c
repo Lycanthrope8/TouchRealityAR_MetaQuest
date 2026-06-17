@@ -928,11 +928,12 @@ extern void SkillFlowController_Cancel_m2DEDFBA7019EEDA0FD4BC9AC15AAEC1B6E2936B3
 extern void SkillFlowController_ResetFlow_mEAA203BBAA2173ACFD6C2F2C5CD851E2F7D27ECB (void);
 extern void SkillFlowController_OnInterpretComplete_mEA9EA2C43E8E6BAE053715E210EFD4F2BE561958 (void);
 extern void SkillFlowController_OnExecuteComplete_m0B4DE4D54ED47025929E8A4032D3778E7E221234 (void);
+extern void SkillFlowController_OnExecuteTransportError_mBFA597C9A1AFEADE3025788743A09E1DC4B7EE10 (void);
+extern void SkillFlowController_IsTransientExecuteError_m3276FDD99FCAEDA450652F970AAF3B55F196ADF8 (void);
 extern void SkillFlowController_SetError_mCB657EB5E30C9A0551D6E6B8F3BF857737BE9973 (void);
 extern void SkillFlowController_FireStage_m791468C8F47F7E510E40DF0775E39469A7A76251 (void);
 extern void SkillFlowController__ctor_m9345365257E30EA74D056BA7FE5150937C9572B4 (void);
 extern void SkillFlowController_U3CBeginInterpretU3Eb__18_0_mF63A11265D1CB180BA5E9654AC8FD93A6A650875 (void);
-extern void SkillFlowController_U3CConfirmExecuteU3Eb__19_0_m0F0E778DB7E553F212C8A7B360E045EA24919BA9 (void);
 extern void SkillGatewayClient_get_IsInitialized_m7F4AAC4179B0385D02B48ACFC5ABFA2DDFD12385 (void);
 extern void SkillGatewayClient_Initialize_m5545D2C73B72A5F6DE5C8E85B7FB527C5B4CB492 (void);
 extern void SkillGatewayClient_Interpret_m1E1985CB8160379D0BB8287C4DB74D8E388FA632 (void);
@@ -943,6 +944,7 @@ extern void SkillGatewayClient_CheckHealth_mFCDD93DE580D87C3F75A7300C0FE3FA1785C
 extern void SkillGatewayClient_HealthCoroutine_mE75109C6CDDD6B41079DE5A72FCA2ED7620472FB (void);
 extern void SkillGatewayClient_ParseInterpretResponse_mE4246629CF23A6F29B20565D9D6B3FA3527E5074 (void);
 extern void SkillGatewayClient_ParseArguments_m70514D72492401C49B0B54583FDEFCEAC8ABF317 (void);
+extern void SkillGatewayClient_ExtractBoolField_mB30E00E6DFBFAF00A6A7B905EB59785E177E5D9A (void);
 extern void SkillGatewayClient_ExtractJsonObject_mA8F6A4F8F05502106338A45AD08CC698E2632C1D (void);
 extern void SkillGatewayClient_Truncate_mF54A28E7670D36B209C1B620F76F89FC04455BE9 (void);
 extern void SkillGatewayClient__ctor_mC21E8CACCF43040C03DCC2EDE1AE4F89069C21BC (void);
@@ -1433,7 +1435,7 @@ extern void U3CInitializeWebCamTextureU3Ed__12_System_Collections_Generic_IEnume
 extern void U3CInitializeWebCamTextureU3Ed__12_System_Collections_IEnumerator_Reset_mDB91D3B9389B30DA938D4268E03DFBC7834466E8 (void);
 extern void U3CInitializeWebCamTextureU3Ed__12_System_Collections_IEnumerator_get_Current_m5E304D77D7CFEBE8F7A56CCB9687D0BE8D95030F (void);
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m6EA1F233618497AEFF8902A5EDFA24C74E2F2876 (void);
-static Il2CppMethodPointer s_methodPointers[1444] = 
+static Il2CppMethodPointer s_methodPointers[1446] = 
 {
 	WebcamTextureAssigner_Start_m9348192CAD3E9D97F9EA385DF35C875FA24C59D8,
 	WebcamTextureAssigner__ctor_mFB8C66D2C79D2BA88F2A41A1281BD119C7F3E3C4,
@@ -2372,11 +2374,12 @@ static Il2CppMethodPointer s_methodPointers[1444] =
 	SkillFlowController_ResetFlow_mEAA203BBAA2173ACFD6C2F2C5CD851E2F7D27ECB,
 	SkillFlowController_OnInterpretComplete_mEA9EA2C43E8E6BAE053715E210EFD4F2BE561958,
 	SkillFlowController_OnExecuteComplete_m0B4DE4D54ED47025929E8A4032D3778E7E221234,
+	SkillFlowController_OnExecuteTransportError_mBFA597C9A1AFEADE3025788743A09E1DC4B7EE10,
+	SkillFlowController_IsTransientExecuteError_m3276FDD99FCAEDA450652F970AAF3B55F196ADF8,
 	SkillFlowController_SetError_mCB657EB5E30C9A0551D6E6B8F3BF857737BE9973,
 	SkillFlowController_FireStage_m791468C8F47F7E510E40DF0775E39469A7A76251,
 	SkillFlowController__ctor_m9345365257E30EA74D056BA7FE5150937C9572B4,
 	SkillFlowController_U3CBeginInterpretU3Eb__18_0_mF63A11265D1CB180BA5E9654AC8FD93A6A650875,
-	SkillFlowController_U3CConfirmExecuteU3Eb__19_0_m0F0E778DB7E553F212C8A7B360E045EA24919BA9,
 	SkillGatewayClient_get_IsInitialized_m7F4AAC4179B0385D02B48ACFC5ABFA2DDFD12385,
 	SkillGatewayClient_Initialize_m5545D2C73B72A5F6DE5C8E85B7FB527C5B4CB492,
 	SkillGatewayClient_Interpret_m1E1985CB8160379D0BB8287C4DB74D8E388FA632,
@@ -2387,6 +2390,7 @@ static Il2CppMethodPointer s_methodPointers[1444] =
 	SkillGatewayClient_HealthCoroutine_mE75109C6CDDD6B41079DE5A72FCA2ED7620472FB,
 	SkillGatewayClient_ParseInterpretResponse_mE4246629CF23A6F29B20565D9D6B3FA3527E5074,
 	SkillGatewayClient_ParseArguments_m70514D72492401C49B0B54583FDEFCEAC8ABF317,
+	SkillGatewayClient_ExtractBoolField_mB30E00E6DFBFAF00A6A7B905EB59785E177E5D9A,
 	SkillGatewayClient_ExtractJsonObject_mA8F6A4F8F05502106338A45AD08CC698E2632C1D,
 	SkillGatewayClient_Truncate_mF54A28E7670D36B209C1B620F76F89FC04455BE9,
 	SkillGatewayClient__ctor_mC21E8CACCF43040C03DCC2EDE1AE4F89069C21BC,
@@ -2887,9 +2891,9 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[3] =
 {
 	{ 0x060001D8, PoseHint_get_IsValid_m8388DBCA6751F816DA42E94DCDD99B1071140986_AdjustorThunk },
 	{ 0x0600023B, PoseBufferEntry__ctor_m3AB6F87B9AF655DFFC430ED34385E7D7B0861585_AdjustorThunk },
-	{ 0x060004A0, AprilTagDetection_get_IsValid_m77EB2EF4D6FECE09A3BDB4C336F266D1BDC70924_AdjustorThunk },
+	{ 0x060004A2, AprilTagDetection_get_IsValid_m77EB2EF4D6FECE09A3BDB4C336F266D1BDC70924_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[1444] = 
+static const int32_t s_InvokerIndices[1446] = 
 {
 	19157,
 	19383,
@@ -3829,9 +3833,10 @@ static const int32_t s_InvokerIndices[1444] =
 	14853,
 	14853,
 	14853,
-	19383,
-	19383,
+	29099,
 	14853,
+	19383,
+	19383,
 	14853,
 	18924,
 	14853,
@@ -3843,6 +3848,7 @@ static const int32_t s_InvokerIndices[1444] =
 	5861,
 	12942,
 	29557,
+	25457,
 	26013,
 	26008,
 	19383,
@@ -4342,8 +4348,8 @@ static const Il2CppTokenRangePair s_rgctxIndices[6] =
 	{ 0x02000092, { 14, 8 } },
 	{ 0x06000307, { 0, 4 } },
 	{ 0x06000308, { 4, 3 } },
-	{ 0x0600058E, { 22, 2 } },
-	{ 0x0600058F, { 24, 2 } },
+	{ 0x06000590, { 22, 2 } },
+	{ 0x06000591, { 24, 2 } },
 };
 extern const uint32_t g_rgctx_U3CPostCoroutineU3Ed__13_2_t62F7DAEF535C7AA3D0E1065B0EED821DC09F222F;
 extern const uint32_t g_rgctx_U3CPostCoroutineU3Ed__13_2__ctor_m57B5453FDB7E09DD93386FF9E4D32B3B5B99A0FB;
@@ -4404,7 +4410,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	1444,
+	1446,
 	s_methodPointers,
 	3,
 	s_adjustorThunks,
