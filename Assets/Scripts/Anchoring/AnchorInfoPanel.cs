@@ -302,7 +302,21 @@ namespace ARObjectDetection
             if (anchor == null) return;
             currentAnchor = anchor;
 
-            currentAssetId = AnchorContextBuilder.AssetIdFor(anchor);
+            // SINGLE shared info panel: when the user selects a DIFFERENT anchor, the
+            // decision preview still holds the PREVIOUS anchor's response, so it appears
+            // to "follow" onto every anchor you select. Clear it on an actual anchor
+            // change. (UpdateInfo also runs every frame for the SAME selected anchor —
+            // clearing then would wipe an in-progress or just-returned result, so the
+            // guard below only fires when the assetId really changes.)
+            string newAssetId = AnchorContextBuilder.AssetIdFor(anchor);
+            if (newAssetId != currentAssetId)
+            {
+                HidePreview();
+                ClearDecisionFields();
+                if (nlDisplay3D != null) nlDisplay3D.text = nlPlaceholder;
+            }
+
+            currentAssetId = newAssetId;
             int tagId = anchor.hasAprilTagAssociation ? anchor.associatedAprilTagId : -1;
 
             // Claim state
@@ -828,14 +842,20 @@ namespace ARObjectDetection
 
         private void OnSkillStageChanged(SkillDecisionState s)
         {
-            // Keep the status line live for every transition.
+            // Busy is global (only one decision is in flight at a time), so EVERY panel
+            // refreshes its own Send-button availability regardless of which anchor owns it.
+            UpdateSendButtonAvailability();
+
+            // ...but only the panel whose anchor THIS decision is about shows the status
+            // line. Every other anchor's panel ignores it and stays blank.
+            if (s == null || s.assetId != currentAssetId) return;
             if (s.stage == SkillFlowStage.Interpreting) ShowStatus("Interpreting…", clarifyColor);
             else if (s.stage == SkillFlowStage.Executing) ShowStatus("Submitting to ledger…", clarifyColor);
-            UpdateSendButtonAvailability();
         }
 
         private void OnSkillAwaitingConfirm(SkillDecisionState s)
         {
+            if (s == null || s.assetId != currentAssetId) return;   // only THIS anchor's decision
             ShowPreview();
             RenderDecision(s);
             ShowStatus("Review, then Confirm or Cancel.", invokeColor);
@@ -844,6 +864,7 @@ namespace ARObjectDetection
 
         private void OnSkillRejected(SkillDecisionState s)
         {
+            if (s == null || s.assetId != currentAssetId) return;   // only THIS anchor's decision
             ShowPreview();
             RenderDecision(s);
             string reason = s.decision != null ? s.decision.policyReasoning : s.errorMessage;
@@ -855,6 +876,7 @@ namespace ARObjectDetection
 
         private void OnSkillClarify(SkillDecisionState s)
         {
+            if (s == null || s.assetId != currentAssetId) return;   // only THIS anchor's decision
             ShowPreview();
             RenderDecision(s);
             string q = s.decision != null ? s.decision.clarificationQuestion : "Please rephrase.";
@@ -866,6 +888,7 @@ namespace ARObjectDetection
 
         private void OnSkillExecuted(SkillDecisionState s)
         {
+            if (s == null || s.assetId != currentAssetId) return;   // only THIS anchor's decision
             // Re-render so the now-populated tx / audit ids appear in the provenance line.
             RenderDecision(s);
             string tx = !string.IsNullOrEmpty(s.anchorTxId) ? $" · tx {Short(s.anchorTxId)}" : "";
@@ -881,6 +904,7 @@ namespace ARObjectDetection
 
         private void OnSkillError(SkillDecisionState s)
         {
+            if (s == null || s.assetId != currentAssetId) return;   // only THIS anchor's decision
             ShowPreview();
             string msg = string.IsNullOrEmpty(s.errorMessage) ? "unknown error" : s.errorMessage;
 

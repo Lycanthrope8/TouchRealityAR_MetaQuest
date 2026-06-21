@@ -306,6 +306,7 @@ struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 struct WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC;
 struct U3CU3Ec__DisplayClass6_0_t3523CDDD18505915117728E50AD48585A72781E7;
 struct U3CU3Ec__DisplayClass6_1_tF166F89DC53DC9104043A4EE6B1ECFC3C08E5834;
+struct U3CCheckServerHealthU3Ed__3_t1A3907AF0524D3184C1998CE84DAB36C3C1B90E1;
 struct U3CSendFrameForDetectionU3Ed__4_t4259E5E01CF37A9333256CCD2B4905BC8B2BF2DD;
 struct U3CSendFrameWithRetryU3Ed__5_t2567C6F4B48D570B9AA7172B968DF37E8F5E6357;
 struct U3CSendFrameWithRetryU3Ed__6_t9D314092162139C4DC43A51DB670531B704BD0FC;
@@ -570,6 +571,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA1CE6FBD019FF3F01AF03709D774A2D8017A5465
 IL2CPP_EXTERN_C String_t* _stringLiteralA331FA46EA8DFC399A154BA727F8E026388DD81D;
 IL2CPP_EXTERN_C String_t* _stringLiteralA38D35B6DC5BF2299F161DE08D9F393BDDE9094C;
 IL2CPP_EXTERN_C String_t* _stringLiteralA4C07CB569000E546C69B9C9D0DF23A72DD24D4A;
+IL2CPP_EXTERN_C String_t* _stringLiteralA5C1C9B7F0D25692EC34C537DAE41CD62C1046C8;
 IL2CPP_EXTERN_C String_t* _stringLiteralA6814F0AA6704A96B30961118EDFF34273EF1A74;
 IL2CPP_EXTERN_C String_t* _stringLiteralA7098865D1723689DC2D7AEF62AD754FF74F5C78;
 IL2CPP_EXTERN_C String_t* _stringLiteralA73A76AC483E9C9A697791F112539E47E1E2FC34;
@@ -603,6 +605,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralCFEF950A12991393CA78029537D82D31658057A7
 IL2CPP_EXTERN_C String_t* _stringLiteralD01C878AEAEB22FFB4D0C60C73E5555FB496023D;
 IL2CPP_EXTERN_C String_t* _stringLiteralD0E49F0BA5AF0BDD03295D74DE3A3A9FC0EC61BC;
 IL2CPP_EXTERN_C String_t* _stringLiteralD1594415CDB559EBC61CC301724A25B0D5E3E494;
+IL2CPP_EXTERN_C String_t* _stringLiteralD180778B9FA246A4BCFCB1DFB8945AA77C0A5729;
 IL2CPP_EXTERN_C String_t* _stringLiteralD20A60486A32CA042A20C214E2B7F00CFD813F9D;
 IL2CPP_EXTERN_C String_t* _stringLiteralD25DB2C5E0ABDD59E6C17BC1385903EBEA07FE9F;
 IL2CPP_EXTERN_C String_t* _stringLiteralD3E783E761B4FFDE601B3105ACA22FDC84A6BC5B;
@@ -810,6 +813,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_get_Count_mE1E8B21F8B077687F70824B5
 IL2CPP_EXTERN_C const RuntimeMethod* SiteFrameManager_OnTrackingAcquired_mFA427E80281A26F133CE4BF450DA2BA3230F9958_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SiteFrameManager_OnTrackingLost_m0ABB2A5F3B4D3779364F207CD9F8488773B9AB10_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SiteFrameManager_OnXRDeviceLoaded_m01566C78CD62E195DEB77C8A50BB645DD4FD35C8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCheckServerHealthU3Ed__3_System_Collections_IEnumerator_Reset_m5BF7CDFDAD83B4BFF62971886F3CFF2B46AF4096_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CGetPendingClaimsU3Ed__38_System_Collections_IEnumerator_Reset_mA593BF8CF1B4E70A49EDE9859970332B043A6E0B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CGetPendingRevocationsRequiringActionU3Ed__40_System_Collections_IEnumerator_Reset_mA233F62398B231F6ECF25B4B3151A87D164285F2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CGetStatesByStatusU3Ed__36_System_Collections_IEnumerator_Reset_m4CFDE54ACA6C7A91AE47D0E877F8B14FF9D23B9E_RuntimeMethod_var;
@@ -1442,6 +1446,14 @@ struct U3CU3Ec__DisplayClass6_1_tF166F89DC53DC9104043A4EE6B1ECFC3C08E5834  : pub
 	bool ___requestCompleted;
 	String_t* ___error;
 	U3CU3Ec__DisplayClass6_0_t3523CDDD18505915117728E50AD48585A72781E7* ___CSU24U3CU3E8__locals1;
+};
+struct U3CCheckServerHealthU3Ed__3_t1A3907AF0524D3184C1998CE84DAB36C3C1B90E1  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	DetectionClient_t3C2D283CE82F5A223AEB018960E388EF1675C930* ___U3CU3E4__this;
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___callback;
+	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___U3CrequestU3E5__2;
 };
 struct U3CSendFrameWithRetryU3Ed__5_t2567C6F4B48D570B9AA7172B968DF37E8F5E6357  : public RuntimeObject
 {
@@ -2760,6 +2772,9 @@ struct EventDataBuffer_t5836E8ECE1E094863DEDCC92818AEF39C2F646E8_marshaled_com
 {
 	int32_t ___EventType;
 	uint8_t ___EventData[4000];
+};
+struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C  : public MulticastDelegate_t
+{
 };
 struct Action_1_tBDDD31253C876E6E266EDEE1EDBA5FE93EC86276  : public MulticastDelegate_t
 {
@@ -4471,6 +4486,7 @@ struct ValueTuple_2U5BU5D_t421388B3AA488C3C898278B339E982A32C074263  : public Ru
 };
 
 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_gshared_inline (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, bool ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJson_TisRuntimeObject_m0CCF0FE109BF4C85AECC9C5D0DBB43422A24FB40_gshared (String_t* ___0_json, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
@@ -4601,6 +4617,24 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m4
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_mE759F6365F7F10866A2A0730427ABADFCB31F123_gshared (List_1_t524AA52218730C1F34ECD6B5431C1EF28C50E95B* __this, ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D ___0_item, const RuntimeMethod* method) ;
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckServerHealthU3Ed__3_U3CU3Em__Finally1_m3987A00647AA32B5C0D91E9749B3FEFF803B060F (U3CCheckServerHealthU3Ed__3_t1A3907AF0524D3184C1998CE84DAB36C3C1B90E1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckServerHealthU3Ed__3_System_IDisposable_Dispose_m4E3CCF1B183273AA368F1A35AB820433CA40D6F2 (U3CCheckServerHealthU3Ed__3_t1A3907AF0524D3184C1998CE84DAB36C3C1B90E1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DetectionConfig_get_HealthEndpoint_m50465B7519F097A00D74D2154ED48E0C11DBF5CE (DetectionConfig_t82AA93F5BF6A6DA84E82C09A023B0956A94CB8A0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequest_Get_m1A332EE069BB5052368307F254A5A7627BB5FD86 (String_t* ___0_uri, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_set_timeout_mE9C8169FA8CF1BE17E3D9FDACDC6E1A9508DF618 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* UnityWebRequest_SendWebRequest_mA3CD13983BAA5074A0640EDD661B1E46E6DB6C13 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* UnityWebRequest_get_downloadHandler_m1AA91B23D9D594A4F4FE2975FC356C508528F1D5 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DownloadHandler_get_text_mA6DE5CB2647A21E577B963708DC3D0DA4DBFE7D8 (DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+inline void Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_inline (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, bool ___0_obj, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*, bool, const RuntimeMethod*))Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_gshared_inline)(__this, ___0_obj, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendFrameForDetectionU3Ed__4_U3CU3Em__Finally1_m5A91D11DBA5A781801732BE69E320E5321154460 (U3CSendFrameForDetectionU3Ed__4_t4259E5E01CF37A9333256CCD2B4905BC8B2BF2DD* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendFrameForDetectionU3Ed__4_System_IDisposable_Dispose_mD1122F05BB07A8EE77534CE3E16195E99C9C43FC (U3CSendFrameForDetectionU3Ed__4_t4259E5E01CF37A9333256CCD2B4905BC8B2BF2DD* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
@@ -4621,12 +4655,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PoseHint_get_IsValid_m8388DBCA6751F816DA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mF8E53122BE8F0F617357DFB75C3912D1242DE263 (RuntimeObject* ___0_provider, String_t* ___1_format, RuntimeObject* ___2_arg0, RuntimeObject* ___3_arg1, RuntimeObject* ___4_arg2, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_set_timeout_mE9C8169FA8CF1BE17E3D9FDACDC6E1A9508DF618 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, int32_t ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* UnityWebRequest_SendWebRequest_mA3CD13983BAA5074A0640EDD661B1E46E6DB6C13 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* UnityWebRequest_get_downloadHandler_m1AA91B23D9D594A4F4FE2975FC356C508528F1D5 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DownloadHandler_get_text_mA6DE5CB2647A21E577B963708DC3D0DA4DBFE7D8 (DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* __this, const RuntimeMethod* method) ;
 inline DetectionResponse_t09FDCD95E147F53F14E795C07DA32BF441300247* JsonUtility_FromJson_TisDetectionResponse_t09FDCD95E147F53F14E795C07DA32BF441300247_m8DD38B0EE4CA2A34E81F164E3BAE07CAE3578716 (String_t* ___0_json, const RuntimeMethod* method)
 {
 	return ((  DetectionResponse_t09FDCD95E147F53F14E795C07DA32BF441300247* (*) (String_t*, const RuntimeMethod*))JsonUtility_FromJson_TisRuntimeObject_m0CCF0FE109BF4C85AECC9C5D0DBB43422A24FB40_gshared)(___0_json, method);
@@ -4639,12 +4667,8 @@ inline void Action_1_Invoke_mEC76DD106BA1F1D4E5A91A5BE17E4E4FE4C910E3_inline (Ac
 {
 	((  void (*) (Action_1_tBDDD31253C876E6E266EDEE1EDBA5FE93EC86276*, DetectionResponse_t09FDCD95E147F53F14E795C07DA32BF441300247*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___0_obj, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t UnityWebRequest_get_responseCode_m012C177F61435D5D120A21D7A03FFF7B0F8B904B (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseHint_t6BEB3DD6366F05CC293E8589F3682BEDF059A7F6 PoseHint_get_Invalid_m5635B801CD625ACBD1007B0081A9D4358ADC50CA (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DetectionClient_SendFrameWithRetry_m87F00D3D0E1BB95EDC4EAEF3AA9B83A07CBCB708 (DetectionClient_t3C2D283CE82F5A223AEB018960E388EF1675C930* __this, CapturedFrame_tD60FC29AECB07931D5A2F49C0AF4D93954C2EBD6* ___0_capturedFrame, PoseHint_t6BEB3DD6366F05CC293E8589F3682BEDF059A7F6 ___1_poseHint, Action_1_tBDDD31253C876E6E266EDEE1EDBA5FE93EC86276* ___2_onSuccess, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___3_onError, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m984447400CF8ED64F7D2A18987C9D4E6FCAB6CF8 (U3CU3Ec__DisplayClass6_0_t3523CDDD18505915117728E50AD48585A72781E7* __this, const RuntimeMethod* method) ;
@@ -5666,6 +5690,380 @@ inline void List_1_AddWithResize_mE759F6365F7F10866A2A0730427ABADFCB31F123 (List
 	((  void (*) (List_1_t524AA52218730C1F34ECD6B5431C1EF28C50E95B*, ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D, const RuntimeMethod*))List_1_AddWithResize_mE759F6365F7F10866A2A0730427ABADFCB31F123_gshared)(__this, ___0_item, method);
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 99044
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m984447400CF8ED64F7D2A18987C9D4E6FCAB6CF8 (U3CU3Ec__DisplayClass6_0_t3523CDDD18505915117728E50AD48585A72781E7* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 99045
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_1__ctor_m3E68E59E998674CF290E24CEC3A7466E61972379 (U3CU3Ec__DisplayClass6_1_tF166F89DC53DC9104043A4EE6B1ECFC3C08E5834* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 99046
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_1_U3CSendFrameWithRetryU3Eb__0_m9323541B4D2A2BEBA4CB1840B107F1A25F0BCA07 (U3CU3Ec__DisplayClass6_1_tF166F89DC53DC9104043A4EE6B1ECFC3C08E5834* __this, DetectionResponse_t09FDCD95E147F53F14E795C07DA32BF441300247* ___0_resp, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:194>
+		DetectionResponse_t09FDCD95E147F53F14E795C07DA32BF441300247* L_0 = ___0_resp;
+		__this->___response = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___response), (void*)L_0);
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:194>
+		U3CU3Ec__DisplayClass6_0_t3523CDDD18505915117728E50AD48585A72781E7* L_1 = __this->___CSU24U3CU3E8__locals1;
+		NullCheck(L_1);
+		L_1->___success = (bool)1;
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:194>
+		__this->___requestCompleted = (bool)1;
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:194>
+		return;
+	}
+}
+// Method Definition Index: 99047
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_1_U3CSendFrameWithRetryU3Eb__1_m163A543A17CBE323D60054EFDA3F84062559335C (U3CU3Ec__DisplayClass6_1_tF166F89DC53DC9104043A4EE6B1ECFC3C08E5834* __this, String_t* ___0_err, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:195>
+		String_t* L_0 = ___0_err;
+		__this->___error = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___error), (void*)L_0);
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:195>
+		__this->___requestCompleted = (bool)1;
+		//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:195>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 99048
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckServerHealthU3Ed__3__ctor_mDC6D991304C7235C3786E224930D766CB2D94437 (U3CCheckServerHealthU3Ed__3_t1A3907AF0524D3184C1998CE84DAB36C3C1B90E1* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 99049
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckServerHealthU3Ed__3_System_IDisposable_Dispose_m4E3CCF1B183273AA368F1A35AB820433CA40D6F2 (U3CCheckServerHealthU3Ed__3_t1A3907AF0524D3184C1998CE84DAB36C3C1B90E1* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((((int32_t)L_1) == ((int32_t)((int32_t)-3))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_001a;
+		}
+	}
+
+IL_0010:
+	{
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0013:
+			{
+				U3CCheckServerHealthU3Ed__3_U3CU3Em__Finally1_m3987A00647AA32B5C0D91E9749B3FEFF803B060F(__this, NULL);
+				return;
+			}
+		});
+		try
+		{
+			goto IL_001a;
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_001a:
+	{
+		return;
+	}
+}
+// Method Definition Index: 99050
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCheckServerHealthU3Ed__3_MoveNext_m02FA64A30C76FD4A0837C805367839EFC8AB1E74 (U3CCheckServerHealthU3Ed__3_t1A3907AF0524D3184C1998CE84DAB36C3C1B90E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA5C1C9B7F0D25692EC34C537DAE41CD62C1046C8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD180778B9FA246A4BCFCB1DFB8945AA77C0A5729);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	DetectionClient_t3C2D283CE82F5A223AEB018960E388EF1675C930* V_2 = NULL;
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* G_B7_0 = NULL;
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* G_B6_0 = NULL;
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* G_B10_0 = NULL;
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* G_B9_0 = NULL;
+	{
+		auto __finallyBlock = il2cpp::utils::Fault([&]
+		{
+
+FAULT_00fd:
+			{
+				U3CCheckServerHealthU3Ed__3_System_IDisposable_Dispose_m4E3CCF1B183273AA368F1A35AB820433CA40D6F2(__this, NULL);
+				return;
+			}
+		});
+		try
+		{
+			{
+				int32_t L_0 = __this->___U3CU3E1__state;
+				V_1 = L_0;
+				DetectionClient_t3C2D283CE82F5A223AEB018960E388EF1675C930* L_1 = __this->___U3CU3E4__this;
+				V_2 = L_1;
+				int32_t L_2 = V_1;
+				if (!L_2)
+				{
+					goto IL_001c_1;
+				}
+			}
+			{
+				int32_t L_3 = V_1;
+				if ((((int32_t)L_3) == ((int32_t)1)))
+				{
+					goto IL_0077_1;
+				}
+			}
+			{
+				V_0 = (bool)0;
+				goto IL_0104;
+			}
+
+IL_001c_1:
+			{
+				__this->___U3CU3E1__state = (-1);
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:42>
+				DetectionClient_t3C2D283CE82F5A223AEB018960E388EF1675C930* L_4 = V_2;
+				NullCheck(L_4);
+				DetectionConfig_t82AA93F5BF6A6DA84E82C09A023B0956A94CB8A0* L_5 = L_4->___config;
+				NullCheck(L_5);
+				String_t* L_6;
+				L_6 = DetectionConfig_get_HealthEndpoint_m50465B7519F097A00D74D2154ED48E0C11DBF5CE(L_5, NULL);
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_7;
+				L_7 = UnityWebRequest_Get_m1A332EE069BB5052368307F254A5A7627BB5FD86(L_6, NULL);
+				__this->___U3CrequestU3E5__2 = L_7;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrequestU3E5__2), (void*)L_7);
+				__this->___U3CU3E1__state = ((int32_t)-3);
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:44>
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_8 = __this->___U3CrequestU3E5__2;
+				DetectionClient_t3C2D283CE82F5A223AEB018960E388EF1675C930* L_9 = V_2;
+				NullCheck(L_9);
+				DetectionConfig_t82AA93F5BF6A6DA84E82C09A023B0956A94CB8A0* L_10 = L_9->___config;
+				NullCheck(L_10);
+				float L_11 = L_10->___requestTimeout;
+				NullCheck(L_8);
+				UnityWebRequest_set_timeout_mE9C8169FA8CF1BE17E3D9FDACDC6E1A9508DF618(L_8, il2cpp_codegen_cast_double_to_int<int32_t>(L_11), NULL);
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:45>
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_12 = __this->___U3CrequestU3E5__2;
+				NullCheck(L_12);
+				UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* L_13;
+				L_13 = UnityWebRequest_SendWebRequest_mA3CD13983BAA5074A0640EDD661B1E46E6DB6C13(L_12, NULL);
+				__this->___U3CU3E2__current = L_13;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_13);
+				__this->___U3CU3E1__state = 1;
+				V_0 = (bool)1;
+				goto IL_0104;
+			}
+
+IL_0077_1:
+			{
+				__this->___U3CU3E1__state = ((int32_t)-3);
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:47>
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_14 = __this->___U3CrequestU3E5__2;
+				NullCheck(L_14);
+				int32_t L_15;
+				L_15 = UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449(L_14, NULL);
+				if ((!(((uint32_t)L_15) == ((uint32_t)1))))
+				{
+					goto IL_00c0_1;
+				}
+			}
+			{
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:49>
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_16 = __this->___U3CrequestU3E5__2;
+				NullCheck(L_16);
+				DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* L_17;
+				L_17 = UnityWebRequest_get_downloadHandler_m1AA91B23D9D594A4F4FE2975FC356C508528F1D5(L_16, NULL);
+				NullCheck(L_17);
+				String_t* L_18;
+				L_18 = DownloadHandler_get_text_mA6DE5CB2647A21E577B963708DC3D0DA4DBFE7D8(L_17, NULL);
+				String_t* L_19;
+				L_19 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralD180778B9FA246A4BCFCB1DFB8945AA77C0A5729, L_18, NULL);
+				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+				Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_19, NULL);
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:50>
+				Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_20 = __this->___callback;
+				Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_21 = L_20;
+				if (L_21)
+				{
+					G_B7_0 = L_21;
+					goto IL_00b8_1;
+				}
+				G_B6_0 = L_21;
+			}
+			{
+				goto IL_00ec_1;
+			}
+
+IL_00b8_1:
+			{
+				NullCheck(G_B7_0);
+				Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_inline(G_B7_0, (bool)1, NULL);
+				goto IL_00ec_1;
+			}
+
+IL_00c0_1:
+			{
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:54>
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_22 = __this->___U3CrequestU3E5__2;
+				NullCheck(L_22);
+				String_t* L_23;
+				L_23 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_22, NULL);
+				String_t* L_24;
+				L_24 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA5C1C9B7F0D25692EC34C537DAE41CD62C1046C8, L_23, NULL);
+				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+				Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_24, NULL);
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:55>
+				Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_25 = __this->___callback;
+				Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_26 = L_25;
+				if (L_26)
+				{
+					G_B10_0 = L_26;
+					goto IL_00e6_1;
+				}
+				G_B9_0 = L_26;
+			}
+			{
+				goto IL_00ec_1;
+			}
+
+IL_00e6_1:
+			{
+				NullCheck(G_B10_0);
+				Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_inline(G_B10_0, (bool)0, NULL);
+			}
+
+IL_00ec_1:
+			{
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:57>
+				U3CCheckServerHealthU3Ed__3_U3CU3Em__Finally1_m3987A00647AA32B5C0D91E9749B3FEFF803B060F(__this, NULL);
+				__this->___U3CrequestU3E5__2 = (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*)NULL;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrequestU3E5__2), (void*)(UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*)NULL);
+				//<source_info:C:/Users/jubay/TouchRealityAR_MetaQuest/Assets/Scripts/ARObjectDetection/DetectionClient.cs:58>
+				V_0 = (bool)0;
+				goto IL_0104;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0104:
+	{
+		bool L_27 = V_0;
+		return L_27;
+	}
+}
+// Method Definition Index: 99051
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckServerHealthU3Ed__3_U3CU3Em__Finally1_m3987A00647AA32B5C0D91E9749B3FEFF803B060F (U3CCheckServerHealthU3Ed__3_t1A3907AF0524D3184C1998CE84DAB36C3C1B90E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___U3CU3E1__state = (-1);
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = __this->___U3CrequestU3E5__2;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_1 = __this->___U3CrequestU3E5__2;
+		NullCheck(L_1);
+		InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_1);
+	}
+
+IL_001a:
+	{
+		return;
+	}
+}
+// Method Definition Index: 99052
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCheckServerHealthU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB1A98C2A952FAF9D9B58F42873B40EE146617CC9 (U3CCheckServerHealthU3Ed__3_t1A3907AF0524D3184C1998CE84DAB36C3C1B90E1* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 99053
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckServerHealthU3Ed__3_System_Collections_IEnumerator_Reset_m5BF7CDFDAD83B4BFF62971886F3CFF2B46AF4096 (U3CCheckServerHealthU3Ed__3_t1A3907AF0524D3184C1998CE84DAB36C3C1B90E1* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCheckServerHealthU3Ed__3_System_Collections_IEnumerator_Reset_m5BF7CDFDAD83B4BFF62971886F3CFF2B46AF4096_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 99054
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCheckServerHealthU3Ed__3_System_Collections_IEnumerator_get_Current_m1F1D4AE3B1351393DE40DBDD35231FB499CAC31E (U3CCheckServerHealthU3Ed__3_t1A3907AF0524D3184C1998CE84DAB36C3C1B90E1* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -28664,6 +29062,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 876
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_gshared_inline (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, bool ___0_obj, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, bool, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
 // Method Definition Index: 876
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
